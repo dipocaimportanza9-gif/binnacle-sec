@@ -1,6 +1,9 @@
 {
  "ticker": "HD",
  "cik": "0000354950",
+ "cik_usati": [
+  "0000354950"
+ ],
  "concetti": {
   "opLiab": {
    "2019": 6000.0,
@@ -198,11 +201,43 @@
   },
   "dCur": {
    "2010": 1020.0,
-   "2011": 1042.0
+   "2011": 1042.0,
+   "2009": 1767.0,
+   "2012": 30.0,
+   "2013": 1321.0,
+   "2014": 33.0,
+   "2015": 38.0,
+   "2016": 77.0,
+   "2017": 542.0,
+   "2018": 1202.0,
+   "2019": 1056.0,
+   "2020": 1839.0,
+   "2021": 1416.0,
+   "2022": 2447.0,
+   "2023": 1231.0,
+   "2024": 1368.0,
+   "2025": 4582.0,
+   "2026": 4967.0
   },
   "dNon": {
    "2010": 8662.0,
-   "2011": 8707.0
+   "2011": 8707.0,
+   "2009": 9667.0,
+   "2012": 10758.0,
+   "2013": 9475.0,
+   "2014": 14691.0,
+   "2015": 16869.0,
+   "2016": 20789.0,
+   "2017": 22349.0,
+   "2018": 24267.0,
+   "2019": 26807.0,
+   "2020": 28670.0,
+   "2021": 35822.0,
+   "2022": 36604.0,
+   "2023": 41962.0,
+   "2024": 42743.0,
+   "2025": 48485.0,
+   "2026": 46341.0
   },
   "dTot": {
    "2010": 9682.0,
@@ -456,11 +491,43 @@
   },
   "dCur": {
    "2010": "LongTermDebtCurrent",
-   "2011": "LongTermDebtCurrent"
+   "2011": "LongTermDebtCurrent",
+   "2009": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2012": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2013": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2014": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2015": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2016": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2017": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2018": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2019": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2020": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2021": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2022": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2023": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2024": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2025": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2026": "LongTermDebtAndCapitalLeaseObligationsCurrent"
   },
   "dNon": {
    "2010": "LongTermDebtNoncurrent",
-   "2011": "LongTermDebtNoncurrent"
+   "2011": "LongTermDebtNoncurrent",
+   "2009": "LongTermDebtAndCapitalLeaseObligations",
+   "2012": "LongTermDebtAndCapitalLeaseObligations",
+   "2013": "LongTermDebtAndCapitalLeaseObligations",
+   "2014": "LongTermDebtAndCapitalLeaseObligations",
+   "2015": "LongTermDebtAndCapitalLeaseObligations",
+   "2016": "LongTermDebtAndCapitalLeaseObligations",
+   "2017": "LongTermDebtAndCapitalLeaseObligations",
+   "2018": "LongTermDebtAndCapitalLeaseObligations",
+   "2019": "LongTermDebtAndCapitalLeaseObligations",
+   "2020": "LongTermDebtAndCapitalLeaseObligations",
+   "2021": "LongTermDebtAndCapitalLeaseObligations",
+   "2022": "LongTermDebtAndCapitalLeaseObligations",
+   "2023": "LongTermDebtAndCapitalLeaseObligations",
+   "2024": "LongTermDebtAndCapitalLeaseObligations",
+   "2025": "LongTermDebtAndCapitalLeaseObligations",
+   "2026": "LongTermDebtAndCapitalLeaseObligations"
   },
   "dTot": {
    "2010": "LongTermDebt",
@@ -558,5 +625,124 @@
    "2021": 8950.0,
    "2020": 7059.0
   }
+ },
+ "avvisi": [],
+ "candidati": {
+  "eqPriv": [
+   {
+    "tag": "ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet",
+    "valori": {
+     "2023": 6942,
+     "2024": 1995,
+     "2025": 10010,
+     "2026": 2161
+    }
+   },
+   {
+    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
+    "valori": {
+     "2023": 2491,
+     "2024": 1271,
+     "2025": 1536,
+     "2026": 5040
+    }
+   },
+   {
+    "tag": "InvestmentIncomeInterestAndDividend",
+    "valori": {
+     "2023": 55,
+     "2024": 178,
+     "2025": 201,
+     "2026": 124
+    }
+   }
+  ],
+  "eqMeth": [
+   {
+    "tag": "ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet",
+    "valori": {
+     "2023": 6942,
+     "2024": 1995,
+     "2025": 10010,
+     "2026": 2161
+    }
+   },
+   {
+    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
+    "valori": {
+     "2023": 2491,
+     "2024": 1271,
+     "2025": 1536,
+     "2026": 5040
+    }
+   },
+   {
+    "tag": "InvestmentIncomeInterestAndDividend",
+    "valori": {
+     "2023": 55,
+     "2024": 178,
+     "2025": 201,
+     "2026": 124
+    }
+   }
+  ],
+  "afsDeb": [
+   {
+    "tag": "ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet",
+    "valori": {
+     "2023": 6942,
+     "2024": 1995,
+     "2025": 10010,
+     "2026": 2161
+    }
+   },
+   {
+    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
+    "valori": {
+     "2023": 2491,
+     "2024": 1271,
+     "2025": 1536,
+     "2026": 5040
+    }
+   },
+   {
+    "tag": "InvestmentIncomeInterestAndDividend",
+    "valori": {
+     "2023": 55,
+     "2024": 178,
+     "2025": 201,
+     "2026": 124
+    }
+   }
+  ],
+  "ltInv": [
+   {
+    "tag": "ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet",
+    "valori": {
+     "2023": 6942,
+     "2024": 1995,
+     "2025": 10010,
+     "2026": 2161
+    }
+   },
+   {
+    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
+    "valori": {
+     "2023": 2491,
+     "2024": 1271,
+     "2025": 1536,
+     "2026": 5040
+    }
+   },
+   {
+    "tag": "InvestmentIncomeInterestAndDividend",
+    "valori": {
+     "2023": 55,
+     "2024": 178,
+     "2025": 201,
+     "2026": 124
+    }
+   }
+  ]
  }
 }

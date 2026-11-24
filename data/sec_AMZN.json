@@ -1,6 +1,9 @@
 {
  "ticker": "AMZN",
  "cik": "0001018724",
+ "cik_usati": [
+  "0001018724"
+ ],
  "concetti": {
   "opLiab": {
    "2019": 25835.0,
@@ -797,5 +800,58 @@
    "2021": 31155.0,
    "2020": 28869.0
   }
+ },
+ "avvisi": [],
+ "candidati": {
+  "ltInv": [
+   {
+    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
+    "valori": {
+     "2023": 70919,
+     "2024": 84362,
+     "2025": 106493
+    }
+   },
+   {
+    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis",
+    "valori": {
+     "2023": 71265,
+     "2024": 84477,
+     "2025": 106460
+    }
+   },
+   {
+    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+    "valori": {
+     "2023": 37557,
+     "2024": 68614,
+     "2025": 97311
+    }
+   },
+   {
+    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue",
+    "valori": {
+     "2023": 65159,
+     "2024": 78046,
+     "2025": 96778
+    }
+   },
+   {
+    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearAmortizedCost",
+    "valori": {
+     "2023": 65224,
+     "2024": 78065,
+     "2025": 96776
+    }
+   },
+   {
+    "tag": "PaymentsToAcquireMarketableSecurities",
+    "valori": {
+     "2023": 1488,
+     "2024": 26005,
+     "2025": 54770
+    }
+   }
+  ]
  }
 }

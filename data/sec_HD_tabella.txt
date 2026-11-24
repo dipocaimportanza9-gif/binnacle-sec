@@ -27,8 +27,8 @@ Impegni: anno 5                                                    561      543 
 Impegni: oltre il quinto anno                                    4,059    3,876    3,727    3,286    3,090        .        .        .        .        .        .
 
 --- DEBITO FINANZIARIO ---
-Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .
-Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: quota corrente                              38       77      542    1,202    1,056    1,839    1,416    2,447    1,231    1,368    4,582
+Debito a lungo termine: non corrente                            16,869   20,789   22,349   24,267   26,807   28,670   35,822   36,604   41,962   42,743   48,485
 Debito a lungo termine: totale                                       .        .        .        .        .   29,500   34,750   36,400   41,150   42,150   51,365
 Debiti finanziari a breve                                          290      350      710    1,559    1,339      974        0    1,035        0        0      316
 
@@ -48,4 +48,18 @@ hd:OperatingLeaseAndFinanceLeaseRightOfUseAssets                     .        . 
 hd:OperatingLeaseandFinanceLeaseLiabilities                          .        .        .        .        .    7,059    8,950    9,419   10,456        .        .
 hd:OperatingLeaseandFinanceLeaseRightofUseAssets                     .        .        .        .        .    6,529    8,455    8,864    9,840        .        .
 
-Tempo: 3 s. File scritto: sec_HD.json
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+eqPriv: ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet {2023: 6942, 2024: 1995, 2025: 10010, 2026: 2161}
+eqPriv: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 2491, 2024: 1271, 2025: 1536, 2026: 5040}
+eqPriv: InvestmentIncomeInterestAndDividend {2023: 55, 2024: 178, 2025: 201, 2026: 124}
+eqMeth: ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet {2023: 6942, 2024: 1995, 2025: 10010, 2026: 2161}
+eqMeth: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 2491, 2024: 1271, 2025: 1536, 2026: 5040}
+eqMeth: InvestmentIncomeInterestAndDividend {2023: 55, 2024: 178, 2025: 201, 2026: 124}
+afsDeb: ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet {2023: 6942, 2024: 1995, 2025: 10010, 2026: 2161}
+afsDeb: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 2491, 2024: 1271, 2025: 1536, 2026: 5040}
+afsDeb: InvestmentIncomeInterestAndDividend {2023: 55, 2024: 178, 2025: 201, 2026: 124}
+ltInv: ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet {2023: 6942, 2024: 1995, 2025: 10010, 2026: 2161}
+ltInv: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 2491, 2024: 1271, 2025: 1536, 2026: 5040}
+ltInv: InvestmentIncomeInterestAndDividend {2023: 55, 2024: 178, 2025: 201, 2026: 124}
+
+Tempo: 2 s. File scritto: sec_HD.json

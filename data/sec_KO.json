@@ -1,6 +1,9 @@
 {
  "ticker": "KO",
  "cik": "0000021344",
+ "cik_usati": [
+  "0000021344"
+ ],
  "concetti": {
   "opLiab": {
    "2019": 1392.0,
@@ -139,7 +142,9 @@
    "2020": 485.0,
    "2021": 1338.0,
    "2022": 399.0,
-   "2023": 1960.0
+   "2023": 1960.0,
+   "2024": 648.0,
+   "2025": 1822.0
   },
   "dNon": {
    "2008": 2781.0,
@@ -157,7 +162,9 @@
    "2020": 40125.0,
    "2021": 38116.0,
    "2022": 36377.0,
-   "2023": 35547.0
+   "2023": 35547.0,
+   "2024": 42375.0,
+   "2025": 42119.0
   },
   "dTot": {
    "2009": 5110.0,
@@ -174,7 +181,9 @@
    "2020": 40610.0,
    "2021": 39454.0,
    "2022": 36776.0,
-   "2023": 37507.0
+   "2023": 37507.0,
+   "2024": 43023.0,
+   "2025": 43941.0
   },
   "dBrev": {
    "2019": 10994.0,
@@ -392,7 +401,9 @@
    "2020": "LongTermDebtCurrent",
    "2021": "LongTermDebtCurrent",
    "2022": "LongTermDebtCurrent",
-   "2023": "LongTermDebtCurrent"
+   "2023": "LongTermDebtCurrent",
+   "2024": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2025": "LongTermDebtAndCapitalLeaseObligationsCurrent"
   },
   "dNon": {
    "2008": "LongTermDebtNoncurrent",
@@ -410,7 +421,9 @@
    "2020": "LongTermDebtNoncurrent",
    "2021": "LongTermDebtNoncurrent",
    "2022": "LongTermDebtNoncurrent",
-   "2023": "LongTermDebtNoncurrent"
+   "2023": "LongTermDebtNoncurrent",
+   "2024": "LongTermDebtAndCapitalLeaseObligations",
+   "2025": "LongTermDebtAndCapitalLeaseObligations"
   },
   "dTot": {
    "2009": "LongTermDebt",
@@ -427,7 +440,9 @@
    "2020": "LongTermDebt",
    "2021": "LongTermDebt",
    "2022": "LongTermDebt",
-   "2023": "LongTermDebt"
+   "2023": "LongTermDebt",
+   "2024": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+   "2025": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities"
   },
   "dBrev": {
    "2019": "ShortTermBorrowings",
@@ -564,5 +579,107 @@
   "ko:EquityMethodInvestmentDifferenceBetweenQuotedMarketValueAndCarryingValue": {
    "2020": 10525.0
   }
+ },
+ "avvisi": [],
+ "candidati": {
+  "finLiab": [
+   {
+    "tag": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+    "valori": {
+     "2023": 37507,
+     "2024": 43023,
+     "2025": 43941
+    }
+   },
+   {
+    "tag": "LongTermDebtAndCapitalLeaseObligations",
+    "valori": {
+     "2023": 35547,
+     "2024": 42375,
+     "2025": 42119
+    }
+   },
+   {
+    "tag": "RepaymentsOfDebtAndCapitalLeaseObligations",
+    "valori": {
+     "2023": 5034,
+     "2024": 9533,
+     "2025": 4967
+    }
+   },
+   {
+    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
+    "valori": {
+     "2023": 1522,
+     "2024": 1378,
+     "2025": 2019
+    }
+   },
+   {
+    "tag": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+    "valori": {
+     "2023": 1960,
+     "2024": 648,
+     "2025": 1822
+    }
+   },
+   {
+    "tag": "OperatingLeaseLiability",
+    "valori": {
+     "2023": 1362,
+     "2024": 1213,
+     "2025": 1722
+    }
+   }
+  ],
+  "ltInv": [
+   {
+    "tag": "EquityMethodInvestmentQuotedMarketValue",
+    "valori": {
+     "2024": 28740,
+     "2025": 34286
+    }
+   },
+   {
+    "tag": "EquityMethodInvestments",
+    "valori": {
+     "2023": 19671,
+     "2024": 18087,
+     "2025": 20235
+    }
+   },
+   {
+    "tag": "CashCashEquivalentsAndShortTermInvestments",
+    "valori": {
+     "2023": 12363,
+     "2024": 12848,
+     "2025": 13872
+    }
+   },
+   {
+    "tag": "RetainedEarningsUndistributedEarningsFromEquityMethodInvestees",
+    "valori": {
+     "2023": 8005,
+     "2024": 8594,
+     "2025": 9067
+    }
+   },
+   {
+    "tag": "EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity",
+    "valori": {
+     "2023": 8634,
+     "2024": 7791,
+     "2025": 8744
+    }
+   },
+   {
+    "tag": "OtherShortTermInvestments",
+    "valori": {
+     "2023": 2997,
+     "2024": 2020,
+     "2025": 3602
+    }
+   }
+  ]
  }
 }

@@ -27,9 +27,9 @@ Impegni: anno 5                                                     59       54 
 Impegni: oltre il quinto anno                                      220      213      147      100        .        .        .        .        .        .        .
 
 --- DEBITO FINANZIARIO ---
-Debito a lungo termine: quota corrente                           2,676    3,527    3,298    5,003    4,253      485    1,338      399    1,960        .        .
-Debito a lungo termine: non corrente                            28,311   29,684   31,182   25,376   27,516   40,125   38,116   36,377   35,547        .        .
-Debito a lungo termine: totale                                  30,987   33,211   34,480   30,379   31,769   40,610   39,454   36,776   37,507        .        .
+Debito a lungo termine: quota corrente                           2,676    3,527    3,298    5,003    4,253      485    1,338      399    1,960      648    1,822
+Debito a lungo termine: non corrente                            28,311   29,684   31,182   25,376   27,516   40,125   38,116   36,377   35,547   42,375   42,119
+Debito a lungo termine: totale                                  30,987   33,211   34,480   30,379   31,769   40,610   39,454   36,776   37,507   43,023   43,941
 Debiti finanziari a breve                                       13,035   12,330   12,931   13,063   10,994    2,183    3,307    2,373    4,209    1,139    1,495
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
@@ -54,4 +54,18 @@ ko:EquityMethodInvestmentsofPubliclyTradedShares                     .        . 
 ko:IncreaseDecreaseinCarryingValueofLongtermDebtInterestRateFa       .        .        .        .      453      646      483   -1,469     -972     -785     -618
 ko:SegmentReportingInformationInvestmentsIncludingEquityMethod       .        .        .        .   19,879   20,085   18,416   18,765   19,789        .        .
 
-Tempo: 6 s. File scritto: sec_KO.json
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 37507, 2024: 43023, 2025: 43941}
+finLiab: LongTermDebtAndCapitalLeaseObligations {2023: 35547, 2024: 42375, 2025: 42119}
+finLiab: RepaymentsOfDebtAndCapitalLeaseObligations {2023: 5034, 2024: 9533, 2025: 4967}
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 1522, 2024: 1378, 2025: 2019}
+finLiab: LongTermDebtAndCapitalLeaseObligationsCurrent {2023: 1960, 2024: 648, 2025: 1822}
+finLiab: OperatingLeaseLiability {2023: 1362, 2024: 1213, 2025: 1722}
+ltInv: EquityMethodInvestmentQuotedMarketValue {2024: 28740, 2025: 34286}
+ltInv: EquityMethodInvestments {2023: 19671, 2024: 18087, 2025: 20235}
+ltInv: CashCashEquivalentsAndShortTermInvestments {2023: 12363, 2024: 12848, 2025: 13872}
+ltInv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 8005, 2024: 8594, 2025: 9067}
+ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 8634, 2024: 7791, 2025: 8744}
+ltInv: OtherShortTermInvestments {2023: 2997, 2024: 2020, 2025: 3602}
+
+Tempo: 4 s. File scritto: sec_KO.json
