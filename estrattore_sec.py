@@ -43,6 +43,7 @@ CAT = [
  ("dCur",     "Debito a lungo termine: quota corrente",         ["LongTermDebtCurrent", "DebtCurrent", "LongTermDebtAndCapitalLeaseObligationsCurrent", "LongTermDebtAndFinanceLeaseObligationsCurrent"]),
  ("dNon",     "Debito a lungo termine: non corrente",           ["LongTermDebtNoncurrent", "LongTermDebtAndCapitalLeaseObligations", "LongTermDebtAndFinanceLeaseObligationsNoncurrent", "LongTermNotesPayable"]),
  ("dTot",     "Debito a lungo termine: totale",                 ["LongTermDebt", "DebtLongtermAndShorttermCombinedAmount", "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities"]),
+ ("dCurTot",  "Debito corrente totale (con debiti a breve)",    ["DebtCurrent"]),
  ("dBrev",    "Debiti finanziari a breve",                      ["ShortTermBorrowings", "CommercialPaper", "LoansPayableCurrent", "NotesPayableCurrent", "OtherShortTermBorrowings"]),
  ("inv", "INVESTIMENTI NON OPERATIVI e OCI"),
  ("eqPriv",   "Equity in societa' non quotate (valore contabile)", ["EquitySecuritiesWithoutReadilyDeterminableFairValueAmount"]),
@@ -74,6 +75,25 @@ def annuali(o):
         if y not in best or x["filed"] > best[y]["filed"]: best[y] = x
     return {int(y): v["val"] for y, v in best.items()}
 
+
+def deriva(res):
+    """regole generali: totale = quota corrente + non corrente; debiti a breve = debito corrente totale - quota corrente a lungo; leasing dentro il tag del debito"""
+    c, tu = res["concetti"], res["tag_usato"]
+    tot, brev, lsd = {}, {}, {}
+    for y in sorted(set(c.get("dCur", {})) | set(c.get("dNon", {}))):
+        if c.get("dTot", {}).get(y) is None and y in c.get("dCur", {}) and y in c.get("dNon", {}):
+            tot[y] = round(c["dCur"][y] + c["dNon"][y], 1)
+    for y, v in c.get("dCurTot", {}).items():
+        if c.get("dBrev", {}).get(y) is None and y in c.get("dCur", {}) and tu.get("dCur", {}).get(y) != "DebtCurrent":
+            d = round(v - c["dCur"][y], 1)
+            if d > 0: brev[y] = d
+    for k in ("dCur", "dNon", "dTot"):
+        for y, tg in tu.get(k, {}).items():
+            if re.search(r"CapitalLease|FinanceLease", tg): lsd[y] = lsd.get(y, "") + (k + " ")
+    res["derivati"] = {"dTotCalc": tot, "dBrevDer": brev, "leasing_nel_tag_debito": {y: v.strip() for y, v in lsd.items()}}
+    if lsd:
+        res["avvisi"].append("Il tag del debito include i leasing finanziari negli anni %s-%s: non sommarli di nuovo" % (min(lsd), max(lsd)))
+    return res
 
 FAM = {"d": re.compile(r"Debt|Borrowing|NotesPayable|LoansPayable|CommercialPaper", re.I),
        "l": re.compile(r"Lease", re.I),
@@ -157,6 +177,10 @@ def main(TK):
         if k in ("dCur", "dNon", "dTot", "dBrev", "opLiab", "finLiab", "eqMeth", "ltInv", "afsDeb", "eqPriv") and (not val or max(val) < 2025):
             c = candidati(gaap, k, set(tags))
             if c: res["candidati"][k] = c
+    deriva(res)
+    righe.append(("§", "DERIVATI (regole generali)"))
+    righe.append(("Debito totale = quota corrente + non corrente (se manca il totale)", res["derivati"]["dTotCalc"]))
+    righe.append(("Debiti a breve = debito corrente totale - quota corrente LT", res["derivati"]["dBrevDer"]))
     # tag propri: ultimi 10-K in iXBRL
     ks = []
     for c in ciks:
