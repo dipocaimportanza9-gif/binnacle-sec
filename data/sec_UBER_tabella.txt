@@ -62,7 +62,6 @@ Beni acquisiti con capital lease (non cash): ultimo anno 2023 (mancano anni rece
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 ltInv: RestrictedInvestments {2023: 4779, 2024: 7019, 2025: 8874}
-ltInv: MarketableSecuritiesCurrent {2023: 727, 2024: 1084, 2025: 528}
 ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2023: 0, 2024: 0}
 
 Tempo: 4 s. File scritto: sec_UBER.json

@@ -82,18 +82,18 @@ eqMeth: SecuritiesBorrowed {2023: 200436, 2024: 219546, 2025: 286191}
 eqMeth: SecuritiesLoanedGrossIncludingNotSubjectToMasterNettingArrangement {2023: 52142, 2024: 58989, 2025: 86829}
 eqMeth: SecuritiesLoanedAsset {2023: 43610, 2024: 48371, 2025: 71170}
 eqMeth: SecuritiesBorrowedLiability {2023: 43610, 2024: 48371, 2025: 71170}
-eqMeth: IncreaseDecreaseInCashCollateralForBorrowedSecurities {2023: 14902, 2024: 18762, 2025: 66648}
+eqMeth: SecuritiesBorrowedNotSubjectToMasterNettingArrangementDeduction {2023: 50700}
 afsDeb: SecuritiesBorrowedGrossIncludingNotSubjectToMasterNettingArrangement {2023: 244046, 2024: 267917, 2025: 357361}
 afsDeb: SecuritiesBorrowed {2023: 200436, 2024: 219546, 2025: 286191}
 afsDeb: SecuritiesLoanedGrossIncludingNotSubjectToMasterNettingArrangement {2023: 52142, 2024: 58989, 2025: 86829}
 afsDeb: SecuritiesLoanedAsset {2023: 43610, 2024: 48371, 2025: 71170}
 afsDeb: SecuritiesBorrowedLiability {2023: 43610, 2024: 48371, 2025: 71170}
-afsDeb: IncreaseDecreaseInCashCollateralForBorrowedSecurities {2023: 14902, 2024: 18762, 2025: 66648}
+afsDeb: SecuritiesBorrowedNotSubjectToMasterNettingArrangementDeduction {2023: 50700}
 ltInv: SecuritiesBorrowedGrossIncludingNotSubjectToMasterNettingArrangement {2023: 244046, 2024: 267917, 2025: 357361}
 ltInv: SecuritiesBorrowed {2023: 200436, 2024: 219546, 2025: 286191}
 ltInv: SecuritiesLoanedGrossIncludingNotSubjectToMasterNettingArrangement {2023: 52142, 2024: 58989, 2025: 86829}
 ltInv: SecuritiesLoanedAsset {2023: 43610, 2024: 48371, 2025: 71170}
 ltInv: SecuritiesBorrowedLiability {2023: 43610, 2024: 48371, 2025: 71170}
-ltInv: IncreaseDecreaseInCashCollateralForBorrowedSecurities {2023: 14902, 2024: 18762, 2025: 66648}
+ltInv: SecuritiesBorrowedNotSubjectToMasterNettingArrangementDeduction {2023: 50700}
 
 Tempo: 1 s. File scritto: sec_JPM.json

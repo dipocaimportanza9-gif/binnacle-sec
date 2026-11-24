@@ -619,22 +619,6 @@
   ],
   "eqMeth": [
    {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 9907,
-     "2024": 18704,
-     "2025": 34621
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFVNINoncurrent",
-    "valori": {
-     "2024": 1321,
-     "2025": 3387,
-     "2026": 22251
-    }
-   },
-   {
     "tag": "MarketableSecurities",
     "valori": {
      "2023": 9907,
@@ -643,22 +627,6 @@
    }
   ],
   "ltInv": [
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 9907,
-     "2024": 18704,
-     "2025": 34621
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFVNINoncurrent",
-    "valori": {
-     "2024": 1321,
-     "2025": 3387,
-     "2026": 22251
-    }
-   },
    {
     "tag": "MarketableSecurities",
     "valori": {

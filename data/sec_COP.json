@@ -700,14 +700,6 @@
     }
    },
    {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 971,
-     "2024": 507,
-     "2025": 484
-    }
-   },
-   {
     "tag": "RetainedEarningsUndistributedEarningsFromEquityMethodInvestees",
     "valori": {
      "2023": 60,

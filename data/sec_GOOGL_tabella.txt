@@ -59,10 +59,4 @@ Partecipazioni a patrimonio netto (equity method): ultimo anno 2024 (mancano ann
 Il tag del debito include i leasing finanziari negli anni 2020-2022: non sommarli di nuovo
 2023: l'OCI sale di 3201 ma gli investimenti letti salgono di -4222: controllare il filing (investimenti non letti?)
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-eqMeth: CashCashEquivalentsAndShortTermInvestments {2023: 110916, 2024: 95657, 2025: 126843}
-eqMeth: MarketableSecuritiesCurrent {2023: 86868, 2024: 72191, 2025: 96135}
-ltInv: CashCashEquivalentsAndShortTermInvestments {2023: 110916, 2024: 95657, 2025: 126843}
-ltInv: MarketableSecuritiesCurrent {2023: 86868, 2024: 72191, 2025: 96135}
-
-Tempo: 2 s. File scritto: sec_GOOGL.json
+Tempo: 1 s. File scritto: sec_GOOGL.json

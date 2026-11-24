@@ -56,13 +56,9 @@ Debito a lungo termine: quota corrente: ultimo anno 2023 (mancano anni recenti)
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dCur: DebtConversionConvertedInstrumentAmount1 {2023: 0, 2024: 1133, 2025: 0}
 dBrev: DebtConversionConvertedInstrumentAmount1 {2023: 0, 2024: 1133, 2025: 0}
-eqPriv: ShortTermInvestments {2023: 1511, 2024: 2406, 2025: 2503}
 eqPriv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2024: 1133}
-eqMeth: ShortTermInvestments {2023: 1511, 2024: 2406, 2025: 2503}
 eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2024: 1133}
-afsDeb: ShortTermInvestments {2023: 1511, 2024: 2406, 2025: 2503}
 afsDeb: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2024: 1133}
-ltInv: ShortTermInvestments {2023: 1511, 2024: 2406, 2025: 2503}
 ltInv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2024: 1133}
 
-Tempo: 3 s. File scritto: sec_RIVN.json
+Tempo: 4 s. File scritto: sec_RIVN.json

@@ -61,11 +61,7 @@ Titoli di mercato non correnti: ultimo anno 2024 (mancano anni recenti)
 finLiab: OperatingLeaseRightOfUseAsset {2023: 1038, 2024: 1346, 2025: 1793, 2026: 2867}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 358, 2024: 531, 2025: 877, 2026: 1439}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 153, 2024: 192, 2025: 279, 2026: 680}
-eqMeth: MarketableSecuritiesCurrent {2023: 9907, 2024: 18704, 2025: 34621}
-eqMeth: EquitySecuritiesFVNINoncurrent {2024: 1321, 2025: 3387, 2026: 22251}
 eqMeth: MarketableSecurities {2023: 9907, 2024: 18704}
-ltInv: MarketableSecuritiesCurrent {2023: 9907, 2024: 18704, 2025: 34621}
-ltInv: EquitySecuritiesFVNINoncurrent {2024: 1321, 2025: 3387, 2026: 22251}
 ltInv: MarketableSecurities {2023: 9907, 2024: 18704}
 
 Tempo: 3 s. File scritto: sec_NVDA.json

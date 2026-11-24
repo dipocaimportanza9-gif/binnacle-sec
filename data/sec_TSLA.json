@@ -610,14 +610,6 @@
  "candidati": {
   "eqPriv": [
    {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 12696,
-     "2024": 20424,
-     "2025": 27546
-    }
-   },
-   {
     "tag": "DilutiveSecuritiesEffectOnBasicEarningsPerShareOther",
     "valori": {
      "2023": 0,
@@ -626,14 +618,6 @@
    }
   ],
   "eqMeth": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 12696,
-     "2024": 20424,
-     "2025": 27546
-    }
-   },
    {
     "tag": "DilutiveSecuritiesEffectOnBasicEarningsPerShareOther",
     "valori": {
@@ -644,14 +628,6 @@
   ],
   "afsDeb": [
    {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 12696,
-     "2024": 20424,
-     "2025": 27546
-    }
-   },
-   {
     "tag": "DilutiveSecuritiesEffectOnBasicEarningsPerShareOther",
     "valori": {
      "2023": 0,
@@ -660,14 +636,6 @@
    }
   ],
   "ltInv": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 12696,
-     "2024": 20424,
-     "2025": 27546
-    }
-   },
    {
     "tag": "DilutiveSecuritiesEffectOnBasicEarningsPerShareOther",
     "valori": {

@@ -61,9 +61,7 @@ f:WholesaleLoansPercentageOfDealerFinancing                          .        . 
 2025: l'OCI sale di 1929 ma gli investimenti letti salgono di -3793: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-afsDeb: MarketableSecuritiesCurrent {2023: 15309, 2024: 15413, 2025: 15131}
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
-ltInv: MarketableSecuritiesCurrent {2023: 15309, 2024: 15413, 2025: 15131}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
 
-Tempo: 7 s. File scritto: sec_F.json
+Tempo: 4 s. File scritto: sec_F.json

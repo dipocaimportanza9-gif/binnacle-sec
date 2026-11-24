@@ -50,4 +50,4 @@ crm:DeferredTaxAssetsLeaseLiabilities                                .        . 
 crm:LesseeOperatingLeaseCommitmentincludingLeaseNotyetCommence       .        .        .        .        .        .        .        .        .    4,700    4,000    4,400
 crm:LessorOperatingLeasePaymentsToBeReceivedNextFiveYears            .        .        .        .        .        .        .        .        .      275      303      258
 
-Tempo: 2 s. File scritto: sec_CRM.json
+Tempo: 1 s. File scritto: sec_CRM.json

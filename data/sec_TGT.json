@@ -693,86 +693,6 @@
      "2024": 1
     }
    }
-  ],
-  "eqPriv": [
-   {
-    "tag": "CashCashEquivalentsAndShortTermInvestments",
-    "valori": {
-     "2023": 2229,
-     "2024": 3805,
-     "2025": 4762,
-     "2026": 5488
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1343,
-     "2024": 2897,
-     "2025": 3893,
-     "2026": 4611
-    }
-   }
-  ],
-  "eqMeth": [
-   {
-    "tag": "CashCashEquivalentsAndShortTermInvestments",
-    "valori": {
-     "2023": 2229,
-     "2024": 3805,
-     "2025": 4762,
-     "2026": 5488
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1343,
-     "2024": 2897,
-     "2025": 3893,
-     "2026": 4611
-    }
-   }
-  ],
-  "afsDeb": [
-   {
-    "tag": "CashCashEquivalentsAndShortTermInvestments",
-    "valori": {
-     "2023": 2229,
-     "2024": 3805,
-     "2025": 4762,
-     "2026": 5488
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1343,
-     "2024": 2897,
-     "2025": 3893,
-     "2026": 4611
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "CashCashEquivalentsAndShortTermInvestments",
-    "valori": {
-     "2023": 2229,
-     "2024": 3805,
-     "2025": 4762,
-     "2026": 5488
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1343,
-     "2024": 2897,
-     "2025": 3893,
-     "2026": 4611
-    }
-   }
   ]
  },
  "fine_anno": {
@@ -793,9 +713,7 @@
   "2014": "2014-02-01",
   "2015": "2015-01-31",
   "2016": "2016-01-30",
-  "2009": "2009-01-31",
-  "2007": "2007-02-03",
-  "2008": "2008-02-02"
+  "2009": "2009-01-31"
  },
  "derivati": {
   "dTotCalc": {},

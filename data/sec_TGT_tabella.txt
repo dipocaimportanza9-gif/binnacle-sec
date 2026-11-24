@@ -66,13 +66,5 @@ Il tag del debito include i leasing finanziari negli anni 2014-2026: non sommarl
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dBrev: ShorttermDebtAverageOutstandingAmount {2023: 709, 2024: 1}
-eqPriv: CashCashEquivalentsAndShortTermInvestments {2023: 2229, 2024: 3805, 2025: 4762, 2026: 5488}
-eqPriv: ShortTermInvestments {2023: 1343, 2024: 2897, 2025: 3893, 2026: 4611}
-eqMeth: CashCashEquivalentsAndShortTermInvestments {2023: 2229, 2024: 3805, 2025: 4762, 2026: 5488}
-eqMeth: ShortTermInvestments {2023: 1343, 2024: 2897, 2025: 3893, 2026: 4611}
-afsDeb: CashCashEquivalentsAndShortTermInvestments {2023: 2229, 2024: 3805, 2025: 4762, 2026: 5488}
-afsDeb: ShortTermInvestments {2023: 1343, 2024: 2897, 2025: 3893, 2026: 4611}
-ltInv: CashCashEquivalentsAndShortTermInvestments {2023: 2229, 2024: 3805, 2025: 4762, 2026: 5488}
-ltInv: ShortTermInvestments {2023: 1343, 2024: 2897, 2025: 3893, 2026: 4611}
 
-Tempo: 4 s. File scritto: sec_TGT.json
+Tempo: 3 s. File scritto: sec_TGT.json

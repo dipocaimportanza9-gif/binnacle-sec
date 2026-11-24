@@ -62,27 +62,27 @@ dCur: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
 dNon: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
 eqPriv: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
 eqPriv: IncreaseDecreaseInTradingSecurities {2023: -11766, 2024: 25294, 2025: 52956}
-eqPriv: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 19841}
 eqPriv: NetInvestmentInLease {2023: 16423, 2024: 16413, 2025: 15543}
 eqPriv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 5554, 2024: 7247, 2025: 7558}
 eqPriv: DerivativeCollateralObligationToReturnSecurities {2023: 2587, 2024: 4024, 2025: 4906}
+eqPriv: DerivativeCollateralRightToReclaimSecurities {2023: 4388, 2024: 2853, 2025: 3091}
 eqMeth: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
 eqMeth: IncreaseDecreaseInTradingSecurities {2023: -11766, 2024: 25294, 2025: 52956}
-eqMeth: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 19841}
 eqMeth: NetInvestmentInLease {2023: 16423, 2024: 16413, 2025: 15543}
 eqMeth: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 5554, 2024: 7247, 2025: 7558}
 eqMeth: DerivativeCollateralObligationToReturnSecurities {2023: 2587, 2024: 4024, 2025: 4906}
+eqMeth: DerivativeCollateralRightToReclaimSecurities {2023: 4388, 2024: 2853, 2025: 3091}
 afsDeb: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
 afsDeb: IncreaseDecreaseInTradingSecurities {2023: -11766, 2024: 25294, 2025: 52956}
-afsDeb: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 19841}
 afsDeb: NetInvestmentInLease {2023: 16423, 2024: 16413, 2025: 15543}
 afsDeb: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 5554, 2024: 7247, 2025: 7558}
 afsDeb: DerivativeCollateralObligationToReturnSecurities {2023: 2587, 2024: 4024, 2025: 4906}
+afsDeb: DerivativeCollateralRightToReclaimSecurities {2023: 4388, 2024: 2853, 2025: 3091}
 ltInv: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
 ltInv: IncreaseDecreaseInTradingSecurities {2023: -11766, 2024: 25294, 2025: 52956}
-ltInv: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 19841}
 ltInv: NetInvestmentInLease {2023: 16423, 2024: 16413, 2025: 15543}
 ltInv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 5554, 2024: 7247, 2025: 7558}
 ltInv: DerivativeCollateralObligationToReturnSecurities {2023: 2587, 2024: 4024, 2025: 4906}
+ltInv: DerivativeCollateralRightToReclaimSecurities {2023: 4388, 2024: 2853, 2025: 3091}
 
-Tempo: 2 s. File scritto: sec_WFC.json
+Tempo: 1 s. File scritto: sec_WFC.json

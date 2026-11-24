@@ -559,12 +559,6 @@
     }
    },
    {
-    "tag": "EquitySecuritiesFvNiCurrentAndNoncurrent",
-    "valori": {
-     "2023": 19841
-    }
-   },
-   {
     "tag": "NetInvestmentInLease",
     "valori": {
      "2023": 16423,
@@ -586,6 +580,14 @@
      "2023": 2587,
      "2024": 4024,
      "2025": 4906
+    }
+   },
+   {
+    "tag": "DerivativeCollateralRightToReclaimSecurities",
+    "valori": {
+     "2023": 4388,
+     "2024": 2853,
+     "2025": 3091
     }
    }
   ],
@@ -606,12 +608,6 @@
     }
    },
    {
-    "tag": "EquitySecuritiesFvNiCurrentAndNoncurrent",
-    "valori": {
-     "2023": 19841
-    }
-   },
-   {
     "tag": "NetInvestmentInLease",
     "valori": {
      "2023": 16423,
@@ -633,6 +629,14 @@
      "2023": 2587,
      "2024": 4024,
      "2025": 4906
+    }
+   },
+   {
+    "tag": "DerivativeCollateralRightToReclaimSecurities",
+    "valori": {
+     "2023": 4388,
+     "2024": 2853,
+     "2025": 3091
     }
    }
   ],
@@ -653,12 +657,6 @@
     }
    },
    {
-    "tag": "EquitySecuritiesFvNiCurrentAndNoncurrent",
-    "valori": {
-     "2023": 19841
-    }
-   },
-   {
     "tag": "NetInvestmentInLease",
     "valori": {
      "2023": 16423,
@@ -680,6 +678,14 @@
      "2023": 2587,
      "2024": 4024,
      "2025": 4906
+    }
+   },
+   {
+    "tag": "DerivativeCollateralRightToReclaimSecurities",
+    "valori": {
+     "2023": 4388,
+     "2024": 2853,
+     "2025": 3091
     }
    }
   ],
@@ -700,12 +706,6 @@
     }
    },
    {
-    "tag": "EquitySecuritiesFvNiCurrentAndNoncurrent",
-    "valori": {
-     "2023": 19841
-    }
-   },
-   {
     "tag": "NetInvestmentInLease",
     "valori": {
      "2023": 16423,
@@ -727,6 +727,14 @@
      "2023": 2587,
      "2024": 4024,
      "2025": 4906
+    }
+   },
+   {
+    "tag": "DerivativeCollateralRightToReclaimSecurities",
+    "valori": {
+     "2023": 4388,
+     "2024": 2853,
+     "2025": 3091
     }
    }
   ]

@@ -69,22 +69,22 @@ dNon: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
 dBrev: FederalHomeLoanBankAdvancesGeneralDebtObligationsDisclosuresCollateralPledged1 {2023: 8700}
 dBrev: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
 eqPriv: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCarryingAmount {2023: 323183, 2024: 93663, 2025: 93004}
-eqPriv: OtherShortTermInvestments {2023: 12865, 2024: 14462, 2025: 11141}
 eqPriv: OtherInvestments {2023: 6368, 2024: 9828, 2025: 6696}
 eqPriv: AlternativeInvestment {2023: 4345, 2024: 4032, 2025: 3456}
 eqPriv: SecuritiesReceivedAsCollateral {2023: 1200, 2024: 2900, 2025: 3600}
 eqPriv: RealEstateInvestmentPropertyNet {2023: 2237}
+eqPriv: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
 eqMeth: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCarryingAmount {2023: 323183, 2024: 93663, 2025: 93004}
-eqMeth: OtherShortTermInvestments {2023: 12865, 2024: 14462, 2025: 11141}
 eqMeth: OtherInvestments {2023: 6368, 2024: 9828, 2025: 6696}
 eqMeth: AlternativeInvestment {2023: 4345, 2024: 4032, 2025: 3456}
 eqMeth: SecuritiesReceivedAsCollateral {2023: 1200, 2024: 2900, 2025: 3600}
 eqMeth: RealEstateInvestmentPropertyNet {2023: 2237}
+eqMeth: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
 afsDeb: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCarryingAmount {2023: 323183, 2024: 93663, 2025: 93004}
-afsDeb: OtherShortTermInvestments {2023: 12865, 2024: 14462, 2025: 11141}
 afsDeb: OtherInvestments {2023: 6368, 2024: 9828, 2025: 6696}
 afsDeb: AlternativeInvestment {2023: 4345, 2024: 4032, 2025: 3456}
 afsDeb: SecuritiesReceivedAsCollateral {2023: 1200, 2024: 2900, 2025: 3600}
 afsDeb: RealEstateInvestmentPropertyNet {2023: 2237}
+afsDeb: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
 
-Tempo: 12 s. File scritto: sec_AIG.json
+Tempo: 7 s. File scritto: sec_AIG.json

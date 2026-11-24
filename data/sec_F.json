@@ -505,14 +505,6 @@
  "candidati": {
   "afsDeb": [
    {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 15309,
-     "2024": 15413,
-     "2025": 15131
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {
      "2023": 381,
@@ -522,14 +514,6 @@
    }
   ],
   "ltInv": [
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 15309,
-     "2024": 15413,
-     "2025": 15131
-    }
-   },
    {
     "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {

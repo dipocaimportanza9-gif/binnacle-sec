@@ -65,7 +65,5 @@ pltr:OperatingLeasePaymentsToBeReceived                              .        . 
 finLiab: OperatingLeaseRightOfUseAsset {2023: 183, 2024: 201, 2025: 200}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 47, 2024: 69, 2025: 63}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 28, 2024: 58, 2025: 38}
-eqMeth: MarketableSecuritiesCurrent {2023: 2843, 2024: 3131, 2025: 5753}
-ltInv: MarketableSecuritiesCurrent {2023: 2843, 2024: 3131, 2025: 5753}
 
-Tempo: 4 s. File scritto: sec_PLTR.json
+Tempo: 3 s. File scritto: sec_PLTR.json

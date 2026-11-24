@@ -525,24 +525,9 @@
     }
    },
    {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 292,
-     "2024": 761,
-     "2025": 371
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity",
     "valori": {
      "2023": 520
-    }
-   },
-   {
-    "tag": "CashCollateralForBorrowedSecurities",
-    "valori": {
-     "2024": 447,
-     "2025": 430
     }
    },
    {
@@ -564,24 +549,9 @@
     }
    },
    {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 292,
-     "2024": 761,
-     "2025": 371
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity",
     "valori": {
      "2023": 520
-    }
-   },
-   {
-    "tag": "CashCollateralForBorrowedSecurities",
-    "valori": {
-     "2024": 447,
-     "2025": 430
     }
    },
    {
@@ -603,24 +573,9 @@
     }
    },
    {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 292,
-     "2024": 761,
-     "2025": 371
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity",
     "valori": {
      "2023": 520
-    }
-   },
-   {
-    "tag": "CashCollateralForBorrowedSecurities",
-    "valori": {
-     "2024": 447,
-     "2025": 430
     }
    },
    {

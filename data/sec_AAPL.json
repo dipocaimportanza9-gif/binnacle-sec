@@ -694,52 +694,7 @@
   "2024: l'OCI sale di 4280 ma gli investimenti letti salgono di -9065: controllare il filing (investimenti non letti?)",
   "2025: l'OCI sale di 1601 ma gli investimenti letti salgono di -13756: controllare il filing (investimenti non letti?)"
  ],
- "candidati": {
-  "eqPriv": [
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 31590,
-     "2024": 35228,
-     "2025": 18763,
-     "2026": 20417
-    }
-   }
-  ],
-  "eqMeth": [
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 31590,
-     "2024": 35228,
-     "2025": 18763,
-     "2026": 20417
-    }
-   }
-  ],
-  "afsDeb": [
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 31590,
-     "2024": 35228,
-     "2025": 18763,
-     "2026": 20417
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 31590,
-     "2024": 35228,
-     "2025": 18763,
-     "2026": 20417
-    }
-   }
-  ]
- },
+ "candidati": {},
  "fine_anno": {
   "2020": "2020-09-26",
   "2021": "2021-09-25",

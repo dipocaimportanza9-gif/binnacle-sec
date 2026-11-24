@@ -372,20 +372,6 @@
   ],
   "eqPriv": [
    {
-    "tag": "CashCashEquivalentsAndShortTermInvestments",
-    "valori": {
-     "2023": 7139
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 21,
-     "2024": 1779,
-     "2025": 29
-    }
-   },
-   {
     "tag": "DerivativeCollateralRightToReclaimSecurities",
     "valori": {
      "2023": 27,
@@ -404,20 +390,6 @@
   ],
   "eqMeth": [
    {
-    "tag": "CashCashEquivalentsAndShortTermInvestments",
-    "valori": {
-     "2023": 7139
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 21,
-     "2024": 1779,
-     "2025": 29
-    }
-   },
-   {
     "tag": "DerivativeCollateralRightToReclaimSecurities",
     "valori": {
      "2023": 27,
@@ -435,20 +407,6 @@
    }
   ],
   "ltInv": [
-   {
-    "tag": "CashCashEquivalentsAndShortTermInvestments",
-    "valori": {
-     "2023": 7139
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 21,
-     "2024": 1779,
-     "2025": 29
-    }
-   },
    {
     "tag": "DerivativeCollateralRightToReclaimSecurities",
     "valori": {

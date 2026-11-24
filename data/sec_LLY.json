@@ -524,33 +524,6 @@
      "2024": 300
     }
    }
-  ],
-  "eqPriv": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 109,
-     "2024": 155
-    }
-   }
-  ],
-  "eqMeth": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 109,
-     "2024": 155
-    }
-   }
-  ],
-  "afsDeb": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 109,
-     "2024": 155
-    }
-   }
   ]
  },
  "fine_anno": {

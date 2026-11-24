@@ -480,28 +480,7 @@
  "avvisi": [
   "2023: l'OCI sale di 1375 ma gli investimenti letti salgono di -60: controllare il filing (investimenti non letti?)"
  ],
- "candidati": {
-  "afsDeb": [
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 23541,
-     "2024": 33926,
-     "2025": 45719
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 23541,
-     "2024": 33926,
-     "2025": 45719
-    }
-   }
-  ]
- },
+ "candidati": {},
  "fine_anno": {
   "2019": "2019-12-31",
   "2020": "2020-12-31",

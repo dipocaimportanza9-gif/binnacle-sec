@@ -199,15 +199,15 @@
    "2025": 0.0
   },
   "eqPriv": {
+   "2020": 2809.0,
+   "2021": 3876.0,
+   "2022": 2836.0,
+   "2023": 2779.0,
+   "2024": 1246.0,
+   "2025": 642.0,
    "2017": 2150.0,
    "2018": 1600.0,
-   "2019": 705.0,
-   "2020": 567.0,
-   "2021": 5365.0,
-   "2022": 1588.0,
-   "2023": 5124.0,
-   "2024": 7848.0,
-   "2025": 2596.0
+   "2019": 705.0
   },
   "eqMeth": {
    "2016": 270.0,
@@ -478,15 +478,15 @@
    "2025": "CommercialPaper"
   },
   "eqPriv": {
+   "2020": "EquitySecuritiesFvNiNoncurrent",
+   "2021": "EquitySecuritiesFvNiNoncurrent",
+   "2022": "EquitySecuritiesFvNiNoncurrent",
+   "2023": "EquitySecuritiesFvNiNoncurrent",
+   "2024": "EquitySecuritiesFvNiNoncurrent",
+   "2025": "EquitySecuritiesFvNiNoncurrent",
    "2017": "EquitySecuritiesFvNi",
    "2018": "EquitySecuritiesFvNi",
-   "2019": "EquitySecuritiesFvNi",
-   "2020": "EquitySecuritiesFvNi",
-   "2021": "EquitySecuritiesFvNi",
-   "2022": "EquitySecuritiesFvNi",
-   "2023": "EquitySecuritiesFvNi",
-   "2024": "EquitySecuritiesFvNi",
-   "2025": "EquitySecuritiesFvNi"
+   "2019": "EquitySecuritiesFvNi"
   },
   "eqMeth": {
    "2016": "EquityMethodInvestments",
@@ -640,7 +640,7 @@
  "avvisi": [
   "Investimenti a lungo termine (voce di bilancio): ultimo anno 2024 (mancano anni recenti)",
   "2009: l'OCI sale di 5121 ma gli investimenti letti salgono di 1644: controllare il filing (investimenti non letti?)",
-  "2020: l'OCI sale di 6330 ma gli investimenti letti salgono di -210: controllare il filing (investimenti non letti?)"
+  "2020: l'OCI sale di 6330 ma gli investimenti letti salgono di 2032: controllare il filing (investimenti non letti?)"
  ],
  "candidati": {
   "finLiab": [
@@ -670,22 +670,6 @@
    }
   ],
   "ltInv": [
-   {
-    "tag": "OtherShortTermInvestments",
-    "valori": {
-     "2023": 9837,
-     "2024": 19434,
-     "2025": 12454
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFVNINoncurrent",
-    "valori": {
-     "2023": 2779,
-     "2024": 1246,
-     "2025": 642
-    }
-   },
    {
     "tag": "SecuritiesReceivedAsCollateral",
     "valori": {
@@ -755,12 +739,12 @@
    "2017": 8414.0,
    "2018": 2586.0,
    "2019": 20852.0,
-   "2020": 20829.0,
-   "2021": 26891.0,
-   "2022": 16657.0,
-   "2023": 20492.0,
-   "2024": 10293.0,
-   "2025": 4452.0
+   "2020": 23071.0,
+   "2021": 25402.0,
+   "2022": 17905.0,
+   "2023": 18147.0,
+   "2024": 3691.0,
+   "2025": 2498.0
   },
   "invNonOpAmpia": {
    "2008": 11478.0,
@@ -775,12 +759,12 @@
    "2017": 13504.0,
    "2018": 2586.0,
    "2019": 21167.0,
-   "2020": 20957.0,
-   "2021": 27412.0,
-   "2022": 17009.0,
-   "2023": 20642.0,
-   "2024": 10293.0,
-   "2025": 4453.0
+   "2020": 23199.0,
+   "2021": 25923.0,
+   "2022": 18257.0,
+   "2023": 18297.0,
+   "2024": 3691.0,
+   "2025": 2499.0
   }
  },
  "sic": "2834",

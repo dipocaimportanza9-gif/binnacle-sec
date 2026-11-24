@@ -92,7 +92,5 @@ dBrev: DebtInstrumentIncreaseDecreaseOtherNet {2023: 5, 2024: 32, 2025: -35, 202
 afsDeb: OtherInvestments {2023: 392, 2024: 1779, 2025: 1778}
 afsDeb: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 700, 2024: 500, 2025: 1600, 2026: 1300}
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 720, 2024: 437, 2025: 145, 2026: 206}
-afsDeb: RestrictedCashAndInvestmentsNoncurrent {2023: 53, 2024: 100, 2025: 104, 2026: 109}
-afsDeb: RestrictedCashAndInvestmentsCurrent {2023: 0, 2024: 0, 2025: 0, 2026: 55}
 
-Tempo: 5 s. File scritto: sec_DIS.json
+Tempo: 4 s. File scritto: sec_DIS.json

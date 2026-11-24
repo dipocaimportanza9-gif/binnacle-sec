@@ -66,13 +66,9 @@ Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2024 (man
 Il tag del debito include i leasing finanziari negli anni 2014-2018: non sommarli di nuovo
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-eqPriv: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
 eqPriv: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
-eqMeth: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
 eqMeth: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
-afsDeb: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
 afsDeb: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
-ltInv: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
 ltInv: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 
 Tempo: 4 s. File scritto: sec_TSLA.json

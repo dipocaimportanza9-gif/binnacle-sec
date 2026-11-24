@@ -694,22 +694,6 @@
   ],
   "eqPriv": [
    {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 3274,
-     "2024": 12481,
-     "2025": 18479
-    }
-   },
-   {
-    "tag": "OtherShortTermInvestments",
-    "valori": {
-     "2023": 2753,
-     "2024": 11960,
-     "2025": 17230
-    }
-   },
-   {
     "tag": "RetainedEarningsUndistributedEarningsFromEquityMethodInvestees",
     "valori": {
      "2023": 110,
@@ -742,22 +726,6 @@
    }
   ],
   "afsDeb": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 3274,
-     "2024": 12481,
-     "2025": 18479
-    }
-   },
-   {
-    "tag": "OtherShortTermInvestments",
-    "valori": {
-     "2023": 2753,
-     "2024": 11960,
-     "2025": 17230
-    }
-   },
    {
     "tag": "RetainedEarningsUndistributedEarningsFromEquityMethodInvestees",
     "valori": {

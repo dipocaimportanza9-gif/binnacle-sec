@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                     10,159   10,688 
 Debiti finanziari a breve                                            .    5,800    6,100    3,100   13,915      556        0        0    7,965    2,453        0        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .    2,150    1,600      705      567    5,365    1,588    5,124    7,848    2,596        .
+Equity in societa' non quotate (valore contabile)                    .        .    2,150    1,600      705    2,809    3,876    2,836    2,779    1,246      642        .
 Partecipazioni a patrimonio netto (equity method)                    .      270        .      181   17,133   16,856   16,472   11,033   11,637      217      235        .
 Titoli di debito disponibili per la vendita (valore equo)            .        7    5,090      491      315      128      521      352      150        0        1        .
 Titoli di mercato non correnti                                       .    6,049    6,264        .    3,014    3,406    5,054    4,036    3,731    2,228    1,621        .
@@ -60,14 +60,12 @@ pfe:ShorttermDebtGross                                               .        . 
 --- AVVISI ---
 Investimenti a lungo termine (voce di bilancio): ultimo anno 2024 (mancano anni recenti)
 2009: l'OCI sale di 5121 ma gli investimenti letti salgono di 1644: controllare il filing (investimenti non letti?)
-2020: l'OCI sale di 6330 ma gli investimenti letti salgono di -210: controllare il filing (investimenti non letti?)
+2020: l'OCI sale di 6330 ma gli investimenti letti salgono di 2032: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 2924, 2024: 2289, 2025: 2213}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 671, 2024: 556, 2025: 579}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 614, 2024: 283, 2025: 288}
-ltInv: OtherShortTermInvestments {2023: 9837, 2024: 19434, 2025: 12454}
-ltInv: EquitySecuritiesFVNINoncurrent {2023: 2779, 2024: 1246, 2025: 642}
 ltInv: SecuritiesReceivedAsCollateral {2023: 221, 2024: 716, 2025: 154}
 
-Tempo: 6 s. File scritto: sec_PFE.json
+Tempo: 4 s. File scritto: sec_PFE.json

@@ -591,14 +591,6 @@
   ],
   "eqMeth": [
    {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1840,
-     "2024": 1345,
-     "2025": 5013
-    }
-   },
-   {
     "tag": "IncreaseDecreaseInEquitySecuritiesFvNi",
     "valori": {
      "2023": 1,
@@ -608,14 +600,6 @@
    }
   ],
   "ltInv": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1840,
-     "2024": 1345,
-     "2025": 5013
-    }
-   },
    {
     "tag": "IncreaseDecreaseInEquitySecuritiesFvNi",
     "valori": {

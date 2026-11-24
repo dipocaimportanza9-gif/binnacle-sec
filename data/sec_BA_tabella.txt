@@ -77,14 +77,10 @@ dBrev: DebtAndCapitalLeaseObligations {2023: 52307, 2024: 53864, 2025: 54098}
 dBrev: UnsecuredDebtCurrent {2023: 5072, 2024: 850, 2025: 8249}
 dBrev: OtherNotesPayable {2023: 370, 2024: 414, 2025: 298}
 dBrev: OtherNotesPayableCurrent {2023: 55, 2024: 342, 2025: 101}
-eqPriv: ShortTermInvestments {2023: 3274, 2024: 12481, 2025: 18479}
-eqPriv: OtherShortTermInvestments {2023: 2753, 2024: 11960, 2025: 17230}
 eqPriv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 110, 2024: 141, 2025: 213}
 eqPriv: OtherInvestments {2023: 69, 2024: 34, 2025: 34}
 eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 31, 2024: 55, 2025: 14}
 eqPriv: FinancingReceivableRecordedInvestment90DaysPastDueAndStillAccruing {2023: 9, 2024: 0}
-afsDeb: ShortTermInvestments {2023: 3274, 2024: 12481, 2025: 18479}
-afsDeb: OtherShortTermInvestments {2023: 2753, 2024: 11960, 2025: 17230}
 afsDeb: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 110, 2024: 141, 2025: 213}
 afsDeb: OtherInvestments {2023: 69, 2024: 34, 2025: 34}
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 31, 2024: 55, 2025: 14}

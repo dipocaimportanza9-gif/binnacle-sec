@@ -51,8 +51,4 @@ meta:DeferredTaxAssetsLeaseLiabilities                               .        . 
 --- AVVISI ---
 2023: l'OCI sale di 1375 ma gli investimenti letti salgono di -60: controllare il filing (investimenti non letti?)
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-afsDeb: MarketableSecuritiesCurrent {2023: 23541, 2024: 33926, 2025: 45719}
-ltInv: MarketableSecuritiesCurrent {2023: 23541, 2024: 33926, 2025: 45719}
-
 Tempo: 1 s. File scritto: sec_META.json

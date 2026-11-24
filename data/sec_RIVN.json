@@ -240,14 +240,6 @@
   ],
   "eqPriv": [
    {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1511,
-     "2024": 2406,
-     "2025": 2503
-    }
-   },
-   {
     "tag": "StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
     "valori": {
      "2024": 1133
@@ -255,14 +247,6 @@
    }
   ],
   "eqMeth": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1511,
-     "2024": 2406,
-     "2025": 2503
-    }
-   },
    {
     "tag": "StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
     "valori": {
@@ -272,14 +256,6 @@
   ],
   "afsDeb": [
    {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1511,
-     "2024": 2406,
-     "2025": 2503
-    }
-   },
-   {
     "tag": "StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
     "valori": {
      "2024": 1133
@@ -287,14 +263,6 @@
    }
   ],
   "ltInv": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1511,
-     "2024": 2406,
-     "2025": 2503
-    }
-   },
    {
     "tag": "StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
     "valori": {

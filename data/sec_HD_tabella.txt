@@ -56,4 +56,4 @@ hd:OperatingLeaseandFinanceLeaseRightofUseAssets                     .        . 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2009-2026: non sommarli di nuovo
 
-Tempo: 4 s. File scritto: sec_HD.json
+Tempo: 3 s. File scritto: sec_HD.json

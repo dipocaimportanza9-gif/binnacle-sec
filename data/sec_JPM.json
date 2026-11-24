@@ -576,11 +576,9 @@
     }
    },
    {
-    "tag": "IncreaseDecreaseInCashCollateralForBorrowedSecurities",
+    "tag": "SecuritiesBorrowedNotSubjectToMasterNettingArrangementDeduction",
     "valori": {
-     "2023": 14902,
-     "2024": 18762,
-     "2025": 66648
+     "2023": 50700
     }
    }
   ],
@@ -626,11 +624,9 @@
     }
    },
    {
-    "tag": "IncreaseDecreaseInCashCollateralForBorrowedSecurities",
+    "tag": "SecuritiesBorrowedNotSubjectToMasterNettingArrangementDeduction",
     "valori": {
-     "2023": 14902,
-     "2024": 18762,
-     "2025": 66648
+     "2023": 50700
     }
    }
   ],
@@ -676,11 +672,9 @@
     }
    },
    {
-    "tag": "IncreaseDecreaseInCashCollateralForBorrowedSecurities",
+    "tag": "SecuritiesBorrowedNotSubjectToMasterNettingArrangementDeduction",
     "valori": {
-     "2023": 14902,
-     "2024": 18762,
-     "2025": 66648
+     "2023": 50700
     }
    }
   ]

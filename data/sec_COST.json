@@ -620,41 +620,7 @@
  "avvisi": [
   "Debiti finanziari a breve: ultimo anno 2022 (mancano anni recenti)"
  ],
- "candidati": {
-  "eqPriv": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1534,
-     "2024": 1238,
-     "2025": 1123,
-     "2026": 1094
-    }
-   }
-  ],
-  "eqMeth": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1534,
-     "2024": 1238,
-     "2025": 1123,
-     "2026": 1094
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1534,
-     "2024": 1238,
-     "2025": 1123,
-     "2026": 1094
-    }
-   }
-  ]
- },
+ "candidati": {},
  "fine_anno": {
   "2020": "2020-08-30",
   "2021": "2021-08-29",

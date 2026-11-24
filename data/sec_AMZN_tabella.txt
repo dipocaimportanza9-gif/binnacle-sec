@@ -85,7 +85,4 @@ amzn:NonmarketableSecuritiesAgreedAdditionalInvestmentMaximum        .        . 
 2023: l'OCI sale di 1447 ma gli investimenti letti salgono di 653: controllare il filing (investimenti non letti?)
 2024: l'OCI sale di 3006 ma gli investimenti letti salgono di 821: controllare il filing (investimenti non letti?)
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-ltInv: MarketableSecuritiesCurrent {2023: 13393, 2024: 22423, 2025: 36219}
-
-Tempo: 4 s. File scritto: sec_AMZN.json
+Tempo: 3 s. File scritto: sec_AMZN.json

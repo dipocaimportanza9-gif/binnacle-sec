@@ -438,14 +438,6 @@
     }
    },
    {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 727,
-     "2024": 1084,
-     "2025": 528
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentOtherThanTemporaryImpairment",
     "valori": {
      "2023": 0,

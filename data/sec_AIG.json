@@ -508,14 +508,6 @@
     }
    },
    {
-    "tag": "OtherShortTermInvestments",
-    "valori": {
-     "2023": 12865,
-     "2024": 14462,
-     "2025": 11141
-    }
-   },
-   {
     "tag": "OtherInvestments",
     "valori": {
      "2023": 6368,
@@ -543,6 +535,14 @@
     "tag": "RealEstateInvestmentPropertyNet",
     "valori": {
      "2023": 2237
+    }
+   },
+   {
+    "tag": "TradingSecuritiesDebt",
+    "valori": {
+     "2023": 663,
+     "2024": 745,
+     "2025": 741
     }
    }
   ],
@@ -556,14 +556,6 @@
     }
    },
    {
-    "tag": "OtherShortTermInvestments",
-    "valori": {
-     "2023": 12865,
-     "2024": 14462,
-     "2025": 11141
-    }
-   },
-   {
     "tag": "OtherInvestments",
     "valori": {
      "2023": 6368,
@@ -591,6 +583,14 @@
     "tag": "RealEstateInvestmentPropertyNet",
     "valori": {
      "2023": 2237
+    }
+   },
+   {
+    "tag": "TradingSecuritiesDebt",
+    "valori": {
+     "2023": 663,
+     "2024": 745,
+     "2025": 741
     }
    }
   ],
@@ -604,14 +604,6 @@
     }
    },
    {
-    "tag": "OtherShortTermInvestments",
-    "valori": {
-     "2023": 12865,
-     "2024": 14462,
-     "2025": 11141
-    }
-   },
-   {
     "tag": "OtherInvestments",
     "valori": {
      "2023": 6368,
@@ -639,6 +631,14 @@
     "tag": "RealEstateInvestmentPropertyNet",
     "valori": {
      "2023": 2237
+    }
+   },
+   {
+    "tag": "TradingSecuritiesDebt",
+    "valori": {
+     "2023": 663,
+     "2024": 745,
+     "2025": 741
     }
    }
   ]

@@ -699,24 +699,6 @@
      "2025": 145,
      "2026": 206
     }
-   },
-   {
-    "tag": "RestrictedCashAndInvestmentsNoncurrent",
-    "valori": {
-     "2023": 53,
-     "2024": 100,
-     "2025": 104,
-     "2026": 109
-    }
-   },
-   {
-    "tag": "RestrictedCashAndInvestmentsCurrent",
-    "valori": {
-     "2023": 0,
-     "2024": 0,
-     "2025": 0,
-     "2026": 55
-    }
    }
   ]
  },

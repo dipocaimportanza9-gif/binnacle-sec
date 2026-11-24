@@ -70,15 +70,4 @@ Debiti finanziari a breve: ultimo anno 2024 (mancano anni recenti)
 Titoli di mercato non correnti: ultimo anno 2023 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2010-2026: non sommarli di nuovo
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-eqPriv: ShortTermInvestments {2023: 384, 2024: 307, 2025: 372, 2026: 370}
-eqPriv: RestrictedCashAndInvestmentsCurrent {2023: 384, 2024: 307, 2025: 372}
-eqPriv: RestrictedCashAndInvestmentsNoncurrent {2023: 100, 2024: 252, 2025: 277}
-eqMeth: ShortTermInvestments {2023: 384, 2024: 307, 2025: 372, 2026: 370}
-eqMeth: RestrictedCashAndInvestmentsCurrent {2023: 384, 2024: 307, 2025: 372}
-eqMeth: RestrictedCashAndInvestmentsNoncurrent {2023: 100, 2024: 252, 2025: 277}
-afsDeb: ShortTermInvestments {2023: 384, 2024: 307, 2025: 372, 2026: 370}
-afsDeb: RestrictedCashAndInvestmentsCurrent {2023: 384, 2024: 307, 2025: 372}
-afsDeb: RestrictedCashAndInvestmentsNoncurrent {2023: 100, 2024: 252, 2025: 277}
-
-Tempo: 4 s. File scritto: sec_LOW.json
+Tempo: 3 s. File scritto: sec_LOW.json

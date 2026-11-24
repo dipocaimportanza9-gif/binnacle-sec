@@ -67,10 +67,4 @@ aapl:OperatingandFinanceLeaseWeightedAverageDiscountRatePercen       .        . 
 2024: l'OCI sale di 4280 ma gli investimenti letti salgono di -9065: controllare il filing (investimenti non letti?)
 2025: l'OCI sale di 1601 ma gli investimenti letti salgono di -13756: controllare il filing (investimenti non letti?)
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-eqPriv: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
-eqMeth: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
-afsDeb: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
-ltInv: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
-
-Tempo: 3 s. File scritto: sec_AAPL.json
+Tempo: 2 s. File scritto: sec_AAPL.json

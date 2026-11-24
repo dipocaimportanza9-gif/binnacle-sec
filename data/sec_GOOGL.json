@@ -544,44 +544,7 @@
   "Il tag del debito include i leasing finanziari negli anni 2020-2022: non sommarli di nuovo",
   "2023: l'OCI sale di 3201 ma gli investimenti letti salgono di -4222: controllare il filing (investimenti non letti?)"
  ],
- "candidati": {
-  "eqMeth": [
-   {
-    "tag": "CashCashEquivalentsAndShortTermInvestments",
-    "valori": {
-     "2023": 110916,
-     "2024": 95657,
-     "2025": 126843
-    }
-   },
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 86868,
-     "2024": 72191,
-     "2025": 96135
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "CashCashEquivalentsAndShortTermInvestments",
-    "valori": {
-     "2023": 110916,
-     "2024": 95657,
-     "2025": 126843
-    }
-   },
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 86868,
-     "2024": 72191,
-     "2025": 96135
-    }
-   }
-  ]
- },
+ "candidati": {},
  "fine_anno": {
   "2019": "2019-12-31",
   "2020": "2020-12-31",

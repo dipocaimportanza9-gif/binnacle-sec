@@ -668,15 +668,6 @@
   ],
   "eqPriv": [
    {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 402,
-     "2024": 257,
-     "2025": 247,
-     "2026": 184
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {
      "2023": 223,
@@ -696,15 +687,6 @@
    }
   ],
   "ltInv": [
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 402,
-     "2024": 257,
-     "2025": 247,
-     "2026": 184
-    }
-   },
    {
     "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {

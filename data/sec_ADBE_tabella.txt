@@ -65,13 +65,5 @@ Il tag del debito include i leasing finanziari negli anni 2010-2021: non sommarl
 finLiab: OperatingLeaseRightOfUseAsset {2023: 358, 2024: 281, 2025: 312}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 32, 2024: 62, 2025: 86}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 38, 2024: 35, 2025: 47}
-eqPriv: CashCashEquivalentsAndShortTermInvestments {2023: 7842, 2024: 7886, 2025: 6595}
-eqPriv: ShortTermInvestments {2023: 701, 2024: 273, 2025: 1164}
-eqMeth: CashCashEquivalentsAndShortTermInvestments {2023: 7842, 2024: 7886, 2025: 6595}
-eqMeth: ShortTermInvestments {2023: 701, 2024: 273, 2025: 1164}
-afsDeb: CashCashEquivalentsAndShortTermInvestments {2023: 7842, 2024: 7886, 2025: 6595}
-afsDeb: ShortTermInvestments {2023: 701, 2024: 273, 2025: 1164}
-ltInv: CashCashEquivalentsAndShortTermInvestments {2023: 7842, 2024: 7886, 2025: 6595}
-ltInv: ShortTermInvestments {2023: 701, 2024: 273, 2025: 1164}
 
 Tempo: 4 s. File scritto: sec_ADBE.json

@@ -315,26 +315,6 @@
      "2025": 38
     }
    }
-  ],
-  "eqMeth": [
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 2843,
-     "2024": 3131,
-     "2025": 5753
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "MarketableSecuritiesCurrent",
-    "valori": {
-     "2023": 2843,
-     "2024": 3131,
-     "2025": 5753
-    }
-   }
   ]
  },
  "fine_anno": {

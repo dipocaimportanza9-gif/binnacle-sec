@@ -49,7 +49,7 @@ TSLA    SIC 3711   debito:si  leasing:si  invest:NO  avvisi:2
 GM      SIC 3711   debito:si  leasing:si  invest:si  avvisi:3  
 DIS     SIC 7990   debito:si  leasing:si  invest:si  avvisi:2  
 NFLX    SIC 7841   debito:si  leasing:si  invest:si  avvisi:0  
-DAL     SIC 4512   debito:si  leasing:si  invest:NO  avvisi:1  
+DAL     SIC 4512   debito:si  leasing:si  invest:si  avvisi:1  
 UBER    SIC 7389   debito:si  leasing:si  invest:si  avvisi:1  
 PLTR    SIC 7372   debito:NO  leasing:si  invest:si  avvisi:0  
 SNOW    SIC 7372   debito:si  leasing:si  invest:si  avvisi:0  

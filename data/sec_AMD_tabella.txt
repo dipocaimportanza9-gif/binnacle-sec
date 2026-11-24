@@ -61,9 +61,7 @@ finLiab: LeaseholdImprovementsGross {2023: 821, 2024: 853, 2025: 967}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 633, 2024: 623}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 273, 2024: 102, 2025: 285}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 137, 2024: 124, 2025: 153}
-eqMeth: ShortTermInvestments {2023: 1840, 2024: 1345, 2025: 5013}
 eqMeth: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 1, 2024: -2, 2025: 366}
-ltInv: ShortTermInvestments {2023: 1840, 2024: 1345, 2025: 5013}
 ltInv: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 1, 2024: -2, 2025: 366}
 
 Tempo: 3 s. File scritto: sec_AMD.json

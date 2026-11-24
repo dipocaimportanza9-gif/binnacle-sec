@@ -31,10 +31,10 @@ Debito a lungo termine: quota corrente                           1,415    1,009 
 Debito a lungo termine: non corrente                             6,531    5,999    6,295    7,959    8,052   26,531   23,582   19,326   15,985   13,546   11,936        .
 Debito a lungo termine: totale                                   7,946    7,008    8,440    9,368   10,106   27,974   25,084   21,381   18,610   15,347   13,308        .
 Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
-Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .      431    1,067    1,075      736    1,100    1,100    1,100    1,100    1,100    1,100        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .    1,090    1,099    1,417        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                    .        .        .    1,090    1,099    1,417        .        .        .    2,372    3,644        .
 Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -63,16 +63,4 @@ dal:LesseeFinanceLeaseAndOperatingLeaseLeaseNotYetCommencedAmo       .        . 
 --- AVVISI ---
 2013: l'OCI sale di 3447 ma gli investimenti letti salgono di -300: controllare il filing (investimenti non letti?)
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dBrev: ShortTermNonBankLoansAndNotesPayable {2023: 1100, 2024: 1100, 2025: 1100}
-dBrev: DebtInstrumentRepaidPrincipal {2023: 585, 2024: 844}
-eqPriv: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
-eqPriv: ShortTermInvestments {2023: 1127, 2024: 0}
-eqMeth: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
-eqMeth: ShortTermInvestments {2023: 1127, 2024: 0}
-afsDeb: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
-afsDeb: ShortTermInvestments {2023: 1127, 2024: 0}
-ltInv: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
-ltInv: ShortTermInvestments {2023: 1127, 2024: 0}
-
-Tempo: 6 s. File scritto: sec_DAL.json
+Tempo: 4 s. File scritto: sec_DAL.json

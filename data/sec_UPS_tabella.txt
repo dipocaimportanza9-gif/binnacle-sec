@@ -81,14 +81,8 @@ Il tag del debito include i leasing finanziari negli anni 2023-2025: non sommarl
 dBrev: DebtInstrumentFaceAmount {2023: 22470, 2024: 21487, 2025: 24367}
 dBrev: DebtAndCapitalLeaseObligations {2023: 22264, 2024: 21284, 2025: 24127}
 afsDeb: TradingSecurities {2023: 2866, 2024: 206, 2025: 3}
-afsDeb: MarketableSecuritiesCurrent {2023: 2866, 2024: 206}
-afsDeb: CashCollateralForBorrowedSecurities {2024: 2700, 2025: 1600}
 afsDeb: CollateralSecuritiesRepledgedDeliveredOrUsed {2023: 13, 2024: 0, 2025: 0}
-afsDeb: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 4, 2024: 3}
 ltInv: TradingSecurities {2023: 2866, 2024: 206, 2025: 3}
-ltInv: MarketableSecuritiesCurrent {2023: 2866, 2024: 206}
-ltInv: CashCollateralForBorrowedSecurities {2024: 2700, 2025: 1600}
 ltInv: CollateralSecuritiesRepledgedDeliveredOrUsed {2023: 13, 2024: 0, 2025: 0}
-ltInv: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 4, 2024: 3}
 
-Tempo: 4 s. File scritto: sec_UPS.json
+Tempo: 3 s. File scritto: sec_UPS.json

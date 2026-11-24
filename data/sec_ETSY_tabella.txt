@@ -59,4 +59,4 @@ eqPriv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0}
 eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0}
 ltInv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0}
 
-Tempo: 5 s. File scritto: sec_ETSY.json
+Tempo: 4 s. File scritto: sec_ETSY.json

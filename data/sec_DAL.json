@@ -221,9 +221,21 @@
    "2011": 318.0,
    "2012": 455.0,
    "2013": 602.0,
-   "2014": 561.0
+   "2014": 561.0,
+   "2016": 431.0,
+   "2017": 1067.0,
+   "2018": 1075.0,
+   "2019": 736.0,
+   "2020": 1100.0,
+   "2021": 1100.0,
+   "2022": 1100.0,
+   "2023": 1100.0,
+   "2024": 1100.0,
+   "2025": 1100.0
   },
   "eqPriv": {
+   "2024": 2372.0,
+   "2025": 3644.0,
    "2018": 1090.0,
    "2019": 1099.0,
    "2020": 1417.0
@@ -473,9 +485,21 @@
    "2011": "OtherShortTermBorrowings",
    "2012": "OtherShortTermBorrowings",
    "2013": "OtherShortTermBorrowings",
-   "2014": "OtherShortTermBorrowings"
+   "2014": "OtherShortTermBorrowings",
+   "2016": "ShortTermNonBankLoansAndNotesPayable",
+   "2017": "ShortTermNonBankLoansAndNotesPayable",
+   "2018": "ShortTermNonBankLoansAndNotesPayable",
+   "2019": "ShortTermNonBankLoansAndNotesPayable",
+   "2020": "ShortTermNonBankLoansAndNotesPayable",
+   "2021": "ShortTermNonBankLoansAndNotesPayable",
+   "2022": "ShortTermNonBankLoansAndNotesPayable",
+   "2023": "ShortTermNonBankLoansAndNotesPayable",
+   "2024": "ShortTermNonBankLoansAndNotesPayable",
+   "2025": "ShortTermNonBankLoansAndNotesPayable"
   },
   "eqPriv": {
+   "2024": "EquitySecuritiesFvNiNoncurrent",
+   "2025": "EquitySecuritiesFvNiNoncurrent",
    "2018": "EquitySecuritiesFvNi",
    "2019": "EquitySecuritiesFvNi",
    "2020": "EquitySecuritiesFvNi"
@@ -612,89 +636,7 @@
  "avvisi": [
   "2013: l'OCI sale di 3447 ma gli investimenti letti salgono di -300: controllare il filing (investimenti non letti?)"
  ],
- "candidati": {
-  "dBrev": [
-   {
-    "tag": "ShortTermNonBankLoansAndNotesPayable",
-    "valori": {
-     "2023": 1100,
-     "2024": 1100,
-     "2025": 1100
-    }
-   },
-   {
-    "tag": "DebtInstrumentRepaidPrincipal",
-    "valori": {
-     "2023": 585,
-     "2024": 844
-    }
-   }
-  ],
-  "eqPriv": [
-   {
-    "tag": "EquitySecuritiesFVNINoncurrent",
-    "valori": {
-     "2024": 2372,
-     "2025": 3644
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1127,
-     "2024": 0
-    }
-   }
-  ],
-  "eqMeth": [
-   {
-    "tag": "EquitySecuritiesFVNINoncurrent",
-    "valori": {
-     "2024": 2372,
-     "2025": 3644
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1127,
-     "2024": 0
-    }
-   }
-  ],
-  "afsDeb": [
-   {
-    "tag": "EquitySecuritiesFVNINoncurrent",
-    "valori": {
-     "2024": 2372,
-     "2025": 3644
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1127,
-     "2024": 0
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "EquitySecuritiesFVNINoncurrent",
-    "valori": {
-     "2024": 2372,
-     "2025": 3644
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 1127,
-     "2024": 0
-    }
-   }
-  ]
- },
+ "candidati": {},
  "fine_anno": {
   "2018": "2018-12-31",
   "2019": "2019-12-31",
@@ -724,14 +666,18 @@
    "2013": 60.0,
    "2018": 1090.0,
    "2019": 1099.0,
-   "2020": 1417.0
+   "2020": 1417.0,
+   "2024": 2372.0,
+   "2025": 3644.0
   },
   "invNonOpAmpia": {
    "2012": 360.0,
    "2013": 60.0,
    "2018": 1090.0,
    "2019": 1099.0,
-   "2020": 1417.0
+   "2020": 1417.0,
+   "2024": 2372.0,
+   "2025": 3644.0
   }
  },
  "sic": "4512",
