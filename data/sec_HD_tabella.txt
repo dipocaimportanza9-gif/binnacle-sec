@@ -30,6 +30,7 @@ Impegni: oltre il quinto anno                                    4,059    3,876 
 Debito a lungo termine: quota corrente                              38       77      542    1,202    1,056    1,839    1,416    2,447    1,231    1,368    4,582
 Debito a lungo termine: non corrente                            16,869   20,789   22,349   24,267   26,807   28,670   35,822   36,604   41,962   42,743   48,485
 Debito a lungo termine: totale                                       .        .        .        .        .   29,500   34,750   36,400   41,150   42,150   51,365
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .
 Debiti finanziari a breve                                          290      350      710    1,559    1,339      974        0    1,035        0        0      316
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
@@ -40,6 +41,10 @@ Titoli di mercato non correnti                                       .        . 
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                     -452     -898     -867     -566     -772     -739     -671     -704     -718     -477   -1,129
 
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot  16,907   20,866   22,891   25,469   27,863        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .
+
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 hd:DeferredTaxAssetsLeaseLiabilities                                 .        .        .        .        .    1,536    1,605    1,528    1,879    2,034    2,255
 hd:LesseeLeasesNotYetCommencedUndiscounted                           .        .        .        .        .        .      833    1,300    2,100      450        .
@@ -47,6 +52,9 @@ hd:OperatingLeaseAndFinanceLeaseLiabilities                          .        . 
 hd:OperatingLeaseAndFinanceLeaseRightOfUseAssets                     .        .        .        .        .        .        .        .    9,840   10,724   11,230
 hd:OperatingLeaseandFinanceLeaseLiabilities                          .        .        .        .        .    7,059    8,950    9,419   10,456        .        .
 hd:OperatingLeaseandFinanceLeaseRightofUseAssets                     .        .        .        .        .    6,529    8,455    8,864    9,840        .        .
+
+--- AVVISI ---
+Il tag del debito include i leasing finanziari negli anni 2009-2026: non sommarli di nuovo
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 eqPriv: ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet {2023: 6942, 2024: 1995, 2025: 10010, 2026: 2161}

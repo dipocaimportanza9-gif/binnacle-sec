@@ -30,6 +30,7 @@ Impegni: oltre il quinto anno                                    2,325    3,930 
 Debito a lungo termine: quota corrente                             238    1,056      100    1,371    1,305    1,155    1,491    2,999    8,494    5,017    2,748
 Debito a lungo termine: non corrente                             8,227    7,694   24,743   23,495   23,414   31,816   48,744   67,150   58,314   52,623   65,648
 Debito a lungo termine: totale                                   8,562    8,838   24,942   24,965   24,820   33,174   50,553   70,542   67,182   58,000   68,836
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .
 Debiti finanziari a breve                                            .        .        .        .        .        .        .        .      147      151      455
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
@@ -39,6 +40,10 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                     -723     -985     -484   -1,035     -986     -180   -1,376   -4,487   -3,040      -34   28,230
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 amzn:DeferredTaxAssetsOperatingLeaseLiabilities                      .        .        .        .    6,648   10,183   15,399   18,285   19,922   20,921   23,596

@@ -250,6 +250,7 @@
    "2025": 51365.0,
    "2026": 49397.0
   },
+  "dCurTot": {},
   "dBrev": {
    "2011": 0.0,
    "2012": 0.0,
@@ -540,6 +541,7 @@
    "2025": "LongTermDebt",
    "2026": "LongTermDebt"
   },
+  "dCurTot": {},
   "dBrev": {
    "2011": "CommercialPaper",
    "2012": "CommercialPaper",
@@ -626,7 +628,9 @@
    "2020": 7059.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "Il tag del debito include i leasing finanziari negli anni 2009-2026: non sommarli di nuovo"
+ ],
  "candidati": {
   "eqPriv": [
    {
@@ -744,5 +748,37 @@
     }
    }
   ]
+ },
+ "derivati": {
+  "dTotCalc": {
+   "2009": 11434.0,
+   "2012": 10788.0,
+   "2013": 10796.0,
+   "2014": 14724.0,
+   "2015": 16907.0,
+   "2016": 20866.0,
+   "2017": 22891.0,
+   "2018": 25469.0,
+   "2019": 27863.0
+  },
+  "dBrevDer": {},
+  "leasing_nel_tag_debito": {
+   "2009": "dCur dNon",
+   "2012": "dCur dNon",
+   "2013": "dCur dNon",
+   "2014": "dCur dNon",
+   "2015": "dCur dNon",
+   "2016": "dCur dNon",
+   "2017": "dCur dNon",
+   "2018": "dCur dNon",
+   "2019": "dCur dNon",
+   "2020": "dCur dNon",
+   "2021": "dCur dNon",
+   "2022": "dCur dNon",
+   "2023": "dCur dNon",
+   "2024": "dCur dNon",
+   "2025": "dCur dNon",
+   "2026": "dCur dNon"
+  }
  }
 }

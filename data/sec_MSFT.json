@@ -141,6 +141,7 @@
    "2025": 43151.0,
    "2026": 40294.0
   },
+  "dCurTot": {},
   "dBrev": {
    "2009": 2000.0,
    "2010": 1000.0,
@@ -370,6 +371,7 @@
    "2025": "LongTermDebt",
    "2026": "LongTermDebt"
   },
+  "dCurTot": {},
   "dBrev": {
    "2009": "ShortTermBorrowings",
    "2010": "ShortTermBorrowings",
@@ -498,5 +500,10 @@
   }
  },
  "avvisi": [],
- "candidati": {}
+ "candidati": {},
+ "derivati": {
+  "dTotCalc": {},
+  "dBrevDer": {},
+  "leasing_nel_tag_debito": {}
+ }
 }

@@ -30,6 +30,7 @@ Impegni: oltre il quinto anno                                        .        . 
 Debito a lungo termine: quota corrente                           2,499        0    1,049    3,998    5,516    3,749    8,072    2,749    5,247    2,249    2,999
 Debito a lungo termine: non corrente                            27,808   40,557   76,073   72,242   66,662   59,578   50,074   47,032   41,990   42,688   40,152
 Debito a lungo termine: totale                                  30,300   40,600   77,100   76,200   72,178   63,327   58,146   49,781   47,237   44,937   43,151
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .
 Debiti finanziari a breve                                        4,985   12,904    9,072        0        0        .        .        .        0    6,693        0
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
@@ -40,10 +41,14 @@ Titoli di mercato non correnti                                       .        . 
 Investimenti a lungo termine (voce di bilancio)                 12,053   10,431    6,023    1,862    2,649    2,965    5,984    6,891    9,879   14,600   15,405
 OCI accumulato (utili/perdite non realizzati)                    2,522    1,537      627   -2,187     -340    3,186    1,822   -4,678   -6,343   -5,590   -3,347
 
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .
+
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 msft:CashCashEquivalentsAndInvestments                               .        .        .        .        .  139,492  136,318  111,648  121,141   90,143  109,970
 msft:DeferredTaxAssetsBookTaxBasisDifferencesInInvestmentsAndD       .        .        .        .        .        .        .        0      373        9      303
 msft:DeferredTaxLiabilitiesBookTaxBasisDifferencesInvestmentsA       .        .        .        .        .    2,642    2,381      174        0        .        0
 msft:PremiumOnDebtExchange1                                          .        .        .        .        .    3,619    5,293    5,191    5,085    4,976    4,864
 
-Tempo: 4 s. File scritto: sec_MSFT.json
+Tempo: 3 s. File scritto: sec_MSFT.json

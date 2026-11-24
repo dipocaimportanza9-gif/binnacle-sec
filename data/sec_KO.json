@@ -185,6 +185,7 @@
    "2024": 43023.0,
    "2025": 43941.0
   },
+  "dCurTot": {},
   "dBrev": {
    "2019": 10994.0,
    "2020": 2183.0,
@@ -444,6 +445,7 @@
    "2024": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
    "2025": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities"
   },
+  "dCurTot": {},
   "dBrev": {
    "2019": "ShortTermBorrowings",
    "2020": "ShortTermBorrowings",
@@ -580,7 +582,9 @@
    "2020": 10525.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "Il tag del debito include i leasing finanziari negli anni 2024-2025: non sommarli di nuovo"
+ ],
  "candidati": {
   "finLiab": [
    {
@@ -681,5 +685,15 @@
     }
    }
   ]
+ },
+ "derivati": {
+  "dTotCalc": {
+   "2008": 3246.0
+  },
+  "dBrevDer": {},
+  "leasing_nel_tag_debito": {
+   "2024": "dCur dNon dTot",
+   "2025": "dCur dNon dTot"
+  }
  }
 }

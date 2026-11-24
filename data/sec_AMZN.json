@@ -230,6 +230,7 @@
    "2024": 58000.0,
    "2025": 68836.0
   },
+  "dCurTot": {},
   "dBrev": {
    "2023": 147.0,
    "2024": 151.0,
@@ -503,6 +504,7 @@
    "2024": "LongTermDebt",
    "2025": "LongTermDebt"
   },
+  "dCurTot": {},
   "dBrev": {
    "2023": "ShortTermBorrowings",
    "2024": "ShortTermBorrowings",
@@ -853,5 +855,10 @@
     }
    }
   ]
+ },
+ "derivati": {
+  "dTotCalc": {},
+  "dBrevDer": {},
+  "leasing_nel_tag_debito": {}
  }
 }
