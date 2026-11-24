@@ -40,19 +40,20 @@ CAT = [
  ("imp5y",    "Impegni: anno 5",                                ["OperatingLeasesFutureMinimumPaymentsDueInFiveYears"]),
  ("impOltre", "Impegni: oltre il quinto anno",                  ["OperatingLeasesFutureMinimumPaymentsDueThereafter"]),
  ("debito", "DEBITO FINANZIARIO"),
- ("dCur",     "Debito a lungo termine: quota corrente",         ["LongTermDebtCurrent", "DebtCurrent", "LongTermDebtAndCapitalLeaseObligationsCurrent", "LongTermDebtAndFinanceLeaseObligationsCurrent"]),
- ("dNon",     "Debito a lungo termine: non corrente",           ["LongTermDebtNoncurrent", "LongTermDebtAndCapitalLeaseObligations", "LongTermDebtAndFinanceLeaseObligationsNoncurrent", "LongTermNotesPayable"]),
- ("dTot",     "Debito a lungo termine: totale",                 ["LongTermDebt", "DebtLongtermAndShorttermCombinedAmount", "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities"]),
+ ("dCur",     "Debito a lungo termine: quota corrente",         ["LongTermDebtCurrent", "DebtCurrent", "LongTermDebtAndCapitalLeaseObligationsCurrent", "LongTermDebtAndFinanceLeaseObligationsCurrent", "ConvertibleNotesPayableCurrent", "ConvertibleDebtCurrent", "NotesPayableCurrent", "LongTermNotesPayableCurrent"]),
+ ("dNon",     "Debito a lungo termine: non corrente",           ["LongTermDebtNoncurrent", "LongTermDebtAndCapitalLeaseObligations", "LongTermDebtAndFinanceLeaseObligationsNoncurrent", "LongTermNotesPayable", "ConvertibleNotesPayableNoncurrent", "ConvertibleDebtNoncurrent", "ConvertibleLongTermNotesPayable", "SeniorNotes", "NotesPayableNoncurrent", "NotesPayableRelatedPartiesNoncurrent", "SecuredLongTermDebt", "UnsecuredLongTermDebt", "LongTermLineOfCredit", "DebtNoncurrent"]),
+ ("dTot",     "Debito a lungo termine: totale",                 ["LongTermDebt", "DebtLongtermAndShorttermCombinedAmount", "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities", "ConvertibleNotesPayable", "ConvertibleDebt", "NotesPayable", "DebtInstrumentCarryingAmount"]),
  ("dCurTot",  "Debito corrente totale (con debiti a breve)",    ["DebtCurrent"]),
- ("dBrev",    "Debiti finanziari a breve",                      ["ShortTermBorrowings", "CommercialPaper", "LoansPayableCurrent", "NotesPayableCurrent", "OtherShortTermBorrowings"]),
+ ("dBrev",    "Debiti finanziari a breve",                      ["ShortTermBorrowings", "CommercialPaper", "LoansPayableCurrent", "OtherShortTermBorrowings", "LinesOfCreditCurrent", "ShortTermBankLoansAndNotesPayable"]),
  ("inv", "INVESTIMENTI NON OPERATIVI e OCI"),
- ("eqPriv",   "Equity in societa' non quotate (valore contabile)", ["EquitySecuritiesWithoutReadilyDeterminableFairValueAmount"]),
- ("eqMeth",   "Partecipazioni a patrimonio netto (equity method)", ["EquityMethodInvestments"]),
- ("afsDeb",   "Titoli di debito disponibili per la vendita (valore equo)", ["AvailableForSaleSecuritiesDebtSecurities"]),
- ("mktNon",   "Titoli di mercato non correnti",                 ["MarketableSecuritiesNoncurrent", "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"]),
- ("ltInv",    "Investimenti a lungo termine (voce di bilancio)", ["LongTermInvestments"]),
+ ("eqPriv",   "Equity in societa' non quotate (valore contabile)", ["EquitySecuritiesWithoutReadilyDeterminableFairValueAmount", "EquitySecuritiesFvNiNoncurrent", "MarketableSecuritiesEquitySecuritiesNoncurrent", "EquitySecuritiesFvNi", "CostMethodInvestments", "InvestmentsInPrivateCompanies"]),
+ ("eqMeth",   "Partecipazioni a patrimonio netto (equity method)", ["EquityMethodInvestments", "EquityMethodInvestmentsAndAdvances", "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures", "EquityMethodInvestmentsAndJointVentures"]),
+ ("afsDeb",   "Titoli di debito disponibili per la vendita (valore equo)", ["AvailableForSaleSecuritiesDebtSecuritiesNoncurrent", "AvailableForSaleSecuritiesDebtSecurities", "HeldToMaturitySecuritiesNoncurrent", "DebtSecuritiesAvailableForSaleNoncurrent"]),
+ ("mktNon",   "Titoli di mercato non correnti",                 ["MarketableSecuritiesNoncurrent", "AvailableForSaleSecuritiesNoncurrent", "LongTermMarketableSecurities", "OtherLongTermInvestments", "RestrictedInvestmentsNoncurrent", "NoncurrentInvestments"]),
+ ("ltInv",    "Investimenti a lungo termine (voce di bilancio)", ["LongTermInvestments", "LongTermInvestmentsAndReceivablesNet", "DecommissioningFundInvestments", "Investments"]),
  ("aoci",     "OCI accumulato (utili/perdite non realizzati)",  ["AccumulatedOtherComprehensiveIncomeLossNetOfTax"]),
 ]
+ALLTAGS = {t for c in CAT if len(c) == 3 for t in c[2]}
 RE_CUSTOM = re.compile(r"Financing|BuildToSuit|Construction|Lease|Debt|Investment|Warrant|Convertible", re.I)
 
 def get(url, testo=False):
@@ -63,6 +64,7 @@ def get(url, testo=False):
         if r.headers.get("Content-Encoding") == "gzip": b = gzip.decompress(b)
     return b.decode("utf-8", "replace") if testo else json.loads(b)
 
+ENDS = {}
 def annuali(o):
     """anno -> valore in USD (ultimo deposito 10-K; per i flussi solo periodi di circa 12 mesi)"""
     best = {}
@@ -73,6 +75,7 @@ def annuali(o):
             if not 350 <= d <= 380: continue
         y = x["end"][:4]
         if y not in best or x["filed"] > best[y]["filed"]: best[y] = x
+    for y, v in best.items(): ENDS.setdefault(int(y), {}).setdefault(v["end"], 0); ENDS[int(y)][v["end"]] += 1
     return {int(y): v["val"] for y, v in best.items()}
 
 
@@ -93,7 +96,31 @@ def deriva(res):
     res["derivati"] = {"dTotCalc": tot, "dBrevDer": brev, "leasing_nel_tag_debito": {y: v.strip() for y, v in lsd.items()}}
     if lsd:
         res["avvisi"].append("Il tag del debito include i leasing finanziari negli anni %s-%s: non sommarli di nuovo" % (min(lsd), max(lsd)))
+    inv_derivati(res)
     return res
+
+SCARTA = re.compile(r"Income|Payment|Proceeds|Repayment|Maturit|FairValue|Gain|Loss|Expense|Cost|Interest|Amortiz|Unrealized|Purchase|Acquire|Issuance|Fee|Rate|Tax|Sale|Deprec|Adjust|Percentage|Maximum|Capacity", re.I)
+def inv_derivati(res):
+    """investimenti non operativi: due stime, mai sommate tra loro (si sovrappongono) + controllo OCI"""
+    c = res["concetti"]
+    anni = sorted(set(y for k in ("eqPriv", "eqMeth", "mktNon", "ltInv", "afsDeb") for y in c.get(k, {})))
+    base, ampia = {}, {}
+    for y in anni:
+        g = lambda k: c.get(k, {}).get(y, 0) or 0
+        componenti = g("eqPriv") + g("eqMeth") + g("mktNon")
+        base[y] = round(max(componenti, g("ltInv")), 1)
+        ampia[y] = round(max(componenti + g("afsDeb"), g("ltInv")), 1)
+    av = []
+    ao = c.get("aoci", {})
+    for y in sorted(ao):
+        if y - 1 in ao and y in ampia and y - 1 in ampia:
+            d_oci = ao[y] - ao[y - 1]
+            d_inv = ampia[y] - ampia[y - 1]
+            if d_oci > 1000 and d_inv < 0.75 * d_oci:
+                av.append("%d: l'OCI sale di %d ma gli investimenti letti salgono di %d: controllare il filing (investimenti non letti?)" % (y, d_oci, d_inv))
+    res["derivati"]["invNonOpBase"] = base
+    res["derivati"]["invNonOpAmpia"] = ampia
+    res["avvisi"] += av[-2:]
 
 FAM = {"d": re.compile(r"Debt|Borrowing|NotesPayable|LoansPayable|CommercialPaper", re.I),
        "l": re.compile(r"Lease", re.I),
@@ -118,7 +145,7 @@ def candidati(gaap, k, noti):
     """tag che non sono nel catalogo ma hanno valori annuali recenti: aiutano a completare il catalogo"""
     out = []
     for tg, o in gaap.items():
-        if tg in noti or not famiglia(k).search(tg): continue
+        if tg in noti or SCARTA.search(tg) or not famiglia(k).search(tg): continue
         v = annuali(o)
         rec = {y: round(x / 1e6) for y, x in v.items() if y >= 2023}
         if rec: out.append((max(abs(x) for x in rec.values()), tg, rec))
@@ -150,6 +177,7 @@ MP = None
 def main(TK):
     global MP
     t0 = time.time()
+    ENDS.clear()
     if MP is None: MP = get("https://www.sec.gov/files/company_tickers.json")
     mp = MP
     cik = next(("%010d" % v["cik_str"] for v in mp.values() if v["ticker"].upper() == TK), None)
@@ -175,8 +203,9 @@ def main(TK):
         if val and max(val) >= 2022 and max(val) < 2025 and min(val) <= 2022:
             res["avvisi"].append("%s: ultimo anno %d (mancano anni recenti)" % (desc, max(val)))
         if k in ("dCur", "dNon", "dTot", "dBrev", "opLiab", "finLiab", "eqMeth", "ltInv", "afsDeb", "eqPriv") and (not val or max(val) < 2025):
-            c = candidati(gaap, k, set(tags))
+            c = candidati(gaap, k, ALLTAGS)
             if c: res["candidati"][k] = c
+    res["fine_anno"] = {y: max(e, key=e.get) for y, e in ENDS.items()}
     deriva(res)
     righe.append(("§", "DERIVATI (regole generali)"))
     righe.append(("Debito totale = quota corrente + non corrente (se manca il totale)", res["derivati"]["dTotCalc"]))
@@ -185,7 +214,10 @@ def main(TK):
     ks = []
     for c in ciks:
         try:
-            sub = get("https://data.sec.gov/submissions/CIK%s.json" % c)["filings"]["recent"]
+            full = get("https://data.sec.gov/submissions/CIK%s.json" % c)
+            if "sic" not in res and full.get("sic"):
+                res["sic"] = full.get("sic"); res["sic_descrizione"] = full.get("sicDescription"); res["chiusura_esercizio"] = full.get("fiscalYearEnd"); res["nome"] = full.get("name")
+            sub = full["filings"]["recent"]
             ks += [(sub["filingDate"][i], sub["accessionNumber"][i], sub["primaryDocument"][i], c) for i, f in enumerate(sub["form"]) if f == "10-K"]
         except Exception as e: print("  %s: elenco depositi non disponibile (%s)" % (c, e))
     ks = sorted(ks, reverse=True)[:6]
@@ -196,6 +228,15 @@ def main(TK):
             t = res["custom"].setdefault(tag, {})
             for y, v in byy.items():
                 if y not in t: t[y] = round(v / 1e6, 1)
+    try: sic = int(res.get("sic") or 0)
+    except ValueError: sic = 0
+    res["ambito"] = "ok"
+    if 6000 <= sic <= 6799:
+        res["ambito"] = "finanziario/immobiliare: le regole su debito e capitale non valgono"
+        res["avvisi"].append("FUORI PORTATA (SIC %s %s)" % (sic, res.get("sic_descrizione")))
+    if not gaap:
+        res["ambito"] = "senza dati us-gaap: probabile emittente estero (20-F)"
+        res["avvisi"].append("FUORI PORTATA: nessun dato us-gaap (probabile 20-F)")
     if not any(res["concetti"].values()): res["avvisi"].append("NESSUN DATO: possibile cambio di CIK (aggiungere l'alias in cik_alias.json)")
     json.dump(res, open(os.path.join(OUT, "sec_%s.json" % TK), "w"), indent=1, ensure_ascii=False)
     out = ["%s (CIK %s) - valori in milioni di dollari" % (TK, cik), "%-62s" % "concetto" + " ".join("%8d" % y for y in ANNI)]
@@ -219,9 +260,9 @@ if __name__ == "__main__":
     for t in TICKERS:
         try:
             main(t); r = main.ultimo; print("OK", t)
-            n = sum(1 for v in r["concetti"].values() if v)
-            rec = sum(1 for v in r["concetti"].values() if v and max(v) >= datetime.date.today().year - 1)
-            cop.append("%-8s concetti con dati: %2d/%d  aggiornati: %2d  avvisi: %d%s" % (t, n, len(r["concetti"]), rec, len(r["avvisi"]), "  <-- VUOTO" if n == 0 else ""))
+            c = r["concetti"]; Y = datetime.date.today().year - 1
+            ha = lambda *ks: "si" if any(any(y >= Y for y in c.get(k, {})) for k in ks) else "NO"
+            cop.append("%-7s %-10s debito:%-3s leasing:%-3s invest:%-3s avvisi:%d  %s" % (t, "SIC " + str(r.get("sic", "?")), ha("dTot", "dNon", "dCur"), ha("opLiab", "opNon", "finLiab", "finNon"), ha("eqPriv", "eqMeth", "afsDeb", "mktNon", "ltInv"), len(r["avvisi"]), "" if r["ambito"] == "ok" else "[" + r["ambito"][:40] + "]"))
         except Exception as e:
             ko.append(t); print("ERRORE", t, e); cop.append("%-8s ERRORE: %s" % (t, str(e)[:80]))
     open(os.path.join(OUT, "_copertura.txt"), "w", encoding="utf-8").write("\n".join(cop) + "\n")
