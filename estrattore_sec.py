@@ -13,7 +13,7 @@ if "@" not in UA:
 TICKERS = [t.upper() for t in sys.argv[1:]] or ["AMZN"]
 OUT = os.environ.get("OUT_DIR", ".")
 os.makedirs(OUT, exist_ok=True)
-ANNI = list(range(2015, 2026))
+ANNI = list(range(2015, datetime.date.today().year + 1))
 
 # concetto -> (descrizione, [tag us-gaap in ordine di priorita'])
 CAT = [
@@ -212,12 +212,18 @@ def main(TK):
         for k, lst in res["candidati"].items():
             for c in lst: out.append("%s: %s %s" % (k, c["tag"], c["valori"]))
     out.append("\nTempo: %d s. File scritto: sec_%s.json" % (time.time() - t0, TK))
-    txt = "\n".join(out); print(txt); open(os.path.join(OUT, "sec_%s_tabella.txt" % TK), "w", encoding="utf-8").write(txt)
+    txt = "\n".join(out); print(txt); main.ultimo = res; open(os.path.join(OUT, "sec_%s_tabella.txt" % TK), "w", encoding="utf-8").write(txt)
 
 if __name__ == "__main__":
-    ko = []
+    ko, cop = [], []
     for t in TICKERS:
-        try: main(t); print("OK", t)
-        except Exception as e: ko.append(t); print("ERRORE", t, e)
+        try:
+            main(t); r = main.ultimo; print("OK", t)
+            n = sum(1 for v in r["concetti"].values() if v)
+            rec = sum(1 for v in r["concetti"].values() if v and max(v) >= datetime.date.today().year - 1)
+            cop.append("%-8s concetti con dati: %2d/%d  aggiornati: %2d  avvisi: %d%s" % (t, n, len(r["concetti"]), rec, len(r["avvisi"]), "  <-- VUOTO" if n == 0 else ""))
+        except Exception as e:
+            ko.append(t); print("ERRORE", t, e); cop.append("%-8s ERRORE: %s" % (t, str(e)[:80]))
+    open(os.path.join(OUT, "_copertura.txt"), "w", encoding="utf-8").write("\n".join(cop) + "\n")
     print("Falliti:", ko or "nessuno")
     if len(ko) == len(TICKERS): sys.exit(1)
