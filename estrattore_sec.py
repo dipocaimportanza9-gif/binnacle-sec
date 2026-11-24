@@ -10,7 +10,9 @@ import os, re, sys, json, gzip, time, datetime, urllib.request
 UA = os.environ.get("SEC_UA", "").strip()
 if "@" not in UA:
     sys.exit('Imposta SEC_UA, ad esempio: SEC_UA="Nome Cognome tua@email.it" python3 estrattore_sec.py AMZN')
-TK = (sys.argv[1] if len(sys.argv) > 1 else "AMZN").upper()
+TICKERS = [t.upper() for t in sys.argv[1:]] or ["AMZN"]
+OUT = os.environ.get("OUT_DIR", ".")
+os.makedirs(OUT, exist_ok=True)
 ANNI = list(range(2015, 2026))
 
 # concetto -> (descrizione, [tag us-gaap in ordine di priorita'])
@@ -94,11 +96,14 @@ def custom_da_ixbrl(html):
         out.setdefault(pref + ":" + tag, {})[int(ctx[cr.group(1)][:4])] = v
     return out
 
-def main():
+MP = None
+def main(TK):
+    global MP
     t0 = time.time()
-    mp = get("https://www.sec.gov/files/company_tickers.json")
+    if MP is None: MP = get("https://www.sec.gov/files/company_tickers.json")
+    mp = MP
     cik = next(("%010d" % v["cik_str"] for v in mp.values() if v["ticker"].upper() == TK), None)
-    if not cik: sys.exit("Ticker non trovato: " + TK)
+    if not cik: raise RuntimeError("Ticker non trovato: " + TK)
     cf = get("https://data.sec.gov/api/xbrl/companyfacts/CIK%s.json" % cik)
     gaap = cf["facts"].get("us-gaap", {})
     res = {"ticker": TK, "cik": cik, "concetti": {}, "tag_usato": {}, "custom": {}}
@@ -123,7 +128,7 @@ def main():
             t = res["custom"].setdefault(tag, {})
             for y, v in byy.items():
                 if y not in t: t[y] = round(v / 1e6, 1)
-    json.dump(res, open("sec_%s.json" % TK, "w"), indent=1, ensure_ascii=False)
+    json.dump(res, open(os.path.join(OUT, "sec_%s.json" % TK), "w"), indent=1, ensure_ascii=False)
     out = ["%s (CIK %s) - valori in milioni di dollari" % (TK, cik), "%-62s" % "concetto" + " ".join("%8d" % y for y in ANNI)]
     for desc, val in righe:
         if desc == "§": out.append("\n--- " + val + " ---"); continue
@@ -132,6 +137,12 @@ def main():
     for tag, byy in sorted(res["custom"].items()):
         out.append("%-62s" % tag[:62] + " ".join(("%8s" % format(round(byy[y]), ",")) if y in byy else "%8s" % "." for y in ANNI))
     out.append("\nTempo: %d s. File scritto: sec_%s.json" % (time.time() - t0, TK))
-    txt = "\n".join(out); print(txt); open("sec_%s_tabella.txt" % TK, "w", encoding="utf-8").write(txt)
+    txt = "\n".join(out); print(txt); open(os.path.join(OUT, "sec_%s_tabella.txt" % TK), "w", encoding="utf-8").write(txt)
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    ko = []
+    for t in TICKERS:
+        try: main(t); print("OK", t)
+        except Exception as e: ko.append(t); print("ERRORE", t, e)
+    print("Falliti:", ko or "nessuno")
+    if len(ko) == len(TICKERS): sys.exit(1)
