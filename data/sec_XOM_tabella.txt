@@ -1,0 +1,45 @@
+XOM (CIK 0002115436) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: quota corrente                                    .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: quota non corrente                                .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .        .        .        .        .        .        .        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                      .        .        .        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                                .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                      .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                      .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                      .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                      .        .        .        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                        .        .        .        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: totale                                       .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+
+Tempo: 0 s. File scritto: sec_XOM.json

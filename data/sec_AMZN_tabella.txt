@@ -1,0 +1,79 @@
+AMZN (CIK 0001018724) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .   25,835   39,099   58,330   69,040   75,639   79,596   89,252
+Leasing operativi: quota corrente                                    .        .        .        .    3,139    4,586    6,349    7,458    8,419   10,546   12,655
+Leasing operativi: quota non corrente                                .        .        .        .   22,696   34,513   51,981   61,582   67,220   69,050   76,597
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .    3,669    5,019    7,199    8,847   10,550   11,961   14,006
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .   26,979   28,434   23,753   15,783   12,109   10,602   12,286
+Leasing finanziari: quota corrente                                   .        .        .        .    9,884   10,374    8,083    4,397    2,032    1,375    1,544
+Leasing finanziari: quota non corrente                               .        .        .        .   17,095   18,060   15,670   11,386   10,077    9,227   10,742
+Capital lease (prima del 2019): quota corrente                   3,000    4,000    5,800    7,720        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                     4,212    5,080    8,438    9,650        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                           7,452    9,406        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                             2,462    3,860    4,799    7,449    9,628   10,642   11,163    7,941    4,384    2,043    1,557
+Beni acquisiti con capital lease (non cash)                      4,717    5,704    9,637   10,615        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  6,517    9,510   22,848   26,666        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                            1,181    1,317    2,427    3,127    3,757        .        .        .        .        .        .
+Impegni: anno 2                                                    897    1,231    2,376    3,070    3,630        .        .        .        .        .        .
+Impegni: anno 3                                                    800    1,106    2,258    2,775    3,226        .        .        .        .        .        .
+Impegni: anno 4                                                    698    1,030    2,039    2,473    2,900        .        .        .        .        .        .
+Impegni: anno 5                                                    616      896    1,813    2,195    2,605        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                    2,325    3,930   11,935   13,026   15,845        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                             238    1,056      100    1,371    1,305    1,155    1,491    2,999    8,494    5,017    2,748
+Debito a lungo termine: non corrente                             8,227    7,694   24,743   23,495   23,414   31,816   48,744   67,150   58,314   52,623   65,648
+Debito a lungo termine: totale                                   8,562    8,838   24,942   24,965   24,820   33,174   50,553   70,542   67,182   58,000   68,836
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .      147      151      455
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .      282    1,500    2,700      603      715      754      989   16,200
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .      614    1,200      659
+Titoli di debito disponibili per la vendita (valore equo)            .        .   22,286        .        .        .        .        .        .        .   45,800
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                     -723     -985     -484   -1,035     -986     -180   -1,376   -4,487   -3,040      -34   28,230
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+amzn:DeferredTaxAssetsOperatingLeaseLiabilities                      .        .        .        .    6,648   10,183   15,399   18,285   19,922   20,921   23,596
+amzn:DeferredTaxLiabilitiesOperatingLeaseAssets                      .        .        .        .    6,331    9,539   14,422   17,140   18,648   19,517   22,177
+amzn:EquityInvestmentDiscountDueToLackOfMarketability                .        .        .        .        .        .      800        .        .        .        .
+amzn:FinancingObligationsCurrent                                     .        .        .        .        .      111      196      266      271      312      358
+amzn:FinancingObligationsFutureMinimumPaymentsDue                    .        .        .        .        .    4,918    8,495    9,032    8,641    9,017    9,615
+amzn:FinancingObligationsFutureMinimumPaymentsDueAfterYearFive       .        .        .        .        .    3,751    6,404    6,712    6,282    6,397    6,651
+amzn:FinancingObligationsFutureMinimumPaymentsDueInFiveYears         .        .        .        .        .      240      417      471      484      540      612
+amzn:FinancingObligationsFutureMinimumPaymentsDueInFourYears         .        .        .        .        .      237      410      464      476      531      601
+amzn:FinancingObligationsFutureMinimumPaymentsDueInThreeYears        .        .        .        .        .      233      419      456      468      523      592
+amzn:FinancingObligationsFutureMinimumPaymentsDueInTwoYears          .        .        .        .        .      230      422      464      462      515      582
+amzn:FinancingObligationsFutureMinimumPaymentsDueNextTwelveMon       .        .        .        .        .      227      423      465      469      511      577
+amzn:FinancingObligationsNoncurrent                                  .        .        .        .        .    3,400    6,200    6,700    6,600    7,100    7,800
+amzn:FinancingObligationsWeightedAverageInterestRate                 .        .        .        .        .        0        0        0        .        0        0
+amzn:LeaseLiability                                                  .        .        .        .   52,814   67,533   82,083   84,823   87,748   90,198  101,538
+amzn:LeaseLiabilityCurrent                                           .        .        .        .   13,023   14,960   14,432   11,855   10,451   11,921   14,199
+amzn:LeaseLiabilityNoncurrent                                        .        .        .        .   39,791   52,573   67,651   72,968   77,297   78,277   87,339
+amzn:LeaseLiabilityPaymentsDue                                       .        .        .        .   60,838   75,270   92,135   99,292  104,883  107,814  121,831
+amzn:LeaseLiabilityUndiscountedExcessAmount                          .        .        .        .    8,024    7,737   10,052   14,469   17,135   17,616   20,293
+amzn:LesseeLeaseNotYetCommencedFutureMinimumPaymentsDue              .        .        .        .        .   28,869   31,155   27,029   38,181        .        .
+amzn:LesseeLeaseNotYetCommencedFutureMinimumPaymentsDueAfterYe       .        .        .        .        .   20,321   21,571   17,237   24,860        .        .
+amzn:LesseeLeaseNotYetCommencedFutureMinimumPaymentsDueInFiveY       .        .        .        .        .    1,951    2,237    2,152    2,979        .        .
+amzn:LesseeLeaseNotYetCommencedFutureMinimumPaymentsDueInFourY       .        .        .        .        .    1,973    2,145    2,160    2,852        .        .
+amzn:LesseeLeaseNotYetCommencedFutureMinimumPaymentsDueInThree       .        .        .        .        .    1,876    2,094    2,185    2,836        .        .
+amzn:LesseeLeaseNotYetCommencedFutureMinimumPaymentsDueInTwoYe       .        .        .        .        .    1,738    1,902    2,043    2,620        .        .
+amzn:LesseeLeaseNotYetCommencedFutureMinimumPaymentsDueNextTwe       .        .        .        .        .    1,010    1,206    1,252    2,034        .        .
+amzn:LongTermDebtIncludingInterest                                   .        .        .        .        .   51,038   74,720  102,396   96,872   85,539  108,202
+amzn:LongTermDebtMaturitiesRepaymentsOfPrincipalAndInterestAft       .        .        .        .        .   35,680   52,784   63,815   60,176   55,831   73,486
+amzn:LongTermDebtMaturitiesRepaymentsOfPrincipalAndInterestInN       .        .        .        .        .    2,187    2,841    5,165   10,616    6,858    5,201
+amzn:LongTermDebtMaturitiesRepaymentsOfPrincipalAndInterestInY       .        .        .        .        .    3,058    3,829   10,399    3,643    4,344    6,381
+amzn:LongTermDebtMaturitiesRepaymentsOfPrincipalAndInterestInY       .        .        .        .        .    4,272    3,400    5,253   10,404    3,644    4,993
+amzn:LongTermDebtMaturitiesRepaymentsOfPrincipalAndInterestInY       .        .        .        .        .    3,219    7,014    7,146    4,858   10,404    6,891
+amzn:LongTermDebtMaturitiesRepaymentsOfPrincipalAndInterestInY       .        .        .        .        .    2,622    4,852   10,618    7,175    4,458   11,250
+amzn:NonmarketableSecuritiesAgreedAdditionalInvestment               .        .        .        .        .        .        .        .        .    2,700        .
+amzn:NonmarketableSecuritiesAgreedAdditionalInvestmentMaximum        .        .        .        .        .        .        .        .    2,750        .        .
+
+Tempo: 3 s. File scritto: sec_AMZN.json
