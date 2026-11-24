@@ -1,0 +1,27 @@
+name: Estrai dati SEC
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+permissions:
+  contents: write
+jobs:
+  estrai:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Estrai (SEC)
+        env:
+          SEC_UA: ${{ secrets.SEC_UA }}
+          OUT_DIR: data
+        run: python estrattore_sec.py $(cat tickers.txt | tr '\n' ' ')
+      - name: Salva i risultati
+        run: |
+          git config user.name "sec-bot"
+          git config user.email "sec-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Aggiornamento dati SEC"
+          git push
