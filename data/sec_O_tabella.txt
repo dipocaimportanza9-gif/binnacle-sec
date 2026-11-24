@@ -1,0 +1,111 @@
+O (CIK 0000726728) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .      122      115      462      440      425      453      430        .
+Leasing operativi: quota corrente                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: quota non corrente                                .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .        .        .        .        .        .        .        .        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        6        6       44       50       44       77      121        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        6        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                    216      202      188      175        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                               15       15       15       15        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                     15       15       15       15        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                     15       15       15       14        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                     15       14       14       14        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                     14       14       14       14        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                      142      129      115      102        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: totale                                   3,650    3,975        .        .        .        .        .        .        .        .        .        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        0      901      702      764       67      517        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                        .        .        0       -8      -17      -55        5       47       74       38      105        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+o:FinancingReceivableAllowanceForCreditLossExcludingAccruedInt       .        .        .        .        .        .        .      933    1,571    1,609    1,575        .
+o:InvestmentInPreferredEquity                                        .        .        .        .        .        .        .        .        .        .      800        .
+o:LesseeOperatingLeaseAndFinanceLeaseLiabilityToBePaid               .        .        .        .        .        .      712      761      751      950    1,091        .
+o:LesseeOperatingLeaseAndFinanceLeaseLiabilityToBePaidAfterYea       .        .        .        .        .        .      514      552      546      743      882        .
+o:LesseeOperatingLeaseAndFinanceLeaseLiabilityToBePaidYearFive       .        .        .        .        .        .       38       35       33       35       37        .
+o:LesseeOperatingLeaseAndFinanceLeaseLiabilityToBePaidYearFour       .        .        .        .        .        .       40       46       37       36       38        .
+o:LesseeOperatingLeaseAndFinanceLeaseLiabilityToBePaidYearOne        .        .        .        .        .        .       40       42       45       44       52        .
+o:LesseeOperatingLeaseAndFinanceLeaseLiabilityToBePaidYearThre       .        .        .        .        .        .       40       42       47       42       39        .
+o:LesseeOperatingLeaseAndFinanceLeaseLiabilityToBePaidYearTwo        .        .        .        .        .        .       40       44       42       50       44        .
+o:NumberOfPropertiesSubjectToDirectFinancingLeases                   .        .        .        .        .        .        0        0        .        .        .        .
+o:RealEstateAndAccumulatedDepreciationNetDebtPremiumsOnMortgag       .        .        .        .        .        2       29       12       -1        0        0        .
+o:RealEstateInvestmentPropertyNetIncludingDisposalGroupAssets        .        .        .        .   16,497   17,485   31,989        .        .        .        .        .
+o:RealEstatePropertiesAcquiredLeaseIntangibleLiabilities             .        .        .        .        .        .        .        .        .        .       15        .
+o:RealEstatePropertiesAcquiredOtherAssetsFinanceLeaseRightOfUs       .        .        .        .        .        .        .        .        .        .       89        .
+o:RealEstatePropertiesAcquiredOtherAssetsGroundLeasesRightOfUs       .        .        .        .        .        .        .        .        .        .        8        .
+o:RealEstatePropertiesAcquiredOtherLiabilitiesDeferredRentOnBe       .        .        .        .        .        .        .        .        .        .       15        .
+o:RealEstatePropertiesAcquiredOtherLiabilitiesFinanceLeaseLiab       .        .        .        .        .        .        .        .        .        .        2        .
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+dCur: NotesPayable {2023: 18602, 2024: 22658, 2025: 25032}
+dCur: ProceedsFromNotesPayable {2023: 4240, 2024: 2658, 2025: 2892}
+dCur: LoansPayable {2023: 1332, 2024: 2358, 2025: 1702}
+dCur: RepaymentsOfUnsecuredDebt {2023: 0, 2024: 250, 2025: 1139}
+dCur: RepaymentsOfNotesPayable {2023: 0, 2024: 850, 2025: 1050}
+dCur: ProceedsFromIssuanceOfSeniorLongTermDebt {2023: 1029, 2024: 0, 2025: 407}
+dNon: NotesPayable {2023: 18602, 2024: 22658, 2025: 25032}
+dNon: ProceedsFromNotesPayable {2023: 4240, 2024: 2658, 2025: 2892}
+dNon: LoansPayable {2023: 1332, 2024: 2358, 2025: 1702}
+dNon: RepaymentsOfUnsecuredDebt {2023: 0, 2024: 250, 2025: 1139}
+dNon: RepaymentsOfNotesPayable {2023: 0, 2024: 850, 2025: 1050}
+dNon: ProceedsFromIssuanceOfSeniorLongTermDebt {2023: 1029, 2024: 0, 2025: 407}
+dTot: NotesPayable {2023: 18602, 2024: 22658, 2025: 25032}
+dTot: ProceedsFromNotesPayable {2023: 4240, 2024: 2658, 2025: 2892}
+dTot: LoansPayable {2023: 1332, 2024: 2358, 2025: 1702}
+dTot: RepaymentsOfUnsecuredDebt {2023: 0, 2024: 250, 2025: 1139}
+dTot: RepaymentsOfNotesPayable {2023: 0, 2024: 850, 2025: 1050}
+dTot: ProceedsFromIssuanceOfSeniorLongTermDebt {2023: 1029, 2024: 0, 2025: 407}
+eqPriv: RealEstateInvestmentPropertyAtCost {2023: 49586, 2024: 58295, 2025: 62192}
+eqPriv: RealEstateInvestmentPropertyNet {2023: 43514, 2024: 50914, 2025: 53414}
+eqPriv: InvestmentBuildingAndBuildingImprovements {2023: 34657, 2024: 40975, 2025: 43824}
+eqPriv: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 6072, 2024: 7381, 2025: 8779}
+eqPriv: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 1172, 2024: 1230, 2025: 1256}
+eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 40}
+eqMeth: RealEstateInvestmentPropertyAtCost {2023: 49586, 2024: 58295, 2025: 62192}
+eqMeth: RealEstateInvestmentPropertyNet {2023: 43514, 2024: 50914, 2025: 53414}
+eqMeth: InvestmentBuildingAndBuildingImprovements {2023: 34657, 2024: 40975, 2025: 43824}
+eqMeth: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 6072, 2024: 7381, 2025: 8779}
+eqMeth: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 1172, 2024: 1230, 2025: 1256}
+eqMeth: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 40}
+afsDeb: RealEstateInvestmentPropertyAtCost {2023: 49586, 2024: 58295, 2025: 62192}
+afsDeb: RealEstateInvestmentPropertyNet {2023: 43514, 2024: 50914, 2025: 53414}
+afsDeb: InvestmentBuildingAndBuildingImprovements {2023: 34657, 2024: 40975, 2025: 43824}
+afsDeb: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 6072, 2024: 7381, 2025: 8779}
+afsDeb: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 1172, 2024: 1230, 2025: 1256}
+afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 40}
+ltInv: RealEstateInvestmentPropertyAtCost {2023: 49586, 2024: 58295, 2025: 62192}
+ltInv: RealEstateInvestmentPropertyNet {2023: 43514, 2024: 50914, 2025: 53414}
+ltInv: InvestmentBuildingAndBuildingImprovements {2023: 34657, 2024: 40975, 2025: 43824}
+ltInv: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 6072, 2024: 7381, 2025: 8779}
+ltInv: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 1172, 2024: 1230, 2025: 1256}
+ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 40}
+
+Tempo: 2 s. File scritto: sec_O.json

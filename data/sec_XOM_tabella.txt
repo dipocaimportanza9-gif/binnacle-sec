@@ -1,54 +1,54 @@
 XOM (CIK 0002115436) - valori in milioni di dollari
-concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
 
 --- LEASING OPERATIVI (dal 2019) ---
-Leasing operativi: debito totale                                     .        .        .        .        .        .    5,190    5,594    6,010    6,478    6,834
-Leasing operativi: quota corrente                                    .        .        .        .        .        .    1,367    1,527    1,617    1,852    1,942
-Leasing operativi: quota non corrente                                .        .        .        .        .        .    3,823    4,067    4,393    4,626    4,892
-Leasing operativi: costo (affitti) dell'anno                     3,929        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: debito totale                                     .        .        .        .        .        .    5,190    5,594    6,010    6,478    6,834        .
+Leasing operativi: quota corrente                                    .        .        .        .        .        .    1,367    1,527    1,617    1,852    1,942        .
+Leasing operativi: quota non corrente                                .        .        .        .        .        .    3,823    4,067    4,393    4,626    4,892        .
+Leasing operativi: costo (affitti) dell'anno                     3,929        .        .        .        .        .        .        .        .        .        .        .
 
 --- LEASING FINANZIARI / CAPITAL LEASE ---
-Leasing finanziari: debito totale                                    .        .        .        .        .        .    2,007    1,589    2,042    2,361    2,659
-Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .
-Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .
-Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .
-Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .
-Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .
-Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .
-Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: debito totale                                    .        .        .        .        .        .    2,007    1,589    2,042    2,361    2,659        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
-Impegni: totale                                                  4,877    3,811    4,290    6,112        .        .        .        .        .        .        .
-Impegni: entro 1 anno                                            1,653    1,103      936    1,156        .        .        .        .        .        .        .
-Impegni: anno 2                                                  1,003      682      668      985        .        .        .        .        .        .        .
-Impegni: anno 3                                                    555      451      498      765        .        .        .        .        .        .        .
-Impegni: anno 4                                                    344      326      367      549        .        .        .        .        .        .        .
-Impegni: anno 5                                                    265      235      300      454        .        .        .        .        .        .        .
-Impegni: oltre il quinto anno                                    1,057    1,014    1,521    2,203        .        .        .        .        .        .        .
+Impegni: totale                                                  4,877    3,811    4,290    6,112        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                            1,653    1,103      936    1,156        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                  1,003      682      668      985        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                    555      451      498      765        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                    344      326      367      549        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                    265      235      300      454        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                    1,057    1,014    1,521    2,203        .        .        .        .        .        .        .        .
 
 --- DEBITO FINANZIARIO ---
-Debito a lungo termine: quota corrente                             558    2,960    4,766    4,070    1,617    2,930    2,392      181    4,009    4,892    6,200
-Debito a lungo termine: non corrente                            18,700   27,700   23,100   20,538   26,342   47,182   43,428   40,559   37,483   36,755   34,241
-Debito a lungo termine: totale                                       .        .        .        .        .        .        .        .        .        .        .
-Debito corrente totale (con debiti a breve)                     18,762   13,830   17,930   17,258   20,578   20,458    4,276      634    4,090    4,955    9,296
-Debiti finanziari a breve                                       17,973   10,727   13,049   12,863   18,561   17,306    1,608       74       75        0    3,059
+Debito a lungo termine: quota corrente                             558    2,960    4,766    4,070    1,617    2,930    2,392      181    4,009    4,892    6,200        .
+Debito a lungo termine: non corrente                            18,700   27,700   23,100   20,538   26,342   47,182   43,428   40,559   37,483   36,755   34,241        .
+Debito a lungo termine: totale                                       .        .        .        .        .        .        .        .        .        .        .        .
+Debito corrente totale (con debiti a breve)                     18,762   13,830   17,930   17,258   20,578   20,458    4,276      634    4,090    4,955    9,296        .
+Debiti finanziari a breve                                       17,973   10,727   13,049   12,863   18,561   17,306    1,608       74       75        0    3,059        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .
-Partecipazioni a patrimonio netto (equity method)               20,337   20,810   24,354   26,382   29,291   29,772   31,225   34,522   34,080   34,010   32,653
-Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .
-Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .
-Investimenti a lungo termine (voce di bilancio)                      .        .        .        .      190      143      138      278      177      343      271
-OCI accumulato (utili/perdite non realizzati)                  -23,511  -22,239  -16,262  -19,564  -19,493  -16,705  -13,764  -13,270  -11,989  -14,619  -10,863
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)               20,337   20,810   24,354   26,382   29,291   29,772   31,225   34,522   34,080   34,010   32,653        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .      190      143      138      278      177      343      271        .
+OCI accumulato (utili/perdite non realizzati)                  -23,511  -22,239  -16,262  -19,564  -19,493  -16,705  -13,764  -13,270  -11,989  -14,619  -10,863        .
 
 --- DERIVATI (regole generali) ---
-Debito totale = quota corrente + non corrente (se manca il tot  19,258   30,660   27,866   24,608   27,959   50,112   45,820   40,740   41,492   41,647   40,441
-Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .
+Debito totale = quota corrente + non corrente (se manca il tot  19,258   30,660   27,866   24,608   27,959   50,112   45,820   40,740   41,492   41,647   40,441        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-xom:AccountsAndFinancingReceivableAndOffBalanceSheetCreditLiab       .        .        .        .      503      623        .        .        .        .        .
-xom:LongTermDebtInUsDollars                                          .        .        .        .        .   41,026   37,611   34,507   32,510   31,340   26,400
-xom:ReservesForLongTermReceivablesAndMiscellaneousInvestments        .        .        .        .    5,643    6,115    5,974    1,623    1,966    2,433    2,500
+xom:AccountsAndFinancingReceivableAndOffBalanceSheetCreditLiab       .        .        .        .      503      623        .        .        .        .        .        .
+xom:LongTermDebtInUsDollars                                          .        .        .        .        .   41,026   37,611   34,507   32,510   31,340   26,400        .
+xom:ReservesForLongTermReceivablesAndMiscellaneousInvestments        .        .        .        .    5,643    6,115    5,974    1,623    1,966    2,433    2,500        .
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo

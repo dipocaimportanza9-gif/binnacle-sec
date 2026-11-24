@@ -1,0 +1,108 @@
+PLTR (CIK 0001321655) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .        .      259      260      249      229      239      229        .
+Leasing operativi: quota corrente                                    .        .        .        .        .       29       40       45       54       44       46        .
+Leasing operativi: quota non corrente                                .        .        .        .        .      230      220      204      175      195      184        .
+Leasing operativi: costo (affitti) dell'anno                         .        .        .       44       38       54       51       56       62       58       57        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                      .        .        .        .      375        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                                .        .        .        .       59        .        .        .        .        .        .        .
+Impegni: anno 2                                                      .        .        .        .       49        .        .        .        .        .        .        .
+Impegni: anno 3                                                      .        .        .        .       46        .        .        .        .        .        .        .
+Impegni: anno 4                                                      .        .        .        .       45        .        .        .        .        .        .        .
+Impegni: anno 5                                                      .        .        .        .       42        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                        .        .        .        .      134        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: non corrente                                 .        .        .        .      396      198        0        .        .        .        .        .
+Debito a lungo termine: totale                                       .        .        .        .        .        .        .        .        .        .        .        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .       24       33       65      170        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        0    2,835    3,111    5,730        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                        .        .        .        .       -1       -3       -2       -5        1       -6       14        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+pltr:DeferredTaxAssetsLeaseLiability                                 .        .        .        .        .        .       60       58       54       60       55        .
+pltr:LeaseRightOfUseAsset                                            .        .        .        .        .        .      217      200      183      201      200        .
+pltr:LesseeOperatingLeaseLeaseNotYetCommencedUndiscountedAmoun       .        .        .        .        .        .        .        8        .        .        .        .
+pltr:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeD       .        .        .        .        .        .        .      193      174      222      221        .
+pltr:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeD       .        .        .        .        .        .        .       40       31       86       82        .
+pltr:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeD       .        .        .        .        .        .        .       13        9        8       23        .
+pltr:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeD       .        .        .        .        .        .        .       25       14       13       15        .
+pltr:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeD       .        .        .        .        .        .        .       40       51       47       48        .
+pltr:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeD       .        .        .        .        .        .        .       37       26       27       17        .
+pltr:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeD       .        .        .        .        .        .        .       38       43       40       36        .
+pltr:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeL       .        .        .        .        .        .        .        8        .        .        .        .
+pltr:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeU       .        .        .        .        .        .        .       56       47       69       63        .
+pltr:OperatingLeaseLiabilityNetOfSubleaseIncome                      .        .        .        .        .        .        .      129      127      153      158        .
+pltr:OperatingLeasePaymentsToBeReceived                              .        .        .        .        .        .        .      121      102       86       71        .
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 277, 2024: 308, 2025: 293}
+finLiab: OperatingLeaseLiability {2023: 229, 2024: 239, 2025: 229}
+finLiab: OperatingLeaseRightOfUseAsset {2023: 183, 2024: 201, 2025: 200}
+finLiab: OperatingLeaseLiabilityNoncurrent {2023: 175, 2024: 195, 2025: 183}
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 62, 2024: 107, 2025: 92}
+finLiab: LessorOperatingLeasePaymentsToBeReceived {2023: 102, 2024: 86, 2025: 71}
+dCur: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
+dCur: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
+dCur: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
+dCur: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 695, 2024: 0, 2025: 280}
+dCur: DebtAndEquitySecuritiesUnrealizedGainLoss {2023: -13, 2024: -19, 2025: -21}
+dCur: AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax {2023: 5, 2024: 1, 2025: 9}
+dNon: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
+dNon: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
+dNon: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
+dNon: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 695, 2024: 0, 2025: 280}
+dNon: DebtAndEquitySecuritiesUnrealizedGainLoss {2023: -13, 2024: -19, 2025: -21}
+dNon: AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax {2023: 5, 2024: 1, 2025: 9}
+dTot: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
+dTot: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
+dTot: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
+dTot: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 695, 2024: 0, 2025: 280}
+dTot: DebtAndEquitySecuritiesUnrealizedGainLoss {2023: -13, 2024: -19, 2025: -21}
+dTot: AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax {2023: 5, 2024: 1, 2025: 9}
+dBrev: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
+dBrev: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
+dBrev: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
+dBrev: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 695, 2024: 0, 2025: 280}
+dBrev: DebtAndEquitySecuritiesUnrealizedGainLoss {2023: -13, 2024: -19, 2025: -21}
+dBrev: AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax {2023: 5, 2024: 1, 2025: 9}
+eqMeth: PaymentsToAcquireMarketableSecurities {2023: 5636, 2024: 5396, 2025: 7702}
+eqMeth: MarketableSecuritiesCurrent {2023: 2843, 2024: 3131, 2025: 5753}
+eqMeth: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
+eqMeth: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
+eqMeth: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 2889, 2024: 5074, 2025: 5026}
+eqMeth: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
+ltInv: PaymentsToAcquireMarketableSecurities {2023: 5636, 2024: 5396, 2025: 7702}
+ltInv: MarketableSecuritiesCurrent {2023: 2843, 2024: 3131, 2025: 5753}
+ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
+ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
+ltInv: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 2889, 2024: 5074, 2025: 5026}
+ltInv: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
+
+Tempo: 3 s. File scritto: sec_PLTR.json

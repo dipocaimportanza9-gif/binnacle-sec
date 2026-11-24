@@ -1,0 +1,93 @@
+BA (CIK 0000012927) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .    1,230        .    1,539    1,581    1,814    2,094    2,267        .
+Leasing operativi: quota corrente                                    .        .        .        .      252        .      268      276      296      324      335        .
+Leasing operativi: quota non corrente                                .        .        .        .      978        .    1,271    1,305    1,518    1,770    1,932        .
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .      326      360      380      421      457      530      601        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .      239      250        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .       61       65       77       86      111        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                      53       57       52       57       71       65        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  1,515    1,475    1,355    1,838        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                              240      233      216      272        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                    217      210      201      232        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                    182      182      157      194        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                    157      135      115      165        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                    117       95       96      126        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                        .        .        .      849        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                           1,234      384    1,335    3,190    7,340    1,693    1,296    5,190    5,204    1,278    8,461        .
+Debito a lungo termine: non corrente                             8,730    9,568    9,782   10,657   19,962   61,890   56,806   51,811   47,103   52,586   45,637        .
+Debito a lungo termine: totale                                       .        .        .        .   20,964   63,380   57,921   56,794   52,055   53,625   53,848        .
+Debito corrente totale (con debiti a breve)                      1,234      384    1,335    3,190    7,340    1,693    1,296    5,190    5,204    1,278    8,461        .
+Debiti finanziari a breve                                            .        .      600    1,895    6,109        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                1,230    1,242    1,214    1,048    1,031      936      930      948      966      948      997        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                  1,284    1,317    1,260    1,087    1,092    1,016      975      983    1,035      999    1,048        .
+OCI accumulato (utili/perdite non realizzati)                  -12,748  -13,623  -16,373  -15,083  -16,153  -17,133  -11,659   -9,550  -10,305  -10,915  -10,277        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot   9,964    9,952   11,117   13,847        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+ba:CapitalInvestmentAmount                                           .        .        .        .        .        .        .        .        .      500        .        .
+ba:CurrentPortionOfFinancingReceivablesNet                           .        .        .        .        .        .        .      154       99      207        .        .
+ba:CustomerFinancingBalance                                          .        .        .        .    2,298    2,037    1,812    1,604        .        .        .        .
+ba:CustomerFinancingCurrent                                          .        .        .        .      162      101      117      154        .        .        .        .
+ba:CustomerFinancingNoncurrent                                       .        .        .        .    2,136    1,936    1,695    1,450        .        .        .        .
+ba:FinancingReceivablesAndOperatingLeaseEquipmentBalance             .        .        .        .        .        .        .    1,604      959      521      241        .
+ba:FinancingReceivablesAndOperatingLeaseEquipmentNet                 .        .        .        .        .        .        .    1,450      860      314      241        .
+ba:GrossCustomerFinancingAssets                                      .        .        .        .    2,306    2,054        .        .        .        .        .        .
+ba:LesseeOperatingLeaseLeaseNotYetCommencedValue                     .        .        .        .        .      226      265      420      430        .        .        .
+ba:LossContingencySettlementAgreementMinimumInvestmentCommitme       .        .        .        .        .        .        .        .        .      455        .        .
+ba:NumberOfInvestmentFunds                                           .        .        .        .        .        .        .        .        0        0        0        .
+ba:OffsettingCapitalLeaseObligationAndIRBAsset                       .        .        .        .        .        .        .      271      333      355    1,054        .
+ba:OffsettingCapitalLeaseObligationAndIrbAsset                       .        .        .        .      271        .      271        .        .        .        .        .
+ba:SalesTypeAndDirectFinancingLeasesDeferredIncome                   .        .        .        .        .      136      265      206        .        .        .        .
+ba:SalesTypeAndDirectFinancingLeasesNetLeasePaymentReceivable        .        .        .        .        .        .        .      718      535      203        .        .
+ba:SalesTypeAndDirectFinancingLeasesResidualValueOfLeasedAsset       .        .        .        .        .      299      110       86       21        0        .        .
+ba:SalesTypeAndDirectFinancingLeasesUnearnedIncome                   .        .        .        .        .        .        .      206      162       26        .        .
+ba:SalesTypeDirectFinancingLeasesResidualValueOfLeasedAsset          .        .        .        .        .      136        .        .        .        .        .        .
+ba:TotalFinancingReceivables                                         .        .        .        .    1,472    1,339    1,356    1,189      658      288        .        .
+ba:TotalFinancingReceivablesNet                                      .        .        .        .        .    1,322    1,338    1,134      607      281        .        .
+
+--- AVVISI ---
+Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+dBrev: DebtAndCapitalLeaseObligations {2023: 52307, 2024: 53864, 2025: 54098}
+dBrev: LongTermDebt {2023: 52055, 2024: 53625, 2025: 53848}
+dBrev: DebtInstrumentFairValue {2023: 51039, 2024: 51089, 2025: 53769}
+dBrev: LongTermDebtAndCapitalLeaseObligations {2023: 47103, 2024: 52586, 2025: 45637}
+dBrev: ProceedsFromIssuanceOfDebt {2023: 75, 2024: 10161, 2025: 165}
+dBrev: RepaymentsOfDebt {2023: 5216, 2024: 8673, 2025: 3621}
+eqPriv: PaymentsToAcquireInvestments {2023: 16448, 2024: 13856, 2025: 51938}
+eqPriv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 15739, 2024: 4743, 2025: 46628}
+eqPriv: Investments {2023: 4309, 2024: 13480, 2025: 19527}
+eqPriv: ShortTermInvestments {2023: 3274, 2024: 12481, 2025: 18479}
+eqPriv: OtherShortTermInvestments {2023: 2753, 2024: 11960, 2025: 17230}
+eqPriv: LongTermInvestments {2023: 1035, 2024: 999, 2025: 1048}
+afsDeb: PaymentsToAcquireInvestments {2023: 16448, 2024: 13856, 2025: 51938}
+afsDeb: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 15739, 2024: 4743, 2025: 46628}
+afsDeb: Investments {2023: 4309, 2024: 13480, 2025: 19527}
+afsDeb: ShortTermInvestments {2023: 3274, 2024: 12481, 2025: 18479}
+afsDeb: OtherShortTermInvestments {2023: 2753, 2024: 11960, 2025: 17230}
+afsDeb: LongTermInvestments {2023: 1035, 2024: 999, 2025: 1048}
+
+Tempo: 3 s. File scritto: sec_BA.json

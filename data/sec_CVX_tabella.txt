@@ -1,0 +1,86 @@
+CVX (CIK 0000093410) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .    3,885    3,906    3,503    4,031    5,234    5,070    5,985        .
+Leasing operativi: quota corrente                                    .        .        .        .    1,277    1,291      995    1,111    1,538    1,519    1,831        .
+Leasing operativi: quota non corrente                                .        .        .        .    2,608    2,615    2,508    2,920    3,696    3,551    4,154        .
+Leasing operativi: costo (affitti) dell'anno                     1,034      938      721      816    2,621    2,551    2,199    2,359    2,984    3,447    3,719        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .      300      633      497      448      634      604    1,445        .
+Leasing finanziari: quota corrente                                   .        .        .        .       18      186       48       45       60       58      786        .
+Leasing finanziari: quota non corrente                               .        .        .        .      282      447      449      403      574      546      659        .
+Capital lease (prima del 2019): quota corrente                      17       14       15       18        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                        80       93       94      127        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .       94      127        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .       24       34      193       44       42       67      136        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  3,348    2,481    2,895    2,159        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                              846      615      693      540        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                    689      554      628      492        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                    554      387      474      378        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                    420      298      339      242        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                    311      235      223      166        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                      528      392      538      341        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                           1,486    6,253    6,720    5,000    5,054    2,600    4,946    2,694    1,650    4,012    2,345        .
+Debito a lungo termine: non corrente                            33,542   35,193   33,477   28,733   23,691   42,767   31,113   21,375   20,307   20,135   39,781        .
+Debito a lungo termine: totale                                  27,071   32,490   30,234   23,730   18,730   25,676   25,676   21,375   20,307   20,135   39,781        .
+Debito corrente totale (con debiti a breve)                     12,927   19,840   15,192   15,626   13,032   11,373    8,015    6,014    5,072   12,656   10,918        .
+Debiti finanziari a breve                                        4,927   10,840    5,192    5,726    3,282    1,548      256    1,964      529    4,406      977        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)               26,578   29,789   32,105   35,261   38,402   38,756   40,357   44,610   46,113   46,618   43,037        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                   -4,291   -3,843   -3,589   -3,544   -4,990   -5,612   -3,889   -2,798   -2,960   -2,760   -2,464        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+cvx:CurrentMaturitiesOfLongTermFinanceLeases                         .        .        .        .        .        .       48       45       60       58      786        .
+cvx:CurrentMaturitiesofLongTermFinanceLeases                         .        .        .        .       18      186       48        .        .        .        .        .
+cvx:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .        .        .        .       31       23       19       14       45        .
+cvx:DebtInstrumentUnamortizedDiscountPremiumandDebtIssuanceCos       .        .        .        .       17      102       31        .        .        .        .        .
+cvx:DeferredTaxAssetsOperatingLease                                  .        .        .        .    1,211    1,234    1,255    1,134    1,479    1,352    1,886        .
+cvx:DeferredTaxLiabilitiesInvestmentsAndOther                        .        .        .        .        .        .        .        .        .    5,254    6,668        .
+cvx:LesseeCashFlowsForOperatingLeaseLeaseNotYetCommenced             .        .        .        .        .        .        .        .      232        .        .        .
+cvx:LongTermDebtCurrentMaturitiesNetOfUnamortizedDiscountsAndI       .        .        .        .        .        .    4,946    2,699    1,667    4,012    2,345        .
+cvx:LongtermDebtCurrentMaturitiesNetofUnamortizedDiscountsandI       .        .        .        .    5,054    2,600    4,946        .        .        .        .        .
+cvx:PercentOfLeaseLiabilitiesRecognizedWhenCompanyIsSoleSignat       .        .        .        .        .        0        0        0        .        .        0        .
+cvx:PercentOfRightOfUseAssetsRecognizedWhenCompanyIsSoleSignat       .        .        .        .        .        .        .        .        0        0        .        .
+cvx:RedeemableLongTermDebt                                           .        .        .        .    3,078    2,960    2,959    2,942    2,876    3,069    3,049        .
+cvx:ShortTermDebtReclassifiedToLongTermDebtAmount                    .        .        .        .        .        .        .    4,050    4,543    8,250    9,941        .
+
+--- AVVISI ---
+Il tag del debito include i leasing finanziari negli anni 2018-2025: non sommarli di nuovo
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+eqPriv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 46812, 2024: 47438, 2025: 43867}
+eqPriv: EquityMethodInvestments {2023: 46113, 2024: 46618, 2025: 43037}
+eqPriv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 34359, 2024: 35349, 2025: 32062}
+eqPriv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 29584, 2024: 27506, 2025: 19743}
+eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 2025: 5282}
+eqPriv: IncomeLossFromEquityMethodInvestments {2023: 5131, 2024: 4596, 2025: 3000}
+afsDeb: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 46812, 2024: 47438, 2025: 43867}
+afsDeb: EquityMethodInvestments {2023: 46113, 2024: 46618, 2025: 43037}
+afsDeb: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 34359, 2024: 35349, 2025: 32062}
+afsDeb: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 29584, 2024: 27506, 2025: 19743}
+afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 2025: 5282}
+afsDeb: IncomeLossFromEquityMethodInvestments {2023: 5131, 2024: 4596, 2025: 3000}
+ltInv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 46812, 2024: 47438, 2025: 43867}
+ltInv: EquityMethodInvestments {2023: 46113, 2024: 46618, 2025: 43037}
+ltInv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 34359, 2024: 35349, 2025: 32062}
+ltInv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 29584, 2024: 27506, 2025: 19743}
+ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 2025: 5282}
+ltInv: IncomeLossFromEquityMethodInvestments {2023: 5131, 2024: 4596, 2025: 3000}
+
+Tempo: 2 s. File scritto: sec_CVX.json

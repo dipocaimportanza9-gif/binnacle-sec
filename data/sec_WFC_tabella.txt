@@ -1,0 +1,94 @@
+WFC (CIK 0000072971) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .    5,297    4,962    4,476    4,465    4,060    4,423    4,162        .
+Leasing operativi: quota corrente                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: quota non corrente                                .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: costo (affitti) dell'anno                     1,300    1,300    1,300    1,300    1,212    1,149    1,048    1,022      990      971      968        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               8        7       39        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  6,702    6,869    6,585    6,054        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                            1,131    1,195    1,172    1,174        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                  1,026    1,095    1,095    1,056        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                    902      968      961      880        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                    781      813      776      713        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                    628      624      605      577        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                    2,234    2,174    1,976    1,654        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: totale                                 199,536  255,077  225,020  229,044  228,191  212,950  160,689  174,870  207,588  173,078  174,712        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                       97,528   96,781  103,256  105,787  104,512   58,999   34,409   51,145   89,559    2,704   18,323        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)               13,647   15,708   16,352        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)      265,721  307,153  276,407  269,912  263,459  220,392  177,244        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                      297   -3,137   -2,144   -6,336   -1,311      214   -1,702  -13,362  -11,580  -12,176   -6,673        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: InterestAndFeeIncomeLoansAndLeasesHeldInPortfolio {2023: 57155, 2024: 57895, 2025: 54737}
+finLiab: NetInvestmentInLease {2023: 16423, 2024: 16413, 2025: 15543}
+finLiab: SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceived {2023: 15142, 2024: 15290, 2025: 14719}
+finLiab: SalesTypeAndDirectFinancingLeasesLeaseReceivable {2023: 15142, 2024: 15290, 2025: 14719}
+finLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization {2023: 9266, 2024: 10297, 2025: 11395}
+finLiab: PropertySubjectToOrAvailableForOperatingLeaseNet {2023: 5558, 2024: 5286, 2025: 4999}
+dCur: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
+dCur: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
+dCur: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
+dCur: DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingAfter10Years {2023: 244385, 2024: 217381, 2025: 200693}
+dCur: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 130448, 2024: 162978, 2025: 213573}
+dCur: HeldToMaturitySecuritiesDebtMaturitiesRollingAfterTenYearsFairValue {2023: 209073, 2024: 176240, 2025: 168450}
+dNon: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
+dNon: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
+dNon: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
+dNon: DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingAfter10Years {2023: 244385, 2024: 217381, 2025: 200693}
+dNon: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 130448, 2024: 162978, 2025: 213573}
+dNon: HeldToMaturitySecuritiesDebtMaturitiesRollingAfterTenYearsFairValue {2023: 209073, 2024: 176240, 2025: 168450}
+eqPriv: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 216600, 2024: 288700, 2025: 469200}
+eqPriv: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
+eqPriv: SecuritiesLoanedAndSecuritiesSoldUnderAgreementToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 106060, 2024: 149427, 2025: 330040}
+eqPriv: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 103300, 2024: 142200, 2025: 309300}
+eqPriv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
+eqPriv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
+eqMeth: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 216600, 2024: 288700, 2025: 469200}
+eqMeth: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
+eqMeth: SecuritiesLoanedAndSecuritiesSoldUnderAgreementToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 106060, 2024: 149427, 2025: 330040}
+eqMeth: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 103300, 2024: 142200, 2025: 309300}
+eqMeth: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
+eqMeth: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
+afsDeb: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 216600, 2024: 288700, 2025: 469200}
+afsDeb: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
+afsDeb: SecuritiesLoanedAndSecuritiesSoldUnderAgreementToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 106060, 2024: 149427, 2025: 330040}
+afsDeb: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 103300, 2024: 142200, 2025: 309300}
+afsDeb: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
+afsDeb: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
+ltInv: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 216600, 2024: 288700, 2025: 469200}
+ltInv: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
+ltInv: SecuritiesLoanedAndSecuritiesSoldUnderAgreementToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 106060, 2024: 149427, 2025: 330040}
+ltInv: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 103300, 2024: 142200, 2025: 309300}
+ltInv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
+ltInv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
+
+Tempo: 0 s. File scritto: sec_WFC.json

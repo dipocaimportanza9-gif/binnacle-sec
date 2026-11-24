@@ -1,0 +1,111 @@
+SNOW (CIK 0001640147) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .        .        .      204      206      252      288      414      461
+Leasing operativi: quota corrente                                    .        .        .        .        .       18       20       25       27       34       36       50
+Leasing operativi: quota non corrente                                .        .        .        .        .      193      185      181      224      254      378      412
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .        3       28       34       36       46       53       60       66
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                                .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                        .        .        .        .        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: totale                                       .        .        .        .        .        .        .        .        .        .        .        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .       41      171      174      190      281      359
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        0        5        5        6        5
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .      330    4,253    4,023    4,141    3,000    2,665    1,956
+Titoli di mercato non correnti                                       .        .        .        .        .       24    1,165    1,256    1,073      916      656      755
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                        .        .        .        .        .        0        0      -16      -38       -8       -2        3
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAccumulat       .        .        .        .        .        .        .        0        3        3        3        6
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAccumulat       .        .        .        .        .        .        .       16       39        8        2        0
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAmortized       .        .        .        .        .        .        .    4,883    4,716    4,337    4,916    3,950
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleContinuou       .        .        .        .        .        .        .        9      969      514        .        .
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleContinuou       .        .        .        .        .        .        .        0       24        6        .        .
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleContinuou       .        .        .        .        .        .        .    3,517    2,117    1,734        .        .
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleContinuou       .        .        .        .        .        .        .       16       15        3        .        .
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleFairValue       .        .        .        .        .        .        .    4,868    4,680    4,332    4,916    3,956
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleUnrealize       .        .        .        .        .        .        .    3,526    3,087    2,248        .        .
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleUnrealize       .        .        .        .        .        .        .       16       39        8        .        .
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleUnrealize       .        .        .        .        .        .        .        .        .        8        .        .
+snow:DebtSecuritiesAvailableForSaleFairValueMaturityAllocatedA       .        .        .        .        .        .        .        .    1,073      916      656      755
+snow:DebtSecuritiesAvailableForSaleWithoutReadilyDeterminableF       .        .        .        .        .        .        .        2        2        2        1        .
+snow:DebtSecuritiesWithoutReadilyDeterminableFairValueAmount         .        .        .        .        .        .        .        .        .        .        1       10
+snow:DeferredTaxAssetsLeaseLiability                                 .        .        .        .        .        .        .       49       55       54      104      113
+snow:DeferredTaxLiabilitiesOperatingLeaseRightOfUseAsset             .        .        .        .        .        .        .       48       54       49       95       73
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncome        .        .        .        .        .        .        .        .      290      330      530      564
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeA       .        .        .        .        .        .        .        .      142      133      261      216
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .        .        .       30       37       66       72
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .        .        .       32       39       55       74
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .        .        .       20       39       16       67
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .        .        .       32       41       67       62
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .        .        .       34       42       64       74
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 337, 2024: 365, 2025: 557, 2026: 591}
+finLiab: OperatingLeaseLiability {2023: 252, 2024: 288, 2025: 414, 2026: 461}
+finLiab: OperatingLeaseLiabilityNoncurrent {2023: 224, 2024: 254, 2025: 378, 2026: 412}
+finLiab: OperatingLeaseRightOfUseAsset {2023: 231, 2024: 252, 2025: 359, 2026: 275}
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 152, 2024: 136, 2025: 261, 2026: 217}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 72, 2024: 56, 2025: 148, 2026: 44}
+dCur: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4177, 2024: 3005, 2025: 2665, 2026: 1951}
+dCur: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 4160, 2024: 3000, 2025: 2665, 2026: 1957}
+dCur: AvailableForSaleSecuritiesDebtSecurities {2023: 4141, 2024: 3000, 2025: 2665, 2026: 1957}
+dCur: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3087, 2024: 2083, 2025: 2009, 2026: 1202}
+dCur: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 3074, 2024: 1909}
+dCur: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 3068, 2024: 2083, 2025: 2009, 2026: 1202}
+dNon: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4177, 2024: 3005, 2025: 2665, 2026: 1951}
+dNon: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 4160, 2024: 3000, 2025: 2665, 2026: 1957}
+dNon: AvailableForSaleSecuritiesDebtSecurities {2023: 4141, 2024: 3000, 2025: 2665, 2026: 1957}
+dNon: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3087, 2024: 2083, 2025: 2009, 2026: 1202}
+dNon: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 3074, 2024: 1909}
+dNon: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 3068, 2024: 2083, 2025: 2009, 2026: 1202}
+dTot: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4177, 2024: 3005, 2025: 2665, 2026: 1951}
+dTot: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 4160, 2024: 3000, 2025: 2665, 2026: 1957}
+dTot: AvailableForSaleSecuritiesDebtSecurities {2023: 4141, 2024: 3000, 2025: 2665, 2026: 1957}
+dTot: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3087, 2024: 2083, 2025: 2009, 2026: 1202}
+dTot: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 3074, 2024: 1909}
+dTot: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 3068, 2024: 2083, 2025: 2009, 2026: 1202}
+dBrev: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4177, 2024: 3005, 2025: 2665, 2026: 1951}
+dBrev: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 4160, 2024: 3000, 2025: 2665, 2026: 1957}
+dBrev: AvailableForSaleSecuritiesDebtSecurities {2023: 4141, 2024: 3000, 2025: 2665, 2026: 1957}
+dBrev: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3087, 2024: 2083, 2025: 2009, 2026: 1202}
+dBrev: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 3074, 2024: 1909}
+dBrev: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 3068, 2024: 2083, 2025: 2009, 2026: 1202}
+ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4177, 2024: 3005, 2025: 2665, 2026: 1951}
+ltInv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 4160, 2024: 3000, 2025: 2665, 2026: 1957}
+ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 4141, 2024: 3000, 2025: 2665, 2026: 1957}
+ltInv: PaymentsToAcquireInvestments {2023: 3901, 2024: 2476, 2025: 2569, 2026: 2040}
+ltInv: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 3657, 2024: 3671, 2025: 2802, 2026: 2615}
+ltInv: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3087, 2024: 2083, 2025: 2009, 2026: 1202}
+
+Tempo: 2 s. File scritto: sec_SNOW.json

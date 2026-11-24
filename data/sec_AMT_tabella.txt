@@ -1,0 +1,99 @@
+AMT (CIK 0001053507) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .    7,005    7,424    8,754    8,381    7,506    7,452    7,744        .
+Leasing operativi: quota corrente                                    .        .        .        .      494      540      713      789      690      577      585        .
+Leasing operativi: quota non corrente                                .        .        .        .    6,510    6,884    8,042    7,592    6,815    6,876    7,159        .
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .    1,013      977    1,115    1,059    1,084      994    1,131        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .       31       28       32       28       21       17       16        .
+Leasing finanziari: quota corrente                                   .        .        .        .        7        5        7        5        3        3        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .       24       23       25       23       17       14        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                             111      136      180      180        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .       18        9        8        7        6        5        .        .
+Beni acquisiti con capital lease (non cash)                         37       56       55       58       81       75       59       34       32       22       29        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  9,850   10,682        .   10,510        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                              722      869        .      926        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                    709      846        .      904        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                    690      816        .      880        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                    670      776        .      834        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                    643      737        .      793        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                    6,416    6,638        .    6,173        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                              50      239        .    2,755    2,928      790    4,569    4,514    3,067    3,693    3,388        .
+Debito a lungo termine: non corrente                            17,069   18,295        .   18,405   21,127   28,498   38,686   34,156   35,734   32,809   33,832        .
+Debito a lungo termine: totale                                  17,119   18,534        .   21,160        2   29,288   43,498   38,902   38,801   36,502   37,220        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                   -1,837   -1,999        .   -2,643   -2,824   -3,759   -4,739   -5,718   -5,740   -5,955   -4,816        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+amt:DeferredTaxAssetsOperatingLeaseLiability                         .        .        .        .      878      837    1,172    1,117      964      901      992        .
+amt:LongTermDebtAndLeaseObligationGross                              .        .        .        .        .        .        .        .   39,182   36,756   37,435        .
+amt:LongTermDebtAndLeaseObligationIncludingCurrentMaturitiesAn       .        .        .        .        .        .        .        .   38,900        .        .        .
+amt:LongTermDebtAndLeaseObligationMaturityAfterYearFive              .        .        .        .        .        .        .        .   14,911   14,573   13,100        .
+amt:LongTermDebtAndLeaseObligationMaturityYearFive                   .        .        .        .        .        .        .        .    7,682    3,677    4,925        .
+amt:LongTermDebtAndLeaseObligationMaturityYearFour                   .        .        .        .        .        .        .        .    5,594    6,027    3,782        .
+amt:LongTermDebtAndLeaseObligationMaturityYearOne                    .        .        .        .        .        .        .        .    3,188    3,693    3,388        .
+amt:LongTermDebtAndLeaseObligationMaturityYearThree                  .        .        .        .        .        .        .        .    4,078    5,467    7,513        .
+amt:LongTermDebtAndLeaseObligationMaturityYearTwo                    .        .        .        .        .        .        .        .    3,730    3,319    4,727        .
+amt:LongTermDebtTotalCashObligations                                 .        .        .        .        .   29,463        .        .        .        .        .        .
+amt:SECSchedule1228RealEstateCompaniesInvestmentInRealEstateTo       .        .        .        .        .        0        0        .        .        .        .        .
+
+--- AVVISI ---
+Leasing finanziari: quota corrente: ultimo anno 2024 (mancano anni recenti)
+Leasing finanziari: quota non corrente: ultimo anno 2024 (mancano anni recenti)
+Rimborsi capitale leasing finanziari: ultimo anno 2024 (mancano anni recenti)
+Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+dBrev: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 38801, 2024: 36502, 2025: 37220}
+dBrev: LongTermDebtFairValue {2023: 36700}
+dBrev: LongTermDebtAndCapitalLeaseObligations {2023: 35734, 2024: 32809, 2025: 33832}
+dBrev: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 13230, 2024: 12430, 2025: 9450}
+dBrev: ProceedsFromIssuanceOfSeniorLongTermDebt {2023: 5678, 2024: 3569, 2025: 3001}
+dBrev: LongTermDebtCurrent {2023: 3067, 2024: 3693, 2025: 3388}
+eqPriv: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 13230, 2024: 12430, 2025: 9450}
+eqPriv: EquitySecuritiesFvNiGainLoss {2025: 233}
+eqPriv: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2025: -185}
+eqPriv: ProceedsFromSaleOfEquitySecuritiesFvNi {2025: 160}
+eqPriv: EquitySecuritiesFvNiUnrealizedGainLoss {2023: 4, 2024: 70, 2025: 121}
+eqPriv: EquitySecuritiesFvNiRealizedGain {2025: 111}
+eqMeth: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 13230, 2024: 12430, 2025: 9450}
+eqMeth: EquitySecuritiesFvNiGainLoss {2025: 233}
+eqMeth: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2025: -185}
+eqMeth: ProceedsFromSaleOfEquitySecuritiesFvNi {2025: 160}
+eqMeth: EquitySecuritiesFvNiUnrealizedGainLoss {2023: 4, 2024: 70, 2025: 121}
+eqMeth: EquitySecuritiesFvNiRealizedGain {2025: 111}
+afsDeb: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 13230, 2024: 12430, 2025: 9450}
+afsDeb: EquitySecuritiesFvNiGainLoss {2025: 233}
+afsDeb: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2025: -185}
+afsDeb: ProceedsFromSaleOfEquitySecuritiesFvNi {2025: 160}
+afsDeb: EquitySecuritiesFvNiUnrealizedGainLoss {2023: 4, 2024: 70, 2025: 121}
+afsDeb: EquitySecuritiesFvNiRealizedGain {2025: 111}
+ltInv: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 13230, 2024: 12430, 2025: 9450}
+ltInv: EquitySecuritiesFvNiGainLoss {2025: 233}
+ltInv: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2025: -185}
+ltInv: ProceedsFromSaleOfEquitySecuritiesFvNi {2025: 160}
+ltInv: EquitySecuritiesFvNiUnrealizedGainLoss {2023: 4, 2024: 70, 2025: 121}
+ltInv: EquitySecuritiesFvNiRealizedGain {2025: 111}
+
+Tempo: 2 s. File scritto: sec_AMT.json

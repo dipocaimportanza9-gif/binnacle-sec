@@ -1,0 +1,79 @@
+CRM (CIK 0001108524) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .        .    3,195    3,608    3,389    3,487    3,162    2,959    2,737
+Leasing operativi: quota corrente                                    .        .        .        .        .      750      766      686      590      518      579      548
+Leasing operativi: quota non corrente                                .        .        .        .        .    2,445    2,842    2,703    2,897    2,644    2,380    2,189
+Leasing operativi: costo (affitti) dell'anno                       163      175      226      285      365      913    1,208    1,080      986    1,041      684      614
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .      385      128      385      791      974      678      535
+Leasing finanziari: quota corrente                                   .        .        .        .        .       53       35      114      257      372      337      275
+Leasing finanziari: quota non corrente                               .        .        .        .        .      332       93      271      534      602      341      260
+Capital lease (prima del 2019): quota corrente                       .        .      102      102        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                71       82       98      106      131      173      103      156      419      629      603      584
+Beni acquisiti con capital lease (non cash)                         85       77        0        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  2,279    2,319    2,919    3,283    4,195        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                              290      356      463      611      778        .        .        .        .        .        .        .
+Impegni: anno 2                                                    267      320      413      540      658        .        .        .        .        .        .        .
+Impegni: anno 3                                                    224      252      332      401      466        .        .        .        .        .        .        .
+Impegni: anno 4                                                    187      202      266      299      369        .        .        .        .        .        .        .
+Impegni: anno 5                                                    186      189      241      277      314        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                    1,124      999    1,203    1,156    1,610        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        0    1,025        3        4        4        4    1,182      999        0    4,000
+Debito a lungo termine: non corrente                                 .        .    2,008      695    3,173    2,673    2,673   10,592    9,419    8,427    8,433   10,439
+Debito a lungo termine: totale                                       .        .        .    1,727    3,198    2,694    2,677   10,596   10,601    9,426    8,433   14,439
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .      548      785    1,502    1,670        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .    1,978    1,673    3,802    5,771    5,073    5,492    5,722    5,184    2,238
+Titoli di mercato non correnti                                     895    1,384        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                      -24      -50      -76      -12      -58      -93      -42     -166     -274     -225     -266      313
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .    2,008        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+crm:DeferredTaxAssetsLeaseLiabilities                                .        .        .        .        .        .        .        .      912      818      740      685
+crm:LesseeOperatingLeaseCommitmentincludingLeaseNotyetCommence       .        .        .        .        .        .        .        .        .    4,700    4,000    4,400
+crm:LessorOperatingLeasePaymentsToBeReceivedNextFiveYears            .        .        .        .        .        .        .        .        .      275      303      258
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+dBrev: DebtInstrumentCarryingAmount {2023: 10682, 2024: 9500, 2025: 8500, 2026: 14500}
+dBrev: LongTermDebt {2023: 10601, 2024: 9426, 2025: 8433, 2026: 14439}
+dBrev: LongTermDebtNoncurrent {2023: 9419, 2024: 8427, 2025: 8433, 2026: 10439}
+dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 8500, 2024: 6000, 2025: 6000, 2026: 6000}
+dBrev: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 4777, 2024: 3761, 2025: 6879, 2026: 3763}
+dBrev: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 5634, 2024: 5782, 2025: 5215, 2026: 2223}
+eqPriv: OtherLongTermInvestments {2023: 4672, 2024: 4848, 2025: 4852, 2026: 7591}
+eqPriv: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 4777, 2024: 3761, 2025: 6879, 2026: 3763}
+eqPriv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 5634, 2024: 5782, 2025: 5215, 2026: 2223}
+eqPriv: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 5492, 2024: 5722, 2025: 5184, 2026: 2238}
+eqPriv: AvailableForSaleSecuritiesDebtSecurities {2023: 5492, 2024: 5722, 2025: 5184, 2026: 2238}
+eqPriv: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 1771, 2024: 1511, 2025: 4143, 2026: 4414}
+eqMeth: OtherLongTermInvestments {2023: 4672, 2024: 4848, 2025: 4852, 2026: 7591}
+eqMeth: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 4777, 2024: 3761, 2025: 6879, 2026: 3763}
+eqMeth: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 5634, 2024: 5782, 2025: 5215, 2026: 2223}
+eqMeth: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 5492, 2024: 5722, 2025: 5184, 2026: 2238}
+eqMeth: AvailableForSaleSecuritiesDebtSecurities {2023: 5492, 2024: 5722, 2025: 5184, 2026: 2238}
+eqMeth: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 1771, 2024: 1511, 2025: 4143, 2026: 4414}
+ltInv: OtherLongTermInvestments {2023: 4672, 2024: 4848, 2025: 4852, 2026: 7591}
+ltInv: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 4777, 2024: 3761, 2025: 6879, 2026: 3763}
+ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 5634, 2024: 5782, 2025: 5215, 2026: 2223}
+ltInv: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 5492, 2024: 5722, 2025: 5184, 2026: 2238}
+ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 5492, 2024: 5722, 2025: 5184, 2026: 2238}
+ltInv: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 1771, 2024: 1511, 2025: 4143, 2026: 4414}
+
+Tempo: 1 s. File scritto: sec_CRM.json

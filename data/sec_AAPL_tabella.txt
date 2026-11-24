@@ -1,0 +1,92 @@
+AAPL (CIK 0000320193) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .        .    9,181   10,955   11,470   11,818   11,534   12,490   12,912
+Leasing operativi: quota corrente                                    .        .        .        .        .    1,436    1,449    1,534    1,410    1,488    1,579    1,554
+Leasing operativi: quota non corrente                                .        .        .        .        .    7,745    9,506    9,936   10,408   10,046   10,911   11,358
+Leasing operativi: costo (affitti) dell'anno                       794      939    1,100    1,200    1,300    1,500    1,700    1,900    2,000    2,000    2,100    2,100
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .      661      848      941    1,024      896    1,230    1,456
+Leasing finanziari: quota corrente                                   .        .        .        .        .       24       79      129      165      144      538      700
+Leasing finanziari: quota non corrente                               .        .        .        .        .      637      769      812      859      752      692      756
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  6,271    7,627    9,545    9,627   10,838        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                              772      929    1,223    1,298    1,306        .        .        .        .        .        .        .
+Impegni: anno 2                                                    774      919    1,187    1,289    1,276        .        .        .        .        .        .        .
+Impegni: anno 3                                                    744      915    1,108    1,218    1,137        .        .        .        .        .        .        .
+Impegni: anno 4                                                    715      889    1,033    1,038      912        .        .        .        .        .        .        .
+Impegni: anno 5                                                    674      836      871      800      834        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                    2,592    3,139    4,123    3,984    5,373        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                           2,500    3,500    6,496    8,784   10,260    8,773    9,613   11,128    9,822   10,912   12,350    9,906
+Debito a lungo termine: non corrente                            53,329   75,427   97,207   93,735   91,807   98,667  109,106   98,959   95,281   85,750   78,328   68,208
+Debito a lungo termine: totale                                       .        .        .        .        .        .        .  110,087  105,103   96,662   90,678   78,114
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                        8,499    8,105   11,977   11,964    5,980    4,996    6,000    9,982    5,985    9,967    7,979    1,997
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .    2,900    2,800        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .  237,100  205,898  191,830        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .  170,799  105,341  100,887  127,877  120,805  100,544   91,479   77,723   80,213
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                     -345      634     -150   -3,454     -584     -406      163  -11,109  -11,452   -7,172   -5,571   -6,422
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot  55,829   78,927  103,703  102,519  102,067  107,440  118,719        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+aapl:DeferredTaxAssetsLeaseLiabilities                               .        .        .        .        .    2,038    2,406    2,400    2,421    2,410    2,577    2,643
+aapl:HedgeAccountingAdjustmentsRelatedToLongTermDebt                 .        .        .        .        .        .    1,036    1,363    1,113      358      294      287
+aapl:HedgeAccountingAdjustmentsRelatedToTermDebt                     .        .        .        .        .    1,676    1,036        .        .        .        .        .
+aapl:LesseeOperatingAndFinanceLeaseLeaseNotYetCommencedPayment       .        .        .        .        .        .    1,100    1,200      544        .        .        .
+aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaid                 .        .        .        .        .        .        .        .   15,266   14,790   16,304   17,129
+aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaidAfterYearF       .        .        .        .        .        .    6,055    5,986    6,855    6,400    6,757    7,126
+aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaidYearFive         .        .        .        .        .        .    1,087    1,177    1,215    1,223    1,424    1,457
+aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaidYearFour         .        .        .        .        .        .    1,297    1,430    1,403    1,398    1,633    1,673
+aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaidYearOne          .        .        .        .        .        .    1,733    1,913    1,915    1,991    2,530    2,705
+aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaidYearThree        .        .        .        .        .        .    1,598    1,758    1,852    1,733    1,899    2,046
+aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaidYearTwo          .        .        .        .        .        .    1,683    1,872    2,026    2,045    2,061    2,122
+aapl:LesseeOperatingandFinanceLeaseLiabilityPaymentsDue              .        .        .        .        .        .   13,453   14,136        .        .        .        .
+aapl:LesseeOperatingandFinanceLeaseLiabilityUndiscountedExcess       .        .        .        .        .        .    1,650    1,725    2,424    2,360    2,584    2,761
+aapl:OperatingandFinanceLeaseLiability                               .        .        .        .        .    9,842   11,803   12,411   12,842   12,430   13,720   14,368
+aapl:OperatingandFinanceLeaseRightofUseAsset                         .        .        .        .        .    9,199   10,948   11,369   11,676   11,303   12,238   12,815
+aapl:OperatingandFinanceLeaseWeightedAverageDiscountRatePercen       .        .        .        .        .        .        0        0        0        0        0        0
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+eqPriv: MarketableSecuritiesNoncurrent {2023: 100544, 2024: 91479, 2025: 77723, 2026: 80213}
+eqPriv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 100544}
+eqPriv: AvailableForSaleSecuritiesDebtMaturitiesRollingYearTwoThroughFiveFairValue {2023: 74427}
+eqPriv: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 29513, 2024: 48656, 2025: 24407, 2026: 54945}
+eqPriv: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 39686, 2024: 51211, 2025: 40907, 2026: 34815}
+eqPriv: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
+eqMeth: MarketableSecuritiesNoncurrent {2023: 100544, 2024: 91479, 2025: 77723, 2026: 80213}
+eqMeth: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 100544}
+eqMeth: AvailableForSaleSecuritiesDebtMaturitiesRollingYearTwoThroughFiveFairValue {2023: 74427}
+eqMeth: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 29513, 2024: 48656, 2025: 24407, 2026: 54945}
+eqMeth: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 39686, 2024: 51211, 2025: 40907, 2026: 34815}
+eqMeth: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
+afsDeb: MarketableSecuritiesNoncurrent {2023: 100544, 2024: 91479, 2025: 77723, 2026: 80213}
+afsDeb: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 100544}
+afsDeb: AvailableForSaleSecuritiesDebtMaturitiesRollingYearTwoThroughFiveFairValue {2023: 74427}
+afsDeb: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 29513, 2024: 48656, 2025: 24407, 2026: 54945}
+afsDeb: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 39686, 2024: 51211, 2025: 40907, 2026: 34815}
+afsDeb: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
+ltInv: MarketableSecuritiesNoncurrent {2023: 100544, 2024: 91479, 2025: 77723, 2026: 80213}
+ltInv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 100544}
+ltInv: AvailableForSaleSecuritiesDebtMaturitiesRollingYearTwoThroughFiveFairValue {2023: 74427}
+ltInv: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 29513, 2024: 48656, 2025: 24407, 2026: 54945}
+ltInv: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 39686, 2024: 51211, 2025: 40907, 2026: 34815}
+ltInv: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
+
+Tempo: 2 s. File scritto: sec_AAPL.json

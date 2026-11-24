@@ -1,0 +1,70 @@
+UNH (CIK 0000731766) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .    3,959        .        .    4,830    4,898    4,889    4,615        .
+Leasing operativi: quota corrente                                    .        .        .        .      668        .        .        .        .        .        .        .
+Leasing operativi: quota non corrente                                .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: costo (affitti) dell'anno                         .        .        .      751    1,000    1,100    1,200    1,300    1,400    1,400    1,600        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                              417      453      538      669      804      865        .        .        .        .        .        .
+Impegni: anno 2                                                    370      416      470      592      723      775        .        .        .        .        .        .
+Impegni: anno 3                                                    325      355      414      511      604      646        .        .        .        .        .        .
+Impegni: anno 4                                                    267      314      350      423      499      538        .        .        .        .        .        .
+Impegni: anno 5                                                    230      273      501      338      402      441        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                      471      499      809    1,343    1,671    1,781        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                           6,634    7,193    2,857    1,973    3,870    4,819    3,620    3,110    4,274    4,545    6,069        .
+Debito a lungo termine: non corrente                            25,331   25,777   28,835   34,581   36,808   38,648   42,383   54,513   58,263   72,359   72,320        .
+Debito a lungo termine: totale                                  31,801   32,770   31,067   35,234   39,474   42,280   44,632   56,756   61,473   76,180   77,681        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .    3,620    3,110    4,274    4,545    6,069        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .    3,000    3,300        .
+Partecipazioni a patrimonio netto (equity method)                    .        .      900    1,500    1,400    1,300    1,300    1,500    1,400    3,800    3,800        .
+Titoli di debito disponibili per la vendita (valore equo)       18,631   24,179   28,424   31,898   36,094   39,828   40,217   42,321   44,895   46,919   48,182        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                 18,792   23,868   28,341   32,510   37,209   41,242   43,114   43,728   47,609   52,354   54,251        .
+OCI accumulato (utili/perdite non realizzati)                   -3,334   -2,681   -2,667   -4,160   -3,578   -3,814   -5,384   -8,393   -7,027   -3,387   -2,061        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+unh:DeferredTaxAssetsLeaseLiability                                  .        .        .        .      892    1,200    1,284      972      930      846      850        .
+unh:EquityMethodInvestmentsFromDeconsolidation                       .        .        .        .        .        .        .        .        .        .      575        .
+unh:FutureMinimumLeasePaymentsIncludedWithinBusinessesHeldForS       .        .        .        .        .        .        .        .        .        .      556        .
+unh:InvestmentsAmortizedCost                                         .        .        .        .   36,300   38,717   40,310   46,622   48,054   50,327   50,068        .
+unh:InvestmentsGrossUnrealizedGains                                  .        .        .        .      799    1,780      826       59      135       62      231        .
+unh:InvestmentsGrossUnrealizedLosses                                 .        .        .        .       30       22      276    3,681    2,698    2,962    1,628        .
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 5975, 2024: 6194, 2025: 6562}
+finLiab: OperatingLeaseLiability {2023: 4898, 2024: 4889, 2025: 4615}
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 2210, 2024: 2465, 2025: 2665}
+finLiab: OperatingLeaseCost {2023: 1400, 2024: 1400, 2025: 1600}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 1077, 2024: 1305, 2025: 1391}
+finLiab: OperatingLeasePayments {2023: 1100, 2024: 1100, 2025: 1100}
+dBrev: DebtLongtermAndShorttermCombinedAmount {2023: 61473, 2024: 76180, 2025: 77681}
+dBrev: LongTermDebtNoncurrent {2023: 58263, 2024: 72359, 2025: 72320}
+dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 47176, 2024: 59908, 2025: 58657}
+dBrev: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 47451, 2024: 49815, 2025: 49578}
+dBrev: AvailableForSaleSecuritiesDebtSecurities {2023: 44895, 2024: 46919, 2025: 48182}
+dBrev: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 7307, 2024: 18514, 2025: 9288}
+
+Tempo: 3 s. File scritto: sec_UNH.json

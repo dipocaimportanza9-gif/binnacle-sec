@@ -1,0 +1,80 @@
+VZ (CIK 0000732712) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .   21,654   21,485   27,062   25,692   24,268   24,343   23,493        .
+Leasing operativi: quota corrente                                    .        .        .        .    3,261    3,485    3,859    4,134    4,266    4,415    4,542        .
+Leasing operativi: quota non corrente                                .        .        .        .   18,393   18,000   23,203   21,558   20,002   19,928   18,951        .
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .    4,746    5,016    5,248    5,345    5,432    5,607    5,731        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .    1,116    1,284    1,325    1,732    2,091    2,349    2,511        .
+Leasing finanziari: quota corrente                                   .        .        .        .      336      368      400      565      753      894      943        .
+Leasing finanziari: quota non corrente                               .        .        .        .      780      916      925    1,167    1,338    1,455    1,568        .
+Capital lease (prima del 2019): quota corrente                     271      335      382      316        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                       686      615      638      589        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                             957      950    1,020      905        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .      352      394      394      449      612      794      944        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                 18,213   17,875   20,734   26,593        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                            2,744    2,822    3,290    4,043        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                  2,486    2,583    3,046    3,678        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                  2,211    2,304    2,683    3,272        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                  1,939    1,927    2,301    2,871        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                  1,536    1,515    1,952    2,522        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                    7,297    6,724    7,462   10,207        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                           6,489    2,645    3,453    7,190   10,777    5,889    7,443    9,963   12,973   22,633   18,618        .
+Debito a lungo termine: non corrente                           103,240  105,433  113,642  105,873  100,712  123,173  143,425  140,676  137,701  121,381  139,532        .
+Debito a lungo termine: totale                                 109,565  107,910  117,095  113,063  111,489  129,062  150,868  150,639  150,674  144,014  158,150        .
+Debito corrente totale (con debiti a breve)                      6,489    2,645    3,453    7,190   10,777        .        .        .        .   22,633   18,618        .
+Debiti finanziari a breve                                            6      168      150      150        0      320        0      150        0       65      441        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .      284      402      808      804      764      724      710        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                      550    2,673    2,659    3,289      998      -71     -927   -1,865   -1,380     -923   -1,727        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+vz:AccountsAndFinancingReceivableAllowanceForCreditLossCurrent       .        .        .        .        .        .        .      826    1,017    1,152    1,250        .
+vz:AccountsAndFinancingReceivableBeforeAllowanceForCreditLossC       .        .        .        .        .        .        .   25,332   26,102   27,261   28,347        .
+vz:DebtTenderOfferPrincipalAmountPurchased                           .        .        .        .        .        .        .        .        .        .      503        .
+vz:DeferredTaxAssetsLeases                                           .        .        .        .        .        .        .    5,395    5,480    5,138    4,909        .
+vz:DeferredTaxLiabilitiesLeasesRightOfUseAssets                      .        .        .        .        .        .        .    5,007    5,200    4,822    4,568        .
+vz:FinancingReceivableFromContractWithCustomer                       .        .        .        .        .        .        .   16,648   18,528   19,766   21,726        .
+vz:LesseeOperatingLeaseLeaseNotYetCommencedAmount                    .        .        .        .        .        .        .        .    1,700    1,400    2,000        .
+
+--- AVVISI ---
+Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+eqMeth: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 953, 2024: 842, 2025: 785}
+eqMeth: EquitySecuritiesWithoutReadilyDeterminableFairValueAmount {2023: 764, 2024: 724, 2025: 710}
+eqMeth: EquitySecuritiesFvNi {2025: 453}
+eqMeth: EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount {2023: 209, 2024: 186, 2025: 191}
+eqMeth: EquitySecuritiesWithoutReadilyDeterminableFairValueImpairmentLossCumulativeAmount {2023: 98, 2024: 120, 2025: 144}
+eqMeth: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions {2023: -84, 2024: -75, 2025: -42}
+afsDeb: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 953, 2024: 842, 2025: 785}
+afsDeb: EquitySecuritiesWithoutReadilyDeterminableFairValueAmount {2023: 764, 2024: 724, 2025: 710}
+afsDeb: EquitySecuritiesFvNi {2025: 453}
+afsDeb: EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount {2023: 209, 2024: 186, 2025: 191}
+afsDeb: EquitySecuritiesWithoutReadilyDeterminableFairValueImpairmentLossCumulativeAmount {2023: 98, 2024: 120, 2025: 144}
+afsDeb: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions {2023: -84, 2024: -75, 2025: -42}
+ltInv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 953, 2024: 842, 2025: 785}
+ltInv: EquitySecuritiesWithoutReadilyDeterminableFairValueAmount {2023: 764, 2024: 724, 2025: 710}
+ltInv: EquitySecuritiesFvNi {2025: 453}
+ltInv: EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount {2023: 209, 2024: 186, 2025: 191}
+ltInv: EquitySecuritiesWithoutReadilyDeterminableFairValueImpairmentLossCumulativeAmount {2023: 98, 2024: 120, 2025: 144}
+ltInv: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions {2023: -84, 2024: -75, 2025: -42}
+
+Tempo: 2 s. File scritto: sec_VZ.json

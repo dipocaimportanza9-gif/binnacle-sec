@@ -1,0 +1,106 @@
+TSLA (CIK 0001318605) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .    1,184    1,540    2,039    2,649    4,343    5,410    6,343        .
+Leasing operativi: quota corrente                                    .        .        .        .      228      286      368      485      672      807      954        .
+Leasing operativi: quota non corrente                                .        .        .        .      956    1,254    1,671    2,164    3,671    4,603    5,389        .
+Leasing operativi: costo (affitti) dell'anno                        68      117      178      183        .        .      627      798    1,153    1,500    1,766        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .    1,618    1,468    1,492    1,054      573      335      223        .
+Leasing finanziari: quota corrente                                   .        .        .        .      386      374      501      486      398      113       71        .
+Leasing finanziari: quota non corrente                               .        .        .        .    1,232    1,094      991      568      175      222      152        .
+Capital lease (prima del 2019): quota corrente                      16       36       97      346        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                        17       78      589      993        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                              33      113      686    1,339        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .      103      181      321      338      439      502      464      381      104        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                    571      926    1,317    1,628        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                               89      166      225      276        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                     87      151      204      257        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                     78      125      176      230        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                     69      103      157      183        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                      .       89      131      158        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                      248      293      425      524        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                             628    1,115      800    2,222    1,399    1,758    1,088    1,016    1,975    2,343    1,569        .
+Debito a lungo termine: non corrente                             2,021    5,860    9,418    9,404        .        .        .        .        .        .        .        .
+Debito a lungo termine: totale                                       .    5,892    8,829    8,411   10,402    8,462    4,254    1,029    2,682    5,535    6,584        .
+Debito corrente totale (con debiti a breve)                          .    1,115      800    2,222    1,399    1,758    1,088    1,016    1,975    2,343    1,569        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .   17,707   22,185   29,094   36,563        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                       -4      -24       33       -8      -36      363       54     -361     -143     -670      361        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot   2,649        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+tsla:AccruedWarrantyReserveCurrentPortion                            .        .        .        .      344      479      703    1,025    1,546    1,917    2,475        .
+tsla:AccruedWarrantyReserveNoncurrent                                .        .        .        .      745      989    1,398    2,480    3,606    4,799    6,132        .
+tsla:DebtSecuritiesAvailableForSaleAmortizedCostIncludingCashA       .        .        .        .        .        .        .        .        .   36,549   44,056        .
+tsla:DebtSecuritiesAvailableForSaleIncludingCashAndCashEquival       .        .        .        .        .        .        .        .        .   36,563   44,059        .
+tsla:DeferredTaxAssetsOperatingLeaseRightOfUseLiabilities            .        .        .        .      290      335      430      554      930    1,186    1,376        .
+tsla:DeferredTaxLiabilitiesOperatingLeaseRightOfUseAssets            .        .        .        .      263      305      391      506      859    1,097    1,267        .
+tsla:FinanceLeaseAccumulatedDepreciation                             .        .        .        .      483      816    1,210        .        .        .        .        .
+tsla:FinanceLeaseRightOfUseAssetsBeforeAccumulatedDepreciation       .        .        .        .    2,080    2,280    2,750        .        .        .        .        .
+tsla:LesseeOperatingLeaseCapitalExpenditures                         .        .        .        .        .        .        .        .   14,080        .        .        .
+tsla:LongTermDebtAndFinanceLeasesCurrent                             .        .        .        .    1,785    2,132    1,589    1,502    2,373    2,456    1,640        .
+tsla:LongTermDebtAndFinanceLeasesNoncurrent                          .        .        .        .   11,634    9,556    5,245    1,597    2,857    5,757    6,736        .
+tsla:MinimumLeasePaymentPercentageOfFairValue                        .        .        .        .        .        0        .        .        .        .        .        .
+tsla:OperatingLeasesNotYetCommencedValueWithAggregateRentPayme       .        .        .        .        .        .        .      901    1,530    1,100      849        .
+tsla:SalesTypeLeaseUnearnedInterestIncome                            .        .        .        .        .       11       50       95        .        .        .        .
+
+--- AVVISI ---
+Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2024 (mancano anni recenti)
+Il tag del debito include i leasing finanziari negli anni 2014-2018: non sommarli di nuovo
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+dNon: AvailableForSaleSecuritiesDebtSecurities {2023: 29094, 2024: 36563}
+dNon: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
+dNon: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
+dNon: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 12374}
+dNon: DebtInstrumentCarryingAmount {2023: 4683, 2024: 7907, 2025: 8177}
+dNon: LongTermDebt {2023: 2682, 2024: 5535, 2025: 6584}
+dBrev: AvailableForSaleSecuritiesDebtSecurities {2023: 29094, 2024: 36563}
+dBrev: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
+dBrev: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
+dBrev: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 12374}
+dBrev: DebtInstrumentCarryingAmount {2023: 4683, 2024: 7907, 2025: 8177}
+dBrev: LongTermDebt {2023: 2682, 2024: 5535, 2025: 6584}
+eqPriv: PaymentsToAcquireInvestments {2023: 19112, 2024: 35955, 2025: 37109}
+eqPriv: AvailableForSaleSecuritiesDebtSecurities {2023: 29094, 2024: 36563}
+eqPriv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
+eqPriv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 12353, 2024: 28310, 2025: 30158}
+eqPriv: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
+eqPriv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
+eqMeth: PaymentsToAcquireInvestments {2023: 19112, 2024: 35955, 2025: 37109}
+eqMeth: AvailableForSaleSecuritiesDebtSecurities {2023: 29094, 2024: 36563}
+eqMeth: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
+eqMeth: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 12353, 2024: 28310, 2025: 30158}
+eqMeth: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
+eqMeth: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
+afsDeb: PaymentsToAcquireInvestments {2023: 19112, 2024: 35955, 2025: 37109}
+afsDeb: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
+afsDeb: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 12353, 2024: 28310, 2025: 30158}
+afsDeb: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
+afsDeb: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
+afsDeb: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 12374}
+ltInv: PaymentsToAcquireInvestments {2023: 19112, 2024: 35955, 2025: 37109}
+ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 29094, 2024: 36563}
+ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
+ltInv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 12353, 2024: 28310, 2025: 30158}
+ltInv: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
+ltInv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
+
+Tempo: 3 s. File scritto: sec_TSLA.json

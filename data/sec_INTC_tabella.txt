@@ -1,0 +1,88 @@
+INTC (CIK 0000050863) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .      549      527    1,455        .        .        .        .        .
+Leasing operativi: quota corrente                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: quota non corrente                                .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .        .        .        .        .        .        .        .        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        0        0      345       96        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  1,200    1,226    1,245      835        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                              234      229      215      229      178      175        .        .        .        .        .        .
+Impegni: anno 2                                                    209      184      186      181        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                    167      158      162      133        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                    144      133      136      101        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                    120      100      105       70        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                      326      422      441      121        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                           2,602    4,609    1,739      761    3,695    2,504    4,591      423    2,288    3,729    2,499        .
+Debito a lungo termine: non corrente                            20,036   20,649   25,037   25,098   25,308   33,897   33,510   37,684   46,978   46,282   44,086        .
+Debito a lungo termine: totale                                  22,707   25,258   26,776   25,859   29,003   36,401   38,101   38,107   49,266   50,011   46,585        .
+Debito corrente totale (con debiti a breve)                      2,634    4,634    1,776    1,261    3,693    2,504    4,591    4,367    2,288    3,729    2,499        .
+Debiti finanziari a breve                                            0        0        .        .        .        .        0    3,900        0        0        0        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .    4,561    4,635    4,535    8,028        .
+Partecipazioni a patrimonio netto (equity method)                1,590    1,328    1,774    1,624       37       18       16       10        5        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)       16,047   11,502    6,621    7,171    6,543    7,951    4,987   26,423   21,800   18,677   32,393        .
+Titoli di mercato non correnti                                   1,891    4,716    3,712    3,388    3,276    2,192      840        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                       60      106      862     -974   -1,280     -751     -880     -562     -215     -711      113        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .       37      500        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+intc:ClassOfWarrantOrRightWarrantIssuanceSubsidiaryOwnershipTh       .        .        .        .        .        .        .        .        .        .        0        .
+intc:DebtInstrumentHedgeAccountingFairValueAdjustments               .        .        .        .        .        .        .        .     -574     -582     -266        .
+intc:DebtSecuritiesAvailableForSaleFairValueMaturityAllocatedA       .        .        .        .        .        .        .    4,139    7,134    6,182    6,554        .
+intc:DebtSecuritiesAvailableForSaleFairValueMaturityAllocatedA       .        .        .        .        .    1,093      559    1,844    2,375    2,321    8,531        .
+intc:DeferredTaxLiabilitiesConvertibleDebt                           .        .        .        .       88        .        .        .        .        .        .        .
+intc:DeferredTaxLiabilitiesUnrealizedLossesOnInvestmentsAndDer       .        .        .        .      292      735      819      415      358      224      168        .
+intc:EquityInvestments                                               .        .        .        .    3,967    5,152    6,298    5,912    5,829    5,383    8,512        .
+intc:LeaseLiability                                                  .        .        .        .        .        .        .    1,218      978      614      473        .
+
+--- AVVISI ---
+Rimborsi capitale leasing finanziari: ultimo anno 2023 (mancano anni recenti)
+Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+opLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBeforeAccumulatedDepreciationAndAmortization {2023: 194657, 2024: 210112, 2025: 211878}
+opLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization {2023: 96647, 2024: 107919, 2025: 105414}
+opLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization {2023: 98010, 2024: 102193, 2025: 106464}
+opLiab: FinanceLeaseRightOfUseAssetBeforeAccumulatedAmortization {2023: 619, 2024: 470, 2025: 453}
+opLiab: FinanceLeaseLiabilityPaymentsDue {2023: 550, 2024: 235, 2025: 133}
+opLiab: OperatingLeaseRightOfUseAsset {2023: 505, 2024: 457, 2025: 421}
+finLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBeforeAccumulatedDepreciationAndAmortization {2023: 194657, 2024: 210112, 2025: 211878}
+finLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization {2023: 96647, 2024: 107919, 2025: 105414}
+finLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization {2023: 98010, 2024: 102193, 2025: 106464}
+finLiab: FinanceLeaseRightOfUseAssetBeforeAccumulatedAmortization {2023: 619, 2024: 470, 2025: 453}
+finLiab: FinanceLeaseLiabilityPaymentsDue {2023: 550, 2024: 235, 2025: 133}
+finLiab: OperatingLeaseRightOfUseAsset {2023: 505, 2024: 457, 2025: 421}
+eqMeth: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 44414, 2024: 37940, 2025: 24319}
+eqMeth: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 44077, 2024: 41463, 2025: 15387}
+eqMeth: AvailableForSaleSecuritiesDebtSecurities {2023: 21800, 2024: 18677, 2025: 32393}
+eqMeth: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 17955, 2024: 13813, 2025: 23151}
+eqMeth: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4700, 2024: 5200, 2025: 10600}
+eqMeth: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 9575, 2024: 5690, 2025: 9543}
+ltInv: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 44414, 2024: 37940, 2025: 24319}
+ltInv: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 44077, 2024: 41463, 2025: 15387}
+ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 21800, 2024: 18677, 2025: 32393}
+ltInv: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 17955, 2024: 13813, 2025: 23151}
+ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4700, 2024: 5200, 2025: 10600}
+ltInv: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 9575, 2024: 5690, 2025: 9543}
+
+Tempo: 3 s. File scritto: sec_INTC.json

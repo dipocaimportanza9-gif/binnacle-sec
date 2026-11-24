@@ -1,0 +1,108 @@
+JPM (CIK 0000019617) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .    8,505    8,508    8,328    8,183    8,833    8,900    9,337        .
+Leasing operativi: quota corrente                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: quota non corrente                                .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: costo (affitti) dell'anno                     1,604    1,619    1,602    1,642    2,057    2,094    2,086    2,079    2,079    2,231    2,388        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                 11,829   10,115    9,877   10,992        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                            1,668    1,598    1,526    1,561        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                  1,647    1,479    1,450    1,520        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                  1,447    1,301    1,300    1,320        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                  1,263    1,151    1,029    1,138        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                  1,125      885      815      973        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                    4,679    3,701    3,757    4,480        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: totale                                 288,651  295,245  284,080  282,031  291,498  281,685  301,005  295,865  391,825  401,418  435,206        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                       15,562   34,443   51,802   69,276   40,920   45,208   53,594   44,027   44,712   52,893   64,776        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .    1,510    2,441    2,368    3,642    4,096    4,457    3,737    4,873        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)      239,667  237,965  201,678  230,394  350,699  388,178        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                      192   -1,175     -119   -1,507    1,569    7,986      -84  -17,341  -10,443  -12,456   -4,290        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+jpm:DebtInstrumentWeightedAverageInterestRateModifiedForEffect       .        .        .        .        .        .        .        .        .        0        0        .
+jpm:DebtInstrumentWeightedAverageInterestRateStatedPercentageE       .        .        .        .        .        .        .        .        .        0        0        .
+jpm:DebtSecuritiesAvailableForSaleAndHeldToMaturityAccruedInte       .        .        .        .        .        .        .        .        .    3,700    4,600        .
+jpm:DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedI       .        .        .        .        .        .        .        .        .        .  108,668        .
+jpm:DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedI       .        .        .        .        .        .        .        .        .        .   42,668        .
+jpm:DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedI       .        .        .        .        .        .        .        .        .        .  100,374        .
+jpm:DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedI       .        .        .        .        .        .        .        .        .        .   18,489        .
+jpm:DebtSecuritiesHeldToMaturityExternalCreditRatingPercentRat       .        .        .        .        .        .        .        .        .        0        .        .
+jpm:DebtSecuritiesNetCarryingAmount                                  .        .        .        .        .        .        .        .        .  681,320  777,332        .
+jpm:DefinedBenefitPlanAmountOfPlanInvestmentsHeldInFundsThatAr       .        .        .        .        .        .        .        .        .    1,800    2,100        .
+jpm:FinancingReceivableAndDebtSecuritiesAllowanceForCreditLoss       .        .        .        .        .        .        .        .   24,522   26,598   30,942        .
+jpm:FinancingReceivableExcludingAccruedInterestBeforeAllowance       .        .        .        .        .        .        .        .        . 1,347,988 1,493,429        .
+jpm:LongTermDebtCollateral                                           .        .        .        .        .        .        .        .        .  185,500  191,000        .
+jpm:LongTermDebtMaturitiesRepaymentsOfPrincipalInRollingYearsO       .        .        .        .        .        .        .        .        .        .  232,318        .
+jpm:PropertyPlantAndEquipmentAndOperatingLeaseRightOfUseAssetA       .        .        .        .        .        .        .        .        .   32,223   36,244        .
+jpm:ReceivablesAndDebtSecuritiesAllowanceForCreditLossAndOffBa       .        .        .        .        .        .        .        .        .        .   31,200        .
+jpm:RedeemableLongTermDebt                                           .        .        .        .        .        .        .        .        .        .  320,400        .
+
+--- AVVISI ---
+Il tag del debito include i leasing finanziari negli anni 2014-2025: non sommarli di nuovo
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 391825, 2024: 401418, 2025: 435206}
+finLiab: InterestAndFeeIncomeLoansAndLeases {2023: 83384, 2024: 92353, 2025: 93843}
+finLiab: PropertySubjectToOrAvailableForOperatingLeaseNet {2023: 10663, 2024: 12988, 2025: 20130}
+finLiab: ProvisionForLoanLeaseAndOtherLosses {2023: 9320, 2024: 10678, 2025: 14212}
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 10530, 2024: 10691, 2025: 11255}
+finLiab: OperatingLeaseLiability {2023: 8833, 2024: 8900, 2025: 9337}
+dCur: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss {2023: 575304, 2024: 685513, 2025: 777360}
+dCur: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 544458, 2024: 654752, 2025: 760542}
+dCur: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 205456, 2024: 411045, 2025: 507226}
+dCur: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 201704, 2024: 406852, 2025: 507198}
+dCur: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis {2023: 205417, 2024: 412247, 2025: 506626}
+dCur: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 391825, 2024: 401418, 2025: 435206}
+dNon: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss {2023: 575304, 2024: 685513, 2025: 777360}
+dNon: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 544458, 2024: 654752, 2025: 760542}
+dNon: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 205456, 2024: 411045, 2025: 507226}
+dNon: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 201704, 2024: 406852, 2025: 507198}
+dNon: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis {2023: 205417, 2024: 412247, 2025: 506626}
+dNon: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 391825, 2024: 401418, 2025: 435206}
+eqMeth: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 1303900, 2024: 1544000, 2025: 1771000}
+eqMeth: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 982800, 2024: 1210700, 2025: 1426400}
+eqMeth: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss {2023: 575304, 2024: 685513, 2025: 777360}
+eqMeth: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 544458, 2024: 654752, 2025: 760542}
+eqMeth: SecuritiesSoldUnderAgreementsToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 459985, 2024: 603683, 2025: 715251}
+eqMeth: SecuritiesPurchasedUnderAgreementsToResellGrossIncludingNotSubjectToMasterNettingArrangement {2023: 523308, 2024: 607154, 2025: 618516}
+afsDeb: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 1303900, 2024: 1544000, 2025: 1771000}
+afsDeb: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 982800, 2024: 1210700, 2025: 1426400}
+afsDeb: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss {2023: 575304, 2024: 685513, 2025: 777360}
+afsDeb: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 544458, 2024: 654752, 2025: 760542}
+afsDeb: SecuritiesSoldUnderAgreementsToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 459985, 2024: 603683, 2025: 715251}
+afsDeb: SecuritiesPurchasedUnderAgreementsToResellGrossIncludingNotSubjectToMasterNettingArrangement {2023: 523308, 2024: 607154, 2025: 618516}
+ltInv: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 1303900, 2024: 1544000, 2025: 1771000}
+ltInv: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 982800, 2024: 1210700, 2025: 1426400}
+ltInv: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss {2023: 575304, 2024: 685513, 2025: 777360}
+ltInv: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 544458, 2024: 654752, 2025: 760542}
+ltInv: SecuritiesSoldUnderAgreementsToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 459985, 2024: 603683, 2025: 715251}
+ltInv: SecuritiesPurchasedUnderAgreementsToResellGrossIncludingNotSubjectToMasterNettingArrangement {2023: 523308, 2024: 607154, 2025: 618516}
+
+Tempo: 2 s. File scritto: sec_JPM.json

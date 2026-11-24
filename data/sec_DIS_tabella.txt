@@ -1,0 +1,100 @@
+DIS (CIK 0001744489) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: quota corrente                                    .        .        .        .        .        .      637      614      740      744      525      547
+Leasing operativi: quota non corrente                                .        .        .        .        .        .    2,983    3,020    3,258    2,768    2,710    2,679
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .        .        .        .      796      820      926      773      687
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .      308      287      256      243      190      162      187
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .       41       37       37       30       21       21
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .      246      219      206      160      141      166
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        5        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .      146        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .       37       25       48       41       44       46       32
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                      .        .        .        .    5,931        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                                .        .        .        .      982        .        .        .        .        .        .        .
+Impegni: anno 2                                                      .        .        .        .      849        .        .        .        .        .        .        .
+Impegni: anno 3                                                      .        .        .        .      670        .        .        .        .        .        .        .
+Impegni: anno 4                                                      .        .        .        .      532        .        .        .        .        .        .        .
+Impegni: anno 5                                                      .        .        .        .      407        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                        .        .        .        .    2,491        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .    3,790    8,857    5,711    5,866    3,070    4,330    6,845    6,711    7,331
+Debito a lungo termine: non corrente                                 .        .        .   17,084   38,129   52,917   48,540   45,299   42,101   38,970   35,315   37,142
+Debito a lungo termine: totale                                       .        .        .   20,874   46,986   58,628   54,406   48,369   46,431   45,815   42,026   44,473
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .      290      200      300      200      200    1,700    1,700    2,400
+Partecipazioni a patrimonio netto (equity method)                    .        .        .    2,768    2,922    2,632    2,638    2,678    2,688    2,680    6,319    3,815
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .    2,899    3,224    3,903    3,935    3,218    3,080    4,459    8,097    6,266
+OCI accumulato (utili/perdite non realizzati)                        .   -3,979   -3,528   -3,097   -6,617   -8,322   -6,440   -4,119   -3,292   -3,699   -2,914   -2,581
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+dis:DeferredTaxAssetsLeaseLiabilities                                .        .        .        .        .      825      764      748      852      862      786      663
+dis:DeferredTaxLiabilitiesInvestmentinForeignEntities                .        .        .        .        .      266      392      543      482      465      879    1,031
+dis:DeferredTaxLiabilitiesInvestmentinU.S.Entities                   .        .        .        .        .    2,514    2,653    1,798    1,271    1,102      916    1,936
+dis:EstimatedFutureLeasePaymentsNotCommenced                         .        .        .        .        .        .        .      832      500        .        .        .
+dis:FilmCapitalizedCostCompletedAndNotReleased                       .        .        .        .        .    1,275    1,392    2,233    1,856    2,281    1,374    1,599
+dis:FilmCapitalizedCostReleased                                      .        .        .        .        .   13,275   14,723   17,327   18,523   18,189   18,912   18,828
+dis:FilmCompletedAndNotReleasedFilmExpectedAmortizationInNextO       .        .        .        .        .        .      646      869      830      858      673      830
+dis:FilmReleasedFilmExpectedAmortizationYearOne                      .        .        .        .        .        .    4,586    4,064    4,326    4,306    4,442    4,072
+dis:FilmReleasedFilmExpectedAmortizationYearThree                    .        .        .        .        .        .    1,727    2,160    2,138    2,386    2,291    2,504
+dis:FilmReleasedFilmExpectedAmortizationYearTwo                      .        .        .        .        .        .    2,751    2,676    2,655    3,071    3,003    2,961
+dis:LongTermDebtExpectedInterestPaymentAfterYearFive                 .        .        .        .        .        .   20,602   19,738   16,935   15,944   14,522   13,783
+dis:LongTermDebtExpectedInterestPaymentGross                         .        .        .        .        .        .   29,418   27,889   24,918   22,839   21,402   21,122
+dis:LongTermDebtExpectedInterestPaymentYearFive                      .        .        .        .        .        .    1,700    1,428    1,502    1,210    1,265    1,344
+dis:LongTermDebtExpectedInterestPaymentYearFour                      .        .        .        .        .        .    1,728    1,533    1,506    1,253    1,362    1,404
+dis:LongTermDebtExpectedInterestPaymentYearOne                       .        .        .        .        .        .    1,846    1,811    1,733    1,586    1,559    1,614
+dis:LongTermDebtExpectedInterestPaymentYearThree                     .        .        .        .        .        .    1,738    1,631    1,616    1,344    1,300    1,457
+dis:LongTermDebtExpectedInterestPaymentYearTwo                       .        .        .        .        .        .    1,804    1,748    1,626    1,502    1,394    1,520
+dis:LongTermDebtPrincipalAndInterestPaymentsAfterYearFive            .        .        .        .        .        .   54,694   50,780   46,139   42,931   40,394   38,907
+dis:LongTermDebtPrincipalAndInterestPaymentsGross                    .        .        .        .        .        .   81,847   76,072   71,330   67,940   62,653   65,231
+dis:LongTermDebtPrincipalAndInterestPaymentsYearFive                 .        .        .        .        .        .    6,278    4,333    3,101    3,405    2,767    5,602
+dis:LongTermDebtPrincipalAndInterestPaymentsYearFour                 .        .        .        .        .        .    5,448    6,111    4,427    2,852    3,753    2,890
+dis:LongTermDebtPrincipalAndInterestPaymentsYearOne                  .        .        .        .        .        .    7,717    4,891    6,115    8,402    8,310    9,013
+dis:LongTermDebtPrincipalAndInterestPaymentsYearThree                .        .        .        .        .        .    4,640    5,337    6,194    4,270    3,050    5,524
+dis:LongTermDebtPrincipalAndInterestPaymentsYearTwo                  .        .        .        .        .        .    3,070    4,620    5,354    6,080    4,379    3,295
+dis:NotionalAmountOfFloatingInterestRateDebtWithInterestRateHe       .        .        .        .        .        .   15,141   14,472   13,503   12,012   10,558   11,037
+dis:OperatingAndFinanceLeaseLiability                                .        .        .        .        .    3,695    3,907    3,890    4,241    3,702    3,397    3,413
+dis:OperatingAndFinanceLeaseLiabilityCurrent                         .        .        .        .        .        .      678      651      777      774      546      568
+dis:OperatingAndFinanceLeaseLiabilityNoncurrent                      .        .        .        .        .    2,911    3,229    3,239    3,464    2,928    2,851    2,845
+dis:OperatingAndFinancingLeaseTotalRightOfUseAsset                   .        .        .        .        .        .    4,231    4,269    4,502    3,622    3,391    3,404
+dis:TotalOperatingLeaseLiabilityOnTheBalanceSheet                    .        .        .        .        .        .    3,620    3,635    3,998    3,512    3,235    3,226
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+opLiab: FilmMonetizedInFilmGroupCapitalizedCostReleased {2023: 13555, 2024: 13621, 2025: 14288, 2026: 13963}
+opLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 5087, 2024: 4664, 2025: 4258, 2026: 4279}
+opLiab: FilmMonetizedOnItsOwnCapitalizedCostReleased {2023: 4968, 2024: 4568, 2025: 4624, 2026: 4865}
+opLiab: OperatingLeaseRightOfUseAsset {2023: 4211, 2024: 3376, 2025: 3170, 2026: 3164}
+opLiab: OperatingLeaseLiabilityNoncurrent {2023: 3258, 2024: 2768, 2025: 2710, 2026: 2679}
+opLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 2265, 2024: 1978, 2025: 1759, 2026: 1785}
+dBrev: LongTermDebt {2023: 46431, 2024: 45815, 2025: 42026, 2026: 44473}
+dBrev: DebtInstrumentCarryingAmount {2023: 46412, 2024: 45101, 2025: 41251, 2026: 44109}
+dBrev: LongTermDebtNoncurrent {2023: 42101, 2024: 38970, 2025: 35315, 2026: 37142}
+dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 29204, 2024: 26987, 2025: 25872, 2026: 25124}
+dBrev: LineOfCreditFacilityRemainingBorrowingCapacity {2023: 12250, 2024: 12250, 2025: 12250, 2026: 12250}
+dBrev: LineOfCreditFacilityMaximumBorrowingCapacity {2023: 12250, 2024: 12250, 2025: 12250, 2026: 12250}
+afsDeb: LongTermInvestments {2023: 3080, 2024: 4459, 2025: 8097, 2026: 6266}
+afsDeb: EquityMethodInvestments {2023: 2688, 2024: 2680, 2025: 6319, 2026: 3815}
+afsDeb: OtherLongTermInvestments {2025: 1778, 2026: 2451}
+afsDeb: EquitySecuritiesWithoutReadilyDeterminableFairValueAmount {2023: 200, 2024: 1700, 2025: 1700, 2026: 2400}
+afsDeb: OtherInvestments {2023: 392, 2024: 1779, 2025: 1778}
+afsDeb: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 700, 2024: 500, 2025: 1600, 2026: 1300}
+
+Tempo: 3 s. File scritto: sec_DIS.json

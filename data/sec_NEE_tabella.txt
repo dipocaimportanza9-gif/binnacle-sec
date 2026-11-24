@@ -1,0 +1,86 @@
+NEE (CIK 0000753308) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .      150      141      498      541      555      400      412      387      458        .
+Leasing operativi: quota corrente                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: quota non corrente                                .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .        .        .        .        .        .        .        .        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .       72       63       56      124      200      375      444      840    1,143        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                                .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                        .        .        .        .        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                           2,220    2,604    1,673    2,716    2,124    4,138    1,785    6,633    6,901    8,061    3,500        .
+Debito a lungo termine: non corrente                            26,681   27,818   31,410   26,782   37,543   41,944   50,960   55,256   61,405   72,385   89,556        .
+Debito a lungo termine: totale                                       .        .        .        .        .        .        .        .        .        .        .        .
+Debito corrente totale (con debiti a breve)                      3,006    3,022    3,615   10,930    5,040        .        .        .        .        .        .        .
+Debiti finanziari a breve                                          374      268      255    5,465      400    1,551    1,382    1,709    4,650    1,670    1,955        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .       72      485      538      665      647        .
+Partecipazioni a patrimonio netto (equity method)                1,063    1,767    2,321    6,748    7,453    5,728    6,159    6,582    6,156    6,118    5,528        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                     -167      -70      111     -188     -169      -92        0     -218     -153     -126       -9        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot  28,901   30,422   33,083   29,498   39,667   46,082   52,745   61,889   68,306   80,446   93,056        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+nee:AdditionalCollateralAggregateFairValueDueToCreditRatingDow       .        .        .        .    1,200    1,200    2,700    5,200    2,400    2,400    3,200        .
+nee:ConvertibleInvestmentTaxCreditsIncludedInOtherReceivables        .        .        .        .       10       10        .        .        .        .        .        .
+nee:Deferredtaxliabilitiesequitymethodinvestmentofwhollyownedi       .        .        .        .    2,019    2,238    2,783    3,144    2,459    2,534    2,822        .
+nee:EquityMethodInvestmentOwnershipPercentageHighRange               .        .        .        .        .        0        0        0        0        0        0        .
+nee:EquityMethodInvestmentOwnershipPercentageLowRange                .        .        .        .        .        0        0        0        0        0        0        .
+nee:EquityMethodInvestmentsOfWhollyOwnedIndirectSubsidiary           .        .        .        .    7,453    5,728        .        .        .        .        .        .
+nee:FinanceLeaseWeightedAverageBorrowingRatePercent                  .        .        .        .        0        0        0        0        0        0        0        .
+nee:LesseeOperatingLeaseAndFinanceLeaseLiabilityPaymentsDue          .        .        .        .        .    1,200    1,400    1,600    1,700    2,600    4,100        .
+nee:OperatingAndSalesTypeLeasesLeaseReceivablePaymentsToBeRece       .        .        .        .        .        .      843    1,100    2,800    3,900        .        .
+nee:OperatingAndSalesTypeLeasesLeaseReceivablePaymentsToBeRece       .        .        .        .        .        .        .        .        .        .    4,936        .
+nee:OperatingAndSalesTypeLeasesLeaseReceivablePaymentsToBeRece       .        .        .        .        .        .        .        .        .        .      415        .
+nee:OperatingAndSalesTypeLeasesLeaseReceivablePaymentsToBeRece       .        .        .        .        .        .        .        .        .        .      432        .
+nee:OperatingAndSalesTypeLeasesLeaseReceivablePaymentsToBeRece       .        .        .        .        .        .        .        .        .        .      415        .
+nee:OperatingAndSalesTypeLeasesLeaseReceivablePaymentsToBeRece       .        .        .        .        .        .        .        .        .        .      431        .
+nee:OperatingAndSalesTypeLeasesLeaseReceivablePaymentsToBeRece       .        .        .        .        .        .        .        .        .        .      415        .
+nee:OperatingLeaseWeightedAverageBorrowingRatePercent                .        .        .        .        0        0        0        0        0        0        0        .
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+dTot: LongTermDebtNoncurrent {2023: 61405, 2024: 72385, 2025: 89556}
+dTot: ProceedsFromIssuanceOfLongTermDebt {2023: 13857, 2024: 24769, 2025: 23394}
+dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree {2023: 1874, 2024: 11519, 2025: 10588}
+dTot: RepaymentsOfLongTermDebt {2023: 7978, 2024: 10113, 2025: 10347}
+dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 8037, 2024: 3358, 2025: 10343}
+dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive {2023: 7685, 2024: 9919, 2025: 7270}
+afsDeb: DecommissioningFundInvestments {2023: 8698, 2024: 9800, 2025: 10954}
+afsDeb: EquityMethodInvestments {2023: 6156, 2024: 6118, 2025: 5528}
+afsDeb: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 3329, 2024: 3720, 2025: 4181}
+afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 712, 2024: 811, 2025: 446}
+afsDeb: EquitySecuritiesWithoutReadilyDeterminableFairValueAmount {2023: 538, 2024: 665, 2025: 647}
+afsDeb: IncomeLossFromEquityMethodInvestments {2023: -648, 2024: -246, 2025: -184}
+ltInv: DecommissioningFundInvestments {2023: 8698, 2024: 9800, 2025: 10954}
+ltInv: EquityMethodInvestments {2023: 6156, 2024: 6118, 2025: 5528}
+ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 3329, 2024: 3720, 2025: 4181}
+ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 712, 2024: 811, 2025: 446}
+ltInv: EquitySecuritiesWithoutReadilyDeterminableFairValueAmount {2023: 538, 2024: 665, 2025: 647}
+ltInv: IncomeLossFromEquityMethodInvestments {2023: -648, 2024: -246, 2025: -184}
+
+Tempo: 2 s. File scritto: sec_NEE.json

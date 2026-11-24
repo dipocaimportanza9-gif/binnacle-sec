@@ -1,0 +1,112 @@
+GM (CIK 0001467858) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: quota corrente                                    .        .        .        .        .        .      204      247      264      254      266        .
+Leasing operativi: quota non corrente                                .        .        .        0    1,010      969    1,012      967      907      961    1,035        .
+Leasing operativi: costo (affitti) dell'anno                       317      270      284      300        .        .        .        .        .        .        .        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .      183        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                      .        .        .    1,737        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                              284      294      284      296        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                    232      280      268      286        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                    202      249      222      247        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                    178      196      189      180        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                    137      166      123      146        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                      385      482      372      582        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: totale                                  63,838   85,621   95,290  106,148  103,951  110,024  109,867  116,217  123,494  131,758  131,574        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                9,195    8,996    9,073    9,215    8,562    8,406    9,677   10,176   10,613    7,102    5,681        .
+Titoli di debito disponibili per la vendita (valore equo)       12,841   16,743   13,414   15,694   12,963   15,311   16,133   17,139    9,225    8,976   10,839        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                   -8,036   -9,330   -8,011   -9,039  -11,156  -13,488   -9,269   -7,901  -10,247  -11,253  -10,343        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+gm:DeferredTaxAssetsWarrantiesAllowancesClaimsDiscounts              .        .        .        .    6,299    5,538    4,253    4,341    3,684    4,215    4,803        .
+gm:LessorOperatingLeaseLeaseNotYetCommencedAmount                    .        .        .        .        .      150      215      198      597        .        .        .
+gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .        .   18,616   22,213   21,957   25,081   23,247   24,691        .
+gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .        .    9,187    6,138    8,310    7,995   11,191   11,120        .
+gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .        .    7,894   11,228    7,878   10,596   12,400   14,216        .
+gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .        .   17,860   13,401   17,937   15,142   21,160   19,876        .
+gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .        .   19,449   23,091   21,262   25,615   24,228   25,865        .
+gm:LongtermDebtandFinanceLeaseObligationsRepaymentsofPrincipal       .        .        .        .        .   37,018   33,796   38,873   39,065   39,531   35,806        .
+gm:OperatingLeaseRightofuseAssetNoncurrent                           .        .        .        .   42,055   39,819   37,929   32,701   30,582   31,586   33,686        .
+gm:PolicyProductWarrantyAndRecallCampaignsNetOfRecoveries            .        .        .        .    7,557    8,018    7,735    7,345    8,649   10,133   13,284        .
+gm:PolicyProductWarrantyRecallCampaignsandCourtesyTransportati       .        .        .        .    2,987    3,048    3,769    3,042    3,285    4,555    6,308        .
+gm:PolicyProductWarrantyRecallCampaignsandCourtesyTransportati       .        .        .        .    4,811    5,193    6,005    5,488    6,011    6,016    7,322        .
+gm:PolicyProductWarrantyReceivableSupplierRecoveries                 .        .        .        .      241      224    2,039    1,184      646      438      347        .
+gm:PolicyProductwarrantyandRecallcampaignsAccrual                    .        .    8,332    7,590    7,798    8,242    9,774    8,530    9,295   10,571   13,631        .
+gm:ProductLiabilityWarrantyAndOtherLegalAndEnvironmentalRelate       .        .        .        .        .        .        .        .    2,900    3,400    3,600        .
+
+--- AVVISI ---
+Il tag del debito include i leasing finanziari negli anni 2014-2025: non sommarli di nuovo
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+opLiab: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 123494, 2024: 131758, 2025: 131574}
+opLiab: PropertyPlantAndEquipmentExcludingLessorAssetUnderOperatingLeaseBeforeAccumulatedDepreciation {2023: 85845, 2024: 88732, 2025: 94312}
+opLiab: PropertyPlantAndEquipmentExcludingLessorAssetUnderOperatingLeaseAfterAccumulatedDepreciation {2023: 50321, 2024: 51904, 2025: 51683}
+opLiab: PropertyPlantAndEquipmentExcludingLessorAssetUnderOperatingLeaseAccumulatedDepreciation {2023: 35524, 2024: 36828, 2025: 42629}
+opLiab: PropertySubjectToOrAvailableForOperatingLeaseGross {2024: 38187, 2025: 40596}
+opLiab: PropertySubjectToOrAvailableForOperatingLeaseNet {2024: 31586, 2025: 33686}
+finLiab: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 123494, 2024: 131758, 2025: 131574}
+finLiab: PropertyPlantAndEquipmentExcludingLessorAssetUnderOperatingLeaseBeforeAccumulatedDepreciation {2023: 85845, 2024: 88732, 2025: 94312}
+finLiab: PropertyPlantAndEquipmentExcludingLessorAssetUnderOperatingLeaseAfterAccumulatedDepreciation {2023: 50321, 2024: 51904, 2025: 51683}
+finLiab: PropertyPlantAndEquipmentExcludingLessorAssetUnderOperatingLeaseAccumulatedDepreciation {2023: 35524, 2024: 36828, 2025: 42629}
+finLiab: PropertySubjectToOrAvailableForOperatingLeaseGross {2024: 38187, 2025: 40596}
+finLiab: PropertySubjectToOrAvailableForOperatingLeaseNet {2024: 31586, 2025: 33686}
+dCur: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 123494, 2024: 131758, 2025: 131574}
+dCur: ProceedsFromDebtMaturingInMoreThanThreeMonths {2023: 50963, 2024: 53435, 2025: 43191}
+dCur: RepaymentsOfDebtMaturingInMoreThanThreeMonths {2023: 44675, 2024: 43399, 2025: 45591}
+dCur: AvailableForSaleSecuritiesDebtSecurities {2023: 9225, 2024: 8976, 2025: 10839}
+dCur: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 7613, 2024: 7265, 2025: 6724}
+dCur: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3725, 2024: 3590, 2025: 5863}
+dNon: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 123494, 2024: 131758, 2025: 131574}
+dNon: ProceedsFromDebtMaturingInMoreThanThreeMonths {2023: 50963, 2024: 53435, 2025: 43191}
+dNon: RepaymentsOfDebtMaturingInMoreThanThreeMonths {2023: 44675, 2024: 43399, 2025: 45591}
+dNon: AvailableForSaleSecuritiesDebtSecurities {2023: 9225, 2024: 8976, 2025: 10839}
+dNon: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 7613, 2024: 7265, 2025: 6724}
+dNon: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3725, 2024: 3590, 2025: 5863}
+dBrev: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 123494, 2024: 131758, 2025: 131574}
+dBrev: ProceedsFromDebtMaturingInMoreThanThreeMonths {2023: 50963, 2024: 53435, 2025: 43191}
+dBrev: RepaymentsOfDebtMaturingInMoreThanThreeMonths {2023: 44675, 2024: 43399, 2025: 45591}
+dBrev: AvailableForSaleSecuritiesDebtSecurities {2023: 9225, 2024: 8976, 2025: 10839}
+dBrev: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 7613, 2024: 7265, 2025: 6724}
+dBrev: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3725, 2024: 3590, 2025: 5863}
+eqPriv: PaymentsToAcquireLeasesHeldForInvestment {2023: 13640, 2024: 15279, 2025: 15793}
+eqPriv: ProceedsFromLeasesHeldForInvestment {2023: 13033, 2024: 10892, 2025: 10095}
+eqPriv: AvailableForSaleSecuritiesDebtSecurities {2023: 9225, 2024: 8976, 2025: 10839}
+eqPriv: EquityMethodInvestments {2023: 10613, 2024: 7102, 2025: 5681}
+eqPriv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 10403, 2024: 8519, 2025: 3117}
+eqPriv: ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities {2023: 9345, 2024: 4331, 2025: 3012}
+ltInv: PaymentsToAcquireLeasesHeldForInvestment {2023: 13640, 2024: 15279, 2025: 15793}
+ltInv: ProceedsFromLeasesHeldForInvestment {2023: 13033, 2024: 10892, 2025: 10095}
+ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 9225, 2024: 8976, 2025: 10839}
+ltInv: EquityMethodInvestments {2023: 10613, 2024: 7102, 2025: 5681}
+ltInv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 10403, 2024: 8519, 2025: 3117}
+ltInv: ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities {2023: 9345, 2024: 4331, 2025: 3012}
+
+Tempo: 4 s. File scritto: sec_GM.json

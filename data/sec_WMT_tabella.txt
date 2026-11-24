@@ -1,0 +1,77 @@
+WMT (CIK 0000104169) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .        .   17,964   14,375   14,492   14,301   14,430   14,324   15,572
+Leasing operativi: quota corrente                                    .        .        .        .        0    1,793    1,466    1,483    1,473    1,487    1,499    1,631
+Leasing operativi: quota non corrente                                .        .        .        .        0   16,171   12,909   13,009   12,828   12,943   12,825   13,941
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .        .    2,670    2,626    2,274    2,306    2,277    2,347    2,434
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .    4,818    4,338    4,754    5,410    6,434    6,723    6,761
+Leasing finanziari: quota corrente                                   .        .        .        .        0      511      491      511      567      725      800      856
+Leasing finanziari: quota non corrente                               .        .        .        .        0    4,307    3,847    4,243    4,843    5,709    5,923    5,905
+Capital lease (prima del 2019): quota corrente                     287      551      565      667      729        0        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                     2,606    5,816    6,003    6,780    6,683        0        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                           2,893    6,367    6,568    7,447    7,412        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .      485      546      538      563    1,055      908      891
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                 17,910   21,505   18,139   15,366   14,118        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                            1,759    2,057    2,270    1,933    1,856        .        .        .        .        .        .        .
+Impegni: anno 2                                                  1,615    1,989    1,787    1,718    1,655        .        .        .        .        .        .        .
+Impegni: anno 3                                                  1,482    1,794    1,679    1,532    1,420        .        .        .        .        .        .        .
+Impegni: anno 4                                                  1,354    1,697    1,524    1,381    1,233        .        .        .        .        .        .        .
+Impegni: anno 5                                                  1,236    1,530    1,342    1,158    1,063        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                   10,464   12,438    9,537    7,644    6,891        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                           4,791    2,745    2,256    3,738    1,876    5,362    3,115    2,803    4,191    3,447    2,598    3,542
+Debito a lungo termine: non corrente                            40,889   38,214   36,015   30,045   43,520   43,714   41,194   34,864   34,649   36,132   33,401   34,624
+Debito a lungo termine: totale                                  45,680   40,959   38,271   33,783   45,396   49,076   44,309   37,667   38,840   39,579   35,999   38,166
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                        1,592    2,708    1,099    5,257    5,225      575      224      410      372      878    3,068    6,596
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                   -7,168  -11,597  -14,232  -10,181  -11,542  -12,805  -11,766   -8,766  -11,680  -11,302  -13,605  -12,770
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+wmt:DeferredTaxAssetsLeases                                          .        .        .        .        .        .        .        .    4,653    4,831    4,611    5,181
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+eqPriv: EquitySecuritiesFvNi {2023: 10669, 2024: 7249, 2025: 3041}
+eqPriv: EquitySecuritiesFvNiUnrealizedGainLoss {2023: -1200, 2024: -3400, 2025: -4200, 2026: 1500}
+eqPriv: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 0, 2024: 0, 2025: 4080, 2026: 927}
+eqPriv: UnrealizedGainLossOnInvestments {2023: -1683, 2024: -3193, 2025: -878}
+eqPriv: GainLossOnInvestments {2024: -3193, 2025: -878, 2026: 2016}
+eqPriv: DeferredTaxLiabilitiesInvestments {2023: 1390, 2024: 322, 2025: 353}
+eqMeth: EquitySecuritiesFvNi {2023: 10669, 2024: 7249, 2025: 3041}
+eqMeth: EquitySecuritiesFvNiUnrealizedGainLoss {2023: -1200, 2024: -3400, 2025: -4200, 2026: 1500}
+eqMeth: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 0, 2024: 0, 2025: 4080, 2026: 927}
+eqMeth: UnrealizedGainLossOnInvestments {2023: -1683, 2024: -3193, 2025: -878}
+eqMeth: GainLossOnInvestments {2024: -3193, 2025: -878, 2026: 2016}
+eqMeth: DeferredTaxLiabilitiesInvestments {2023: 1390, 2024: 322, 2025: 353}
+afsDeb: EquitySecuritiesFvNi {2023: 10669, 2024: 7249, 2025: 3041}
+afsDeb: EquitySecuritiesFvNiUnrealizedGainLoss {2023: -1200, 2024: -3400, 2025: -4200, 2026: 1500}
+afsDeb: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 0, 2024: 0, 2025: 4080, 2026: 927}
+afsDeb: UnrealizedGainLossOnInvestments {2023: -1683, 2024: -3193, 2025: -878}
+afsDeb: GainLossOnInvestments {2024: -3193, 2025: -878, 2026: 2016}
+afsDeb: DeferredTaxLiabilitiesInvestments {2023: 1390, 2024: 322, 2025: 353}
+ltInv: EquitySecuritiesFvNi {2023: 10669, 2024: 7249, 2025: 3041}
+ltInv: EquitySecuritiesFvNiUnrealizedGainLoss {2023: -1200, 2024: -3400, 2025: -4200, 2026: 1500}
+ltInv: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 0, 2024: 0, 2025: 4080, 2026: 927}
+ltInv: UnrealizedGainLossOnInvestments {2023: -1683, 2024: -3193, 2025: -878}
+ltInv: GainLossOnInvestments {2024: -3193, 2025: -878, 2026: 2016}
+ltInv: DeferredTaxLiabilitiesInvestments {2023: 1390, 2024: 322, 2025: 353}
+
+Tempo: 1 s. File scritto: sec_WMT.json

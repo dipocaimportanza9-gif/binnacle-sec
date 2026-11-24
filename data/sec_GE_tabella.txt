@@ -1,0 +1,99 @@
+GE (CIK 0000040545) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .    3,162        .        .        .        .    1,122    1,063        .
+Leasing operativi: quota corrente                                    .        .        .        .        .        .        .        .      308      283      280        .
+Leasing operativi: quota non corrente                                .        .        .        .    3,162    3,195    2,848    2,089      931      822      783        .
+Leasing operativi: costo (affitti) dell'anno                         .        .    1,003      966      893      827      644      428      364      326      309        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                      .        .        .        .        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                              794      798    1,081    1,088        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                    707      722      908      938        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                    591      621      748      776        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                    519      524      638      681        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                    456      427      578      565        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                        .        .        .        .        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .        .        .    4,713    4,361    3,739    1,108    2,039    1,686        .
+Debito a lungo termine: non corrente                           144,659  105,080  108,575   88,949   67,241   70,189   30,824   20,320   19,417   17,234   18,808        .
+Debito a lungo termine: totale                                       .  136,210  134,591  103,599   90,882   74,902   35,186   24,059   20,862   19,273   20,469        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .    4,713    4,361    3,739    1,108    2,039    1,686        .
+Debiti finanziari a breve                                       49,860   30,714   24,036   12,776   23,641    4,778        .        .        .        0       25        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .      542      517      274      441      614      974    1,439    1,911        .
+Partecipazioni a patrimonio netto (equity method)                    0        0        0        0    5,700    6,100    7,391    7,633    5,590    6,247    7,115        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .   42,549   42,209   36,027   38,000   37,741   38,788        .
+OCI accumulato (utili/perdite non realizzati)                  -16,529  -18,598  -14,404  -14,414  -11,732   -9,749    1,582   -2,272   -6,150   -3,861   -4,798        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+ge:AccountsAndFinancingReceivablesHeldForSaleNotPartOfDisposal       .        .        .        .        .      230      150       51        .        .        .        .
+ge:AssetBackedFinancingArrangementPortfolioHeldInOfficeSector        .        .        .        .        .        .        .        .        0        0        0        .
+ge:DebtAndEquitySecurities                                           .        .        .        .   48,521   49,868        .        .        .        .        .        .
+ge:DebtAndEquitySecuritiesAccumulatedGrossUnrealizedGainBefore       .        .        .        .    5,736    8,342        .        .        .        .        .        .
+ge:DebtAndEquitySecuritiesAccumulatedGrossUnrealizedLossBefore       .        .        .        .       31      106        .        .        .        .        .        .
+ge:DebtAndEquitySecuritiesAmortizedCostBasis                         .        .        .        .   42,816   41,632        .        .        .        .        .        .
+ge:DebtAndEquitySecuritiesCostNoncurrent                             .        .        .        .   32,928   34,313   35,662   38,388   39,222   40,248   40,422        .
+ge:DebtAndEquitySecuritiesCurrent                                    .        .        .        .    9,888    7,319        .        .        .        .        .        .
+ge:DebtAndEquitySecuritiesNoncurrent                                 .        .        .        .   38,632   42,549        .        .        .        .        .        .
+ge:DebtAndEquitySecuritiesUnrealizedGainNoncurrent                   .        .        .        .    5,736    8,342        .        .        .        .        .        .
+ge:DebtAndEquitySecuritiesUnrealizedLossNoncurrent                   .        .        .        .       31      106        .        .        .        .        .        .
+ge:DebtExpectedInterestPaymentDueYearFive                            .        .        .        .        .    1,932    1,009      988      628        .        .        .
+ge:DebtExpectedInterestPaymentDueYearFour                            .        .        .        .        .    2,006    1,047    1,052      653        .        .        .
+ge:DebtExpectedInterestPaymentDueYearOne                             .        .        .        .        .    2,326    1,245    1,367      823        .        .        .
+ge:DebtExpectedInterestPaymentDueYearThree                           .        .        .        .        .    2,072    1,081    1,195      706        .        .        .
+ge:DebtExpectedInterestPaymentDueYearTwo                             .        .        .        .        .    2,210    1,130    1,289      774        .        .        .
+ge:DeferredTaxAssetsLiabilitiesInvestments                           .        .        .        .        .        .   -1,278      516        .        .        .        .
+ge:DeferredTaxLiabilitiesGlobalInvestmentsPartnershipsJoinVent       .        .        .        .        .        .        .    1,440    1,389        .        .        .
+ge:DeferredTaxLiabilitiesInvestmentInGlobalOperations                .        .        .        .        .    1,289    1,775    1,011        .        .        .        .
+ge:EquityMethodInvestmentsAndOtherInvestments                        .        .        .        .        .    6,383    7,840    7,633    7,931        .        .        .
+ge:InvestmentContractsInsuranceLiabilitiesAnnuityBenefits            .        .        .        .   39,826   42,191   37,166   36,845   39,576   36,209   36,894        .
+ge:LeaseExcludingOperatingLeaseUnguaranteedResidualAssetNet          .        .        .        .      835      819        .        .        .        .        .        .
+ge:LeaseNetInvestmentInLease                                         .        .        .        .    2,070    1,805        .        .        .        .        .        .
+ge:LessorExcludingOperatingLeasesDiscountedLeaseReceivable           .        .        .        .    1,234      986        .        .        .        .        .        .
+ge:LessorExcludingOperatingLeasesLeaseReceivablePaymentsToBeRe       .        .        .        .    1,412    1,119        .        .        .        .        .        .
+ge:LeveragedLeasesNetInvestmentInLeveragedLeasesDisclosureResi       .        .        .        .      423      347        .        .        .        .        .        .
+ge:LeveragedLeasesNetInvestmentinLeveragedLeasesDisclosureDisc       .        .        .        .      574      431        .        .        .        .        .        .
+ge:LongTermDebt.AmountContainingPutOptions                           .        .        .        .        .        .        .        .        .      315        .        .
+ge:LongTermDebtAmountContainingPutOptions                            .        .        .        .        .        .        .        .        .        .      324        .
+ge:NetInvestmentInLeaseLeaseReceivableGross                          .        .        .        .    1,628    1,202        .        .        .        .        .        .
+ge:PropertyPlantAndEquipmentAndOperatingLeaseRightOfUseAssetAf       .        .        .        .   45,879   16,699   15,609   12,192    7,246    7,277    7,987        .
+ge:SalestypeandDirectFinancingLeasesUnguaranteedResidualAssetN       .        .        .        .      412      472        .        .        .        .        .        .
+
+--- AVVISI ---
+Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: LongTermDebtAndCapitalLeaseObligations {2023: 19417, 2024: 17234, 2025: 18808}
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 2302, 2024: 1369, 2025: 1323}
+finLiab: OperatingLeaseRightOfUseAsset {2023: 1160, 2024: 1057, 2025: 1018}
+finLiab: OperatingLeaseLiability {2024: 1122, 2025: 1063}
+finLiab: OperatingLeaseLiabilityNoncurrent {2023: 931, 2024: 822, 2025: 783}
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 586, 2024: 398, 2025: 377}
+afsDeb: LongTermInvestments {2023: 38000, 2024: 37741, 2025: 38788}
+afsDeb: AvailableForSaleSecuritiesDebtMaturitiesAfterTenYearsAmortizedCost {2023: 23311, 2024: 25039, 2025: 24762}
+afsDeb: AvailableForSaleSecuritiesDebtMaturitiesAfterTenYearsFairValue {2023: 22205, 2024: 22607, 2025: 22845}
+afsDeb: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 18730, 2024: 21876, 2025: 18484}
+afsDeb: DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger {2023: 17146, 2024: 14011, 2025: 14656}
+afsDeb: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 9004}
+
+Tempo: 2 s. File scritto: sec_GE.json

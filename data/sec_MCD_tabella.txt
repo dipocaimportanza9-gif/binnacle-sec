@@ -1,0 +1,93 @@
+MCD (CIK 0000063908) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .   12,500   14,023   13,726   12,796   12,170        .        .        .
+Leasing operativi: quota corrente                                    .        .        .        0      621      702      706      661        .        .        .        .
+Leasing operativi: quota non corrente                                .        .        .        0   12,758   13,321   13,021   12,134        .        .        .        .
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .        .        .        .        .        .        .        .        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .    1,576    1,780    2,352        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .       11       23        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .    1,770    2,329        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                 12,515   12,252   11,857   12,266        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                            1,350    1,303    1,152    1,145        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                  1,235    1,200    1,087    1,083        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                  1,112    1,102      997    1,001        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                  1,001    1,001      904      910        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                    895      892      806      831        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                    6,921    6,754    6,912    7,297        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               0       77        0        0       59    2,244        0        0    2,192        0      725        .
+Debito a lungo termine: non corrente                            24,122   25,878   29,536   31,075   34,118   35,197   35,623   35,904   37,153   38,424   39,973        .
+Debito a lungo termine: totale                                  24,122   25,956   29,536   31,075   34,177   37,440   35,623   35,904   39,345   38,424   39,973        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        0    2,192        0        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .      348      790      798        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                   -2,880   -3,093   -2,178   -2,610   -2,483   -2,587   -2,574   -2,487   -2,456   -2,553   -2,414        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+mcd:BuildingsAndImprovementsOnLeasedLandGross                        .        .        .        .   12,606   13,364   13,283   12,492   13,322   13,417   15,506        .
+mcd:CurrentLeaseLiabilityNet                                         .        .        .        .        .        .        .        .      688      636      694        .
+mcd:DebtInstrumentFairValueAdjustment                                .        .        .        .        .        .        5      -92      -62      -40      -15        .
+mcd:DeferredTaxAssetsLeaseliability                                  .        .        .        .   -3,331   -3,462   -3,517   -3,100   -3,384   -3,292   -3,615        .
+mcd:DeferredTaxLiabilitiesLeaserightofuseasset                       .        .        .        .    3,297    3,427    3,463    3,045    3,323    3,213    3,533        .
+mcd:LeaseLiability                                                   .        .        .        .        .        .        .        .   13,746   13,524   14,840        .
+mcd:LeaseRightOfUseAssetNet                                          .        .        .        .        .        .        .        .   13,514   13,339   14,606        .
+mcd:LeesseLeaseLiabilityUndiscountedExcessAmount                     .        .        .        .        .        .        .        .    6,134    5,438    5,785        .
+mcd:LongTermLeaseLiabilityNoncurrentNet                              .        .        .        .        .        .        .        .   13,058   12,888   14,147        .
+
+--- AVVISI ---
+Leasing operativi: debito totale: ultimo anno 2023 (mancano anni recenti)
+Leasing operativi: quota corrente: ultimo anno 2022 (mancano anni recenti)
+Leasing operativi: quota non corrente: ultimo anno 2022 (mancano anni recenti)
+Debito corrente totale (con debiti a breve): ultimo anno 2024 (mancano anni recenti)
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+opLiab: LessorOperatingLeasePaymentsToBeReceived {2023: 31162, 2024: 29598, 2025: 31451}
+opLiab: LessorOperatingLeasePaymentsToBeReceivedThereafter {2023: 17336, 2024: 16375, 2025: 17465}
+opLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 17398, 2024: 15950, 2025: 16564}
+opLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 12132, 2024: 10897, 2025: 10977}
+opLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 5227, 2024: 4206, 2025: 4075}
+opLiab: FinanceLeaseLiabilityPaymentsDue {2023: 2482, 2024: 3012, 2025: 4062}
+eqPriv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 1080, 2024: 2710, 2025: 2820}
+eqPriv: PaymentsToAcquireEquityMethodInvestments {2023: 0, 2024: 1837, 2025: 0}
+eqPriv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2024: 1500, 2025: 1400}
+eqPriv: GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee {2023: 537, 2024: 537}
+eqPriv: IncomeLossFromEquityMethodInvestments {2023: 153, 2024: 157, 2025: 190}
+eqMeth: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 1080, 2024: 2710, 2025: 2820}
+eqMeth: PaymentsToAcquireEquityMethodInvestments {2023: 0, 2024: 1837, 2025: 0}
+eqMeth: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2024: 1500, 2025: 1400}
+eqMeth: GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee {2023: 537, 2024: 537}
+eqMeth: IncomeLossFromEquityMethodInvestments {2023: 153, 2024: 157, 2025: 190}
+afsDeb: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 1080, 2024: 2710, 2025: 2820}
+afsDeb: PaymentsToAcquireEquityMethodInvestments {2023: 0, 2024: 1837, 2025: 0}
+afsDeb: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2024: 1500, 2025: 1400}
+afsDeb: GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee {2023: 537, 2024: 537}
+afsDeb: IncomeLossFromEquityMethodInvestments {2023: 153, 2024: 157, 2025: 190}
+ltInv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 1080, 2024: 2710, 2025: 2820}
+ltInv: PaymentsToAcquireEquityMethodInvestments {2023: 0, 2024: 1837, 2025: 0}
+ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2024: 1500, 2025: 1400}
+ltInv: GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee {2023: 537, 2024: 537}
+ltInv: IncomeLossFromEquityMethodInvestments {2023: 153, 2024: 157, 2025: 190}
+
+Tempo: 2 s. File scritto: sec_MCD.json

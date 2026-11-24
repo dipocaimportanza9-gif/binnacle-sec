@@ -1,0 +1,94 @@
+SBUX (CIK 0000829224) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .        .    8,910    8,989    8,761    9,200   10,235   10,537    9,137
+Leasing operativi: quota corrente                                    .        .        .        .        0    1,249    1,251    1,246    1,275    1,463    1,564    1,344
+Leasing operativi: quota non corrente                                .        .        .        .        0    7,662    7,738    7,515    7,925    8,772    8,972    7,792
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .        .    1,574    1,579    1,555    1,601    1,724    2,097    1,944
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  5,670    7,285    8,614    9,354   10,231        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                            1,032    1,125    1,213    1,341    1,433        .        .        .        .        .        .        .
+Impegni: anno 2                                                    892    1,006    1,142    1,273    1,342        .        .        .        .        .        .        .
+Impegni: anno 3                                                    740      896    1,069    1,190    1,247        .        .        .        .        .        .        .
+Impegni: anno 4                                                    624      821      987    1,087    1,124        .        .        .        .        .        .        .
+Impegni: anno 5                                                    549      740      888      958      996        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                    1,832    2,696    3,315    3,504    4,088        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               0      400        0      350        0    1,250      999    1,749    1,819    1,249    1,499    1,499
+Debito a lungo termine: non corrente                             2,348    3,185    3,933    9,090   11,167   14,660   13,617   13,120   13,548   14,320   14,576   11,778
+Debito a lungo termine: totale                                   2,348    3,585    3,933    9,440   11,167   15,910   14,616   14,869   15,366   15,568   16,075   13,277
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        0      439        0      175       34        0        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                  306      306      433      296      336      426      216      283      416      424      419    1,761
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .      282      279      247      276      247      310
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                     -199     -108     -156     -330     -503     -365      147     -463     -778     -429     -459      -87
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+sbux:CurrentAssetsEquityMethodInvestments                            .        .        .        .        .        .        .        .        .        .      372    1,265
+sbux:CurrentLiabilitiesEquityMethodInvestments                       .        .        .        .        .        .        .        .        .        .      248    1,078
+sbux:DeferredTaxAssetsOperatingLeaseLiability                        .        .        .        .        .    2,313    2,395    2,289    2,395    2,595    2,647    2,301
+sbux:DeferredTaxLiabilitiesOperatingLeaseRightOfUseAssets            .        .        .        .        .   -2,192   -2,296   -2,194   -2,292   -2,484    2,467    2,107
+sbux:EquityInvestments                                               .        .        .        .        .      479      268      311        .        .        .        .
+sbux:LesseeOperatingLeaseLeaseNotYetCommencedAmount                  .        .        .        .        .        .      831    1,100    1,400    1,600      824      526
+sbux:NoncurrentAssetsEquityMethodInvestments                         .        .        .        .        .        .        .        .        .        .    1,340    7,146
+sbux:NoncurrentLiabilitiesEquityMethodInvestments                    .        .        .        .        .        .        .        .        .        .        8    2,334
+sbux:OperatingLeaseLiabilityRestructuring                            .        .        .        .        .        .        .        .        .        .      273        .
+
+--- AVVISI ---
+Debiti finanziari a breve: ultimo anno 2024 (mancano anni recenti)
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 10594, 2024: 11942, 2025: 12389, 2026: 10820}
+finLiab: OperatingLeaseLiability {2023: 9200, 2024: 10235, 2025: 10537, 2026: 9137}
+finLiab: OperatingLeaseRightOfUseAsset {2023: 8413, 2024: 9286, 2025: 9316, 2026: 7859}
+finLiab: OperatingLeaseLiabilityNoncurrent {2023: 7925, 2024: 8772, 2025: 8972, 2026: 7792}
+finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 3878, 2024: 4498, 2025: 4592, 2026: 3881}
+finLiab: LeaseCost {2023: 2679, 2024: 2881, 2025: 3364, 2026: 3151}
+dBrev: DebtInstrumentCarryingAmount {2023: 15519, 2024: 15700, 2025: 16200, 2026: 13384}
+dBrev: LongTermDebt {2023: 15366, 2024: 15568, 2025: 16075, 2026: 13277}
+dBrev: LongTermDebtFairValue {2023: 13426, 2024: 14647, 2025: 14968, 2026: 11629}
+dBrev: LongTermDebtNoncurrent {2023: 13548, 2024: 14320, 2025: 14576, 2026: 11778}
+dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 9850, 2024: 9100, 2025: 8850, 2026: 6379}
+dBrev: RepaymentsOfLongTermDebt {2023: 1000, 2024: 1825, 2025: 1250, 2026: 2816}
+eqPriv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesFairValueDisclosure {2023: 440, 2024: 464, 2025: 466, 2026: 1784}
+eqPriv: EquityMethodInvestments {2023: 416, 2024: 424, 2025: 419, 2026: 1761}
+eqPriv: ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities {2023: 617, 2024: 768, 2025: 392, 2026: 165}
+eqPriv: PaymentsToAcquireInvestments {2023: 610, 2024: 628, 2025: 334, 2026: 182}
+eqPriv: ShortTermInvestments {2023: 402, 2024: 257, 2025: 247, 2026: 184}
+eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 223, 2024: 333, 2025: 294, 2026: 188}
+afsDeb: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesFairValueDisclosure {2023: 440, 2024: 464, 2025: 466, 2026: 1784}
+afsDeb: EquityMethodInvestments {2023: 416, 2024: 424, 2025: 419, 2026: 1761}
+afsDeb: ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities {2023: 617, 2024: 768, 2025: 392, 2026: 165}
+afsDeb: PaymentsToAcquireInvestments {2023: 610, 2024: 628, 2025: 334, 2026: 182}
+afsDeb: ShortTermInvestments {2023: 402, 2024: 257, 2025: 247, 2026: 184}
+afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 223, 2024: 333, 2025: 294, 2026: 188}
+ltInv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesFairValueDisclosure {2023: 440, 2024: 464, 2025: 466, 2026: 1784}
+ltInv: EquityMethodInvestments {2023: 416, 2024: 424, 2025: 419, 2026: 1761}
+ltInv: ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities {2023: 617, 2024: 768, 2025: 392, 2026: 165}
+ltInv: PaymentsToAcquireInvestments {2023: 610, 2024: 628, 2025: 334, 2026: 182}
+ltInv: ShortTermInvestments {2023: 402, 2024: 257, 2025: 247, 2026: 184}
+ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 223, 2024: 333, 2025: 294, 2026: 188}
+
+Tempo: 2 s. File scritto: sec_SBUX.json

@@ -1,0 +1,71 @@
+UBER (CIK 0001543151) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .    1,719    1,719    1,829    1,874    1,740    1,629    1,559        .
+Leasing operativi: quota corrente                                    .        .        .        .      196      175      185      201      190      175      169        .
+Leasing operativi: quota non corrente                                .        .        .        .    1,523    1,544    1,644    1,673    1,550    1,454    1,390        .
+Leasing operativi: costo (affitti) dell'anno                         .        .      194      221      321      482      299      304      321      294      288        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .      308      297      234      399      478      310      222        .
+Leasing finanziari: quota corrente                                   .        .        .        .      165      177      191      115      156      136      138        .
+Leasing finanziari: quota non corrente                               .        .        .        .      143      120       43      284      322      174       84        .
+Capital lease (prima del 2019): quota corrente                       .        .        .      110        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        0       89      138      224      226      184      171      172      157        .
+Beni acquisiti con capital lease (non cash)                          .        .      124      165      251      196      184      349      216        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                      .        .        .    3,028        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                                .        .        .      263        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                      .        .        .      257        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                      .        .        .      224        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                      .        .        .      193        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                      .        .        .      163        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                        .        .        .    1,928        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .       27       27       27       27       27       25    1,150        0        .
+Debito a lungo termine: non corrente                                 .        .        .    6,869    5,707    7,560    9,276    9,265    9,459    8,347   10,521        .
+Debito a lungo termine: totale                                       .        .        .        .    5,791    7,914    9,388    9,361    9,560    9,575   10,600        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        0        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .    7,985    8,059    6,576      283    2,111    2,574    3,199    4,397        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .    1,312    1,364    1,079      800      870      353      302      287        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .    8,562   10,326        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                        .        .        .     -188     -187     -535     -524     -443     -421     -517     -432        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .    6,896        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+uber:CommitmentToIssueUnsecuredConvertibleNotesCurrent               .        .        .        .        .      303      238      152      128        .        .        .
+uber:CommitmentToIssueUnsecuredConvertibleNotesNoncurrent            .        .        .        .        .      120        .        .        .        .        .        .
+uber:DeferredTaxAssetLeaseLiability                                  .        .        .        .      438      460      455      478      436      391      367        .
+uber:FinanceLeaseRightOfUseAssetAccumulatedDepreciation              .        .        .        .      247      303        .        .        .        .        .        .
+uber:FinanceLeaseRightOfUseAssetGross                                .        .        .        .      539      596        .        .        .        .        .        .
+uber:LesseeFinanceLeaseLeaseNotYetCommencedAmount                    .        .        .        .        .        4       19        .        .        .        .        .
+uber:LesseeOperatingLeaseLeaseNotYetCommencedAmount                  .        .        .        .        .      533      421      193        .        .        .        .
+uber:MarketableAndNonMarketableInvestments                           .        .        .        .        .        .        .    4,401    6,101    8,460    9,178        .
+uber:MarketableandNonMarketableInvestments                           .        .        .        .   10,527    9,052   11,806    4,401        .        .        .        .
+uber:OperatingLeaseRightOfUseAssetPercentageOfLeasedAssetsFore       .        .        .        .        0        0        .        0        .        .        .        .
+
+--- AVVISI ---
+Beni acquisiti con capital lease (non cash): ultimo anno 2023 (mancano anni recenti)
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+ltInv: PaymentsToAcquireMarketableSecurities {2023: 8774, 2024: 12765, 2025: 21447}
+ltInv: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 5069, 2024: 10204, 2025: 20046}
+ltInv: AvailableForSaleSecuritiesDebtSecurities {2024: 8562, 2025: 10326}
+ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2024: 8558, 2025: 10314}
+ltInv: RestrictedInvestments {2023: 4779, 2024: 7019, 2025: 8874}
+ltInv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 2321, 2024: 4125, 2025: 5800}
+
+Tempo: 3 s. File scritto: sec_UBER.json

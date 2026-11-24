@@ -1,0 +1,99 @@
+UPS (CIK 0001090727) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .    2,700    3,100    3,613    3,859    4,465    4,368    4,463        .
+Leasing operativi: quota corrente                                    .        .        .        .      538      560      580      621      709      733      763        .
+Leasing operativi: quota non corrente                                .        .        .        .    2,391    2,540    3,033    3,238    3,756    3,635    3,700        .
+Leasing operativi: costo (affitti) dell'anno                         .        .        .        .      643      711      729      736      860      912      950        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .      498      342      408      390      472      455      781        .
+Leasing finanziari: quota corrente                                   .        .        .        .      181       56      129       92      104      104      107        .
+Leasing finanziari: quota non corrente                               .        .        .        .      317      286      279      298      368      351      674        .
+Capital lease (prima del 2019): quota corrente                      46       46       51      140        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                       429      401      449      394        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .      140      192      208      149      126      136      133        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  1,259    1,470    1,637    2,967        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                              324      368      398      578        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                    263      302      305      477        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                    197      221      239      399        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                    125      168      186      325        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                     84      111      138      262        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                        .        .        .      926        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                           3,018    3,681    4,011    2,805    3,420    2,623    2,131    2,341    3,348    1,838      608        .
+Debito a lungo termine: non corrente                            11,316   12,394   20,278   19,931   21,818   22,031   19,784   17,321   18,916   19,446   23,519        .
+Debito a lungo termine: totale                                  13,692   15,557   23,886   22,349   24,891   24,472   21,677   19,436   21,998   21,030   23,585        .
+Debito corrente totale (con debiti a breve)                      3,018    3,681    4,011    2,805    3,420    2,623        .    2,341    3,348    1,838      608        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .       26       31       47       42       46        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .       28      256      295      304      254        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                   -3,540   -4,483   -4,867   -4,994   -5,997   -7,113   -3,278   -1,549   -3,758   -4,309   -4,208        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+ups:CovenantsLimitAmountOfSecuredIndebtednessThatWeMayIncurAnd       .        .        .        .        .    4,000    4,600    4,600    4,500    4,600        .        .
+ups:CovenantsLimitAmountOfSecuredIndebtednessThatWeMayIncurAnd       .        .        .        .        .        0        0        0        0        0        .        .
+ups:DebtInstrumentRedemptionPriceMinimumThresholdPercentage          .        .        .        .        .        .        .        .        0        .        .        .
+ups:DeferredTaxAssetOperatingLeaseLiability                          .        .        .        .      691      736      874      948    1,073    1,021    1,018        .
+ups:LesseeFinanceLeaseAndOperatingLeaseLeaseNotYetCommencedAmo       .        .        .        .        .      184      348    1,200      835        .        .        .
+ups:LongTermDebtMaturityDebtInterest                                 .        .        .        .        .        .   10,346        .        .        .        .        .
+ups:LongTermDebtMaturityDebtInterestAfterYearFive                    .        .        .        .        .        .    7,167        .        .        .        .        .
+ups:LongTermDebtMaturityDebtInterestYearFive                         .        .        .        .        .        .      523        .        .        .        .        .
+ups:LongTermDebtMaturityDebtInterestYearFour                         .        .        .        .        .        .      636        .        .        .        .        .
+ups:LongTermDebtMaturityDebtInterestYearOne                          .        .        .        .        .        .      722        .        .        .        .        .
+ups:LongTermDebtMaturityDebtInterestYearThree                        .        .        .        .        .        .      630        .        .        .        .        .
+ups:LongTermDebtMaturityDebtInterestYearTwo                          .        .        .        .        .        .      668        .        .        .        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterFiveYearsAmortizedC       .        .        .        .        .       36        .        .        .        .        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterFiveYearsFairValue        .        .        .        .        .       40        .        .        .        .        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterOneThroughThreeYear       .        .        .        .        .      323      304      791    1,513       43        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterOneThroughThreeYear       .        .        .        .        .      327      305      777    1,514       42        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterThreeThroughFiveYea       .        .        .        .        .       10        .       27        5        .        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterThreeThroughFiveYea       .        .        .        .        .       10        .       27        5        .        .        .
+ups:MarketableSecuritiesDebtMaturitiesAmortizedCostBasis             .        .        .        .        .      396      335    2,005    2,864      204        .        .
+ups:MarketableSecuritiesDebtMaturitiesFairValue                      .        .        .        .        .      404      336    1,991    2,862      203        .        .
+ups:MarketableSecuritiesDebtMaturitiesNextTwelveMonthsAmortize       .        .        .        .        .       27       31    1,187    1,346      161        .        .
+ups:MarketableSecuritiesDebtMaturitiesNextTwelveMonthsFairValu       .        .        .        .        .       27       31    1,187    1,343      161        .        .
+ups:NumberofLeasedAircrafts                                          .        .        .        .        .        0        0        .        .        .        .        .
+ups:NumberofLeasedAircraftsFinanceLease                              .        .        .        .        .        0        0        .        .        .        .        .
+ups:NumberofLeasedAircraftsOperatingLease                            .        .        .        .        .        0        0        .        .        .        .        .
+ups:NumberofLeasedAircraftsShortterm                                 .        .        .        .        .        0        0        .        .        .        .        .
+
+--- AVVISI ---
+Il tag del debito include i leasing finanziari negli anni 2023-2025: non sommarli di nuovo
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+dBrev: DebtInstrumentFaceAmount {2023: 22470, 2024: 21487, 2025: 24367}
+dBrev: DebtAndCapitalLeaseObligations {2023: 22264, 2024: 21284, 2025: 24127}
+dBrev: LongTermDebt {2023: 21998, 2024: 21030, 2025: 23585}
+dBrev: LongTermDebtAndCapitalLeaseObligations {2023: 18916, 2024: 19446, 2025: 23519}
+dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 14501, 2024: 16125, 2025: 18672}
+dBrev: ProceedsFromIssuanceOfLongTermDebt {2023: 3429, 2024: 2785, 2025: 4153}
+afsDeb: PaymentsToAcquireInvestments {2023: 3521, 2024: 76, 2025: 90}
+afsDeb: TradingSecuritiesDebtAmortizedCost {2023: 2868, 2024: 207, 2025: 3}
+afsDeb: TradingSecurities {2023: 2866, 2024: 206, 2025: 3}
+afsDeb: MarketableSecuritiesCurrent {2023: 2866, 2024: 206}
+afsDeb: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 2864, 2024: 204, 2025: 0}
+afsDeb: DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent {2023: 2862, 2024: 203, 2025: 0}
+ltInv: PaymentsToAcquireInvestments {2023: 3521, 2024: 76, 2025: 90}
+ltInv: TradingSecuritiesDebtAmortizedCost {2023: 2868, 2024: 207, 2025: 3}
+ltInv: TradingSecurities {2023: 2866, 2024: 206, 2025: 3}
+ltInv: MarketableSecuritiesCurrent {2023: 2866, 2024: 206}
+ltInv: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 2864, 2024: 204, 2025: 0}
+ltInv: DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent {2023: 2862, 2024: 203, 2025: 0}
+
+Tempo: 3 s. File scritto: sec_UPS.json

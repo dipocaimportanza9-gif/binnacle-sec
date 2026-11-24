@@ -1,0 +1,77 @@
+META (CIK 0001326801) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .   10,324   10,654   13,873   16,668   18,849   20,234   25,153        .
+Leasing operativi: quota corrente                                    .        .        .        .      800    1,023    1,127    1,367    1,623    1,942    2,213        .
+Leasing operativi: quota non corrente                                .        .        .        0    9,524    9,631   12,746   15,301   17,226   18,292   22,940        .
+Leasing operativi: costo (affitti) dell'anno                       196      269      363      629    1,139    1,391    1,540    1,857    2,091    2,359    2,798        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .      473      523      581      687      690      709    1,184        .
+Leasing finanziari: quota corrente                                   .        .        .        .       55       54       75      129       90       76      308        .
+Leasing finanziari: quota non corrente                               .        .        .      418        .      469      506      558      600      633      876        .
+Capital lease (prima del 2019): quota corrente                       7        0        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                       107        0        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                               119        .        0        0      552      604      677      850    1,058    1,969    2,524        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  1,452    1,964    4,644   14,651        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                              209      277      409      698        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                    230      284      464      946        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                    216      265      470    1,055        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                    200      221      448    1,048        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                    159      184      430    1,054        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                      438      733    2,423    9,850        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: non corrente                                 .        .        .        .        .        .        0    9,923   18,385   28,826   58,744        .
+Debito a lungo termine: totale                                       .        .        .        .        .        .        .    9,923   18,385   28,826   58,744        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                          201        0        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .       86    6,172    6,741    6,184    6,083    6,018   20,076        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .       62       34       17       58       52    7,448        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                     -455     -703     -227     -760     -489      927     -693   -3,530   -2,155   -3,097      271        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+meta:DeferredTaxAssetsLeaseLiabilities                               .        .        .        .        .        .        .        .    3,752    3,940    5,150        .
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+dCur: DebtInstrumentCarryingAmount {2023: 18500, 2024: 29000, 2025: 59000}
+dCur: LongTermDebtNoncurrent {2023: 18385, 2024: 28826, 2025: 58744}
+dCur: LongTermDebt {2023: 18385, 2024: 28826, 2025: 58744}
+dCur: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 14250, 2024: 23750, 2025: 48750}
+dCur: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 23541, 2024: 32700, 2025: 39727}
+dCur: ProceedsFromIssuanceOfLongTermDebt {2023: 8455, 2024: 10432, 2025: 29906}
+dBrev: DebtInstrumentCarryingAmount {2023: 18500, 2024: 29000, 2025: 59000}
+dBrev: LongTermDebtNoncurrent {2023: 18385, 2024: 28826, 2025: 58744}
+dBrev: LongTermDebt {2023: 18385, 2024: 28826, 2025: 58744}
+dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 14250, 2024: 23750, 2025: 48750}
+dBrev: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 23541, 2024: 32700, 2025: 39727}
+dBrev: ProceedsFromIssuanceOfLongTermDebt {2023: 8455, 2024: 10432, 2025: 29906}
+afsDeb: MarketableSecuritiesCurrent {2023: 23541, 2024: 33926, 2025: 45719}
+afsDeb: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 23541, 2024: 32700, 2025: 39727}
+afsDeb: PaymentsToAcquireMarketableSecurities {2023: 2982, 2024: 25542, 2025: 36929}
+afsDeb: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 6184, 2024: 15789, 2025: 26874}
+afsDeb: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue {2023: 16421, 2024: 24853, 2025: 26704}
+afsDeb: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 21445, 2024: 23070, 2025: 5850}
+ltInv: MarketableSecuritiesCurrent {2023: 23541, 2024: 33926, 2025: 45719}
+ltInv: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 23541, 2024: 32700, 2025: 39727}
+ltInv: PaymentsToAcquireMarketableSecurities {2023: 2982, 2024: 25542, 2025: 36929}
+ltInv: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 6184, 2024: 15789, 2025: 26874}
+ltInv: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue {2023: 16421, 2024: 24853, 2025: 26704}
+ltInv: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 21445, 2024: 23070, 2025: 5850}
+
+Tempo: 1 s. File scritto: sec_META.json

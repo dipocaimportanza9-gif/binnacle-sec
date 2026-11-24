@@ -1,0 +1,96 @@
+BRK-B (CIK 0001067983) - valori in milioni di dollari
+concetto                                                          2015     2016     2017     2018     2019     2020     2021     2022     2023     2024     2025     2026
+
+--- LEASING OPERATIVI (dal 2019) ---
+Leasing operativi: debito totale                                     .        .        .        .    5,882    5,469    4,991    4,939    5,299    5,996    6,290        .
+Leasing operativi: quota corrente                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: quota non corrente                                .        .        .        .        .        .        .        .        .        .        .        .
+Leasing operativi: costo (affitti) dell'anno                     1,516    1,573    1,579    1,649    1,459    1,413    1,426    1,361    1,535    1,652    1,647        .
+
+--- LEASING FINANZIARI / CAPITAL LEASE ---
+Leasing finanziari: debito totale                                    .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota corrente                                   .        .        .        .        .        .        .        .        .        .        .        .
+Leasing finanziari: quota non corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): quota corrente                       .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): non corrente                         .        .        .        .        .        .        .        .        .        .        .        .
+Capital lease (prima del 2019): totale                               .        .        .        .        .        .        .        .        .        .        .        .
+Rimborsi capitale leasing finanziari                                 .        .        .        .        .        .        .        .        .        .        .        .
+Beni acquisiti con capital lease (non cash)                          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- IMPEGNI LEASING OPERATIVI (prima del 2019, ASC 840) ---
+Impegni: totale                                                  8,738    8,285    8,486    9,013        .        .        .        .        .        .        .        .
+Impegni: entro 1 anno                                            1,347    1,337    1,330    1,360        .        .        .        .        .        .        .        .
+Impegni: anno 2                                                  1,187    1,162    1,192    1,317        .        .        .        .        .        .        .        .
+Impegni: anno 3                                                  1,012    1,005    1,067    1,098        .        .        .        .        .        .        .        .
+Impegni: anno 4                                                    884      885      872      872        .        .        .        .        .        .        .        .
+Impegni: anno 5                                                    796      725      709      708        .        .        .        .        .        .        .        .
+Impegni: oltre il quinto anno                                    3,512    3,171    3,316    3,658        .        .        .        .        .        .        .        .
+
+--- DEBITO FINANZIARIO ---
+Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: totale                                       .        .        .        .        .        .        .        .        .        .        .        .
+Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
+
+--- INVESTIMENTI NON OPERATIVI e OCI ---
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .   16,045   28,050   29,066   31,134   19,978        .
+Titoli di debito disponibili per la vendita (valore equo)       26,027   23,432   21,353   19,898   18,685   20,410   16,434   25,128   23,758   15,364   17,816        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+OCI accumulato (utili/perdite non realizzati)                   33,982   37,298   58,571   -5,015   -5,243   -4,243   -9,994   -5,052   -3,763   -3,584   -2,448        .
+
+--- DERIVATI (regole generali) ---
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
+Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
+
+--- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+brka:DeferredTaxLiabilitiesPropertyPlantAndEquipmentEquipmentH       .        .        .        .   29,388   30,203   31,323   32,080   32,991   33,590   34,834        .
+brka:RepaymentsOfDebtPrincipalInNextTwelveMonths                     .        .        .        .        .    9,398    6,139   12,962   13,859    9,366    9,782        .
+
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: PropertySubjectToOrAvailableForOperatingLeaseGross {2023: 28144, 2024: 30024, 2025: 31892}
+finLiab: PropertySubjectToOrAvailableForOperatingLeaseNet {2023: 16947, 2024: 17828, 2025: 18535}
+finLiab: LessorOperatingLeasePaymentsToBeReceived {2023: 11988, 2024: 13146, 2025: 14168}
+finLiab: PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation {2023: 11197, 2024: 12196, 2025: 13357}
+finLiab: DepreciationExcludingLessorAssetUnderOperatingLease {2023: 9392, 2024: 9631, 2025: 10146}
+finLiab: OperatingLeaseLeaseIncome {2023: 8416, 2024: 9227, 2025: 10034}
+dCur: AvailableForSaleSecuritiesDebtSecurities {2023: 23758, 2024: 15364, 2025: 17816}
+dCur: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 23525, 2024: 15214, 2025: 17525}
+dCur: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis {2023: 18888, 2024: 10228, 2025: 12875}
+dCur: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 18875, 2024: 10107, 2025: 12949}
+dCur: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 7048, 2024: 5748, 2025: 6631}
+dCur: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive {2023: 6433, 2024: 6326, 2025: 5793}
+dNon: AvailableForSaleSecuritiesDebtSecurities {2023: 23758, 2024: 15364, 2025: 17816}
+dNon: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 23525, 2024: 15214, 2025: 17525}
+dNon: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis {2023: 18888, 2024: 10228, 2025: 12875}
+dNon: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 18875, 2024: 10107, 2025: 12949}
+dNon: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 7048, 2024: 5748, 2025: 6631}
+dNon: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive {2023: 6433, 2024: 6326, 2025: 5793}
+dTot: AvailableForSaleSecuritiesDebtSecurities {2023: 23758, 2024: 15364, 2025: 17816}
+dTot: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 23525, 2024: 15214, 2025: 17525}
+dTot: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis {2023: 18888, 2024: 10228, 2025: 12875}
+dTot: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 18875, 2024: 10107, 2025: 12949}
+dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 7048, 2024: 5748, 2025: 6631}
+dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive {2023: 6433, 2024: 6326, 2025: 5793}
+dBrev: AvailableForSaleSecuritiesDebtSecurities {2023: 23758, 2024: 15364, 2025: 17816}
+dBrev: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 23525, 2024: 15214, 2025: 17525}
+dBrev: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis {2023: 18888, 2024: 10228, 2025: 12875}
+dBrev: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 18875, 2024: 10107, 2025: 12949}
+dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 7048, 2024: 5748, 2025: 6631}
+dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive {2023: 6433, 2024: 6326, 2025: 5793}
+eqPriv: EquitySecuritiesFvNi {2023: 353842, 2024: 271588, 2025: 297778}
+eqPriv: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 40631, 2024: 143359, 2025: 30686}
+eqPriv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 118193, 2024: 108535, 2025: 92049}
+eqPriv: EquitySecuritiesFvNiCost {2023: 109416, 2024: 75506, 2025: 85389}
+eqPriv: GainLossOnInvestments {2023: 74855, 2024: 52799, 2025: 39078}
+eqPriv: EquitySecuritiesFvNiGainLoss {2023: 71842, 2024: 52820, 2025: 39963}
+ltInv: EquitySecuritiesFvNi {2023: 353842, 2024: 271588, 2025: 297778}
+ltInv: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 40631, 2024: 143359, 2025: 30686}
+ltInv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 118193, 2024: 108535, 2025: 92049}
+ltInv: EquitySecuritiesFvNiCost {2023: 109416, 2024: 75506, 2025: 85389}
+ltInv: GainLossOnInvestments {2023: 74855, 2024: 52799, 2025: 39078}
+ltInv: EquitySecuritiesFvNiGainLoss {2023: 71842, 2024: 52820, 2025: 39963}
+
+Tempo: 4 s. File scritto: sec_BRK-B.json

@@ -1,0 +1,820 @@
+{
+ "ticker": "AMT",
+ "cik": "0001053507",
+ "cik_usati": [
+  "0001053507"
+ ],
+ "concetti": {
+  "opLiab": {
+   "2019": 7004.9,
+   "2020": 7424.3,
+   "2021": 8754.4,
+   "2022": 8380.8,
+   "2023": 7505.7,
+   "2024": 7452.3,
+   "2025": 7743.6
+  },
+  "opCur": {
+   "2019": 494.5,
+   "2020": 539.9,
+   "2021": 712.6,
+   "2022": 788.9,
+   "2023": 690.4,
+   "2024": 576.7,
+   "2025": 584.9
+  },
+  "opNon": {
+   "2019": 6510.4,
+   "2020": 6884.4,
+   "2021": 8041.8,
+   "2022": 7591.9,
+   "2023": 6815.3,
+   "2024": 6875.6,
+   "2025": 7158.7
+  },
+  "opCost": {
+   "2019": 1013.1,
+   "2020": 977.2,
+   "2021": 1115.1,
+   "2022": 1059.1,
+   "2023": 1084.1,
+   "2024": 994.2,
+   "2025": 1131.4
+  },
+  "finLiab": {
+   "2019": 30.7,
+   "2020": 27.9,
+   "2021": 31.6,
+   "2022": 27.8,
+   "2023": 20.6,
+   "2024": 16.6,
+   "2025": 15.9
+  },
+  "finCur": {
+   "2019": 6.7,
+   "2020": 4.9,
+   "2021": 6.7,
+   "2022": 4.7,
+   "2023": 3.4,
+   "2024": 2.6
+  },
+  "finNon": {
+   "2019": 24.0,
+   "2020": 23.0,
+   "2021": 24.9,
+   "2022": 23.1,
+   "2023": 17.2,
+   "2024": 14.0
+  },
+  "capCur": {},
+  "capNon": {},
+  "capTot": {
+   "2012": 57.3,
+   "2013": 73.4,
+   "2014": 93.7,
+   "2015": 110.9,
+   "2016": 135.8,
+   "2017": 179.5,
+   "2018": 179.5
+  },
+  "finRep": {
+   "2019": 18.0,
+   "2020": 9.2,
+   "2021": 7.9,
+   "2022": 6.7,
+   "2023": 6.2,
+   "2024": 4.7
+  },
+  "capNew": {
+   "2008": 1.4,
+   "2009": 2.2,
+   "2010": 2.2,
+   "2011": 6.8,
+   "2012": 19.2,
+   "2013": 27.4,
+   "2014": 36.5,
+   "2015": 36.9,
+   "2016": 55.6,
+   "2017": 54.8,
+   "2018": 57.8,
+   "2019": 81.3,
+   "2020": 75.0,
+   "2021": 58.8,
+   "2022": 33.6,
+   "2023": 31.5,
+   "2024": 21.7,
+   "2025": 28.9
+  },
+  "imp1": {
+   "2010": 3832.6,
+   "2011": 4047.9,
+   "2012": 4585.8,
+   "2013": 6886.8,
+   "2014": 6903.2,
+   "2015": 9850.0,
+   "2016": 10682.0,
+   "2018": 10509.9
+  },
+  "imp1y": {
+   "2010": 258.0,
+   "2011": 303.3,
+   "2012": 364.4,
+   "2013": 512.4,
+   "2014": 574.4,
+   "2015": 722.0,
+   "2016": 869.0,
+   "2018": 926.0
+  },
+  "imp2y": {
+   "2010": 254.6,
+   "2011": 293.0,
+   "2012": 352.6,
+   "2013": 504.5,
+   "2014": 553.9,
+   "2015": 709.0,
+   "2016": 846.0,
+   "2018": 904.2
+  },
+  "imp3y": {
+   "2010": 251.3,
+   "2011": 288.9,
+   "2012": 343.5,
+   "2013": 492.1,
+   "2014": 538.4,
+   "2015": 690.0,
+   "2016": 816.0,
+   "2018": 879.8
+  },
+  "imp4y": {
+   "2010": 246.4,
+   "2011": 282.8,
+   "2012": 328.8,
+   "2013": 478.4,
+   "2014": 519.0,
+   "2015": 670.0,
+   "2016": 776.0,
+   "2018": 834.2
+  },
+  "imp5y": {
+   "2010": 238.0,
+   "2011": 270.5,
+   "2012": 317.5,
+   "2013": 466.1,
+   "2014": 502.8,
+   "2015": 643.0,
+   "2016": 737.0,
+   "2018": 792.6
+  },
+  "impOltre": {
+   "2010": 2584.3,
+   "2011": 2609.5,
+   "2012": 2878.9,
+   "2013": 4433.3,
+   "2014": 4214.6,
+   "2015": 6416.0,
+   "2016": 6638.0,
+   "2018": 6173.1
+  },
+  "dCur": {
+   "2009": 70.5,
+   "2010": 74.9,
+   "2011": 101.8,
+   "2012": 60.0,
+   "2013": 70.1,
+   "2014": 897.4,
+   "2015": 50.2,
+   "2016": 238.8,
+   "2018": 2754.8,
+   "2019": 2928.2,
+   "2020": 789.8,
+   "2021": 4568.7,
+   "2022": 4514.2,
+   "2023": 3067.3,
+   "2024": 3693.0,
+   "2025": 3387.8,
+   "2008": 1.8
+  },
+  "dNon": {
+   "2009": 4141.1,
+   "2010": 5512.5,
+   "2011": 7134.5,
+   "2012": 8693.3,
+   "2013": 14408.1,
+   "2014": 13643.0,
+   "2015": 17068.8,
+   "2016": 18294.7,
+   "2008": 4331.3,
+   "2018": 18405.1,
+   "2019": 21127.2,
+   "2020": 28497.7,
+   "2021": 38685.5,
+   "2022": 34156.0,
+   "2023": 35734.0,
+   "2024": 32808.8,
+   "2025": 33832.5
+  },
+  "dTot": {
+   "2009": 4211.6,
+   "2010": 5587.4,
+   "2011": 7236.3,
+   "2012": 8753.4,
+   "2013": 14478.3,
+   "2014": 14608.7,
+   "2015": 17119.0,
+   "2016": 18533.5,
+   "2019": 1.9,
+   "2021": 43497.5,
+   "2022": 38901.8,
+   "2018": 21159.9,
+   "2020": 29287.5,
+   "2023": 38801.3,
+   "2024": 36501.8,
+   "2025": 37220.3
+  },
+  "dCurTot": {
+   "2008": 1.8,
+   "2009": 70.5,
+   "2010": 74.9
+  },
+  "dBrev": {},
+  "eqPriv": {},
+  "eqMeth": {},
+  "afsDeb": {},
+  "mktNon": {},
+  "ltInv": {},
+  "aoci": {
+   "2008": -20.0,
+   "2009": -12.6,
+   "2010": 38.1,
+   "2011": -142.6,
+   "2012": -183.3,
+   "2013": -311.2,
+   "2014": -794.2,
+   "2015": -1837.0,
+   "2016": -1999.3,
+   "2018": -2642.9,
+   "2019": -2823.6,
+   "2020": -3759.4,
+   "2021": -4738.9,
+   "2022": -5718.3,
+   "2023": -5739.5,
+   "2024": -5954.6,
+   "2025": -4815.8
+  }
+ },
+ "tag_usato": {
+  "opLiab": {
+   "2019": "OperatingLeaseLiability",
+   "2020": "OperatingLeaseLiability",
+   "2021": "OperatingLeaseLiability",
+   "2022": "OperatingLeaseLiability",
+   "2023": "OperatingLeaseLiability",
+   "2024": "OperatingLeaseLiability",
+   "2025": "OperatingLeaseLiability"
+  },
+  "opCur": {
+   "2019": "OperatingLeaseLiabilityCurrent",
+   "2020": "OperatingLeaseLiabilityCurrent",
+   "2021": "OperatingLeaseLiabilityCurrent",
+   "2022": "OperatingLeaseLiabilityCurrent",
+   "2023": "OperatingLeaseLiabilityCurrent",
+   "2024": "OperatingLeaseLiabilityCurrent",
+   "2025": "OperatingLeaseLiabilityCurrent"
+  },
+  "opNon": {
+   "2019": "OperatingLeaseLiabilityNoncurrent",
+   "2020": "OperatingLeaseLiabilityNoncurrent",
+   "2021": "OperatingLeaseLiabilityNoncurrent",
+   "2022": "OperatingLeaseLiabilityNoncurrent",
+   "2023": "OperatingLeaseLiabilityNoncurrent",
+   "2024": "OperatingLeaseLiabilityNoncurrent",
+   "2025": "OperatingLeaseLiabilityNoncurrent"
+  },
+  "opCost": {
+   "2019": "OperatingLeaseCost",
+   "2020": "OperatingLeaseCost",
+   "2021": "OperatingLeaseCost",
+   "2022": "OperatingLeaseCost",
+   "2023": "OperatingLeaseCost",
+   "2024": "OperatingLeaseCost",
+   "2025": "OperatingLeaseCost"
+  },
+  "finLiab": {
+   "2019": "FinanceLeaseLiability",
+   "2020": "FinanceLeaseLiability",
+   "2021": "FinanceLeaseLiability",
+   "2022": "FinanceLeaseLiability",
+   "2023": "FinanceLeaseLiability",
+   "2024": "FinanceLeaseLiability",
+   "2025": "FinanceLeaseLiability"
+  },
+  "finCur": {
+   "2019": "FinanceLeaseLiabilityCurrent",
+   "2020": "FinanceLeaseLiabilityCurrent",
+   "2021": "FinanceLeaseLiabilityCurrent",
+   "2022": "FinanceLeaseLiabilityCurrent",
+   "2023": "FinanceLeaseLiabilityCurrent",
+   "2024": "FinanceLeaseLiabilityCurrent"
+  },
+  "finNon": {
+   "2019": "FinanceLeaseLiabilityNoncurrent",
+   "2020": "FinanceLeaseLiabilityNoncurrent",
+   "2021": "FinanceLeaseLiabilityNoncurrent",
+   "2022": "FinanceLeaseLiabilityNoncurrent",
+   "2023": "FinanceLeaseLiabilityNoncurrent",
+   "2024": "FinanceLeaseLiabilityNoncurrent"
+  },
+  "capCur": {},
+  "capNon": {},
+  "capTot": {
+   "2012": "CapitalLeaseObligations",
+   "2013": "CapitalLeaseObligations",
+   "2014": "CapitalLeaseObligations",
+   "2015": "CapitalLeaseObligations",
+   "2016": "CapitalLeaseObligations",
+   "2017": "CapitalLeaseObligations",
+   "2018": "CapitalLeaseObligations"
+  },
+  "finRep": {
+   "2019": "FinanceLeasePrincipalPayments",
+   "2020": "FinanceLeasePrincipalPayments",
+   "2021": "FinanceLeasePrincipalPayments",
+   "2022": "FinanceLeasePrincipalPayments",
+   "2023": "FinanceLeasePrincipalPayments",
+   "2024": "FinanceLeasePrincipalPayments"
+  },
+  "capNew": {
+   "2008": "CapitalLeaseObligationsIncurred",
+   "2009": "CapitalLeaseObligationsIncurred",
+   "2010": "CapitalLeaseObligationsIncurred",
+   "2011": "CapitalLeaseObligationsIncurred",
+   "2012": "CapitalLeaseObligationsIncurred",
+   "2013": "CapitalLeaseObligationsIncurred",
+   "2014": "CapitalLeaseObligationsIncurred",
+   "2015": "CapitalLeaseObligationsIncurred",
+   "2016": "CapitalLeaseObligationsIncurred",
+   "2017": "CapitalLeaseObligationsIncurred",
+   "2018": "CapitalLeaseObligationsIncurred",
+   "2019": "CapitalLeaseObligationsIncurred",
+   "2020": "CapitalLeaseObligationsIncurred",
+   "2021": "CapitalLeaseObligationsIncurred",
+   "2022": "CapitalLeaseObligationsIncurred",
+   "2023": "CapitalLeaseObligationsIncurred",
+   "2024": "CapitalLeaseObligationsIncurred",
+   "2025": "CapitalLeaseObligationsIncurred"
+  },
+  "imp1": {
+   "2010": "OperatingLeasesFutureMinimumPaymentsDue",
+   "2011": "OperatingLeasesFutureMinimumPaymentsDue",
+   "2012": "OperatingLeasesFutureMinimumPaymentsDue",
+   "2013": "OperatingLeasesFutureMinimumPaymentsDue",
+   "2014": "OperatingLeasesFutureMinimumPaymentsDue",
+   "2015": "OperatingLeasesFutureMinimumPaymentsDue",
+   "2016": "OperatingLeasesFutureMinimumPaymentsDue",
+   "2018": "OperatingLeasesFutureMinimumPaymentsDue"
+  },
+  "imp1y": {
+   "2010": "OperatingLeasesFutureMinimumPaymentsDueCurrent",
+   "2011": "OperatingLeasesFutureMinimumPaymentsDueCurrent",
+   "2012": "OperatingLeasesFutureMinimumPaymentsDueCurrent",
+   "2013": "OperatingLeasesFutureMinimumPaymentsDueCurrent",
+   "2014": "OperatingLeasesFutureMinimumPaymentsDueCurrent",
+   "2015": "OperatingLeasesFutureMinimumPaymentsDueCurrent",
+   "2016": "OperatingLeasesFutureMinimumPaymentsDueCurrent",
+   "2018": "OperatingLeasesFutureMinimumPaymentsDueCurrent"
+  },
+  "imp2y": {
+   "2010": "OperatingLeasesFutureMinimumPaymentsDueInTwoYears",
+   "2011": "OperatingLeasesFutureMinimumPaymentsDueInTwoYears",
+   "2012": "OperatingLeasesFutureMinimumPaymentsDueInTwoYears",
+   "2013": "OperatingLeasesFutureMinimumPaymentsDueInTwoYears",
+   "2014": "OperatingLeasesFutureMinimumPaymentsDueInTwoYears",
+   "2015": "OperatingLeasesFutureMinimumPaymentsDueInTwoYears",
+   "2016": "OperatingLeasesFutureMinimumPaymentsDueInTwoYears",
+   "2018": "OperatingLeasesFutureMinimumPaymentsDueInTwoYears"
+  },
+  "imp3y": {
+   "2010": "OperatingLeasesFutureMinimumPaymentsDueInThreeYears",
+   "2011": "OperatingLeasesFutureMinimumPaymentsDueInThreeYears",
+   "2012": "OperatingLeasesFutureMinimumPaymentsDueInThreeYears",
+   "2013": "OperatingLeasesFutureMinimumPaymentsDueInThreeYears",
+   "2014": "OperatingLeasesFutureMinimumPaymentsDueInThreeYears",
+   "2015": "OperatingLeasesFutureMinimumPaymentsDueInThreeYears",
+   "2016": "OperatingLeasesFutureMinimumPaymentsDueInThreeYears",
+   "2018": "OperatingLeasesFutureMinimumPaymentsDueInThreeYears"
+  },
+  "imp4y": {
+   "2010": "OperatingLeasesFutureMinimumPaymentsDueInFourYears",
+   "2011": "OperatingLeasesFutureMinimumPaymentsDueInFourYears",
+   "2012": "OperatingLeasesFutureMinimumPaymentsDueInFourYears",
+   "2013": "OperatingLeasesFutureMinimumPaymentsDueInFourYears",
+   "2014": "OperatingLeasesFutureMinimumPaymentsDueInFourYears",
+   "2015": "OperatingLeasesFutureMinimumPaymentsDueInFourYears",
+   "2016": "OperatingLeasesFutureMinimumPaymentsDueInFourYears",
+   "2018": "OperatingLeasesFutureMinimumPaymentsDueInFourYears"
+  },
+  "imp5y": {
+   "2010": "OperatingLeasesFutureMinimumPaymentsDueInFiveYears",
+   "2011": "OperatingLeasesFutureMinimumPaymentsDueInFiveYears",
+   "2012": "OperatingLeasesFutureMinimumPaymentsDueInFiveYears",
+   "2013": "OperatingLeasesFutureMinimumPaymentsDueInFiveYears",
+   "2014": "OperatingLeasesFutureMinimumPaymentsDueInFiveYears",
+   "2015": "OperatingLeasesFutureMinimumPaymentsDueInFiveYears",
+   "2016": "OperatingLeasesFutureMinimumPaymentsDueInFiveYears",
+   "2018": "OperatingLeasesFutureMinimumPaymentsDueInFiveYears"
+  },
+  "impOltre": {
+   "2010": "OperatingLeasesFutureMinimumPaymentsDueThereafter",
+   "2011": "OperatingLeasesFutureMinimumPaymentsDueThereafter",
+   "2012": "OperatingLeasesFutureMinimumPaymentsDueThereafter",
+   "2013": "OperatingLeasesFutureMinimumPaymentsDueThereafter",
+   "2014": "OperatingLeasesFutureMinimumPaymentsDueThereafter",
+   "2015": "OperatingLeasesFutureMinimumPaymentsDueThereafter",
+   "2016": "OperatingLeasesFutureMinimumPaymentsDueThereafter",
+   "2018": "OperatingLeasesFutureMinimumPaymentsDueThereafter"
+  },
+  "dCur": {
+   "2009": "LongTermDebtCurrent",
+   "2010": "LongTermDebtCurrent",
+   "2011": "LongTermDebtCurrent",
+   "2012": "LongTermDebtCurrent",
+   "2013": "LongTermDebtCurrent",
+   "2014": "LongTermDebtCurrent",
+   "2015": "LongTermDebtCurrent",
+   "2016": "LongTermDebtCurrent",
+   "2018": "LongTermDebtCurrent",
+   "2019": "LongTermDebtCurrent",
+   "2020": "LongTermDebtCurrent",
+   "2021": "LongTermDebtCurrent",
+   "2022": "LongTermDebtCurrent",
+   "2023": "LongTermDebtCurrent",
+   "2024": "LongTermDebtCurrent",
+   "2025": "LongTermDebtCurrent",
+   "2008": "DebtCurrent"
+  },
+  "dNon": {
+   "2009": "LongTermDebtNoncurrent",
+   "2010": "LongTermDebtNoncurrent",
+   "2011": "LongTermDebtNoncurrent",
+   "2012": "LongTermDebtNoncurrent",
+   "2013": "LongTermDebtNoncurrent",
+   "2014": "LongTermDebtNoncurrent",
+   "2015": "LongTermDebtNoncurrent",
+   "2016": "LongTermDebtNoncurrent",
+   "2008": "LongTermDebtAndCapitalLeaseObligations",
+   "2018": "LongTermDebtAndCapitalLeaseObligations",
+   "2019": "LongTermDebtAndCapitalLeaseObligations",
+   "2020": "LongTermDebtAndCapitalLeaseObligations",
+   "2021": "LongTermDebtAndCapitalLeaseObligations",
+   "2022": "LongTermDebtAndCapitalLeaseObligations",
+   "2023": "LongTermDebtAndCapitalLeaseObligations",
+   "2024": "LongTermDebtAndCapitalLeaseObligations",
+   "2025": "LongTermDebtAndCapitalLeaseObligations"
+  },
+  "dTot": {
+   "2009": "LongTermDebt",
+   "2010": "LongTermDebt",
+   "2011": "LongTermDebt",
+   "2012": "LongTermDebt",
+   "2013": "LongTermDebt",
+   "2014": "LongTermDebt",
+   "2015": "LongTermDebt",
+   "2016": "LongTermDebt",
+   "2019": "LongTermDebt",
+   "2021": "LongTermDebt",
+   "2022": "LongTermDebt",
+   "2018": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+   "2020": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+   "2023": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+   "2024": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+   "2025": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities"
+  },
+  "dCurTot": {
+   "2008": "DebtCurrent",
+   "2009": "DebtCurrent",
+   "2010": "DebtCurrent"
+  },
+  "dBrev": {},
+  "eqPriv": {},
+  "eqMeth": {},
+  "afsDeb": {},
+  "mktNon": {},
+  "ltInv": {},
+  "aoci": {
+   "2008": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2009": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2010": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2012": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2013": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2014": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2015": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2016": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2018": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2019": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2020": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2021": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2022": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+   "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
+  }
+ },
+ "custom": {
+  "amt:LongTermDebtAndLeaseObligationMaturityYearOne": {
+   "2025": 3387.8,
+   "2024": 3693.0,
+   "2023": 3187.5
+  },
+  "amt:LongTermDebtAndLeaseObligationMaturityYearTwo": {
+   "2025": 4726.7,
+   "2024": 3319.3,
+   "2023": 3729.9
+  },
+  "amt:LongTermDebtAndLeaseObligationMaturityYearThree": {
+   "2025": 7513.2,
+   "2024": 5466.7,
+   "2023": 4077.5
+  },
+  "amt:LongTermDebtAndLeaseObligationMaturityYearFour": {
+   "2025": 3782.0,
+   "2024": 6027.4,
+   "2023": 5593.6
+  },
+  "amt:LongTermDebtAndLeaseObligationMaturityYearFive": {
+   "2025": 4925.3,
+   "2024": 3677.0,
+   "2023": 7682.2
+  },
+  "amt:LongTermDebtAndLeaseObligationMaturityAfterYearFive": {
+   "2025": 13099.9,
+   "2024": 14572.9,
+   "2023": 14911.1
+  },
+  "amt:LongTermDebtAndLeaseObligationGross": {
+   "2025": 37434.9,
+   "2024": 36756.3,
+   "2023": 39181.8
+  },
+  "amt:DeferredTaxAssetsOperatingLeaseLiability": {
+   "2025": 992.2,
+   "2024": 900.8,
+   "2023": 964.2,
+   "2022": 1117.4,
+   "2021": 1171.8,
+   "2020": 837.1,
+   "2019": 878.5
+  },
+  "amt:LongTermDebtAndLeaseObligationIncludingCurrentMaturitiesAndDiscontinuedOperations": {
+   "2023": 38900.0
+  },
+  "amt:SECSchedule1228RealEstateCompaniesInvestmentInRealEstateTotalUnitsPercentageOfGrossAmountsMaximum": {
+   "2021": 0.0,
+   "2020": 0.0
+  },
+  "amt:LongTermDebtTotalCashObligations": {
+   "2020": 29462.7
+  }
+ },
+ "avvisi": [
+  "Leasing finanziari: quota corrente: ultimo anno 2024 (mancano anni recenti)",
+  "Leasing finanziari: quota non corrente: ultimo anno 2024 (mancano anni recenti)",
+  "Rimborsi capitale leasing finanziari: ultimo anno 2024 (mancano anni recenti)",
+  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo"
+ ],
+ "candidati": {
+  "dBrev": [
+   {
+    "tag": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+    "valori": {
+     "2023": 38801,
+     "2024": 36502,
+     "2025": 37220
+    }
+   },
+   {
+    "tag": "LongTermDebtFairValue",
+    "valori": {
+     "2023": 36700
+    }
+   },
+   {
+    "tag": "LongTermDebtAndCapitalLeaseObligations",
+    "valori": {
+     "2023": 35734,
+     "2024": 32809,
+     "2025": 33832
+    }
+   },
+   {
+    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
+    "valori": {
+     "2023": 13230,
+     "2024": 12430,
+     "2025": 9450
+    }
+   },
+   {
+    "tag": "ProceedsFromIssuanceOfSeniorLongTermDebt",
+    "valori": {
+     "2023": 5678,
+     "2024": 3569,
+     "2025": 3001
+    }
+   },
+   {
+    "tag": "LongTermDebtCurrent",
+    "valori": {
+     "2023": 3067,
+     "2024": 3693,
+     "2025": 3388
+    }
+   }
+  ],
+  "eqPriv": [
+   {
+    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
+    "valori": {
+     "2023": 13230,
+     "2024": 12430,
+     "2025": 9450
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiGainLoss",
+    "valori": {
+     "2025": 233
+    }
+   },
+   {
+    "tag": "OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax",
+    "valori": {
+     "2025": -185
+    }
+   },
+   {
+    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
+    "valori": {
+     "2025": 160
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
+    "valori": {
+     "2023": 4,
+     "2024": 70,
+     "2025": 121
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiRealizedGain",
+    "valori": {
+     "2025": 111
+    }
+   }
+  ],
+  "eqMeth": [
+   {
+    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
+    "valori": {
+     "2023": 13230,
+     "2024": 12430,
+     "2025": 9450
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiGainLoss",
+    "valori": {
+     "2025": 233
+    }
+   },
+   {
+    "tag": "OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax",
+    "valori": {
+     "2025": -185
+    }
+   },
+   {
+    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
+    "valori": {
+     "2025": 160
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
+    "valori": {
+     "2023": 4,
+     "2024": 70,
+     "2025": 121
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiRealizedGain",
+    "valori": {
+     "2025": 111
+    }
+   }
+  ],
+  "afsDeb": [
+   {
+    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
+    "valori": {
+     "2023": 13230,
+     "2024": 12430,
+     "2025": 9450
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiGainLoss",
+    "valori": {
+     "2025": 233
+    }
+   },
+   {
+    "tag": "OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax",
+    "valori": {
+     "2025": -185
+    }
+   },
+   {
+    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
+    "valori": {
+     "2025": 160
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
+    "valori": {
+     "2023": 4,
+     "2024": 70,
+     "2025": 121
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiRealizedGain",
+    "valori": {
+     "2025": 111
+    }
+   }
+  ],
+  "ltInv": [
+   {
+    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
+    "valori": {
+     "2023": 13230,
+     "2024": 12430,
+     "2025": 9450
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiGainLoss",
+    "valori": {
+     "2025": 233
+    }
+   },
+   {
+    "tag": "OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax",
+    "valori": {
+     "2025": -185
+    }
+   },
+   {
+    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
+    "valori": {
+     "2025": 160
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
+    "valori": {
+     "2023": 4,
+     "2024": 70,
+     "2025": 121
+    }
+   },
+   {
+    "tag": "EquitySecuritiesFvNiRealizedGain",
+    "valori": {
+     "2025": 111
+    }
+   }
+  ]
+ },
+ "derivati": {
+  "dTotCalc": {
+   "2008": 4333.1
+  },
+  "dBrevDer": {},
+  "leasing_nel_tag_debito": {
+   "2008": "dNon",
+   "2018": "dNon dTot",
+   "2019": "dNon",
+   "2020": "dNon dTot",
+   "2021": "dNon",
+   "2022": "dNon",
+   "2023": "dNon dTot",
+   "2024": "dNon dTot",
+   "2025": "dNon dTot"
+  }
+ }
+}
