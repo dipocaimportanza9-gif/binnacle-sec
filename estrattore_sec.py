@@ -44,7 +44,7 @@ CAT = [
  ("dNon",     "Debito a lungo termine: non corrente",           ["LongTermDebtNoncurrent", "LongTermDebtAndCapitalLeaseObligations", "LongTermDebtAndFinanceLeaseObligationsNoncurrent", "LongTermNotesPayable", "ConvertibleNotesPayableNoncurrent", "ConvertibleDebtNoncurrent", "ConvertibleLongTermNotesPayable", "SeniorNotes", "NotesPayableNoncurrent", "NotesPayableRelatedPartiesNoncurrent", "SecuredLongTermDebt", "UnsecuredLongTermDebt", "LongTermLineOfCredit", "DebtNoncurrent"]),
  ("dTot",     "Debito a lungo termine: totale",                 ["LongTermDebt", "DebtLongtermAndShorttermCombinedAmount", "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities", "ConvertibleNotesPayable", "ConvertibleDebt", "NotesPayable", "DebtInstrumentCarryingAmount"]),
  ("dCurTot",  "Debito corrente totale (con debiti a breve)",    ["DebtCurrent"]),
- ("dBrev",    "Debiti finanziari a breve",                      ["ShortTermBorrowings", "CommercialPaper", "LoansPayableCurrent", "OtherShortTermBorrowings", "LinesOfCreditCurrent", "ShortTermBankLoansAndNotesPayable"]),
+ ("dBrev",    "Debiti finanziari a breve",                      ["ShortTermBorrowings", "CommercialPaper", "LoansPayableCurrent", "OtherShortTermBorrowings", "LinesOfCreditCurrent", "ShortTermBankLoansAndNotesPayable", "ShortTermNonBankLoansAndNotesPayable"]),
  ("inv", "INVESTIMENTI NON OPERATIVI e OCI"),
  ("eqPriv",   "Equity in societa' non quotate (valore contabile)", ["EquitySecuritiesWithoutReadilyDeterminableFairValueAmount", "EquitySecuritiesFvNiNoncurrent", "MarketableSecuritiesEquitySecuritiesNoncurrent", "EquitySecuritiesFvNi", "CostMethodInvestments", "InvestmentsInPrivateCompanies"]),
  ("eqMeth",   "Partecipazioni a patrimonio netto (equity method)", ["EquityMethodInvestments", "EquityMethodInvestmentsAndAdvances", "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures", "EquityMethodInvestmentsAndJointVentures"]),
@@ -141,11 +141,13 @@ def unisci(cfs):
             t["units"]["USD"] += o["units"].get("USD", [])
     return out
 
+RE_CORR = re.compile(r"(?<!on)current|shortterm|cash|marketablesecuritiescurrent", re.I)
 def candidati(gaap, k, noti):
     """tag che non sono nel catalogo ma hanno valori annuali recenti: aiutano a completare il catalogo"""
     out = []
     for tg, o in gaap.items():
-        if tg in noti or SCARTA.search(tg) or not famiglia(k).search(tg): continue
+        if tg.lower() in {n.lower() for n in noti} or SCARTA.search(tg) or not famiglia(k).search(tg): continue
+        if k[0] != "d" and RE_CORR.search(tg): continue
         v = annuali(o)
         rec = {y: round(x / 1e6) for y, x in v.items() if y >= 2023}
         if rec: out.append((max(abs(x) for x in rec.values()), tg, rec))
@@ -188,6 +190,7 @@ def main(TK):
         try: cfs.append(get("https://data.sec.gov/api/xbrl/companyfacts/CIK%s.json" % c))
         except Exception as e: print("  %s: companyfacts non disponibile (%s)" % (c, e))
     gaap = unisci(cfs)
+    GL = {k.lower(): k for k in gaap}
     res = {"ticker": TK, "cik": cik, "cik_usati": ciks, "concetti": {}, "tag_usato": {}, "custom": {}, "avvisi": [], "candidati": {}}
     righe, sez = [], ""
     for c in CAT:
@@ -195,8 +198,9 @@ def main(TK):
         k, desc, tags = c
         val, usato = {}, {}
         for tg in tags:
-            if tg in gaap:
-                for y, v in annuali(gaap[tg]).items():
+            real = GL.get(tg.lower())
+            if real:
+                for y, v in annuali(gaap[real]).items():
                     if y not in val: val[y] = round(v / 1e6, 1); usato[y] = tg
         res["concetti"][k] = val; res["tag_usato"][k] = usato
         righe.append((desc, val))
