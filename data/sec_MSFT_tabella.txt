@@ -46,4 +46,4 @@ msft:DeferredTaxAssetsBookTaxBasisDifferencesInInvestmentsAndD       .        . 
 msft:DeferredTaxLiabilitiesBookTaxBasisDifferencesInvestmentsA       .        .        .        .        .    2,642    2,381      174        0        .        0
 msft:PremiumOnDebtExchange1                                          .        .        .        .        .    3,619    5,293    5,191    5,085    4,976    4,864
 
-Tempo: 5 s. File scritto: sec_MSFT.json
+Tempo: 11 s. File scritto: sec_MSFT.json

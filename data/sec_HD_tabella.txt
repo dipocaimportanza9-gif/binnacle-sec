@@ -48,4 +48,4 @@ hd:OperatingLeaseAndFinanceLeaseRightOfUseAssets                     .        . 
 hd:OperatingLeaseandFinanceLeaseLiabilities                          .        .        .        .        .    7,059    8,950    9,419   10,456        .        .
 hd:OperatingLeaseandFinanceLeaseRightofUseAssets                     .        .        .        .        .    6,529    8,455    8,864    9,840        .        .
 
-Tempo: 4 s. File scritto: sec_HD.json
+Tempo: 3 s. File scritto: sec_HD.json
