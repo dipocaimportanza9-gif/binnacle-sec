@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                          .        . 
 Debiti finanziari a breve                                        3,127    1,322      206      200      201      213        0        .        .        .        .        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .      211      158        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                    .        .        .      211      158        .        .        .        .      323      342        .
 Partecipazioni a patrimonio netto (equity method)                  104       58      235      325      321      277      256      169      141      139      131        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -54,30 +54,14 @@ abt:LongTermDebtOther                                                .        . 
 abt:OperatingLeaseAssetNetBookValue                                  .        .        .        .    1,200    1,400    1,600    1,600    1,800    1,800    2,100        .
 abt:OperatingLeaseAssetOriginalCost                                  .        .        .        .    2,800    3,300    3,500    3,600    3,900    3,900    4,600        .
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 1362, 2024: 1318, 2025: 1391}
-finLiab: OperatingLeaseLiability {2023: 1194, 2024: 1150, 2025: 1207}
-finLiab: OperatingLeaseRightOfUseAsset {2023: 1122, 2024: 1075, 2025: 1126}
-finLiab: OperatingLeaseLiabilityNoncurrent {2023: 949, 2024: 896, 2025: 931}
-finLiab: OperatingLeaseCost {2023: 356, 2024: 366, 2025: 391}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 376, 2024: 356, 2025: 362}
-dBrev: LongTermDebt {2023: 14679, 2024: 14125, 2025: 12929}
-dBrev: LongTermDebtNoncurrent {2023: 13599, 2024: 12625, 2025: 9896}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 8000, 2024: 8000, 2025: 7400}
-dBrev: LongTermDebtCurrent {2023: 1080, 2024: 1500, 2025: 3033}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree {2023: 3000, 2024: 617, 2025: 653}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths {2023: 1100, 2024: 1500, 2025: 3000}
-eqPriv: LongTermInvestments {2023: 799, 2024: 886, 2025: 918}
-eqPriv: ShortTermInvestments {2023: 383, 2024: 351, 2025: 417}
-eqPriv: InvestmentIncomeInterest {2023: 385, 2024: 344, 2025: 308}
-eqPriv: EquitySecuritiesFvNi {2024: 323, 2025: 342}
-eqPriv: PaymentsToAcquireInvestments {2023: 159, 2024: 169, 2025: 167}
-eqPriv: EquityMethodInvestments {2023: 141, 2024: 139, 2025: 131}
-afsDeb: LongTermInvestments {2023: 799, 2024: 886, 2025: 918}
-afsDeb: ShortTermInvestments {2023: 383, 2024: 351, 2025: 417}
-afsDeb: InvestmentIncomeInterest {2023: 385, 2024: 344, 2025: 308}
-afsDeb: EquitySecuritiesFvNi {2024: 323, 2025: 342}
-afsDeb: PaymentsToAcquireInvestments {2023: 159, 2024: 169, 2025: 167}
-afsDeb: EquityMethodInvestments {2023: 141, 2024: 139, 2025: 131}
+--- AVVISI ---
+2017: l'OCI sale di 1201 ma gli investimenti letti salgono di -2064: controllare il filing (investimenti non letti?)
+2025: l'OCI sale di 1905 ma gli investimenti letti salgono di 32: controllare il filing (investimenti non letti?)
 
-Tempo: 3 s. File scritto: sec_ABT.json
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: OperatingLeaseRightOfUseAsset {2023: 1122, 2024: 1075, 2025: 1126}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 253, 2024: 253, 2025: 300}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 168, 2024: 168, 2025: 184}
+afsDeb: ShortTermInvestments {2023: 383, 2024: 351, 2025: 417}
+
+Tempo: 4 s. File scritto: sec_ABT.json

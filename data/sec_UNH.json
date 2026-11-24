@@ -165,7 +165,12 @@
    "2022": 56756.0,
    "2023": 61473.0,
    "2024": 76180.0,
-   "2025": 77681.0
+   "2025": 77681.0,
+   "2009": 11173.0,
+   "2010": 11142.0,
+   "2011": 11638.0,
+   "2012": 16754.0,
+   "2013": 16739.0
   },
   "dCurTot": {
    "2021": 3620.0,
@@ -177,7 +182,13 @@
   "dBrev": {},
   "eqPriv": {
    "2024": 3000.0,
-   "2025": 3300.0
+   "2025": 3300.0,
+   "2018": 1845.0,
+   "2019": 1756.0,
+   "2020": 1828.0,
+   "2021": 2177.0,
+   "2022": 2148.0,
+   "2023": 2553.0
   },
   "eqMeth": {
    "2017": 900.0,
@@ -407,7 +418,12 @@
    "2022": "DebtLongtermAndShorttermCombinedAmount",
    "2023": "DebtLongtermAndShorttermCombinedAmount",
    "2024": "DebtLongtermAndShorttermCombinedAmount",
-   "2025": "DebtLongtermAndShorttermCombinedAmount"
+   "2025": "DebtLongtermAndShorttermCombinedAmount",
+   "2009": "DebtInstrumentCarryingAmount",
+   "2010": "DebtInstrumentCarryingAmount",
+   "2011": "DebtInstrumentCarryingAmount",
+   "2012": "DebtInstrumentCarryingAmount",
+   "2013": "DebtInstrumentCarryingAmount"
   },
   "dCurTot": {
    "2021": "DebtCurrent",
@@ -419,7 +435,13 @@
   "dBrev": {},
   "eqPriv": {
    "2024": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-   "2025": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount"
+   "2025": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
+   "2018": "EquitySecuritiesFvNi",
+   "2019": "EquitySecuritiesFvNi",
+   "2020": "EquitySecuritiesFvNi",
+   "2021": "EquitySecuritiesFvNi",
+   "2022": "EquitySecuritiesFvNi",
+   "2023": "EquitySecuritiesFvNi"
   },
   "eqMeth": {
    "2017": "EquityMethodInvestments",
@@ -532,41 +554,11 @@
    "2025": 575.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "FUORI PORTATA (SIC 6324 Hospital & Medical Service Plans)"
+ ],
  "candidati": {
   "finLiab": [
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 5975,
-     "2024": 6194,
-     "2025": 6562
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiability",
-    "valori": {
-     "2023": 4898,
-     "2024": 4889,
-     "2025": 4615
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
-    "valori": {
-     "2023": 2210,
-     "2024": 2465,
-     "2025": 2665
-    }
-   },
-   {
-    "tag": "OperatingLeaseCost",
-    "valori": {
-     "2023": 1400,
-     "2024": 1400,
-     "2025": 1600
-    }
-   },
    {
     "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
@@ -574,77 +566,79 @@
      "2024": 1305,
      "2025": 1391
     }
-   },
-   {
-    "tag": "OperatingLeasePayments",
-    "valori": {
-     "2023": 1100,
-     "2024": 1100,
-     "2025": 1100
-    }
-   }
-  ],
-  "dBrev": [
-   {
-    "tag": "DebtLongtermAndShorttermCombinedAmount",
-    "valori": {
-     "2023": 61473,
-     "2024": 76180,
-     "2025": 77681
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 58263,
-     "2024": 72359,
-     "2025": 72320
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 47176,
-     "2024": 59908,
-     "2025": 58657
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 47451,
-     "2024": 49815,
-     "2025": 49578
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 44895,
-     "2024": 46919,
-     "2025": 48182
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 7307,
-     "2024": 18514,
-     "2025": 9288
-    }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2018": "2018-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2008": "2008-12-31",
+  "2009": "2009-12-31"
+ },
  "derivati": {
   "dTotCalc": {
-   "2008": 12794.0,
-   "2009": 11173.0,
-   "2010": 11142.0,
-   "2011": 11638.0,
-   "2012": 16754.0,
-   "2013": 16860.0
+   "2008": 12794.0
   },
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2008": 13366.0,
+   "2009": 13311.0,
+   "2010": 14707.0,
+   "2011": 16166.0,
+   "2012": 17711.0,
+   "2013": 19605.0,
+   "2014": 18827.0,
+   "2015": 18792.0,
+   "2016": 23868.0,
+   "2017": 28341.0,
+   "2018": 32510.0,
+   "2019": 37209.0,
+   "2020": 41242.0,
+   "2021": 43114.0,
+   "2022": 43728.0,
+   "2023": 47609.0,
+   "2024": 52354.0,
+   "2025": 54251.0
+  },
+  "invNonOpAmpia": {
+   "2008": 13366.0,
+   "2009": 13311.0,
+   "2010": 14707.0,
+   "2011": 18002.0,
+   "2012": 19226.0,
+   "2013": 19605.0,
+   "2014": 18827.0,
+   "2015": 18792.0,
+   "2016": 24179.0,
+   "2017": 29324.0,
+   "2018": 35243.0,
+   "2019": 39250.0,
+   "2020": 42956.0,
+   "2021": 43694.0,
+   "2022": 45969.0,
+   "2023": 48848.0,
+   "2024": 53719.0,
+   "2025": 55282.0
+  }
+ },
+ "sic": "6324",
+ "sic_descrizione": "Hospital & Medical Service Plans",
+ "chiusura_esercizio": "1231",
+ "nome": "UNITEDHEALTH GROUP INC",
+ "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"
 }

@@ -138,7 +138,9 @@
   },
   "eqPriv": {
    "2018": 211.0,
-   "2019": 158.0
+   "2019": 158.0,
+   "2024": 323.0,
+   "2025": 342.0
   },
   "eqMeth": {
    "2014": 95.0,
@@ -333,7 +335,9 @@
   },
   "eqPriv": {
    "2018": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-   "2019": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount"
+   "2019": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
+   "2024": "EquitySecuritiesFvNi",
+   "2025": "EquitySecuritiesFvNi"
   },
   "eqMeth": {
    "2014": "EquityMethodInvestments",
@@ -449,25 +453,12 @@
    "2019": -6.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "2017: l'OCI sale di 1201 ma gli investimenti letti salgono di -2064: controllare il filing (investimenti non letti?)",
+  "2025: l'OCI sale di 1905 ma gli investimenti letti salgono di 32: controllare il filing (investimenti non letti?)"
+ ],
  "candidati": {
   "finLiab": [
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 1362,
-     "2024": 1318,
-     "2025": 1391
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiability",
-    "valori": {
-     "2023": 1194,
-     "2024": 1150,
-     "2025": 1207
-    }
-   },
    {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
@@ -477,184 +468,106 @@
     }
    },
    {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
-     "2023": 949,
-     "2024": 896,
-     "2025": 931
+     "2023": 253,
+     "2024": 253,
+     "2025": 300
     }
    },
    {
-    "tag": "OperatingLeaseCost",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 356,
-     "2024": 366,
-     "2025": 391
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
-    "valori": {
-     "2023": 376,
-     "2024": 356,
-     "2025": 362
-    }
-   }
-  ],
-  "dBrev": [
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 14679,
-     "2024": 14125,
-     "2025": 12929
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 13599,
-     "2024": 12625,
-     "2025": 9896
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 8000,
-     "2024": 8000,
-     "2025": 7400
-    }
-   },
-   {
-    "tag": "LongTermDebtCurrent",
-    "valori": {
-     "2023": 1080,
-     "2024": 1500,
-     "2025": 3033
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
-    "valori": {
-     "2023": 3000,
-     "2024": 617,
-     "2025": 653
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
-    "valori": {
-     "2023": 1100,
-     "2024": 1500,
-     "2025": 3000
-    }
-   }
-  ],
-  "eqPriv": [
-   {
-    "tag": "LongTermInvestments",
-    "valori": {
-     "2023": 799,
-     "2024": 886,
-     "2025": 918
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 383,
-     "2024": 351,
-     "2025": 417
-    }
-   },
-   {
-    "tag": "InvestmentIncomeInterest",
-    "valori": {
-     "2023": 385,
-     "2024": 344,
-     "2025": 308
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNi",
-    "valori": {
-     "2024": 323,
-     "2025": 342
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 159,
-     "2024": 169,
-     "2025": 167
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 141,
-     "2024": 139,
-     "2025": 131
+     "2023": 168,
+     "2024": 168,
+     "2025": 184
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "LongTermInvestments",
-    "valori": {
-     "2023": 799,
-     "2024": 886,
-     "2025": 918
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 383,
      "2024": 351,
      "2025": 417
     }
-   },
-   {
-    "tag": "InvestmentIncomeInterest",
-    "valori": {
-     "2023": 385,
-     "2024": 344,
-     "2025": 308
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNi",
-    "valori": {
-     "2024": 323,
-     "2025": 342
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 159,
-     "2024": 169,
-     "2025": 167
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 141,
-     "2024": 139,
-     "2025": 131
-    }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2007": "2007-12-31",
+  "2008": "2008-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31"
  },
  "derivati": {
   "dTotCalc": {
    "2007": 10386.4
   },
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2007": 1125.3,
+   "2008": 1073.7,
+   "2009": 1132.9,
+   "2010": 302.0,
+   "2011": 378.2,
+   "2012": 274.0,
+   "2013": 119.0,
+   "2014": 229.0,
+   "2015": 4041.0,
+   "2016": 2947.0,
+   "2017": 883.0,
+   "2018": 897.0,
+   "2019": 883.0,
+   "2020": 821.0,
+   "2021": 816.0,
+   "2022": 766.0,
+   "2023": 799.0,
+   "2024": 886.0,
+   "2025": 918.0
+  },
+  "invNonOpAmpia": {
+   "2007": 1125.3,
+   "2008": 1073.7,
+   "2009": 1132.9,
+   "2010": 302.0,
+   "2011": 378.2,
+   "2012": 274.0,
+   "2013": 119.0,
+   "2014": 229.0,
+   "2015": 4041.0,
+   "2016": 2947.0,
+   "2017": 883.0,
+   "2018": 897.0,
+   "2019": 883.0,
+   "2020": 821.0,
+   "2021": 816.0,
+   "2022": 766.0,
+   "2023": 799.0,
+   "2024": 886.0,
+   "2025": 918.0
+  }
+ },
+ "sic": "2834",
+ "sic_descrizione": "Pharmaceutical Preparations",
+ "chiusura_esercizio": "1231",
+ "nome": "ABBOTT LABORATORIES",
+ "ambito": "ok"
 }

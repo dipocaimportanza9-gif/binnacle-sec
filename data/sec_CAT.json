@@ -182,7 +182,18 @@
    "2024": 4393.0,
    "2025": 5514.0
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2008": 28.0,
+   "2009": 35.0,
+   "2010": 29.0,
+   "2011": 22.0,
+   "2012": 16.0,
+   "2013": 10.0,
+   "2014": 9.0,
+   "2015": 43.0,
+   "2016": 57.0,
+   "2017": 31.0
+  },
   "eqMeth": {
    "2008": 66.0,
    "2009": 70.0,
@@ -193,7 +204,8 @@
    "2014": 248.0,
    "2015": 203.0,
    "2016": 192.0,
-   "2017": 212.0
+   "2017": 212.0,
+   "2007": 598.0
   },
   "afsDeb": {
    "2018": 1151.0,
@@ -407,7 +419,18 @@
    "2024": "ShortTermBorrowings",
    "2025": "ShortTermBorrowings"
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2008": "CostMethodInvestments",
+   "2009": "CostMethodInvestments",
+   "2010": "CostMethodInvestments",
+   "2011": "CostMethodInvestments",
+   "2012": "CostMethodInvestments",
+   "2013": "CostMethodInvestments",
+   "2014": "CostMethodInvestments",
+   "2015": "CostMethodInvestments",
+   "2016": "CostMethodInvestments",
+   "2017": "CostMethodInvestments"
+  },
   "eqMeth": {
    "2008": "EquityMethodInvestments",
    "2009": "EquityMethodInvestments",
@@ -418,7 +441,8 @@
    "2014": "EquityMethodInvestments",
    "2015": "EquityMethodInvestments",
    "2016": "EquityMethodInvestments",
-   "2017": "EquityMethodInvestments"
+   "2017": "EquityMethodInvestments",
+   "2007": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures"
   },
   "afsDeb": {
    "2018": "AvailableForSaleSecuritiesDebtSecurities",
@@ -475,312 +499,109 @@
    "2020": 0.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "2009: l'OCI sale di 1815 ma gli investimenti letti salgono di 11: controllare il filing (investimenti non letti?)",
+  "2013: l'OCI sale di 6664 ma gli investimenti letti salgono di 0: controllare il filing (investimenti non letti?)"
+ ],
  "candidati": {
   "finLiab": [
    {
-    "tag": "LessorOperatingLeasePaymentsToBeReceived",
+    "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
-     "2023": 2075,
-     "2024": 2020,
-     "2025": 2275
+     "2023": 556,
+     "2024": 592,
+     "2025": 708
     }
    },
    {
-    "tag": "LeaseIncome",
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
-     "2023": 1586,
-     "2024": 1652,
-     "2025": 1689
+     "2023": 148,
+     "2024": 187,
+     "2025": 259
     }
    },
    {
-    "tag": "PaymentsToAcquireEquipmentOnLease",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 1495,
-     "2024": 1227,
-     "2025": 1465
-    }
-   },
-   {
-    "tag": "OperatingLeaseLeaseIncome",
-    "valori": {
-     "2023": 1166,
-     "2024": 1212,
-     "2025": 1216
-    }
-   },
-   {
-    "tag": "LessorOperatingLeasePaymentsToBeReceivedNextTwelveMonths",
-    "valori": {
-     "2023": 894,
-     "2024": 868,
-     "2025": 896
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 644,
-     "2024": 679,
-     "2025": 842
-    }
-   }
-  ],
-  "dCur": [
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 24472,
-     "2024": 27351,
-     "2025": 30696
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityMaximumBorrowingCapacity",
-    "valori": {
-     "2023": 14664,
-     "2024": 14562,
-     "2025": 15837
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityRemainingBorrowingCapacity",
-    "valori": {
-     "2023": 9742,
-     "2024": 9929,
-     "2025": 9658
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
-    "valori": {
-     "2023": 7830,
-     "2024": 8529,
-     "2025": 8920
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
-    "valori": {
-     "2023": 8763,
-     "2024": 6665,
-     "2025": 7120
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
-    "valori": {
-     "2023": 5649,
-     "2024": 7758,
-     "2025": 7747
-    }
-   }
-  ],
-  "dTot": [
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 24472,
-     "2024": 27351,
-     "2025": 30696
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityMaximumBorrowingCapacity",
-    "valori": {
-     "2023": 14664,
-     "2024": 14562,
-     "2025": 15837
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityRemainingBorrowingCapacity",
-    "valori": {
-     "2023": 9742,
-     "2024": 9929,
-     "2025": 9658
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
-    "valori": {
-     "2023": 7830,
-     "2024": 8529,
-     "2025": 8920
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
-    "valori": {
-     "2023": 8763,
-     "2024": 6665,
-     "2025": 7120
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
-    "valori": {
-     "2023": 5649,
-     "2024": 7758,
-     "2025": 7747
-    }
-   }
-  ],
-  "eqPriv": [
-   {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 13050,
-     "2024": 13373,
-     "2025": 11541
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireMarketableSecurities",
-    "valori": {
-     "2023": 4405,
-     "2024": 1495,
-     "2025": 1930
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 3871,
-     "2024": 4114,
-     "2025": 3535
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 3797,
-     "2024": 4042,
-     "2025": 3549
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfMarketableSecurities",
-    "valori": {
-     "2023": 1891,
-     "2024": 3155,
-     "2025": 2494
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleUnrealizedLossPosition",
-    "valori": {
-     "2023": 2350,
-     "2024": 2165,
-     "2025": 940
-    }
-   }
-  ],
-  "eqMeth": [
-   {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 13050,
-     "2024": 13373,
-     "2025": 11541
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireMarketableSecurities",
-    "valori": {
-     "2023": 4405,
-     "2024": 1495,
-     "2025": 1930
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 3871,
-     "2024": 4114,
-     "2025": 3535
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 3797,
-     "2024": 4042,
-     "2025": 3549
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfMarketableSecurities",
-    "valori": {
-     "2023": 1891,
-     "2024": 3155,
-     "2025": 2494
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleUnrealizedLossPosition",
-    "valori": {
-     "2023": 2350,
-     "2024": 2165,
-     "2025": 940
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 13050,
-     "2024": 13373,
-     "2025": 11541
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireMarketableSecurities",
-    "valori": {
-     "2023": 4405,
-     "2024": 1495,
-     "2025": 1930
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 3871,
-     "2024": 4114,
-     "2025": 3535
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 3797,
-     "2024": 4042,
-     "2025": 3549
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfMarketableSecurities",
-    "valori": {
-     "2023": 1891,
-     "2024": 3155,
-     "2025": 2494
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleUnrealizedLossPosition",
-    "valori": {
-     "2023": 2350,
-     "2024": 2165,
-     "2025": 940
+     "2023": 70,
+     "2024": 77,
+     "2025": 114
     }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2008": "2008-12-31",
+  "2007": "2007-12-31"
+ },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2007": 598.0,
+   "2008": 94.0,
+   "2009": 105.0,
+   "2010": 164.0,
+   "2011": 133.0,
+   "2012": 272.0,
+   "2013": 272.0,
+   "2014": 257.0,
+   "2015": 246.0,
+   "2016": 249.0,
+   "2017": 243.0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 0,
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0
+  },
+  "invNonOpAmpia": {
+   "2007": 598.0,
+   "2008": 94.0,
+   "2009": 105.0,
+   "2010": 164.0,
+   "2011": 133.0,
+   "2012": 272.0,
+   "2013": 272.0,
+   "2014": 257.0,
+   "2015": 246.0,
+   "2016": 249.0,
+   "2017": 243.0,
+   "2018": 1151.0,
+   "2019": 1365.0,
+   "2020": 1683.0,
+   "2021": 1721.0,
+   "2022": 3164.0,
+   "2023": 3797.0,
+   "2024": 4042.0,
+   "2025": 3549.0
+  }
+ },
+ "sic": "3531",
+ "sic_descrizione": "Construction Machinery & Equip",
+ "chiusura_esercizio": "1231",
+ "nome": "CATERPILLAR INC",
+ "ambito": "ok"
 }

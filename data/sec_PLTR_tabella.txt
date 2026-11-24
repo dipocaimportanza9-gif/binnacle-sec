@@ -29,7 +29,7 @@ Impegni: oltre il quinto anno                                        .        . 
 --- DEBITO FINANZIARIO ---
 Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
 Debito a lungo termine: non corrente                                 .        .        .        .      396      198        0        .        .        .        .        .
-Debito a lungo termine: totale                                       .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: totale                                       .        .        .        .      400      200        .        .        .        .        .        .
 Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
 Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
 
@@ -62,47 +62,10 @@ pltr:OperatingLeaseLiabilityNetOfSubleaseIncome                      .        . 
 pltr:OperatingLeasePaymentsToBeReceived                              .        .        .        .        .        .        .      121      102       86       71        .
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 277, 2024: 308, 2025: 293}
-finLiab: OperatingLeaseLiability {2023: 229, 2024: 239, 2025: 229}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 183, 2024: 201, 2025: 200}
-finLiab: OperatingLeaseLiabilityNoncurrent {2023: 175, 2024: 195, 2025: 183}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 62, 2024: 107, 2025: 92}
-finLiab: LessorOperatingLeasePaymentsToBeReceived {2023: 102, 2024: 86, 2025: 71}
-dCur: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
-dCur: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
-dCur: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
-dCur: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 695, 2024: 0, 2025: 280}
-dCur: DebtAndEquitySecuritiesUnrealizedGainLoss {2023: -13, 2024: -19, 2025: -21}
-dCur: AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax {2023: 5, 2024: 1, 2025: 9}
-dNon: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
-dNon: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
-dNon: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
-dNon: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 695, 2024: 0, 2025: 280}
-dNon: DebtAndEquitySecuritiesUnrealizedGainLoss {2023: -13, 2024: -19, 2025: -21}
-dNon: AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax {2023: 5, 2024: 1, 2025: 9}
-dTot: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
-dTot: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
-dTot: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
-dTot: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 695, 2024: 0, 2025: 280}
-dTot: DebtAndEquitySecuritiesUnrealizedGainLoss {2023: -13, 2024: -19, 2025: -21}
-dTot: AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax {2023: 5, 2024: 1, 2025: 9}
-dBrev: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
-dBrev: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
-dBrev: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
-dBrev: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 695, 2024: 0, 2025: 280}
-dBrev: DebtAndEquitySecuritiesUnrealizedGainLoss {2023: -13, 2024: -19, 2025: -21}
-dBrev: AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax {2023: 5, 2024: 1, 2025: 9}
-eqMeth: PaymentsToAcquireMarketableSecurities {2023: 5636, 2024: 5396, 2025: 7702}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 47, 2024: 69, 2025: 63}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 28, 2024: 58, 2025: 38}
 eqMeth: MarketableSecuritiesCurrent {2023: 2843, 2024: 3131, 2025: 5753}
-eqMeth: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
-eqMeth: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
-eqMeth: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 2889, 2024: 5074, 2025: 5026}
-eqMeth: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
-ltInv: PaymentsToAcquireMarketableSecurities {2023: 5636, 2024: 5396, 2025: 7702}
 ltInv: MarketableSecuritiesCurrent {2023: 2843, 2024: 3131, 2025: 5753}
-ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 2835, 2024: 3111, 2025: 5730}
-ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 2832, 2024: 3110, 2025: 5721}
-ltInv: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 2889, 2024: 5074, 2025: 5026}
-ltInv: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 236, 2024: 716, 2025: 725}
 
-Tempo: 3 s. File scritto: sec_PLTR.json
+Tempo: 4 s. File scritto: sec_PLTR.json

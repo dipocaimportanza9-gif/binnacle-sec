@@ -29,7 +29,7 @@ Impegni: oltre il quinto anno                                        .        . 
 --- DEBITO FINANZIARIO ---
 Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
 Debito a lungo termine: non corrente                             2,371    3,364    6,499   10,360   14,759   15,809   14,693   14,353   14,143   13,798   13,464        .
-Debito a lungo termine: totale                                       .        .    9,049   14,873   20,723   21,857        .        .        .        .        .        .
+Debito a lungo termine: totale                                       .        .    9,049   14,873   20,723   21,857   15,393   14,353   14,543   15,583   14,463        .
 Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
 Debiti finanziari a breve                                            .        .        .        .        0      500      700        0      400    1,784      999        .
 
@@ -49,41 +49,21 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 nflx:OperatingLeaseLiabilityLeasesNotCommenced                       .        .        .        .        .        .        .        .      343       38        .        .
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 2736, 2024: 2717, 2025: 2886}
-finLiab: OperatingLeaseLiability {2023: 2430, 2024: 2412, 2025: 2513}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 2077, 2024: 2102, 2025: 2207}
-finLiab: OperatingLeaseLiabilityNoncurrent {2023: 2047, 2024: 1984, 2025: 2053}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterRollingYearFive {2023: 827, 2024: 696, 2025: 782}
-finLiab: LeaseCost {2023: 639, 2024: 666, 2025: 711}
-dCur: LongTermDebtFairValue {2023: 15018, 2024: 15948}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 197, 2024: 442, 2025: 465}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 306, 2024: 305, 2025: 373}
 dCur: DebtInstrumentFaceAmount {2023: 14608, 2024: 15653, 2025: 14519}
-dCur: NotesPayable {2023: 14543, 2024: 15583, 2025: 14463}
-dCur: LongTermDebtNoncurrent {2023: 14143, 2024: 13798, 2025: 13464}
-dCur: AvailableForSaleSecuritiesDebtSecurities {2023: 7139, 2024: 9586, 2025: 9068}
-dCur: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 7139, 2024: 9583, 2025: 9068}
-dTot: LongTermDebtFairValue {2023: 15018, 2024: 15948}
-dTot: DebtInstrumentFaceAmount {2023: 14608, 2024: 15653, 2025: 14519}
-dTot: NotesPayable {2023: 14543, 2024: 15583, 2025: 14463}
-dTot: LongTermDebtNoncurrent {2023: 14143, 2024: 13798, 2025: 13464}
-dTot: AvailableForSaleSecuritiesDebtSecurities {2023: 7139, 2024: 9586, 2025: 9068}
-dTot: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 7139, 2024: 9583, 2025: 9068}
-eqPriv: AvailableForSaleSecuritiesDebtSecurities {2023: 7139, 2024: 9586, 2025: 9068}
-eqPriv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 7139, 2024: 9583, 2025: 9068}
 eqPriv: CashCashEquivalentsAndShortTermInvestments {2023: 7139}
-eqPriv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 1395, 2024: 0, 2025: 1917}
 eqPriv: ShortTermInvestments {2023: 21, 2024: 1779, 2025: 29}
-eqPriv: PaymentsToAcquireInvestments {2023: 505, 2024: 1742, 2025: 170}
-eqMeth: AvailableForSaleSecuritiesDebtSecurities {2023: 7139, 2024: 9586, 2025: 9068}
-eqMeth: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 7139, 2024: 9583, 2025: 9068}
+eqPriv: DerivativeCollateralRightToReclaimSecurities {2023: 27, 2024: 316, 2025: 282}
+eqPriv: DerivativeCollateralObligationToReturnSecurities {2023: 27, 2024: 316, 2025: 282}
 eqMeth: CashCashEquivalentsAndShortTermInvestments {2023: 7139}
-eqMeth: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 1395, 2024: 0, 2025: 1917}
 eqMeth: ShortTermInvestments {2023: 21, 2024: 1779, 2025: 29}
-eqMeth: PaymentsToAcquireInvestments {2023: 505, 2024: 1742, 2025: 170}
-ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 7139, 2024: 9586, 2025: 9068}
-ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 7139, 2024: 9583, 2025: 9068}
+eqMeth: DerivativeCollateralRightToReclaimSecurities {2023: 27, 2024: 316, 2025: 282}
+eqMeth: DerivativeCollateralObligationToReturnSecurities {2023: 27, 2024: 316, 2025: 282}
 ltInv: CashCashEquivalentsAndShortTermInvestments {2023: 7139}
-ltInv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 1395, 2024: 0, 2025: 1917}
 ltInv: ShortTermInvestments {2023: 21, 2024: 1779, 2025: 29}
-ltInv: PaymentsToAcquireInvestments {2023: 505, 2024: 1742, 2025: 170}
+ltInv: DerivativeCollateralRightToReclaimSecurities {2023: 27, 2024: 316, 2025: 282}
+ltInv: DerivativeCollateralObligationToReturnSecurities {2023: 27, 2024: 316, 2025: 282}
 
-Tempo: 1 s. File scritto: sec_NFLX.json
+Tempo: 2 s. File scritto: sec_NFLX.json

@@ -27,8 +27,8 @@ Impegni: anno 5                                                     10       11 
 Impegni: oltre il quinto anno                                       28       20       13       11      265        .        .        .        .        .        .        .
 
 --- DEBITO FINANZIARIO ---
-Debito a lungo termine: quota corrente                               .        .        .        .        .        0      999        0    1,250    1,250        0      999
-Debito a lungo termine: non corrente                                 .        .        .        .        .    1,991    5,964   10,946    9,703    8,459    8,463    7,469
+Debito a lungo termine: quota corrente                               0    1,413      796       15        0        0      999        0    1,250    1,250        0      999
+Debito a lungo termine: non corrente                             1,384        0        .        .        .    1,991    5,964   10,946    9,703    8,459    8,463    7,469
 Debito a lungo termine: totale                                   1,384        0    1,983    1,985    1,988    1,991    6,963   10,946   10,953    9,709    8,463    8,468
 Debito corrente totale (con debiti a breve)                          .        .        .        .        .        0      999        0    1,250    1,250        0      999
 Debiti finanziari a breve                                            .        .        .        .        0        0        0        0        0        0        0        .
@@ -37,7 +37,7 @@ Debiti finanziari a breve                                            .        . 
 Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .      288    1,321    3,387   22,251
 Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di debito disponibili per la vendita (valore equo)        4,421    4,673    5,468    6,895    7,324   10,781   11,351   20,913   13,055   25,724   42,106   39,520
-Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .        .        .       77      144      266      299    1,546        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                        8       -4      -16      -18      -12        1       19      -11      -43       27       28      178
 
@@ -54,24 +54,18 @@ nvda:LesseeOperatingLeaseLeaseNotYetCommencedUndiscountedAmoun       .        . 
 nvda:ProductWarrantyAccrualsAndReturnProvisionsCurrent               .        .        .        .        .        .        .        .        .      415    1,373        .
 nvda:ProductWarrantyAndReturnProvisions                              .        .        .        .        .       24       39        .      108      415        .        .
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 1231, 2024: 1539, 2025: 2086, 2026: 3624}
-finLiab: OperatingLeaseLiability {2023: 1078, 2024: 1347, 2025: 1807, 2026: 2944}
-finLiab: OperatingLeaseRightOfUseAsset {2023: 1038, 2024: 1346, 2025: 1793, 2026: 2867}
-finLiab: OperatingLeaseLiabilityNoncurrent {2023: 902, 2024: 1119, 2025: 1519, 2026: 2572}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 323, 2024: 288, 2025: 537, 2026: 1494}
-finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 358, 2024: 531, 2025: 877, 2026: 1439}
-eqMeth: AvailableForSaleSecuritiesDebtSecurities {2023: 13055, 2024: 25724, 2025: 42106, 2026: 39520}
-eqMeth: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 13112, 2024: 25684, 2025: 42062}
-eqMeth: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 11897, 2024: 18211, 2025: 26575, 2026: 40616}
-eqMeth: MarketableSecuritiesCurrent {2023: 9907, 2024: 18704, 2025: 34621}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue {2023: 3347, 2024: 9395, 2025: 23656, 2026: 19093}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsAmortizedCost {2023: 3374, 2024: 9348, 2025: 23636}
-ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 13055, 2024: 25724, 2025: 42106, 2026: 39520}
-ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 13112, 2024: 25684, 2025: 42062}
-ltInv: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 11897, 2024: 18211, 2025: 26575, 2026: 40616}
-ltInv: MarketableSecuritiesCurrent {2023: 9907, 2024: 18704, 2025: 34621}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue {2023: 3347, 2024: 9395, 2025: 23656, 2026: 19093}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsAmortizedCost {2023: 3374, 2024: 9348, 2025: 23636}
+--- AVVISI ---
+Titoli di mercato non correnti: ultimo anno 2024 (mancano anni recenti)
 
-Tempo: 2 s. File scritto: sec_NVDA.json
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: OperatingLeaseRightOfUseAsset {2023: 1038, 2024: 1346, 2025: 1793, 2026: 2867}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 358, 2024: 531, 2025: 877, 2026: 1439}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 153, 2024: 192, 2025: 279, 2026: 680}
+eqMeth: MarketableSecuritiesCurrent {2023: 9907, 2024: 18704, 2025: 34621}
+eqMeth: EquitySecuritiesFVNINoncurrent {2024: 1321, 2025: 3387, 2026: 22251}
+eqMeth: MarketableSecurities {2023: 9907, 2024: 18704}
+ltInv: MarketableSecuritiesCurrent {2023: 9907, 2024: 18704, 2025: 34621}
+ltInv: EquitySecuritiesFVNINoncurrent {2024: 1321, 2025: 3387, 2026: 22251}
+ltInv: MarketableSecurities {2023: 9907, 2024: 18704}
+
+Tempo: 3 s. File scritto: sec_NVDA.json

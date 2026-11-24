@@ -165,7 +165,12 @@
    "2023": 1250.0,
    "2024": 1250.0,
    "2025": 0.0,
-   "2026": 999.0
+   "2026": 999.0,
+   "2015": 0.0,
+   "2016": 1413.0,
+   "2017": 796.0,
+   "2018": 15.0,
+   "2019": 0.0
   },
   "dNon": {
    "2020": 1991.0,
@@ -174,7 +179,9 @@
    "2023": 9703.0,
    "2024": 8459.0,
    "2025": 8463.0,
-   "2026": 7469.0
+   "2026": 7469.0,
+   "2015": 1384.0,
+   "2016": 0.0
   },
   "dTot": {
    "2013": 0.0,
@@ -214,7 +221,10 @@
    "2023": 288.0,
    "2024": 1321.0,
    "2025": 3387.0,
-   "2026": 22251.0
+   "2026": 22251.0,
+   "2011": 8.8,
+   "2012": 10.4,
+   "2013": 10.0
   },
   "eqMeth": {},
   "afsDeb": {
@@ -235,7 +245,13 @@
    "2025": 42106.0,
    "2026": 39520.0
   },
-  "mktNon": {},
+  "mktNon": {
+   "2020": 77.0,
+   "2021": 144.0,
+   "2022": 266.0,
+   "2023": 299.0,
+   "2024": 1546.0
+  },
   "ltInv": {},
   "aoci": {
    "2009": 3.9,
@@ -419,7 +435,12 @@
    "2023": "LongTermDebtCurrent",
    "2024": "LongTermDebtCurrent",
    "2025": "LongTermDebtCurrent",
-   "2026": "LongTermDebtCurrent"
+   "2026": "LongTermDebtCurrent",
+   "2015": "ConvertibleDebtCurrent",
+   "2016": "ConvertibleDebtCurrent",
+   "2017": "ConvertibleDebtCurrent",
+   "2018": "ConvertibleDebtCurrent",
+   "2019": "ConvertibleDebtCurrent"
   },
   "dNon": {
    "2020": "LongTermDebtNoncurrent",
@@ -428,7 +449,9 @@
    "2023": "LongTermDebtNoncurrent",
    "2024": "LongTermDebtNoncurrent",
    "2025": "LongTermDebtNoncurrent",
-   "2026": "LongTermDebtNoncurrent"
+   "2026": "LongTermDebtNoncurrent",
+   "2015": "ConvertibleDebtNoncurrent",
+   "2016": "ConvertibleDebtNoncurrent"
   },
   "dTot": {
    "2013": "LongTermDebt",
@@ -468,7 +491,10 @@
    "2023": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
    "2024": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
    "2025": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-   "2026": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount"
+   "2026": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
+   "2011": "CostMethodInvestments",
+   "2012": "CostMethodInvestments",
+   "2013": "CostMethodInvestments"
   },
   "eqMeth": {},
   "afsDeb": {
@@ -489,7 +515,13 @@
    "2025": "AvailableForSaleSecuritiesDebtSecurities",
    "2026": "AvailableForSaleSecuritiesDebtSecurities"
   },
-  "mktNon": {},
+  "mktNon": {
+   "2020": "OtherLongTermInvestments",
+   "2021": "OtherLongTermInvestments",
+   "2022": "OtherLongTermInvestments",
+   "2023": "OtherLongTermInvestments",
+   "2024": "OtherLongTermInvestments"
+  },
   "ltInv": {},
   "aoci": {
    "2009": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
@@ -552,27 +584,11 @@
    "2020": 216.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "Titoli di mercato non correnti: ultimo anno 2024 (mancano anni recenti)"
+ ],
  "candidati": {
   "finLiab": [
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 1231,
-     "2024": 1539,
-     "2025": 2086,
-     "2026": 3624
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiability",
-    "valori": {
-     "2023": 1078,
-     "2024": 1347,
-     "2025": 1807,
-     "2026": 2944
-    }
-   },
    {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
@@ -583,24 +599,6 @@
     }
    },
    {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
-    "valori": {
-     "2023": 902,
-     "2024": 1119,
-     "2025": 1519,
-     "2026": 2572
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
-    "valori": {
-     "2023": 323,
-     "2024": 288,
-     "2025": 537,
-     "2026": 1494
-    }
-   },
-   {
     "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
      "2023": 358,
@@ -608,35 +606,18 @@
      "2025": 877,
      "2026": 1439
     }
+   },
+   {
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
+    "valori": {
+     "2023": 153,
+     "2024": 192,
+     "2025": 279,
+     "2026": 680
+    }
    }
   ],
   "eqMeth": [
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 13055,
-     "2024": 25724,
-     "2025": 42106,
-     "2026": 39520
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 13112,
-     "2024": 25684,
-     "2025": 42062
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 11897,
-     "2024": 18211,
-     "2025": 26575,
-     "2026": 40616
-    }
-   },
    {
     "tag": "MarketableSecuritiesCurrent",
     "valori": {
@@ -646,51 +627,23 @@
     }
    },
    {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue",
+    "tag": "EquitySecuritiesFVNINoncurrent",
     "valori": {
-     "2023": 3347,
-     "2024": 9395,
-     "2025": 23656,
-     "2026": 19093
+     "2024": 1321,
+     "2025": 3387,
+     "2026": 22251
     }
    },
    {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsAmortizedCost",
+    "tag": "MarketableSecurities",
     "valori": {
-     "2023": 3374,
-     "2024": 9348,
-     "2025": 23636
+     "2023": 9907,
+     "2024": 18704
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 13055,
-     "2024": 25724,
-     "2025": 42106,
-     "2026": 39520
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 13112,
-     "2024": 25684,
-     "2025": 42062
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 11897,
-     "2024": 18211,
-     "2025": 26575,
-     "2026": 40616
-    }
-   },
-   {
     "tag": "MarketableSecuritiesCurrent",
     "valori": {
      "2023": 9907,
@@ -699,27 +652,87 @@
     }
    },
    {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue",
+    "tag": "EquitySecuritiesFVNINoncurrent",
     "valori": {
-     "2023": 3347,
-     "2024": 9395,
-     "2025": 23656,
-     "2026": 19093
+     "2024": 1321,
+     "2025": 3387,
+     "2026": 22251
     }
    },
    {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsAmortizedCost",
+    "tag": "MarketableSecurities",
     "valori": {
-     "2023": 3374,
-     "2024": 9348,
-     "2025": 23636
+     "2023": 9907,
+     "2024": 18704
     }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-01-27",
+  "2020": "2020-01-26",
+  "2021": "2021-01-31",
+  "2022": "2022-01-30",
+  "2023": "2023-01-29",
+  "2024": "2024-01-28",
+  "2025": "2025-01-26",
+  "2026": "2026-01-25",
+  "2018": "2018-01-28",
+  "2011": "2011-01-30",
+  "2012": "2012-01-29",
+  "2013": "2013-01-27",
+  "2014": "2014-01-26",
+  "2015": "2015-01-25",
+  "2016": "2016-01-31",
+  "2017": "2017-01-29",
+  "2009": "2009-01-25",
+  "2010": "2010-01-31",
+  "2008": "2008-01-27"
+ },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2011": 8.8,
+   "2012": 10.4,
+   "2013": 10.0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2017": 0,
+   "2018": 0,
+   "2019": 0,
+   "2020": 77.0,
+   "2021": 144.0,
+   "2022": 266.0,
+   "2023": 587.0,
+   "2024": 2867.0,
+   "2025": 3387.0,
+   "2026": 22251.0
+  },
+  "invNonOpAmpia": {
+   "2011": 2184.8,
+   "2012": 2886.7,
+   "2013": 3307.3,
+   "2014": 4092.6,
+   "2015": 4421.0,
+   "2016": 4673.0,
+   "2017": 5468.0,
+   "2018": 6895.0,
+   "2019": 7324.0,
+   "2020": 10858.0,
+   "2021": 11495.0,
+   "2022": 21179.0,
+   "2023": 13642.0,
+   "2024": 28591.0,
+   "2025": 45493.0,
+   "2026": 61771.0
+  }
+ },
+ "sic": "3674",
+ "sic_descrizione": "Semiconductors & Related Devices",
+ "chiusura_esercizio": "0131",
+ "nome": "NVIDIA CORP",
+ "ambito": "ok"
 }

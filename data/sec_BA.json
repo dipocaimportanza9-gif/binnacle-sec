@@ -653,7 +653,9 @@
   }
  },
  "avvisi": [
-  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo"
+  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo",
+  "2021: l'OCI sale di 5474 ma gli investimenti letti salgono di -41: controllare il filing (investimenti non letti?)",
+  "2022: l'OCI sale di 2109 ma gli investimenti letti salgono di 8: controllare il filing (investimenti non letti?)"
  ],
  "candidati": {
   "dBrev": [
@@ -666,72 +668,32 @@
     }
    },
    {
-    "tag": "LongTermDebt",
+    "tag": "UnsecuredDebtCurrent",
     "valori": {
-     "2023": 52055,
-     "2024": 53625,
-     "2025": 53848
+     "2023": 5072,
+     "2024": 850,
+     "2025": 8249
     }
    },
    {
-    "tag": "DebtInstrumentFairValue",
+    "tag": "OtherNotesPayable",
     "valori": {
-     "2023": 51039,
-     "2024": 51089,
-     "2025": 53769
+     "2023": 370,
+     "2024": 414,
+     "2025": 298
     }
    },
    {
-    "tag": "LongTermDebtAndCapitalLeaseObligations",
+    "tag": "OtherNotesPayableCurrent",
     "valori": {
-     "2023": 47103,
-     "2024": 52586,
-     "2025": 45637
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfDebt",
-    "valori": {
-     "2023": 75,
-     "2024": 10161,
-     "2025": 165
-    }
-   },
-   {
-    "tag": "RepaymentsOfDebt",
-    "valori": {
-     "2023": 5216,
-     "2024": 8673,
-     "2025": 3621
+     "2023": 55,
+     "2024": 342,
+     "2025": 101
     }
    }
   ],
   "eqPriv": [
    {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 16448,
-     "2024": 13856,
-     "2025": 51938
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 15739,
-     "2024": 4743,
-     "2025": 46628
-    }
-   },
-   {
-    "tag": "Investments",
-    "valori": {
-     "2023": 4309,
-     "2024": 13480,
-     "2025": 19527
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 3274,
@@ -748,40 +710,39 @@
     }
    },
    {
-    "tag": "LongTermInvestments",
+    "tag": "RetainedEarningsUndistributedEarningsFromEquityMethodInvestees",
     "valori": {
-     "2023": 1035,
-     "2024": 999,
-     "2025": 1048
+     "2023": 110,
+     "2024": 141,
+     "2025": 213
+    }
+   },
+   {
+    "tag": "OtherInvestments",
+    "valori": {
+     "2023": 69,
+     "2024": 34,
+     "2025": 34
+    }
+   },
+   {
+    "tag": "EquityMethodInvestmentDividendsOrDistributions",
+    "valori": {
+     "2023": 31,
+     "2024": 55,
+     "2025": 14
+    }
+   },
+   {
+    "tag": "FinancingReceivableRecordedInvestment90DaysPastDueAndStillAccruing",
+    "valori": {
+     "2023": 9,
+     "2024": 0
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 16448,
-     "2024": 13856,
-     "2025": 51938
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 15739,
-     "2024": 4743,
-     "2025": 46628
-    }
-   },
-   {
-    "tag": "Investments",
-    "valori": {
-     "2023": 4309,
-     "2024": 13480,
-     "2025": 19527
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 3274,
@@ -798,14 +759,57 @@
     }
    },
    {
-    "tag": "LongTermInvestments",
+    "tag": "RetainedEarningsUndistributedEarningsFromEquityMethodInvestees",
     "valori": {
-     "2023": 1035,
-     "2024": 999,
-     "2025": 1048
+     "2023": 110,
+     "2024": 141,
+     "2025": 213
+    }
+   },
+   {
+    "tag": "OtherInvestments",
+    "valori": {
+     "2023": 69,
+     "2024": 34,
+     "2025": 34
+    }
+   },
+   {
+    "tag": "EquityMethodInvestmentDividendsOrDistributions",
+    "valori": {
+     "2023": 31,
+     "2024": 55,
+     "2025": 14
+    }
+   },
+   {
+    "tag": "FinancingReceivableRecordedInvestment90DaysPastDueAndStillAccruing",
+    "valori": {
+     "2023": 9,
+     "2024": 0
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2020": "2020-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2008": "2008-12-31"
  },
  "derivati": {
   "dTotCalc": {
@@ -841,6 +845,51 @@
    "2023": "dNon",
    "2024": "dNon",
    "2025": "dNon"
+  },
+  "invNonOpBase": {
+   "2008": 1328.0,
+   "2009": 1030.0,
+   "2010": 1111.0,
+   "2011": 1043.0,
+   "2012": 1180.0,
+   "2013": 1204.0,
+   "2014": 1154.0,
+   "2015": 1284.0,
+   "2016": 1317.0,
+   "2017": 1260.0,
+   "2018": 1087.0,
+   "2019": 1092.0,
+   "2020": 1016.0,
+   "2021": 975.0,
+   "2022": 983.0,
+   "2023": 1035.0,
+   "2024": 999.0,
+   "2025": 1048.0
+  },
+  "invNonOpAmpia": {
+   "2008": 1328.0,
+   "2009": 1030.0,
+   "2010": 1111.0,
+   "2011": 1043.0,
+   "2012": 1180.0,
+   "2013": 1204.0,
+   "2014": 1154.0,
+   "2015": 1284.0,
+   "2016": 1317.0,
+   "2017": 1260.0,
+   "2018": 1087.0,
+   "2019": 1092.0,
+   "2020": 1016.0,
+   "2021": 975.0,
+   "2022": 983.0,
+   "2023": 1035.0,
+   "2024": 999.0,
+   "2025": 1048.0
   }
- }
+ },
+ "sic": "3721",
+ "sic_descrizione": "Aircraft",
+ "chiusura_esercizio": "1231",
+ "nome": "BOEING CO",
+ "ambito": "ok"
 }

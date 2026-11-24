@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                          .        . 
 Debiti finanziari a breve                                       13,035   12,330   12,931   13,063   10,994    2,183    3,307    2,373    4,209    1,139    1,495        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .       80       82       50       47       42       42       40       44        .
+Equity in societa' non quotate (valore contabile)                  190      140      143       80       82       50       47       42       42       40       44        .
 Partecipazioni a patrimonio netto (equity method)               12,318   16,260   20,856   19,412   19,025   19,273   17,598   18,264   19,671   18,087   20,235        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .      944    1,134    1,631    1,774        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -61,19 +61,17 @@ ko:SegmentReportingInformationInvestmentsIncludingEquityMethod       .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2024-2025: non sommarli di nuovo
+2009: l'OCI sale di 1917 ma gli investimenti letti salgono di 976: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 37507, 2024: 43023, 2025: 43941}
-finLiab: LongTermDebtAndCapitalLeaseObligations {2023: 35547, 2024: 42375, 2025: 42119}
-finLiab: RepaymentsOfDebtAndCapitalLeaseObligations {2023: 5034, 2024: 9533, 2025: 4967}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 1522, 2024: 1378, 2025: 2019}
-finLiab: LongTermDebtAndCapitalLeaseObligationsCurrent {2023: 1960, 2024: 648, 2025: 1822}
-finLiab: OperatingLeaseLiability {2023: 1362, 2024: 1213, 2025: 1722}
+finLiab: OperatingLeaseRightOfUseAsset {2023: 1328, 2024: 1182, 2025: 1697}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 328, 2024: 313, 2025: 867}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 160, 2024: 165, 2025: 297}
 ltInv: EquityMethodInvestmentQuotedMarketValue {2024: 28740, 2025: 34286}
-ltInv: EquityMethodInvestments {2023: 19671, 2024: 18087, 2025: 20235}
 ltInv: CashCashEquivalentsAndShortTermInvestments {2023: 12363, 2024: 12848, 2025: 13872}
 ltInv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 8005, 2024: 8594, 2025: 9067}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 8634, 2024: 7791, 2025: 8744}
 ltInv: OtherShortTermInvestments {2023: 2997, 2024: 2020, 2025: 3602}
+ltInv: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 2006, 2024: 2034, 2025: 2589}
 
-Tempo: 3 s. File scritto: sec_KO.json
+Tempo: 5 s. File scritto: sec_KO.json

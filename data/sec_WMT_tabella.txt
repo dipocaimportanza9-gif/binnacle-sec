@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                          .        . 
 Debiti finanziari a breve                                        1,592    2,708    1,099    5,257    5,225      575      224      410      372      878    3,068    6,596
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .    5,438   14,422   11,888   10,669    7,249    3,041        .
 Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -48,30 +48,12 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 wmt:DeferredTaxAssetsLeases                                          .        .        .        .        .        .        .        .    4,653    4,831    4,611    5,181
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-eqPriv: EquitySecuritiesFvNi {2023: 10669, 2024: 7249, 2025: 3041}
-eqPriv: EquitySecuritiesFvNiUnrealizedGainLoss {2023: -1200, 2024: -3400, 2025: -4200, 2026: 1500}
-eqPriv: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 0, 2024: 0, 2025: 4080, 2026: 927}
-eqPriv: UnrealizedGainLossOnInvestments {2023: -1683, 2024: -3193, 2025: -878}
-eqPriv: GainLossOnInvestments {2024: -3193, 2025: -878, 2026: 2016}
-eqPriv: DeferredTaxLiabilitiesInvestments {2023: 1390, 2024: 322, 2025: 353}
-eqMeth: EquitySecuritiesFvNi {2023: 10669, 2024: 7249, 2025: 3041}
-eqMeth: EquitySecuritiesFvNiUnrealizedGainLoss {2023: -1200, 2024: -3400, 2025: -4200, 2026: 1500}
-eqMeth: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 0, 2024: 0, 2025: 4080, 2026: 927}
-eqMeth: UnrealizedGainLossOnInvestments {2023: -1683, 2024: -3193, 2025: -878}
-eqMeth: GainLossOnInvestments {2024: -3193, 2025: -878, 2026: 2016}
-eqMeth: DeferredTaxLiabilitiesInvestments {2023: 1390, 2024: 322, 2025: 353}
-afsDeb: EquitySecuritiesFvNi {2023: 10669, 2024: 7249, 2025: 3041}
-afsDeb: EquitySecuritiesFvNiUnrealizedGainLoss {2023: -1200, 2024: -3400, 2025: -4200, 2026: 1500}
-afsDeb: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 0, 2024: 0, 2025: 4080, 2026: 927}
-afsDeb: UnrealizedGainLossOnInvestments {2023: -1683, 2024: -3193, 2025: -878}
-afsDeb: GainLossOnInvestments {2024: -3193, 2025: -878, 2026: 2016}
-afsDeb: DeferredTaxLiabilitiesInvestments {2023: 1390, 2024: 322, 2025: 353}
-ltInv: EquitySecuritiesFvNi {2023: 10669, 2024: 7249, 2025: 3041}
-ltInv: EquitySecuritiesFvNiUnrealizedGainLoss {2023: -1200, 2024: -3400, 2025: -4200, 2026: 1500}
-ltInv: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 0, 2024: 0, 2025: 4080, 2026: 927}
-ltInv: UnrealizedGainLossOnInvestments {2023: -1683, 2024: -3193, 2025: -878}
-ltInv: GainLossOnInvestments {2024: -3193, 2025: -878, 2026: 2016}
-ltInv: DeferredTaxLiabilitiesInvestments {2023: 1390, 2024: 322, 2025: 353}
+--- AVVISI ---
+2022: l'OCI sale di 3000 ma gli investimenti letti salgono di -2534: controllare il filing (investimenti non letti?)
 
-Tempo: 1 s. File scritto: sec_WMT.json
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+eqMeth: TradingSecuritiesDebt {2023: 500, 2024: 1200, 2025: 1200}
+afsDeb: TradingSecuritiesDebt {2023: 500, 2024: 1200, 2025: 1200}
+ltInv: TradingSecuritiesDebt {2023: 500, 2024: 1200, 2025: 1200}
+
+Tempo: 2 s. File scritto: sec_WMT.json

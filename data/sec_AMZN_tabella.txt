@@ -81,12 +81,11 @@ amzn:LongTermDebtMaturitiesRepaymentsOfPrincipalAndInterestInY       .        . 
 amzn:NonmarketableSecuritiesAgreedAdditionalInvestment               .        .        .        .        .        .        .        .        .    2,700        .        .
 amzn:NonmarketableSecuritiesAgreedAdditionalInvestmentMaximum        .        .        .        .        .        .        .        .    2,750        .        .        .
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 70919, 2024: 84362, 2025: 106493}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis {2023: 71265, 2024: 84477, 2025: 106460}
-ltInv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 37557, 2024: 68614, 2025: 97311}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 65159, 2024: 78046, 2025: 96778}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearAmortizedCost {2023: 65224, 2024: 78065, 2025: 96776}
-ltInv: PaymentsToAcquireMarketableSecurities {2023: 1488, 2024: 26005, 2025: 54770}
+--- AVVISI ---
+2023: l'OCI sale di 1447 ma gli investimenti letti salgono di 653: controllare il filing (investimenti non letti?)
+2024: l'OCI sale di 3006 ma gli investimenti letti salgono di 821: controllare il filing (investimenti non letti?)
 
-Tempo: 2 s. File scritto: sec_AMZN.json
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+ltInv: MarketableSecuritiesCurrent {2023: 13393, 2024: 22423, 2025: 36219}
+
+Tempo: 4 s. File scritto: sec_AMZN.json

@@ -69,25 +69,25 @@ ba:TotalFinancingReceivablesNet                                      .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
+2021: l'OCI sale di 5474 ma gli investimenti letti salgono di -41: controllare il filing (investimenti non letti?)
+2022: l'OCI sale di 2109 ma gli investimenti letti salgono di 8: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dBrev: DebtAndCapitalLeaseObligations {2023: 52307, 2024: 53864, 2025: 54098}
-dBrev: LongTermDebt {2023: 52055, 2024: 53625, 2025: 53848}
-dBrev: DebtInstrumentFairValue {2023: 51039, 2024: 51089, 2025: 53769}
-dBrev: LongTermDebtAndCapitalLeaseObligations {2023: 47103, 2024: 52586, 2025: 45637}
-dBrev: ProceedsFromIssuanceOfDebt {2023: 75, 2024: 10161, 2025: 165}
-dBrev: RepaymentsOfDebt {2023: 5216, 2024: 8673, 2025: 3621}
-eqPriv: PaymentsToAcquireInvestments {2023: 16448, 2024: 13856, 2025: 51938}
-eqPriv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 15739, 2024: 4743, 2025: 46628}
-eqPriv: Investments {2023: 4309, 2024: 13480, 2025: 19527}
+dBrev: UnsecuredDebtCurrent {2023: 5072, 2024: 850, 2025: 8249}
+dBrev: OtherNotesPayable {2023: 370, 2024: 414, 2025: 298}
+dBrev: OtherNotesPayableCurrent {2023: 55, 2024: 342, 2025: 101}
 eqPriv: ShortTermInvestments {2023: 3274, 2024: 12481, 2025: 18479}
 eqPriv: OtherShortTermInvestments {2023: 2753, 2024: 11960, 2025: 17230}
-eqPriv: LongTermInvestments {2023: 1035, 2024: 999, 2025: 1048}
-afsDeb: PaymentsToAcquireInvestments {2023: 16448, 2024: 13856, 2025: 51938}
-afsDeb: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 15739, 2024: 4743, 2025: 46628}
-afsDeb: Investments {2023: 4309, 2024: 13480, 2025: 19527}
+eqPriv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 110, 2024: 141, 2025: 213}
+eqPriv: OtherInvestments {2023: 69, 2024: 34, 2025: 34}
+eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 31, 2024: 55, 2025: 14}
+eqPriv: FinancingReceivableRecordedInvestment90DaysPastDueAndStillAccruing {2023: 9, 2024: 0}
 afsDeb: ShortTermInvestments {2023: 3274, 2024: 12481, 2025: 18479}
 afsDeb: OtherShortTermInvestments {2023: 2753, 2024: 11960, 2025: 17230}
-afsDeb: LongTermInvestments {2023: 1035, 2024: 999, 2025: 1048}
+afsDeb: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 110, 2024: 141, 2025: 213}
+afsDeb: OtherInvestments {2023: 69, 2024: 34, 2025: 34}
+afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 31, 2024: 55, 2025: 14}
+afsDeb: FinancingReceivableRecordedInvestment90DaysPastDueAndStillAccruing {2023: 9, 2024: 0}
 
-Tempo: 3 s. File scritto: sec_BA.json
+Tempo: 4 s. File scritto: sec_BA.json

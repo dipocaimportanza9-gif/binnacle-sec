@@ -149,7 +149,12 @@
    "2026": 3815.0
   },
   "afsDeb": {},
-  "mktNon": {},
+  "mktNon": {
+   "2018": 2899.0,
+   "2019": 3224.0,
+   "2025": 1778.0,
+   "2026": 2451.0
+  },
   "ltInv": {
    "2018": 2899.0,
    "2019": 3224.0,
@@ -320,7 +325,12 @@
    "2026": "EquityMethodInvestments"
   },
   "afsDeb": {},
-  "mktNon": {},
+  "mktNon": {
+   "2018": "OtherLongTermInvestments",
+   "2019": "OtherLongTermInvestments",
+   "2025": "OtherLongTermInvestments",
+   "2026": "OtherLongTermInvestments"
+  },
   "ltInv": {
    "2018": "LongTermInvestments",
    "2019": "LongTermInvestments",
@@ -591,36 +601,12 @@
    "2022": 832.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "2021: l'OCI sale di 1882 ma gli investimenti letti salgono di 32: controllare il filing (investimenti non letti?)",
+  "2022: l'OCI sale di 2321 ma gli investimenti letti salgono di -717: controllare il filing (investimenti non letti?)"
+ ],
  "candidati": {
   "opLiab": [
-   {
-    "tag": "FilmMonetizedInFilmGroupCapitalizedCostReleased",
-    "valori": {
-     "2023": 13555,
-     "2024": 13621,
-     "2025": 14288,
-     "2026": 13963
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 5087,
-     "2024": 4664,
-     "2025": 4258,
-     "2026": 4279
-    }
-   },
-   {
-    "tag": "FilmMonetizedOnItsOwnCapitalizedCostReleased",
-    "valori": {
-     "2023": 4968,
-     "2024": 4568,
-     "2025": 4624,
-     "2026": 4865
-    }
-   },
    {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
@@ -631,115 +617,63 @@
     }
    },
    {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 3258,
-     "2024": 2768,
-     "2025": 2710,
-     "2026": 2679
+     "2023": 1089,
+     "2024": 1152,
+     "2025": 1023,
+     "2026": 1053
     }
    },
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
+    "tag": "LeaseholdImprovementsGross",
     "valori": {
-     "2023": 2265,
-     "2024": 1978,
-     "2025": 1759,
-     "2026": 1785
+     "2023": 1058,
+     "2024": 1082,
+     "2025": 1103,
+     "2026": 1015
+    }
+   },
+   {
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
+    "valori": {
+     "2023": 1000,
+     "2024": 300,
+     "2025": 400,
+     "2026": 600
+    }
+   },
+   {
+    "tag": "FinanceLeaseLiabilityUndiscountedExcessAmount",
+    "valori": {
+     "2023": 298,
+     "2024": 280,
+     "2025": 263,
+     "2026": 263
     }
    }
   ],
   "dBrev": [
    {
-    "tag": "LongTermDebt",
+    "tag": "LongtermCommercialPaperCurrentAndNoncurrent",
     "valori": {
-     "2023": 46431,
-     "2024": 45815,
-     "2025": 42026,
-     "2026": 44473
+     "2023": 1476,
+     "2024": 3040,
+     "2025": 2062,
+     "2026": 4269
     }
    },
    {
-    "tag": "DebtInstrumentCarryingAmount",
+    "tag": "DebtInstrumentIncreaseDecreaseOtherNet",
     "valori": {
-     "2023": 46412,
-     "2024": 45101,
-     "2025": 41251,
-     "2026": 44109
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 42101,
-     "2024": 38970,
-     "2025": 35315,
-     "2026": 37142
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 29204,
-     "2024": 26987,
-     "2025": 25872,
-     "2026": 25124
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityRemainingBorrowingCapacity",
-    "valori": {
-     "2023": 12250,
-     "2024": 12250,
-     "2025": 12250,
-     "2026": 12250
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityMaximumBorrowingCapacity",
-    "valori": {
-     "2023": 12250,
-     "2024": 12250,
-     "2025": 12250,
-     "2026": 12250
+     "2023": 5,
+     "2024": 32,
+     "2025": -35,
+     "2026": 43
     }
    }
   ],
   "afsDeb": [
-   {
-    "tag": "LongTermInvestments",
-    "valori": {
-     "2023": 3080,
-     "2024": 4459,
-     "2025": 8097,
-     "2026": 6266
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 2688,
-     "2024": 2680,
-     "2025": 6319,
-     "2026": 3815
-    }
-   },
-   {
-    "tag": "OtherLongTermInvestments",
-    "valori": {
-     "2025": 1778,
-     "2026": 2451
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-    "valori": {
-     "2023": 200,
-     "2024": 1700,
-     "2025": 1700,
-     "2026": 2400
-    }
-   },
    {
     "tag": "OtherInvestments",
     "valori": {
@@ -756,12 +690,79 @@
      "2025": 1600,
      "2026": 1300
     }
+   },
+   {
+    "tag": "EquityMethodInvestmentDividendsOrDistributions",
+    "valori": {
+     "2023": 720,
+     "2024": 437,
+     "2025": 145,
+     "2026": 206
+    }
+   },
+   {
+    "tag": "RestrictedCashAndInvestmentsNoncurrent",
+    "valori": {
+     "2023": 53,
+     "2024": 100,
+     "2025": 104,
+     "2026": 109
+    }
+   },
+   {
+    "tag": "RestrictedCashAndInvestmentsCurrent",
+    "valori": {
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 55
+    }
    }
   ]
+ },
+ "fine_anno": {
+  "2018": "2018-09-29",
+  "2019": "2019-09-28",
+  "2020": "2020-10-03",
+  "2021": "2021-10-02",
+  "2022": "2022-10-01",
+  "2023": "2023-09-30",
+  "2024": "2024-09-28",
+  "2025": "2025-09-27",
+  "2026": "2026-10-03",
+  "2017": "2017-09-30",
+  "2016": "2016-10-01"
  },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2018": 5667.0,
+   "2019": 6436.0,
+   "2020": 3903.0,
+   "2021": 3935.0,
+   "2022": 3218.0,
+   "2023": 3080.0,
+   "2024": 4459.0,
+   "2025": 9797.0,
+   "2026": 8666.0
+  },
+  "invNonOpAmpia": {
+   "2018": 5667.0,
+   "2019": 6436.0,
+   "2020": 3903.0,
+   "2021": 3935.0,
+   "2022": 3218.0,
+   "2023": 3080.0,
+   "2024": 4459.0,
+   "2025": 9797.0,
+   "2026": 8666.0
+  }
+ },
+ "sic": "7990",
+ "sic_descrizione": "Services-Miscellaneous Amusement & Recreation",
+ "chiusura_esercizio": "1003",
+ "nome": "Walt Disney Co",
+ "ambito": "ok"
 }

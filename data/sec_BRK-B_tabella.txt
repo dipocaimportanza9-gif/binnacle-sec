@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                          .        . 
 Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                    .        .  170,540  172,757  248,027  281,170  350,719  308,793  353,842  271,588  297,778        .
 Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .   16,045   28,050   29,066   31,134   19,978        .
 Titoli di debito disponibili per la vendita (valore equo)       26,027   23,432   21,353   19,898   18,685   20,410   16,434   25,128   23,758   15,364   17,816        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -49,48 +49,18 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 brka:DeferredTaxLiabilitiesPropertyPlantAndEquipmentEquipmentH       .        .        .        .   29,388   30,203   31,323   32,080   32,991   33,590   34,834        .
 brka:RepaymentsOfDebtPrincipalInNextTwelveMonths                     .        .        .        .        .    9,398    6,139   12,962   13,859    9,366    9,782        .
 
+--- AVVISI ---
+2016: l'OCI sale di 3316 ma gli investimenti letti salgono di -2595: controllare il filing (investimenti non letti?)
+2022: l'OCI sale di 4942 ma gli investimenti letti salgono di -21227: controllare il filing (investimenti non letti?)
+FUORI PORTATA (SIC 6331 Fire, Marine & Casualty Insurance)
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: PropertySubjectToOrAvailableForOperatingLeaseGross {2023: 28144, 2024: 30024, 2025: 31892}
 finLiab: PropertySubjectToOrAvailableForOperatingLeaseNet {2023: 16947, 2024: 17828, 2025: 18535}
-finLiab: LessorOperatingLeasePaymentsToBeReceived {2023: 11988, 2024: 13146, 2025: 14168}
-finLiab: PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation {2023: 11197, 2024: 12196, 2025: 13357}
-finLiab: DepreciationExcludingLessorAssetUnderOperatingLease {2023: 9392, 2024: 9631, 2025: 10146}
-finLiab: OperatingLeaseLeaseIncome {2023: 8416, 2024: 9227, 2025: 10034}
-dCur: AvailableForSaleSecuritiesDebtSecurities {2023: 23758, 2024: 15364, 2025: 17816}
-dCur: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 23525, 2024: 15214, 2025: 17525}
-dCur: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis {2023: 18888, 2024: 10228, 2025: 12875}
-dCur: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 18875, 2024: 10107, 2025: 12949}
-dCur: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 7048, 2024: 5748, 2025: 6631}
-dCur: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive {2023: 6433, 2024: 6326, 2025: 5793}
-dNon: AvailableForSaleSecuritiesDebtSecurities {2023: 23758, 2024: 15364, 2025: 17816}
-dNon: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 23525, 2024: 15214, 2025: 17525}
-dNon: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis {2023: 18888, 2024: 10228, 2025: 12875}
-dNon: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 18875, 2024: 10107, 2025: 12949}
-dNon: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 7048, 2024: 5748, 2025: 6631}
-dNon: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive {2023: 6433, 2024: 6326, 2025: 5793}
-dTot: AvailableForSaleSecuritiesDebtSecurities {2023: 23758, 2024: 15364, 2025: 17816}
-dTot: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 23525, 2024: 15214, 2025: 17525}
-dTot: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis {2023: 18888, 2024: 10228, 2025: 12875}
-dTot: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 18875, 2024: 10107, 2025: 12949}
-dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 7048, 2024: 5748, 2025: 6631}
-dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive {2023: 6433, 2024: 6326, 2025: 5793}
-dBrev: AvailableForSaleSecuritiesDebtSecurities {2023: 23758, 2024: 15364, 2025: 17816}
-dBrev: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 23525, 2024: 15214, 2025: 17525}
-dBrev: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis {2023: 18888, 2024: 10228, 2025: 12875}
-dBrev: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 18875, 2024: 10107, 2025: 12949}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 7048, 2024: 5748, 2025: 6631}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive {2023: 6433, 2024: 6326, 2025: 5793}
-eqPriv: EquitySecuritiesFvNi {2023: 353842, 2024: 271588, 2025: 297778}
-eqPriv: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 40631, 2024: 143359, 2025: 30686}
-eqPriv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 118193, 2024: 108535, 2025: 92049}
-eqPriv: EquitySecuritiesFvNiCost {2023: 109416, 2024: 75506, 2025: 85389}
-eqPriv: GainLossOnInvestments {2023: 74855, 2024: 52799, 2025: 39078}
-eqPriv: EquitySecuritiesFvNiGainLoss {2023: 71842, 2024: 52820, 2025: 39963}
-ltInv: EquitySecuritiesFvNi {2023: 353842, 2024: 271588, 2025: 297778}
-ltInv: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 40631, 2024: 143359, 2025: 30686}
-ltInv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 118193, 2024: 108535, 2025: 92049}
-ltInv: EquitySecuritiesFvNiCost {2023: 109416, 2024: 75506, 2025: 85389}
-ltInv: GainLossOnInvestments {2023: 74855, 2024: 52799, 2025: 39078}
-ltInv: EquitySecuritiesFvNiGainLoss {2023: 71842, 2024: 52820, 2025: 39963}
+finLiab: OperatingLeaseRightOfUseAsset {2023: 5277, 2024: 5843, 2025: 6020}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 1645, 2024: 2007, 2025: 1640}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 919, 2024: 1201, 2025: 1454}
+ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2025: 10681}
+ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 721, 2024: 793, 2025: 875}
 
-Tempo: 4 s. File scritto: sec_BRK-B.json
+Tempo: 6 s. File scritto: sec_BRK-B.json

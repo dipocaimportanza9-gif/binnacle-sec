@@ -38,7 +38,7 @@ Equity in societa' non quotate (valore contabile)                    .        . 
 Partecipazioni a patrimonio netto (equity method)                  499      925    1,175    1,409    1,936      961      457      455      492      353      330        .
 Titoli di debito disponibili per la vendita (valore equo)        2,321    2,208    2,284    2,391    2,626    3,002    3,191    2,815    3,003    3,326    4,439        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
-Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                  5,825    6,205    7,097    6,720    8,140    9,114   10,401    8,637   10,143   11,434   12,889        .
 OCI accumulato (utili/perdite non realizzati)                     -806      -93      -67      -92     -130     -237     -303     -140       -6      228      198        .
 
 --- DERIVATI (regole generali) ---
@@ -58,16 +58,6 @@ duk:ShortTermObligationsClassifiedAsLongTermDebt                     .        . 
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 eqPriv: InvestmentsAndOtherNoncurrentAssets {2023: 48809, 2024: 51767, 2025: 54164}
-eqPriv: DecommissioningFundInvestments {2023: 10143, 2024: 11434, 2025: 12889}
-eqPriv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 3824, 2024: 5803, 2025: 9005}
-eqPriv: PaymentsToAcquireInvestments {2023: 3761, 2024: 5703, 2025: 8888}
-eqPriv: AvailableForSaleSecuritiesDebtSecurities {2023: 3003, 2024: 3326, 2025: 4439}
-eqPriv: DeferredTaxLiabilitiesInvestments {2023: 1812, 2024: 2114, 2025: 2452}
-ltInv: InvestmentsAndOtherNoncurrentAssets {2023: 48809, 2024: 51767, 2025: 54164}
-ltInv: DecommissioningFundInvestments {2023: 10143, 2024: 11434, 2025: 12889}
-ltInv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 3824, 2024: 5803, 2025: 9005}
-ltInv: PaymentsToAcquireInvestments {2023: 3761, 2024: 5703, 2025: 8888}
-ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 3003, 2024: 3326, 2025: 4439}
-ltInv: DeferredTaxLiabilitiesInvestments {2023: 1812, 2024: 2114, 2025: 2452}
+eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 50, 2024: 66, 2025: 30}
 
-Tempo: 4 s. File scritto: sec_DUK.json
+Tempo: 14 s. File scritto: sec_DUK.json

@@ -472,38 +472,18 @@
  "avvisi": [
   "Leasing operativi: debito totale: ultimo anno 2024 (mancano anni recenti)",
   "Leasing operativi: costo (affitti) dell'anno: ultimo anno 2024 (mancano anni recenti)",
-  "Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2024 (mancano anni recenti)"
+  "Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2024 (mancano anni recenti)",
+  "2021: l'OCI sale di 2153 ma gli investimenti letti salgono di 245: controllare il filing (investimenti non letti?)",
+  "2025: l'OCI sale di 1442 ma gli investimenti letti salgono di -414: controllare il filing (investimenti non letti?)"
  ],
  "candidati": {
   "opLiab": [
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 1392,
-     "2024": 1447
-    }
-   },
    {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
      "2023": 1024,
      "2024": 1050,
      "2025": 1260
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
-    "valori": {
-     "2023": 948,
-     "2024": 971,
-     "2025": 1140
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
-    "valori": {
-     "2023": 615,
-     "2024": 626
     }
    },
    {
@@ -523,13 +503,6 @@
   ],
   "finLiab": [
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 1392,
-     "2024": 1447
-    }
-   },
-   {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
      "2023": 1024,
@@ -538,180 +511,116 @@
     }
    },
    {
-    "tag": "OperatingLeaseLiability",
-    "valori": {
-     "2023": 1107,
-     "2024": 1147
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
-    "valori": {
-     "2023": 948,
-     "2024": 971,
-     "2025": 1140
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
-    "valori": {
-     "2023": 615,
-     "2024": 626
-    }
-   },
-   {
     "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
      "2023": 590,
      "2024": 210
     }
+   },
+   {
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
+    "valori": {
+     "2023": 285,
+     "2024": 300
+    }
    }
   ],
   "eqPriv": [
    {
-    "tag": "TranslationAdjustmentForNetInvestmentHedgeNetOfTax",
+    "tag": "ShortTermInvestments",
     "valori": {
-     "2023": 5670,
-     "2024": 5340
-    }
-   },
-   {
-    "tag": "LongTermInvestments",
-    "valori": {
-     "2023": 3052,
-     "2024": 3216,
-     "2025": 2802
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfOtherInvestments",
-    "valori": {
-     "2023": 508,
-     "2024": 374,
-     "2025": 964
-    }
-   },
-   {
-    "tag": "FairValueInvestmentsEntitiesThatCalculateNetAssetValuePerShareUnfundedCommittments",
-    "valori": {
-     "2023": 930,
-     "2024": 899
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireOtherInvestments",
-    "valori": {
-     "2023": 731,
-     "2024": 677,
-     "2025": 645
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 657,
-     "2024": 669
+     "2023": 109,
+     "2024": 155
     }
    }
   ],
   "eqMeth": [
    {
-    "tag": "TranslationAdjustmentForNetInvestmentHedgeNetOfTax",
+    "tag": "ShortTermInvestments",
     "valori": {
-     "2023": 5670,
-     "2024": 5340
-    }
-   },
-   {
-    "tag": "LongTermInvestments",
-    "valori": {
-     "2023": 3052,
-     "2024": 3216,
-     "2025": 2802
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfOtherInvestments",
-    "valori": {
-     "2023": 508,
-     "2024": 374,
-     "2025": 964
-    }
-   },
-   {
-    "tag": "FairValueInvestmentsEntitiesThatCalculateNetAssetValuePerShareUnfundedCommittments",
-    "valori": {
-     "2023": 930,
-     "2024": 899
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireOtherInvestments",
-    "valori": {
-     "2023": 731,
-     "2024": 677,
-     "2025": 645
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 657,
-     "2024": 669
+     "2023": 109,
+     "2024": 155
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "TranslationAdjustmentForNetInvestmentHedgeNetOfTax",
+    "tag": "ShortTermInvestments",
     "valori": {
-     "2023": 5670,
-     "2024": 5340
-    }
-   },
-   {
-    "tag": "LongTermInvestments",
-    "valori": {
-     "2023": 3052,
-     "2024": 3216,
-     "2025": 2802
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfOtherInvestments",
-    "valori": {
-     "2023": 508,
-     "2024": 374,
-     "2025": 964
-    }
-   },
-   {
-    "tag": "FairValueInvestmentsEntitiesThatCalculateNetAssetValuePerShareUnfundedCommittments",
-    "valori": {
-     "2023": 930,
-     "2024": 899
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireOtherInvestments",
-    "valori": {
-     "2023": 731,
-     "2024": 677,
-     "2025": 645
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleUnrealizedLossPosition",
-    "valori": {
-     "2023": 452,
-     "2024": 491
+     "2023": 109,
+     "2024": 155
     }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2016": "2016-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2008": "2008-12-31"
+ },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2008": 1544.6,
+   "2009": 1155.8,
+   "2010": 1779.5,
+   "2011": 4029.8,
+   "2012": 6313.9,
+   "2013": 7624.9,
+   "2014": 4568.9,
+   "2015": 3646.6,
+   "2016": 5207.5,
+   "2017": 5678.8,
+   "2018": 2005.4,
+   "2019": 1962.4,
+   "2020": 2966.8,
+   "2021": 3212.6,
+   "2022": 2901.8,
+   "2023": 3052.2,
+   "2024": 3216.0,
+   "2025": 2802.0
+  },
+  "invNonOpAmpia": {
+   "2008": 1544.6,
+   "2009": 1155.8,
+   "2010": 1779.5,
+   "2011": 4029.8,
+   "2012": 7569.9,
+   "2013": 8400.2,
+   "2014": 4872.8,
+   "2015": 3646.6,
+   "2016": 5522.9,
+   "2017": 6174.9,
+   "2018": 2005.4,
+   "2019": 1962.4,
+   "2020": 2966.8,
+   "2021": 3212.6,
+   "2022": 2901.8,
+   "2023": 3052.2,
+   "2024": 3216.0,
+   "2025": 2802.0
+  }
+ },
+ "sic": "2834",
+ "sic_descrizione": "Pharmaceutical Preparations",
+ "chiusura_esercizio": "1231",
+ "nome": "ELI LILLY & Co",
+ "ambito": "ok"
 }

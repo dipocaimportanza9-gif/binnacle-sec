@@ -221,7 +221,11 @@
    "2016": 3750.0,
    "2017": 3513.7
   },
-  "mktNon": {},
+  "mktNon": {
+   "2009": 63.5,
+   "2010": 25.0,
+   "2011": 21.0
+  },
   "ltInv": {},
   "aoci": {
    "2008": 57.2,
@@ -461,7 +465,11 @@
    "2016": "AvailableForSaleSecuritiesDebtSecurities",
    "2017": "AvailableForSaleSecuritiesDebtSecurities"
   },
-  "mktNon": {},
+  "mktNon": {
+   "2009": "OtherLongTermInvestments",
+   "2010": "OtherLongTermInvestments",
+   "2011": "OtherLongTermInvestments"
+  },
   "ltInv": {},
   "aoci": {
    "2008": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
@@ -550,30 +558,6 @@
  "candidati": {
   "finLiab": [
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 484,
-     "2024": 463,
-     "2025": 485
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiability",
-    "valori": {
-     "2023": 446,
-     "2024": 428,
-     "2025": 438
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
-    "valori": {
-     "2023": 373,
-     "2024": 353,
-     "2025": 361
-    }
-   },
-   {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
      "2023": 358,
@@ -582,129 +566,23 @@
     }
    },
    {
-    "tag": "OperatingLeaseCost",
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
-     "2023": 117,
-     "2024": 106,
-     "2025": 92
+     "2023": 32,
+     "2024": 62,
+     "2025": 86
     }
    },
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 111,
-     "2024": 90,
-     "2025": 93
-    }
-   }
-  ],
-  "dNon": [
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss",
-    "valori": {
-     "2023": 7854,
-     "2024": 7887,
-     "2025": 6595
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 3634,
-     "2024": 4129,
-     "2025": 6210
-    }
-   },
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 3650,
-     "2024": 5650,
-     "2025": 6150
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfLongTermDebt",
-    "valori": {
-     "2023": 0,
-     "2024": 1997,
-     "2025": 1997
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfDebt",
-    "valori": {
-     "2023": 0,
-     "2024": 1997
-    }
-   },
-   {
-    "tag": "RepaymentsOfLongTermDebt",
-    "valori": {
-     "2023": 500,
-     "2024": 0,
-     "2025": 1500
-    }
-   }
-  ],
-  "dBrev": [
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss",
-    "valori": {
-     "2023": 7854,
-     "2024": 7887,
-     "2025": 6595
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 3634,
-     "2024": 4129,
-     "2025": 6210
-    }
-   },
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 3650,
-     "2024": 5650,
-     "2025": 6150
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfLongTermDebt",
-    "valori": {
-     "2023": 0,
-     "2024": 1997,
-     "2025": 1997
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfDebt",
-    "valori": {
-     "2023": 0,
-     "2024": 1997
-    }
-   },
-   {
-    "tag": "RepaymentsOfLongTermDebt",
-    "valori": {
-     "2023": 500,
-     "2024": 0,
-     "2025": 1500
+     "2023": 38,
+     "2024": 35,
+     "2025": 47
     }
    }
   ],
   "eqPriv": [
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss",
-    "valori": {
-     "2023": 7854,
-     "2024": 7887,
-     "2025": 6595
-    }
-   },
    {
     "tag": "CashCashEquivalentsAndShortTermInvestments",
     "valori": {
@@ -714,31 +592,7 @@
     }
    },
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 0,
-     "2024": 59,
-     "2025": 2034
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments",
-    "valori": {
-     "2023": 965,
-     "2024": 486,
-     "2025": 1168
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 701,
-     "2024": 273,
-     "2025": 1164
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
     "valori": {
      "2023": 701,
      "2024": 273,
@@ -748,14 +602,6 @@
   ],
   "eqMeth": [
    {
-    "tag": "DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss",
-    "valori": {
-     "2023": 7854,
-     "2024": 7887,
-     "2025": 6595
-    }
-   },
-   {
     "tag": "CashCashEquivalentsAndShortTermInvestments",
     "valori": {
      "2023": 7842,
@@ -764,31 +610,7 @@
     }
    },
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 0,
-     "2024": 59,
-     "2025": 2034
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments",
-    "valori": {
-     "2023": 965,
-     "2024": 486,
-     "2025": 1168
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 701,
-     "2024": 273,
-     "2025": 1164
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
     "valori": {
      "2023": 701,
      "2024": 273,
@@ -798,14 +620,6 @@
   ],
   "afsDeb": [
    {
-    "tag": "DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss",
-    "valori": {
-     "2023": 7854,
-     "2024": 7887,
-     "2025": 6595
-    }
-   },
-   {
     "tag": "CashCashEquivalentsAndShortTermInvestments",
     "valori": {
      "2023": 7842,
@@ -814,31 +628,7 @@
     }
    },
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 0,
-     "2024": 59,
-     "2025": 2034
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments",
-    "valori": {
-     "2023": 965,
-     "2024": 486,
-     "2025": 1168
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 701,
-     "2024": 273,
-     "2025": 1164
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
     "valori": {
      "2023": 701,
      "2024": 273,
@@ -848,35 +638,11 @@
   ],
   "ltInv": [
    {
-    "tag": "DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss",
-    "valori": {
-     "2023": 7854,
-     "2024": 7887,
-     "2025": 6595
-    }
-   },
-   {
     "tag": "CashCashEquivalentsAndShortTermInvestments",
     "valori": {
      "2023": 7842,
      "2024": 7886,
      "2025": 6595
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 0,
-     "2024": 59,
-     "2025": 2034
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments",
-    "valori": {
-     "2023": 965,
-     "2024": 486,
-     "2025": 1168
     }
    },
    {
@@ -886,16 +652,28 @@
      "2024": 273,
      "2025": 1164
     }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
-    "valori": {
-     "2023": 701,
-     "2024": 273,
-     "2025": 1164
-    }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-11-29",
+  "2020": "2020-11-27",
+  "2021": "2021-12-03",
+  "2022": "2022-12-02",
+  "2023": "2023-12-01",
+  "2024": "2024-11-29",
+  "2025": "2025-11-28",
+  "2018": "2018-11-30",
+  "2009": "2009-11-27",
+  "2010": "2010-12-03",
+  "2011": "2011-12-02",
+  "2012": "2012-11-30",
+  "2013": "2013-11-29",
+  "2014": "2014-11-28",
+  "2015": "2015-11-27",
+  "2016": "2016-12-02",
+  "2017": "2017-12-01",
+  "2008": "2008-11-28"
  },
  "derivati": {
   "dTotCalc": {
@@ -917,6 +695,33 @@
    "2019": "dNon",
    "2020": "dNon",
    "2021": "dNon"
+  },
+  "invNonOpBase": {
+   "2009": 63.5,
+   "2010": 25.0,
+   "2011": 21.0,
+   "2012": 0,
+   "2013": 0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2017": 0
+  },
+  "invNonOpAmpia": {
+   "2009": 63.5,
+   "2010": 25.0,
+   "2011": 1930.9,
+   "2012": 2113.1,
+   "2013": 2338.5,
+   "2014": 2621.6,
+   "2015": 3111.5,
+   "2016": 3750.0,
+   "2017": 3513.7
   }
- }
+ },
+ "sic": "7372",
+ "sic_descrizione": "Services-Prepackaged Software",
+ "chiusura_esercizio": "1127",
+ "nome": "ADOBE INC.",
+ "ambito": "ok"
 }

@@ -474,26 +474,13 @@
   }
  },
  "avvisi": [
-  "Il tag del debito include i leasing finanziari negli anni 2014-2025: non sommarli di nuovo"
+  "Il tag del debito include i leasing finanziari negli anni 2014-2025: non sommarli di nuovo",
+  "2023: l'OCI sale di 6898 ma gli investimenti letti salgono di 361: controllare il filing (investimenti non letti?)",
+  "2025: l'OCI sale di 8166 ma gli investimenti letti salgono di 1136: controllare il filing (investimenti non letti?)",
+  "FUORI PORTATA (SIC 6021 National Commercial Banks)"
  ],
  "candidati": {
   "finLiab": [
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
-    "valori": {
-     "2023": 391825,
-     "2024": 401418,
-     "2025": 435206
-    }
-   },
-   {
-    "tag": "InterestAndFeeIncomeLoansAndLeases",
-    "valori": {
-     "2023": 83384,
-     "2024": 92353,
-     "2025": 93843
-    }
-   },
    {
     "tag": "PropertySubjectToOrAvailableForOperatingLeaseNet",
     "valori": {
@@ -503,280 +490,221 @@
     }
    },
    {
-    "tag": "ProvisionForLoanLeaseAndOtherLosses",
+    "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
-     "2023": 9320,
-     "2024": 10678,
-     "2025": 14212
+     "2023": 8431,
+     "2024": 8494,
+     "2025": 8901
     }
    },
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
-     "2023": 10530,
-     "2024": 10691,
-     "2025": 11255
+     "2023": 2094,
+     "2024": 1565,
+     "2025": 1834
     }
    },
    {
-    "tag": "OperatingLeaseLiability",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 8833,
-     "2024": 8900,
-     "2025": 9337
+     "2023": 1697,
+     "2024": 1791,
+     "2025": 1918
     }
    }
   ],
   "dCur": [
    {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss",
+    "tag": "TransfersAccountedForAsSecuredBorrowingsAssetsCarryingAmount",
     "valori": {
-     "2023": 575304,
-     "2024": 685513,
-     "2025": 777360
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue",
-    "valori": {
-     "2023": 544458,
-     "2024": 654752,
-     "2025": 760542
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss",
-    "valori": {
-     "2023": 205456,
-     "2024": 411045,
-     "2025": 507226
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleExcludingAccruedInterest",
-    "valori": {
-     "2023": 201704,
-     "2024": 406852,
-     "2025": 507198
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis",
-    "valori": {
-     "2023": 205417,
-     "2024": 412247,
-     "2025": 506626
-    }
-   },
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
-    "valori": {
-     "2023": 391825,
-     "2024": 401418,
-     "2025": 435206
+     "2023": 505,
+     "2024": 805,
+     "2025": 787
     }
    }
   ],
   "dNon": [
    {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss",
+    "tag": "TransfersAccountedForAsSecuredBorrowingsAssetsCarryingAmount",
     "valori": {
-     "2023": 575304,
-     "2024": 685513,
-     "2025": 777360
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue",
-    "valori": {
-     "2023": 544458,
-     "2024": 654752,
-     "2025": 760542
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss",
-    "valori": {
-     "2023": 205456,
-     "2024": 411045,
-     "2025": 507226
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleExcludingAccruedInterest",
-    "valori": {
-     "2023": 201704,
-     "2024": 406852,
-     "2025": 507198
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis",
-    "valori": {
-     "2023": 205417,
-     "2024": 412247,
-     "2025": 506626
-    }
-   },
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
-    "valori": {
-     "2023": 391825,
-     "2024": 401418,
-     "2025": 435206
+     "2023": 505,
+     "2024": 805,
+     "2025": 787
     }
    }
   ],
   "eqMeth": [
    {
-    "tag": "FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged",
+    "tag": "SecuritiesBorrowedGrossIncludingNotSubjectToMasterNettingArrangement",
     "valori": {
-     "2023": 1303900,
-     "2024": 1544000,
-     "2025": 1771000
+     "2023": 244046,
+     "2024": 267917,
+     "2025": 357361
     }
    },
    {
-    "tag": "FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged",
+    "tag": "SecuritiesBorrowed",
     "valori": {
-     "2023": 982800,
-     "2024": 1210700,
-     "2025": 1426400
+     "2023": 200436,
+     "2024": 219546,
+     "2025": 286191
     }
    },
    {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss",
+    "tag": "SecuritiesLoanedGrossIncludingNotSubjectToMasterNettingArrangement",
     "valori": {
-     "2023": 575304,
-     "2024": 685513,
-     "2025": 777360
+     "2023": 52142,
+     "2024": 58989,
+     "2025": 86829
     }
    },
    {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue",
+    "tag": "SecuritiesLoanedAsset",
     "valori": {
-     "2023": 544458,
-     "2024": 654752,
-     "2025": 760542
+     "2023": 43610,
+     "2024": 48371,
+     "2025": 71170
     }
    },
    {
-    "tag": "SecuritiesSoldUnderAgreementsToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement",
+    "tag": "SecuritiesBorrowedLiability",
     "valori": {
-     "2023": 459985,
-     "2024": 603683,
-     "2025": 715251
+     "2023": 43610,
+     "2024": 48371,
+     "2025": 71170
     }
    },
    {
-    "tag": "SecuritiesPurchasedUnderAgreementsToResellGrossIncludingNotSubjectToMasterNettingArrangement",
+    "tag": "IncreaseDecreaseInCashCollateralForBorrowedSecurities",
     "valori": {
-     "2023": 523308,
-     "2024": 607154,
-     "2025": 618516
+     "2023": 14902,
+     "2024": 18762,
+     "2025": 66648
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged",
+    "tag": "SecuritiesBorrowedGrossIncludingNotSubjectToMasterNettingArrangement",
     "valori": {
-     "2023": 1303900,
-     "2024": 1544000,
-     "2025": 1771000
+     "2023": 244046,
+     "2024": 267917,
+     "2025": 357361
     }
    },
    {
-    "tag": "FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged",
+    "tag": "SecuritiesBorrowed",
     "valori": {
-     "2023": 982800,
-     "2024": 1210700,
-     "2025": 1426400
+     "2023": 200436,
+     "2024": 219546,
+     "2025": 286191
     }
    },
    {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss",
+    "tag": "SecuritiesLoanedGrossIncludingNotSubjectToMasterNettingArrangement",
     "valori": {
-     "2023": 575304,
-     "2024": 685513,
-     "2025": 777360
+     "2023": 52142,
+     "2024": 58989,
+     "2025": 86829
     }
    },
    {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue",
+    "tag": "SecuritiesLoanedAsset",
     "valori": {
-     "2023": 544458,
-     "2024": 654752,
-     "2025": 760542
+     "2023": 43610,
+     "2024": 48371,
+     "2025": 71170
     }
    },
    {
-    "tag": "SecuritiesSoldUnderAgreementsToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement",
+    "tag": "SecuritiesBorrowedLiability",
     "valori": {
-     "2023": 459985,
-     "2024": 603683,
-     "2025": 715251
+     "2023": 43610,
+     "2024": 48371,
+     "2025": 71170
     }
    },
    {
-    "tag": "SecuritiesPurchasedUnderAgreementsToResellGrossIncludingNotSubjectToMasterNettingArrangement",
+    "tag": "IncreaseDecreaseInCashCollateralForBorrowedSecurities",
     "valori": {
-     "2023": 523308,
-     "2024": 607154,
-     "2025": 618516
+     "2023": 14902,
+     "2024": 18762,
+     "2025": 66648
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged",
+    "tag": "SecuritiesBorrowedGrossIncludingNotSubjectToMasterNettingArrangement",
     "valori": {
-     "2023": 1303900,
-     "2024": 1544000,
-     "2025": 1771000
+     "2023": 244046,
+     "2024": 267917,
+     "2025": 357361
     }
    },
    {
-    "tag": "FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged",
+    "tag": "SecuritiesBorrowed",
     "valori": {
-     "2023": 982800,
-     "2024": 1210700,
-     "2025": 1426400
+     "2023": 200436,
+     "2024": 219546,
+     "2025": 286191
     }
    },
    {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss",
+    "tag": "SecuritiesLoanedGrossIncludingNotSubjectToMasterNettingArrangement",
     "valori": {
-     "2023": 575304,
-     "2024": 685513,
-     "2025": 777360
+     "2023": 52142,
+     "2024": 58989,
+     "2025": 86829
     }
    },
    {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue",
+    "tag": "SecuritiesLoanedAsset",
     "valori": {
-     "2023": 544458,
-     "2024": 654752,
-     "2025": 760542
+     "2023": 43610,
+     "2024": 48371,
+     "2025": 71170
     }
    },
    {
-    "tag": "SecuritiesSoldUnderAgreementsToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement",
+    "tag": "SecuritiesBorrowedLiability",
     "valori": {
-     "2023": 459985,
-     "2024": 603683,
-     "2025": 715251
+     "2023": 43610,
+     "2024": 48371,
+     "2025": 71170
     }
    },
    {
-    "tag": "SecuritiesPurchasedUnderAgreementsToResellGrossIncludingNotSubjectToMasterNettingArrangement",
+    "tag": "IncreaseDecreaseInCashCollateralForBorrowedSecurities",
     "valori": {
-     "2023": 523308,
-     "2024": 607154,
-     "2025": 618516
+     "2023": 14902,
+     "2024": 18762,
+     "2025": 66648
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2007": "2007-12-31",
+  "2008": "2008-12-31"
  },
  "derivati": {
   "dTotCalc": {},
@@ -794,6 +722,41 @@
    "2023": "dTot",
    "2024": "dTot",
    "2025": "dTot"
+  },
+  "invNonOpBase": {
+   "2013": 0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2017": 0,
+   "2018": 1510.0,
+   "2019": 2441.0,
+   "2020": 2368.0,
+   "2021": 3642.0,
+   "2022": 4096.0,
+   "2023": 4457.0,
+   "2024": 3737.0,
+   "2025": 4873.0
+  },
+  "invNonOpAmpia": {
+   "2013": 326835.0,
+   "2014": 296222.0,
+   "2015": 239667.0,
+   "2016": 237965.0,
+   "2017": 201678.0,
+   "2018": 231904.0,
+   "2019": 353140.0,
+   "2020": 390546.0,
+   "2021": 3642.0,
+   "2022": 4096.0,
+   "2023": 4457.0,
+   "2024": 3737.0,
+   "2025": 4873.0
   }
- }
+ },
+ "sic": "6021",
+ "sic_descrizione": "National Commercial Banks",
+ "chiusura_esercizio": "1231",
+ "nome": "JPMORGAN CHASE & CO",
+ "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"
 }

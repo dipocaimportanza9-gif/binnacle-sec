@@ -75,25 +75,20 @@ ups:NumberofLeasedAircraftsShortterm                                 .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2023-2025: non sommarli di nuovo
+2022: l'OCI sale di 1729 ma gli investimenti letti salgono di 233: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dBrev: DebtInstrumentFaceAmount {2023: 22470, 2024: 21487, 2025: 24367}
 dBrev: DebtAndCapitalLeaseObligations {2023: 22264, 2024: 21284, 2025: 24127}
-dBrev: LongTermDebt {2023: 21998, 2024: 21030, 2025: 23585}
-dBrev: LongTermDebtAndCapitalLeaseObligations {2023: 18916, 2024: 19446, 2025: 23519}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 14501, 2024: 16125, 2025: 18672}
-dBrev: ProceedsFromIssuanceOfLongTermDebt {2023: 3429, 2024: 2785, 2025: 4153}
-afsDeb: PaymentsToAcquireInvestments {2023: 3521, 2024: 76, 2025: 90}
-afsDeb: TradingSecuritiesDebtAmortizedCost {2023: 2868, 2024: 207, 2025: 3}
 afsDeb: TradingSecurities {2023: 2866, 2024: 206, 2025: 3}
 afsDeb: MarketableSecuritiesCurrent {2023: 2866, 2024: 206}
-afsDeb: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 2864, 2024: 204, 2025: 0}
-afsDeb: DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent {2023: 2862, 2024: 203, 2025: 0}
-ltInv: PaymentsToAcquireInvestments {2023: 3521, 2024: 76, 2025: 90}
-ltInv: TradingSecuritiesDebtAmortizedCost {2023: 2868, 2024: 207, 2025: 3}
+afsDeb: CashCollateralForBorrowedSecurities {2024: 2700, 2025: 1600}
+afsDeb: CollateralSecuritiesRepledgedDeliveredOrUsed {2023: 13, 2024: 0, 2025: 0}
+afsDeb: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 4, 2024: 3}
 ltInv: TradingSecurities {2023: 2866, 2024: 206, 2025: 3}
 ltInv: MarketableSecuritiesCurrent {2023: 2866, 2024: 206}
-ltInv: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 2864, 2024: 204, 2025: 0}
-ltInv: DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent {2023: 2862, 2024: 203, 2025: 0}
+ltInv: CashCollateralForBorrowedSecurities {2024: 2700, 2025: 1600}
+ltInv: CollateralSecuritiesRepledgedDeliveredOrUsed {2023: 13, 2024: 0, 2025: 0}
+ltInv: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 4, 2024: 3}
 
-Tempo: 3 s. File scritto: sec_UPS.json
+Tempo: 4 s. File scritto: sec_UPS.json

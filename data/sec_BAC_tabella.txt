@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                          .        . 
 Debiti finanziari a breve                                       28,098   23,944   32,666   20,189   24,204   19,321   23,753    9,900   13,100   24,200   20,400        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .      251      247      253        .
 Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di debito disponibili per la vendita (valore equo)      305,773        .  302,631  229,366  245,639  234,491  299,178        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -86,48 +86,37 @@ bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        . 
 bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        .        .        .        .        .        .        .        .  328,505  337,882        .
 bac:TimeDepositsAndOtherShortTermInvestments                         .        .        .        .        .        .        .        .        .    6,372    7,474        .
 
+--- AVVISI ---
+2024: l'OCI sale di 2503 ma gli investimenti letti salgono di -4: controllare il filing (investimenti non letti?)
+2025: l'OCI sale di 4759 ma gli investimenti letti salgono di 6: controllare il filing (investimenti non letti?)
+FUORI PORTATA (SIC 6021 National Commercial Banks)
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: PaymentsForProceedsFromOtherLoansAndLeases {2023: 17484, 2024: 52576, 2025: 90548}
-finLiab: InterestAndFeeIncomeLoansAndLeases {2023: 57124, 2024: 61993, 2025: 63080}
-finLiab: SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceived {2023: 18440, 2024: 20920, 2025: 24517}
 finLiab: NetInvestmentInLease {2023: 19050, 2024: 21102, 2025: 22718}
-finLiab: SalesTypeAndDirectFinancingLeasesLeaseReceivable {2023: 16565, 2024: 18559, 2025: 19198}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 18838, 2024: 10249, 2025: 10394}
+finLiab: OperatingLeaseRightOfUseAsset {2023: 9150, 2024: 8527, 2025: 8395}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 9056, 2024: 1114, 2025: 1308}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 430, 2024: 603, 2025: 222}
 dCur: SecuredBorrowingsGrossIncludingNotSubjectToMasterNettingArrangement {2023: 716970, 2024: 825651, 2025: 969214}
-dCur: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 594591, 2024: 558713, 2025: 522685}
-dCur: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 594555, 2024: 558677, 2025: 522660}
-dCur: DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateAfterYear10 {2023: 391476, 2024: 346292, 2025: 332326}
-dCur: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 270482, 2024: 349928, 2025: 388611}
-dCur: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 266649, 2024: 346432, 2025: 386798}
+dCur: DebtSecuritiesTradingRestricted {2023: 130815, 2024: 170328, 2025: 185869}
 dNon: SecuredBorrowingsGrossIncludingNotSubjectToMasterNettingArrangement {2023: 716970, 2024: 825651, 2025: 969214}
-dNon: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 594591, 2024: 558713, 2025: 522685}
-dNon: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 594555, 2024: 558677, 2025: 522660}
-dNon: DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateAfterYear10 {2023: 391476, 2024: 346292, 2025: 332326}
-dNon: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 270482, 2024: 349928, 2025: 388611}
-dNon: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 266649, 2024: 346432, 2025: 386798}
-eqPriv: SecuritiesHeldAsCollateralAtFairValue {2023: 911300, 2024: 925700, 2025: 1100000}
-eqPriv: SecuritiesReceivedAsCollateralAmountRepledgedAndSold {2023: 870900, 2024: 882200, 2025: 1000000}
-eqPriv: MarketableSecurities {2023: 871407, 2024: 917284, 2025: 925635}
-eqPriv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 594591, 2024: 558713, 2025: 522685}
-eqPriv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 594555, 2024: 558677, 2025: 522660}
-eqPriv: HeldToMaturitySecuritiesFairValue {2023: 496597, 2024: 450548, 2025: 442430}
-eqMeth: SecuritiesHeldAsCollateralAtFairValue {2023: 911300, 2024: 925700, 2025: 1100000}
+dNon: DebtSecuritiesTradingRestricted {2023: 130815, 2024: 170328, 2025: 185869}
 eqMeth: SecuritiesReceivedAsCollateralAmountRepledgedAndSold {2023: 870900, 2024: 882200, 2025: 1000000}
 eqMeth: MarketableSecurities {2023: 871407, 2024: 917284, 2025: 925635}
-eqMeth: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 594591, 2024: 558713, 2025: 522685}
-eqMeth: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 594555, 2024: 558677, 2025: 522660}
-eqMeth: HeldToMaturitySecuritiesFairValue {2023: 496597, 2024: 450548, 2025: 442430}
-afsDeb: SecuritiesHeldAsCollateralAtFairValue {2023: 911300, 2024: 925700, 2025: 1100000}
+eqMeth: TradingSecurities {2023: 277354, 2024: 314460, 2025: 366954}
+eqMeth: DebtSecuritiesTradingRestricted {2023: 130815, 2024: 170328, 2025: 185869}
+eqMeth: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 83107, 2024: 98891, 2025: 129743}
+eqMeth: NetInvestmentInLease {2023: 19050, 2024: 21102, 2025: 22718}
 afsDeb: SecuritiesReceivedAsCollateralAmountRepledgedAndSold {2023: 870900, 2024: 882200, 2025: 1000000}
 afsDeb: MarketableSecurities {2023: 871407, 2024: 917284, 2025: 925635}
-afsDeb: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 594591, 2024: 558713, 2025: 522685}
-afsDeb: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 594555, 2024: 558677, 2025: 522660}
-afsDeb: HeldToMaturitySecuritiesFairValue {2023: 496597, 2024: 450548, 2025: 442430}
-ltInv: SecuritiesHeldAsCollateralAtFairValue {2023: 911300, 2024: 925700, 2025: 1100000}
+afsDeb: TradingSecurities {2023: 277354, 2024: 314460, 2025: 366954}
+afsDeb: DebtSecuritiesTradingRestricted {2023: 130815, 2024: 170328, 2025: 185869}
+afsDeb: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 83107, 2024: 98891, 2025: 129743}
+afsDeb: NetInvestmentInLease {2023: 19050, 2024: 21102, 2025: 22718}
 ltInv: SecuritiesReceivedAsCollateralAmountRepledgedAndSold {2023: 870900, 2024: 882200, 2025: 1000000}
 ltInv: MarketableSecurities {2023: 871407, 2024: 917284, 2025: 925635}
-ltInv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 594591, 2024: 558713, 2025: 522685}
-ltInv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 594555, 2024: 558677, 2025: 522660}
-ltInv: HeldToMaturitySecuritiesFairValue {2023: 496597, 2024: 450548, 2025: 442430}
+ltInv: TradingSecurities {2023: 277354, 2024: 314460, 2025: 366954}
+ltInv: DebtSecuritiesTradingRestricted {2023: 130815, 2024: 170328, 2025: 185869}
+ltInv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 83107, 2024: 98891, 2025: 129743}
+ltInv: NetInvestmentInLease {2023: 19050, 2024: 21102, 2025: 22718}
 
-Tempo: 1 s. File scritto: sec_BAC.json
+Tempo: 2 s. File scritto: sec_BAC.json

@@ -34,11 +34,11 @@ Debito corrente totale (con debiti a breve)                     18,762   13,830 
 Debiti finanziari a breve                                       17,973   10,727   13,049   12,863   18,561   17,306    1,608       74       75        0    3,059        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                  274      154      174      210      190        .        .        .        .        .        .        .
 Partecipazioni a patrimonio netto (equity method)               20,337   20,810   24,354   26,382   29,291   29,772   31,225   34,522   34,080   34,010   32,653        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
-Investimenti a lungo termine (voce di bilancio)                      .        .        .        .      190      143      138      278      177      343      271        .
+Investimenti a lungo termine (voce di bilancio)                 34,245   35,102   39,160   40,790      190      143      138      278      177      343      271        .
 OCI accumulato (utili/perdite non realizzati)                  -23,511  -22,239  -16,262  -19,564  -19,493  -16,705  -13,764  -13,270  -11,989  -14,619  -10,863        .
 
 --- DERIVATI (regole generali) ---
@@ -52,25 +52,7 @@ xom:ReservesForLongTermReceivablesAndMiscellaneousInvestments        .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
-
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dTot: LongTermDebtAndCapitalLeaseObligations {2023: 37483, 2024: 36755, 2025: 34241}
-dTot: DebtCurrent {2023: 4090, 2024: 4955, 2025: 9296}
-dTot: LongTermDebtAndCapitalLeaseObligationsCurrent {2023: 4009, 2024: 4892, 2025: 6234}
-dTot: LongTermDebtCurrent {2023: 4009, 2024: 4892, 2025: 6200}
-dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 5371, 2024: 5456, 2025: 2500}
-dTot: RepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths {2023: 879, 2024: 4743, 2025: 5404}
-eqPriv: LongTermInvestmentsAndReceivablesNet {2023: 47630, 2024: 47200, 2025: 45317}
-eqPriv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 41607, 2024: 41094, 2025: 38783}
-eqPriv: EquityMethodInvestments {2023: 34080, 2024: 34010, 2025: 32653}
-eqPriv: IncomeLossFromEquityMethodInvestments {2023: 6385}
-eqPriv: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions {2023: -509, 2024: -191, 2025: -3006}
-eqPriv: InvestmentIncomeInterest {2023: 1628}
-afsDeb: LongTermInvestmentsAndReceivablesNet {2023: 47630, 2024: 47200, 2025: 45317}
-afsDeb: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 41607, 2024: 41094, 2025: 38783}
-afsDeb: EquityMethodInvestments {2023: 34080, 2024: 34010, 2025: 32653}
-afsDeb: IncomeLossFromEquityMethodInvestments {2023: 6385}
-afsDeb: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions {2023: -509, 2024: -191, 2025: -3006}
-afsDeb: InvestmentIncomeInterest {2023: 1628}
+2023: l'OCI sale di 1281 ma gli investimenti letti salgono di -442: controllare il filing (investimenti non letti?)
+2025: l'OCI sale di 3756 ma gli investimenti letti salgono di -1357: controllare il filing (investimenti non letti?)
 
 Tempo: 4 s. File scritto: sec_XOM.json

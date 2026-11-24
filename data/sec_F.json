@@ -175,7 +175,13 @@
    "2022": 384.0,
    "2023": 242.0,
    "2024": 256.0,
-   "2025": 531.0
+   "2025": 531.0,
+   "2010": 97.0,
+   "2011": 26.0,
+   "2012": 26.0,
+   "2015": 20.0,
+   "2016": 219.0,
+   "2017": 363.0
   },
   "eqMeth": {
    "2008": 1599.0,
@@ -392,7 +398,13 @@
    "2022": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
    "2023": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
    "2024": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-   "2025": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount"
+   "2025": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
+   "2010": "CostMethodInvestments",
+   "2011": "CostMethodInvestments",
+   "2012": "CostMethodInvestments",
+   "2015": "CostMethodInvestments",
+   "2016": "CostMethodInvestments",
+   "2017": "CostMethodInvestments"
   },
   "eqMeth": {
    "2008": "EquityMethodInvestments",
@@ -486,205 +498,12 @@
    "2020": 300.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "2014: l'OCI sale di 12965 ma gli investimenti letti salgono di -322: controllare il filing (investimenti non letti?)",
+  "2025: l'OCI sale di 1929 ma gli investimenti letti salgono di -3793: controllare il filing (investimenti non letti?)"
+ ],
  "candidati": {
-  "dCur": [
-   {
-    "tag": "ProceedsFromIssuanceOfLongTermDebt",
-    "valori": {
-     "2023": 51659,
-     "2024": 57312,
-     "2025": 49688
-    }
-   },
-   {
-    "tag": "RepaymentsOfLongTermDebt",
-    "valori": {
-     "2023": 41965,
-     "2024": 45680,
-     "2025": 50303
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 3140,
-     "2024": 11026
-    }
-   },
-   {
-    "tag": "ProceedsFromRepaymentsOfShortTermDebt",
-    "valori": {
-     "2023": -1539,
-     "2024": -276,
-     "2025": 654
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleRealizedLoss",
-    "valori": {
-     "2023": -37,
-     "2024": -28
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleRealizedGain",
-    "valori": {
-     "2023": 2,
-     "2024": 17
-    }
-   }
-  ],
-  "dNon": [
-   {
-    "tag": "ProceedsFromIssuanceOfLongTermDebt",
-    "valori": {
-     "2023": 51659,
-     "2024": 57312,
-     "2025": 49688
-    }
-   },
-   {
-    "tag": "RepaymentsOfLongTermDebt",
-    "valori": {
-     "2023": 41965,
-     "2024": 45680,
-     "2025": 50303
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 3140,
-     "2024": 11026
-    }
-   },
-   {
-    "tag": "ProceedsFromRepaymentsOfShortTermDebt",
-    "valori": {
-     "2023": -1539,
-     "2024": -276,
-     "2025": 654
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleRealizedLoss",
-    "valori": {
-     "2023": -37,
-     "2024": -28
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleRealizedGain",
-    "valori": {
-     "2023": 2,
-     "2024": 17
-    }
-   }
-  ],
-  "dTot": [
-   {
-    "tag": "ProceedsFromIssuanceOfLongTermDebt",
-    "valori": {
-     "2023": 51659,
-     "2024": 57312,
-     "2025": 49688
-    }
-   },
-   {
-    "tag": "RepaymentsOfLongTermDebt",
-    "valori": {
-     "2023": 41965,
-     "2024": 45680,
-     "2025": 50303
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 3140,
-     "2024": 11026
-    }
-   },
-   {
-    "tag": "ProceedsFromRepaymentsOfShortTermDebt",
-    "valori": {
-     "2023": -1539,
-     "2024": -276,
-     "2025": 654
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleRealizedLoss",
-    "valori": {
-     "2023": -37,
-     "2024": -28
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleRealizedGain",
-    "valori": {
-     "2023": 2,
-     "2024": 17
-    }
-   }
-  ],
-  "dBrev": [
-   {
-    "tag": "ProceedsFromIssuanceOfLongTermDebt",
-    "valori": {
-     "2023": 51659,
-     "2024": 57312,
-     "2025": 49688
-    }
-   },
-   {
-    "tag": "RepaymentsOfLongTermDebt",
-    "valori": {
-     "2023": 41965,
-     "2024": 45680,
-     "2025": 50303
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 3140,
-     "2024": 11026
-    }
-   },
-   {
-    "tag": "ProceedsFromRepaymentsOfShortTermDebt",
-    "valori": {
-     "2023": -1539,
-     "2024": -276,
-     "2025": 654
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleRealizedLoss",
-    "valori": {
-     "2023": -37,
-     "2024": -28
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleRealizedGain",
-    "valori": {
-     "2023": 2,
-     "2024": 17
-    }
-   }
-  ],
   "afsDeb": [
-   {
-    "tag": "PaymentsToAcquireLoansAndLeasesHeldForInvestment",
-    "valori": {
-     "2023": 54505,
-     "2024": 59720,
-     "2025": 55747
-    }
-   },
    {
     "tag": "MarketableSecuritiesCurrent",
     "valori": {
@@ -694,46 +513,16 @@
     }
    },
    {
-    "tag": "InvestmentsFairValueDisclosure",
+    "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {
-     "2024": 15413,
-     "2025": 15131
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfMarketableSecurities",
-    "valori": {
-     "2023": 12700,
-     "2024": 12346,
-     "2025": 10063
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireMarketableSecurities",
-    "valori": {
-     "2023": 8590,
-     "2024": 12300,
-     "2025": 9457
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 3140,
-     "2024": 11026
+     "2023": 381,
+     "2024": 418,
+     "2025": 420
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "PaymentsToAcquireLoansAndLeasesHeldForInvestment",
-    "valori": {
-     "2023": 54505,
-     "2024": 59720,
-     "2025": 55747
-    }
-   },
-   {
     "tag": "MarketableSecuritiesCurrent",
     "valori": {
      "2023": 15309,
@@ -742,40 +531,83 @@
     }
    },
    {
-    "tag": "InvestmentsFairValueDisclosure",
+    "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {
-     "2024": 15413,
-     "2025": 15131
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfMarketableSecurities",
-    "valori": {
-     "2023": 12700,
-     "2024": 12346,
-     "2025": 10063
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireMarketableSecurities",
-    "valori": {
-     "2023": 8590,
-     "2024": 12300,
-     "2025": 9457
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 3140,
-     "2024": 11026
+     "2023": 381,
+     "2024": 418,
+     "2025": 420
     }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2018": "2018-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2008": "2008-12-31"
+ },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2008": 1599.0,
+   "2009": 2367.0,
+   "2010": 2666.0,
+   "2011": 2962.0,
+   "2012": 3272.0,
+   "2013": 3679.0,
+   "2014": 3357.0,
+   "2015": 3244.0,
+   "2016": 3523.0,
+   "2017": 3448.0,
+   "2018": 2959.0,
+   "2019": 3719.0,
+   "2020": 6601.0,
+   "2021": 5445.0,
+   "2022": 3182.0,
+   "2023": 5790.0,
+   "2024": 7077.0,
+   "2025": 3284.0
+  },
+  "invNonOpAmpia": {
+   "2008": 1599.0,
+   "2009": 2367.0,
+   "2010": 2666.0,
+   "2011": 2962.0,
+   "2012": 3272.0,
+   "2013": 3679.0,
+   "2014": 3357.0,
+   "2015": 3244.0,
+   "2016": 3523.0,
+   "2017": 3448.0,
+   "2018": 2959.0,
+   "2019": 3719.0,
+   "2020": 6601.0,
+   "2021": 5445.0,
+   "2022": 3182.0,
+   "2023": 5790.0,
+   "2024": 7077.0,
+   "2025": 3284.0
+  }
+ },
+ "sic": "3711",
+ "sic_descrizione": "Motor Vehicles & Passenger Car Bodies",
+ "chiusura_esercizio": "1231",
+ "nome": "FORD MOTOR CO",
+ "ambito": "ok"
 }

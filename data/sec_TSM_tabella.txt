@@ -48,6 +48,7 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 
 --- AVVISI ---
+FUORI PORTATA: nessun dato us-gaap (probabile 20-F)
 NESSUN DATO: possibile cambio di CIK (aggiungere l'alias in cik_alias.json)
 
 Tempo: 0 s. File scritto: sec_TSM.json

@@ -116,7 +116,12 @@
    "2017": 9048.8,
    "2018": 14873.2,
    "2019": 20723.4,
-   "2020": 21857.1
+   "2020": 21857.1,
+   "2021": 15393.0,
+   "2022": 14353.0,
+   "2023": 14543.0,
+   "2024": 15583.0,
+   "2025": 14463.0
   },
   "dCurTot": {},
   "dBrev": {
@@ -272,7 +277,12 @@
    "2017": "LongTermDebt",
    "2018": "LongTermDebt",
    "2019": "LongTermDebt",
-   "2020": "LongTermDebt"
+   "2020": "LongTermDebt",
+   "2021": "NotesPayable",
+   "2022": "NotesPayable",
+   "2023": "NotesPayable",
+   "2024": "NotesPayable",
+   "2025": "NotesPayable"
   },
   "dCurTot": {},
   "dBrev": {
@@ -326,22 +336,6 @@
  "candidati": {
   "finLiab": [
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 2736,
-     "2024": 2717,
-     "2025": 2886
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiability",
-    "valori": {
-     "2023": 2430,
-     "2024": 2412,
-     "2025": 2513
-    }
-   },
-   {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
      "2023": 2077,
@@ -350,157 +344,37 @@
     }
    },
    {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
-     "2023": 2047,
-     "2024": 1984,
-     "2025": 2053
+     "2023": 197,
+     "2024": 442,
+     "2025": 465
     }
    },
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterRollingYearFive",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 827,
-     "2024": 696,
-     "2025": 782
-    }
-   },
-   {
-    "tag": "LeaseCost",
-    "valori": {
-     "2023": 639,
-     "2024": 666,
-     "2025": 711
+     "2023": 306,
+     "2024": 305,
+     "2025": 373
     }
    }
   ],
   "dCur": [
    {
-    "tag": "LongTermDebtFairValue",
-    "valori": {
-     "2023": 15018,
-     "2024": 15948
-    }
-   },
-   {
     "tag": "DebtInstrumentFaceAmount",
     "valori": {
      "2023": 14608,
      "2024": 15653,
      "2025": 14519
-    }
-   },
-   {
-    "tag": "NotesPayable",
-    "valori": {
-     "2023": 14543,
-     "2024": 15583,
-     "2025": 14463
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 14143,
-     "2024": 13798,
-     "2025": 13464
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 7139,
-     "2024": 9586,
-     "2025": 9068
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 7139,
-     "2024": 9583,
-     "2025": 9068
-    }
-   }
-  ],
-  "dTot": [
-   {
-    "tag": "LongTermDebtFairValue",
-    "valori": {
-     "2023": 15018,
-     "2024": 15948
-    }
-   },
-   {
-    "tag": "DebtInstrumentFaceAmount",
-    "valori": {
-     "2023": 14608,
-     "2024": 15653,
-     "2025": 14519
-    }
-   },
-   {
-    "tag": "NotesPayable",
-    "valori": {
-     "2023": 14543,
-     "2024": 15583,
-     "2025": 14463
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 14143,
-     "2024": 13798,
-     "2025": 13464
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 7139,
-     "2024": 9586,
-     "2025": 9068
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 7139,
-     "2024": 9583,
-     "2025": 9068
     }
    }
   ],
   "eqPriv": [
    {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 7139,
-     "2024": 9586,
-     "2025": 9068
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 7139,
-     "2024": 9583,
-     "2025": 9068
-    }
-   },
-   {
     "tag": "CashCashEquivalentsAndShortTermInvestments",
     "valori": {
      "2023": 7139
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 1395,
-     "2024": 0,
-     "2025": 1917
     }
    },
    {
@@ -512,43 +386,27 @@
     }
    },
    {
-    "tag": "PaymentsToAcquireInvestments",
+    "tag": "DerivativeCollateralRightToReclaimSecurities",
     "valori": {
-     "2023": 505,
-     "2024": 1742,
-     "2025": 170
+     "2023": 27,
+     "2024": 316,
+     "2025": 282
+    }
+   },
+   {
+    "tag": "DerivativeCollateralObligationToReturnSecurities",
+    "valori": {
+     "2023": 27,
+     "2024": 316,
+     "2025": 282
     }
    }
   ],
   "eqMeth": [
    {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 7139,
-     "2024": 9586,
-     "2025": 9068
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 7139,
-     "2024": 9583,
-     "2025": 9068
-    }
-   },
-   {
     "tag": "CashCashEquivalentsAndShortTermInvestments",
     "valori": {
      "2023": 7139
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 1395,
-     "2024": 0,
-     "2025": 1917
     }
    },
    {
@@ -560,43 +418,27 @@
     }
    },
    {
-    "tag": "PaymentsToAcquireInvestments",
+    "tag": "DerivativeCollateralRightToReclaimSecurities",
     "valori": {
-     "2023": 505,
-     "2024": 1742,
-     "2025": 170
+     "2023": 27,
+     "2024": 316,
+     "2025": 282
+    }
+   },
+   {
+    "tag": "DerivativeCollateralObligationToReturnSecurities",
+    "valori": {
+     "2023": 27,
+     "2024": 316,
+     "2025": 282
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 7139,
-     "2024": 9586,
-     "2025": 9068
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 7139,
-     "2024": 9583,
-     "2025": 9068
-    }
-   },
-   {
     "tag": "CashCashEquivalentsAndShortTermInvestments",
     "valori": {
      "2023": 7139
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 1395,
-     "2024": 0,
-     "2025": 1917
     }
    },
    {
@@ -608,18 +450,69 @@
     }
    },
    {
-    "tag": "PaymentsToAcquireInvestments",
+    "tag": "DerivativeCollateralRightToReclaimSecurities",
     "valori": {
-     "2023": 505,
-     "2024": 1742,
-     "2025": 170
+     "2023": 27,
+     "2024": 316,
+     "2025": 282
+    }
+   },
+   {
+    "tag": "DerivativeCollateralObligationToReturnSecurities",
+    "valori": {
+     "2023": 27,
+     "2024": 316,
+     "2025": 282
     }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2008": "2008-12-31"
+ },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2013": 0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0
+  },
+  "invNonOpAmpia": {
+   "2013": 595.4,
+   "2014": 494.9,
+   "2015": 501.4,
+   "2016": 266.2,
+   "2023": 7139.5,
+   "2024": 9586.3,
+   "2025": 9067.9
+  }
+ },
+ "sic": "7841",
+ "sic_descrizione": "Services-Video Tape Rental",
+ "chiusura_esercizio": "1231",
+ "nome": "NETFLIX INC",
+ "ambito": "ok"
 }

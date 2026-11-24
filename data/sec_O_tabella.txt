@@ -29,7 +29,7 @@ Impegni: oltre il quinto anno                                      142      129 
 --- DEBITO FINANZIARIO ---
 Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
 Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        .        .        .
-Debito a lungo termine: totale                                   3,650    3,975        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: totale                                   3,650    3,975        .    5,377    6,288    8,268   12,500   14,278   18,602   22,658   25,032        .
 Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
 Debiti finanziari a breve                                            .        .        .        .        .        0      901      702      764       67      517        .
 
@@ -64,48 +64,37 @@ o:RealEstatePropertiesAcquiredOtherAssetsGroundLeasesRightOfUs       .        . 
 o:RealEstatePropertiesAcquiredOtherLiabilitiesDeferredRentOnBe       .        .        .        .        .        .        .        .        .        .       15        .
 o:RealEstatePropertiesAcquiredOtherLiabilitiesFinanceLeaseLiab       .        .        .        .        .        .        .        .        .        .        2        .
 
+--- AVVISI ---
+FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dCur: NotesPayable {2023: 18602, 2024: 22658, 2025: 25032}
-dCur: ProceedsFromNotesPayable {2023: 4240, 2024: 2658, 2025: 2892}
 dCur: LoansPayable {2023: 1332, 2024: 2358, 2025: 1702}
-dCur: RepaymentsOfUnsecuredDebt {2023: 0, 2024: 250, 2025: 1139}
-dCur: RepaymentsOfNotesPayable {2023: 0, 2024: 850, 2025: 1050}
-dCur: ProceedsFromIssuanceOfSeniorLongTermDebt {2023: 1029, 2024: 0, 2025: 407}
-dNon: NotesPayable {2023: 18602, 2024: 22658, 2025: 25032}
-dNon: ProceedsFromNotesPayable {2023: 4240, 2024: 2658, 2025: 2892}
+dCur: SecuredDebt {2023: 822, 2024: 81, 2025: 38}
 dNon: LoansPayable {2023: 1332, 2024: 2358, 2025: 1702}
-dNon: RepaymentsOfUnsecuredDebt {2023: 0, 2024: 250, 2025: 1139}
-dNon: RepaymentsOfNotesPayable {2023: 0, 2024: 850, 2025: 1050}
-dNon: ProceedsFromIssuanceOfSeniorLongTermDebt {2023: 1029, 2024: 0, 2025: 407}
-dTot: NotesPayable {2023: 18602, 2024: 22658, 2025: 25032}
-dTot: ProceedsFromNotesPayable {2023: 4240, 2024: 2658, 2025: 2892}
-dTot: LoansPayable {2023: 1332, 2024: 2358, 2025: 1702}
-dTot: RepaymentsOfUnsecuredDebt {2023: 0, 2024: 250, 2025: 1139}
-dTot: RepaymentsOfNotesPayable {2023: 0, 2024: 850, 2025: 1050}
-dTot: ProceedsFromIssuanceOfSeniorLongTermDebt {2023: 1029, 2024: 0, 2025: 407}
-eqPriv: RealEstateInvestmentPropertyAtCost {2023: 49586, 2024: 58295, 2025: 62192}
+dNon: SecuredDebt {2023: 822, 2024: 81, 2025: 38}
 eqPriv: RealEstateInvestmentPropertyNet {2023: 43514, 2024: 50914, 2025: 53414}
 eqPriv: InvestmentBuildingAndBuildingImprovements {2023: 34657, 2024: 40975, 2025: 43824}
-eqPriv: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 6072, 2024: 7381, 2025: 8779}
 eqPriv: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 1172, 2024: 1230, 2025: 1256}
 eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 40}
-eqMeth: RealEstateInvestmentPropertyAtCost {2023: 49586, 2024: 58295, 2025: 62192}
+eqPriv: RealEstateInvestmentsJointVentures {2023: 38}
+eqPriv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 2, 2024: 8, 2025: 9}
 eqMeth: RealEstateInvestmentPropertyNet {2023: 43514, 2024: 50914, 2025: 53414}
 eqMeth: InvestmentBuildingAndBuildingImprovements {2023: 34657, 2024: 40975, 2025: 43824}
-eqMeth: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 6072, 2024: 7381, 2025: 8779}
 eqMeth: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 1172, 2024: 1230, 2025: 1256}
 eqMeth: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 40}
-afsDeb: RealEstateInvestmentPropertyAtCost {2023: 49586, 2024: 58295, 2025: 62192}
+eqMeth: RealEstateInvestmentsJointVentures {2023: 38}
+eqMeth: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 2, 2024: 8, 2025: 9}
 afsDeb: RealEstateInvestmentPropertyNet {2023: 43514, 2024: 50914, 2025: 53414}
 afsDeb: InvestmentBuildingAndBuildingImprovements {2023: 34657, 2024: 40975, 2025: 43824}
-afsDeb: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 6072, 2024: 7381, 2025: 8779}
 afsDeb: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 1172, 2024: 1230, 2025: 1256}
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 40}
-ltInv: RealEstateInvestmentPropertyAtCost {2023: 49586, 2024: 58295, 2025: 62192}
+afsDeb: RealEstateInvestmentsJointVentures {2023: 38}
+afsDeb: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 2, 2024: 8, 2025: 9}
 ltInv: RealEstateInvestmentPropertyNet {2023: 43514, 2024: 50914, 2025: 53414}
 ltInv: InvestmentBuildingAndBuildingImprovements {2023: 34657, 2024: 40975, 2025: 43824}
-ltInv: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 6072, 2024: 7381, 2025: 8779}
 ltInv: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 1172, 2024: 1230, 2025: 1256}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 40}
+ltInv: RealEstateInvestmentsJointVentures {2023: 38}
+ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 2, 2024: 8, 2025: 9}
 
-Tempo: 2 s. File scritto: sec_O.json
+Tempo: 7 s. File scritto: sec_O.json

@@ -79,7 +79,9 @@
    "2020": 75.0,
    "2021": 1226.0,
    "2022": 1231.0,
-   "2023": 4431.0
+   "2023": 4431.0,
+   "2024": 4475.0,
+   "2025": 4475.0
   },
   "dCurTot": {},
   "dBrev": {},
@@ -171,7 +173,9 @@
    "2020": "LongTermDebt",
    "2021": "LongTermDebt",
    "2022": "LongTermDebt",
-   "2023": "LongTermDebt"
+   "2023": "LongTermDebt",
+   "2024": "DebtInstrumentCarryingAmount",
+   "2025": "DebtInstrumentCarryingAmount"
   },
   "dCurTot": {},
   "dBrev": {},
@@ -211,99 +215,10 @@
   }
  },
  "avvisi": [
-  "Debito a lungo termine: quota corrente: ultimo anno 2023 (mancano anni recenti)",
-  "Debito a lungo termine: totale: ultimo anno 2023 (mancano anni recenti)"
+  "Debito a lungo termine: quota corrente: ultimo anno 2023 (mancano anni recenti)"
  ],
  "candidati": {
   "dCur": [
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 4475,
-     "2024": 4475,
-     "2025": 4475
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 4431,
-     "2024": 4441,
-     "2025": 4440
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 4431
-    }
-   },
-   {
-    "tag": "ProceedsFromConvertibleDebt",
-    "valori": {
-     "2023": 3195,
-     "2024": 1000,
-     "2025": 0
-    }
-   },
-   {
-    "tag": "RepaymentsOfSeniorDebt",
-    "valori": {
-     "2023": 0,
-     "2024": 0,
-     "2025": 1250
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfSeniorLongTermDebt",
-    "valori": {
-     "2023": 0,
-     "2024": 0,
-     "2025": 1250
-    }
-   }
-  ],
-  "dTot": [
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 4475,
-     "2024": 4475,
-     "2025": 4475
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 4431,
-     "2024": 4441,
-     "2025": 4440
-    }
-   },
-   {
-    "tag": "ProceedsFromConvertibleDebt",
-    "valori": {
-     "2023": 3195,
-     "2024": 1000,
-     "2025": 0
-    }
-   },
-   {
-    "tag": "RepaymentsOfSeniorDebt",
-    "valori": {
-     "2023": 0,
-     "2024": 0,
-     "2025": 1250
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfSeniorLongTermDebt",
-    "valori": {
-     "2023": 0,
-     "2024": 0,
-     "2025": 1250
-    }
-   },
    {
     "tag": "DebtConversionConvertedInstrumentAmount1",
     "valori": {
@@ -315,69 +230,16 @@
   ],
   "dBrev": [
    {
-    "tag": "DebtInstrumentCarryingAmount",
+    "tag": "DebtConversionConvertedInstrumentAmount1",
     "valori": {
-     "2023": 4475,
-     "2024": 4475,
-     "2025": 4475
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 4431,
-     "2024": 4441,
-     "2025": 4440
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 4431
-    }
-   },
-   {
-    "tag": "ProceedsFromConvertibleDebt",
-    "valori": {
-     "2023": 3195,
-     "2024": 1000,
+     "2023": 0,
+     "2024": 1133,
      "2025": 0
-    }
-   },
-   {
-    "tag": "RepaymentsOfSeniorDebt",
-    "valori": {
-     "2023": 0,
-     "2024": 0,
-     "2025": 1250
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfSeniorLongTermDebt",
-    "valori": {
-     "2023": 0,
-     "2024": 0,
-     "2025": 1250
     }
    }
   ],
   "eqPriv": [
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 2410,
-     "2024": 4392
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments",
-    "valori": {
-     "2023": 925,
-     "2024": 3553,
-     "2025": 2980
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 1511,
@@ -386,44 +248,14 @@
     }
    },
    {
-    "tag": "InvestmentsFairValueDisclosure",
-    "valori": {
-     "2024": 2406,
-     "2025": 2503
-    }
-   },
-   {
     "tag": "StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
     "valori": {
      "2024": 1133
-    }
-   },
-   {
-    "tag": "InvestmentIncomeInterest",
-    "valori": {
-     "2023": 522,
-     "2024": 385,
-     "2025": 293
     }
    }
   ],
   "eqMeth": [
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 2410,
-     "2024": 4392
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments",
-    "valori": {
-     "2023": 925,
-     "2024": 3553,
-     "2025": 2980
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 1511,
@@ -432,44 +264,14 @@
     }
    },
    {
-    "tag": "InvestmentsFairValueDisclosure",
-    "valori": {
-     "2024": 2406,
-     "2025": 2503
-    }
-   },
-   {
     "tag": "StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
     "valori": {
      "2024": 1133
-    }
-   },
-   {
-    "tag": "InvestmentIncomeInterest",
-    "valori": {
-     "2023": 522,
-     "2024": 385,
-     "2025": 293
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 2410,
-     "2024": 4392
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments",
-    "valori": {
-     "2023": 925,
-     "2024": 3553,
-     "2025": 2980
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 1511,
@@ -478,54 +280,17 @@
     }
    },
    {
-    "tag": "InvestmentsFairValueDisclosure",
-    "valori": {
-     "2024": 2406,
-     "2025": 2503
-    }
-   },
-   {
     "tag": "StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
     "valori": {
      "2024": 1133
-    }
-   },
-   {
-    "tag": "InvestmentIncomeInterest",
-    "valori": {
-     "2023": 522,
-     "2024": 385,
-     "2025": 293
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 2410,
-     "2024": 4392
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments",
-    "valori": {
-     "2023": 925,
-     "2024": 3553,
-     "2025": 2980
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 1511,
-     "2024": 2406,
-     "2025": 2503
-    }
-   },
-   {
-    "tag": "InvestmentsFairValueDisclosure",
-    "valori": {
      "2024": 2406,
      "2025": 2503
     }
@@ -535,20 +300,28 @@
     "valori": {
      "2024": 1133
     }
-   },
-   {
-    "tag": "InvestmentIncomeInterest",
-    "valori": {
-     "2023": 522,
-     "2024": 385,
-     "2025": 293
-    }
    }
   ]
+ },
+ "fine_anno": {
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2019": "2019-12-31"
  },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {},
+  "invNonOpAmpia": {}
+ },
+ "sic": "3711",
+ "sic_descrizione": "Motor Vehicles & Passenger Car Bodies",
+ "chiusura_esercizio": "1231",
+ "nome": "Rivian Automotive, Inc. / DE",
+ "ambito": "ok"
 }

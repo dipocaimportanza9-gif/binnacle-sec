@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                          .        . 
 Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .      250    1,200    1,700      900      384      242      256      531        .
+Equity in societa' non quotate (valore contabile)                   20      219      363      250    1,200    1,700      900      384      242      256      531        .
 Partecipazioni a patrimonio netto (equity method)                3,224    3,304    3,085    2,709    2,519    4,901    4,545    2,798    5,548    6,821    2,753        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -56,42 +56,14 @@ f:NetInvestmentInOperatingLeasesNoncurrent                           .        . 
 f:WholesaleLoansPercentageForDealerFinancing                         .        .        .        .        .        .        .        .        .        .        0        .
 f:WholesaleLoansPercentageOfDealerFinancing                          .        .        .        .        .        0        0        0        0        0        .        .
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dCur: ProceedsFromIssuanceOfLongTermDebt {2023: 51659, 2024: 57312, 2025: 49688}
-dCur: RepaymentsOfLongTermDebt {2023: 41965, 2024: 45680, 2025: 50303}
-dCur: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 3140, 2024: 11026}
-dCur: ProceedsFromRepaymentsOfShortTermDebt {2023: -1539, 2024: -276, 2025: 654}
-dCur: DebtSecuritiesAvailableForSaleRealizedLoss {2023: -37, 2024: -28}
-dCur: DebtSecuritiesAvailableForSaleRealizedGain {2023: 2, 2024: 17}
-dNon: ProceedsFromIssuanceOfLongTermDebt {2023: 51659, 2024: 57312, 2025: 49688}
-dNon: RepaymentsOfLongTermDebt {2023: 41965, 2024: 45680, 2025: 50303}
-dNon: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 3140, 2024: 11026}
-dNon: ProceedsFromRepaymentsOfShortTermDebt {2023: -1539, 2024: -276, 2025: 654}
-dNon: DebtSecuritiesAvailableForSaleRealizedLoss {2023: -37, 2024: -28}
-dNon: DebtSecuritiesAvailableForSaleRealizedGain {2023: 2, 2024: 17}
-dTot: ProceedsFromIssuanceOfLongTermDebt {2023: 51659, 2024: 57312, 2025: 49688}
-dTot: RepaymentsOfLongTermDebt {2023: 41965, 2024: 45680, 2025: 50303}
-dTot: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 3140, 2024: 11026}
-dTot: ProceedsFromRepaymentsOfShortTermDebt {2023: -1539, 2024: -276, 2025: 654}
-dTot: DebtSecuritiesAvailableForSaleRealizedLoss {2023: -37, 2024: -28}
-dTot: DebtSecuritiesAvailableForSaleRealizedGain {2023: 2, 2024: 17}
-dBrev: ProceedsFromIssuanceOfLongTermDebt {2023: 51659, 2024: 57312, 2025: 49688}
-dBrev: RepaymentsOfLongTermDebt {2023: 41965, 2024: 45680, 2025: 50303}
-dBrev: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 3140, 2024: 11026}
-dBrev: ProceedsFromRepaymentsOfShortTermDebt {2023: -1539, 2024: -276, 2025: 654}
-dBrev: DebtSecuritiesAvailableForSaleRealizedLoss {2023: -37, 2024: -28}
-dBrev: DebtSecuritiesAvailableForSaleRealizedGain {2023: 2, 2024: 17}
-afsDeb: PaymentsToAcquireLoansAndLeasesHeldForInvestment {2023: 54505, 2024: 59720, 2025: 55747}
-afsDeb: MarketableSecuritiesCurrent {2023: 15309, 2024: 15413, 2025: 15131}
-afsDeb: InvestmentsFairValueDisclosure {2024: 15413, 2025: 15131}
-afsDeb: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 12700, 2024: 12346, 2025: 10063}
-afsDeb: PaymentsToAcquireMarketableSecurities {2023: 8590, 2024: 12300, 2025: 9457}
-afsDeb: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 3140, 2024: 11026}
-ltInv: PaymentsToAcquireLoansAndLeasesHeldForInvestment {2023: 54505, 2024: 59720, 2025: 55747}
-ltInv: MarketableSecuritiesCurrent {2023: 15309, 2024: 15413, 2025: 15131}
-ltInv: InvestmentsFairValueDisclosure {2024: 15413, 2025: 15131}
-ltInv: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 12700, 2024: 12346, 2025: 10063}
-ltInv: PaymentsToAcquireMarketableSecurities {2023: 8590, 2024: 12300, 2025: 9457}
-ltInv: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 3140, 2024: 11026}
+--- AVVISI ---
+2014: l'OCI sale di 12965 ma gli investimenti letti salgono di -322: controllare il filing (investimenti non letti?)
+2025: l'OCI sale di 1929 ma gli investimenti letti salgono di -3793: controllare il filing (investimenti non letti?)
 
-Tempo: 4 s. File scritto: sec_F.json
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+afsDeb: MarketableSecuritiesCurrent {2023: 15309, 2024: 15413, 2025: 15131}
+afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
+ltInv: MarketableSecuritiesCurrent {2023: 15309, 2024: 15413, 2025: 15131}
+ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
+
+Tempo: 7 s. File scritto: sec_F.json

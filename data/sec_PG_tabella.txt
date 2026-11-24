@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                     12,018   11,653 
 Debiti finanziari a breve                                        8,807    8,690   11,705    7,761    6,183    8,545    5,171    4,805    6,236    3,327    4,108    4,837
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .       39      163      113        .        .        .        .
 Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -50,42 +50,19 @@ pg:DeferredTaxAssetsLeaseLiabilities                                 .        . 
 pg:LongTermDebtCurrentMaturitiesMeasuredAtFairValue                  .        .        .        .        .        .        .    3,600    3,900    3,800    5,300    6,500
 pg:ReserveForEsopDebtRetirement                                      .        .        .        .        .        .        .      916      821      737      672      596
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 911, 2024: 1031, 2025: 1079, 2026: 1028}
-finLiab: OperatingLeaseLiability {2023: 817, 2024: 909, 2025: 956, 2026: 887}
-finLiab: OperatingLeaseRightOfUseAsset {2023: 781, 2024: 875, 2025: 925, 2026: 846}
-finLiab: OperatingLeaseLiabilityNoncurrent {2023: 595, 2024: 666, 2025: 701, 2026: 641}
-finLiab: LeaseCost {2023: 308, 2024: 343, 2025: 357, 2026: 361}
-finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 213, 2024: 357, 2025: 261, 2026: 168}
-dTot: LongTermDebtFairValue {2023: 26900, 2024: 27700, 2025: 29500, 2026: 28300}
-dTot: LongTermDebtNoncurrent {2023: 24378, 2024: 25269, 2025: 24995, 2026: 22842}
-dTot: ProceedsFromShortTermDebtMaturingInMoreThanThreeMonths {2023: 17168, 2024: 3528, 2025: 8020, 2026: 7941}
-dTot: RepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths {2023: 13031, 2024: 7689, 2025: 6512, 2026: 9984}
-dTot: DebtCurrent {2023: 10229, 2024: 7191, 2025: 9513, 2026: 11296}
-dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths {2023: 3951, 2024: 3838, 2025: 5377, 2026: 6457}
-eqPriv: PaymentsForProceedsFromInvestments {2023: -281, 2024: 507, 2025: 141, 2026: 638}
-eqPriv: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2023: -544}
-eqPriv: InvestmentIncomeInterest {2023: 307, 2024: 473, 2025: 469, 2026: 430}
-eqPriv: DeferredTaxAssetsUnrealizedLossesOnTradingSecurities {2023: 282, 2024: 107, 2025: 358, 2026: 144}
-eqPriv: DeferredTaxLiabilitiesUnrealizedGainsOnTradingSecurities {2023: 198, 2024: 263, 2025: 96, 2026: 187}
-eqPriv: OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax {2023: -7, 2024: -3, 2025: 0, 2026: 1}
-eqMeth: PaymentsForProceedsFromInvestments {2023: -281, 2024: 507, 2025: 141, 2026: 638}
-eqMeth: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2023: -544}
-eqMeth: InvestmentIncomeInterest {2023: 307, 2024: 473, 2025: 469, 2026: 430}
-eqMeth: DeferredTaxAssetsUnrealizedLossesOnTradingSecurities {2023: 282, 2024: 107, 2025: 358, 2026: 144}
-eqMeth: DeferredTaxLiabilitiesUnrealizedGainsOnTradingSecurities {2023: 198, 2024: 263, 2025: 96, 2026: 187}
-eqMeth: OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax {2023: -7, 2024: -3, 2025: 0, 2026: 1}
-afsDeb: PaymentsForProceedsFromInvestments {2023: -281, 2024: 507, 2025: 141, 2026: 638}
-afsDeb: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2023: -544}
-afsDeb: InvestmentIncomeInterest {2023: 307, 2024: 473, 2025: 469, 2026: 430}
-afsDeb: DeferredTaxAssetsUnrealizedLossesOnTradingSecurities {2023: 282, 2024: 107, 2025: 358, 2026: 144}
-afsDeb: DeferredTaxLiabilitiesUnrealizedGainsOnTradingSecurities {2023: 198, 2024: 263, 2025: 96, 2026: 187}
-afsDeb: OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax {2023: -7, 2024: -3, 2025: 0, 2026: 1}
-ltInv: PaymentsForProceedsFromInvestments {2023: -281, 2024: 507, 2025: 141, 2026: 638}
-ltInv: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2023: -544}
-ltInv: InvestmentIncomeInterest {2023: 307, 2024: 473, 2025: 469, 2026: 430}
-ltInv: DeferredTaxAssetsUnrealizedLossesOnTradingSecurities {2023: 282, 2024: 107, 2025: 358, 2026: 144}
-ltInv: DeferredTaxLiabilitiesUnrealizedGainsOnTradingSecurities {2023: 198, 2024: 263, 2025: 96, 2026: 187}
-ltInv: OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax {2023: -7, 2024: -3, 2025: 0, 2026: 1}
+--- AVVISI ---
+Equity in societa' non quotate (valore contabile): ultimo anno 2022 (mancano anni recenti)
+2021: l'OCI sale di 2421 ma gli investimenti letti salgono di 124: controllare il filing (investimenti non letti?)
+2022: l'OCI sale di 1555 ma gli investimenti letti salgono di -50: controllare il filing (investimenti non letti?)
 
-Tempo: 1 s. File scritto: sec_PG.json
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: OperatingLeaseRightOfUseAsset {2023: 781, 2024: 875, 2025: 925, 2026: 846}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 213, 2024: 357, 2025: 261, 2026: 168}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 94, 2024: 122, 2025: 123, 2026: 141}
+dTot: OtherLongTermDebt {2023: 5244, 2024: 5076, 2025: 5263, 2026: 5265}
+eqPriv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
+eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
+afsDeb: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
+ltInv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
+
+Tempo: 2 s. File scritto: sec_PG.json

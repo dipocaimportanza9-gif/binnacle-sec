@@ -223,7 +223,11 @@
    "2013": 602.0,
    "2014": 561.0
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2018": 1090.0,
+   "2019": 1099.0,
+   "2020": 1417.0
+  },
   "eqMeth": {
    "2012": 360.0,
    "2013": 60.0
@@ -471,7 +475,11 @@
    "2013": "OtherShortTermBorrowings",
    "2014": "OtherShortTermBorrowings"
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2018": "EquitySecuritiesFvNi",
+   "2019": "EquitySecuritiesFvNi",
+   "2020": "EquitySecuritiesFvNi"
+  },
   "eqMeth": {
    "2012": "EquityMethodInvestments",
    "2013": "EquityMethodInvestments"
@@ -601,76 +609,29 @@
    "2020": 16700.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "2013: l'OCI sale di 3447 ma gli investimenti letti salgono di -300: controllare il filing (investimenti non letti?)"
+ ],
  "candidati": {
   "dBrev": [
    {
-    "tag": "DebtInstrumentCarryingAmount",
+    "tag": "ShortTermNonBankLoansAndNotesPayable",
     "valori": {
-     "2023": 18693,
-     "2024": 15373,
-     "2025": 13302
+     "2023": 1100,
+     "2024": 1100,
+     "2025": 1100
     }
    },
    {
-    "tag": "LongTermDebt",
+    "tag": "DebtInstrumentRepaidPrincipal",
     "valori": {
-     "2023": 18610,
-     "2024": 15347,
-     "2025": 13308
-    }
-   },
-   {
-    "tag": "LongTermDebtFairValue",
-    "valori": {
-     "2023": 18400,
-     "2024": 15300,
-     "2025": 13400
-    }
-   },
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligations",
-    "valori": {
-     "2023": 17071,
-     "2024": 14019,
-     "2025": 12507
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 15985,
-     "2024": 13546,
-     "2025": 11936
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 7245,
-     "2024": 6624,
-     "2025": 4754
+     "2023": 585,
+     "2024": 844
     }
    }
   ],
   "eqPriv": [
    {
-    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
-    "valori": {
-     "2023": 4071,
-     "2024": 3953,
-     "2025": 4827
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments",
-    "valori": {
-     "2023": 4547,
-     "2024": 1137,
-     "2025": 0
-    }
-   },
-   {
     "tag": "EquitySecuritiesFVNINoncurrent",
     "valori": {
      "2024": 2372,
@@ -678,48 +639,15 @@
     }
    },
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
+    "tag": "ShortTermInvestments",
     "valori": {
-     "2023": 2312,
-     "2024": 0,
-     "2025": 0
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2023": 1283,
-     "2024": -323,
-     "2025": 1209
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiGainLoss",
-    "valori": {
-     "2023": 1263,
-     "2024": -319,
-     "2025": 1212
+     "2023": 1127,
+     "2024": 0
     }
    }
   ],
   "eqMeth": [
    {
-    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
-    "valori": {
-     "2023": 4071,
-     "2024": 3953,
-     "2025": 4827
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments",
-    "valori": {
-     "2023": 4547,
-     "2024": 1137,
-     "2025": 0
-    }
-   },
-   {
     "tag": "EquitySecuritiesFVNINoncurrent",
     "valori": {
      "2024": 2372,
@@ -727,48 +655,15 @@
     }
    },
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
+    "tag": "ShortTermInvestments",
     "valori": {
-     "2023": 2312,
-     "2024": 0,
-     "2025": 0
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2023": 1283,
-     "2024": -323,
-     "2025": 1209
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiGainLoss",
-    "valori": {
-     "2023": 1263,
-     "2024": -319,
-     "2025": 1212
+     "2023": 1127,
+     "2024": 0
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
-    "valori": {
-     "2023": 4071,
-     "2024": 3953,
-     "2025": 4827
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments",
-    "valori": {
-     "2023": 4547,
-     "2024": 1137,
-     "2025": 0
-    }
-   },
-   {
     "tag": "EquitySecuritiesFVNINoncurrent",
     "valori": {
      "2024": 2372,
@@ -776,48 +671,15 @@
     }
    },
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
+    "tag": "ShortTermInvestments",
     "valori": {
-     "2023": 2312,
-     "2024": 0,
-     "2025": 0
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2023": 1283,
-     "2024": -323,
-     "2025": 1209
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiGainLoss",
-    "valori": {
-     "2023": 1263,
-     "2024": -319,
-     "2025": 1212
+     "2023": 1127,
+     "2024": 0
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
-    "valori": {
-     "2023": 4071,
-     "2024": 3953,
-     "2025": 4827
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments",
-    "valori": {
-     "2023": 4547,
-     "2024": 1137,
-     "2025": 0
-    }
-   },
-   {
     "tag": "EquitySecuritiesFVNINoncurrent",
     "valori": {
      "2024": 2372,
@@ -825,34 +687,56 @@
     }
    },
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
+    "tag": "ShortTermInvestments",
     "valori": {
-     "2023": 2312,
-     "2024": 0,
-     "2025": 0
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2023": 1283,
-     "2024": -323,
-     "2025": 1209
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiGainLoss",
-    "valori": {
-     "2023": 1263,
-     "2024": -319,
-     "2025": 1212
+     "2023": 1127,
+     "2024": 0
     }
    }
   ]
  },
+ "fine_anno": {
+  "2018": "2018-12-31",
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2017": "2017-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2008": "2008-12-31"
+ },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2012": 360.0,
+   "2013": 60.0,
+   "2018": 1090.0,
+   "2019": 1099.0,
+   "2020": 1417.0
+  },
+  "invNonOpAmpia": {
+   "2012": 360.0,
+   "2013": 60.0,
+   "2018": 1090.0,
+   "2019": 1099.0,
+   "2020": 1417.0
+  }
+ },
+ "sic": "4512",
+ "sic_descrizione": "Air Transportation, Scheduled",
+ "chiusura_esercizio": "1231",
+ "nome": "DELTA AIR LINES, INC.",
+ "ambito": "ok"
 }

@@ -34,10 +34,10 @@ Debito corrente totale (con debiti a breve)                          .        . 
 Debiti finanziari a breve                                            .        .        .        .        0      439        0      175       34        0        .        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                   46       49       49       39        .        .        .        .        .        .        .        .
 Partecipazioni a patrimonio netto (equity method)                  306      306      433      296      336      426      216      283      416      424      419    1,761
-Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
-Titoli di mercato non correnti                                       .        .        .        .        .        .      282      279      247      276      247      310
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .      282      279      247      276      247      310
+Titoli di mercato non correnti                                     312    1,142      542      268      220      206      282        .        .        .      247      310
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                     -199     -108     -156     -330     -503     -365      147     -463     -778     -429     -459      -87
 
@@ -60,35 +60,15 @@ sbux:OperatingLeaseLiabilityRestructuring                            .        . 
 Debiti finanziari a breve: ultimo anno 2024 (mancano anni recenti)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 10594, 2024: 11942, 2025: 12389, 2026: 10820}
-finLiab: OperatingLeaseLiability {2023: 9200, 2024: 10235, 2025: 10537, 2026: 9137}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 8413, 2024: 9286, 2025: 9316, 2026: 7859}
-finLiab: OperatingLeaseLiabilityNoncurrent {2023: 7925, 2024: 8772, 2025: 8972, 2026: 7792}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 3878, 2024: 4498, 2025: 4592, 2026: 3881}
-finLiab: LeaseCost {2023: 2679, 2024: 2881, 2025: 3364, 2026: 3151}
-dBrev: DebtInstrumentCarryingAmount {2023: 15519, 2024: 15700, 2025: 16200, 2026: 13384}
-dBrev: LongTermDebt {2023: 15366, 2024: 15568, 2025: 16075, 2026: 13277}
-dBrev: LongTermDebtFairValue {2023: 13426, 2024: 14647, 2025: 14968, 2026: 11629}
-dBrev: LongTermDebtNoncurrent {2023: 13548, 2024: 14320, 2025: 14576, 2026: 11778}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 9850, 2024: 9100, 2025: 8850, 2026: 6379}
-dBrev: RepaymentsOfLongTermDebt {2023: 1000, 2024: 1825, 2025: 1250, 2026: 2816}
-eqPriv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesFairValueDisclosure {2023: 440, 2024: 464, 2025: 466, 2026: 1784}
-eqPriv: EquityMethodInvestments {2023: 416, 2024: 424, 2025: 419, 2026: 1761}
-eqPriv: ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities {2023: 617, 2024: 768, 2025: 392, 2026: 165}
-eqPriv: PaymentsToAcquireInvestments {2023: 610, 2024: 628, 2025: 334, 2026: 182}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 1893, 2024: 2264, 2025: 1981, 2026: 1218}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 1394, 2024: 1708, 2025: 1852, 2026: 1683}
+finLiab: IncreaseDecreaseInOperatingLeaseLiability {2023: -1444, 2024: -1295, 2025: -1577, 2026: -1630}
 eqPriv: ShortTermInvestments {2023: 402, 2024: 257, 2025: 247, 2026: 184}
 eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 223, 2024: 333, 2025: 294, 2026: 188}
-afsDeb: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesFairValueDisclosure {2023: 440, 2024: 464, 2025: 466, 2026: 1784}
-afsDeb: EquityMethodInvestments {2023: 416, 2024: 424, 2025: 419, 2026: 1761}
-afsDeb: ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities {2023: 617, 2024: 768, 2025: 392, 2026: 165}
-afsDeb: PaymentsToAcquireInvestments {2023: 610, 2024: 628, 2025: 334, 2026: 182}
-afsDeb: ShortTermInvestments {2023: 402, 2024: 257, 2025: 247, 2026: 184}
-afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 223, 2024: 333, 2025: 294, 2026: 188}
-ltInv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesFairValueDisclosure {2023: 440, 2024: 464, 2025: 466, 2026: 1784}
-ltInv: EquityMethodInvestments {2023: 416, 2024: 424, 2025: 419, 2026: 1761}
-ltInv: ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities {2023: 617, 2024: 768, 2025: 392, 2026: 165}
-ltInv: PaymentsToAcquireInvestments {2023: 610, 2024: 628, 2025: 334, 2026: 182}
+eqPriv: OtherInvestments {2023: 24, 2024: 40, 2025: 47, 2026: 23}
 ltInv: ShortTermInvestments {2023: 402, 2024: 257, 2025: 247, 2026: 184}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 223, 2024: 333, 2025: 294, 2026: 188}
+ltInv: OtherInvestments {2023: 24, 2024: 40, 2025: 47, 2026: 23}
 
-Tempo: 2 s. File scritto: sec_SBUX.json
+Tempo: 4 s. File scritto: sec_SBUX.json

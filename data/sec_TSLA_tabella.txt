@@ -66,41 +66,13 @@ Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2024 (man
 Il tag del debito include i leasing finanziari negli anni 2014-2018: non sommarli di nuovo
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dNon: AvailableForSaleSecuritiesDebtSecurities {2023: 29094, 2024: 36563}
-dNon: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
-dNon: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
-dNon: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 12374}
-dNon: DebtInstrumentCarryingAmount {2023: 4683, 2024: 7907, 2025: 8177}
-dNon: LongTermDebt {2023: 2682, 2024: 5535, 2025: 6584}
-dBrev: AvailableForSaleSecuritiesDebtSecurities {2023: 29094, 2024: 36563}
-dBrev: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
-dBrev: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
-dBrev: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 12374}
-dBrev: DebtInstrumentCarryingAmount {2023: 4683, 2024: 7907, 2025: 8177}
-dBrev: LongTermDebt {2023: 2682, 2024: 5535, 2025: 6584}
-eqPriv: PaymentsToAcquireInvestments {2023: 19112, 2024: 35955, 2025: 37109}
-eqPriv: AvailableForSaleSecuritiesDebtSecurities {2023: 29094, 2024: 36563}
-eqPriv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
-eqPriv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 12353, 2024: 28310, 2025: 30158}
 eqPriv: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
-eqPriv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
-eqMeth: PaymentsToAcquireInvestments {2023: 19112, 2024: 35955, 2025: 37109}
-eqMeth: AvailableForSaleSecuritiesDebtSecurities {2023: 29094, 2024: 36563}
-eqMeth: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
-eqMeth: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 12353, 2024: 28310, 2025: 30158}
+eqPriv: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 eqMeth: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
-afsDeb: PaymentsToAcquireInvestments {2023: 19112, 2024: 35955, 2025: 37109}
-afsDeb: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
-afsDeb: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 12353, 2024: 28310, 2025: 30158}
+eqMeth: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 afsDeb: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
-afsDeb: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
-afsDeb: AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue {2023: 12374}
-ltInv: PaymentsToAcquireInvestments {2023: 19112, 2024: 35955, 2025: 37109}
-ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 29094, 2024: 36563}
-ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 29098, 2024: 36549}
-ltInv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 12353, 2024: 28310, 2025: 30158}
+afsDeb: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 ltInv: ShortTermInvestments {2023: 12696, 2024: 20424, 2025: 27546}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 12696}
+ltInv: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 
-Tempo: 3 s. File scritto: sec_TSLA.json
+Tempo: 4 s. File scritto: sec_TSLA.json

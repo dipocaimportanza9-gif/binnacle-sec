@@ -125,7 +125,17 @@
   "dTot": {},
   "dCurTot": {},
   "dBrev": {},
-  "eqPriv": {},
+  "eqPriv": {
+   "2017": 170540.0,
+   "2018": 172757.0,
+   "2019": 248027.0,
+   "2020": 281170.0,
+   "2021": 350719.0,
+   "2022": 308793.0,
+   "2023": 353842.0,
+   "2024": 271588.0,
+   "2025": 297778.0
+  },
   "eqMeth": {
    "2010": 6600.0,
    "2021": 16045.0,
@@ -292,7 +302,17 @@
   "dTot": {},
   "dCurTot": {},
   "dBrev": {},
-  "eqPriv": {},
+  "eqPriv": {
+   "2017": "EquitySecuritiesFvNi",
+   "2018": "EquitySecuritiesFvNi",
+   "2019": "EquitySecuritiesFvNi",
+   "2020": "EquitySecuritiesFvNi",
+   "2021": "EquitySecuritiesFvNi",
+   "2022": "EquitySecuritiesFvNi",
+   "2023": "EquitySecuritiesFvNi",
+   "2024": "EquitySecuritiesFvNi",
+   "2025": "EquitySecuritiesFvNi"
+  },
   "eqMeth": {
    "2010": "EquityMethodInvestments",
    "2021": "EquityMethodInvestments",
@@ -357,7 +377,11 @@
    "2019": 29388.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "2016: l'OCI sale di 3316 ma gli investimenti letti salgono di -2595: controllare il filing (investimenti non letti?)",
+  "2022: l'OCI sale di 4942 ma gli investimenti letti salgono di -21227: controllare il filing (investimenti non letti?)",
+  "FUORI PORTATA (SIC 6331 Fire, Marine & Casualty Insurance)"
+ ],
  "candidati": {
   "finLiab": [
    {
@@ -377,342 +401,105 @@
     }
    },
    {
-    "tag": "LessorOperatingLeasePaymentsToBeReceived",
+    "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
-     "2023": 11988,
-     "2024": 13146,
-     "2025": 14168
+     "2023": 5277,
+     "2024": 5843,
+     "2025": 6020
     }
    },
    {
-    "tag": "PropertySubjectToOrAvailableForOperatingLeaseAccumulatedDepreciation",
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
-     "2023": 11197,
-     "2024": 12196,
-     "2025": 13357
+     "2023": 1645,
+     "2024": 2007,
+     "2025": 1640
     }
    },
    {
-    "tag": "DepreciationExcludingLessorAssetUnderOperatingLease",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 9392,
-     "2024": 9631,
-     "2025": 10146
-    }
-   },
-   {
-    "tag": "OperatingLeaseLeaseIncome",
-    "valori": {
-     "2023": 8416,
-     "2024": 9227,
-     "2025": 10034
-    }
-   }
-  ],
-  "dCur": [
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 23758,
-     "2024": 15364,
-     "2025": 17816
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 23525,
-     "2024": 15214,
-     "2025": 17525
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis",
-    "valori": {
-     "2023": 18888,
-     "2024": 10228,
-     "2025": 12875
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue",
-    "valori": {
-     "2023": 18875,
-     "2024": 10107,
-     "2025": 12949
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
-    "valori": {
-     "2023": 7048,
-     "2024": 5748,
-     "2025": 6631
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
-    "valori": {
-     "2023": 6433,
-     "2024": 6326,
-     "2025": 5793
-    }
-   }
-  ],
-  "dNon": [
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 23758,
-     "2024": 15364,
-     "2025": 17816
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 23525,
-     "2024": 15214,
-     "2025": 17525
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis",
-    "valori": {
-     "2023": 18888,
-     "2024": 10228,
-     "2025": 12875
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue",
-    "valori": {
-     "2023": 18875,
-     "2024": 10107,
-     "2025": 12949
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
-    "valori": {
-     "2023": 7048,
-     "2024": 5748,
-     "2025": 6631
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
-    "valori": {
-     "2023": 6433,
-     "2024": 6326,
-     "2025": 5793
-    }
-   }
-  ],
-  "dTot": [
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 23758,
-     "2024": 15364,
-     "2025": 17816
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 23525,
-     "2024": 15214,
-     "2025": 17525
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis",
-    "valori": {
-     "2023": 18888,
-     "2024": 10228,
-     "2025": 12875
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue",
-    "valori": {
-     "2023": 18875,
-     "2024": 10107,
-     "2025": 12949
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
-    "valori": {
-     "2023": 7048,
-     "2024": 5748,
-     "2025": 6631
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
-    "valori": {
-     "2023": 6433,
-     "2024": 6326,
-     "2025": 5793
-    }
-   }
-  ],
-  "dBrev": [
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 23758,
-     "2024": 15364,
-     "2025": 17816
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 23525,
-     "2024": 15214,
-     "2025": 17525
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsAmortizedCostBasis",
-    "valori": {
-     "2023": 18888,
-     "2024": 10228,
-     "2025": 12875
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue",
-    "valori": {
-     "2023": 18875,
-     "2024": 10107,
-     "2025": 12949
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
-    "valori": {
-     "2023": 7048,
-     "2024": 5748,
-     "2025": 6631
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
-    "valori": {
-     "2023": 6433,
-     "2024": 6326,
-     "2025": 5793
-    }
-   }
-  ],
-  "eqPriv": [
-   {
-    "tag": "EquitySecuritiesFvNi",
-    "valori": {
-     "2023": 353842,
-     "2024": 271588,
-     "2025": 297778
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2023": 40631,
-     "2024": 143359,
-     "2025": 30686
-    }
-   },
-   {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 118193,
-     "2024": 108535,
-     "2025": 92049
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiCost",
-    "valori": {
-     "2023": 109416,
-     "2024": 75506,
-     "2025": 85389
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2023": 74855,
-     "2024": 52799,
-     "2025": 39078
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiGainLoss",
-    "valori": {
-     "2023": 71842,
-     "2024": 52820,
-     "2025": 39963
+     "2023": 919,
+     "2024": 1201,
+     "2025": 1454
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "EquitySecuritiesFvNi",
+    "tag": "EquityMethodInvestmentOtherThanTemporaryImpairment",
     "valori": {
-     "2023": 353842,
-     "2024": 271588,
-     "2025": 297778
+     "2025": 10681
     }
    },
    {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
+    "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {
-     "2023": 40631,
-     "2024": 143359,
-     "2025": 30686
-    }
-   },
-   {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 118193,
-     "2024": 108535,
-     "2025": 92049
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiCost",
-    "valori": {
-     "2023": 109416,
-     "2024": 75506,
-     "2025": 85389
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2023": 74855,
-     "2024": 52799,
-     "2025": 39078
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiGainLoss",
-    "valori": {
-     "2023": 71842,
-     "2024": 52820,
-     "2025": 39963
+     "2023": 721,
+     "2024": 793,
+     "2025": 875
     }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2008": "2008-12-31"
+ },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2010": 6600.0,
+   "2014": 0,
+   "2015": 0,
+   "2016": 0,
+   "2017": 170540.0,
+   "2018": 172757.0,
+   "2019": 248027.0,
+   "2020": 281170.0,
+   "2021": 366764.0,
+   "2022": 336843.0,
+   "2023": 382908.0,
+   "2024": 302722.0,
+   "2025": 317756.0
+  },
+  "invNonOpAmpia": {
+   "2010": 6600.0,
+   "2014": 27636.0,
+   "2015": 26027.0,
+   "2016": 23432.0,
+   "2017": 191893.0,
+   "2018": 192655.0,
+   "2019": 266712.0,
+   "2020": 301580.0,
+   "2021": 383198.0,
+   "2022": 361971.0,
+   "2023": 406666.0,
+   "2024": 318086.0,
+   "2025": 335572.0
+  }
+ },
+ "sic": "6331",
+ "sic_descrizione": "Fire, Marine & Casualty Insurance",
+ "chiusura_esercizio": "1231",
+ "nome": "BERKSHIRE HATHAWAY INC",
+ "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"
 }

@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                          .        . 
 Debiti finanziari a breve                                       97,528   96,781  103,256  105,787  104,512   58,999   34,409   51,145   89,559    2,704   18,323        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                7,035    8,397   39,227   29,556   41,936   34,009        .        .        .        .        .        .
 Partecipazioni a patrimonio netto (equity method)               13,647   15,708   16,352        .        .        .        .        .        .        .        .        .
 Titoli di debito disponibili per la vendita (valore equo)      265,721  307,153  276,407  269,912  263,459  220,392  177,244        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -47,48 +47,42 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: InterestAndFeeIncomeLoansAndLeasesHeldInPortfolio {2023: 57155, 2024: 57895, 2025: 54737}
-finLiab: NetInvestmentInLease {2023: 16423, 2024: 16413, 2025: 15543}
-finLiab: SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceived {2023: 15142, 2024: 15290, 2025: 14719}
-finLiab: SalesTypeAndDirectFinancingLeasesLeaseReceivable {2023: 15142, 2024: 15290, 2025: 14719}
-finLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization {2023: 9266, 2024: 10297, 2025: 11395}
-finLiab: PropertySubjectToOrAvailableForOperatingLeaseNet {2023: 5558, 2024: 5286, 2025: 4999}
-dCur: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
-dCur: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
-dCur: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
-dCur: DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingAfter10Years {2023: 244385, 2024: 217381, 2025: 200693}
-dCur: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 130448, 2024: 162978, 2025: 213573}
-dCur: HeldToMaturitySecuritiesDebtMaturitiesRollingAfterTenYearsFairValue {2023: 209073, 2024: 176240, 2025: 168450}
-dNon: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
-dNon: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
-dNon: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
-dNon: DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingAfter10Years {2023: 244385, 2024: 217381, 2025: 200693}
-dNon: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 130448, 2024: 162978, 2025: 213573}
-dNon: HeldToMaturitySecuritiesDebtMaturitiesRollingAfterTenYearsFairValue {2023: 209073, 2024: 176240, 2025: 168450}
-eqPriv: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 216600, 2024: 288700, 2025: 469200}
-eqPriv: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
-eqPriv: SecuritiesLoanedAndSecuritiesSoldUnderAgreementToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 106060, 2024: 149427, 2025: 330040}
-eqPriv: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 103300, 2024: 142200, 2025: 309300}
-eqPriv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
-eqPriv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
-eqMeth: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 216600, 2024: 288700, 2025: 469200}
-eqMeth: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
-eqMeth: SecuritiesLoanedAndSecuritiesSoldUnderAgreementToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 106060, 2024: 149427, 2025: 330040}
-eqMeth: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 103300, 2024: 142200, 2025: 309300}
-eqMeth: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
-eqMeth: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
-afsDeb: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 216600, 2024: 288700, 2025: 469200}
-afsDeb: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
-afsDeb: SecuritiesLoanedAndSecuritiesSoldUnderAgreementToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 106060, 2024: 149427, 2025: 330040}
-afsDeb: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 103300, 2024: 142200, 2025: 309300}
-afsDeb: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
-afsDeb: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
-ltInv: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 216600, 2024: 288700, 2025: 469200}
-ltInv: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 357764, 2024: 356757, 2025: 389370}
-ltInv: SecuritiesLoanedAndSecuritiesSoldUnderAgreementToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 106060, 2024: 149427, 2025: 330040}
-ltInv: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 103300, 2024: 142200, 2025: 309300}
-ltInv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 262801, 2024: 235043, 2025: 208118}
-ltInv: DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 262708, 2024: 234948, 2025: 208023}
+--- AVVISI ---
+2020: l'OCI sale di 1525 ma gli investimenti letti salgono di -50994: controllare il filing (investimenti non letti?)
+FUORI PORTATA (SIC 6021 National Commercial Banks)
 
-Tempo: 0 s. File scritto: sec_WFC.json
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: NetInvestmentInLease {2023: 16423, 2024: 16413, 2025: 15543}
+finLiab: PropertySubjectToOrAvailableForOperatingLeaseNet {2023: 5558, 2024: 5286, 2025: 4999}
+finLiab: OperatingLeaseRightOfUseAsset {2023: 3412, 2024: 3850, 2025: 3641}
+finLiab: ResidualValueOfLeasedAsset {2023: 3678, 2024: 3712, 2025: 3078}
+finLiab: LeveragedLeasesBalanceSheetInvestmentInLeveragedLeasesNet {2023: 640, 2024: 509, 2025: 274}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 430, 2024: 571, 2025: 585}
+dCur: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
+dNon: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
+eqPriv: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
+eqPriv: IncreaseDecreaseInTradingSecurities {2023: -11766, 2024: 25294, 2025: 52956}
+eqPriv: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 19841}
+eqPriv: NetInvestmentInLease {2023: 16423, 2024: 16413, 2025: 15543}
+eqPriv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 5554, 2024: 7247, 2025: 7558}
+eqPriv: DerivativeCollateralObligationToReturnSecurities {2023: 2587, 2024: 4024, 2025: 4906}
+eqMeth: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
+eqMeth: IncreaseDecreaseInTradingSecurities {2023: -11766, 2024: 25294, 2025: 52956}
+eqMeth: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 19841}
+eqMeth: NetInvestmentInLease {2023: 16423, 2024: 16413, 2025: 15543}
+eqMeth: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 5554, 2024: 7247, 2025: 7558}
+eqMeth: DerivativeCollateralObligationToReturnSecurities {2023: 2587, 2024: 4024, 2025: 4906}
+afsDeb: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
+afsDeb: IncreaseDecreaseInTradingSecurities {2023: -11766, 2024: 25294, 2025: 52956}
+afsDeb: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 19841}
+afsDeb: NetInvestmentInLease {2023: 16423, 2024: 16413, 2025: 15543}
+afsDeb: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 5554, 2024: 7247, 2025: 7558}
+afsDeb: DerivativeCollateralObligationToReturnSecurities {2023: 2587, 2024: 4024, 2025: 4906}
+ltInv: TradingSecuritiesDebt {2023: 97302, 2024: 121205}
+ltInv: IncreaseDecreaseInTradingSecurities {2023: -11766, 2024: 25294, 2025: 52956}
+ltInv: EquitySecuritiesFvNiCurrentAndNoncurrent {2023: 19841}
+ltInv: NetInvestmentInLease {2023: 16423, 2024: 16413, 2025: 15543}
+ltInv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 5554, 2024: 7247, 2025: 7558}
+ltInv: DerivativeCollateralObligationToReturnSecurities {2023: 2587, 2024: 4024, 2025: 4906}
+
+Tempo: 2 s. File scritto: sec_WFC.json

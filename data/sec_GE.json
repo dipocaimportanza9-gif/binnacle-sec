@@ -181,7 +181,18 @@
    "2022": 36027.0,
    "2023": 38000.0,
    "2024": 37741.0,
-   "2025": 38788.0
+   "2025": 38788.0,
+   "2008": 41446.0,
+   "2009": 51343.0,
+   "2010": 43938.0,
+   "2011": 47374.0,
+   "2012": 48510.0,
+   "2013": 43981.0,
+   "2014": 35505.0,
+   "2015": 31973.0,
+   "2016": 44313.0,
+   "2017": 38696.0,
+   "2018": 33835.0
   },
   "aoci": {
    "2008": -21853.0,
@@ -381,7 +392,18 @@
    "2022": "LongTermInvestments",
    "2023": "LongTermInvestments",
    "2024": "LongTermInvestments",
-   "2025": "LongTermInvestments"
+   "2025": "LongTermInvestments",
+   "2008": "Investments",
+   "2009": "Investments",
+   "2010": "Investments",
+   "2011": "Investments",
+   "2012": "Investments",
+   "2013": "Investments",
+   "2014": "Investments",
+   "2015": "Investments",
+   "2016": "Investments",
+   "2017": "Investments",
+   "2018": "Investments"
   },
   "aoci": {
    "2008": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
@@ -563,26 +585,12 @@
   }
  },
  "avvisi": [
-  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo"
+  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo",
+  "2021: l'OCI sale di 11331 ma gli investimenti letti salgono di -340: controllare il filing (investimenti non letti?)",
+  "2024: l'OCI sale di 2289 ma gli investimenti letti salgono di -259: controllare il filing (investimenti non letti?)"
  ],
  "candidati": {
   "finLiab": [
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligations",
-    "valori": {
-     "2023": 19417,
-     "2024": 17234,
-     "2025": 18808
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 2302,
-     "2024": 1369,
-     "2025": 1323
-    }
-   },
    {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
@@ -592,77 +600,59 @@
     }
    },
    {
-    "tag": "OperatingLeaseLiability",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2024": 1122,
-     "2025": 1063
+     "2023": 329,
+     "2024": 247,
+     "2025": 260
     }
    },
    {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
-     "2023": 931,
-     "2024": 822,
-     "2025": 783
+     "2023": 275,
+     "2024": 196,
+     "2025": 238
     }
    },
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
+    "tag": "IncreaseDecreaseInOperatingLeaseLiability",
     "valori": {
-     "2023": 586,
-     "2024": 398,
-     "2025": 377
+     "2024": -109
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "LongTermInvestments",
+    "tag": "EquitySecuritiesFVNINoncurrent",
     "valori": {
-     "2023": 38000,
-     "2024": 37741,
-     "2025": 38788
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesAfterTenYearsAmortizedCost",
-    "valori": {
-     "2023": 23311,
-     "2024": 25039,
-     "2025": 24762
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesAfterTenYearsFairValue",
-    "valori": {
-     "2023": 22205,
-     "2024": 22607,
-     "2025": 22845
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleUnrealizedLossPosition",
-    "valori": {
-     "2023": 18730,
-     "2024": 21876,
-     "2025": 18484
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger",
-    "valori": {
-     "2023": 17146,
-     "2024": 14011,
-     "2025": 14656
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2023": 9004
+     "2023": 331,
+     "2024": 225,
+     "2025": 887
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2023": "2023-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2016": "2016-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2007": "2007-12-31",
+  "2008": "2008-12-31",
+  "2013": "2013-12-31"
  },
  "derivati": {
   "dTotCalc": {
@@ -691,6 +681,51 @@
    "2023": "dNon",
    "2024": "dNon",
    "2025": "dNon"
+  },
+  "invNonOpBase": {
+   "2008": 41446.0,
+   "2009": 51343.0,
+   "2010": 43938.0,
+   "2011": 47374.0,
+   "2012": 48510.0,
+   "2013": 43981.0,
+   "2014": 35505.0,
+   "2015": 31973.0,
+   "2016": 44313.0,
+   "2017": 38696.0,
+   "2018": 33835.0,
+   "2019": 6217.0,
+   "2020": 42549.0,
+   "2021": 42209.0,
+   "2022": 36027.0,
+   "2023": 38000.0,
+   "2024": 37741.0,
+   "2025": 38788.0
+  },
+  "invNonOpAmpia": {
+   "2008": 41446.0,
+   "2009": 51343.0,
+   "2010": 43938.0,
+   "2011": 47374.0,
+   "2012": 48510.0,
+   "2013": 43981.0,
+   "2014": 35505.0,
+   "2015": 31973.0,
+   "2016": 44313.0,
+   "2017": 38696.0,
+   "2018": 33835.0,
+   "2019": 6217.0,
+   "2020": 42549.0,
+   "2021": 42209.0,
+   "2022": 36027.0,
+   "2023": 38000.0,
+   "2024": 37741.0,
+   "2025": 38788.0
   }
- }
+ },
+ "sic": "3600",
+ "sic_descrizione": "Electronic & Other Electrical Equipment (No Computer Equip)",
+ "chiusura_esercizio": "1231",
+ "nome": "GENERAL ELECTRIC CO",
+ "ambito": "ok"
 }

@@ -50,35 +50,8 @@ nke:DeferredTaxAssetsOperatingLeaseLiabilities                       .        . 
 nke:LesseeOperatingLeaseLiabilityAgreementsSignedButNotCommenc       .        .        .        .        .        .       78      175      278      614      482       77
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 3588, 2024: 3367, 2025: 3338, 2026: 3592}
-finLiab: OperatingLeaseLiability {2023: 3211, 2024: 3043, 2025: 3052, 2026: 3091}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 2923, 2024: 2718, 2025: 2712, 2026: 2838}
-finLiab: OperatingLeaseLiabilityNoncurrent {2023: 2786, 2024: 2566, 2025: 2550, 2026: 2613}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 1225, 2024: 991, 2025: 885, 2026: 1146}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 602, 2024: 458, 2025: 607, 2026: 849}
-eqPriv: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 6059, 2024: 4767, 2025: 3234, 2026: 1316}
-eqPriv: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 4184, 2024: 4219, 2025: 3062, 2026: 1021}
-eqPriv: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 3356, 2024: 2269, 2025: 319, 2026: 556}
-eqPriv: DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent {2023: 3234, 2024: 1722, 2025: 1687, 2026: 1464}
-eqPriv: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 2563, 2024: 1002, 2025: 776, 2026: 590}
-eqPriv: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue {2023: 671, 2024: 720, 2025: 911, 2026: 874}
-eqMeth: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 6059, 2024: 4767, 2025: 3234, 2026: 1316}
-eqMeth: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 4184, 2024: 4219, 2025: 3062, 2026: 1021}
-eqMeth: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 3356, 2024: 2269, 2025: 319, 2026: 556}
-eqMeth: DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent {2023: 3234, 2024: 1722, 2025: 1687, 2026: 1464}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 2563, 2024: 1002, 2025: 776, 2026: 590}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue {2023: 671, 2024: 720, 2025: 911, 2026: 874}
-afsDeb: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 6059, 2024: 4767, 2025: 3234, 2026: 1316}
-afsDeb: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 4184, 2024: 4219, 2025: 3062, 2026: 1021}
-afsDeb: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 3356, 2024: 2269, 2025: 319, 2026: 556}
-afsDeb: DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent {2023: 3234, 2024: 1722, 2025: 1687, 2026: 1464}
-afsDeb: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 2563, 2024: 1002, 2025: 776, 2026: 590}
-afsDeb: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue {2023: 671, 2024: 720, 2025: 911, 2026: 874}
-ltInv: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 6059, 2024: 4767, 2025: 3234, 2026: 1316}
-ltInv: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 4184, 2024: 4219, 2025: 3062, 2026: 1021}
-ltInv: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 3356, 2024: 2269, 2025: 319, 2026: 556}
-ltInv: DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent {2023: 3234, 2024: 1722, 2025: 1687, 2026: 1464}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 2563, 2024: 1002, 2025: 776, 2026: 590}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue {2023: 671, 2024: 720, 2025: 911, 2026: 874}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 377, 2024: 324, 2025: 286, 2026: 501}
 
-Tempo: 2 s. File scritto: sec_NKE.json
+Tempo: 4 s. File scritto: sec_NKE.json

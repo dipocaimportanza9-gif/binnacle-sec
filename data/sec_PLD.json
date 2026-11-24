@@ -109,7 +109,13 @@
    "2020": 782.5
   },
   "dCur": {},
-  "dNon": {},
+  "dNon": {
+   "2013": 1250.0,
+   "2017": 6100.0,
+   "2018": 8300.0,
+   "2019": 9700.0,
+   "2020": 14300.0
+  },
   "dTot": {
    "2011": 11.4,
    "2012": 11791.0,
@@ -134,7 +140,19 @@
    "2011": 2471.2,
    "2012": 2014.0,
    "2013": 4250.0,
-   "2014": 4666.0
+   "2014": 4666.0,
+   "2010": 2024.7,
+   "2015": 4755.6,
+   "2016": 4230.4,
+   "2017": 5496.4,
+   "2018": 5745.3,
+   "2019": 6237.4,
+   "2020": 7602.0,
+   "2021": 8611.0,
+   "2022": 9698.9,
+   "2023": 9544.0,
+   "2024": 10079.4,
+   "2025": 11093.9
   },
   "afsDeb": {},
   "mktNon": {},
@@ -263,7 +281,13 @@
    "2020": "OperatingLeasesFutureMinimumPaymentsDueThereafter"
   },
   "dCur": {},
-  "dNon": {},
+  "dNon": {
+   "2013": "SeniorNotes",
+   "2017": "SeniorNotes",
+   "2018": "SeniorNotes",
+   "2019": "SeniorNotes",
+   "2020": "SeniorNotes"
+  },
   "dTot": {
    "2011": "LongTermDebt",
    "2012": "LongTermDebt",
@@ -288,7 +312,19 @@
    "2011": "EquityMethodInvestments",
    "2012": "EquityMethodInvestments",
    "2013": "EquityMethodInvestments",
-   "2014": "EquityMethodInvestments"
+   "2014": "EquityMethodInvestments",
+   "2010": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2015": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2016": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2017": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2018": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2019": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2020": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2021": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2022": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2023": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2024": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2025": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures"
   },
   "afsDeb": {},
   "mktNon": {},
@@ -367,218 +403,46 @@
    "2020": 0.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)"
+ ],
  "candidati": {
   "finLiab": [
    {
-    "tag": "LessorOperatingLeasePaymentsToBeReceived",
+    "tag": "BelowMarketLeaseNet",
     "valori": {
-     "2023": 30499,
-     "2024": 31390,
-     "2025": 33995
+     "2023": 2207,
+     "2024": 1779,
+     "2025": 1438
     }
    },
    {
-    "tag": "LessorOperatingLeasePaymentsToBeReceivedThereafter",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 10201,
-     "2024": 10191,
-     "2025": 11498
+     "2023": 788,
+     "2024": 865,
+     "2025": 882
     }
    },
    {
-    "tag": "LessorOperatingLeasePaymentsToBeReceivedNextTwelveMonths",
+    "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
-     "2023": 4986,
-     "2024": 5398,
-     "2025": 5771
+     "2023": 684,
+     "2024": 708,
+     "2025": 672
     }
    },
    {
-    "tag": "LessorOperatingLeasePaymentsToBeReceivedTwoYears",
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
-     "2023": 4793,
-     "2024": 5087,
-     "2025": 5361
-    }
-   },
-   {
-    "tag": "LessorOperatingLeasePaymentsToBeReceivedThreeYears",
-    "valori": {
-     "2023": 4250,
-     "2024": 4377,
-     "2025": 4590
-    }
-   },
-   {
-    "tag": "LessorOperatingLeasePaymentsToBeReceivedFourYears",
-    "valori": {
-     "2023": 3514,
-     "2024": 3576,
-     "2025": 3769
-    }
-   }
-  ],
-  "dCur": [
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 29577,
-     "2024": 31450,
-     "2025": 35578
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 29001,
-     "2024": 30879,
-     "2025": 35037
-    }
-   },
-   {
-    "tag": "DebtInstrumentFairValue",
-    "valori": {
-     "2023": 26782,
-     "2024": 28611,
-     "2025": 33043
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 20571,
-     "2024": 20939,
-     "2025": 22555
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityMaximumBorrowingCapacity",
-    "valori": {
-     "2023": 6477,
-     "2024": 6313,
-     "2025": 6503
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityRemainingBorrowingCapacity",
-    "valori": {
-     "2023": 5474,
-     "2024": 6063,
-     "2025": 6431
-    }
-   }
-  ],
-  "dNon": [
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 29577,
-     "2024": 31450,
-     "2025": 35578
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 29001,
-     "2024": 30879,
-     "2025": 35037
-    }
-   },
-   {
-    "tag": "DebtInstrumentFairValue",
-    "valori": {
-     "2023": 26782,
-     "2024": 28611,
-     "2025": 33043
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 20571,
-     "2024": 20939,
-     "2025": 22555
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityMaximumBorrowingCapacity",
-    "valori": {
-     "2023": 6477,
-     "2024": 6313,
-     "2025": 6503
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityRemainingBorrowingCapacity",
-    "valori": {
-     "2023": 5474,
-     "2024": 6063,
-     "2025": 6431
-    }
-   }
-  ],
-  "dBrev": [
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 29577,
-     "2024": 31450,
-     "2025": 35578
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 29001,
-     "2024": 30879,
-     "2025": 35037
-    }
-   },
-   {
-    "tag": "DebtInstrumentFairValue",
-    "valori": {
-     "2023": 26782,
-     "2024": 28611,
-     "2025": 33043
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 20571,
-     "2024": 20939,
-     "2025": 22555
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityMaximumBorrowingCapacity",
-    "valori": {
-     "2023": 6477,
-     "2024": 6313,
-     "2025": 6503
-    }
-   },
-   {
-    "tag": "LineOfCreditFacilityRemainingBorrowingCapacity",
-    "valori": {
-     "2023": 5474,
-     "2024": 6063,
-     "2025": 6431
+     "2023": 43,
+     "2024": 68,
+     "2025": 80
     }
    }
   ],
   "eqPriv": [
    {
-    "tag": "RealEstateInvestmentPropertyAtCost",
-    "valori": {
-     "2023": 88667,
-     "2024": 91246,
-     "2025": 95129
-    }
-   },
-   {
     "tag": "RealEstateInvestments",
     "valori": {
      "2023": 87741,
@@ -595,14 +459,6 @@
     }
    },
    {
-    "tag": "RealEstateInvestmentPropertyAccumulatedDepreciation",
-    "valori": {
-     "2023": 10931,
-     "2024": 12758,
-     "2025": 14729
-    }
-   },
-   {
     "tag": "RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures",
     "valori": {
      "2023": 9544,
@@ -611,74 +467,24 @@
     }
    },
    {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+    "tag": "RealEstateInvestmentsOther",
     "valori": {
-     "2023": 9544,
-     "2024": 10079,
-     "2025": 11094
-    }
-   }
-  ],
-  "eqMeth": [
-   {
-    "tag": "RealEstateInvestmentPropertyAtCost",
-    "valori": {
-     "2023": 88667,
-     "2024": 91246,
-     "2025": 95129
+     "2023": 5088,
+     "2024": 5684,
+     "2025": 6661
     }
    },
    {
-    "tag": "RealEstateInvestments",
+    "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {
-     "2023": 87741,
-     "2024": 88816,
-     "2025": 91697
-    }
-   },
-   {
-    "tag": "RealEstateInvestmentPropertyNet",
-    "valori": {
-     "2023": 77735,
-     "2024": 78488,
-     "2025": 80400
-    }
-   },
-   {
-    "tag": "RealEstateInvestmentPropertyAccumulatedDepreciation",
-    "valori": {
-     "2023": 10931,
-     "2024": 12758,
-     "2025": 14729
-    }
-   },
-   {
-    "tag": "RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures",
-    "valori": {
-     "2023": 9544,
-     "2024": 10079,
-     "2025": 11094
-    }
-   },
-   {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
-    "valori": {
-     "2023": 9544,
-     "2024": 10079,
-     "2025": 11094
+     "2023": 680,
+     "2024": 562,
+     "2025": 645
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "RealEstateInvestmentPropertyAtCost",
-    "valori": {
-     "2023": 88667,
-     "2024": 91246,
-     "2025": 95129
-    }
-   },
-   {
     "tag": "RealEstateInvestments",
     "valori": {
      "2023": 87741,
@@ -695,14 +501,6 @@
     }
    },
    {
-    "tag": "RealEstateInvestmentPropertyAccumulatedDepreciation",
-    "valori": {
-     "2023": 10931,
-     "2024": 12758,
-     "2025": 14729
-    }
-   },
-   {
     "tag": "RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures",
     "valori": {
      "2023": 9544,
@@ -711,24 +509,24 @@
     }
    },
    {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+    "tag": "RealEstateInvestmentsOther",
     "valori": {
-     "2023": 9544,
-     "2024": 10079,
-     "2025": 11094
+     "2023": 5088,
+     "2024": 5684,
+     "2025": 6661
+    }
+   },
+   {
+    "tag": "EquityMethodInvestmentDividendsOrDistributions",
+    "valori": {
+     "2023": 680,
+     "2024": 562,
+     "2025": 645
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "RealEstateInvestmentPropertyAtCost",
-    "valori": {
-     "2023": 88667,
-     "2024": 91246,
-     "2025": 95129
-    }
-   },
-   {
     "tag": "RealEstateInvestments",
     "valori": {
      "2023": 87741,
@@ -745,14 +543,6 @@
     }
    },
    {
-    "tag": "RealEstateInvestmentPropertyAccumulatedDepreciation",
-    "valori": {
-     "2023": 10931,
-     "2024": 12758,
-     "2025": 14729
-    }
-   },
-   {
     "tag": "RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures",
     "valori": {
      "2023": 9544,
@@ -761,18 +551,86 @@
     }
    },
    {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+    "tag": "RealEstateInvestmentsOther",
     "valori": {
-     "2023": 9544,
-     "2024": 10079,
-     "2025": 11094
+     "2023": 5088,
+     "2024": 5684,
+     "2025": 6661
+    }
+   },
+   {
+    "tag": "EquityMethodInvestmentDividendsOrDistributions",
+    "valori": {
+     "2023": 680,
+     "2024": 562,
+     "2025": 645
     }
    }
   ]
  },
+ "fine_anno": {
+  "2018": "2018-12-31",
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2009": "2009-12-31"
+ },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2010": 2024.7,
+   "2011": 2471.2,
+   "2012": 2014.0,
+   "2013": 4250.0,
+   "2014": 4666.0,
+   "2015": 4755.6,
+   "2016": 4230.4,
+   "2017": 5496.4,
+   "2018": 5745.3,
+   "2019": 6237.4,
+   "2020": 7602.0,
+   "2021": 8611.0,
+   "2022": 9698.9,
+   "2023": 9544.0,
+   "2024": 10079.4,
+   "2025": 11093.9
+  },
+  "invNonOpAmpia": {
+   "2010": 2024.7,
+   "2011": 2471.2,
+   "2012": 2014.0,
+   "2013": 4250.0,
+   "2014": 4666.0,
+   "2015": 4755.6,
+   "2016": 4230.4,
+   "2017": 5496.4,
+   "2018": 5745.3,
+   "2019": 6237.4,
+   "2020": 7602.0,
+   "2021": 8611.0,
+   "2022": 9698.9,
+   "2023": 9544.0,
+   "2024": 10079.4,
+   "2025": 11093.9
+  }
+ },
+ "sic": "6798",
+ "sic_descrizione": "Real Estate Investment Trusts",
+ "chiusura_esercizio": "1231",
+ "nome": "Prologis, Inc.",
+ "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"
 }

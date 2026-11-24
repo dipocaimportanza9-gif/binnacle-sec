@@ -250,7 +250,8 @@
    "2022": 455.0,
    "2023": 492.0,
    "2024": 353.0,
-   "2025": 330.0
+   "2025": 330.0,
+   "2008": 473.0
   },
   "afsDeb": {
    "2013": 1750.0,
@@ -267,11 +268,30 @@
    "2024": 3326.0,
    "2025": 4439.0
   },
-  "mktNon": {},
+  "mktNon": {
+   "2009": 198.0,
+   "2010": 118.0,
+   "2011": 190.0
+  },
   "ltInv": {
    "2009": 198.0,
    "2010": 118.0,
-   "2011": 71.0
+   "2011": 71.0,
+   "2008": 1436.0,
+   "2012": 4242.0,
+   "2013": 5132.0,
+   "2014": 5546.0,
+   "2015": 5825.0,
+   "2016": 6205.0,
+   "2017": 7097.0,
+   "2018": 6720.0,
+   "2019": 8140.0,
+   "2020": 9114.0,
+   "2021": 10401.0,
+   "2022": 8637.0,
+   "2023": 10143.0,
+   "2024": 11434.0,
+   "2025": 12889.0
   },
   "aoci": {
    "2008": -726.0,
@@ -540,7 +560,8 @@
    "2022": "EquityMethodInvestments",
    "2023": "EquityMethodInvestments",
    "2024": "EquityMethodInvestments",
-   "2025": "EquityMethodInvestments"
+   "2025": "EquityMethodInvestments",
+   "2008": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures"
   },
   "afsDeb": {
    "2013": "AvailableForSaleSecuritiesDebtSecurities",
@@ -557,11 +578,30 @@
    "2024": "AvailableForSaleSecuritiesDebtSecurities",
    "2025": "AvailableForSaleSecuritiesDebtSecurities"
   },
-  "mktNon": {},
+  "mktNon": {
+   "2009": "AvailableForSaleSecuritiesNoncurrent",
+   "2010": "AvailableForSaleSecuritiesNoncurrent",
+   "2011": "AvailableForSaleSecuritiesNoncurrent"
+  },
   "ltInv": {
    "2009": "LongTermInvestments",
    "2010": "LongTermInvestments",
-   "2011": "LongTermInvestments"
+   "2011": "LongTermInvestments",
+   "2008": "DecommissioningFundInvestments",
+   "2012": "DecommissioningFundInvestments",
+   "2013": "DecommissioningFundInvestments",
+   "2014": "DecommissioningFundInvestments",
+   "2015": "DecommissioningFundInvestments",
+   "2016": "DecommissioningFundInvestments",
+   "2017": "DecommissioningFundInvestments",
+   "2018": "DecommissioningFundInvestments",
+   "2019": "DecommissioningFundInvestments",
+   "2020": "DecommissioningFundInvestments",
+   "2021": "DecommissioningFundInvestments",
+   "2022": "DecommissioningFundInvestments",
+   "2023": "DecommissioningFundInvestments",
+   "2024": "DecommissioningFundInvestments",
+   "2025": "DecommissioningFundInvestments"
   },
   "aoci": {
    "2008": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
@@ -673,96 +713,34 @@
     }
    },
    {
-    "tag": "DecommissioningFundInvestments",
+    "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {
-     "2023": 10143,
-     "2024": 11434,
-     "2025": 12889
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 3824,
-     "2024": 5803,
-     "2025": 9005
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 3761,
-     "2024": 5703,
-     "2025": 8888
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 3003,
-     "2024": 3326,
-     "2025": 4439
-    }
-   },
-   {
-    "tag": "DeferredTaxLiabilitiesInvestments",
-    "valori": {
-     "2023": 1812,
-     "2024": 2114,
-     "2025": 2452
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "InvestmentsAndOtherNoncurrentAssets",
-    "valori": {
-     "2023": 48809,
-     "2024": 51767,
-     "2025": 54164
-    }
-   },
-   {
-    "tag": "DecommissioningFundInvestments",
-    "valori": {
-     "2023": 10143,
-     "2024": 11434,
-     "2025": 12889
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 3824,
-     "2024": 5803,
-     "2025": 9005
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 3761,
-     "2024": 5703,
-     "2025": 8888
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 3003,
-     "2024": 3326,
-     "2025": 4439
-    }
-   },
-   {
-    "tag": "DeferredTaxLiabilitiesInvestments",
-    "valori": {
-     "2023": 1812,
-     "2024": 2114,
-     "2025": 2452
+     "2023": 50,
+     "2024": 66,
+     "2025": 30
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2008": "2008-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31"
  },
  "derivati": {
   "dTotCalc": {
@@ -770,6 +748,51 @@
    "2009": 16634.0
   },
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2008": 1436.0,
+   "2009": 634.0,
+   "2010": 562.0,
+   "2011": 650.0,
+   "2012": 4242.0,
+   "2013": 5132.0,
+   "2014": 5546.0,
+   "2015": 5825.0,
+   "2016": 6205.0,
+   "2017": 7097.0,
+   "2018": 6720.0,
+   "2019": 8140.0,
+   "2020": 9114.0,
+   "2021": 10401.0,
+   "2022": 8637.0,
+   "2023": 10143.0,
+   "2024": 11434.0,
+   "2025": 12889.0
+  },
+  "invNonOpAmpia": {
+   "2008": 1436.0,
+   "2009": 634.0,
+   "2010": 562.0,
+   "2011": 650.0,
+   "2012": 4242.0,
+   "2013": 5132.0,
+   "2014": 5546.0,
+   "2015": 5825.0,
+   "2016": 6205.0,
+   "2017": 7097.0,
+   "2018": 6720.0,
+   "2019": 8140.0,
+   "2020": 9114.0,
+   "2021": 10401.0,
+   "2022": 8637.0,
+   "2023": 10143.0,
+   "2024": 11434.0,
+   "2025": 12889.0
+  }
+ },
+ "sic": "4931",
+ "sic_descrizione": "Electric & Other Services Combined",
+ "chiusura_esercizio": "1231",
+ "nome": "Duke Energy CORP",
+ "ambito": "ok"
 }

@@ -31,11 +31,11 @@ Debito a lungo termine: quota corrente                           6,489    2,645 
 Debito a lungo termine: non corrente                           103,240  105,433  113,642  105,873  100,712  123,173  143,425  140,676  137,701  121,381  139,532        .
 Debito a lungo termine: totale                                 109,565  107,910  117,095  113,063  111,489  129,062  150,868  150,639  150,674  144,014  158,150        .
 Debito corrente totale (con debiti a breve)                      6,489    2,645    3,453    7,190   10,777        .        .        .        .   22,633   18,618        .
-Debiti finanziari a breve                                            6      168      150      150        0      320        0      150        0       65      441        .
+Debiti finanziari a breve                                            6        .      150      150        0      320        0      150        0       65      441        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .      284      402      808      804      764      724      710        .
-Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                    .        .       74        .      284      402      808      804      764      724      710        .
+Partecipazioni a patrimonio netto (equity method)                  796    1,110    1,039      671      558      589    1,061    1,071      953      842      785        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
@@ -56,25 +56,7 @@ vz:LesseeOperatingLeaseLeaseNotYetCommencedAmount                    .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
-
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-eqMeth: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 953, 2024: 842, 2025: 785}
-eqMeth: EquitySecuritiesWithoutReadilyDeterminableFairValueAmount {2023: 764, 2024: 724, 2025: 710}
-eqMeth: EquitySecuritiesFvNi {2025: 453}
-eqMeth: EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount {2023: 209, 2024: 186, 2025: 191}
-eqMeth: EquitySecuritiesWithoutReadilyDeterminableFairValueImpairmentLossCumulativeAmount {2023: 98, 2024: 120, 2025: 144}
-eqMeth: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions {2023: -84, 2024: -75, 2025: -42}
-afsDeb: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 953, 2024: 842, 2025: 785}
-afsDeb: EquitySecuritiesWithoutReadilyDeterminableFairValueAmount {2023: 764, 2024: 724, 2025: 710}
-afsDeb: EquitySecuritiesFvNi {2025: 453}
-afsDeb: EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount {2023: 209, 2024: 186, 2025: 191}
-afsDeb: EquitySecuritiesWithoutReadilyDeterminableFairValueImpairmentLossCumulativeAmount {2023: 98, 2024: 120, 2025: 144}
-afsDeb: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions {2023: -84, 2024: -75, 2025: -42}
-ltInv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 953, 2024: 842, 2025: 785}
-ltInv: EquitySecuritiesWithoutReadilyDeterminableFairValueAmount {2023: 764, 2024: 724, 2025: 710}
-ltInv: EquitySecuritiesFvNi {2025: 453}
-ltInv: EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount {2023: 209, 2024: 186, 2025: 191}
-ltInv: EquitySecuritiesWithoutReadilyDeterminableFairValueImpairmentLossCumulativeAmount {2023: 98, 2024: 120, 2025: 144}
-ltInv: IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions {2023: -84, 2024: -75, 2025: -42}
+2010: l'OCI sale di 2421 ma gli investimenti letti salgono di 379: controllare il filing (investimenti non letti?)
+2016: l'OCI sale di 2123 ma gli investimenti letti salgono di 314: controllare il filing (investimenti non letti?)
 
 Tempo: 2 s. File scritto: sec_VZ.json

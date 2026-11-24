@@ -254,7 +254,8 @@
    "2018": 15858.0,
    "2019": 15501.0,
    "2020": 17365.0,
-   "2021": 21780.0
+   "2021": 21780.0,
+   "2013": 8646.0
   },
   "dCurTot": {},
   "dBrev": {
@@ -566,7 +567,8 @@
    "2018": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
    "2019": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
    "2020": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
-   "2021": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities"
+   "2021": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+   "2013": "NotesPayable"
   },
   "dCurTot": {},
   "dBrev": {
@@ -759,80 +761,7 @@
   "Il tag del debito include i leasing finanziari negli anni 2010-2026: non sommarli di nuovo"
  ],
  "candidati": {
-  "dBrev": [
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
-    "valori": {
-     "2023": 33461,
-     "2024": 35921,
-     "2025": 35487,
-     "2026": 39921
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 33270,
-     "2024": 35770,
-     "2025": 35319,
-     "2026": 39819
-    }
-   },
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligations",
-    "valori": {
-     "2023": 32876,
-     "2024": 35384,
-     "2025": 32901,
-     "2026": 37490
-    }
-   },
-   {
-    "tag": "NotesPayable",
-    "valori": {
-     "2023": 32899,
-     "2024": 35411,
-     "2025": 35012
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 26102,
-     "2024": 25847,
-     "2025": 24035,
-     "2026": 25135
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfDebt",
-    "valori": {
-     "2023": 9667,
-     "2024": 2983,
-     "2025": 0,
-     "2026": 6974
-    }
-   }
-  ],
   "eqPriv": [
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 1189,
-     "2024": 1785,
-     "2025": 1286,
-     "2026": 1693
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 1174,
-     "2024": 1722,
-     "2025": 1204,
-     "2026": 1658
-    }
-   },
    {
     "tag": "ShortTermInvestments",
     "valori": {
@@ -848,15 +777,6 @@
      "2023": 384,
      "2024": 307,
      "2025": 372
-    }
-   },
-   {
-    "tag": "LongTermInvestments",
-    "valori": {
-     "2023": 121,
-     "2024": 252,
-     "2025": 277,
-     "2026": 319
     }
    },
    {
@@ -870,24 +790,6 @@
   ],
   "eqMeth": [
    {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 1189,
-     "2024": 1785,
-     "2025": 1286,
-     "2026": 1693
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 1174,
-     "2024": 1722,
-     "2025": 1204,
-     "2026": 1658
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 384,
@@ -902,15 +804,6 @@
      "2023": 384,
      "2024": 307,
      "2025": 372
-    }
-   },
-   {
-    "tag": "LongTermInvestments",
-    "valori": {
-     "2023": 121,
-     "2024": 252,
-     "2025": 277,
-     "2026": 319
     }
    },
    {
@@ -924,24 +817,6 @@
   ],
   "afsDeb": [
    {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 1189,
-     "2024": 1785,
-     "2025": 1286,
-     "2026": 1693
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 1174,
-     "2024": 1722,
-     "2025": 1204,
-     "2026": 1658
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 384,
@@ -959,15 +834,6 @@
     }
    },
    {
-    "tag": "LongTermInvestments",
-    "valori": {
-     "2023": 121,
-     "2024": 252,
-     "2025": 277,
-     "2026": 319
-    }
-   },
-   {
     "tag": "RestrictedCashAndInvestmentsNoncurrent",
     "valori": {
      "2023": 100,
@@ -977,10 +843,28 @@
    }
   ]
  },
+ "fine_anno": {
+  "2020": "2020-01-31",
+  "2021": "2021-01-29",
+  "2022": "2022-01-28",
+  "2023": "2023-02-03",
+  "2024": "2024-02-02",
+  "2025": "2025-01-31",
+  "2026": "2026-01-30",
+  "2010": "2010-01-29",
+  "2011": "2011-01-28",
+  "2012": "2012-02-03",
+  "2013": "2013-02-01",
+  "2014": "2014-01-31",
+  "2015": "2015-01-30",
+  "2016": "2016-01-29",
+  "2017": "2017-02-03",
+  "2018": "2018-02-02",
+  "2019": "2019-02-01",
+  "2009": "2009-01-30"
+ },
  "derivati": {
-  "dTotCalc": {
-   "2013": 9077.0
-  },
+  "dTotCalc": {},
   "dBrevDer": {},
   "leasing_nel_tag_debito": {
    "2010": "dCur dNon",
@@ -1000,6 +884,49 @@
    "2024": "dCur dNon",
    "2025": "dCur dNon",
    "2026": "dCur dNon"
+  },
+  "invNonOpBase": {
+   "2010": 277.0,
+   "2011": 1008.0,
+   "2012": 504.0,
+   "2013": 271.0,
+   "2014": 279.0,
+   "2015": 354.0,
+   "2016": 222.0,
+   "2017": 366.0,
+   "2018": 408.0,
+   "2019": 256.0,
+   "2020": 372.0,
+   "2021": 200.0,
+   "2022": 199.0,
+   "2023": 121.0,
+   "2024": 252.0,
+   "2025": 277.0,
+   "2026": 319.0
+  },
+  "invNonOpAmpia": {
+   "2010": 277.0,
+   "2011": 1008.0,
+   "2012": 504.0,
+   "2013": 271.0,
+   "2014": 279.0,
+   "2015": 354.0,
+   "2016": 222.0,
+   "2017": 366.0,
+   "2018": 408.0,
+   "2019": 256.0,
+   "2020": 372.0,
+   "2021": 200.0,
+   "2022": 199.0,
+   "2023": 121.0,
+   "2024": 252.0,
+   "2025": 277.0,
+   "2026": 319.0
   }
- }
+ },
+ "sic": "5211",
+ "sic_descrizione": "Retail-Lumber & Other Building Materials Dealers",
+ "chiusura_esercizio": "0131",
+ "nome": "LOWES COMPANIES INC",
+ "ambito": "ok"
 }

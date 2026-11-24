@@ -70,12 +70,21 @@
  },
  "custom": {},
  "avvisi": [
+  "FUORI PORTATA: nessun dato us-gaap (probabile 20-F)",
   "NESSUN DATO: possibile cambio di CIK (aggiungere l'alias in cik_alias.json)"
  ],
  "candidati": {},
+ "fine_anno": {},
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {},
+  "invNonOpAmpia": {}
+ },
+ "sic": "3674",
+ "sic_descrizione": "Semiconductors & Related Devices",
+ "chiusura_esercizio": "1231",
+ "nome": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+ "ambito": "senza dati us-gaap: probabile emittente estero (20-F)"
 }

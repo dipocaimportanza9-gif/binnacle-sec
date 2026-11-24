@@ -580,225 +580,30 @@
   "Leasing finanziari: quota corrente: ultimo anno 2024 (mancano anni recenti)",
   "Leasing finanziari: quota non corrente: ultimo anno 2024 (mancano anni recenti)",
   "Rimborsi capitale leasing finanziari: ultimo anno 2024 (mancano anni recenti)",
-  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo"
+  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo",
+  "FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)"
  ],
- "candidati": {
-  "dBrev": [
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
-    "valori": {
-     "2023": 38801,
-     "2024": 36502,
-     "2025": 37220
-    }
-   },
-   {
-    "tag": "LongTermDebtFairValue",
-    "valori": {
-     "2023": 36700
-    }
-   },
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligations",
-    "valori": {
-     "2023": 35734,
-     "2024": 32809,
-     "2025": 33832
-    }
-   },
-   {
-    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
-    "valori": {
-     "2023": 13230,
-     "2024": 12430,
-     "2025": 9450
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfSeniorLongTermDebt",
-    "valori": {
-     "2023": 5678,
-     "2024": 3569,
-     "2025": 3001
-    }
-   },
-   {
-    "tag": "LongTermDebtCurrent",
-    "valori": {
-     "2023": 3067,
-     "2024": 3693,
-     "2025": 3388
-    }
-   }
-  ],
-  "eqPriv": [
-   {
-    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
-    "valori": {
-     "2023": 13230,
-     "2024": 12430,
-     "2025": 9450
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiGainLoss",
-    "valori": {
-     "2025": 233
-    }
-   },
-   {
-    "tag": "OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax",
-    "valori": {
-     "2025": -185
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2025": 160
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
-    "valori": {
-     "2023": 4,
-     "2024": 70,
-     "2025": 121
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiRealizedGain",
-    "valori": {
-     "2025": 111
-    }
-   }
-  ],
-  "eqMeth": [
-   {
-    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
-    "valori": {
-     "2023": 13230,
-     "2024": 12430,
-     "2025": 9450
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiGainLoss",
-    "valori": {
-     "2025": 233
-    }
-   },
-   {
-    "tag": "OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax",
-    "valori": {
-     "2025": -185
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2025": 160
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
-    "valori": {
-     "2023": 4,
-     "2024": 70,
-     "2025": 121
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiRealizedGain",
-    "valori": {
-     "2025": 111
-    }
-   }
-  ],
-  "afsDeb": [
-   {
-    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
-    "valori": {
-     "2023": 13230,
-     "2024": 12430,
-     "2025": 9450
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiGainLoss",
-    "valori": {
-     "2025": 233
-    }
-   },
-   {
-    "tag": "OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax",
-    "valori": {
-     "2025": -185
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2025": 160
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
-    "valori": {
-     "2023": 4,
-     "2024": 70,
-     "2025": 121
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiRealizedGain",
-    "valori": {
-     "2025": 111
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "RepaymentsOfLongTermDebtAndCapitalSecurities",
-    "valori": {
-     "2023": 13230,
-     "2024": 12430,
-     "2025": 9450
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiGainLoss",
-    "valori": {
-     "2025": 233
-    }
-   },
-   {
-    "tag": "OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax",
-    "valori": {
-     "2025": -185
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2025": 160
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
-    "valori": {
-     "2023": 4,
-     "2024": 70,
-     "2025": 121
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiRealizedGain",
-    "valori": {
-     "2025": 111
-    }
-   }
-  ]
+ "candidati": {},
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2008": "2008-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2007": "2007-12-31"
  },
  "derivati": {
   "dTotCalc": {
@@ -815,6 +620,13 @@
    "2023": "dNon dTot",
    "2024": "dNon dTot",
    "2025": "dNon dTot"
-  }
- }
+  },
+  "invNonOpBase": {},
+  "invNonOpAmpia": {}
+ },
+ "sic": "6798",
+ "sic_descrizione": "Real Estate Investment Trusts",
+ "chiusura_esercizio": "1231",
+ "nome": "AMERICAN TOWER CORP /MA/",
+ "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"
 }

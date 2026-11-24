@@ -224,15 +224,7 @@
    "2013": 0.0,
    "2014": 0.0,
    "2015": 0.0,
-   "2016": 0.0,
-   "2019": 4494.0,
-   "2020": 2371.0,
-   "2021": 8250.0,
-   "2022": 3749.0,
-   "2023": 4061.0,
-   "2024": 10605.0,
-   "2025": 7271.0,
-   "2026": 7199.0
+   "2016": 0.0
   },
   "eqPriv": {
    "2020": 219.0,
@@ -246,7 +238,24 @@
   "eqMeth": {},
   "afsDeb": {},
   "mktNon": {},
-  "ltInv": {},
+  "ltInv": {
+   "2011": 18387.0,
+   "2012": 16291.0,
+   "2013": 18978.0,
+   "2014": 24626.0,
+   "2015": 38715.0,
+   "2016": 41393.0,
+   "2017": 49973.0,
+   "2018": 52449.0,
+   "2019": 27942.0,
+   "2020": 30852.0,
+   "2021": 33445.0,
+   "2022": 13362.0,
+   "2023": 2162.0,
+   "2024": 2930.0,
+   "2025": 2805.0,
+   "2026": 24126.0
+  },
   "aoci": {
    "2009": 216.0,
    "2010": 4.0,
@@ -488,15 +497,7 @@
    "2013": "CommercialPaper",
    "2014": "CommercialPaper",
    "2015": "CommercialPaper",
-   "2016": "CommercialPaper",
-   "2019": "NotesPayableCurrent",
-   "2020": "NotesPayableCurrent",
-   "2021": "NotesPayableCurrent",
-   "2022": "NotesPayableCurrent",
-   "2023": "NotesPayableCurrent",
-   "2024": "NotesPayableCurrent",
-   "2025": "NotesPayableCurrent",
-   "2026": "NotesPayableCurrent"
+   "2016": "CommercialPaper"
   },
   "eqPriv": {
    "2020": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
@@ -510,7 +511,24 @@
   "eqMeth": {},
   "afsDeb": {},
   "mktNon": {},
-  "ltInv": {},
+  "ltInv": {
+   "2011": "Investments",
+   "2012": "Investments",
+   "2013": "Investments",
+   "2014": "Investments",
+   "2015": "Investments",
+   "2016": "Investments",
+   "2017": "Investments",
+   "2018": "Investments",
+   "2019": "Investments",
+   "2020": "Investments",
+   "2021": "Investments",
+   "2022": "Investments",
+   "2023": "Investments",
+   "2024": "Investments",
+   "2025": "Investments",
+   "2026": "Investments"
+  },
   "aoci": {
    "2009": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2010": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
@@ -547,156 +565,55 @@
  },
  "avvisi": [],
  "candidati": {
+  "dBrev": [
+   {
+    "tag": "DebtInstrumentFaceAmount",
+    "valori": {
+     "2023": 90927,
+     "2024": 87266,
+     "2025": 92947,
+     "2026": 130105
+    }
+   }
+  ],
   "eqMeth": [
-   {
-    "tag": "InvestmentsFairValueDisclosure",
-    "valori": {
-     "2023": 2264,
-     "2024": 3109,
-     "2025": 2859,
-     "2026": 24162
-    }
-   },
-   {
-    "tag": "Investments",
-    "valori": {
-     "2023": 2162,
-     "2024": 2930,
-     "2025": 2805,
-     "2026": 24126
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
-    "valori": {
-     "2023": 1113,
-     "2024": 572,
-     "2025": 776,
-     "2026": 5848
-    }
-   },
    {
     "tag": "StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
     "valori": {
      "2026": 4954
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2025": 4300
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2023": -327,
-     "2024": -303,
-     "2025": -278,
-     "2026": 2811
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "InvestmentsFairValueDisclosure",
-    "valori": {
-     "2023": 2264,
-     "2024": 3109,
-     "2025": 2859,
-     "2026": 24162
-    }
-   },
-   {
-    "tag": "Investments",
-    "valori": {
-     "2023": 2162,
-     "2024": 2930,
-     "2025": 2805,
-     "2026": 24126
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
-    "valori": {
-     "2023": 1113,
-     "2024": 572,
-     "2025": 776,
-     "2026": 5848
-    }
-   },
-   {
     "tag": "StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
     "valori": {
      "2026": 4954
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2025": 4300
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2023": -327,
-     "2024": -303,
-     "2025": -278,
-     "2026": 2811
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "InvestmentsFairValueDisclosure",
-    "valori": {
-     "2023": 2264,
-     "2024": 3109,
-     "2025": 2859,
-     "2026": 24162
-    }
-   },
-   {
-    "tag": "Investments",
-    "valori": {
-     "2023": 2162,
-     "2024": 2930,
-     "2025": 2805,
-     "2026": 24126
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
-    "valori": {
-     "2023": 1113,
-     "2024": 572,
-     "2025": 776,
-     "2026": 5848
-    }
-   },
-   {
-    "tag": "StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
-    "valori": {
-     "2026": 4954
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2025": 4300
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2023": -327,
-     "2024": -303,
-     "2025": -278,
-     "2026": 2811
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2020": "2020-05-31",
+  "2021": "2021-05-31",
+  "2022": "2022-05-31",
+  "2023": "2023-05-31",
+  "2024": "2024-05-31",
+  "2025": "2025-05-31",
+  "2026": "2026-05-31",
+  "2010": "2010-05-31",
+  "2011": "2011-05-31",
+  "2012": "2012-05-31",
+  "2013": "2013-05-31",
+  "2014": "2014-05-31",
+  "2015": "2015-05-31",
+  "2016": "2016-05-31",
+  "2017": "2017-05-31",
+  "2018": "2018-05-31",
+  "2019": "2019-05-31",
+  "2009": "2009-05-31",
+  "2006": "2006-01-13",
+  "2008": "2008-04-09"
  },
  "derivati": {
   "dTotCalc": {
@@ -705,6 +622,47 @@
    "2014": 24097.0
   },
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2011": 18387.0,
+   "2012": 16291.0,
+   "2013": 18978.0,
+   "2014": 24626.0,
+   "2015": 38715.0,
+   "2016": 41393.0,
+   "2017": 49973.0,
+   "2018": 52449.0,
+   "2019": 27942.0,
+   "2020": 30852.0,
+   "2021": 33445.0,
+   "2022": 13362.0,
+   "2023": 2162.0,
+   "2024": 2930.0,
+   "2025": 2805.0,
+   "2026": 24126.0
+  },
+  "invNonOpAmpia": {
+   "2011": 18387.0,
+   "2012": 16291.0,
+   "2013": 18978.0,
+   "2014": 24626.0,
+   "2015": 38715.0,
+   "2016": 41393.0,
+   "2017": 49973.0,
+   "2018": 52449.0,
+   "2019": 27942.0,
+   "2020": 30852.0,
+   "2021": 33445.0,
+   "2022": 13362.0,
+   "2023": 2162.0,
+   "2024": 2930.0,
+   "2025": 2805.0,
+   "2026": 24126.0
+  }
+ },
+ "sic": "7372",
+ "sic_descrizione": "Services-Prepackaged Software",
+ "chiusura_esercizio": "0531",
+ "nome": "ORACLE CORP",
+ "ambito": "ok"
 }

@@ -34,10 +34,10 @@ Debito corrente totale (con debiti a breve)                     10,159   10,688 
 Debiti finanziari a breve                                            .    5,800    6,100    3,100   13,915      556        0        0    7,965    2,453        0        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                    .        .    2,150    1,600      705      567    5,365    1,588    5,124    7,848    2,596        .
 Partecipazioni a patrimonio netto (equity method)                    .      270        .      181   17,133   16,856   16,472   11,033   11,637      217      235        .
-Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
-Titoli di mercato non correnti                                       .        .    5,090      491      315      128      521      352      150        0        1        .
+Titoli di debito disponibili per la vendita (valore equo)            .        7    5,090      491      315      128      521      352      150        0        1        .
+Titoli di mercato non correnti                                       .    6,049    6,264        .    3,014    3,406    5,054    4,036    3,731    2,228    1,621        .
 Investimenti a lungo termine (voce di bilancio)                 15,999    7,116    7,015    2,586   20,147   20,262   21,526   15,069   15,368    2,228        .        .
 OCI accumulato (utili/perdite non realizzati)                   -9,522  -11,036   -9,321  -11,275  -11,640   -5,310   -5,897   -8,304   -7,961   -7,842   -8,069        .
 
@@ -59,37 +59,15 @@ pfe:ShorttermDebtGross                                               .        . 
 
 --- AVVISI ---
 Investimenti a lungo termine (voce di bilancio): ultimo anno 2024 (mancano anni recenti)
+2009: l'OCI sale di 5121 ma gli investimenti letti salgono di 1644: controllare il filing (investimenti non letti?)
+2020: l'OCI sale di 6330 ma gli investimenti letti salgono di -210: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 3824, 2024: 3197, 2025: 3199}
-finLiab: OperatingLeaseLiability {2023: 3153, 2024: 2642, 2025: 2620}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 2924, 2024: 2289, 2025: 2213}
-finLiab: OperatingLeaseLiabilityNoncurrent {2023: 2626, 2024: 2286, 2025: 2291}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterRollingYearFive {2023: 1743, 2024: 1468, 2025: 1524}
-finLiab: LeaseCost {2023: 1283, 2024: 1177, 2025: 924}
-dTot: LongTermDebtNoncurrent {2023: 61538, 2024: 57405, 2025: 61641}
-dTot: ProceedsFromIssuanceOfLongTermDebt {2023: 30831, 2024: 0, 2025: 9678}
-dTot: DebtSecuritiesAvailableForSaleAndHeldToMaturity {2023: 5115, 2024: 11814, 2025: 9906}
-dTot: RepaymentsOfShortTermDebt {2023: 3, 2024: 11226, 2025: 2199}
-dTot: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 4400, 2024: 10881, 2025: 9183}
-dTot: DebtCurrent {2023: 10350, 2024: 6946, 2025: 3154}
-eqPriv: ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments {2023: 39264, 2024: 4128, 2025: 17959}
-eqPriv: PaymentsToAcquireShortTermInvestments {2023: 30974, 2024: 10133, 2025: 14356}
-eqPriv: OtherShortTermInvestments {2023: 9837, 2024: 19434, 2025: 12454}
-eqPriv: LongTermInvestments {2023: 15368, 2024: 2228}
-eqPriv: DebtSecuritiesAvailableForSaleAndHeldToMaturity {2023: 5115, 2024: 11814, 2025: 9906}
-eqPriv: EquityMethodInvestments {2023: 11637, 2024: 217, 2025: 235}
-afsDeb: ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments {2023: 39264, 2024: 4128, 2025: 17959}
-afsDeb: PaymentsToAcquireShortTermInvestments {2023: 30974, 2024: 10133, 2025: 14356}
-afsDeb: OtherShortTermInvestments {2023: 9837, 2024: 19434, 2025: 12454}
-afsDeb: LongTermInvestments {2023: 15368, 2024: 2228}
-afsDeb: DebtSecuritiesAvailableForSaleAndHeldToMaturity {2023: 5115, 2024: 11814, 2025: 9906}
-afsDeb: EquityMethodInvestments {2023: 11637, 2024: 217, 2025: 235}
-ltInv: ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments {2023: 39264, 2024: 4128, 2025: 17959}
-ltInv: PaymentsToAcquireShortTermInvestments {2023: 30974, 2024: 10133, 2025: 14356}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 671, 2024: 556, 2025: 579}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 614, 2024: 283, 2025: 288}
 ltInv: OtherShortTermInvestments {2023: 9837, 2024: 19434, 2025: 12454}
-ltInv: DebtSecuritiesAvailableForSaleAndHeldToMaturity {2023: 5115, 2024: 11814, 2025: 9906}
-ltInv: EquityMethodInvestments {2023: 11637, 2024: 217, 2025: 235}
-ltInv: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 4400, 2024: 10881, 2025: 9183}
+ltInv: EquitySecuritiesFVNINoncurrent {2023: 2779, 2024: 1246, 2025: 642}
+ltInv: SecuritiesReceivedAsCollateral {2023: 221, 2024: 716, 2025: 154}
 
-Tempo: 2 s. File scritto: sec_PFE.json
+Tempo: 6 s. File scritto: sec_PFE.json

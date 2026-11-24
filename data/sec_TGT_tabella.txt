@@ -65,12 +65,7 @@ tgt:LesseeOperatingLeaseOptiontoExtendReasonablyCertain              .        . 
 Il tag del debito include i leasing finanziari negli anni 2014-2026: non sommarli di nuovo
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dBrev: LongTermDebtAndCapitalLeaseObligations {2023: 16009, 2024: 14922, 2025: 14304, 2026: 14326}
-dBrev: LongTermDebt {2023: 14141, 2024: 14151, 2025: 13904, 2026: 14398}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 9655, 2024: 9574, 2025: 9324, 2026: 9593}
-dBrev: ProceedsFromIssuanceOfLongTermDebt {2023: 2625, 2024: 0, 2025: 741, 2026: 1984}
-dBrev: ShorttermDebtMaximumAmountOutstandingDuringPeriod {2023: 2300, 2024: 90}
-dBrev: LongTermDebtAndCapitalLeaseObligationsCurrent {2023: 130, 2024: 1116, 2025: 1636, 2026: 2130}
+dBrev: ShorttermDebtAverageOutstandingAmount {2023: 709, 2024: 1}
 eqPriv: CashCashEquivalentsAndShortTermInvestments {2023: 2229, 2024: 3805, 2025: 4762, 2026: 5488}
 eqPriv: ShortTermInvestments {2023: 1343, 2024: 2897, 2025: 3893, 2026: 4611}
 eqMeth: CashCashEquivalentsAndShortTermInvestments {2023: 2229, 2024: 3805, 2025: 4762, 2026: 5488}
@@ -80,4 +75,4 @@ afsDeb: ShortTermInvestments {2023: 1343, 2024: 2897, 2025: 3893, 2026: 4611}
 ltInv: CashCashEquivalentsAndShortTermInvestments {2023: 2229, 2024: 3805, 2025: 4762, 2026: 5488}
 ltInv: ShortTermInvestments {2023: 1343, 2024: 2897, 2025: 3893, 2026: 4611}
 
-Tempo: 2 s. File scritto: sec_TGT.json
+Tempo: 4 s. File scritto: sec_TGT.json

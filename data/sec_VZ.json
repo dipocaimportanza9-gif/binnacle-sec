@@ -275,8 +275,7 @@
    "2025": 441.0,
    "2009": 1100.0,
    "2011": 1934.0,
-   "2012": 500.0,
-   "2016": 168.0
+   "2012": 500.0
   },
   "eqPriv": {
    "2019": 284.0,
@@ -285,18 +284,37 @@
    "2022": 804.0,
    "2023": 764.0,
    "2024": 724.0,
-   "2025": 710.0
+   "2025": 710.0,
+   "2017": 74.0,
+   "2012": 95.0,
+   "2013": 103.0,
+   "2014": 125.0
   },
   "eqMeth": {
    "2012": 3306.0,
    "2013": 3329.0,
-   "2014": 677.0
+   "2014": 677.0,
+   "2008": 3393.0,
+   "2009": 3118.0,
+   "2010": 3497.0,
+   "2011": 3448.0,
+   "2015": 796.0,
+   "2016": 1110.0,
+   "2017": 1039.0,
+   "2018": 671.0,
+   "2019": 558.0,
+   "2020": 589.0,
+   "2021": 1061.0,
+   "2022": 1071.0,
+   "2023": 953.0,
+   "2024": 842.0,
+   "2025": 785.0
   },
-  "afsDeb": {},
-  "mktNon": {
+  "afsDeb": {
    "2008": 4781.0,
    "2009": 0.0
   },
+  "mktNon": {},
   "ltInv": {},
   "aoci": {
    "2008": -13372.0,
@@ -590,8 +608,7 @@
    "2025": "ShortTermBorrowings",
    "2009": "CommercialPaper",
    "2011": "CommercialPaper",
-   "2012": "CommercialPaper",
-   "2016": "NotesPayableCurrent"
+   "2012": "CommercialPaper"
   },
   "eqPriv": {
    "2019": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
@@ -600,18 +617,37 @@
    "2022": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
    "2023": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
    "2024": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-   "2025": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount"
+   "2025": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
+   "2017": "EquitySecuritiesFvNi",
+   "2012": "CostMethodInvestments",
+   "2013": "CostMethodInvestments",
+   "2014": "CostMethodInvestments"
   },
   "eqMeth": {
    "2012": "EquityMethodInvestments",
    "2013": "EquityMethodInvestments",
-   "2014": "EquityMethodInvestments"
+   "2014": "EquityMethodInvestments",
+   "2008": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2009": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2010": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2011": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2015": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2016": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2017": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2018": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2019": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2020": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2021": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2022": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2023": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2024": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2025": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures"
   },
-  "afsDeb": {},
-  "mktNon": {
+  "afsDeb": {
    "2008": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2009": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
   },
+  "mktNon": {},
   "ltInv": {},
   "aoci": {
    "2008": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
@@ -675,153 +711,30 @@
   }
  },
  "avvisi": [
-  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo"
+  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo",
+  "2010: l'OCI sale di 2421 ma gli investimenti letti salgono di 379: controllare il filing (investimenti non letti?)",
+  "2016: l'OCI sale di 2123 ma gli investimenti letti salgono di 314: controllare il filing (investimenti non letti?)"
  ],
- "candidati": {
-  "eqMeth": [
-   {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
-    "valori": {
-     "2023": 953,
-     "2024": 842,
-     "2025": 785
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-    "valori": {
-     "2023": 764,
-     "2024": 724,
-     "2025": 710
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNi",
-    "valori": {
-     "2025": 453
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount",
-    "valori": {
-     "2023": 209,
-     "2024": 186,
-     "2025": 191
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueImpairmentLossCumulativeAmount",
-    "valori": {
-     "2023": 98,
-     "2024": 120,
-     "2025": 144
-    }
-   },
-   {
-    "tag": "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
-    "valori": {
-     "2023": -84,
-     "2024": -75,
-     "2025": -42
-    }
-   }
-  ],
-  "afsDeb": [
-   {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
-    "valori": {
-     "2023": 953,
-     "2024": 842,
-     "2025": 785
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-    "valori": {
-     "2023": 764,
-     "2024": 724,
-     "2025": 710
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNi",
-    "valori": {
-     "2025": 453
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount",
-    "valori": {
-     "2023": 209,
-     "2024": 186,
-     "2025": 191
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueImpairmentLossCumulativeAmount",
-    "valori": {
-     "2023": 98,
-     "2024": 120,
-     "2025": 144
-    }
-   },
-   {
-    "tag": "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
-    "valori": {
-     "2023": -84,
-     "2024": -75,
-     "2025": -42
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
-    "valori": {
-     "2023": 953,
-     "2024": 842,
-     "2025": 785
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-    "valori": {
-     "2023": 764,
-     "2024": 724,
-     "2025": 710
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNi",
-    "valori": {
-     "2025": 453
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount",
-    "valori": {
-     "2023": 209,
-     "2024": 186,
-     "2025": 191
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueImpairmentLossCumulativeAmount",
-    "valori": {
-     "2023": 98,
-     "2024": 120,
-     "2025": 144
-    }
-   },
-   {
-    "tag": "IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions",
-    "valori": {
-     "2023": -84,
-     "2024": -75,
-     "2025": -42
-    }
-   }
-  ]
+ "candidati": {},
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2008": "2008-12-31"
  },
  "derivati": {
   "dTotCalc": {
@@ -842,6 +755,51 @@
    "2023": "dNon",
    "2024": "dNon",
    "2025": "dNon"
+  },
+  "invNonOpBase": {
+   "2008": 3393.0,
+   "2009": 3118.0,
+   "2010": 3497.0,
+   "2011": 3448.0,
+   "2012": 3401.0,
+   "2013": 3432.0,
+   "2014": 802.0,
+   "2015": 796.0,
+   "2016": 1110.0,
+   "2017": 1113.0,
+   "2018": 671.0,
+   "2019": 842.0,
+   "2020": 991.0,
+   "2021": 1869.0,
+   "2022": 1875.0,
+   "2023": 1717.0,
+   "2024": 1566.0,
+   "2025": 1495.0
+  },
+  "invNonOpAmpia": {
+   "2008": 8174.0,
+   "2009": 3118.0,
+   "2010": 3497.0,
+   "2011": 3448.0,
+   "2012": 3401.0,
+   "2013": 3432.0,
+   "2014": 802.0,
+   "2015": 796.0,
+   "2016": 1110.0,
+   "2017": 1113.0,
+   "2018": 671.0,
+   "2019": 842.0,
+   "2020": 991.0,
+   "2021": 1869.0,
+   "2022": 1875.0,
+   "2023": 1717.0,
+   "2024": 1566.0,
+   "2025": 1495.0
   }
- }
+ },
+ "sic": "4813",
+ "sic_descrizione": "Telephone Communications (No Radiotelephone)",
+ "chiusura_esercizio": "1231",
+ "nome": "VERIZON COMMUNICATIONS INC",
+ "ambito": "ok"
 }

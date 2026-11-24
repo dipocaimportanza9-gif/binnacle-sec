@@ -237,7 +237,12 @@
    "2018": 6577.0,
    "2019": 6852.0,
    "2020": 7657.0,
-   "2021": 7531.0
+   "2021": 7531.0,
+   "2022": 6590.0,
+   "2023": 6484.0,
+   "2024": 5919.0,
+   "2025": 5805.0,
+   "2026": 6175.0
   },
   "dCurTot": {},
   "dBrev": {
@@ -520,7 +525,12 @@
    "2018": "LongTermDebt",
    "2019": "LongTermDebt",
    "2020": "LongTermDebt",
-   "2021": "LongTermDebt"
+   "2021": "LongTermDebt",
+   "2022": "DebtInstrumentCarryingAmount",
+   "2023": "DebtInstrumentCarryingAmount",
+   "2024": "DebtInstrumentCarryingAmount",
+   "2025": "DebtInstrumentCarryingAmount",
+   "2026": "DebtInstrumentCarryingAmount"
   },
   "dCurTot": {},
   "dBrev": {
@@ -611,137 +621,7 @@
   "Debiti finanziari a breve: ultimo anno 2022 (mancano anni recenti)"
  ],
  "candidati": {
-  "dTot": [
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 6484,
-     "2024": 5919,
-     "2025": 5805,
-     "2026": 6175
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 5377,
-     "2024": 5794,
-     "2025": 5713,
-     "2026": 3914
-    }
-   },
-   {
-    "tag": "LongTermDebtFairValue",
-    "valori": {
-     "2023": 5738,
-     "2024": 5412,
-     "2025": 5370,
-     "2026": 5689
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 2974,
-     "2024": 3340,
-     "2025": 1582,
-     "2026": 1878
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
-    "valori": {
-     "2023": 103,
-     "2024": 76,
-     "2025": 2250,
-     "2026": 0
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
-    "valori": {
-     "2023": 76,
-     "2024": 2250,
-     "2025": 0,
-     "2026": 136
-    }
-   }
-  ],
-  "dBrev": [
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 6484,
-     "2024": 5919,
-     "2025": 5805,
-     "2026": 6175
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 5377,
-     "2024": 5794,
-     "2025": 5713,
-     "2026": 3914
-    }
-   },
-   {
-    "tag": "LongTermDebtFairValue",
-    "valori": {
-     "2023": 5738,
-     "2024": 5412,
-     "2025": 5370,
-     "2026": 5689
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 2974,
-     "2024": 3340,
-     "2025": 1582,
-     "2026": 1878
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
-    "valori": {
-     "2023": 103,
-     "2024": 76,
-     "2025": 2250,
-     "2026": 0
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
-    "valori": {
-     "2023": 76,
-     "2024": 2250,
-     "2025": 0,
-     "2026": 136
-    }
-   }
-  ],
   "eqPriv": [
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfMarketableSecurities",
-    "valori": {
-     "2023": 937,
-     "2024": 1790,
-     "2025": 1141,
-     "2026": 811
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 1622,
-     "2024": 1470,
-     "2025": 1028,
-     "2026": 788
-    }
-   },
    {
     "tag": "ShortTermInvestments",
     "valori": {
@@ -749,108 +629,22 @@
      "2024": 1238,
      "2025": 1123,
      "2026": 1094
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostBeforeAllowanceForCreditLoss",
-    "valori": {
-     "2025": 1120,
-     "2026": 1108
-    }
-   },
-   {
-    "tag": "HeldToMaturitySecuritiesDebtMaturitiesWithinOneYearNetCarryingAmount",
-    "valori": {
-     "2023": 901,
-     "2024": 550,
-     "2025": 337,
-     "2026": 298
-    }
-   },
-   {
-    "tag": "HeldToMaturitySecurities",
-    "valori": {
-     "2023": 901,
-     "2024": 550,
-     "2025": 337,
-     "2026": 298
     }
    }
   ],
   "eqMeth": [
    {
-    "tag": "ProceedsFromSaleAndMaturityOfMarketableSecurities",
-    "valori": {
-     "2023": 937,
-     "2024": 1790,
-     "2025": 1141,
-     "2026": 811
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 1622,
-     "2024": 1470,
-     "2025": 1028,
-     "2026": 788
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 1534,
      "2024": 1238,
      "2025": 1123,
      "2026": 1094
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostBeforeAllowanceForCreditLoss",
-    "valori": {
-     "2025": 1120,
-     "2026": 1108
-    }
-   },
-   {
-    "tag": "HeldToMaturitySecuritiesDebtMaturitiesWithinOneYearNetCarryingAmount",
-    "valori": {
-     "2023": 901,
-     "2024": 550,
-     "2025": 337,
-     "2026": 298
-    }
-   },
-   {
-    "tag": "HeldToMaturitySecurities",
-    "valori": {
-     "2023": 901,
-     "2024": 550,
-     "2025": 337,
-     "2026": 298
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "ProceedsFromSaleAndMaturityOfMarketableSecurities",
-    "valori": {
-     "2023": 937,
-     "2024": 1790,
-     "2025": 1141,
-     "2026": 811
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 1622,
-     "2024": 1470,
-     "2025": 1028,
-     "2026": 788
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 1534,
@@ -858,43 +652,58 @@
      "2025": 1123,
      "2026": 1094
     }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostBeforeAllowanceForCreditLoss",
-    "valori": {
-     "2025": 1120,
-     "2026": 1108
-    }
-   },
-   {
-    "tag": "HeldToMaturitySecuritiesDebtMaturitiesWithinOneYearNetCarryingAmount",
-    "valori": {
-     "2023": 901,
-     "2024": 550,
-     "2025": 337,
-     "2026": 298
-    }
-   },
-   {
-    "tag": "HeldToMaturitySecurities",
-    "valori": {
-     "2023": 901,
-     "2024": 550,
-     "2025": 337,
-     "2026": 298
-    }
    }
   ]
  },
+ "fine_anno": {
+  "2020": "2020-08-30",
+  "2021": "2021-08-29",
+  "2022": "2022-08-28",
+  "2023": "2023-09-03",
+  "2024": "2024-09-01",
+  "2025": "2025-08-31",
+  "2026": "2026-08-30",
+  "2019": "2019-09-01",
+  "2010": "2010-08-29",
+  "2011": "2011-08-28",
+  "2012": "2012-09-02",
+  "2013": "2013-09-01",
+  "2014": "2014-08-31",
+  "2015": "2015-08-30",
+  "2016": "2016-08-28",
+  "2017": "2017-09-03",
+  "2018": "2018-09-02",
+  "2009": "2009-08-30",
+  "2008": "2008-08-31"
+ },
  "derivati": {
-  "dTotCalc": {
-   "2022": 6557.0,
-   "2023": 6458.0,
-   "2024": 5897.0,
-   "2025": 5788.0,
-   "2026": 6162.0
-  },
+  "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2009": 319.0,
+   "2010": 357.0,
+   "2011": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0,
+   "2025": 0,
+   "2026": 0
+  },
+  "invNonOpAmpia": {
+   "2009": 319.0,
+   "2010": 357.0,
+   "2011": 0,
+   "2022": 529.0,
+   "2023": 633.0,
+   "2024": 688.0,
+   "2025": 786.0,
+   "2026": 796.0
+  }
+ },
+ "sic": "5331",
+ "sic_descrizione": "Retail-Variety Stores",
+ "chiusura_esercizio": "0830",
+ "nome": "COSTCO WHOLESALE CORP /NEW",
+ "ambito": "ok"
 }

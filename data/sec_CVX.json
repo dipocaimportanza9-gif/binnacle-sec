@@ -290,7 +290,22 @@
    "2024": 4406.0,
    "2025": 977.0
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2017": 392.0,
+   "2018": 285.0,
+   "2019": 286.0,
+   "2020": 296.0,
+   "2021": 339.0,
+   "2022": 628.0,
+   "2023": 699.0,
+   "2024": 820.0,
+   "2025": 830.0,
+   "2012": 650.0,
+   "2013": 624.0,
+   "2014": 577.0,
+   "2015": 532.0,
+   "2016": 461.0
+  },
   "eqMeth": {
    "2010": 20816.0,
    "2011": 22150.0,
@@ -307,7 +322,9 @@
    "2022": 44610.0,
    "2023": 46113.0,
    "2024": 46618.0,
-   "2025": 43037.0
+   "2025": 43037.0,
+   "2008": 20920.0,
+   "2009": 21158.0
   },
   "afsDeb": {},
   "mktNon": {},
@@ -619,7 +636,22 @@
    "2024": "ShortTermBorrowings",
    "2025": "ShortTermBorrowings"
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2017": "EquitySecuritiesFvNi",
+   "2018": "EquitySecuritiesFvNi",
+   "2019": "EquitySecuritiesFvNi",
+   "2020": "EquitySecuritiesFvNi",
+   "2021": "EquitySecuritiesFvNi",
+   "2022": "EquitySecuritiesFvNi",
+   "2023": "EquitySecuritiesFvNi",
+   "2024": "EquitySecuritiesFvNi",
+   "2025": "EquitySecuritiesFvNi",
+   "2012": "CostMethodInvestments",
+   "2013": "CostMethodInvestments",
+   "2014": "CostMethodInvestments",
+   "2015": "CostMethodInvestments",
+   "2016": "CostMethodInvestments"
+  },
   "eqMeth": {
    "2010": "EquityMethodInvestments",
    "2011": "EquityMethodInvestments",
@@ -636,7 +668,9 @@
    "2022": "EquityMethodInvestments",
    "2023": "EquityMethodInvestments",
    "2024": "EquityMethodInvestments",
-   "2025": "EquityMethodInvestments"
+   "2025": "EquityMethodInvestments",
+   "2008": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2009": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures"
   },
   "afsDeb": {},
   "mktNon": {},
@@ -742,90 +776,17 @@
   }
  },
  "avvisi": [
-  "Il tag del debito include i leasing finanziari negli anni 2018-2025: non sommarli di nuovo"
+  "Il tag del debito include i leasing finanziari negli anni 2018-2025: non sommarli di nuovo",
+  "2013: l'OCI sale di 2790 ma gli investimenti letti salgono di 1784: controllare il filing (investimenti non letti?)"
  ],
  "candidati": {
-  "eqPriv": [
-   {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
-    "valori": {
-     "2023": 46812,
-     "2024": 47438,
-     "2025": 43867
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 46113,
-     "2024": 46618,
-     "2025": 43037
-    }
-   },
-   {
-    "tag": "RetainedEarningsUndistributedEarningsFromEquityMethodInvestees",
-    "valori": {
-     "2023": 34359,
-     "2024": 35349,
-     "2025": 32062
-    }
-   },
-   {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 29584,
-     "2024": 27506,
-     "2025": 19743
-    }
-   },
-   {
-    "tag": "EquityMethodInvestmentDividendsOrDistributions",
-    "valori": {
-     "2023": 4246,
-     "2024": 4230,
-     "2025": 5282
-    }
-   },
-   {
-    "tag": "IncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 5131,
-     "2024": 4596,
-     "2025": 3000
-    }
-   }
-  ],
   "afsDeb": [
    {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
-    "valori": {
-     "2023": 46812,
-     "2024": 47438,
-     "2025": 43867
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 46113,
-     "2024": 46618,
-     "2025": 43037
-    }
-   },
-   {
     "tag": "RetainedEarningsUndistributedEarningsFromEquityMethodInvestees",
     "valori": {
      "2023": 34359,
      "2024": 35349,
      "2025": 32062
-    }
-   },
-   {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 29584,
-     "2024": 27506,
-     "2025": 19743
     }
    },
    {
@@ -837,45 +798,29 @@
     }
    },
    {
-    "tag": "IncomeLossFromEquityMethodInvestments",
+    "tag": "RestrictedInvestmentsCurrent",
     "valori": {
-     "2023": 5131,
-     "2024": 4596,
-     "2025": 3000
+     "2023": 1097,
+     "2024": 1481,
+     "2025": 992
+    }
+   },
+   {
+    "tag": "MarketableSecuritiesCurrent",
+    "valori": {
+     "2023": 45,
+     "2024": 0,
+     "2025": 0
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
-    "valori": {
-     "2023": 46812,
-     "2024": 47438,
-     "2025": 43867
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 46113,
-     "2024": 46618,
-     "2025": 43037
-    }
-   },
-   {
     "tag": "RetainedEarningsUndistributedEarningsFromEquityMethodInvestees",
     "valori": {
      "2023": 34359,
      "2024": 35349,
      "2025": 32062
-    }
-   },
-   {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 29584,
-     "2024": 27506,
-     "2025": 19743
     }
    },
    {
@@ -887,14 +832,42 @@
     }
    },
    {
-    "tag": "IncomeLossFromEquityMethodInvestments",
+    "tag": "RestrictedInvestmentsCurrent",
     "valori": {
-     "2023": 5131,
-     "2024": 4596,
-     "2025": 3000
+     "2023": 1097,
+     "2024": 1481,
+     "2025": 992
+    }
+   },
+   {
+    "tag": "MarketableSecuritiesCurrent",
+    "valori": {
+     "2023": 45,
+     "2024": 0,
+     "2025": 0
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2008": "2008-12-31"
  },
  "derivati": {
   "dTotCalc": {},
@@ -908,6 +881,51 @@
    "2023": "dNon dTot",
    "2024": "dNon dTot",
    "2025": "dNon dTot"
+  },
+  "invNonOpBase": {
+   "2008": 20920.0,
+   "2009": 21158.0,
+   "2010": 20816.0,
+   "2011": 22150.0,
+   "2012": 23718.0,
+   "2013": 25502.0,
+   "2014": 26912.0,
+   "2015": 27110.0,
+   "2016": 30250.0,
+   "2017": 32497.0,
+   "2018": 35546.0,
+   "2019": 38688.0,
+   "2020": 39052.0,
+   "2021": 40696.0,
+   "2022": 45238.0,
+   "2023": 46812.0,
+   "2024": 47438.0,
+   "2025": 43867.0
+  },
+  "invNonOpAmpia": {
+   "2008": 20920.0,
+   "2009": 21158.0,
+   "2010": 20816.0,
+   "2011": 22150.0,
+   "2012": 23718.0,
+   "2013": 25502.0,
+   "2014": 26912.0,
+   "2015": 27110.0,
+   "2016": 30250.0,
+   "2017": 32497.0,
+   "2018": 35546.0,
+   "2019": 38688.0,
+   "2020": 39052.0,
+   "2021": 40696.0,
+   "2022": 45238.0,
+   "2023": 46812.0,
+   "2024": 47438.0,
+   "2025": 43867.0
   }
- }
+ },
+ "sic": "2911",
+ "sic_descrizione": "Petroleum Refining",
+ "chiusura_esercizio": "1231",
+ "nome": "CHEVRON CORP",
+ "ambito": "ok"
 }

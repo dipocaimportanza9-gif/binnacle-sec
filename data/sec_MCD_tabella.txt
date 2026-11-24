@@ -35,7 +35,7 @@ Debiti finanziari a breve                                            .        . 
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
 Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
-Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                  793      726    1,086    1,203    1,270    1,297    1,201    1,064    1,080    2,710    2,820        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
@@ -63,31 +63,13 @@ Leasing operativi: quota non corrente: ultimo anno 2022 (mancano anni recenti)
 Debito corrente totale (con debiti a breve): ultimo anno 2024 (mancano anni recenti)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-opLiab: LessorOperatingLeasePaymentsToBeReceived {2023: 31162, 2024: 29598, 2025: 31451}
-opLiab: LessorOperatingLeasePaymentsToBeReceivedThereafter {2023: 17336, 2024: 16375, 2025: 17465}
-opLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 17398, 2024: 15950, 2025: 16564}
-opLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 12132, 2024: 10897, 2025: 10977}
 opLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 5227, 2024: 4206, 2025: 4075}
-opLiab: FinanceLeaseLiabilityPaymentsDue {2023: 2482, 2024: 3012, 2025: 4062}
-eqPriv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 1080, 2024: 2710, 2025: 2820}
-eqPriv: PaymentsToAcquireEquityMethodInvestments {2023: 0, 2024: 1837, 2025: 0}
+opLiab: FinanceLeaseLiabilityUndiscountedExcessAmount {2023: 907, 2024: 1232, 2025: 1710}
+opLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 1000, 2024: 626, 2025: 765}
+opLiab: IncreaseDecreaseInOperatingLeaseLiability {2023: 950, 2024: 222, 2025: 0}
+opLiab: RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability {2023: 300, 2024: 297, 2025: 468}
 eqPriv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2024: 1500, 2025: 1400}
-eqPriv: GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee {2023: 537, 2024: 537}
-eqPriv: IncomeLossFromEquityMethodInvestments {2023: 153, 2024: 157, 2025: 190}
-eqMeth: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 1080, 2024: 2710, 2025: 2820}
-eqMeth: PaymentsToAcquireEquityMethodInvestments {2023: 0, 2024: 1837, 2025: 0}
-eqMeth: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2024: 1500, 2025: 1400}
-eqMeth: GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee {2023: 537, 2024: 537}
-eqMeth: IncomeLossFromEquityMethodInvestments {2023: 153, 2024: 157, 2025: 190}
-afsDeb: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 1080, 2024: 2710, 2025: 2820}
-afsDeb: PaymentsToAcquireEquityMethodInvestments {2023: 0, 2024: 1837, 2025: 0}
 afsDeb: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2024: 1500, 2025: 1400}
-afsDeb: GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee {2023: 537, 2024: 537}
-afsDeb: IncomeLossFromEquityMethodInvestments {2023: 153, 2024: 157, 2025: 190}
-ltInv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 1080, 2024: 2710, 2025: 2820}
-ltInv: PaymentsToAcquireEquityMethodInvestments {2023: 0, 2024: 1837, 2025: 0}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2024: 1500, 2025: 1400}
-ltInv: GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee {2023: 537, 2024: 537}
-ltInv: IncomeLossFromEquityMethodInvestments {2023: 153, 2024: 157, 2025: 190}
 
-Tempo: 2 s. File scritto: sec_MCD.json
+Tempo: 3 s. File scritto: sec_MCD.json

@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                     12,927   19,840 
 Debiti finanziari a breve                                        4,927   10,840    5,192    5,726    3,282    1,548      256    1,964      529    4,406      977        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                  532      461      392      285      286      296      339      628      699      820      830        .
 Partecipazioni a patrimonio netto (equity method)               26,578   29,789   32,105   35,261   38,402   38,756   40,357   44,610   46,113   46,618   43,037        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -62,25 +62,16 @@ cvx:ShortTermDebtReclassifiedToLongTermDebtAmount                    .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2018-2025: non sommarli di nuovo
+2013: l'OCI sale di 2790 ma gli investimenti letti salgono di 1784: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-eqPriv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 46812, 2024: 47438, 2025: 43867}
-eqPriv: EquityMethodInvestments {2023: 46113, 2024: 46618, 2025: 43037}
-eqPriv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 34359, 2024: 35349, 2025: 32062}
-eqPriv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 29584, 2024: 27506, 2025: 19743}
-eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 2025: 5282}
-eqPriv: IncomeLossFromEquityMethodInvestments {2023: 5131, 2024: 4596, 2025: 3000}
-afsDeb: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 46812, 2024: 47438, 2025: 43867}
-afsDeb: EquityMethodInvestments {2023: 46113, 2024: 46618, 2025: 43037}
 afsDeb: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 34359, 2024: 35349, 2025: 32062}
-afsDeb: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 29584, 2024: 27506, 2025: 19743}
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 2025: 5282}
-afsDeb: IncomeLossFromEquityMethodInvestments {2023: 5131, 2024: 4596, 2025: 3000}
-ltInv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 46812, 2024: 47438, 2025: 43867}
-ltInv: EquityMethodInvestments {2023: 46113, 2024: 46618, 2025: 43037}
+afsDeb: RestrictedInvestmentsCurrent {2023: 1097, 2024: 1481, 2025: 992}
+afsDeb: MarketableSecuritiesCurrent {2023: 45, 2024: 0, 2025: 0}
 ltInv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 34359, 2024: 35349, 2025: 32062}
-ltInv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 29584, 2024: 27506, 2025: 19743}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 2025: 5282}
-ltInv: IncomeLossFromEquityMethodInvestments {2023: 5131, 2024: 4596, 2025: 3000}
+ltInv: RestrictedInvestmentsCurrent {2023: 1097, 2024: 1481, 2025: 992}
+ltInv: MarketableSecuritiesCurrent {2023: 45, 2024: 0, 2025: 0}
 
-Tempo: 2 s. File scritto: sec_CVX.json
+Tempo: 6 s. File scritto: sec_CVX.json

@@ -36,8 +36,8 @@ Debiti finanziari a breve                                            .        . 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
 Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
 Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
-Titoli di debito disponibili per la vendita (valore equo)            .        .       61      265      472    1,748      855      756        .        .        .        .
-Titoli di mercato non correnti                                       .        .        .        0       89       39       85       29       87      112      134        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .       61        0       89       39       85       29       87      112      134        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                       11       18       -6       -8       -9        6      -75     -314     -268     -298     -226        .
 
@@ -52,45 +52,11 @@ etsy:DeferredTaxAssetsTaxDeferredExpenseFinancingAndInterest         .        . 
 etsy:LesseeFinanceLeaseTenantImprovementAllowance                    .        .        .        .        .        .        .        .        .        .        6        .
 etsy:LesseeOperatingLeaseTenantImprovementAllowance                  .        .        .        .        .        .        .        .        .        .        2        .
 
---- AVVISI ---
-Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2022 (mancano anni recenti)
-
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dCur: DebtInstrumentFaceAmount {2025: 3000}
-dCur: DebtLongtermAndShorttermCombinedAmount {2025: 2982}
-dCur: LongTermDebt {2023: 2284, 2024: 2288, 2025: 2333}
-dCur: ProceedsFromConvertibleDebt {2023: 0, 2024: 0, 2025: 700}
-dCur: ShortTermBorrowings {2024: 0, 2025: 649}
-dCur: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 236, 2024: 228, 2025: 224}
 dNon: DebtInstrumentFaceAmount {2025: 3000}
-dNon: DebtLongtermAndShorttermCombinedAmount {2025: 2982}
-dNon: LongTermDebt {2023: 2284, 2024: 2288, 2025: 2333}
-dNon: ProceedsFromConvertibleDebt {2023: 0, 2024: 0, 2025: 700}
-dNon: ShortTermBorrowings {2024: 0, 2025: 649}
-dNon: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 236, 2024: 228, 2025: 224}
-eqPriv: PaymentsToAcquireInvestments {2023: 343, 2024: 331, 2025: 327}
-eqPriv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 309, 2024: 321, 2025: 313}
-eqPriv: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 236, 2024: 228, 2025: 224}
-eqPriv: DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months {2023: 154, 2024: 82, 2025: 18}
-eqPriv: AvailableForSaleSecuritiesDebtSecuritiesNoncurrent {2023: 87, 2024: 112, 2025: 134}
-eqPriv: DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger {2023: 21, 2024: 14, 2025: 0}
-eqMeth: PaymentsToAcquireInvestments {2023: 343, 2024: 331, 2025: 327}
-eqMeth: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 309, 2024: 321, 2025: 313}
-eqMeth: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 236, 2024: 228, 2025: 224}
-eqMeth: DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months {2023: 154, 2024: 82, 2025: 18}
-eqMeth: AvailableForSaleSecuritiesDebtSecuritiesNoncurrent {2023: 87, 2024: 112, 2025: 134}
-eqMeth: DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger {2023: 21, 2024: 14, 2025: 0}
-afsDeb: PaymentsToAcquireInvestments {2023: 343, 2024: 331, 2025: 327}
-afsDeb: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 309, 2024: 321, 2025: 313}
-afsDeb: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 236, 2024: 228, 2025: 224}
-afsDeb: DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months {2023: 154, 2024: 82, 2025: 18}
-afsDeb: AvailableForSaleSecuritiesDebtSecuritiesNoncurrent {2023: 87, 2024: 112, 2025: 134}
-afsDeb: DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger {2023: 21, 2024: 14, 2025: 0}
-ltInv: PaymentsToAcquireInvestments {2023: 343, 2024: 331, 2025: 327}
-ltInv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 309, 2024: 321, 2025: 313}
-ltInv: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 236, 2024: 228, 2025: 224}
-ltInv: DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months {2023: 154, 2024: 82, 2025: 18}
-ltInv: AvailableForSaleSecuritiesDebtSecuritiesNoncurrent {2023: 87, 2024: 112, 2025: 134}
-ltInv: DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger {2023: 21, 2024: 14, 2025: 0}
+eqPriv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0}
+eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0}
+ltInv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0}
 
 Tempo: 5 s. File scritto: sec_ETSY.json

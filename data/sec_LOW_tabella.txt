@@ -71,29 +71,14 @@ Titoli di mercato non correnti: ultimo anno 2023 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2010-2026: non sommarli di nuovo
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dBrev: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 33461, 2024: 35921, 2025: 35487, 2026: 39921}
-dBrev: LongTermDebt {2023: 33270, 2024: 35770, 2025: 35319, 2026: 39819}
-dBrev: LongTermDebtAndCapitalLeaseObligations {2023: 32876, 2024: 35384, 2025: 32901, 2026: 37490}
-dBrev: NotesPayable {2023: 32899, 2024: 35411, 2025: 35012}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 26102, 2024: 25847, 2025: 24035, 2026: 25135}
-dBrev: ProceedsFromIssuanceOfDebt {2023: 9667, 2024: 2983, 2025: 0, 2026: 6974}
-eqPriv: PaymentsToAcquireInvestments {2023: 1189, 2024: 1785, 2025: 1286, 2026: 1693}
-eqPriv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 1174, 2024: 1722, 2025: 1204, 2026: 1658}
 eqPriv: ShortTermInvestments {2023: 384, 2024: 307, 2025: 372, 2026: 370}
 eqPriv: RestrictedCashAndInvestmentsCurrent {2023: 384, 2024: 307, 2025: 372}
-eqPriv: LongTermInvestments {2023: 121, 2024: 252, 2025: 277, 2026: 319}
 eqPriv: RestrictedCashAndInvestmentsNoncurrent {2023: 100, 2024: 252, 2025: 277}
-eqMeth: PaymentsToAcquireInvestments {2023: 1189, 2024: 1785, 2025: 1286, 2026: 1693}
-eqMeth: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 1174, 2024: 1722, 2025: 1204, 2026: 1658}
 eqMeth: ShortTermInvestments {2023: 384, 2024: 307, 2025: 372, 2026: 370}
 eqMeth: RestrictedCashAndInvestmentsCurrent {2023: 384, 2024: 307, 2025: 372}
-eqMeth: LongTermInvestments {2023: 121, 2024: 252, 2025: 277, 2026: 319}
 eqMeth: RestrictedCashAndInvestmentsNoncurrent {2023: 100, 2024: 252, 2025: 277}
-afsDeb: PaymentsToAcquireInvestments {2023: 1189, 2024: 1785, 2025: 1286, 2026: 1693}
-afsDeb: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 1174, 2024: 1722, 2025: 1204, 2026: 1658}
 afsDeb: ShortTermInvestments {2023: 384, 2024: 307, 2025: 372, 2026: 370}
 afsDeb: RestrictedCashAndInvestmentsCurrent {2023: 384, 2024: 307, 2025: 372}
-afsDeb: LongTermInvestments {2023: 121, 2024: 252, 2025: 277, 2026: 319}
 afsDeb: RestrictedCashAndInvestmentsNoncurrent {2023: 100, 2024: 252, 2025: 277}
 
-Tempo: 2 s. File scritto: sec_LOW.json
+Tempo: 4 s. File scritto: sec_LOW.json

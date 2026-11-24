@@ -28,16 +28,16 @@ Impegni: oltre il quinto anno                                        .        . 
 
 --- DEBITO FINANZIARIO ---
 Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
-Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        0    2,272    2,280
 Debito a lungo termine: totale                                       .        .        .        .        .        .        .        .        .        .        .        .
 Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
 Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .       41      171      174      190      281      359
+Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        0       41      171      174      190      281      359
 Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        0        5        5        6        5
-Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .      330    4,253    4,023    4,141    3,000    2,665    1,956
-Titoli di mercato non correnti                                       .        .        .        .        .       24    1,165    1,256    1,073      916      656      755
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .       24    1,165    1,256    1,073      916      656      755
+Titoli di mercato non correnti                                       .        .        .        .        .        .       42      208      203      234      301      381
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                        .        .        .        .        .        0        0      -16      -38       -8       -2        3
 
@@ -71,41 +71,8 @@ snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        . 
 snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .        .        .       34       42       64       74
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 337, 2024: 365, 2025: 557, 2026: 591}
-finLiab: OperatingLeaseLiability {2023: 252, 2024: 288, 2025: 414, 2026: 461}
-finLiab: OperatingLeaseLiabilityNoncurrent {2023: 224, 2024: 254, 2025: 378, 2026: 412}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 231, 2024: 252, 2025: 359, 2026: 275}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 152, 2024: 136, 2025: 261, 2026: 217}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 72, 2024: 56, 2025: 148, 2026: 44}
-dCur: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4177, 2024: 3005, 2025: 2665, 2026: 1951}
-dCur: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 4160, 2024: 3000, 2025: 2665, 2026: 1957}
-dCur: AvailableForSaleSecuritiesDebtSecurities {2023: 4141, 2024: 3000, 2025: 2665, 2026: 1957}
-dCur: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3087, 2024: 2083, 2025: 2009, 2026: 1202}
-dCur: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 3074, 2024: 1909}
-dCur: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 3068, 2024: 2083, 2025: 2009, 2026: 1202}
-dNon: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4177, 2024: 3005, 2025: 2665, 2026: 1951}
-dNon: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 4160, 2024: 3000, 2025: 2665, 2026: 1957}
-dNon: AvailableForSaleSecuritiesDebtSecurities {2023: 4141, 2024: 3000, 2025: 2665, 2026: 1957}
-dNon: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3087, 2024: 2083, 2025: 2009, 2026: 1202}
-dNon: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 3074, 2024: 1909}
-dNon: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 3068, 2024: 2083, 2025: 2009, 2026: 1202}
-dTot: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4177, 2024: 3005, 2025: 2665, 2026: 1951}
-dTot: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 4160, 2024: 3000, 2025: 2665, 2026: 1957}
-dTot: AvailableForSaleSecuritiesDebtSecurities {2023: 4141, 2024: 3000, 2025: 2665, 2026: 1957}
-dTot: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3087, 2024: 2083, 2025: 2009, 2026: 1202}
-dTot: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 3074, 2024: 1909}
-dTot: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 3068, 2024: 2083, 2025: 2009, 2026: 1202}
-dBrev: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4177, 2024: 3005, 2025: 2665, 2026: 1951}
-dBrev: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 4160, 2024: 3000, 2025: 2665, 2026: 1957}
-dBrev: AvailableForSaleSecuritiesDebtSecurities {2023: 4141, 2024: 3000, 2025: 2665, 2026: 1957}
-dBrev: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3087, 2024: 2083, 2025: 2009, 2026: 1202}
-dBrev: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 3074, 2024: 1909}
-dBrev: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 3068, 2024: 2083, 2025: 2009, 2026: 1202}
-ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4177, 2024: 3005, 2025: 2665, 2026: 1951}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 4160, 2024: 3000, 2025: 2665, 2026: 1957}
-ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 4141, 2024: 3000, 2025: 2665, 2026: 1957}
-ltInv: PaymentsToAcquireInvestments {2023: 3901, 2024: 2476, 2025: 2569, 2026: 2040}
-ltInv: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 3657, 2024: 3671, 2025: 2802, 2026: 2615}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 3087, 2024: 2083, 2025: 2009, 2026: 1202}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 85, 2024: 77, 2025: 144, 2026: 129}
 
-Tempo: 2 s. File scritto: sec_SNOW.json
+Tempo: 3 s. File scritto: sec_SNOW.json

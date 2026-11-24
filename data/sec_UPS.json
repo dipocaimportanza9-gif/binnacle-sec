@@ -700,7 +700,8 @@
   }
  },
  "avvisi": [
-  "Il tag del debito include i leasing finanziari negli anni 2023-2025: non sommarli di nuovo"
+  "Il tag del debito include i leasing finanziari negli anni 2023-2025: non sommarli di nuovo",
+  "2022: l'OCI sale di 1729 ma gli investimenti letti salgono di 233: controllare il filing (investimenti non letti?)"
  ],
  "candidati": {
   "dBrev": [
@@ -719,57 +720,9 @@
      "2024": 21284,
      "2025": 24127
     }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 21998,
-     "2024": 21030,
-     "2025": 23585
-    }
-   },
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligations",
-    "valori": {
-     "2023": 18916,
-     "2024": 19446,
-     "2025": 23519
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 14501,
-     "2024": 16125,
-     "2025": 18672
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfLongTermDebt",
-    "valori": {
-     "2023": 3429,
-     "2024": 2785,
-     "2025": 4153
-    }
    }
   ],
   "afsDeb": [
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 3521,
-     "2024": 76,
-     "2025": 90
-    }
-   },
-   {
-    "tag": "TradingSecuritiesDebtAmortizedCost",
-    "valori": {
-     "2023": 2868,
-     "2024": 207,
-     "2025": 3
-    }
-   },
    {
     "tag": "TradingSecurities",
     "valori": {
@@ -786,40 +739,30 @@
     }
    },
    {
-    "tag": "DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss",
+    "tag": "CashCollateralForBorrowedSecurities",
     "valori": {
-     "2023": 2864,
-     "2024": 204,
+     "2024": 2700,
+     "2025": 1600
+    }
+   },
+   {
+    "tag": "CollateralSecuritiesRepledgedDeliveredOrUsed",
+    "valori": {
+     "2023": 13,
+     "2024": 0,
      "2025": 0
     }
    },
    {
-    "tag": "DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent",
+    "tag": "EquitySecuritiesFvNiCurrentAndNoncurrent",
     "valori": {
-     "2023": 2862,
-     "2024": 203,
-     "2025": 0
+     "2023": 4,
+     "2024": 3
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 3521,
-     "2024": 76,
-     "2025": 90
-    }
-   },
-   {
-    "tag": "TradingSecuritiesDebtAmortizedCost",
-    "valori": {
-     "2023": 2868,
-     "2024": 207,
-     "2025": 3
-    }
-   },
-   {
     "tag": "TradingSecurities",
     "valori": {
      "2023": 2866,
@@ -835,22 +778,48 @@
     }
    },
    {
-    "tag": "DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss",
+    "tag": "CashCollateralForBorrowedSecurities",
     "valori": {
-     "2023": 2864,
-     "2024": 204,
+     "2024": 2700,
+     "2025": 1600
+    }
+   },
+   {
+    "tag": "CollateralSecuritiesRepledgedDeliveredOrUsed",
+    "valori": {
+     "2023": 13,
+     "2024": 0,
      "2025": 0
     }
    },
    {
-    "tag": "DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent",
+    "tag": "EquitySecuritiesFvNiCurrentAndNoncurrent",
     "valori": {
-     "2023": 2862,
-     "2024": 203,
-     "2025": 0
+     "2023": 4,
+     "2024": 3
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2009": "2009-12-31",
+  "2008": "2008-12-31"
  },
  "derivati": {
   "dTotCalc": {
@@ -863,6 +832,25 @@
    "2023": "dNon",
    "2024": "dNon",
    "2025": "dNon"
+  },
+  "invNonOpBase": {
+   "2021": 54.0,
+   "2022": 287.0,
+   "2023": 342.0,
+   "2024": 346.0,
+   "2025": 300.0
+  },
+  "invNonOpAmpia": {
+   "2021": 54.0,
+   "2022": 287.0,
+   "2023": 342.0,
+   "2024": 346.0,
+   "2025": 300.0
   }
- }
+ },
+ "sic": "4210",
+ "sic_descrizione": "Trucking & Courier Services (No Air)",
+ "chiusura_esercizio": "1231",
+ "nome": "UNITED PARCEL SERVICE INC",
+ "ambito": "ok"
 }

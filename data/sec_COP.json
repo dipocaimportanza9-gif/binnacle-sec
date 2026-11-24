@@ -238,7 +238,19 @@
    "2012": 1055.0,
    "2013": 961.0
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2020": 1256.0,
+   "2021": 1117.0,
+   "2022": 0.0,
+   "2009": 453.0,
+   "2010": 604.0,
+   "2011": 564.0,
+   "2012": 449.0,
+   "2013": 457.0,
+   "2014": 465.0,
+   "2015": 121.0,
+   "2016": 96.0
+  },
   "eqMeth": {
    "2009": 34280.0,
    "2010": 30055.0,
@@ -259,10 +271,6 @@
    "2025": 8833.0
   },
   "afsDeb": {
-   "2024": 1551.0,
-   "2025": 1601.0
-  },
-  "mktNon": {
    "2020": 217.0,
    "2021": 248.0,
    "2022": 522.0,
@@ -270,7 +278,26 @@
    "2024": 1055.0,
    "2025": 1148.0
   },
-  "ltInv": {},
+  "mktNon": {},
+  "ltInv": {
+   "2009": 38094.0,
+   "2010": 33761.0,
+   "2011": 33783.0,
+   "2012": 25006.0,
+   "2013": 23907.0,
+   "2014": 24335.0,
+   "2015": 20490.0,
+   "2016": 21672.0,
+   "2017": 10060.0,
+   "2018": 9664.0,
+   "2019": 8906.0,
+   "2020": 8131.0,
+   "2021": 7113.0,
+   "2022": 8225.0,
+   "2023": 9130.0,
+   "2024": 9869.0,
+   "2025": 10185.0
+  },
   "aoci": {
    "2008": -1875.0,
    "2009": 3225.0,
@@ -526,7 +553,19 @@
    "2012": "CommercialPaper",
    "2013": "CommercialPaper"
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2020": "EquitySecuritiesFvNi",
+   "2021": "EquitySecuritiesFvNi",
+   "2022": "EquitySecuritiesFvNi",
+   "2009": "CostMethodInvestments",
+   "2010": "CostMethodInvestments",
+   "2011": "CostMethodInvestments",
+   "2012": "CostMethodInvestments",
+   "2013": "CostMethodInvestments",
+   "2014": "CostMethodInvestments",
+   "2015": "CostMethodInvestments",
+   "2016": "CostMethodInvestments"
+  },
   "eqMeth": {
    "2009": "EquityMethodInvestments",
    "2010": "EquityMethodInvestments",
@@ -547,10 +586,6 @@
    "2025": "EquityMethodInvestments"
   },
   "afsDeb": {
-   "2024": "AvailableForSaleSecuritiesDebtSecurities",
-   "2025": "AvailableForSaleSecuritiesDebtSecurities"
-  },
-  "mktNon": {
    "2020": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2021": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2022": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
@@ -558,7 +593,26 @@
    "2024": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2025": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
   },
-  "ltInv": {},
+  "mktNon": {},
+  "ltInv": {
+   "2009": "LongTermInvestmentsAndReceivablesNet",
+   "2010": "LongTermInvestmentsAndReceivablesNet",
+   "2011": "LongTermInvestmentsAndReceivablesNet",
+   "2012": "LongTermInvestmentsAndReceivablesNet",
+   "2013": "LongTermInvestmentsAndReceivablesNet",
+   "2014": "LongTermInvestmentsAndReceivablesNet",
+   "2015": "LongTermInvestmentsAndReceivablesNet",
+   "2016": "LongTermInvestmentsAndReceivablesNet",
+   "2017": "LongTermInvestmentsAndReceivablesNet",
+   "2018": "LongTermInvestmentsAndReceivablesNet",
+   "2019": "LongTermInvestmentsAndReceivablesNet",
+   "2020": "LongTermInvestmentsAndReceivablesNet",
+   "2021": "LongTermInvestmentsAndReceivablesNet",
+   "2022": "LongTermInvestmentsAndReceivablesNet",
+   "2023": "LongTermInvestmentsAndReceivablesNet",
+   "2024": "LongTermInvestmentsAndReceivablesNet",
+   "2025": "LongTermInvestmentsAndReceivablesNet"
+  },
   "aoci": {
    "2008": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2009": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
@@ -615,18 +669,12 @@
   }
  },
  "avvisi": [
-  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo"
+  "Equity in societa' non quotate (valore contabile): ultimo anno 2022 (mancano anni recenti)",
+  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo",
+  "2010: l'OCI sale di 1708 ma gli investimenti letti salgono di -4333: controllare il filing (investimenti non letti?)"
  ],
  "candidati": {
   "dBrev": [
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
-    "valori": {
-     "2023": 18937,
-     "2024": 24324,
-     "2025": 23444
-    }
-   },
    {
     "tag": "DebtInstrumentFaceAmount",
     "valori": {
@@ -636,137 +684,67 @@
     }
    },
    {
-    "tag": "LongTermDebtAndCapitalLeaseObligations",
+    "tag": "ExtinguishmentOfDebtAmount",
     "valori": {
-     "2023": 17863,
-     "2024": 23289,
-     "2025": 22424
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfDebt",
-    "valori": {
-     "2023": 3787,
-     "2024": 5591,
-     "2025": 0
-    }
-   },
-   {
-    "tag": "RepaymentsOfDebt",
-    "valori": {
-     "2023": 1379,
-     "2024": 4981,
-     "2025": 913
-    }
-   },
-   {
-    "tag": "DebtInstrumentRepurchasedFaceAmount",
-    "valori": {
-     "2023": 1133,
-     "2024": 3768
+     "2025": 700
     }
    }
   ],
   "eqPriv": [
    {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 16288,
-     "2024": 13672,
-     "2025": 12656
-    }
-   },
-   {
-    "tag": "LongTermInvestmentsAndReceivablesNet",
-    "valori": {
-     "2023": 9130,
-     "2024": 9869,
-     "2025": 10185
-    }
-   },
-   {
-    "tag": "InvestmentOwnedAtFairValue",
-    "valori": {
-     "2023": 7905,
-     "2024": 8610,
-     "2025": 8833
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 7905,
-     "2024": 8611,
-     "2025": 8833
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfShortTermInvestments",
-    "valori": {
-     "2023": 3574,
-     "2024": 3567,
-     "2025": 1751
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {
      "2023": 2684,
      "2024": 2283,
      "2025": 1531
     }
-   }
-  ],
-  "ltInv": [
+   },
    {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+    "tag": "ShortTermInvestments",
     "valori": {
-     "2023": 16288,
-     "2024": 13672,
-     "2025": 12656
+     "2023": 971,
+     "2024": 507,
+     "2025": 484
     }
    },
    {
-    "tag": "LongTermInvestmentsAndReceivablesNet",
+    "tag": "RetainedEarningsUndistributedEarningsFromEquityMethodInvestees",
     "valori": {
-     "2023": 9130,
-     "2024": 9869,
-     "2025": 10185
+     "2023": 60,
+     "2024": 96,
+     "2025": 112
     }
    },
    {
-    "tag": "InvestmentOwnedAtFairValue",
+    "tag": "OtherInvestments",
     "valori": {
-     "2023": 7905,
-     "2024": 8610,
-     "2025": 8833
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 7905,
-     "2024": 8611,
-     "2025": 8833
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfShortTermInvestments",
-    "valori": {
-     "2023": 3574,
-     "2024": 3567,
-     "2025": 1751
-    }
-   },
-   {
-    "tag": "EquityMethodInvestmentDividendsOrDistributions",
-    "valori": {
-     "2023": 2684,
-     "2024": 2283,
-     "2025": 1531
+     "2023": 93,
+     "2024": 90,
+     "2025": 94
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2008": "2008-12-31",
+  "2007": "2007-12-31"
  },
  "derivati": {
   "dTotCalc": {
@@ -801,6 +779,49 @@
    "2023": "dNon dTot",
    "2024": "dNon dTot",
    "2025": "dNon dTot"
+  },
+  "invNonOpBase": {
+   "2009": 38094.0,
+   "2010": 33761.0,
+   "2011": 33783.0,
+   "2012": 25006.0,
+   "2013": 23907.0,
+   "2014": 24335.0,
+   "2015": 20490.0,
+   "2016": 21672.0,
+   "2017": 10060.0,
+   "2018": 9664.0,
+   "2019": 8906.0,
+   "2020": 8852.0,
+   "2021": 7818.0,
+   "2022": 8225.0,
+   "2023": 9130.0,
+   "2024": 9869.0,
+   "2025": 10185.0
+  },
+  "invNonOpAmpia": {
+   "2009": 38094.0,
+   "2010": 33761.0,
+   "2011": 33783.0,
+   "2012": 25006.0,
+   "2013": 23907.0,
+   "2014": 24335.0,
+   "2015": 20490.0,
+   "2016": 21672.0,
+   "2017": 10060.0,
+   "2018": 9664.0,
+   "2019": 8906.0,
+   "2020": 9069.0,
+   "2021": 8066.0,
+   "2022": 8225.0,
+   "2023": 9130.0,
+   "2024": 9869.0,
+   "2025": 10185.0
   }
- }
+ },
+ "sic": "2911",
+ "sic_descrizione": "Petroleum Refining",
+ "chiusura_esercizio": "1231",
+ "nome": "CONOCOPHILLIPS",
+ "ambito": "ok"
 }

@@ -27,11 +27,11 @@ Impegni: anno 5                                                    159      184 
 Impegni: oltre il quinto anno                                      438      733    2,423    9,850        .        .        .        .        .        .        .        .
 
 --- DEBITO FINANZIARIO ---
-Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: quota corrente                             201        0        .        .        .        .        .        .        .        .        .        .
 Debito a lungo termine: non corrente                                 .        .        .        .        .        .        0    9,923   18,385   28,826   58,744        .
 Debito a lungo termine: totale                                       .        .        .        .        .        .        .    9,923   18,385   28,826   58,744        .
 Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
-Debiti finanziari a breve                                          201        0        .        .        .        .        .        .        .        .        .        .
+Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
 Equity in societa' non quotate (valore contabile)                    .        .        .        .       86    6,172    6,741    6,184    6,083    6,018   20,076        .
@@ -48,30 +48,11 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 meta:DeferredTaxAssetsLeaseLiabilities                               .        .        .        .        .        .        .        .    3,752    3,940    5,150        .
 
+--- AVVISI ---
+2023: l'OCI sale di 1375 ma gli investimenti letti salgono di -60: controllare il filing (investimenti non letti?)
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dCur: DebtInstrumentCarryingAmount {2023: 18500, 2024: 29000, 2025: 59000}
-dCur: LongTermDebtNoncurrent {2023: 18385, 2024: 28826, 2025: 58744}
-dCur: LongTermDebt {2023: 18385, 2024: 28826, 2025: 58744}
-dCur: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 14250, 2024: 23750, 2025: 48750}
-dCur: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 23541, 2024: 32700, 2025: 39727}
-dCur: ProceedsFromIssuanceOfLongTermDebt {2023: 8455, 2024: 10432, 2025: 29906}
-dBrev: DebtInstrumentCarryingAmount {2023: 18500, 2024: 29000, 2025: 59000}
-dBrev: LongTermDebtNoncurrent {2023: 18385, 2024: 28826, 2025: 58744}
-dBrev: LongTermDebt {2023: 18385, 2024: 28826, 2025: 58744}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 14250, 2024: 23750, 2025: 48750}
-dBrev: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 23541, 2024: 32700, 2025: 39727}
-dBrev: ProceedsFromIssuanceOfLongTermDebt {2023: 8455, 2024: 10432, 2025: 29906}
 afsDeb: MarketableSecuritiesCurrent {2023: 23541, 2024: 33926, 2025: 45719}
-afsDeb: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 23541, 2024: 32700, 2025: 39727}
-afsDeb: PaymentsToAcquireMarketableSecurities {2023: 2982, 2024: 25542, 2025: 36929}
-afsDeb: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 6184, 2024: 15789, 2025: 26874}
-afsDeb: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue {2023: 16421, 2024: 24853, 2025: 26704}
-afsDeb: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 21445, 2024: 23070, 2025: 5850}
 ltInv: MarketableSecuritiesCurrent {2023: 23541, 2024: 33926, 2025: 45719}
-ltInv: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 23541, 2024: 32700, 2025: 39727}
-ltInv: PaymentsToAcquireMarketableSecurities {2023: 2982, 2024: 25542, 2025: 36929}
-ltInv: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 6184, 2024: 15789, 2025: 26874}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue {2023: 16421, 2024: 24853, 2025: 26704}
-ltInv: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 21445, 2024: 23070, 2025: 5850}
 
 Tempo: 1 s. File scritto: sec_META.json

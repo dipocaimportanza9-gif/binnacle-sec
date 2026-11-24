@@ -509,48 +509,12 @@
  "candidati": {
   "finLiab": [
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 3588,
-     "2024": 3367,
-     "2025": 3338,
-     "2026": 3592
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiability",
-    "valori": {
-     "2023": 3211,
-     "2024": 3043,
-     "2025": 3052,
-     "2026": 3091
-    }
-   },
-   {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
      "2023": 2923,
      "2024": 2718,
      "2025": 2712,
      "2026": 2838
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
-    "valori": {
-     "2023": 2786,
-     "2024": 2566,
-     "2025": 2550,
-     "2026": 2613
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
-    "valori": {
-     "2023": 1225,
-     "2024": 991,
-     "2025": 885,
-     "2026": 1146
     }
    },
    {
@@ -561,238 +525,51 @@
      "2025": 607,
      "2026": 849
     }
-   }
-  ],
-  "eqPriv": [
-   {
-    "tag": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 6059,
-     "2024": 4767,
-     "2025": 3234,
-     "2026": 1316
-    }
    },
    {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 4184,
-     "2024": 4219,
-     "2025": 3062,
-     "2026": 1021
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities",
-    "valori": {
-     "2023": 3356,
-     "2024": 2269,
-     "2025": 319,
-     "2026": 556
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent",
-    "valori": {
-     "2023": 3234,
-     "2024": 1722,
-     "2025": 1687,
-     "2026": 1464
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue",
-    "valori": {
-     "2023": 2563,
-     "2024": 1002,
-     "2025": 776,
-     "2026": 590
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue",
-    "valori": {
-     "2023": 671,
-     "2024": 720,
-     "2025": 911,
-     "2026": 874
-    }
-   }
-  ],
-  "eqMeth": [
-   {
-    "tag": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 6059,
-     "2024": 4767,
-     "2025": 3234,
-     "2026": 1316
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 4184,
-     "2024": 4219,
-     "2025": 3062,
-     "2026": 1021
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities",
-    "valori": {
-     "2023": 3356,
-     "2024": 2269,
-     "2025": 319,
-     "2026": 556
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent",
-    "valori": {
-     "2023": 3234,
-     "2024": 1722,
-     "2025": 1687,
-     "2026": 1464
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue",
-    "valori": {
-     "2023": 2563,
-     "2024": 1002,
-     "2025": 776,
-     "2026": 590
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue",
-    "valori": {
-     "2023": 671,
-     "2024": 720,
-     "2025": 911,
-     "2026": 874
-    }
-   }
-  ],
-  "afsDeb": [
-   {
-    "tag": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 6059,
-     "2024": 4767,
-     "2025": 3234,
-     "2026": 1316
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 4184,
-     "2024": 4219,
-     "2025": 3062,
-     "2026": 1021
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities",
-    "valori": {
-     "2023": 3356,
-     "2024": 2269,
-     "2025": 319,
-     "2026": 556
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent",
-    "valori": {
-     "2023": 3234,
-     "2024": 1722,
-     "2025": 1687,
-     "2026": 1464
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue",
-    "valori": {
-     "2023": 2563,
-     "2024": 1002,
-     "2025": 776,
-     "2026": 590
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue",
-    "valori": {
-     "2023": 671,
-     "2024": 720,
-     "2025": 911,
-     "2026": 874
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 6059,
-     "2024": 4767,
-     "2025": 3234,
-     "2026": 1316
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
-    "valori": {
-     "2023": 4184,
-     "2024": 4219,
-     "2025": 3062,
-     "2026": 1021
-    }
-   },
-   {
-    "tag": "ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities",
-    "valori": {
-     "2023": 3356,
-     "2024": 2269,
-     "2025": 319,
-     "2026": 556
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent",
-    "valori": {
-     "2023": 3234,
-     "2024": 1722,
-     "2025": 1687,
-     "2026": 1464
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue",
-    "valori": {
-     "2023": 2563,
-     "2024": 1002,
-     "2025": 776,
-     "2026": 590
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue",
-    "valori": {
-     "2023": 671,
-     "2024": 720,
-     "2025": 911,
-     "2026": 874
+     "2023": 377,
+     "2024": 324,
+     "2025": 286,
+     "2026": 501
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2020": "2020-05-31",
+  "2021": "2021-05-31",
+  "2022": "2022-05-31",
+  "2023": "2023-05-31",
+  "2024": "2024-05-31",
+  "2025": "2025-05-31",
+  "2026": "2026-05-31",
+  "2019": "2019-05-31",
+  "2018": "2018-05-31",
+  "2010": "2010-05-31",
+  "2011": "2011-05-31",
+  "2012": "2012-05-31",
+  "2013": "2013-05-31",
+  "2014": "2014-05-31",
+  "2015": "2015-05-31",
+  "2016": "2016-05-31",
+  "2017": "2017-05-31",
+  "2009": "2009-05-31",
+  "2008": "2008-05-31"
  },
  "derivati": {
   "dTotCalc": {
    "2009": 469.2
   },
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {},
+  "invNonOpAmpia": {}
+ },
+ "sic": "3021",
+ "sic_descrizione": "Rubber & Plastics Footwear",
+ "chiusura_esercizio": "0531",
+ "nome": "NIKE, Inc.",
+ "ambito": "ok"
 }

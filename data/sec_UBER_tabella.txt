@@ -29,7 +29,7 @@ Impegni: oltre il quinto anno                                        .        . 
 --- DEBITO FINANZIARIO ---
 Debito a lungo termine: quota corrente                               .        .        .       27       27       27       27       27       25    1,150        0        .
 Debito a lungo termine: non corrente                                 .        .        .    6,869    5,707    7,560    9,276    9,265    9,459    8,347   10,521        .
-Debito a lungo termine: totale                                       .        .        .        .    5,791    7,914    9,388    9,361    9,560    9,575   10,600        .
+Debito a lungo termine: totale                                       .        .        .    7,491    5,791    7,914    9,388    9,361    9,560    9,575   10,600        .
 Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
 Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        0        .
 
@@ -42,7 +42,7 @@ Investimenti a lungo termine (voce di bilancio)                      .        . 
 OCI accumulato (utili/perdite non realizzati)                        .        .        .     -188     -187     -535     -524     -443     -421     -517     -432        .
 
 --- DERIVATI (regole generali) ---
-Debito totale = quota corrente + non corrente (se manca il tot       .        .        .    6,896        .        .        .        .        .        .        .        .
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
@@ -61,11 +61,8 @@ uber:OperatingLeaseRightOfUseAssetPercentageOfLeasedAssetsFore       .        . 
 Beni acquisiti con capital lease (non cash): ultimo anno 2023 (mancano anni recenti)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-ltInv: PaymentsToAcquireMarketableSecurities {2023: 8774, 2024: 12765, 2025: 21447}
-ltInv: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 5069, 2024: 10204, 2025: 20046}
-ltInv: AvailableForSaleSecuritiesDebtSecurities {2024: 8562, 2025: 10326}
-ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2024: 8558, 2025: 10314}
 ltInv: RestrictedInvestments {2023: 4779, 2024: 7019, 2025: 8874}
-ltInv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 2321, 2024: 4125, 2025: 5800}
+ltInv: MarketableSecuritiesCurrent {2023: 727, 2024: 1084, 2025: 528}
+ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2023: 0, 2024: 0}
 
-Tempo: 3 s. File scritto: sec_UBER.json
+Tempo: 4 s. File scritto: sec_UBER.json

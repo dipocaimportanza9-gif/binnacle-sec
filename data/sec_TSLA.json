@@ -191,7 +191,8 @@
    "2024": 2343.0,
    "2025": 1569.0,
    "2014": 611.1,
-   "2015": 627.9
+   "2015": 627.9,
+   "2013": 0.2
   },
   "dNon": {
    "2010": 71.8,
@@ -444,7 +445,8 @@
    "2024": "DebtCurrent",
    "2025": "DebtCurrent",
    "2014": "LongTermDebtAndCapitalLeaseObligationsCurrent",
-   "2015": "LongTermDebtAndCapitalLeaseObligationsCurrent"
+   "2015": "LongTermDebtAndCapitalLeaseObligationsCurrent",
+   "2013": "ConvertibleNotesPayableCurrent"
   },
   "dNon": {
    "2010": "LongTermDebtNoncurrent",
@@ -606,125 +608,7 @@
   "Il tag del debito include i leasing finanziari negli anni 2014-2018: non sommarli di nuovo"
  ],
  "candidati": {
-  "dNon": [
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 29094,
-     "2024": 36563
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 29098,
-     "2024": 36549
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
-    "valori": {
-     "2023": 12696
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue",
-    "valori": {
-     "2023": 12374
-    }
-   },
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 4683,
-     "2024": 7907,
-     "2025": 8177
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 2682,
-     "2024": 5535,
-     "2025": 6584
-    }
-   }
-  ],
-  "dBrev": [
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 29094,
-     "2024": 36563
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 29098,
-     "2024": 36549
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
-    "valori": {
-     "2023": 12696
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue",
-    "valori": {
-     "2023": 12374
-    }
-   },
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 4683,
-     "2024": 7907,
-     "2025": 8177
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 2682,
-     "2024": 5535,
-     "2025": 6584
-    }
-   }
-  ],
   "eqPriv": [
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 19112,
-     "2024": 35955,
-     "2025": 37109
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 29094,
-     "2024": 36563
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 29098,
-     "2024": 36549
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 12353,
-     "2024": 28310,
-     "2025": 30158
-    }
-   },
    {
     "tag": "ShortTermInvestments",
     "valori": {
@@ -734,44 +618,15 @@
     }
    },
    {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
+    "tag": "DilutiveSecuritiesEffectOnBasicEarningsPerShareOther",
     "valori": {
-     "2023": 12696
+     "2023": 0,
+     "2024": 0
     }
    }
   ],
   "eqMeth": [
    {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 19112,
-     "2024": 35955,
-     "2025": 37109
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 29094,
-     "2024": 36563
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 29098,
-     "2024": 36549
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 12353,
-     "2024": 28310,
-     "2025": 30158
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 12696,
@@ -780,37 +635,15 @@
     }
    },
    {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
+    "tag": "DilutiveSecuritiesEffectOnBasicEarningsPerShareOther",
     "valori": {
-     "2023": 12696
+     "2023": 0,
+     "2024": 0
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 19112,
-     "2024": 35955,
-     "2025": 37109
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 29098,
-     "2024": 36549
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 12353,
-     "2024": 28310,
-     "2025": 30158
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 12696,
@@ -819,50 +652,15 @@
     }
    },
    {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
+    "tag": "DilutiveSecuritiesEffectOnBasicEarningsPerShareOther",
     "valori": {
-     "2023": 12696
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue",
-    "valori": {
-     "2023": 12374
+     "2023": 0,
+     "2024": 0
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 19112,
-     "2024": 35955,
-     "2025": 37109
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 29094,
-     "2024": 36563
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 29098,
-     "2024": 36549
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 12353,
-     "2024": 28310,
-     "2025": 30158
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 12696,
@@ -871,16 +669,37 @@
     }
    },
    {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
+    "tag": "DilutiveSecuritiesEffectOnBasicEarningsPerShareOther",
     "valori": {
-     "2023": 12696
+     "2023": 0,
+     "2024": 0
     }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2009": "2009-12-31"
+ },
  "derivati": {
   "dTotCalc": {
    "2011": 276.2,
+   "2013": 0.2,
    "2015": 2649.0
   },
   "dBrevDer": {},
@@ -890,6 +709,23 @@
    "2016": "dNon",
    "2017": "dNon",
    "2018": "dNon"
+  },
+  "invNonOpBase": {
+   "2021": 0,
+   "2022": 0,
+   "2023": 0,
+   "2024": 0
+  },
+  "invNonOpAmpia": {
+   "2021": 17707.0,
+   "2022": 22185.0,
+   "2023": 29094.0,
+   "2024": 36563.0
   }
- }
+ },
+ "sic": "3711",
+ "sic_descrizione": "Motor Vehicles & Passenger Car Bodies",
+ "chiusura_esercizio": "1231",
+ "nome": "Tesla, Inc.",
+ "ambito": "ok"
 }

@@ -73,9 +73,17 @@
   "NESSUN DATO: possibile cambio di CIK (aggiungere l'alias in cik_alias.json)"
  ],
  "candidati": {},
+ "fine_anno": {},
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {},
+  "invNonOpAmpia": {}
+ },
+ "sic": "7389",
+ "sic_descrizione": "Services-Business Services, NEC",
+ "chiusura_esercizio": null,
+ "nome": "Alibaba Group Holding Ltd",
+ "ambito": "ok"
 }

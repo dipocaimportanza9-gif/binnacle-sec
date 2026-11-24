@@ -29,7 +29,7 @@ Impegni: oltre il quinto anno                                    2,592    3,139 
 --- DEBITO FINANZIARIO ---
 Debito a lungo termine: quota corrente                           2,500    3,500    6,496    8,784   10,260    8,773    9,613   11,128    9,822   10,912   12,350    9,906
 Debito a lungo termine: non corrente                            53,329   75,427   97,207   93,735   91,807   98,667  109,106   98,959   95,281   85,750   78,328   68,208
-Debito a lungo termine: totale                                       .        .        .        .        .        .        .  110,087  105,103   96,662   90,678   78,114
+Debito a lungo termine: totale                                  55,701   78,384  104,021  104,193  101,679  106,078  118,063  110,087  105,103   96,662   90,678   78,114
 Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
 Debiti finanziari a breve                                        8,499    8,105   11,977   11,964    5,980    4,996    6,000    9,982    5,985    9,967    7,979    1,997
 
@@ -37,12 +37,12 @@ Debiti finanziari a breve                                        8,499    8,105 
 Equity in societa' non quotate (valore contabile)                    .        .        .        .    2,900    2,800        .        .        .        .        .        .
 Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .  237,100  205,898  191,830        .        .        .        .        .        .
-Titoli di mercato non correnti                                       .        .        .  170,799  105,341  100,887  127,877  120,805  100,544   91,479   77,723   80,213
+Titoli di mercato non correnti                                 164,065  170,430  194,714  170,799  105,341  100,887  127,877  120,805  100,544   91,479   77,723   80,213
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                     -345      634     -150   -3,454     -584     -406      163  -11,109  -11,452   -7,172   -5,571   -6,422
 
 --- DERIVATI (regole generali) ---
-Debito totale = quota corrente + non corrente (se manca il tot  55,829   78,927  103,703  102,519  102,067  107,440  118,719        .        .        .        .        .
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
@@ -63,30 +63,14 @@ aapl:OperatingandFinanceLeaseLiability                               .        . 
 aapl:OperatingandFinanceLeaseRightofUseAsset                         .        .        .        .        .    9,199   10,948   11,369   11,676   11,303   12,238   12,815
 aapl:OperatingandFinanceLeaseWeightedAverageDiscountRatePercen       .        .        .        .        .        .        0        0        0        0        0        0
 
+--- AVVISI ---
+2024: l'OCI sale di 4280 ma gli investimenti letti salgono di -9065: controllare il filing (investimenti non letti?)
+2025: l'OCI sale di 1601 ma gli investimenti letti salgono di -13756: controllare il filing (investimenti non letti?)
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-eqPriv: MarketableSecuritiesNoncurrent {2023: 100544, 2024: 91479, 2025: 77723, 2026: 80213}
-eqPriv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 100544}
-eqPriv: AvailableForSaleSecuritiesDebtMaturitiesRollingYearTwoThroughFiveFairValue {2023: 74427}
-eqPriv: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 29513, 2024: 48656, 2025: 24407, 2026: 54945}
-eqPriv: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 39686, 2024: 51211, 2025: 40907, 2026: 34815}
 eqPriv: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
-eqMeth: MarketableSecuritiesNoncurrent {2023: 100544, 2024: 91479, 2025: 77723, 2026: 80213}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 100544}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesRollingYearTwoThroughFiveFairValue {2023: 74427}
-eqMeth: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 29513, 2024: 48656, 2025: 24407, 2026: 54945}
-eqMeth: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 39686, 2024: 51211, 2025: 40907, 2026: 34815}
 eqMeth: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
-afsDeb: MarketableSecuritiesNoncurrent {2023: 100544, 2024: 91479, 2025: 77723, 2026: 80213}
-afsDeb: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 100544}
-afsDeb: AvailableForSaleSecuritiesDebtMaturitiesRollingYearTwoThroughFiveFairValue {2023: 74427}
-afsDeb: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 29513, 2024: 48656, 2025: 24407, 2026: 54945}
-afsDeb: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 39686, 2024: 51211, 2025: 40907, 2026: 34815}
 afsDeb: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
-ltInv: MarketableSecuritiesNoncurrent {2023: 100544, 2024: 91479, 2025: 77723, 2026: 80213}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 100544}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesRollingYearTwoThroughFiveFairValue {2023: 74427}
-ltInv: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 29513, 2024: 48656, 2025: 24407, 2026: 54945}
-ltInv: ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities {2023: 39686, 2024: 51211, 2025: 40907, 2026: 34815}
 ltInv: MarketableSecuritiesCurrent {2023: 31590, 2024: 35228, 2025: 18763, 2026: 20417}
 
-Tempo: 2 s. File scritto: sec_AAPL.json
+Tempo: 3 s. File scritto: sec_AAPL.json

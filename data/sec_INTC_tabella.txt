@@ -34,10 +34,10 @@ Debito corrente totale (con debiti a breve)                      2,634    4,634 
 Debiti finanziari a breve                                            0        0        .        .        .        .        0    3,900        0        0        0        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .    4,561    4,635    4,535    8,028        .
+Equity in societa' non quotate (valore contabile)                2,933    3,098    2,613    2,978    3,480    3,304        .    4,561    4,635    4,535    8,028        .
 Partecipazioni a patrimonio netto (equity method)                1,590    1,328    1,774    1,624       37       18       16       10        5        .        .        .
-Titoli di debito disponibili per la vendita (valore equo)       16,047   11,502    6,621    7,171    6,543    7,951    4,987   26,423   21,800   18,677   32,393        .
-Titoli di mercato non correnti                                   1,891    4,716    3,712    3,388    3,276    2,192      840        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)        1,891    4,716    3,712    3,388    3,276    2,192      840   26,423   21,800   18,677   32,393        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                       60      106      862     -974   -1,280     -751     -880     -562     -215     -711      113        .
 
@@ -58,31 +58,16 @@ intc:LeaseLiability                                                  .        . 
 --- AVVISI ---
 Rimborsi capitale leasing finanziari: ultimo anno 2023 (mancano anni recenti)
 Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)
+2013: l'OCI sale di 1642 ma gli investimenti letti salgono di 1094: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-opLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBeforeAccumulatedDepreciationAndAmortization {2023: 194657, 2024: 210112, 2025: 211878}
-opLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization {2023: 96647, 2024: 107919, 2025: 105414}
-opLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization {2023: 98010, 2024: 102193, 2025: 106464}
-opLiab: FinanceLeaseRightOfUseAssetBeforeAccumulatedAmortization {2023: 619, 2024: 470, 2025: 453}
-opLiab: FinanceLeaseLiabilityPaymentsDue {2023: 550, 2024: 235, 2025: 133}
 opLiab: OperatingLeaseRightOfUseAsset {2023: 505, 2024: 457, 2025: 421}
-finLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBeforeAccumulatedDepreciationAndAmortization {2023: 194657, 2024: 210112, 2025: 211878}
-finLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization {2023: 96647, 2024: 107919, 2025: 105414}
-finLiab: PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization {2023: 98010, 2024: 102193, 2025: 106464}
-finLiab: FinanceLeaseRightOfUseAssetBeforeAccumulatedAmortization {2023: 619, 2024: 470, 2025: 453}
-finLiab: FinanceLeaseLiabilityPaymentsDue {2023: 550, 2024: 235, 2025: 133}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 505, 2024: 457, 2025: 421}
-eqMeth: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 44414, 2024: 37940, 2025: 24319}
-eqMeth: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 44077, 2024: 41463, 2025: 15387}
-eqMeth: AvailableForSaleSecuritiesDebtSecurities {2023: 21800, 2024: 18677, 2025: 32393}
-eqMeth: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 17955, 2024: 13813, 2025: 23151}
-eqMeth: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4700, 2024: 5200, 2025: 10600}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 9575, 2024: 5690, 2025: 9543}
-ltInv: PaymentsToAcquireAvailableForSaleSecuritiesDebt {2023: 44414, 2024: 37940, 2025: 24319}
-ltInv: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 44077, 2024: 41463, 2025: 15387}
-ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 21800, 2024: 18677, 2025: 32393}
-ltInv: AvailableForSaleSecuritiesDebtSecuritiesCurrent {2023: 17955, 2024: 13813, 2025: 23151}
-ltInv: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 4700, 2024: 5200, 2025: 10600}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue {2023: 9575, 2024: 5690, 2025: 9543}
+eqMeth: MarketableSecurities {2023: 1194, 2024: 848, 2025: 484}
+eqMeth: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 42, 2024: 246, 2025: 514}
+eqMeth: ImpairmentOfInvestments {2023: 214}
+ltInv: MarketableSecurities {2023: 1194, 2024: 848, 2025: 484}
+ltInv: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 42, 2024: 246, 2025: 514}
+ltInv: ImpairmentOfInvestments {2023: 214}
 
-Tempo: 3 s. File scritto: sec_INTC.json
+Tempo: 4 s. File scritto: sec_INTC.json

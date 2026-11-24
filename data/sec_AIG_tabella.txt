@@ -34,11 +34,11 @@ Debito corrente totale (con debiti a breve)                          .        . 
 Debiti finanziari a breve                                            .        .        .        .        .        .        .    1,500      250        .        .        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
-Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .    5,145    6,000    5,500        .        .        .
+Equity in societa' non quotate (valore contabile)                    .        .        .    1,253      841    1,056      739        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                    0        0        0        0        0        .    5,145    6,000    5,500        .        .        .
 Titoli di debito disponibili per la vendita (valore equo)      248,245  241,537  238,992  229,391  251,086  271,496  277,202        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
-Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                338,354  328,175  322,292  314,209  337,615  360,668  359,292  309,150   90,244   93,613   92,999        .
 OCI accumulato (utili/perdite non realizzati)                    2,537    3,230    5,465   -1,413    4,982   13,511   11,314  -22,616  -14,037   -7,099   -4,987        .
 
 --- DERIVATI (regole generali) ---
@@ -55,55 +55,36 @@ aig:Shortterminvestmentsatfairvalue                                  .        . 
 --- AVVISI ---
 Debiti finanziari a breve: ultimo anno 2023 (mancano anni recenti)
 Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)
+2024: l'OCI sale di 6938 ma gli investimenti letti salgono di 3369: controllare il filing (investimenti non letti?)
+2025: l'OCI sale di 2112 ma gli investimenti letti salgono di -614: controllare il filing (investimenti non letti?)
+FUORI PORTATA (SIC 6331 Fire, Marine & Casualty Insurance)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 1129, 2024: 1058, 2025: 1044}
-finLiab: OperatingLeaseLiability {2023: 894, 2024: 868, 2025: 856}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 744, 2024: 696, 2025: 690}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 576, 2024: 578, 2025: 526}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 210, 2024: 190, 2025: 188}
-finLiab: OperatingLeaseLeaseIncomeLeasePayments {2023: 179, 2024: 177, 2025: 156}
-dCur: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 252873, 2024: 66157, 2025: 71735}
-dCur: AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenAmortizedCostBasis {2023: 89200, 2024: 6239, 2025: 6102}
-dCur: AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenFairValue {2023: 74937, 2024: 5190, 2025: 5338}
-dCur: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 68119, 2024: 66195, 2025: 71772}
-dCur: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 65242, 2024: 64006, 2025: 71032}
-dCur: AvailableForSaleSecuritiesDebtMaturitiesWithoutSingleMaturityDateAmortizedCost {2023: 67352, 2024: 17942, 2025: 21112}
-dNon: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 252873, 2024: 66157, 2025: 71735}
-dNon: AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenAmortizedCostBasis {2023: 89200, 2024: 6239, 2025: 6102}
-dNon: AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenFairValue {2023: 74937, 2024: 5190, 2025: 5338}
-dNon: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 68119, 2024: 66195, 2025: 71772}
-dNon: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 65242, 2024: 64006, 2025: 71032}
-dNon: AvailableForSaleSecuritiesDebtMaturitiesWithoutSingleMaturityDateAmortizedCost {2023: 67352, 2024: 17942, 2025: 21112}
-dBrev: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 252873, 2024: 66157, 2025: 71735}
-dBrev: AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenAmortizedCostBasis {2023: 89200, 2024: 6239, 2025: 6102}
-dBrev: AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenFairValue {2023: 74937, 2024: 5190, 2025: 5338}
-dBrev: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestBeforeAllowanceForCreditLoss {2023: 68119, 2024: 66195, 2025: 71772}
-dBrev: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 65242, 2024: 64006, 2025: 71032}
-dBrev: AvailableForSaleSecuritiesDebtMaturitiesWithoutSingleMaturityDateAmortizedCost {2023: 67352, 2024: 17942, 2025: 21112}
-eqPriv: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCost {2023: 345335, 2024: 96019, 2025: 93882}
+dCur: FederalHomeLoanBankAdvancesGeneralDebtObligationsDisclosuresCollateralPledged1 {2023: 8700}
+dCur: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
+dNon: FederalHomeLoanBankAdvancesGeneralDebtObligationsDisclosuresCollateralPledged1 {2023: 8700}
+dNon: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
+dBrev: FederalHomeLoanBankAdvancesGeneralDebtObligationsDisclosuresCollateralPledged1 {2023: 8700}
+dBrev: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
 eqPriv: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCarryingAmount {2023: 323183, 2024: 93663, 2025: 93004}
-eqPriv: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesFairValue {2023: 320166, 2024: 93547, 2025: 92951}
-eqPriv: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 252873, 2024: 66157, 2025: 71735}
-eqPriv: Investments {2023: 90244, 2024: 93613, 2025: 92999}
-eqPriv: AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenAmortizedCostBasis {2023: 89200, 2024: 6239, 2025: 6102}
-eqMeth: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCost {2023: 345335, 2024: 96019, 2025: 93882}
+eqPriv: OtherShortTermInvestments {2023: 12865, 2024: 14462, 2025: 11141}
+eqPriv: OtherInvestments {2023: 6368, 2024: 9828, 2025: 6696}
+eqPriv: AlternativeInvestment {2023: 4345, 2024: 4032, 2025: 3456}
+eqPriv: SecuritiesReceivedAsCollateral {2023: 1200, 2024: 2900, 2025: 3600}
+eqPriv: RealEstateInvestmentPropertyNet {2023: 2237}
 eqMeth: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCarryingAmount {2023: 323183, 2024: 93663, 2025: 93004}
-eqMeth: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesFairValue {2023: 320166, 2024: 93547, 2025: 92951}
-eqMeth: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 252873, 2024: 66157, 2025: 71735}
-eqMeth: Investments {2023: 90244, 2024: 93613, 2025: 92999}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenAmortizedCostBasis {2023: 89200, 2024: 6239, 2025: 6102}
-afsDeb: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCost {2023: 345335, 2024: 96019, 2025: 93882}
+eqMeth: OtherShortTermInvestments {2023: 12865, 2024: 14462, 2025: 11141}
+eqMeth: OtherInvestments {2023: 6368, 2024: 9828, 2025: 6696}
+eqMeth: AlternativeInvestment {2023: 4345, 2024: 4032, 2025: 3456}
+eqMeth: SecuritiesReceivedAsCollateral {2023: 1200, 2024: 2900, 2025: 3600}
+eqMeth: RealEstateInvestmentPropertyNet {2023: 2237}
 afsDeb: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCarryingAmount {2023: 323183, 2024: 93663, 2025: 93004}
-afsDeb: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesFairValue {2023: 320166, 2024: 93547, 2025: 92951}
-afsDeb: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 252873, 2024: 66157, 2025: 71735}
-afsDeb: Investments {2023: 90244, 2024: 93613, 2025: 92999}
-afsDeb: AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenAmortizedCostBasis {2023: 89200, 2024: 6239, 2025: 6102}
-ltInv: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCost {2023: 345335, 2024: 96019, 2025: 93882}
-ltInv: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCarryingAmount {2023: 323183, 2024: 93663, 2025: 93004}
-ltInv: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesFairValue {2023: 320166, 2024: 93547, 2025: 92951}
-ltInv: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 252873, 2024: 66157, 2025: 71735}
-ltInv: Investments {2023: 90244, 2024: 93613, 2025: 92999}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesRollingAfterYearTenAmortizedCostBasis {2023: 89200, 2024: 6239, 2025: 6102}
+afsDeb: OtherShortTermInvestments {2023: 12865, 2024: 14462, 2025: 11141}
+afsDeb: OtherInvestments {2023: 6368, 2024: 9828, 2025: 6696}
+afsDeb: AlternativeInvestment {2023: 4345, 2024: 4032, 2025: 3456}
+afsDeb: SecuritiesReceivedAsCollateral {2023: 1200, 2024: 2900, 2025: 3600}
+afsDeb: RealEstateInvestmentPropertyNet {2023: 2237}
 
-Tempo: 7 s. File scritto: sec_AIG.json
+Tempo: 12 s. File scritto: sec_AIG.json

@@ -189,7 +189,26 @@
    "2025": 798.0
   },
   "eqPriv": {},
-  "eqMeth": {},
+  "eqMeth": {
+   "2008": 1222.3,
+   "2009": 1212.7,
+   "2010": 1335.3,
+   "2011": 1427.0,
+   "2012": 1380.5,
+   "2013": 1209.1,
+   "2014": 1004.5,
+   "2015": 792.7,
+   "2016": 725.9,
+   "2017": 1085.7,
+   "2018": 1202.8,
+   "2019": 1270.3,
+   "2020": 1297.2,
+   "2021": 1201.2,
+   "2022": 1064.5,
+   "2023": 1080.0,
+   "2024": 2710.0,
+   "2025": 2820.0
+  },
   "afsDeb": {},
   "mktNon": {},
   "ltInv": {},
@@ -399,7 +418,26 @@
    "2025": "CommercialPaper"
   },
   "eqPriv": {},
-  "eqMeth": {},
+  "eqMeth": {
+   "2008": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2009": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2010": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2011": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2012": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2013": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2014": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2015": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2016": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2017": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2018": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2019": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2020": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2021": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2022": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2023": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2024": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
+   "2025": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures"
+  },
   "afsDeb": {},
   "mktNon": {},
   "ltInv": {},
@@ -494,38 +532,6 @@
  "candidati": {
   "opLiab": [
    {
-    "tag": "LessorOperatingLeasePaymentsToBeReceived",
-    "valori": {
-     "2023": 31162,
-     "2024": 29598,
-     "2025": 31451
-    }
-   },
-   {
-    "tag": "LessorOperatingLeasePaymentsToBeReceivedThereafter",
-    "valori": {
-     "2023": 17336,
-     "2024": 16375,
-     "2025": 17465
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 17398,
-     "2024": 15950,
-     "2025": 16564
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
-    "valori": {
-     "2023": 12132,
-     "2024": 10897,
-     "2025": 10977
-    }
-   },
-   {
     "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
      "2023": 5227,
@@ -534,180 +540,136 @@
     }
    },
    {
-    "tag": "FinanceLeaseLiabilityPaymentsDue",
+    "tag": "FinanceLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 2482,
-     "2024": 3012,
-     "2025": 4062
+     "2023": 907,
+     "2024": 1232,
+     "2025": 1710
+    }
+   },
+   {
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
+    "valori": {
+     "2023": 1000,
+     "2024": 626,
+     "2025": 765
+    }
+   },
+   {
+    "tag": "IncreaseDecreaseInOperatingLeaseLiability",
+    "valori": {
+     "2023": 950,
+     "2024": 222,
+     "2025": 0
+    }
+   },
+   {
+    "tag": "RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability",
+    "valori": {
+     "2023": 300,
+     "2024": 297,
+     "2025": 468
     }
    }
   ],
   "eqPriv": [
    {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
-    "valori": {
-     "2023": 1080,
-     "2024": 2710,
-     "2025": 2820
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireEquityMethodInvestments",
-    "valori": {
-     "2023": 0,
-     "2024": 1837,
-     "2025": 0
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity",
     "valori": {
      "2024": 1500,
      "2025": 1400
-    }
-   },
-   {
-    "tag": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
-    "valori": {
-     "2023": 537,
-     "2024": 537
-    }
-   },
-   {
-    "tag": "IncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 153,
-     "2024": 157,
-     "2025": 190
-    }
-   }
-  ],
-  "eqMeth": [
-   {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
-    "valori": {
-     "2023": 1080,
-     "2024": 2710,
-     "2025": 2820
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireEquityMethodInvestments",
-    "valori": {
-     "2023": 0,
-     "2024": 1837,
-     "2025": 0
-    }
-   },
-   {
-    "tag": "EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity",
-    "valori": {
-     "2024": 1500,
-     "2025": 1400
-    }
-   },
-   {
-    "tag": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
-    "valori": {
-     "2023": 537,
-     "2024": 537
-    }
-   },
-   {
-    "tag": "IncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 153,
-     "2024": 157,
-     "2025": 190
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
-    "valori": {
-     "2023": 1080,
-     "2024": 2710,
-     "2025": 2820
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireEquityMethodInvestments",
-    "valori": {
-     "2023": 0,
-     "2024": 1837,
-     "2025": 0
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity",
     "valori": {
      "2024": 1500,
      "2025": 1400
-    }
-   },
-   {
-    "tag": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
-    "valori": {
-     "2023": 537,
-     "2024": 537
-    }
-   },
-   {
-    "tag": "IncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 153,
-     "2024": 157,
-     "2025": 190
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures",
-    "valori": {
-     "2023": 1080,
-     "2024": 2710,
-     "2025": 2820
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireEquityMethodInvestments",
-    "valori": {
-     "2023": 0,
-     "2024": 1837,
-     "2025": 0
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity",
     "valori": {
      "2024": 1500,
      "2025": 1400
     }
-   },
-   {
-    "tag": "GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
-    "valori": {
-     "2023": 537,
-     "2024": 537
-    }
-   },
-   {
-    "tag": "IncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 153,
-     "2024": 157,
-     "2025": 190
-    }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2018": "2018-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2008": "2008-12-31",
+  "2009": "2009-12-31"
  },
  "derivati": {
   "dTotCalc": {
    "2008": 10217.8
   },
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2008": 1222.3,
+   "2009": 1212.7,
+   "2010": 1335.3,
+   "2011": 1427.0,
+   "2012": 1380.5,
+   "2013": 1209.1,
+   "2014": 1004.5,
+   "2015": 792.7,
+   "2016": 725.9,
+   "2017": 1085.7,
+   "2018": 1202.8,
+   "2019": 1270.3,
+   "2020": 1297.2,
+   "2021": 1201.2,
+   "2022": 1064.5,
+   "2023": 1080.0,
+   "2024": 2710.0,
+   "2025": 2820.0
+  },
+  "invNonOpAmpia": {
+   "2008": 1222.3,
+   "2009": 1212.7,
+   "2010": 1335.3,
+   "2011": 1427.0,
+   "2012": 1380.5,
+   "2013": 1209.1,
+   "2014": 1004.5,
+   "2015": 792.7,
+   "2016": 725.9,
+   "2017": 1085.7,
+   "2018": 1202.8,
+   "2019": 1270.3,
+   "2020": 1297.2,
+   "2021": 1201.2,
+   "2022": 1064.5,
+   "2023": 1080.0,
+   "2024": 2710.0,
+   "2025": 2820.0
+  }
+ },
+ "sic": "5812",
+ "sic_descrizione": "Retail-Eating  Places",
+ "chiusura_esercizio": "1231",
+ "nome": "MCDONALDS CORP",
+ "ambito": "ok"
 }

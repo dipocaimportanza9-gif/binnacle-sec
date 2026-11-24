@@ -29,7 +29,7 @@ Impegni: oltre il quinto anno                                    2,097    2,204 
 --- DEBITO FINANZIARIO ---
 Debito a lungo termine: quota corrente                           1,283    1,100       86       90    1,699       95      799       73    1,081      103       75    2,248
 Debito a lungo termine: non corrente                             4,852    4,061    6,573    6,487    5,124    7,514    6,692    6,484    5,377    5,794    5,713    3,914
-Debito a lungo termine: totale                                   6,135    5,161    6,659    6,577    6,852    7,657    7,531        .        .        .        .        .
+Debito a lungo termine: totale                                   6,135    5,161    6,659    6,577    6,852    7,657    7,531    6,590    6,484    5,919    5,805    6,175
 Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
 Debiti finanziari a breve                                            .        .        .        .        .        .       41       88        .        .        .        .
 
@@ -42,7 +42,7 @@ Investimenti a lungo termine (voce di bilancio)                      .        . 
 OCI accumulato (utili/perdite non realizzati)                   -1,121   -1,099   -1,014   -1,199   -1,436   -1,297   -1,137   -1,829   -1,805   -1,828   -1,770   -1,620
 
 --- DERIVATI (regole generali) ---
-Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .    6,557    6,458    5,897    5,788    6,162
+Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
@@ -55,35 +55,8 @@ cost:OperatingLeaseandFinanceLeaserightofuseassets                   .        . 
 Debiti finanziari a breve: ultimo anno 2022 (mancano anni recenti)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dTot: DebtInstrumentCarryingAmount {2023: 6484, 2024: 5919, 2025: 5805, 2026: 6175}
-dTot: LongTermDebtNoncurrent {2023: 5377, 2024: 5794, 2025: 5713, 2026: 3914}
-dTot: LongTermDebtFairValue {2023: 5738, 2024: 5412, 2025: 5370, 2026: 5689}
-dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 2974, 2024: 3340, 2025: 1582, 2026: 1878}
-dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 103, 2024: 76, 2025: 2250, 2026: 0}
-dTot: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree {2023: 76, 2024: 2250, 2025: 0, 2026: 136}
-dBrev: DebtInstrumentCarryingAmount {2023: 6484, 2024: 5919, 2025: 5805, 2026: 6175}
-dBrev: LongTermDebtNoncurrent {2023: 5377, 2024: 5794, 2025: 5713, 2026: 3914}
-dBrev: LongTermDebtFairValue {2023: 5738, 2024: 5412, 2025: 5370, 2026: 5689}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 2974, 2024: 3340, 2025: 1582, 2026: 1878}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo {2023: 103, 2024: 76, 2025: 2250, 2026: 0}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree {2023: 76, 2024: 2250, 2025: 0, 2026: 136}
-eqPriv: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 937, 2024: 1790, 2025: 1141, 2026: 811}
-eqPriv: PaymentsToAcquireShortTermInvestments {2023: 1622, 2024: 1470, 2025: 1028, 2026: 788}
 eqPriv: ShortTermInvestments {2023: 1534, 2024: 1238, 2025: 1123, 2026: 1094}
-eqPriv: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostBeforeAllowanceForCreditLoss {2025: 1120, 2026: 1108}
-eqPriv: HeldToMaturitySecuritiesDebtMaturitiesWithinOneYearNetCarryingAmount {2023: 901, 2024: 550, 2025: 337, 2026: 298}
-eqPriv: HeldToMaturitySecurities {2023: 901, 2024: 550, 2025: 337, 2026: 298}
-eqMeth: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 937, 2024: 1790, 2025: 1141, 2026: 811}
-eqMeth: PaymentsToAcquireShortTermInvestments {2023: 1622, 2024: 1470, 2025: 1028, 2026: 788}
 eqMeth: ShortTermInvestments {2023: 1534, 2024: 1238, 2025: 1123, 2026: 1094}
-eqMeth: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostBeforeAllowanceForCreditLoss {2025: 1120, 2026: 1108}
-eqMeth: HeldToMaturitySecuritiesDebtMaturitiesWithinOneYearNetCarryingAmount {2023: 901, 2024: 550, 2025: 337, 2026: 298}
-eqMeth: HeldToMaturitySecurities {2023: 901, 2024: 550, 2025: 337, 2026: 298}
-ltInv: ProceedsFromSaleAndMaturityOfMarketableSecurities {2023: 937, 2024: 1790, 2025: 1141, 2026: 811}
-ltInv: PaymentsToAcquireShortTermInvestments {2023: 1622, 2024: 1470, 2025: 1028, 2026: 788}
 ltInv: ShortTermInvestments {2023: 1534, 2024: 1238, 2025: 1123, 2026: 1094}
-ltInv: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostBeforeAllowanceForCreditLoss {2025: 1120, 2026: 1108}
-ltInv: HeldToMaturitySecuritiesDebtMaturitiesWithinOneYearNetCarryingAmount {2023: 901, 2024: 550, 2025: 337, 2026: 298}
-ltInv: HeldToMaturitySecurities {2023: 901, 2024: 550, 2025: 337, 2026: 298}
 
-Tempo: 2 s. File scritto: sec_COST.json
+Tempo: 3 s. File scritto: sec_COST.json

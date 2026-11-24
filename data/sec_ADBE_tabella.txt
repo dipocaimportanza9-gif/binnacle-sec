@@ -62,47 +62,16 @@ adbe:LongTermDebtGrossCurrent                                        .        . 
 Il tag del debito include i leasing finanziari negli anni 2010-2021: non sommarli di nuovo
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 484, 2024: 463, 2025: 485}
-finLiab: OperatingLeaseLiability {2023: 446, 2024: 428, 2025: 438}
-finLiab: OperatingLeaseLiabilityNoncurrent {2023: 373, 2024: 353, 2025: 361}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 358, 2024: 281, 2025: 312}
-finLiab: OperatingLeaseCost {2023: 117, 2024: 106, 2025: 92}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 111, 2024: 90, 2025: 93}
-dNon: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 7854, 2024: 7887, 2025: 6595}
-dNon: LongTermDebt {2023: 3634, 2024: 4129, 2025: 6210}
-dNon: DebtInstrumentCarryingAmount {2023: 3650, 2024: 5650, 2025: 6150}
-dNon: ProceedsFromIssuanceOfLongTermDebt {2023: 0, 2024: 1997, 2025: 1997}
-dNon: ProceedsFromIssuanceOfDebt {2023: 0, 2024: 1997}
-dNon: RepaymentsOfLongTermDebt {2023: 500, 2024: 0, 2025: 1500}
-dBrev: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 7854, 2024: 7887, 2025: 6595}
-dBrev: LongTermDebt {2023: 3634, 2024: 4129, 2025: 6210}
-dBrev: DebtInstrumentCarryingAmount {2023: 3650, 2024: 5650, 2025: 6150}
-dBrev: ProceedsFromIssuanceOfLongTermDebt {2023: 0, 2024: 1997, 2025: 1997}
-dBrev: ProceedsFromIssuanceOfDebt {2023: 0, 2024: 1997}
-dBrev: RepaymentsOfLongTermDebt {2023: 500, 2024: 0, 2025: 1500}
-eqPriv: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 7854, 2024: 7887, 2025: 6595}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 32, 2024: 62, 2025: 86}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 38, 2024: 35, 2025: 47}
 eqPriv: CashCashEquivalentsAndShortTermInvestments {2023: 7842, 2024: 7886, 2025: 6595}
-eqPriv: PaymentsToAcquireShortTermInvestments {2023: 0, 2024: 59, 2025: 2034}
-eqPriv: ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments {2023: 965, 2024: 486, 2025: 1168}
 eqPriv: ShortTermInvestments {2023: 701, 2024: 273, 2025: 1164}
-eqPriv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 701, 2024: 273, 2025: 1164}
-eqMeth: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 7854, 2024: 7887, 2025: 6595}
 eqMeth: CashCashEquivalentsAndShortTermInvestments {2023: 7842, 2024: 7886, 2025: 6595}
-eqMeth: PaymentsToAcquireShortTermInvestments {2023: 0, 2024: 59, 2025: 2034}
-eqMeth: ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments {2023: 965, 2024: 486, 2025: 1168}
 eqMeth: ShortTermInvestments {2023: 701, 2024: 273, 2025: 1164}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 701, 2024: 273, 2025: 1164}
-afsDeb: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 7854, 2024: 7887, 2025: 6595}
 afsDeb: CashCashEquivalentsAndShortTermInvestments {2023: 7842, 2024: 7886, 2025: 6595}
-afsDeb: PaymentsToAcquireShortTermInvestments {2023: 0, 2024: 59, 2025: 2034}
-afsDeb: ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments {2023: 965, 2024: 486, 2025: 1168}
 afsDeb: ShortTermInvestments {2023: 701, 2024: 273, 2025: 1164}
-afsDeb: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 701, 2024: 273, 2025: 1164}
-ltInv: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 7854, 2024: 7887, 2025: 6595}
 ltInv: CashCashEquivalentsAndShortTermInvestments {2023: 7842, 2024: 7886, 2025: 6595}
-ltInv: PaymentsToAcquireShortTermInvestments {2023: 0, 2024: 59, 2025: 2034}
-ltInv: ProceedsFromMaturitiesPrepaymentsAndCallsOfShorttermInvestments {2023: 965, 2024: 486, 2025: 1168}
 ltInv: ShortTermInvestments {2023: 701, 2024: 273, 2025: 1164}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 701, 2024: 273, 2025: 1164}
 
-Tempo: 3 s. File scritto: sec_ADBE.json
+Tempo: 4 s. File scritto: sec_ADBE.json

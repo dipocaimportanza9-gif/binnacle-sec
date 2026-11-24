@@ -38,7 +38,7 @@ Equity in societa' non quotate (valore contabile)                    .        . 
 Partecipazioni a patrimonio netto (equity method)                    0        0        0        0    5,700    6,100    7,391    7,633    5,590    6,247    7,115        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
-Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .   42,549   42,209   36,027   38,000   37,741   38,788        .
+Investimenti a lungo termine (voce di bilancio)                 31,973   44,313   38,696   33,835        .   42,549   42,209   36,027   38,000   37,741   38,788        .
 OCI accumulato (utili/perdite non realizzati)                  -16,529  -18,598  -14,404  -14,414  -11,732   -9,749    1,582   -2,272   -6,150   -3,861   -4,798        .
 
 --- DERIVATI (regole generali) ---
@@ -81,19 +81,14 @@ ge:SalestypeandDirectFinancingLeasesUnguaranteedResidualAssetN       .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
+2021: l'OCI sale di 11331 ma gli investimenti letti salgono di -340: controllare il filing (investimenti non letti?)
+2024: l'OCI sale di 2289 ma gli investimenti letti salgono di -259: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LongTermDebtAndCapitalLeaseObligations {2023: 19417, 2024: 17234, 2025: 18808}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 2302, 2024: 1369, 2025: 1323}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 1160, 2024: 1057, 2025: 1018}
-finLiab: OperatingLeaseLiability {2024: 1122, 2025: 1063}
-finLiab: OperatingLeaseLiabilityNoncurrent {2023: 931, 2024: 822, 2025: 783}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 586, 2024: 398, 2025: 377}
-afsDeb: LongTermInvestments {2023: 38000, 2024: 37741, 2025: 38788}
-afsDeb: AvailableForSaleSecuritiesDebtMaturitiesAfterTenYearsAmortizedCost {2023: 23311, 2024: 25039, 2025: 24762}
-afsDeb: AvailableForSaleSecuritiesDebtMaturitiesAfterTenYearsFairValue {2023: 22205, 2024: 22607, 2025: 22845}
-afsDeb: DebtSecuritiesAvailableForSaleUnrealizedLossPosition {2023: 18730, 2024: 21876, 2025: 18484}
-afsDeb: DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger {2023: 17146, 2024: 14011, 2025: 14656}
-afsDeb: ProceedsFromSaleOfEquitySecuritiesFvNi {2023: 9004}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 329, 2024: 247, 2025: 260}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 275, 2024: 196, 2025: 238}
+finLiab: IncreaseDecreaseInOperatingLeaseLiability {2024: -109}
+afsDeb: EquitySecuritiesFVNINoncurrent {2023: 331, 2024: 225, 2025: 887}
 
-Tempo: 2 s. File scritto: sec_GE.json
+Tempo: 4 s. File scritto: sec_GE.json

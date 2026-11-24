@@ -157,7 +157,12 @@
    "2022": 38107.0,
    "2023": 49266.0,
    "2024": 50011.0,
-   "2025": 46585.0
+   "2025": 46585.0,
+   "2009": 2206.0,
+   "2010": 2077.0,
+   "2011": 8725.0,
+   "2012": 14775.0,
+   "2013": 14775.0
   },
   "dCurTot": {
    "2008": 102.0,
@@ -189,13 +194,23 @@
    "2022": 3900.0,
    "2023": 0.0,
    "2024": 0.0,
-   "2025": 0.0
+   "2025": 0.0,
+   "2012": 48.0
   },
   "eqPriv": {
    "2022": 4561.0,
    "2023": 4635.0,
    "2024": 4535.0,
-   "2025": 8028.0
+   "2025": 8028.0,
+   "2012": 1202.0,
+   "2013": 1270.0,
+   "2014": 1769.0,
+   "2015": 2933.0,
+   "2016": 3098.0,
+   "2017": 2613.0,
+   "2018": 2978.0,
+   "2019": 3480.0,
+   "2020": 3304.0
   },
   "eqMeth": {
    "2009": 2472.0,
@@ -215,23 +230,6 @@
    "2023": 5.0
   },
   "afsDeb": {
-   "2011": 10469.0,
-   "2012": 9577.0,
-   "2013": 11865.0,
-   "2014": 5941.0,
-   "2015": 16047.0,
-   "2016": 11502.0,
-   "2017": 6621.0,
-   "2018": 7171.0,
-   "2019": 6543.0,
-   "2020": 7951.0,
-   "2021": 4987.0,
-   "2022": 26423.0,
-   "2023": 21800.0,
-   "2024": 18677.0,
-   "2025": 32393.0
-  },
-  "mktNon": {
    "2008": 2924.0,
    "2009": 4179.0,
    "2010": 3026.0,
@@ -245,8 +243,13 @@
    "2018": 3388.0,
    "2019": 3276.0,
    "2020": 2192.0,
-   "2021": 840.0
+   "2021": 840.0,
+   "2022": 26423.0,
+   "2023": 21800.0,
+   "2024": 18677.0,
+   "2025": 32393.0
   },
+  "mktNon": {},
   "ltInv": {},
   "aoci": {
    "2008": -393.0,
@@ -422,7 +425,12 @@
    "2022": "LongTermDebt",
    "2023": "LongTermDebt",
    "2024": "LongTermDebt",
-   "2025": "LongTermDebt"
+   "2025": "LongTermDebt",
+   "2009": "DebtInstrumentCarryingAmount",
+   "2010": "DebtInstrumentCarryingAmount",
+   "2011": "DebtInstrumentCarryingAmount",
+   "2012": "DebtInstrumentCarryingAmount",
+   "2013": "DebtInstrumentCarryingAmount"
   },
   "dCurTot": {
    "2008": "DebtCurrent",
@@ -454,13 +462,23 @@
    "2022": "CommercialPaper",
    "2023": "CommercialPaper",
    "2024": "CommercialPaper",
-   "2025": "CommercialPaper"
+   "2025": "CommercialPaper",
+   "2012": "ShortTermBankLoansAndNotesPayable"
   },
   "eqPriv": {
    "2022": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
    "2023": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
    "2024": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-   "2025": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount"
+   "2025": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
+   "2012": "CostMethodInvestments",
+   "2013": "CostMethodInvestments",
+   "2014": "CostMethodInvestments",
+   "2015": "CostMethodInvestments",
+   "2016": "CostMethodInvestments",
+   "2017": "CostMethodInvestments",
+   "2018": "CostMethodInvestments",
+   "2019": "CostMethodInvestments",
+   "2020": "CostMethodInvestments"
   },
   "eqMeth": {
    "2009": "EquityMethodInvestments",
@@ -480,23 +498,6 @@
    "2023": "EquityMethodInvestments"
   },
   "afsDeb": {
-   "2011": "AvailableForSaleSecuritiesDebtSecurities",
-   "2012": "AvailableForSaleSecuritiesDebtSecurities",
-   "2013": "AvailableForSaleSecuritiesDebtSecurities",
-   "2014": "AvailableForSaleSecuritiesDebtSecurities",
-   "2015": "AvailableForSaleSecuritiesDebtSecurities",
-   "2016": "AvailableForSaleSecuritiesDebtSecurities",
-   "2017": "AvailableForSaleSecuritiesDebtSecurities",
-   "2018": "AvailableForSaleSecuritiesDebtSecurities",
-   "2019": "AvailableForSaleSecuritiesDebtSecurities",
-   "2020": "AvailableForSaleSecuritiesDebtSecurities",
-   "2021": "AvailableForSaleSecuritiesDebtSecurities",
-   "2022": "AvailableForSaleSecuritiesDebtSecurities",
-   "2023": "AvailableForSaleSecuritiesDebtSecurities",
-   "2024": "AvailableForSaleSecuritiesDebtSecurities",
-   "2025": "AvailableForSaleSecuritiesDebtSecurities"
-  },
-  "mktNon": {
    "2008": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2009": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2010": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
@@ -510,8 +511,13 @@
    "2018": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2019": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2020": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
-   "2021": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+   "2021": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
+   "2022": "AvailableForSaleSecuritiesDebtSecurities",
+   "2023": "AvailableForSaleSecuritiesDebtSecurities",
+   "2024": "AvailableForSaleSecuritiesDebtSecurities",
+   "2025": "AvailableForSaleSecuritiesDebtSecurities"
   },
+  "mktNon": {},
   "ltInv": {},
   "aoci": {
    "2008": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
@@ -587,50 +593,11 @@
  },
  "avvisi": [
   "Rimborsi capitale leasing finanziari: ultimo anno 2023 (mancano anni recenti)",
-  "Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)"
+  "Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)",
+  "2013: l'OCI sale di 1642 ma gli investimenti letti salgono di 1094: controllare il filing (investimenti non letti?)"
  ],
  "candidati": {
   "opLiab": [
-   {
-    "tag": "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBeforeAccumulatedDepreciationAndAmortization",
-    "valori": {
-     "2023": 194657,
-     "2024": 210112,
-     "2025": 211878
-    }
-   },
-   {
-    "tag": "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization",
-    "valori": {
-     "2023": 96647,
-     "2024": 107919,
-     "2025": 105414
-    }
-   },
-   {
-    "tag": "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization",
-    "valori": {
-     "2023": 98010,
-     "2024": 102193,
-     "2025": 106464
-    }
-   },
-   {
-    "tag": "FinanceLeaseRightOfUseAssetBeforeAccumulatedAmortization",
-    "valori": {
-     "2023": 619,
-     "2024": 470,
-     "2025": 453
-    }
-   },
-   {
-    "tag": "FinanceLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 550,
-     "2024": 235,
-     "2025": 133
-    }
-   },
    {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
@@ -642,46 +609,6 @@
   ],
   "finLiab": [
    {
-    "tag": "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBeforeAccumulatedDepreciationAndAmortization",
-    "valori": {
-     "2023": 194657,
-     "2024": 210112,
-     "2025": 211878
-    }
-   },
-   {
-    "tag": "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization",
-    "valori": {
-     "2023": 96647,
-     "2024": 107919,
-     "2025": 105414
-    }
-   },
-   {
-    "tag": "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization",
-    "valori": {
-     "2023": 98010,
-     "2024": 102193,
-     "2025": 106464
-    }
-   },
-   {
-    "tag": "FinanceLeaseRightOfUseAssetBeforeAccumulatedAmortization",
-    "valori": {
-     "2023": 619,
-     "2024": 470,
-     "2025": 453
-    }
-   },
-   {
-    "tag": "FinanceLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 550,
-     "2024": 235,
-     "2025": 133
-    }
-   },
-   {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
      "2023": 505,
@@ -692,119 +619,128 @@
   ],
   "eqMeth": [
    {
-    "tag": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
+    "tag": "MarketableSecurities",
     "valori": {
-     "2023": 44414,
-     "2024": 37940,
-     "2025": 24319
+     "2023": 1194,
+     "2024": 848,
+     "2025": 484
     }
    },
    {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
+    "tag": "IncreaseDecreaseInEquitySecuritiesFvNi",
     "valori": {
-     "2023": 44077,
-     "2024": 41463,
-     "2025": 15387
+     "2023": 42,
+     "2024": 246,
+     "2025": 514
     }
    },
    {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
+    "tag": "ImpairmentOfInvestments",
     "valori": {
-     "2023": 21800,
-     "2024": 18677,
-     "2025": 32393
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
-    "valori": {
-     "2023": 17955,
-     "2024": 13813,
-     "2025": 23151
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 4700,
-     "2024": 5200,
-     "2025": 10600
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue",
-    "valori": {
-     "2023": 9575,
-     "2024": 5690,
-     "2025": 9543
+     "2023": 214
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "PaymentsToAcquireAvailableForSaleSecuritiesDebt",
+    "tag": "MarketableSecurities",
     "valori": {
-     "2023": 44414,
-     "2024": 37940,
-     "2025": 24319
+     "2023": 1194,
+     "2024": 848,
+     "2025": 484
     }
    },
    {
-    "tag": "ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
+    "tag": "IncreaseDecreaseInEquitySecuritiesFvNi",
     "valori": {
-     "2023": 44077,
-     "2024": 41463,
-     "2025": 15387
+     "2023": 42,
+     "2024": 246,
+     "2025": 514
     }
    },
    {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
+    "tag": "ImpairmentOfInvestments",
     "valori": {
-     "2023": 21800,
-     "2024": 18677,
-     "2025": 32393
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
-    "valori": {
-     "2023": 17955,
-     "2024": 13813,
-     "2025": 23151
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 4700,
-     "2024": 5200,
-     "2025": 10600
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue",
-    "valori": {
-     "2023": 9575,
-     "2024": 5690,
-     "2025": 9543
+     "2023": 214
     }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-12-28",
+  "2020": "2020-12-26",
+  "2021": "2021-12-25",
+  "2022": "2022-12-31",
+  "2023": "2023-12-30",
+  "2024": "2024-12-28",
+  "2025": "2025-12-27",
+  "2010": "2010-12-25",
+  "2011": "2011-12-31",
+  "2012": "2012-12-29",
+  "2013": "2013-12-28",
+  "2014": "2014-12-27",
+  "2015": "2015-12-26",
+  "2016": "2016-12-31",
+  "2017": "2017-12-30",
+  "2018": "2018-12-29",
+  "2009": "2009-12-26",
+  "2008": "2008-12-27",
+  "2007": "2007-12-29"
+ },
  "derivati": {
   "dTotCalc": {
-   "2008": 1287.0,
-   "2009": 2206.0,
-   "2010": 2115.0,
-   "2011": 7331.0,
-   "2012": 13448.0,
-   "2013": 13165.0
+   "2008": 1287.0
   },
   "dBrevDer": {
    "2009": 15.0,
    "2017": 37.0,
    "2018": 500.0
   },
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2008": 0,
+   "2009": 2472.0,
+   "2010": 1791.0,
+   "2011": 1669.0,
+   "2012": 2194.0,
+   "2013": 2308.0,
+   "2014": 3215.0,
+   "2015": 4523.0,
+   "2016": 4426.0,
+   "2017": 4387.0,
+   "2018": 4602.0,
+   "2019": 3517.0,
+   "2020": 3322.0,
+   "2021": 16.0,
+   "2022": 4571.0,
+   "2023": 4640.0,
+   "2024": 4535.0,
+   "2025": 8028.0
+  },
+  "invNonOpAmpia": {
+   "2008": 2924.0,
+   "2009": 6651.0,
+   "2010": 4817.0,
+   "2011": 2558.0,
+   "2012": 2687.0,
+   "2013": 3781.0,
+   "2014": 5238.0,
+   "2015": 6414.0,
+   "2016": 9142.0,
+   "2017": 8099.0,
+   "2018": 7990.0,
+   "2019": 6793.0,
+   "2020": 5514.0,
+   "2021": 856.0,
+   "2022": 30994.0,
+   "2023": 26440.0,
+   "2024": 23212.0,
+   "2025": 40421.0
+  }
+ },
+ "sic": "3674",
+ "sic_descrizione": "Semiconductors & Related Devices",
+ "chiusura_esercizio": "1226",
+ "nome": "INTEL CORP",
+ "ambito": "ok"
 }

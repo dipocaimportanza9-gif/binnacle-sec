@@ -243,7 +243,9 @@
    "2022": 866.0,
    "2023": 2091.0,
    "2024": 0.0,
-   "2025": 0.0
+   "2025": 0.0,
+   "2015": 4.0,
+   "2016": 4.0
   },
   "eqPriv": {},
   "eqMeth": {
@@ -540,7 +542,9 @@
    "2022": "CommercialPaper",
    "2023": "CommercialPaper",
    "2024": "CommercialPaper",
-   "2025": "CommercialPaper"
+   "2025": "CommercialPaper",
+   "2015": "ShortTermBankLoansAndNotesPayable",
+   "2016": "ShortTermBankLoansAndNotesPayable"
   },
   "eqPriv": {},
   "eqMeth": {
@@ -632,42 +636,12 @@
   }
  },
  "avvisi": [
-  "Il tag del debito include i leasing finanziari negli anni 2012-2025: non sommarli di nuovo"
+  "Il tag del debito include i leasing finanziari negli anni 2012-2025: non sommarli di nuovo",
+  "2017: l'OCI sale di 2056 ma gli investimenti letti salgono di -114: controllare il filing (investimenti non letti?)",
+  "2019: l'OCI sale di 1221 ma gli investimenti letti salgono di -1976: controllare il filing (investimenti non letti?)"
  ],
  "candidati": {
   "eqPriv": [
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2023": -441,
-     "2024": -80,
-     "2025": 5889
-    }
-   },
-   {
-    "tag": "DeferredTaxLiabilitiesInvestmentInNoncontrolledAffiliates",
-    "valori": {
-     "2023": 2943,
-     "2024": 2716,
-     "2025": 14
-    }
-   },
-   {
-    "tag": "PaymentsForProceedsFromInvestments",
-    "valori": {
-     "2023": 902,
-     "2024": -2575,
-     "2025": -181
-    }
-   },
-   {
-    "tag": "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital",
-    "valori": {
-     "2023": 2049,
-     "2024": 928,
-     "2025": 0
-    }
-   },
    {
     "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {
@@ -677,48 +651,16 @@
     }
    },
    {
-    "tag": "IncomeLossFromEquityMethodInvestments",
+    "tag": "EquityMethodInvestmentOtherThanTemporaryImpairment",
     "valori": {
-     "2023": 1675,
-     "2024": 1989,
-     "2025": 1895
+     "2023": 450,
+     "2024": 155,
+     "2025": 0
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2023": -441,
-     "2024": -80,
-     "2025": 5889
-    }
-   },
-   {
-    "tag": "DeferredTaxLiabilitiesInvestmentInNoncontrolledAffiliates",
-    "valori": {
-     "2023": 2943,
-     "2024": 2716,
-     "2025": 14
-    }
-   },
-   {
-    "tag": "PaymentsForProceedsFromInvestments",
-    "valori": {
-     "2023": 902,
-     "2024": -2575,
-     "2025": -181
-    }
-   },
-   {
-    "tag": "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital",
-    "valori": {
-     "2023": 2049,
-     "2024": 928,
-     "2025": 0
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {
      "2023": 1668,
@@ -727,14 +669,34 @@
     }
    },
    {
-    "tag": "IncomeLossFromEquityMethodInvestments",
+    "tag": "EquityMethodInvestmentOtherThanTemporaryImpairment",
     "valori": {
-     "2023": 1675,
-     "2024": 1989,
-     "2025": 1895
+     "2023": 450,
+     "2024": 155,
+     "2025": 0
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2018": "2018-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2008": "2008-12-31"
  },
  "derivati": {
   "dTotCalc": {
@@ -763,6 +725,51 @@
    "2023": "dNon",
    "2024": "dNon",
    "2025": "dNon"
+  },
+  "invNonOpBase": {
+   "2008": 2332.0,
+   "2009": 2921.0,
+   "2010": 4515.0,
+   "2011": 3718.0,
+   "2012": 4581.0,
+   "2013": 3860.0,
+   "2014": 250.0,
+   "2015": 1606.0,
+   "2016": 1674.0,
+   "2017": 1560.0,
+   "2018": 6245.0,
+   "2019": 3695.0,
+   "2020": 742.0,
+   "2021": 6168.0,
+   "2022": 3533.0,
+   "2023": 1251.0,
+   "2024": 295.0,
+   "2025": 1106.0
+  },
+  "invNonOpAmpia": {
+   "2008": 2332.0,
+   "2009": 3262.0,
+   "2010": 5154.0,
+   "2011": 3718.0,
+   "2012": 4581.0,
+   "2013": 3860.0,
+   "2014": 250.0,
+   "2015": 1606.0,
+   "2016": 1674.0,
+   "2017": 1560.0,
+   "2018": 7115.0,
+   "2019": 5139.0,
+   "2020": 2221.0,
+   "2021": 7548.0,
+   "2022": 4665.0,
+   "2023": 2479.0,
+   "2024": 984.0,
+   "2025": 1693.0
   }
- }
+ },
+ "sic": "4813",
+ "sic_descrizione": "Telephone Communications (No Radiotelephone)",
+ "chiusura_esercizio": "1231",
+ "nome": "AT&T INC.",
+ "ambito": "ok"
 }

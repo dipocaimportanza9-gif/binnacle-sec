@@ -485,25 +485,11 @@
    "2022": 1700.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "2025: l'OCI sale di 2588 ma gli investimenti letti salgono di 53: controllare il filing (investimenti non letti?)"
+ ],
  "candidati": {
   "finLiab": [
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 3431,
-     "2024": 4013,
-     "2025": 4527
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiability",
-    "valori": {
-     "2023": 2956,
-     "2024": 3445,
-     "2025": 3846
-    }
-   },
    {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
@@ -513,103 +499,29 @@
     }
    },
    {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
-    "valori": {
-     "2023": 2400,
-     "2024": 2803,
-     "2025": 3127
-    }
-   },
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
-    "valori": {
-     "2023": 972,
-     "2024": 1129,
-     "2025": 1342
-    }
-   },
-   {
     "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
      "2023": 1088,
      "2024": 1218,
      "2025": 1046
     }
-   }
-  ],
-  "dBrev": [
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 41519,
-     "2024": 41228,
-     "2025": 46351
-    }
    },
    {
-    "tag": "DebtInstrumentFairValue",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 41000,
-     "2024": 40000,
-     "2025": 46000
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 37595,
-     "2024": 37224,
-     "2025": 42321
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfLongTermDebt",
-    "valori": {
-     "2023": 5482,
-     "2024": 4042,
-     "2025": 8189
-    }
-   },
-   {
-    "tag": "RepaymentsOfShortTermDebtMaturingInMoreThanThreeMonths",
-    "valori": {
-     "2023": 3106,
-     "2024": 5639,
-     "2025": 7920
-    }
-   },
-   {
-    "tag": "DebtCurrent",
-    "valori": {
-     "2023": 6510,
-     "2024": 7082,
-     "2025": 6861
+     "2023": 475,
+     "2024": 568,
+     "2025": 681
     }
    }
   ],
   "eqPriv": [
    {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 2714,
-     "2024": 1985,
-     "2025": 2038
-    }
-   },
-   {
     "tag": "OtherInvestments",
     "valori": {
      "2023": 1616,
      "2024": 1346,
      "2025": 2526
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax",
-    "valori": {
-     "2023": 612,
-     "2024": 334,
-     "2025": 860
     }
    },
    {
@@ -621,45 +533,34 @@
     }
    },
    {
-    "tag": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
+    "tag": "EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity",
     "valori": {
-     "2023": 556,
-     "2024": 0,
-     "2025": 605
+     "2023": 520
     }
    },
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
+    "tag": "CashCollateralForBorrowedSecurities",
     "valori": {
-     "2023": 555,
-     "2024": 425,
-     "2025": 190
+     "2024": 447,
+     "2025": 430
+    }
+   },
+   {
+    "tag": "AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits",
+    "valori": {
+     "2023": 0,
+     "2024": 0,
+     "2025": 0
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 2714,
-     "2024": 1985,
-     "2025": 2038
-    }
-   },
-   {
     "tag": "OtherInvestments",
     "valori": {
      "2023": 1616,
      "2024": 1346,
      "2025": 2526
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax",
-    "valori": {
-     "2023": 612,
-     "2024": 334,
-     "2025": 860
     }
    },
    {
@@ -671,45 +572,34 @@
     }
    },
    {
-    "tag": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
+    "tag": "EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity",
     "valori": {
-     "2023": 556,
-     "2024": 0,
-     "2025": 605
+     "2023": 520
     }
    },
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
+    "tag": "CashCollateralForBorrowedSecurities",
     "valori": {
-     "2023": 555,
-     "2024": 425,
-     "2025": 190
+     "2024": 447,
+     "2025": 430
+    }
+   },
+   {
+    "tag": "AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits",
+    "valori": {
+     "2023": 0,
+     "2024": 0,
+     "2025": 0
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 2714,
-     "2024": 1985,
-     "2025": 2038
-    }
-   },
-   {
     "tag": "OtherInvestments",
     "valori": {
      "2023": 1616,
      "2024": 1346,
      "2025": 2526
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax",
-    "valori": {
-     "2023": 612,
-     "2024": 334,
-     "2025": 860
     }
    },
    {
@@ -721,26 +611,96 @@
     }
    },
    {
-    "tag": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
+    "tag": "EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity",
     "valori": {
-     "2023": 556,
-     "2024": 0,
-     "2025": 605
+     "2023": 520
     }
    },
    {
-    "tag": "PaymentsToAcquireShortTermInvestments",
+    "tag": "CashCollateralForBorrowedSecurities",
     "valori": {
-     "2023": 555,
-     "2024": 425,
-     "2025": 190
+     "2024": 447,
+     "2025": 430
+    }
+   },
+   {
+    "tag": "AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits",
+    "valori": {
+     "2023": 0,
+     "2024": 0,
+     "2025": 0
     }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-12-28",
+  "2020": "2020-12-26",
+  "2021": "2021-12-25",
+  "2022": "2022-12-31",
+  "2023": "2023-12-30",
+  "2024": "2024-12-28",
+  "2025": "2025-12-27",
+  "2018": "2018-12-29",
+  "2012": "2012-12-29",
+  "2013": "2013-12-28",
+  "2014": "2014-12-27",
+  "2015": "2015-12-26",
+  "2016": "2016-12-31",
+  "2017": "2017-12-30",
+  "2009": "2009-12-26",
+  "2010": "2010-12-25",
+  "2011": "2011-12-31",
+  "2008": "2008-12-27"
+ },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2008": 3883.0,
+   "2009": 4484.0,
+   "2010": 1368.0,
+   "2011": 1477.0,
+   "2012": 1633.0,
+   "2013": 2623.0,
+   "2014": 2689.0,
+   "2015": 2311.0,
+   "2016": 1950.0,
+   "2017": 2042.0,
+   "2018": 2409.0,
+   "2019": 2683.0,
+   "2020": 2792.0,
+   "2021": 2350.0,
+   "2022": 3073.0,
+   "2023": 2714.0,
+   "2024": 1985.0,
+   "2025": 2038.0
+  },
+  "invNonOpAmpia": {
+   "2008": 3883.0,
+   "2009": 4484.0,
+   "2010": 1368.0,
+   "2011": 1477.0,
+   "2012": 1633.0,
+   "2013": 2623.0,
+   "2014": 2689.0,
+   "2015": 2311.0,
+   "2016": 1950.0,
+   "2017": 2042.0,
+   "2018": 2409.0,
+   "2019": 2683.0,
+   "2020": 2792.0,
+   "2021": 2350.0,
+   "2022": 3073.0,
+   "2023": 2714.0,
+   "2024": 1985.0,
+   "2025": 2038.0
+  }
+ },
+ "sic": "2080",
+ "sic_descrizione": "Beverages",
+ "chiusura_esercizio": "1226",
+ "nome": "PEPSICO INC",
+ "ambito": "ok"
 }

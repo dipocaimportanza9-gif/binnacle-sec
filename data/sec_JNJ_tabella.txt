@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                          .    7,000 
 Debiti finanziari a breve                                            .    7,004    3,906    2,796    1,202        .    2,631    3,766    3,451    5,983    8,495        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                    .        .        .      511    1,148        .    1,481    1,884    4,473      451      665        .
 Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .    9,734    4,368        .   14,042   19,727    8,874    7,216    2,854        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -49,27 +49,8 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 jnj:DebtForEquityExchangeSharesExchanged                             .        .        .        .        .        .        .        .        .      182        .        .
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: OperatingLeaseLiability {2023: 1100, 2024: 1200, 2025: 1400}
 finLiab: OperatingLeaseRightOfUseAsset {2023: 1000, 2024: 1100, 2025: 1300}
-finLiab: OperatingLeasePayments {2023: 200, 2024: 200, 2025: 300}
-finLiab: OperatingLeaseCost {2023: 200, 2024: 200, 2025: 200}
-eqPriv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 19390, 2024: 2462, 2025: 1661}
-eqPriv: PaymentsToAcquireInvestments {2023: 10906, 2024: 1726, 2025: 920}
-eqPriv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis {2023: 8875, 2024: 7215, 2025: 2854}
-eqPriv: AvailableForSaleSecuritiesDebtSecurities {2023: 8874, 2024: 7216, 2025: 2854}
-eqPriv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 8874, 2024: 7216, 2025: 2854}
-eqPriv: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearAmortizedCost {2023: 8865, 2024: 7204, 2025: 2829}
-eqMeth: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 19390, 2024: 2462, 2025: 1661}
-eqMeth: PaymentsToAcquireInvestments {2023: 10906, 2024: 1726, 2025: 920}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis {2023: 8875, 2024: 7215, 2025: 2854}
-eqMeth: AvailableForSaleSecuritiesDebtSecurities {2023: 8874, 2024: 7216, 2025: 2854}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 8874, 2024: 7216, 2025: 2854}
-eqMeth: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearAmortizedCost {2023: 8865, 2024: 7204, 2025: 2829}
-ltInv: ProceedsFromSaleMaturityAndCollectionsOfInvestments {2023: 19390, 2024: 2462, 2025: 1661}
-ltInv: PaymentsToAcquireInvestments {2023: 10906, 2024: 1726, 2025: 920}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis {2023: 8875, 2024: 7215, 2025: 2854}
-ltInv: AvailableForSaleSecuritiesDebtSecurities {2023: 8874, 2024: 7216, 2025: 2854}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate {2023: 8874, 2024: 7216, 2025: 2854}
-ltInv: AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearAmortizedCost {2023: 8865, 2024: 7204, 2025: 2829}
+eqMeth: MarketableSecuritiesCurrent {2023: 1068, 2024: 417, 2025: 393}
+ltInv: MarketableSecuritiesCurrent {2023: 1068, 2024: 417, 2025: 393}
 
-Tempo: 2 s. File scritto: sec_JNJ.json
+Tempo: 5 s. File scritto: sec_JNJ.json

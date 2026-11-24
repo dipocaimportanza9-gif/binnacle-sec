@@ -141,7 +141,24 @@
   },
   "afsDeb": {},
   "mktNon": {},
-  "ltInv": {},
+  "ltInv": {
+   "2010": 3742.0,
+   "2011": 3867.0,
+   "2012": 4190.0,
+   "2013": 4780.0,
+   "2014": 5166.0,
+   "2015": 5138.0,
+   "2016": 5434.0,
+   "2017": 6003.0,
+   "2018": 5886.0,
+   "2019": 6954.0,
+   "2020": 7779.0,
+   "2021": 8922.0,
+   "2022": 7496.0,
+   "2023": 8698.0,
+   "2024": 9800.0,
+   "2025": 10954.0
+  },
   "aoci": {
    "2009": 169.0,
    "2010": 166.0,
@@ -299,7 +316,24 @@
   },
   "afsDeb": {},
   "mktNon": {},
-  "ltInv": {},
+  "ltInv": {
+   "2010": "DecommissioningFundInvestments",
+   "2011": "DecommissioningFundInvestments",
+   "2012": "DecommissioningFundInvestments",
+   "2013": "DecommissioningFundInvestments",
+   "2014": "DecommissioningFundInvestments",
+   "2015": "DecommissioningFundInvestments",
+   "2016": "DecommissioningFundInvestments",
+   "2017": "DecommissioningFundInvestments",
+   "2018": "DecommissioningFundInvestments",
+   "2019": "DecommissioningFundInvestments",
+   "2020": "DecommissioningFundInvestments",
+   "2021": "DecommissioningFundInvestments",
+   "2022": "DecommissioningFundInvestments",
+   "2023": "DecommissioningFundInvestments",
+   "2024": "DecommissioningFundInvestments",
+   "2025": "DecommissioningFundInvestments"
+  },
   "aoci": {
    "2009": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2010": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
@@ -416,156 +450,37 @@
  },
  "avvisi": [],
  "candidati": {
-  "dTot": [
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 61405,
-     "2024": 72385,
-     "2025": 89556
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfLongTermDebt",
-    "valori": {
-     "2023": 13857,
-     "2024": 24769,
-     "2025": 23394
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
-    "valori": {
-     "2023": 1874,
-     "2024": 11519,
-     "2025": 10588
-    }
-   },
-   {
-    "tag": "RepaymentsOfLongTermDebt",
-    "valori": {
-     "2023": 7978,
-     "2024": 10113,
-     "2025": 10347
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
-    "valori": {
-     "2023": 8037,
-     "2024": 3358,
-     "2025": 10343
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive",
-    "valori": {
-     "2023": 7685,
-     "2024": 9919,
-     "2025": 7270
-    }
-   }
-  ],
   "afsDeb": [
    {
-    "tag": "DecommissioningFundInvestments",
-    "valori": {
-     "2023": 8698,
-     "2024": 9800,
-     "2025": 10954
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 6156,
-     "2024": 6118,
-     "2025": 5528
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 3329,
-     "2024": 3720,
-     "2025": 4181
-    }
-   },
-   {
     "tag": "EquityMethodInvestmentDividendsOrDistributions",
     "valori": {
      "2023": 712,
      "2024": 811,
      "2025": 446
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-    "valori": {
-     "2023": 538,
-     "2024": 665,
-     "2025": 647
-    }
-   },
-   {
-    "tag": "IncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": -648,
-     "2024": -246,
-     "2025": -184
-    }
-   }
-  ],
-  "ltInv": [
-   {
-    "tag": "DecommissioningFundInvestments",
-    "valori": {
-     "2023": 8698,
-     "2024": 9800,
-     "2025": 10954
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 6156,
-     "2024": 6118,
-     "2025": 5528
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2023": 3329,
-     "2024": 3720,
-     "2025": 4181
-    }
-   },
-   {
-    "tag": "EquityMethodInvestmentDividendsOrDistributions",
-    "valori": {
-     "2023": 712,
-     "2024": 811,
-     "2025": 446
-    }
-   },
-   {
-    "tag": "EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
-    "valori": {
-     "2023": 538,
-     "2024": 665,
-     "2025": 647
-    }
-   },
-   {
-    "tag": "IncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": -648,
-     "2024": -246,
-     "2025": -184
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2008": "2008-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2007": "2007-12-31"
  },
  "derivati": {
   "dTotCalc": {
@@ -589,6 +504,49 @@
    "2025": 93056.0
   },
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2009": 0,
+   "2010": 3742.0,
+   "2011": 3867.0,
+   "2012": 4190.0,
+   "2013": 4780.0,
+   "2014": 5166.0,
+   "2015": 5138.0,
+   "2016": 5434.0,
+   "2017": 6003.0,
+   "2018": 6748.0,
+   "2019": 7453.0,
+   "2020": 7779.0,
+   "2021": 8922.0,
+   "2022": 7496.0,
+   "2023": 8698.0,
+   "2024": 9800.0,
+   "2025": 10954.0
+  },
+  "invNonOpAmpia": {
+   "2009": 0,
+   "2010": 3742.0,
+   "2011": 3867.0,
+   "2012": 4190.0,
+   "2013": 4780.0,
+   "2014": 5166.0,
+   "2015": 5138.0,
+   "2016": 5434.0,
+   "2017": 6003.0,
+   "2018": 6748.0,
+   "2019": 7453.0,
+   "2020": 7779.0,
+   "2021": 8922.0,
+   "2022": 7496.0,
+   "2023": 8698.0,
+   "2024": 9800.0,
+   "2025": 10954.0
+  }
+ },
+ "sic": "4911",
+ "sic_descrizione": "Electric Services",
+ "chiusura_esercizio": "1231",
+ "nome": "NEXTERA ENERGY INC",
+ "ambito": "ok"
 }

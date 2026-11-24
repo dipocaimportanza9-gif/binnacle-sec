@@ -66,43 +66,34 @@ jpm:RedeemableLongTermDebt                                           .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2014-2025: non sommarli di nuovo
+2023: l'OCI sale di 6898 ma gli investimenti letti salgono di 361: controllare il filing (investimenti non letti?)
+2025: l'OCI sale di 8166 ma gli investimenti letti salgono di 1136: controllare il filing (investimenti non letti?)
+FUORI PORTATA (SIC 6021 National Commercial Banks)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 391825, 2024: 401418, 2025: 435206}
-finLiab: InterestAndFeeIncomeLoansAndLeases {2023: 83384, 2024: 92353, 2025: 93843}
 finLiab: PropertySubjectToOrAvailableForOperatingLeaseNet {2023: 10663, 2024: 12988, 2025: 20130}
-finLiab: ProvisionForLoanLeaseAndOtherLosses {2023: 9320, 2024: 10678, 2025: 14212}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 10530, 2024: 10691, 2025: 11255}
-finLiab: OperatingLeaseLiability {2023: 8833, 2024: 8900, 2025: 9337}
-dCur: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss {2023: 575304, 2024: 685513, 2025: 777360}
-dCur: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 544458, 2024: 654752, 2025: 760542}
-dCur: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 205456, 2024: 411045, 2025: 507226}
-dCur: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 201704, 2024: 406852, 2025: 507198}
-dCur: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis {2023: 205417, 2024: 412247, 2025: 506626}
-dCur: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 391825, 2024: 401418, 2025: 435206}
-dNon: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss {2023: 575304, 2024: 685513, 2025: 777360}
-dNon: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 544458, 2024: 654752, 2025: 760542}
-dNon: DebtSecuritiesAvailableForSaleAmortizedCostExcludingAccruedInterestAfterAllowanceForCreditLoss {2023: 205456, 2024: 411045, 2025: 507226}
-dNon: DebtSecuritiesAvailableForSaleExcludingAccruedInterest {2023: 201704, 2024: 406852, 2025: 507198}
-dNon: AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis {2023: 205417, 2024: 412247, 2025: 506626}
-dNon: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 391825, 2024: 401418, 2025: 435206}
-eqMeth: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 1303900, 2024: 1544000, 2025: 1771000}
-eqMeth: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 982800, 2024: 1210700, 2025: 1426400}
-eqMeth: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss {2023: 575304, 2024: 685513, 2025: 777360}
-eqMeth: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 544458, 2024: 654752, 2025: 760542}
-eqMeth: SecuritiesSoldUnderAgreementsToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 459985, 2024: 603683, 2025: 715251}
-eqMeth: SecuritiesPurchasedUnderAgreementsToResellGrossIncludingNotSubjectToMasterNettingArrangement {2023: 523308, 2024: 607154, 2025: 618516}
-afsDeb: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 1303900, 2024: 1544000, 2025: 1771000}
-afsDeb: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 982800, 2024: 1210700, 2025: 1426400}
-afsDeb: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss {2023: 575304, 2024: 685513, 2025: 777360}
-afsDeb: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 544458, 2024: 654752, 2025: 760542}
-afsDeb: SecuritiesSoldUnderAgreementsToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 459985, 2024: 603683, 2025: 715251}
-afsDeb: SecuritiesPurchasedUnderAgreementsToResellGrossIncludingNotSubjectToMasterNettingArrangement {2023: 523308, 2024: 607154, 2025: 618516}
-ltInv: FairValueOfSecuritiesReceivedAsCollateralThatCanBeResoldOrRepledged {2023: 1303900, 2024: 1544000, 2025: 1771000}
-ltInv: FairValueOfSecuritiesReceivedAsCollateralThatHaveBeenResoldOrRepledged {2023: 982800, 2024: 1210700, 2025: 1426400}
-ltInv: DebtSecuritiesAvailableForSaleAndHeldToMaturityAmortizedCostAfterAllowanceForCreditLoss {2023: 575304, 2024: 685513, 2025: 777360}
-ltInv: DebtSecuritiesAvailableForSaleAndHeldToMaturityFairValue {2023: 544458, 2024: 654752, 2025: 760542}
-ltInv: SecuritiesSoldUnderAgreementsToRepurchaseGrossIncludingNotSubjectToMasterNettingArrangement {2023: 459985, 2024: 603683, 2025: 715251}
-ltInv: SecuritiesPurchasedUnderAgreementsToResellGrossIncludingNotSubjectToMasterNettingArrangement {2023: 523308, 2024: 607154, 2025: 618516}
+finLiab: OperatingLeaseRightOfUseAsset {2023: 8431, 2024: 8494, 2025: 8901}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 2094, 2024: 1565, 2025: 1834}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 1697, 2024: 1791, 2025: 1918}
+dCur: TransfersAccountedForAsSecuredBorrowingsAssetsCarryingAmount {2023: 505, 2024: 805, 2025: 787}
+dNon: TransfersAccountedForAsSecuredBorrowingsAssetsCarryingAmount {2023: 505, 2024: 805, 2025: 787}
+eqMeth: SecuritiesBorrowedGrossIncludingNotSubjectToMasterNettingArrangement {2023: 244046, 2024: 267917, 2025: 357361}
+eqMeth: SecuritiesBorrowed {2023: 200436, 2024: 219546, 2025: 286191}
+eqMeth: SecuritiesLoanedGrossIncludingNotSubjectToMasterNettingArrangement {2023: 52142, 2024: 58989, 2025: 86829}
+eqMeth: SecuritiesLoanedAsset {2023: 43610, 2024: 48371, 2025: 71170}
+eqMeth: SecuritiesBorrowedLiability {2023: 43610, 2024: 48371, 2025: 71170}
+eqMeth: IncreaseDecreaseInCashCollateralForBorrowedSecurities {2023: 14902, 2024: 18762, 2025: 66648}
+afsDeb: SecuritiesBorrowedGrossIncludingNotSubjectToMasterNettingArrangement {2023: 244046, 2024: 267917, 2025: 357361}
+afsDeb: SecuritiesBorrowed {2023: 200436, 2024: 219546, 2025: 286191}
+afsDeb: SecuritiesLoanedGrossIncludingNotSubjectToMasterNettingArrangement {2023: 52142, 2024: 58989, 2025: 86829}
+afsDeb: SecuritiesLoanedAsset {2023: 43610, 2024: 48371, 2025: 71170}
+afsDeb: SecuritiesBorrowedLiability {2023: 43610, 2024: 48371, 2025: 71170}
+afsDeb: IncreaseDecreaseInCashCollateralForBorrowedSecurities {2023: 14902, 2024: 18762, 2025: 66648}
+ltInv: SecuritiesBorrowedGrossIncludingNotSubjectToMasterNettingArrangement {2023: 244046, 2024: 267917, 2025: 357361}
+ltInv: SecuritiesBorrowed {2023: 200436, 2024: 219546, 2025: 286191}
+ltInv: SecuritiesLoanedGrossIncludingNotSubjectToMasterNettingArrangement {2023: 52142, 2024: 58989, 2025: 86829}
+ltInv: SecuritiesLoanedAsset {2023: 43610, 2024: 48371, 2025: 71170}
+ltInv: SecuritiesBorrowedLiability {2023: 43610, 2024: 48371, 2025: 71170}
+ltInv: IncreaseDecreaseInCashCollateralForBorrowedSecurities {2023: 14902, 2024: 18762, 2025: 66648}
 
-Tempo: 2 s. File scritto: sec_JPM.json
+Tempo: 1 s. File scritto: sec_JPM.json

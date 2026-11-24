@@ -174,7 +174,15 @@
    "2024": 5983.0,
    "2025": 8495.0
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2018": 511.0,
+   "2019": 1148.0,
+   "2021": 1481.0,
+   "2022": 1884.0,
+   "2023": 4473.0,
+   "2024": 451.0,
+   "2025": 665.0
+  },
   "eqMeth": {},
   "afsDeb": {
    "2018": 9734.0,
@@ -375,7 +383,15 @@
    "2024": "ShortTermBorrowings",
    "2025": "ShortTermBorrowings"
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2018": "EquitySecuritiesFvNi",
+   "2019": "EquitySecuritiesFvNi",
+   "2021": "EquitySecuritiesFvNi",
+   "2022": "EquitySecuritiesFvNi",
+   "2023": "EquitySecuritiesFvNi",
+   "2024": "EquitySecuritiesFvNi",
+   "2025": "EquitySecuritiesFvNi"
+  },
   "eqMeth": {},
   "afsDeb": {
    "2018": "AvailableForSaleSecuritiesDebtSecurities",
@@ -415,188 +431,52 @@
  "candidati": {
   "finLiab": [
    {
-    "tag": "OperatingLeaseLiability",
-    "valori": {
-     "2023": 1100,
-     "2024": 1200,
-     "2025": 1400
-    }
-   },
-   {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
      "2023": 1000,
      "2024": 1100,
      "2025": 1300
     }
-   },
-   {
-    "tag": "OperatingLeasePayments",
-    "valori": {
-     "2023": 200,
-     "2024": 200,
-     "2025": 300
-    }
-   },
-   {
-    "tag": "OperatingLeaseCost",
-    "valori": {
-     "2023": 200,
-     "2024": 200,
-     "2025": 200
-    }
-   }
-  ],
-  "eqPriv": [
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
-    "valori": {
-     "2023": 19390,
-     "2024": 2462,
-     "2025": 1661
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 10906,
-     "2024": 1726,
-     "2025": 920
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis",
-    "valori": {
-     "2023": 8875,
-     "2024": 7215,
-     "2025": 2854
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 8874,
-     "2024": 7216,
-     "2025": 2854
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
-    "valori": {
-     "2023": 8874,
-     "2024": 7216,
-     "2025": 2854
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearAmortizedCost",
-    "valori": {
-     "2023": 8865,
-     "2024": 7204,
-     "2025": 2829
-    }
    }
   ],
   "eqMeth": [
    {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
+    "tag": "MarketableSecuritiesCurrent",
     "valori": {
-     "2023": 19390,
-     "2024": 2462,
-     "2025": 1661
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 10906,
-     "2024": 1726,
-     "2025": 920
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis",
-    "valori": {
-     "2023": 8875,
-     "2024": 7215,
-     "2025": 2854
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 8874,
-     "2024": 7216,
-     "2025": 2854
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
-    "valori": {
-     "2023": 8874,
-     "2024": 7216,
-     "2025": 2854
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearAmortizedCost",
-    "valori": {
-     "2023": 8865,
-     "2024": 7204,
-     "2025": 2829
+     "2023": 1068,
+     "2024": 417,
+     "2025": 393
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
+    "tag": "MarketableSecuritiesCurrent",
     "valori": {
-     "2023": 19390,
-     "2024": 2462,
-     "2025": 1661
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 10906,
-     "2024": 1726,
-     "2025": 920
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis",
-    "valori": {
-     "2023": 8875,
-     "2024": 7215,
-     "2025": 2854
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2023": 8874,
-     "2024": 7216,
-     "2025": 2854
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
-    "valori": {
-     "2023": 8874,
-     "2024": 7216,
-     "2025": 2854
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearAmortizedCost",
-    "valori": {
-     "2023": 8865,
-     "2024": 7204,
-     "2025": 2829
+     "2023": 1068,
+     "2024": 417,
+     "2025": 393
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-29",
+  "2021": "2021-01-03",
+  "2022": "2022-01-02",
+  "2023": "2023-12-31",
+  "2024": "2024-12-29",
+  "2025": "2025-12-28",
+  "2017": "2017-12-31",
+  "2018": "2018-12-30",
+  "2011": "2011-01-02",
+  "2012": "2012-12-30",
+  "2013": "2013-12-29",
+  "2014": "2014-12-28",
+  "2016": "2016-01-03",
+  "2010": "2010-01-03",
+  "2008": "2008-12-28",
+  "2007": "2007-12-30"
  },
  "derivati": {
   "dTotCalc": {
@@ -609,6 +489,29 @@
    "2019": 27694.0
   },
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2018": 511.0,
+   "2019": 1148.0,
+   "2021": 1481.0,
+   "2022": 1884.0,
+   "2023": 4473.0,
+   "2024": 451.0,
+   "2025": 665.0
+  },
+  "invNonOpAmpia": {
+   "2018": 10245.0,
+   "2019": 5516.0,
+   "2021": 15523.0,
+   "2022": 21611.0,
+   "2023": 13347.0,
+   "2024": 7667.0,
+   "2025": 3519.0
+  }
+ },
+ "sic": "2834",
+ "sic_descrizione": "Pharmaceutical Preparations",
+ "chiusura_esercizio": "0103",
+ "nome": "JOHNSON & JOHNSON",
+ "ambito": "ok"
 }

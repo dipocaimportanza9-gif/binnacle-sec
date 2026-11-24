@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                          .        . 
 Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .    3,000    3,300        .
+Equity in societa' non quotate (valore contabile)                    .        .        .    1,845    1,756    1,828    2,177    2,148    2,553    3,000    3,300        .
 Partecipazioni a patrimonio netto (equity method)                    .        .      900    1,500    1,400    1,300    1,300    1,500    1,400    3,800    3,800        .
 Titoli di debito disponibili per la vendita (valore equo)       18,631   24,179   28,424   31,898   36,094   39,828   40,217   42,321   44,895   46,919   48,182        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -53,18 +53,10 @@ unh:InvestmentsAmortizedCost                                         .        . 
 unh:InvestmentsGrossUnrealizedGains                                  .        .        .        .      799    1,780      826       59      135       62      231        .
 unh:InvestmentsGrossUnrealizedLosses                                 .        .        .        .       30       22      276    3,681    2,698    2,962    1,628        .
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 5975, 2024: 6194, 2025: 6562}
-finLiab: OperatingLeaseLiability {2023: 4898, 2024: 4889, 2025: 4615}
-finLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 2210, 2024: 2465, 2025: 2665}
-finLiab: OperatingLeaseCost {2023: 1400, 2024: 1400, 2025: 1600}
-finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 1077, 2024: 1305, 2025: 1391}
-finLiab: OperatingLeasePayments {2023: 1100, 2024: 1100, 2025: 1100}
-dBrev: DebtLongtermAndShorttermCombinedAmount {2023: 61473, 2024: 76180, 2025: 77681}
-dBrev: LongTermDebtNoncurrent {2023: 58263, 2024: 72359, 2025: 72320}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 47176, 2024: 59908, 2025: 58657}
-dBrev: AvailableForSaleDebtSecuritiesAmortizedCostBasis {2023: 47451, 2024: 49815, 2025: 49578}
-dBrev: AvailableForSaleSecuritiesDebtSecurities {2023: 44895, 2024: 46919, 2025: 48182}
-dBrev: ProceedsFromSaleOfAvailableForSaleSecuritiesDebt {2023: 7307, 2024: 18514, 2025: 9288}
+--- AVVISI ---
+FUORI PORTATA (SIC 6324 Hospital & Medical Service Plans)
 
-Tempo: 3 s. File scritto: sec_UNH.json
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 1077, 2024: 1305, 2025: 1391}
+
+Tempo: 4 s. File scritto: sec_UNH.json

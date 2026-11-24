@@ -143,7 +143,8 @@
    "2022": 9361.0,
    "2023": 9560.0,
    "2024": 9575.0,
-   "2025": 10600.0
+   "2025": 10600.0,
+   "2018": 7491.0
   },
   "dCurTot": {},
   "dBrev": {
@@ -325,7 +326,8 @@
    "2022": "LongTermDebt",
    "2023": "LongTermDebt",
    "2024": "LongTermDebt",
-   "2025": "LongTermDebt"
+   "2025": "LongTermDebt",
+   "2018": "DebtInstrumentCarryingAmount"
   },
   "dCurTot": {},
   "dBrev": {
@@ -428,36 +430,6 @@
  "candidati": {
   "ltInv": [
    {
-    "tag": "PaymentsToAcquireMarketableSecurities",
-    "valori": {
-     "2023": 8774,
-     "2024": 12765,
-     "2025": 21447
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfMarketableSecurities",
-    "valori": {
-     "2023": 5069,
-     "2024": 10204,
-     "2025": 20046
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecurities",
-    "valori": {
-     "2024": 8562,
-     "2025": 10326
-    }
-   },
-   {
-    "tag": "AvailableForSaleDebtSecuritiesAmortizedCostBasis",
-    "valori": {
-     "2024": 8558,
-     "2025": 10314
-    }
-   },
-   {
     "tag": "RestrictedInvestments",
     "valori": {
      "2023": 4779,
@@ -466,20 +438,61 @@
     }
    },
    {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+    "tag": "MarketableSecuritiesCurrent",
     "valori": {
-     "2023": 2321,
-     "2024": 4125,
-     "2025": 5800
+     "2023": 727,
+     "2024": 1084,
+     "2025": 528
+    }
+   },
+   {
+    "tag": "EquityMethodInvestmentOtherThanTemporaryImpairment",
+    "valori": {
+     "2023": 0,
+     "2024": 0
     }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31"
+ },
  "derivati": {
-  "dTotCalc": {
-   "2018": 6896.0
-  },
+  "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2018": 9297.0,
+   "2019": 9423.0,
+   "2020": 7655.0,
+   "2021": 1083.0,
+   "2022": 2981.0,
+   "2023": 2927.0,
+   "2024": 3501.0,
+   "2025": 4684.0
+  },
+  "invNonOpAmpia": {
+   "2018": 9297.0,
+   "2019": 9423.0,
+   "2020": 7655.0,
+   "2021": 1083.0,
+   "2022": 2981.0,
+   "2023": 2927.0,
+   "2024": 12063.0,
+   "2025": 15010.0
+  }
+ },
+ "sic": "7389",
+ "sic_descrizione": "Services-Business Services, NEC",
+ "chiusura_esercizio": "1231",
+ "nome": "Uber Technologies, Inc",
+ "ambito": "ok"
 }

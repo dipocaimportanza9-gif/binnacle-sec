@@ -34,11 +34,11 @@ Debito corrente totale (con debiti a breve)                      1,427    1,089 
 Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                  121       96        .        .        .    1,256    1,117        0        .        .        .        .
 Partecipazioni a patrimonio netto (equity method)               19,850   20,364    9,129    9,005    8,234    7,596    6,701    7,493    7,905    8,611    8,833        .
-Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .    1,551    1,601        .
-Titoli di mercato non correnti                                       .        .        .        .        .      217      248      522      989    1,055    1,148        .
-Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .      217      248      522      989    1,055    1,148        .
+Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Investimenti a lungo termine (voce di bilancio)                 20,490   21,672   10,060    9,664    8,906    8,131    7,113    8,225    9,130    9,869   10,185        .
 OCI accumulato (utili/perdite non realizzati)                   -6,247   -6,193   -5,518   -6,063   -5,357   -5,218   -4,950   -6,000   -5,673   -6,473   -5,911        .
 
 --- DERIVATI (regole generali) ---
@@ -56,26 +56,16 @@ cop:ShortTermInvestmentsCarriedAtCostPlusAccruedInterest             .        . 
 cop:ShortTermInvestmentsCarriedAtCostPlustAccruedInterest            .        .        .        .        .    3,320      225    2,182      536       12       31        .
 
 --- AVVISI ---
+Equity in societa' non quotate (valore contabile): ultimo anno 2022 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
+2010: l'OCI sale di 1708 ma gli investimenti letti salgono di -4333: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dBrev: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 18937, 2024: 24324, 2025: 23444}
 dBrev: DebtInstrumentFaceAmount {2023: 18413, 2024: 24085, 2025: 23347}
-dBrev: LongTermDebtAndCapitalLeaseObligations {2023: 17863, 2024: 23289, 2025: 22424}
-dBrev: ProceedsFromIssuanceOfDebt {2023: 3787, 2024: 5591, 2025: 0}
-dBrev: RepaymentsOfDebt {2023: 1379, 2024: 4981, 2025: 913}
-dBrev: DebtInstrumentRepurchasedFaceAmount {2023: 1133, 2024: 3768}
-eqPriv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 16288, 2024: 13672, 2025: 12656}
-eqPriv: LongTermInvestmentsAndReceivablesNet {2023: 9130, 2024: 9869, 2025: 10185}
-eqPriv: InvestmentOwnedAtFairValue {2023: 7905, 2024: 8610, 2025: 8833}
-eqPriv: EquityMethodInvestments {2023: 7905, 2024: 8611, 2025: 8833}
-eqPriv: ProceedsFromSaleOfShortTermInvestments {2023: 3574, 2024: 3567, 2025: 1751}
+dBrev: ExtinguishmentOfDebtAmount {2025: 700}
 eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 2684, 2024: 2283, 2025: 1531}
-ltInv: IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments {2023: 16288, 2024: 13672, 2025: 12656}
-ltInv: LongTermInvestmentsAndReceivablesNet {2023: 9130, 2024: 9869, 2025: 10185}
-ltInv: InvestmentOwnedAtFairValue {2023: 7905, 2024: 8610, 2025: 8833}
-ltInv: EquityMethodInvestments {2023: 7905, 2024: 8611, 2025: 8833}
-ltInv: ProceedsFromSaleOfShortTermInvestments {2023: 3574, 2024: 3567, 2025: 1751}
-ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 2684, 2024: 2283, 2025: 1531}
+eqPriv: ShortTermInvestments {2023: 971, 2024: 507, 2025: 484}
+eqPriv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 60, 2024: 96, 2025: 112}
+eqPriv: OtherInvestments {2023: 93, 2024: 90, 2025: 94}
 
-Tempo: 2 s. File scritto: sec_COP.json
+Tempo: 7 s. File scritto: sec_COP.json

@@ -37,7 +37,7 @@ Debiti finanziari a breve                                            .        . 
 Equity in societa' non quotate (valore contabile)                    .        .        .        .      290      200      300      200      200    1,700    1,700    2,400
 Partecipazioni a patrimonio netto (equity method)                    .        .        .    2,768    2,922    2,632    2,638    2,678    2,688    2,680    6,319    3,815
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
-Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
+Titoli di mercato non correnti                                       .        .        .    2,899    3,224        .        .        .        .        .    1,778    2,451
 Investimenti a lungo termine (voce di bilancio)                      .        .        .    2,899    3,224    3,903    3,935    3,218    3,080    4,459    8,097    6,266
 OCI accumulato (utili/perdite non realizzati)                        .   -3,979   -3,528   -3,097   -6,617   -8,322   -6,440   -4,119   -3,292   -3,699   -2,914   -2,581
 
@@ -77,24 +77,22 @@ dis:OperatingAndFinanceLeaseLiabilityNoncurrent                      .        . 
 dis:OperatingAndFinancingLeaseTotalRightOfUseAsset                   .        .        .        .        .        .    4,231    4,269    4,502    3,622    3,391    3,404
 dis:TotalOperatingLeaseLiabilityOnTheBalanceSheet                    .        .        .        .        .        .    3,620    3,635    3,998    3,512    3,235    3,226
 
+--- AVVISI ---
+2021: l'OCI sale di 1882 ma gli investimenti letti salgono di 32: controllare il filing (investimenti non letti?)
+2022: l'OCI sale di 2321 ma gli investimenti letti salgono di -717: controllare il filing (investimenti non letti?)
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-opLiab: FilmMonetizedInFilmGroupCapitalizedCostReleased {2023: 13555, 2024: 13621, 2025: 14288, 2026: 13963}
-opLiab: LesseeOperatingLeaseLiabilityPaymentsDue {2023: 5087, 2024: 4664, 2025: 4258, 2026: 4279}
-opLiab: FilmMonetizedOnItsOwnCapitalizedCostReleased {2023: 4968, 2024: 4568, 2025: 4624, 2026: 4865}
 opLiab: OperatingLeaseRightOfUseAsset {2023: 4211, 2024: 3376, 2025: 3170, 2026: 3164}
-opLiab: OperatingLeaseLiabilityNoncurrent {2023: 3258, 2024: 2768, 2025: 2710, 2026: 2679}
-opLiab: LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive {2023: 2265, 2024: 1978, 2025: 1759, 2026: 1785}
-dBrev: LongTermDebt {2023: 46431, 2024: 45815, 2025: 42026, 2026: 44473}
-dBrev: DebtInstrumentCarryingAmount {2023: 46412, 2024: 45101, 2025: 41251, 2026: 44109}
-dBrev: LongTermDebtNoncurrent {2023: 42101, 2024: 38970, 2025: 35315, 2026: 37142}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 29204, 2024: 26987, 2025: 25872, 2026: 25124}
-dBrev: LineOfCreditFacilityRemainingBorrowingCapacity {2023: 12250, 2024: 12250, 2025: 12250, 2026: 12250}
-dBrev: LineOfCreditFacilityMaximumBorrowingCapacity {2023: 12250, 2024: 12250, 2025: 12250, 2026: 12250}
-afsDeb: LongTermInvestments {2023: 3080, 2024: 4459, 2025: 8097, 2026: 6266}
-afsDeb: EquityMethodInvestments {2023: 2688, 2024: 2680, 2025: 6319, 2026: 3815}
-afsDeb: OtherLongTermInvestments {2025: 1778, 2026: 2451}
-afsDeb: EquitySecuritiesWithoutReadilyDeterminableFairValueAmount {2023: 200, 2024: 1700, 2025: 1700, 2026: 2400}
+opLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 1089, 2024: 1152, 2025: 1023, 2026: 1053}
+opLiab: LeaseholdImprovementsGross {2023: 1058, 2024: 1082, 2025: 1103, 2026: 1015}
+opLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 1000, 2024: 300, 2025: 400, 2026: 600}
+opLiab: FinanceLeaseLiabilityUndiscountedExcessAmount {2023: 298, 2024: 280, 2025: 263, 2026: 263}
+dBrev: LongtermCommercialPaperCurrentAndNoncurrent {2023: 1476, 2024: 3040, 2025: 2062, 2026: 4269}
+dBrev: DebtInstrumentIncreaseDecreaseOtherNet {2023: 5, 2024: 32, 2025: -35, 2026: 43}
 afsDeb: OtherInvestments {2023: 392, 2024: 1779, 2025: 1778}
 afsDeb: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 700, 2024: 500, 2025: 1600, 2026: 1300}
+afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 720, 2024: 437, 2025: 145, 2026: 206}
+afsDeb: RestrictedCashAndInvestmentsNoncurrent {2023: 53, 2024: 100, 2025: 104, 2026: 109}
+afsDeb: RestrictedCashAndInvestmentsCurrent {2023: 0, 2024: 0, 2025: 0, 2026: 55}
 
-Tempo: 3 s. File scritto: sec_DIS.json
+Tempo: 5 s. File scritto: sec_DIS.json

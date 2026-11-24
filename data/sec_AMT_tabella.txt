@@ -63,37 +63,6 @@ Leasing finanziari: quota corrente: ultimo anno 2024 (mancano anni recenti)
 Leasing finanziari: quota non corrente: ultimo anno 2024 (mancano anni recenti)
 Rimborsi capitale leasing finanziari: ultimo anno 2024 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
+FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dBrev: LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities {2023: 38801, 2024: 36502, 2025: 37220}
-dBrev: LongTermDebtFairValue {2023: 36700}
-dBrev: LongTermDebtAndCapitalLeaseObligations {2023: 35734, 2024: 32809, 2025: 33832}
-dBrev: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 13230, 2024: 12430, 2025: 9450}
-dBrev: ProceedsFromIssuanceOfSeniorLongTermDebt {2023: 5678, 2024: 3569, 2025: 3001}
-dBrev: LongTermDebtCurrent {2023: 3067, 2024: 3693, 2025: 3388}
-eqPriv: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 13230, 2024: 12430, 2025: 9450}
-eqPriv: EquitySecuritiesFvNiGainLoss {2025: 233}
-eqPriv: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2025: -185}
-eqPriv: ProceedsFromSaleOfEquitySecuritiesFvNi {2025: 160}
-eqPriv: EquitySecuritiesFvNiUnrealizedGainLoss {2023: 4, 2024: 70, 2025: 121}
-eqPriv: EquitySecuritiesFvNiRealizedGain {2025: 111}
-eqMeth: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 13230, 2024: 12430, 2025: 9450}
-eqMeth: EquitySecuritiesFvNiGainLoss {2025: 233}
-eqMeth: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2025: -185}
-eqMeth: ProceedsFromSaleOfEquitySecuritiesFvNi {2025: 160}
-eqMeth: EquitySecuritiesFvNiUnrealizedGainLoss {2023: 4, 2024: 70, 2025: 121}
-eqMeth: EquitySecuritiesFvNiRealizedGain {2025: 111}
-afsDeb: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 13230, 2024: 12430, 2025: 9450}
-afsDeb: EquitySecuritiesFvNiGainLoss {2025: 233}
-afsDeb: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2025: -185}
-afsDeb: ProceedsFromSaleOfEquitySecuritiesFvNi {2025: 160}
-afsDeb: EquitySecuritiesFvNiUnrealizedGainLoss {2023: 4, 2024: 70, 2025: 121}
-afsDeb: EquitySecuritiesFvNiRealizedGain {2025: 111}
-ltInv: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 13230, 2024: 12430, 2025: 9450}
-ltInv: EquitySecuritiesFvNiGainLoss {2025: 233}
-ltInv: OtherComprehensiveIncomeLossNetInvestmentHedgeGainLossBeforeReclassificationAndTax {2025: -185}
-ltInv: ProceedsFromSaleOfEquitySecuritiesFvNi {2025: 160}
-ltInv: EquitySecuritiesFvNiUnrealizedGainLoss {2023: 4, 2024: 70, 2025: 121}
-ltInv: EquitySecuritiesFvNiRealizedGain {2025: 111}
-
-Tempo: 2 s. File scritto: sec_AMT.json
+Tempo: 7 s. File scritto: sec_AMT.json

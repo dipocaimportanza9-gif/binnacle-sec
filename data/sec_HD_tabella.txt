@@ -56,18 +56,4 @@ hd:OperatingLeaseandFinanceLeaseRightofUseAssets                     .        . 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2009-2026: non sommarli di nuovo
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-eqPriv: ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet {2023: 6942, 2024: 1995, 2025: 10010, 2026: 2161}
-eqPriv: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 2491, 2024: 1271, 2025: 1536, 2026: 5040}
-eqPriv: InvestmentIncomeInterestAndDividend {2023: 55, 2024: 178, 2025: 201, 2026: 124}
-eqMeth: ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet {2023: 6942, 2024: 1995, 2025: 10010, 2026: 2161}
-eqMeth: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 2491, 2024: 1271, 2025: 1536, 2026: 5040}
-eqMeth: InvestmentIncomeInterestAndDividend {2023: 55, 2024: 178, 2025: 201, 2026: 124}
-afsDeb: ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet {2023: 6942, 2024: 1995, 2025: 10010, 2026: 2161}
-afsDeb: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 2491, 2024: 1271, 2025: 1536, 2026: 5040}
-afsDeb: InvestmentIncomeInterestAndDividend {2023: 55, 2024: 178, 2025: 201, 2026: 124}
-ltInv: ProceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet {2023: 6942, 2024: 1995, 2025: 10010, 2026: 2161}
-ltInv: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 2491, 2024: 1271, 2025: 1536, 2026: 5040}
-ltInv: InvestmentIncomeInterestAndDividend {2023: 55, 2024: 178, 2025: 201, 2026: 124}
-
-Tempo: 3 s. File scritto: sec_HD.json
+Tempo: 4 s. File scritto: sec_HD.json

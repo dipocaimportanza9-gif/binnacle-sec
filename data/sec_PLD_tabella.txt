@@ -28,14 +28,14 @@ Impegni: oltre il quinto anno                                    2,456    2,392 
 
 --- DEBITO FINANZIARIO ---
 Debito a lungo termine: quota corrente                               .        .        .        .        .        .        .        .        .        .        .        .
-Debito a lungo termine: non corrente                                 .        .        .        .        .        .        .        .        .        .        .        .
+Debito a lungo termine: non corrente                                 .        .    6,100    8,300    9,700   14,300        .        .        .        .        .        .
 Debito a lungo termine: totale                                  11,627   10,608    9,413   11,090   11,906   16,849      215   23,876   29,000   30,879   35,037        .
 Debito corrente totale (con debiti a breve)                          .        .        .        .        .        .        .        .        .        .        .        .
 Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
 Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
-Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
+Partecipazioni a patrimonio netto (equity method)                4,756    4,230    5,496    5,745    6,237    7,602    8,611    9,699    9,544   10,079   11,094        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
@@ -55,54 +55,28 @@ pld:OperatingLeaseLiabilityBeforeAmortization                        .        . 
 pld:OperatingLeaseRightOfUseAssetBeforeAmortization                  .        .        .        .      524       48       71      162       43       68        .        .
 pld:PercentageOfOutstandingDebt                                      .        .        .        .        .        .        0        0        0        0        0        .
 
+--- AVVISI ---
+FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-finLiab: LessorOperatingLeasePaymentsToBeReceived {2023: 30499, 2024: 31390, 2025: 33995}
-finLiab: LessorOperatingLeasePaymentsToBeReceivedThereafter {2023: 10201, 2024: 10191, 2025: 11498}
-finLiab: LessorOperatingLeasePaymentsToBeReceivedNextTwelveMonths {2023: 4986, 2024: 5398, 2025: 5771}
-finLiab: LessorOperatingLeasePaymentsToBeReceivedTwoYears {2023: 4793, 2024: 5087, 2025: 5361}
-finLiab: LessorOperatingLeasePaymentsToBeReceivedThreeYears {2023: 4250, 2024: 4377, 2025: 4590}
-finLiab: LessorOperatingLeasePaymentsToBeReceivedFourYears {2023: 3514, 2024: 3576, 2025: 3769}
-dCur: DebtInstrumentCarryingAmount {2023: 29577, 2024: 31450, 2025: 35578}
-dCur: LongTermDebt {2023: 29001, 2024: 30879, 2025: 35037}
-dCur: DebtInstrumentFairValue {2023: 26782, 2024: 28611, 2025: 33043}
-dCur: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 20571, 2024: 20939, 2025: 22555}
-dCur: LineOfCreditFacilityMaximumBorrowingCapacity {2023: 6477, 2024: 6313, 2025: 6503}
-dCur: LineOfCreditFacilityRemainingBorrowingCapacity {2023: 5474, 2024: 6063, 2025: 6431}
-dNon: DebtInstrumentCarryingAmount {2023: 29577, 2024: 31450, 2025: 35578}
-dNon: LongTermDebt {2023: 29001, 2024: 30879, 2025: 35037}
-dNon: DebtInstrumentFairValue {2023: 26782, 2024: 28611, 2025: 33043}
-dNon: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 20571, 2024: 20939, 2025: 22555}
-dNon: LineOfCreditFacilityMaximumBorrowingCapacity {2023: 6477, 2024: 6313, 2025: 6503}
-dNon: LineOfCreditFacilityRemainingBorrowingCapacity {2023: 5474, 2024: 6063, 2025: 6431}
-dBrev: DebtInstrumentCarryingAmount {2023: 29577, 2024: 31450, 2025: 35578}
-dBrev: LongTermDebt {2023: 29001, 2024: 30879, 2025: 35037}
-dBrev: DebtInstrumentFairValue {2023: 26782, 2024: 28611, 2025: 33043}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 20571, 2024: 20939, 2025: 22555}
-dBrev: LineOfCreditFacilityMaximumBorrowingCapacity {2023: 6477, 2024: 6313, 2025: 6503}
-dBrev: LineOfCreditFacilityRemainingBorrowingCapacity {2023: 5474, 2024: 6063, 2025: 6431}
-eqPriv: RealEstateInvestmentPropertyAtCost {2023: 88667, 2024: 91246, 2025: 95129}
+finLiab: BelowMarketLeaseNet {2023: 2207, 2024: 1779, 2025: 1438}
+finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 788, 2024: 865, 2025: 882}
+finLiab: OperatingLeaseRightOfUseAsset {2023: 684, 2024: 708, 2025: 672}
+finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 43, 2024: 68, 2025: 80}
 eqPriv: RealEstateInvestments {2023: 87741, 2024: 88816, 2025: 91697}
 eqPriv: RealEstateInvestmentPropertyNet {2023: 77735, 2024: 78488, 2025: 80400}
-eqPriv: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 10931, 2024: 12758, 2025: 14729}
 eqPriv: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 9544, 2024: 10079, 2025: 11094}
-eqPriv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 9544, 2024: 10079, 2025: 11094}
-eqMeth: RealEstateInvestmentPropertyAtCost {2023: 88667, 2024: 91246, 2025: 95129}
-eqMeth: RealEstateInvestments {2023: 87741, 2024: 88816, 2025: 91697}
-eqMeth: RealEstateInvestmentPropertyNet {2023: 77735, 2024: 78488, 2025: 80400}
-eqMeth: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 10931, 2024: 12758, 2025: 14729}
-eqMeth: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 9544, 2024: 10079, 2025: 11094}
-eqMeth: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 9544, 2024: 10079, 2025: 11094}
-afsDeb: RealEstateInvestmentPropertyAtCost {2023: 88667, 2024: 91246, 2025: 95129}
+eqPriv: RealEstateInvestmentsOther {2023: 5088, 2024: 5684, 2025: 6661}
+eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 680, 2024: 562, 2025: 645}
 afsDeb: RealEstateInvestments {2023: 87741, 2024: 88816, 2025: 91697}
 afsDeb: RealEstateInvestmentPropertyNet {2023: 77735, 2024: 78488, 2025: 80400}
-afsDeb: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 10931, 2024: 12758, 2025: 14729}
 afsDeb: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 9544, 2024: 10079, 2025: 11094}
-afsDeb: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 9544, 2024: 10079, 2025: 11094}
-ltInv: RealEstateInvestmentPropertyAtCost {2023: 88667, 2024: 91246, 2025: 95129}
+afsDeb: RealEstateInvestmentsOther {2023: 5088, 2024: 5684, 2025: 6661}
+afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 680, 2024: 562, 2025: 645}
 ltInv: RealEstateInvestments {2023: 87741, 2024: 88816, 2025: 91697}
 ltInv: RealEstateInvestmentPropertyNet {2023: 77735, 2024: 78488, 2025: 80400}
-ltInv: RealEstateInvestmentPropertyAccumulatedDepreciation {2023: 10931, 2024: 12758, 2025: 14729}
 ltInv: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023: 9544, 2024: 10079, 2025: 11094}
-ltInv: InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures {2023: 9544, 2024: 10079, 2025: 11094}
+ltInv: RealEstateInvestmentsOther {2023: 5088, 2024: 5684, 2025: 6661}
+ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 680, 2024: 562, 2025: 645}
 
-Tempo: 3 s. File scritto: sec_PLD.json
+Tempo: 8 s. File scritto: sec_PLD.json

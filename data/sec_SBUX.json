@@ -206,7 +206,18 @@
    "2023": 33.5,
    "2024": 0.0
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2009": 39.1,
+   "2010": 33.4,
+   "2011": 37.9,
+   "2012": 66.0,
+   "2013": 45.6,
+   "2014": 45.6,
+   "2015": 45.6,
+   "2016": 48.8,
+   "2017": 48.8,
+   "2018": 38.7
+  },
   "eqMeth": {
    "2009": 313.2,
    "2010": 308.1,
@@ -225,14 +236,32 @@
    "2023": 415.7,
    "2024": 424.1,
    "2025": 418.9,
-   "2026": 1761.3
+   "2026": 1761.3,
+   "2008": 302.6
   },
-  "afsDeb": {},
-  "mktNon": {
+  "afsDeb": {
    "2021": 281.7,
    "2022": 279.1,
    "2023": 247.4,
    "2024": 276.0,
+   "2025": 246.9,
+   "2026": 309.5
+  },
+  "mktNon": {
+   "2008": 71.4,
+   "2009": 71.2,
+   "2010": 191.8,
+   "2011": 107.0,
+   "2012": 116.0,
+   "2013": 58.3,
+   "2014": 318.4,
+   "2015": 312.5,
+   "2016": 1141.7,
+   "2017": 542.3,
+   "2018": 267.7,
+   "2019": 220.0,
+   "2020": 206.1,
+   "2021": 281.7,
    "2025": 246.9,
    "2026": 309.5
   },
@@ -461,7 +490,18 @@
    "2023": "ShortTermBorrowings",
    "2024": "ShortTermBorrowings"
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2009": "CostMethodInvestments",
+   "2010": "CostMethodInvestments",
+   "2011": "CostMethodInvestments",
+   "2012": "CostMethodInvestments",
+   "2013": "CostMethodInvestments",
+   "2014": "CostMethodInvestments",
+   "2015": "CostMethodInvestments",
+   "2016": "CostMethodInvestments",
+   "2017": "CostMethodInvestments",
+   "2018": "CostMethodInvestments"
+  },
   "eqMeth": {
    "2009": "EquityMethodInvestments",
    "2010": "EquityMethodInvestments",
@@ -480,16 +520,34 @@
    "2023": "EquityMethodInvestments",
    "2024": "EquityMethodInvestments",
    "2025": "EquityMethodInvestments",
-   "2026": "EquityMethodInvestments"
+   "2026": "EquityMethodInvestments",
+   "2008": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVentures"
   },
-  "afsDeb": {},
-  "mktNon": {
+  "afsDeb": {
    "2021": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2022": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2023": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2024": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2025": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2026": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  },
+  "mktNon": {
+   "2008": "AvailableForSaleSecuritiesNoncurrent",
+   "2009": "AvailableForSaleSecuritiesNoncurrent",
+   "2010": "AvailableForSaleSecuritiesNoncurrent",
+   "2011": "AvailableForSaleSecuritiesNoncurrent",
+   "2012": "AvailableForSaleSecuritiesNoncurrent",
+   "2013": "AvailableForSaleSecuritiesNoncurrent",
+   "2014": "AvailableForSaleSecuritiesNoncurrent",
+   "2015": "AvailableForSaleSecuritiesNoncurrent",
+   "2016": "AvailableForSaleSecuritiesNoncurrent",
+   "2017": "AvailableForSaleSecuritiesNoncurrent",
+   "2018": "AvailableForSaleSecuritiesNoncurrent",
+   "2019": "AvailableForSaleSecuritiesNoncurrent",
+   "2020": "AvailableForSaleSecuritiesNoncurrent",
+   "2021": "AvailableForSaleSecuritiesNoncurrent",
+   "2025": "OtherLongTermInvestments",
+   "2026": "OtherLongTermInvestments"
   },
   "ltInv": {},
   "aoci": {
@@ -572,24 +630,6 @@
  "candidati": {
   "finLiab": [
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 10594,
-     "2024": 11942,
-     "2025": 12389,
-     "2026": 10820
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiability",
-    "valori": {
-     "2023": 9200,
-     "2024": 10235,
-     "2025": 10537,
-     "2026": 9137
-    }
-   },
-   {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
      "2023": 8413,
@@ -599,127 +639,35 @@
     }
    },
    {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
-     "2023": 7925,
-     "2024": 8772,
-     "2025": 8972,
-     "2026": 7792
+     "2023": 1893,
+     "2024": 2264,
+     "2025": 1981,
+     "2026": 1218
     }
    },
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 3878,
-     "2024": 4498,
-     "2025": 4592,
-     "2026": 3881
+     "2023": 1394,
+     "2024": 1708,
+     "2025": 1852,
+     "2026": 1683
     }
    },
    {
-    "tag": "LeaseCost",
+    "tag": "IncreaseDecreaseInOperatingLeaseLiability",
     "valori": {
-     "2023": 2679,
-     "2024": 2881,
-     "2025": 3364,
-     "2026": 3151
-    }
-   }
-  ],
-  "dBrev": [
-   {
-    "tag": "DebtInstrumentCarryingAmount",
-    "valori": {
-     "2023": 15519,
-     "2024": 15700,
-     "2025": 16200,
-     "2026": 13384
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 15366,
-     "2024": 15568,
-     "2025": 16075,
-     "2026": 13277
-    }
-   },
-   {
-    "tag": "LongTermDebtFairValue",
-    "valori": {
-     "2023": 13426,
-     "2024": 14647,
-     "2025": 14968,
-     "2026": 11629
-    }
-   },
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 13548,
-     "2024": 14320,
-     "2025": 14576,
-     "2026": 11778
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 9850,
-     "2024": 9100,
-     "2025": 8850,
-     "2026": 6379
-    }
-   },
-   {
-    "tag": "RepaymentsOfLongTermDebt",
-    "valori": {
-     "2023": 1000,
-     "2024": 1825,
-     "2025": 1250,
-     "2026": 2816
+     "2023": -1444,
+     "2024": -1295,
+     "2025": -1577,
+     "2026": -1630
     }
    }
   ],
   "eqPriv": [
    {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesFairValueDisclosure",
-    "valori": {
-     "2023": 440,
-     "2024": 464,
-     "2025": 466,
-     "2026": 1784
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 416,
-     "2024": 424,
-     "2025": 419,
-     "2026": 1761
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
-    "valori": {
-     "2023": 617,
-     "2024": 768,
-     "2025": 392,
-     "2026": 165
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 610,
-     "2024": 628,
-     "2025": 334,
-     "2026": 182
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 402,
@@ -736,102 +684,19 @@
      "2025": 294,
      "2026": 188
     }
-   }
-  ],
-  "afsDeb": [
-   {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesFairValueDisclosure",
-    "valori": {
-     "2023": 440,
-     "2024": 464,
-     "2025": 466,
-     "2026": 1784
-    }
    },
    {
-    "tag": "EquityMethodInvestments",
+    "tag": "OtherInvestments",
     "valori": {
-     "2023": 416,
-     "2024": 424,
-     "2025": 419,
-     "2026": 1761
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
-    "valori": {
-     "2023": 617,
-     "2024": 768,
-     "2025": 392,
-     "2026": 165
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 610,
-     "2024": 628,
-     "2025": 334,
-     "2026": 182
-    }
-   },
-   {
-    "tag": "ShortTermInvestments",
-    "valori": {
-     "2023": 402,
-     "2024": 257,
-     "2025": 247,
-     "2026": 184
-    }
-   },
-   {
-    "tag": "EquityMethodInvestmentDividendsOrDistributions",
-    "valori": {
-     "2023": 223,
-     "2024": 333,
-     "2025": 294,
-     "2026": 188
+     "2023": 24,
+     "2024": 40,
+     "2025": 47,
+     "2026": 23
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "InvestmentsInAffiliatesSubsidiariesAssociatesAndJointVenturesFairValueDisclosure",
-    "valori": {
-     "2023": 440,
-     "2024": 464,
-     "2025": 466,
-     "2026": 1784
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 416,
-     "2024": 424,
-     "2025": 419,
-     "2026": 1761
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleAndMaturityOfAvailableForSaleSecurities",
-    "valori": {
-     "2023": 617,
-     "2024": 768,
-     "2025": 392,
-     "2026": 165
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireInvestments",
-    "valori": {
-     "2023": 610,
-     "2024": 628,
-     "2025": 334,
-     "2026": 182
-    }
-   },
-   {
     "tag": "ShortTermInvestments",
     "valori": {
      "2023": 402,
@@ -848,14 +713,92 @@
      "2025": 294,
      "2026": 188
     }
+   },
+   {
+    "tag": "OtherInvestments",
+    "valori": {
+     "2023": 24,
+     "2024": 40,
+     "2025": 47,
+     "2026": 23
+    }
    }
   ]
+ },
+ "fine_anno": {
+  "2020": "2020-09-27",
+  "2021": "2021-10-03",
+  "2022": "2022-10-02",
+  "2023": "2023-10-01",
+  "2024": "2024-09-29",
+  "2025": "2025-09-28",
+  "2026": "2026-09-27",
+  "2019": "2019-09-29",
+  "2009": "2009-09-27",
+  "2010": "2010-10-03",
+  "2011": "2011-10-02",
+  "2012": "2012-09-30",
+  "2013": "2013-09-29",
+  "2014": "2014-09-28",
+  "2015": "2015-09-27",
+  "2016": "2016-10-02",
+  "2017": "2017-10-01",
+  "2018": "2018-09-30",
+  "2008": "2008-09-28",
+  "2007": "2007-09-30"
  },
  "derivati": {
   "dTotCalc": {
    "2008": 550.3
   },
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2008": 374.0,
+   "2009": 423.5,
+   "2010": 533.3,
+   "2011": 479.3,
+   "2012": 575.9,
+   "2013": 554.8,
+   "2014": 833.3,
+   "2015": 664.5,
+   "2016": 1496.2,
+   "2017": 1023.9,
+   "2018": 602.4,
+   "2019": 556.1,
+   "2020": 632.5,
+   "2021": 497.7,
+   "2022": 283.1,
+   "2023": 415.7,
+   "2024": 424.1,
+   "2025": 665.8,
+   "2026": 2070.8
+  },
+  "invNonOpAmpia": {
+   "2008": 374.0,
+   "2009": 423.5,
+   "2010": 533.3,
+   "2011": 479.3,
+   "2012": 575.9,
+   "2013": 554.8,
+   "2014": 833.3,
+   "2015": 664.5,
+   "2016": 1496.2,
+   "2017": 1023.9,
+   "2018": 602.4,
+   "2019": 556.1,
+   "2020": 632.5,
+   "2021": 779.4,
+   "2022": 562.2,
+   "2023": 663.1,
+   "2024": 700.1,
+   "2025": 912.7,
+   "2026": 2380.3
+  }
+ },
+ "sic": "5810",
+ "sic_descrizione": "Retail-Eating & Drinking Places",
+ "chiusura_esercizio": "0928",
+ "nome": "STARBUCKS CORP",
+ "ambito": "ok"
 }

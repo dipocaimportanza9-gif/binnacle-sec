@@ -803,62 +803,72 @@
    "2020": 28869.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "2023: l'OCI sale di 1447 ma gli investimenti letti salgono di 653: controllare il filing (investimenti non letti?)",
+  "2024: l'OCI sale di 3006 ma gli investimenti letti salgono di 821: controllare il filing (investimenti non letti?)"
+ ],
  "candidati": {
   "ltInv": [
    {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDate",
+    "tag": "MarketableSecuritiesCurrent",
     "valori": {
-     "2023": 70919,
-     "2024": 84362,
-     "2025": 106493
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesSingleMaturityDateAmortizedCostBasis",
-    "valori": {
-     "2023": 71265,
-     "2024": 84477,
-     "2025": 106460
-    }
-   },
-   {
-    "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
-    "valori": {
-     "2023": 37557,
-     "2024": 68614,
-     "2025": 97311
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue",
-    "valori": {
-     "2023": 65159,
-     "2024": 78046,
-     "2025": 96778
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearAmortizedCost",
-    "valori": {
-     "2023": 65224,
-     "2024": 78065,
-     "2025": 96776
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireMarketableSecurities",
-    "valori": {
-     "2023": 1488,
-     "2024": 26005,
-     "2025": 54770
+     "2023": 13393,
+     "2024": 22423,
+     "2025": 36219
     }
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2010": "2010-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2008": "2008-12-31",
+  "2009": "2009-12-31"
+ },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2017": 0,
+   "2018": 282.0,
+   "2019": 1500.0,
+   "2020": 2700.0,
+   "2021": 603.0,
+   "2022": 715.0,
+   "2023": 1368.0,
+   "2024": 2189.0,
+   "2025": 16859.0
+  },
+  "invNonOpAmpia": {
+   "2017": 22286.0,
+   "2018": 282.0,
+   "2019": 1500.0,
+   "2020": 2700.0,
+   "2021": 603.0,
+   "2022": 715.0,
+   "2023": 1368.0,
+   "2024": 2189.0,
+   "2025": 62659.0
+  }
+ },
+ "sic": "5961",
+ "sic_descrizione": "Retail-Catalog & Mail-Order Houses",
+ "chiusura_esercizio": "1231",
+ "nome": "AMAZON COM INC",
+ "ambito": "ok"
 }

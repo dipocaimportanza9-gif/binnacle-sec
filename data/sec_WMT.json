@@ -286,7 +286,14 @@
    "2025": 3068.0,
    "2026": 6596.0
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2020": 5438.0,
+   "2021": 14422.0,
+   "2022": 11888.0,
+   "2023": 10669.0,
+   "2024": 7249.0,
+   "2025": 3041.0
+  },
   "eqMeth": {},
   "afsDeb": {},
   "mktNon": {},
@@ -595,7 +602,14 @@
    "2025": "ShortTermBorrowings",
    "2026": "ShortTermBorrowings"
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2020": "EquitySecuritiesFvNi",
+   "2021": "EquitySecuritiesFvNi",
+   "2022": "EquitySecuritiesFvNi",
+   "2023": "EquitySecuritiesFvNi",
+   "2024": "EquitySecuritiesFvNi",
+   "2025": "EquitySecuritiesFvNi"
+  },
   "eqMeth": {},
   "afsDeb": {},
   "mktNon": {},
@@ -630,222 +644,88 @@
    "2023": 4653.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "2022: l'OCI sale di 3000 ma gli investimenti letti salgono di -2534: controllare il filing (investimenti non letti?)"
+ ],
  "candidati": {
-  "eqPriv": [
-   {
-    "tag": "EquitySecuritiesFvNi",
-    "valori": {
-     "2023": 10669,
-     "2024": 7249,
-     "2025": 3041
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
-    "valori": {
-     "2023": -1200,
-     "2024": -3400,
-     "2025": -4200,
-     "2026": 1500
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2023": 0,
-     "2024": 0,
-     "2025": 4080,
-     "2026": 927
-    }
-   },
-   {
-    "tag": "UnrealizedGainLossOnInvestments",
-    "valori": {
-     "2023": -1683,
-     "2024": -3193,
-     "2025": -878
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2024": -3193,
-     "2025": -878,
-     "2026": 2016
-    }
-   },
-   {
-    "tag": "DeferredTaxLiabilitiesInvestments",
-    "valori": {
-     "2023": 1390,
-     "2024": 322,
-     "2025": 353
-    }
-   }
-  ],
   "eqMeth": [
    {
-    "tag": "EquitySecuritiesFvNi",
+    "tag": "TradingSecuritiesDebt",
     "valori": {
-     "2023": 10669,
-     "2024": 7249,
-     "2025": 3041
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
-    "valori": {
-     "2023": -1200,
-     "2024": -3400,
-     "2025": -4200,
-     "2026": 1500
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2023": 0,
-     "2024": 0,
-     "2025": 4080,
-     "2026": 927
-    }
-   },
-   {
-    "tag": "UnrealizedGainLossOnInvestments",
-    "valori": {
-     "2023": -1683,
-     "2024": -3193,
-     "2025": -878
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2024": -3193,
-     "2025": -878,
-     "2026": 2016
-    }
-   },
-   {
-    "tag": "DeferredTaxLiabilitiesInvestments",
-    "valori": {
-     "2023": 1390,
-     "2024": 322,
-     "2025": 353
+     "2023": 500,
+     "2024": 1200,
+     "2025": 1200
     }
    }
   ],
   "afsDeb": [
    {
-    "tag": "EquitySecuritiesFvNi",
+    "tag": "TradingSecuritiesDebt",
     "valori": {
-     "2023": 10669,
-     "2024": 7249,
-     "2025": 3041
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
-    "valori": {
-     "2023": -1200,
-     "2024": -3400,
-     "2025": -4200,
-     "2026": 1500
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2023": 0,
-     "2024": 0,
-     "2025": 4080,
-     "2026": 927
-    }
-   },
-   {
-    "tag": "UnrealizedGainLossOnInvestments",
-    "valori": {
-     "2023": -1683,
-     "2024": -3193,
-     "2025": -878
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2024": -3193,
-     "2025": -878,
-     "2026": 2016
-    }
-   },
-   {
-    "tag": "DeferredTaxLiabilitiesInvestments",
-    "valori": {
-     "2023": 1390,
-     "2024": 322,
-     "2025": 353
+     "2023": 500,
+     "2024": 1200,
+     "2025": 1200
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "EquitySecuritiesFvNi",
+    "tag": "TradingSecuritiesDebt",
     "valori": {
-     "2023": 10669,
-     "2024": 7249,
-     "2025": 3041
-    }
-   },
-   {
-    "tag": "EquitySecuritiesFvNiUnrealizedGainLoss",
-    "valori": {
-     "2023": -1200,
-     "2024": -3400,
-     "2025": -4200,
-     "2026": 1500
-    }
-   },
-   {
-    "tag": "ProceedsFromSaleOfEquitySecuritiesFvNi",
-    "valori": {
-     "2023": 0,
-     "2024": 0,
-     "2025": 4080,
-     "2026": 927
-    }
-   },
-   {
-    "tag": "UnrealizedGainLossOnInvestments",
-    "valori": {
-     "2023": -1683,
-     "2024": -3193,
-     "2025": -878
-    }
-   },
-   {
-    "tag": "GainLossOnInvestments",
-    "valori": {
-     "2024": -3193,
-     "2025": -878,
-     "2026": 2016
-    }
-   },
-   {
-    "tag": "DeferredTaxLiabilitiesInvestments",
-    "valori": {
-     "2023": 1390,
-     "2024": 322,
-     "2025": 353
+     "2023": 500,
+     "2024": 1200,
+     "2025": 1200
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2020": "2020-01-31",
+  "2021": "2021-01-31",
+  "2022": "2022-01-31",
+  "2023": "2023-01-31",
+  "2024": "2024-01-31",
+  "2025": "2025-01-31",
+  "2026": "2026-01-31",
+  "2019": "2019-01-31",
+  "2009": "2009-01-31",
+  "2010": "2010-01-31",
+  "2011": "2011-01-31",
+  "2012": "2012-01-31",
+  "2013": "2013-01-31",
+  "2014": "2014-01-31",
+  "2015": "2015-01-31",
+  "2016": "2016-01-31",
+  "2017": "2017-01-31",
+  "2018": "2018-01-31",
+  "2008": "2008-01-31"
  },
  "derivati": {
   "dTotCalc": {
    "2009": 37197.0
   },
   "dBrevDer": {},
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2020": 5438.0,
+   "2021": 14422.0,
+   "2022": 11888.0,
+   "2023": 10669.0,
+   "2024": 7249.0,
+   "2025": 3041.0
+  },
+  "invNonOpAmpia": {
+   "2020": 5438.0,
+   "2021": 14422.0,
+   "2022": 11888.0,
+   "2023": 10669.0,
+   "2024": 7249.0,
+   "2025": 3041.0
+  }
+ },
+ "sic": "5331",
+ "sic_descrizione": "Retail-Variety Stores",
+ "chiusura_esercizio": "0131",
+ "nome": "Walmart Inc.",
+ "ambito": "ok"
 }

@@ -34,7 +34,7 @@ Debito corrente totale (con debiti a breve)                          .        . 
 Debiti finanziari a breve                                            .        .        .        .        .        .        .        .        .        .        .        .
 
 --- INVESTIMENTI NON OPERATIVI e OCI ---
-Equity in societa' non quotate (valore contabile)                    .        .        .        .        .        .        .        .        .        .        .        .
+Equity in societa' non quotate (valore contabile)                    .        .        .    1,090    1,099    1,417        .        .        .        .        .        .
 Partecipazioni a patrimonio netto (equity method)                    .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di debito disponibili per la vendita (valore equo)            .        .        .        .        .        .        .        .        .        .        .        .
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
@@ -60,36 +60,19 @@ dal:LeaseLiability                                                   .        . 
 dal:LeaseRightOfUseAsset                                             .        .        .        .    6,689    6,735    8,833    8,523    8,342    7,469    7,079        .
 dal:LesseeFinanceLeaseAndOperatingLeaseLeaseNotYetCommencedAmo       .        .        .        .        .      734      403      242      151        .        .        .
 
---- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
-dBrev: DebtInstrumentCarryingAmount {2023: 18693, 2024: 15373, 2025: 13302}
-dBrev: LongTermDebt {2023: 18610, 2024: 15347, 2025: 13308}
-dBrev: LongTermDebtFairValue {2023: 18400, 2024: 15300, 2025: 13400}
-dBrev: LongTermDebtAndCapitalLeaseObligations {2023: 17071, 2024: 14019, 2025: 12507}
-dBrev: LongTermDebtNoncurrent {2023: 15985, 2024: 13546, 2025: 11936}
-dBrev: LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive {2023: 7245, 2024: 6624, 2025: 4754}
-eqPriv: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 4071, 2024: 3953, 2025: 4827}
-eqPriv: ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments {2023: 4547, 2024: 1137, 2025: 0}
-eqPriv: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
-eqPriv: PaymentsToAcquireShortTermInvestments {2023: 2312, 2024: 0, 2025: 0}
-eqPriv: GainLossOnInvestments {2023: 1283, 2024: -323, 2025: 1209}
-eqPriv: EquitySecuritiesFvNiGainLoss {2023: 1263, 2024: -319, 2025: 1212}
-eqMeth: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 4071, 2024: 3953, 2025: 4827}
-eqMeth: ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments {2023: 4547, 2024: 1137, 2025: 0}
-eqMeth: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
-eqMeth: PaymentsToAcquireShortTermInvestments {2023: 2312, 2024: 0, 2025: 0}
-eqMeth: GainLossOnInvestments {2023: 1283, 2024: -323, 2025: 1209}
-eqMeth: EquitySecuritiesFvNiGainLoss {2023: 1263, 2024: -319, 2025: 1212}
-afsDeb: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 4071, 2024: 3953, 2025: 4827}
-afsDeb: ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments {2023: 4547, 2024: 1137, 2025: 0}
-afsDeb: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
-afsDeb: PaymentsToAcquireShortTermInvestments {2023: 2312, 2024: 0, 2025: 0}
-afsDeb: GainLossOnInvestments {2023: 1283, 2024: -323, 2025: 1209}
-afsDeb: EquitySecuritiesFvNiGainLoss {2023: 1263, 2024: -319, 2025: 1212}
-ltInv: RepaymentsOfLongTermDebtAndCapitalSecurities {2023: 4071, 2024: 3953, 2025: 4827}
-ltInv: ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments {2023: 4547, 2024: 1137, 2025: 0}
-ltInv: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
-ltInv: PaymentsToAcquireShortTermInvestments {2023: 2312, 2024: 0, 2025: 0}
-ltInv: GainLossOnInvestments {2023: 1283, 2024: -323, 2025: 1209}
-ltInv: EquitySecuritiesFvNiGainLoss {2023: 1263, 2024: -319, 2025: 1212}
+--- AVVISI ---
+2013: l'OCI sale di 3447 ma gli investimenti letti salgono di -300: controllare il filing (investimenti non letti?)
 
-Tempo: 3 s. File scritto: sec_DAL.json
+--- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
+dBrev: ShortTermNonBankLoansAndNotesPayable {2023: 1100, 2024: 1100, 2025: 1100}
+dBrev: DebtInstrumentRepaidPrincipal {2023: 585, 2024: 844}
+eqPriv: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
+eqPriv: ShortTermInvestments {2023: 1127, 2024: 0}
+eqMeth: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
+eqMeth: ShortTermInvestments {2023: 1127, 2024: 0}
+afsDeb: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
+afsDeb: ShortTermInvestments {2023: 1127, 2024: 0}
+ltInv: EquitySecuritiesFVNINoncurrent {2024: 2372, 2025: 3644}
+ltInv: ShortTermInvestments {2023: 1127, 2024: 0}
+
+Tempo: 6 s. File scritto: sec_DAL.json

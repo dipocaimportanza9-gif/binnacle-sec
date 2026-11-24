@@ -198,7 +198,17 @@
    "2024": 2453.0,
    "2025": 0.0
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2017": 2150.0,
+   "2018": 1600.0,
+   "2019": 705.0,
+   "2020": 567.0,
+   "2021": 5365.0,
+   "2022": 1588.0,
+   "2023": 5124.0,
+   "2024": 7848.0,
+   "2025": 2596.0
+  },
   "eqMeth": {
    "2016": 270.0,
    "2018": 181.0,
@@ -210,8 +220,7 @@
    "2024": 217.0,
    "2025": 235.0
   },
-  "afsDeb": {},
-  "mktNon": {
+  "afsDeb": {
    "2017": 5090.0,
    "2018": 491.0,
    "2019": 315.0,
@@ -220,7 +229,19 @@
    "2022": 352.0,
    "2023": 150.0,
    "2024": 0.0,
-   "2025": 1.0
+   "2025": 1.0,
+   "2016": 7.0
+  },
+  "mktNon": {
+   "2016": 6049.0,
+   "2017": 6264.0,
+   "2019": 3014.0,
+   "2020": 3406.0,
+   "2021": 5054.0,
+   "2022": 4036.0,
+   "2023": 3731.0,
+   "2024": 2228.0,
+   "2025": 1621.0
   },
   "ltInv": {
    "2011": 9814.0,
@@ -236,7 +257,10 @@
    "2021": 21526.0,
    "2022": 15069.0,
    "2023": 15368.0,
-   "2024": 2228.0
+   "2024": 2228.0,
+   "2008": 11478.0,
+   "2009": 13122.0,
+   "2010": 9747.0
   },
   "aoci": {
    "2008": -4569.0,
@@ -453,7 +477,17 @@
    "2024": "CommercialPaper",
    "2025": "CommercialPaper"
   },
-  "eqPriv": {},
+  "eqPriv": {
+   "2017": "EquitySecuritiesFvNi",
+   "2018": "EquitySecuritiesFvNi",
+   "2019": "EquitySecuritiesFvNi",
+   "2020": "EquitySecuritiesFvNi",
+   "2021": "EquitySecuritiesFvNi",
+   "2022": "EquitySecuritiesFvNi",
+   "2023": "EquitySecuritiesFvNi",
+   "2024": "EquitySecuritiesFvNi",
+   "2025": "EquitySecuritiesFvNi"
+  },
   "eqMeth": {
    "2016": "EquityMethodInvestments",
    "2018": "EquityMethodInvestments",
@@ -465,8 +499,7 @@
    "2024": "EquityMethodInvestments",
    "2025": "EquityMethodInvestments"
   },
-  "afsDeb": {},
-  "mktNon": {
+  "afsDeb": {
    "2017": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2018": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2019": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
@@ -475,7 +508,19 @@
    "2022": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2023": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
    "2024": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
-   "2025": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+   "2025": "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
+   "2016": "HeldToMaturitySecuritiesNoncurrent"
+  },
+  "mktNon": {
+   "2016": "AvailableForSaleSecuritiesNoncurrent",
+   "2017": "AvailableForSaleSecuritiesNoncurrent",
+   "2019": "OtherLongTermInvestments",
+   "2020": "OtherLongTermInvestments",
+   "2021": "OtherLongTermInvestments",
+   "2022": "OtherLongTermInvestments",
+   "2023": "OtherLongTermInvestments",
+   "2024": "OtherLongTermInvestments",
+   "2025": "OtherLongTermInvestments"
   },
   "ltInv": {
    "2011": "LongTermInvestments",
@@ -491,7 +536,10 @@
    "2021": "LongTermInvestments",
    "2022": "LongTermInvestments",
    "2023": "LongTermInvestments",
-   "2024": "LongTermInvestments"
+   "2024": "LongTermInvestments",
+   "2008": "LongTermInvestmentsAndReceivablesNet",
+   "2009": "LongTermInvestmentsAndReceivablesNet",
+   "2010": "LongTermInvestmentsAndReceivablesNet"
   },
   "aoci": {
    "2008": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
@@ -590,26 +638,12 @@
   }
  },
  "avvisi": [
-  "Investimenti a lungo termine (voce di bilancio): ultimo anno 2024 (mancano anni recenti)"
+  "Investimenti a lungo termine (voce di bilancio): ultimo anno 2024 (mancano anni recenti)",
+  "2009: l'OCI sale di 5121 ma gli investimenti letti salgono di 1644: controllare il filing (investimenti non letti?)",
+  "2020: l'OCI sale di 6330 ma gli investimenti letti salgono di -210: controllare il filing (investimenti non letti?)"
  ],
  "candidati": {
   "finLiab": [
-   {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDue",
-    "valori": {
-     "2023": 3824,
-     "2024": 3197,
-     "2025": 3199
-    }
-   },
-   {
-    "tag": "OperatingLeaseLiability",
-    "valori": {
-     "2023": 3153,
-     "2024": 2642,
-     "2025": 2620
-    }
-   },
    {
     "tag": "OperatingLeaseRightOfUseAsset",
     "valori": {
@@ -619,196 +653,24 @@
     }
    },
    {
-    "tag": "OperatingLeaseLiabilityNoncurrent",
+    "tag": "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
     "valori": {
-     "2023": 2626,
-     "2024": 2286,
-     "2025": 2291
+     "2023": 671,
+     "2024": 556,
+     "2025": 579
     }
    },
    {
-    "tag": "LesseeOperatingLeaseLiabilityPaymentsDueAfterRollingYearFive",
+    "tag": "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
     "valori": {
-     "2023": 1743,
-     "2024": 1468,
-     "2025": 1524
-    }
-   },
-   {
-    "tag": "LeaseCost",
-    "valori": {
-     "2023": 1283,
-     "2024": 1177,
-     "2025": 924
-    }
-   }
-  ],
-  "dTot": [
-   {
-    "tag": "LongTermDebtNoncurrent",
-    "valori": {
-     "2023": 61538,
-     "2024": 57405,
-     "2025": 61641
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfLongTermDebt",
-    "valori": {
-     "2023": 30831,
-     "2024": 0,
-     "2025": 9678
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturity",
-    "valori": {
-     "2023": 5115,
-     "2024": 11814,
-     "2025": 9906
-    }
-   },
-   {
-    "tag": "RepaymentsOfShortTermDebt",
-    "valori": {
-     "2023": 3,
-     "2024": 11226,
-     "2025": 2199
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
-    "valori": {
-     "2023": 4400,
-     "2024": 10881,
-     "2025": 9183
-    }
-   },
-   {
-    "tag": "DebtCurrent",
-    "valori": {
-     "2023": 10350,
-     "2024": 6946,
-     "2025": 3154
-    }
-   }
-  ],
-  "eqPriv": [
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments",
-    "valori": {
-     "2023": 39264,
-     "2024": 4128,
-     "2025": 17959
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 30974,
-     "2024": 10133,
-     "2025": 14356
-    }
-   },
-   {
-    "tag": "OtherShortTermInvestments",
-    "valori": {
-     "2023": 9837,
-     "2024": 19434,
-     "2025": 12454
-    }
-   },
-   {
-    "tag": "LongTermInvestments",
-    "valori": {
-     "2023": 15368,
-     "2024": 2228
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturity",
-    "valori": {
-     "2023": 5115,
-     "2024": 11814,
-     "2025": 9906
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 11637,
-     "2024": 217,
-     "2025": 235
-    }
-   }
-  ],
-  "afsDeb": [
-   {
-    "tag": "ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments",
-    "valori": {
-     "2023": 39264,
-     "2024": 4128,
-     "2025": 17959
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 30974,
-     "2024": 10133,
-     "2025": 14356
-    }
-   },
-   {
-    "tag": "OtherShortTermInvestments",
-    "valori": {
-     "2023": 9837,
-     "2024": 19434,
-     "2025": 12454
-    }
-   },
-   {
-    "tag": "LongTermInvestments",
-    "valori": {
-     "2023": 15368,
-     "2024": 2228
-    }
-   },
-   {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturity",
-    "valori": {
-     "2023": 5115,
-     "2024": 11814,
-     "2025": 9906
-    }
-   },
-   {
-    "tag": "EquityMethodInvestments",
-    "valori": {
-     "2023": 11637,
-     "2024": 217,
-     "2025": 235
+     "2023": 614,
+     "2024": 283,
+     "2025": 288
     }
    }
   ],
   "ltInv": [
    {
-    "tag": "ProceedsFromSaleMaturityAndCollectionOfShorttermInvestments",
-    "valori": {
-     "2023": 39264,
-     "2024": 4128,
-     "2025": 17959
-    }
-   },
-   {
-    "tag": "PaymentsToAcquireShortTermInvestments",
-    "valori": {
-     "2023": 30974,
-     "2024": 10133,
-     "2025": 14356
-    }
-   },
-   {
     "tag": "OtherShortTermInvestments",
     "valori": {
      "2023": 9837,
@@ -817,30 +679,42 @@
     }
    },
    {
-    "tag": "DebtSecuritiesAvailableForSaleAndHeldToMaturity",
+    "tag": "EquitySecuritiesFVNINoncurrent",
     "valori": {
-     "2023": 5115,
-     "2024": 11814,
-     "2025": 9906
+     "2023": 2779,
+     "2024": 1246,
+     "2025": 642
     }
    },
    {
-    "tag": "EquityMethodInvestments",
+    "tag": "SecuritiesReceivedAsCollateral",
     "valori": {
-     "2023": 11637,
-     "2024": 217,
-     "2025": 235
-    }
-   },
-   {
-    "tag": "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
-    "valori": {
-     "2023": 4400,
-     "2024": 10881,
-     "2025": 9183
+     "2023": 221,
+     "2024": 716,
+     "2025": 154
     }
    }
   ]
+ },
+ "fine_anno": {
+  "2019": "2019-12-31",
+  "2020": "2020-12-31",
+  "2021": "2021-12-31",
+  "2022": "2022-12-31",
+  "2023": "2023-12-31",
+  "2024": "2024-12-31",
+  "2025": "2025-12-31",
+  "2011": "2011-12-31",
+  "2012": "2012-12-31",
+  "2013": "2013-12-31",
+  "2014": "2014-12-31",
+  "2015": "2015-12-31",
+  "2016": "2016-12-31",
+  "2017": "2017-12-31",
+  "2018": "2018-12-31",
+  "2008": "2008-12-31",
+  "2009": "2009-12-31",
+  "2010": "2010-12-31"
  },
  "derivati": {
   "dTotCalc": {
@@ -867,6 +741,51 @@
    "2014": 2130.0,
    "2015": 6440.0
   },
-  "leasing_nel_tag_debito": {}
- }
+  "leasing_nel_tag_debito": {},
+  "invNonOpBase": {
+   "2008": 11478.0,
+   "2009": 13122.0,
+   "2010": 9747.0,
+   "2011": 9814.0,
+   "2012": 14149.0,
+   "2013": 16406.0,
+   "2014": 17518.0,
+   "2015": 15999.0,
+   "2016": 7116.0,
+   "2017": 8414.0,
+   "2018": 2586.0,
+   "2019": 20852.0,
+   "2020": 20829.0,
+   "2021": 26891.0,
+   "2022": 16657.0,
+   "2023": 20492.0,
+   "2024": 10293.0,
+   "2025": 4452.0
+  },
+  "invNonOpAmpia": {
+   "2008": 11478.0,
+   "2009": 13122.0,
+   "2010": 9747.0,
+   "2011": 9814.0,
+   "2012": 14149.0,
+   "2013": 16406.0,
+   "2014": 17518.0,
+   "2015": 15999.0,
+   "2016": 7116.0,
+   "2017": 13504.0,
+   "2018": 2586.0,
+   "2019": 21167.0,
+   "2020": 20957.0,
+   "2021": 27412.0,
+   "2022": 17009.0,
+   "2023": 20642.0,
+   "2024": 10293.0,
+   "2025": 4453.0
+  }
+ },
+ "sic": "2834",
+ "sic_descrizione": "Pharmaceutical Preparations",
+ "chiusura_esercizio": "1231",
+ "nome": "PFIZER INC",
+ "ambito": "ok"
 }

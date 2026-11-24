@@ -231,7 +231,8 @@
    "2023": 16009.0,
    "2024": 14922.0,
    "2025": 14304.0,
-   "2026": 14326.0
+   "2026": 14326.0,
+   "2009": 12000.0
   },
   "dTot": {
    "2011": 15241.0,
@@ -512,7 +513,8 @@
    "2023": "LongTermDebtAndCapitalLeaseObligations",
    "2024": "LongTermDebtAndCapitalLeaseObligations",
    "2025": "LongTermDebtAndCapitalLeaseObligations",
-   "2026": "LongTermDebtAndCapitalLeaseObligations"
+   "2026": "LongTermDebtAndCapitalLeaseObligations",
+   "2009": "UnsecuredLongTermDebt"
   },
   "dTot": {
    "2011": "LongTermDebt",
@@ -685,55 +687,10 @@
  "candidati": {
   "dBrev": [
    {
-    "tag": "LongTermDebtAndCapitalLeaseObligations",
+    "tag": "ShorttermDebtAverageOutstandingAmount",
     "valori": {
-     "2023": 16009,
-     "2024": 14922,
-     "2025": 14304,
-     "2026": 14326
-    }
-   },
-   {
-    "tag": "LongTermDebt",
-    "valori": {
-     "2023": 14141,
-     "2024": 14151,
-     "2025": 13904,
-     "2026": 14398
-    }
-   },
-   {
-    "tag": "LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive",
-    "valori": {
-     "2023": 9655,
-     "2024": 9574,
-     "2025": 9324,
-     "2026": 9593
-    }
-   },
-   {
-    "tag": "ProceedsFromIssuanceOfLongTermDebt",
-    "valori": {
-     "2023": 2625,
-     "2024": 0,
-     "2025": 741,
-     "2026": 1984
-    }
-   },
-   {
-    "tag": "ShorttermDebtMaximumAmountOutstandingDuringPeriod",
-    "valori": {
-     "2023": 2300,
-     "2024": 90
-    }
-   },
-   {
-    "tag": "LongTermDebtAndCapitalLeaseObligationsCurrent",
-    "valori": {
-     "2023": 130,
-     "2024": 1116,
-     "2025": 1636,
-     "2026": 2130
+     "2023": 709,
+     "2024": 1
     }
    }
   ],
@@ -818,6 +775,28 @@
    }
   ]
  },
+ "fine_anno": {
+  "2019": "2019-02-02",
+  "2020": "2020-02-01",
+  "2021": "2021-01-30",
+  "2022": "2022-01-29",
+  "2023": "2023-01-28",
+  "2024": "2024-02-03",
+  "2025": "2025-02-01",
+  "2026": "2026-01-31",
+  "2018": "2018-02-03",
+  "2017": "2017-01-28",
+  "2010": "2010-01-30",
+  "2011": "2011-01-29",
+  "2012": "2012-01-28",
+  "2013": "2013-02-02",
+  "2014": "2014-02-01",
+  "2015": "2015-01-31",
+  "2016": "2016-01-30",
+  "2009": "2009-01-31",
+  "2007": "2007-02-03",
+  "2008": "2008-02-02"
+ },
  "derivati": {
   "dTotCalc": {},
   "dBrevDer": {},
@@ -835,6 +814,13 @@
    "2018": "dNon",
    "2019": "dNon",
    "2020": "dNon"
-  }
- }
+  },
+  "invNonOpBase": {},
+  "invNonOpAmpia": {}
+ },
+ "sic": "5331",
+ "sic_descrizione": "Retail-Variety Stores",
+ "chiusura_esercizio": "0201",
+ "nome": "TARGET CORP",
+ "ambito": "ok"
 }
