@@ -52,6 +52,7 @@ CAT = [
  ("mktNon",   "Titoli di mercato non correnti",                 ["MarketableSecuritiesNoncurrent", "AvailableForSaleSecuritiesNoncurrent", "LongTermMarketableSecurities", "OtherLongTermInvestments", "RestrictedInvestmentsNoncurrent", "NoncurrentInvestments"]),
  ("ltInv",    "Investimenti a lungo termine (voce di bilancio)", ["LongTermInvestments", "LongTermInvestmentsAndReceivablesNet", "DecommissioningFundInvestments", "Investments"]),
  ("aoci",     "OCI accumulato (utili/perdite non realizzati)",  ["AccumulatedOtherComprehensiveIncomeLossNetOfTax"]),
+ ("aocs",     "OCI accumulato dei soli titoli disponibili per la vendita (cambi e coperture esclusi)", ["AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax", "AccumulatedOtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesNetOfTax"]),
  ("acq", "ACQUISIZIONI NON IN CONTANTI"),
  ("acqStock", "Azioni emesse per acquisizioni (non in contanti)", ["StockIssuedDuringPeriodValueAcquisitions"]),
  ("acqTot",   "Corrispettivo totale delle acquisizioni (informativo)", ["BusinessCombinationConsiderationTransferred1", "BusinessCombinationConsiderationTransferred"]),
@@ -118,13 +119,13 @@ def inv_derivati(res):
         base[y] = round(max(componenti, g("ltInv")), 1)
         ampia[y] = round(max(componenti + g("afsDeb"), g("ltInv")), 1)
     av = []
-    ao = c.get("aoci", {})
+    ao = c.get("aocs", {})  # solo titoli: cambi e coperture non sono investimenti
     for y in sorted(ao):
         if y - 1 in ao and y in ampia and y - 1 in ampia:
             d_oci = ao[y] - ao[y - 1]
             d_inv = ampia[y] - ampia[y - 1]
             if d_oci > 1000 and d_inv < 0.75 * d_oci:
-                av.append("%d: l'OCI sale di %d ma gli investimenti letti salgono di %d: controllare il filing (investimenti non letti?)" % (y, d_oci, d_inv))
+                av.append("%d: l'OCI dei titoli sale di %d ma gli investimenti letti salgono di %d: controllare il filing (investimenti non letti?)" % (y, d_oci, d_inv))
     res["derivati"]["invNonOpBase"] = base
     res["derivati"]["invNonOpAmpia"] = ampia
     res["avvisi"] += av[-2:]
