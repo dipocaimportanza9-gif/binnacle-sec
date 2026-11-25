@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                     -103     -394 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           1        0        0        0      952        0        0        .        .        .        .        .
+Svalutazione di immobilizzazioni                                    28       10       43        .        .        .        .        .    2,536      -57     -169        .
+Costi di ristrutturazione                                           14       34       47        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -74,4 +79,4 @@ Debiti finanziari a breve: ultimo anno 2024 (mancano anni recenti)
 Titoli di mercato non correnti: ultimo anno 2023 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2010-2026: non sommarli di nuovo
 
-Tempo: 3 s. File scritto: sec_LOW.json
+Tempo: 2 s. File scritto: sec_LOW.json

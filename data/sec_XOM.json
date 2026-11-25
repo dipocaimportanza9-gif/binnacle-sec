@@ -282,6 +282,22 @@
   },
   "acqTot": {
    "2010": 24659.0
+  },
+  "nrGw": {
+   "2020": 611.0
+  },
+  "nrAs": {
+   "2016": 3600.0,
+   "2017": 2000.0,
+   "2018": 700.0,
+   "2019": 100.0,
+   "2021": 1200.0,
+   "2023": 3300.0
+  },
+  "nrRs": {
+   "2020": 450.0,
+   "2021": 58.0,
+   "2022": 0.0
   }
  },
  "tag_usato": {
@@ -561,6 +577,22 @@
   },
   "acqTot": {
    "2010": "BusinessCombinationConsiderationTransferred"
+  },
+  "nrGw": {
+   "2020": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2023": "ImpairmentOfLongLivedAssetsHeldForUse"
+  },
+  "nrRs": {
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges"
   }
  },
  "custom": {
@@ -587,6 +619,8 @@
   }
  },
  "avvisi": [
+  "Svalutazione di immobilizzazioni: ultimo anno 2023 (mancano anni recenti)",
+  "Costi di ristrutturazione: ultimo anno 2022 (mancano anni recenti)",
   "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo",
   "2023: l'OCI sale di 1281 ma gli investimenti letti salgono di -442: controllare il filing (investimenti non letti?)",
   "2025: l'OCI sale di 3756 ma gli investimenti letti salgono di -1357: controllare il filing (investimenti non letti?)"

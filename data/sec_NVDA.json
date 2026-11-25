@@ -274,7 +274,28 @@
    "2026": 178.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 0.0,
+   "2026": 0.0
+  },
+  "nrAs": {},
+  "nrRs": {
+   "2014": 0.0,
+   "2015": 0.0,
+   "2016": 131.0,
+   "2017": 3.0,
+   "2018": 0.0,
+   "2019": 0.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -546,7 +567,28 @@
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss",
+   "2026": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {},
+  "nrRs": {
+   "2014": "RestructuringCharges",
+   "2015": "RestructuringCharges",
+   "2016": "RestructuringCharges",
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges"
+  }
  },
  "custom": {
   "nvda:DebtSecuritiesAvailableForSaleAmortizedCostAndEquitySecuritiesFV": {

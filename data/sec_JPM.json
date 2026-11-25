@@ -207,7 +207,16 @@
    "2025": -4290.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2015": 0.0,
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0
+  },
+  "nrAs": {},
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -412,7 +421,16 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {},
+  "nrRs": {}
  },
  "custom": {
   "jpm:DebtSecuritiesNetCarryingAmount": {

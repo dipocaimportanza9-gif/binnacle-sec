@@ -262,7 +262,38 @@
    "2025": -4815.8
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2009": 0.0,
+   "2010": 0.0,
+   "2014": 3.7,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 80.0,
+   "2024": 0.0
+  },
+  "nrAs": {
+   "2008": 6.8,
+   "2009": 12.4,
+   "2010": 12.2,
+   "2011": 9.0,
+   "2012": 21.5,
+   "2013": 15.9,
+   "2014": 15.3,
+   "2015": 15.1,
+   "2016": 28.5,
+   "2017": 211.4,
+   "2018": 394.0,
+   "2019": 94.2,
+   "2020": 222.8,
+   "2021": 173.7,
+   "2022": 147.3,
+   "2023": 280.0,
+   "2024": 68.6,
+   "2025": 100.7
+  },
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -522,7 +553,38 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2009": "GoodwillImpairmentLoss",
+   "2010": "GoodwillImpairmentLoss",
+   "2014": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2008": "AssetImpairmentCharges",
+   "2009": "AssetImpairmentCharges",
+   "2010": "AssetImpairmentCharges",
+   "2011": "AssetImpairmentCharges",
+   "2012": "AssetImpairmentCharges",
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges"
+  },
+  "nrRs": {}
  },
  "custom": {
   "amt:LongTermDebtAndLeaseObligationMaturityYearOne": {
@@ -584,6 +646,7 @@
   "Leasing finanziari: quota corrente: ultimo anno 2024 (mancano anni recenti)",
   "Leasing finanziari: quota non corrente: ultimo anno 2024 (mancano anni recenti)",
   "Rimborsi capitale leasing finanziari: ultimo anno 2024 (mancano anni recenti)",
+  "Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)",
   "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo",
   "FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)"
  ],

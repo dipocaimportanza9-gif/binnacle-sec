@@ -323,7 +323,34 @@
   },
   "acqTot": {
    "2021": 13100.0
-  }
+  },
+  "nrGw": {
+   "2007": 0.0,
+   "2008": 25443.0,
+   "2009": 0.0
+  },
+  "nrAs": {
+   "2007": 5030.0,
+   "2008": 34625.0,
+   "2009": 535.0,
+   "2010": 81.0,
+   "2011": 321.0,
+   "2012": 680.0,
+   "2013": 529.0,
+   "2014": 856.0,
+   "2015": 2245.0,
+   "2016": 139.0,
+   "2017": 6601.0,
+   "2018": 27.0,
+   "2019": 405.0,
+   "2020": 813.0,
+   "2021": 674.0,
+   "2022": -12.0,
+   "2023": 14.0,
+   "2024": 80.0,
+   "2025": 26.0
+  },
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -644,7 +671,34 @@
   },
   "acqTot": {
    "2021": "BusinessCombinationConsiderationTransferred1"
-  }
+  },
+  "nrGw": {
+   "2007": "GoodwillImpairmentLoss",
+   "2008": "GoodwillImpairmentLoss",
+   "2009": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2007": "AssetImpairmentCharges",
+   "2008": "AssetImpairmentCharges",
+   "2009": "AssetImpairmentCharges",
+   "2010": "AssetImpairmentCharges",
+   "2011": "AssetImpairmentCharges",
+   "2012": "AssetImpairmentCharges",
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges"
+  },
+  "nrRs": {}
  },
  "custom": {
   "cop:ShortTermInvestmentsCarriedAtCostPlustAccruedInterest": {

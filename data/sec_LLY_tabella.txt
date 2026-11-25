@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                   -4,581   -5,274 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           0        0        0        0        0        0        0        0        0        0        0        .
+Svalutazione di immobilizzazioni                                   227      256      284      139      498        .      108        .        .      435        .        .
+Costi di ristrutturazione                                          368      382    1,332      267      576      131      316      245       68      861      484        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -59,6 +64,7 @@ lly:LongTermDebtPercentageBearingFixedInterestConvertedToFloat       .        . 
 Leasing operativi: debito totale: ultimo anno 2024 (mancano anni recenti)
 Leasing operativi: costo (affitti) dell'anno: ultimo anno 2024 (mancano anni recenti)
 Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2024 (mancano anni recenti)
+Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)
 2021: l'OCI sale di 2153 ma gli investimenti letti salgono di 245: controllare il filing (investimenti non letti?)
 2025: l'OCI sale di 1442 ma gli investimenti letti salgono di -414: controllare il filing (investimenti non letti?)
 

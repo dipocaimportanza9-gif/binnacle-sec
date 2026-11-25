@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                        8       -4 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        0        0        0        0        0        0        0        0        0        0
+Svalutazione di immobilizzazioni                                     .        .        .        .        .        .        .        .        .        .        .        .
+Costi di ristrutturazione                                            0      131        3        0        0        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -68,4 +73,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 153, 2024:
 eqMeth: MarketableSecurities {2023: 9907, 2024: 18704}
 ltInv: MarketableSecurities {2023: 9907, 2024: 18704}
 
-Tempo: 3 s. File scritto: sec_NVDA.json
+Tempo: 2 s. File scritto: sec_NVDA.json

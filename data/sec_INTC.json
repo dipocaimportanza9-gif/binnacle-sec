@@ -272,7 +272,41 @@
    "2025": 113.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2012": 6.0,
+   "2024": 2984.0,
+   "2025": 0.0
+  },
+  "nrAs": {
+   "2020": 7.0,
+   "2021": 287.0,
+   "2022": 151.0,
+   "2023": 45.0,
+   "2024": 3631.0,
+   "2025": 522.0
+  },
+  "nrRs": {
+   "2020": 198.0,
+   "2021": 2626.0,
+   "2022": 1074.0,
+   "2023": -424.0,
+   "2024": 3491.0,
+   "2025": 476.0,
+   "2007": 516.0,
+   "2008": 710.0,
+   "2009": 231.0,
+   "2010": 0.0,
+   "2011": 0.0,
+   "2012": 0.0,
+   "2013": 240.0,
+   "2014": 295.0,
+   "2015": 354.0,
+   "2016": 1744.0,
+   "2017": 384.0,
+   "2018": -72.0,
+   "2019": 393.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -542,7 +576,41 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2012": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2023": "RestructuringCharges",
+   "2024": "RestructuringCharges",
+   "2025": "RestructuringCharges",
+   "2007": "RestructuringSettlementAndImpairmentProvisions",
+   "2008": "RestructuringSettlementAndImpairmentProvisions",
+   "2009": "RestructuringSettlementAndImpairmentProvisions",
+   "2010": "RestructuringSettlementAndImpairmentProvisions",
+   "2011": "RestructuringSettlementAndImpairmentProvisions",
+   "2012": "RestructuringSettlementAndImpairmentProvisions",
+   "2013": "RestructuringSettlementAndImpairmentProvisions",
+   "2014": "RestructuringSettlementAndImpairmentProvisions",
+   "2015": "RestructuringSettlementAndImpairmentProvisions",
+   "2016": "RestructuringSettlementAndImpairmentProvisions",
+   "2017": "RestructuringSettlementAndImpairmentProvisions",
+   "2018": "RestructuringSettlementAndImpairmentProvisions",
+   "2019": "RestructuringSettlementAndImpairmentProvisions"
+  }
  },
  "custom": {
   "intc:EquityInvestments": {

@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                        .        . 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .    3,898      929        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        0        0      100       73        .        .        .        .        .
+Svalutazione di immobilizzazioni                                     .        .       57      197        0      404      116        9        .        .        .        .
+Costi di ristrutturazione                                            .        .        .        0        0      362        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -63,9 +68,10 @@ uber:OperatingLeaseRightOfUseAssetPercentageOfLeasedAssetsFore       .        . 
 
 --- AVVISI ---
 Beni acquisiti con capital lease (non cash): ultimo anno 2023 (mancano anni recenti)
+Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 ltInv: RestrictedInvestments {2023: 4779, 2024: 7019, 2025: 8874}
 ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2023: 0, 2024: 0}
 
-Tempo: 3 s. File scritto: sec_UBER.json
+Tempo: 2 s. File scritto: sec_UBER.json

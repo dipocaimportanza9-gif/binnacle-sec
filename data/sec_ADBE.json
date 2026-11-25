@@ -248,7 +248,31 @@
    "2025": -245.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2011": 0.0,
+   "2012": 0.0,
+   "2013": 0.0,
+   "2014": 0.0,
+   "2015": 0.0,
+   "2016": 0.0,
+   "2017": 0.0
+  },
+  "nrAs": {
+   "2013": 23.8
+  },
+  "nrRs": {
+   "2007": 0.6,
+   "2008": 32.1,
+   "2009": 41.3,
+   "2010": 23.3,
+   "2011": 97.8,
+   "2012": -2.9,
+   "2013": 26.5,
+   "2014": 19.9,
+   "2015": 1.6,
+   "2016": -1.5
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -494,7 +518,31 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2011": "GoodwillImpairmentLoss",
+   "2012": "GoodwillImpairmentLoss",
+   "2013": "GoodwillImpairmentLoss",
+   "2014": "GoodwillImpairmentLoss",
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2013": "ImpairmentOfLongLivedAssetsToBeDisposedOf"
+  },
+  "nrRs": {
+   "2007": "RestructuringCharges",
+   "2008": "RestructuringCharges",
+   "2009": "RestructuringCharges",
+   "2010": "RestructuringCharges",
+   "2011": "RestructuringCharges",
+   "2012": "RestructuringCharges",
+   "2013": "RestructuringCharges",
+   "2014": "RestructuringCharges",
+   "2015": "RestructuringCharges",
+   "2016": "RestructuringCharges"
+  }
  },
  "custom": {
   "adbe:AvailableforsaleSecuritiesDebtMaturitiesNextOnetoTwoYearsFairValue": {
@@ -605,7 +653,8 @@
   "2015": "2015-11-27",
   "2016": "2016-12-02",
   "2017": "2017-12-01",
-  "2008": "2008-11-28"
+  "2008": "2008-11-28",
+  "2007": "2007-11-30"
  },
  "derivati": {
   "dTotCalc": {

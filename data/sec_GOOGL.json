@@ -254,7 +254,26 @@
    "2025": -1916.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2013": 0.0,
+   "2014": 0.0,
+   "2015": 0.0,
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 0.0
+  },
+  "nrAs": {},
+  "nrRs": {
+   "2023": 3933.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -506,7 +525,26 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2013": "GoodwillImpairmentLoss",
+   "2014": "GoodwillImpairmentLoss",
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {},
+  "nrRs": {
+   "2023": "RestructuringCharges"
+  }
  },
  "custom": {
   "goog:EquityMethodInvestmentsAndOther": {

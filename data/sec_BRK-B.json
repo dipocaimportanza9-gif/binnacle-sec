@@ -183,7 +183,13 @@
   "acqStock": {},
   "acqTot": {
    "2008": 6100.0
-  }
+  },
+  "nrGw": {
+   "2019": 90.0,
+   "2020": 10033.0
+  },
+  "nrAs": {},
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -364,7 +370,13 @@
   "acqStock": {},
   "acqTot": {
    "2008": "BusinessCombinationConsiderationTransferred"
-  }
+  },
+  "nrGw": {
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {},
+  "nrRs": {}
  },
  "custom": {
   "brka:RepaymentsOfDebtPrincipalInNextTwelveMonths": {

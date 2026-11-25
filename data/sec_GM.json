@@ -177,7 +177,47 @@
    "2025": -10343.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2010": 0.0,
+   "2011": 1286.0,
+   "2012": 27145.0,
+   "2013": 541.0,
+   "2014": 120.0,
+   "2015": 0.0,
+   "2016": 0.0
+  },
+  "nrAs": {
+   "2015": 734.0,
+   "2016": 133.0,
+   "2017": 294.0,
+   "2018": 527.0,
+   "2019": 58.0,
+   "2020": 139.0,
+   "2021": 4.0,
+   "2022": 12.0,
+   "2023": 209.0,
+   "2024": 934.0,
+   "2025": 2609.0
+  },
+  "nrRs": {
+   "2010": 787.0,
+   "2011": 634.0,
+   "2012": 570.0,
+   "2013": 714.0,
+   "2014": 1013.0,
+   "2015": 545.0,
+   "2016": 412.0,
+   "2017": 330.0,
+   "2018": 1637.0,
+   "2019": 629.0,
+   "2020": 565.0,
+   "2021": 216.0,
+   "2022": 522.0,
+   "2023": 1831.0,
+   "2024": 1790.0,
+   "2025": 4939.0
+  }
  },
  "tag_usato": {
   "opLiab": {},
@@ -352,7 +392,47 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2010": "GoodwillImpairmentLoss",
+   "2011": "GoodwillImpairmentLoss",
+   "2012": "GoodwillImpairmentLoss",
+   "2013": "GoodwillImpairmentLoss",
+   "2014": "GoodwillImpairmentLoss",
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2010": "RestructuringCharges",
+   "2011": "RestructuringCharges",
+   "2012": "RestructuringCharges",
+   "2013": "RestructuringCharges",
+   "2014": "RestructuringCharges",
+   "2015": "RestructuringCharges",
+   "2016": "RestructuringCharges",
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges",
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2023": "RestructuringCharges",
+   "2024": "RestructuringCharges",
+   "2025": "RestructuringCharges"
+  }
  },
  "custom": {
   "gm:OperatingLeaseRightofuseAssetNoncurrent": {

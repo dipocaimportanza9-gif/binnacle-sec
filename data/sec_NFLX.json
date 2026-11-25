@@ -165,7 +165,10 @@
    "2025": -580.4
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {},
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -328,7 +331,10 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {},
+  "nrRs": {}
  },
  "custom": {
   "nflx:OperatingLeaseLiabilityLeasesNotCommenced": {

@@ -276,7 +276,30 @@
   "acqStock": {
    "2025": 4704.0
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2007": 51.0,
+   "2008": 50.0,
+   "2009": 151.0,
+   "2010": 174.0,
+   "2011": 119.0,
+   "2012": 84.0,
+   "2013": 96.0,
+   "2014": 229.0,
+   "2015": 167.0,
+   "2016": 90.0,
+   "2017": 113.0,
+   "2018": 93.0,
+   "2019": 443.0,
+   "2020": 410.0,
+   "2021": 98.0,
+   "2022": 112.0,
+   "2023": 46.0,
+   "2024": 112.0,
+   "2025": 45.0
+  },
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -550,7 +573,30 @@
   "acqStock": {
    "2025": "StockIssuedDuringPeriodValueAcquisitions"
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2007": "AssetImpairmentCharges",
+   "2008": "AssetImpairmentCharges",
+   "2009": "AssetImpairmentCharges",
+   "2010": "AssetImpairmentCharges",
+   "2011": "AssetImpairmentCharges",
+   "2012": "AssetImpairmentCharges",
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges"
+  },
+  "nrRs": {}
  },
  "custom": {
   "ba:FinancingReceivablesAndOperatingLeaseEquipmentNet": {
@@ -785,7 +831,8 @@
   "2016": "2016-12-31",
   "2017": "2017-12-31",
   "2018": "2018-12-31",
-  "2008": "2008-12-31"
+  "2008": "2008-12-31",
+  "2007": "2007-12-31"
  },
  "derivati": {
   "dTotCalc": {

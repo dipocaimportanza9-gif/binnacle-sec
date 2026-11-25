@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                       11       18 
 Azioni emesse per acquisizioni (non in contanti)                     1        1        3        4        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           0        0        0        0        0        0        0    1,045        0        0      102        .
+Svalutazione di immobilizzazioni                                     0        1        3        0        0        0        0    1,045       68        0      102        .
+Costi di ristrutturazione                                            .        .       14        0        .        .        .        .       26        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -55,6 +60,9 @@ etsy:DeferredTaxAssetsFinancingArrangements                          .        . 
 etsy:DeferredTaxAssetsTaxDeferredExpenseFinancingAndInterest         .        .        .        .        .        .        .        .       32       15        5        .
 etsy:LesseeFinanceLeaseTenantImprovementAllowance                    .        .        .        .        .        .        .        .        .        .        6        .
 etsy:LesseeOperatingLeaseTenantImprovementAllowance                  .        .        .        .        .        .        .        .        .        .        2        .
+
+--- AVVISI ---
+Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dCur: DebtInstrumentFaceAmount {2025: 3000}

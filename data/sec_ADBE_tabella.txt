@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                     -169     -174 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           0        0        0        .        .        .        .        .        .        .        .        .
+Svalutazione di immobilizzazioni                                     .        .        .        .        .        .        .        .        .        .        .        .
+Costi di ristrutturazione                                            2       -2        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot   1,907        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -70,4 +75,4 @@ finLiab: OperatingLeaseRightOfUseAsset {2023: 358, 2024: 281, 2025: 312}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 32, 2024: 62, 2025: 86}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 38, 2024: 35, 2025: 47}
 
-Tempo: 3 s. File scritto: sec_ADBE.json
+Tempo: 2 s. File scritto: sec_ADBE.json

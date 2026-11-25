@@ -272,7 +272,46 @@
    "2025": -14131.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2013": 82.0,
+   "2015": 4.0,
+   "2016": 10.0,
+   "2017": 375.0,
+   "2020": 14.0,
+   "2021": 7.0,
+   "2024": 6.0,
+   "2018": 138.0
+  },
+  "nrAs": {
+   "2012": 0.0,
+   "2013": 195.0,
+   "2014": 18.0,
+   "2015": 473.0,
+   "2016": 153.0,
+   "2017": 442.0,
+   "2018": 591.0,
+   "2019": 767.0,
+   "2020": 290.0,
+   "2021": 78.0,
+   "2022": 0.0,
+   "2023": 46.0,
+   "2024": 63.0,
+   "2025": 12.0
+  },
+  "nrRs": {
+   "2008": 249.0,
+   "2009": 273.0,
+   "2010": 478.0,
+   "2011": 633.0,
+   "2017": 534.0,
+   "2018": 440.0,
+   "2019": 264.0,
+   "2022": 38.0,
+   "2020": 0.0,
+   "2021": 266.0,
+   "2023": 32.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -542,7 +581,46 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2013": "GoodwillImpairmentLoss",
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2018": "GoodwillAndIntangibleAssetImpairment"
+  },
+  "nrAs": {
+   "2012": "AssetImpairmentCharges",
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2008": "RestructuringCharges",
+   "2009": "RestructuringCharges",
+   "2010": "RestructuringCharges",
+   "2011": "RestructuringCharges",
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2020": "BusinessExitCosts1",
+   "2021": "BusinessExitCosts1",
+   "2023": "BusinessExitCosts1"
+  }
  },
  "custom": {
   "ko:DisposalGroupIncludingDiscontinuedOperationsCashCashEquivalentsAndShortTermInvestments": {
@@ -603,6 +681,8 @@
   }
  },
  "avvisi": [
+  "Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)",
+  "Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)",
   "Il tag del debito include i leasing finanziari negli anni 2024-2025: non sommarli di nuovo",
   "2009: l'OCI sale di 1917 ma gli investimenti letti salgono di 976: controllare il filing (investimenti non letti?)"
  ],

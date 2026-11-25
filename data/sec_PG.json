@@ -242,7 +242,43 @@
    "2026": -12465.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2012": 1330.0,
+   "2013": 259.0,
+   "2014": 0.0,
+   "2015": 2064.0,
+   "2019": 6783.0
+  },
+  "nrAs": {
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 8345.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 0.0,
+   "2024": 1341.0,
+   "2025": 0.0,
+   "2026": 0.0
+  },
+  "nrRs": {
+   "2012": 1052.0,
+   "2013": 956.0,
+   "2014": 806.0,
+   "2015": 1068.0,
+   "2016": 977.0,
+   "2017": 754.0,
+   "2018": 1070.0,
+   "2019": 754.0,
+   "2020": 782.0,
+   "2021": 330.0,
+   "2022": 253.0,
+   "2023": 329.0,
+   "2024": 659.0,
+   "2025": 1114.0,
+   "2026": 1230.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -482,7 +518,43 @@
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2012": "GoodwillImpairmentLoss",
+   "2013": "GoodwillImpairmentLoss",
+   "2014": "GoodwillImpairmentLoss",
+   "2015": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill",
+   "2023": "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill",
+   "2024": "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill",
+   "2025": "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill",
+   "2026": "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill"
+  },
+  "nrRs": {
+   "2012": "RestructuringCharges",
+   "2013": "RestructuringCharges",
+   "2014": "RestructuringCharges",
+   "2015": "RestructuringCharges",
+   "2016": "RestructuringCharges",
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges",
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2023": "RestructuringCharges",
+   "2024": "RestructuringCharges",
+   "2025": "RestructuringCharges",
+   "2026": "RestructuringCharges"
+  }
  },
  "custom": {
   "pg:ReserveForEsopDebtRetirement": {

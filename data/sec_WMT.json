@@ -320,7 +320,21 @@
    "2026": -12770.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2010": 133.0,
+   "2018": 1400.0,
+   "2019": 0.0,
+   "2020": 700.0,
+   "2009": 0.0,
+   "2011": 0.0,
+   "2012": 0.0
+  },
+  "nrRs": {
+   "2010": 260.0,
+   "2018": 1201.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -638,7 +652,21 @@
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2010": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2020": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2009": "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill",
+   "2011": "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill",
+   "2012": "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill"
+  },
+  "nrRs": {
+   "2010": "RestructuringCharges",
+   "2018": "RestructuringCharges"
+  }
  },
  "custom": {
   "wmt:DeferredTaxAssetsLeases": {

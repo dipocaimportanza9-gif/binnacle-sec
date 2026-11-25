@@ -203,7 +203,33 @@
    "2025": -4987.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2011": 0.0,
+   "2012": 23.0
+  },
+  "nrAs": {
+   "2012": 471.0,
+   "2013": 1114.0,
+   "2014": 342.0,
+   "2020": 98.0,
+   "2021": 46.0,
+   "2022": 2.0,
+   "2023": 21.0,
+   "2024": 27.0,
+   "2025": 322.0
+  },
+  "nrRs": {
+   "2020": 435.0,
+   "2021": 433.0,
+   "2022": 423.0,
+   "2023": 356.0,
+   "2024": 745.0,
+   "2025": 439.0,
+   "2008": 771.0,
+   "2009": 1149.0,
+   "2010": 574.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -404,7 +430,33 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2011": "GoodwillImpairmentLoss",
+   "2012": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2012": "AssetImpairmentCharges",
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2023": "RestructuringCharges",
+   "2024": "RestructuringCharges",
+   "2025": "RestructuringCharges",
+   "2008": "RestructuringSettlementAndImpairmentProvisions",
+   "2009": "RestructuringSettlementAndImpairmentProvisions",
+   "2010": "RestructuringSettlementAndImpairmentProvisions"
+  }
  },
  "custom": {
   "aig:EquityMethodInvestmentCovenantOwnershipPercentageMinimum": {

@@ -337,7 +337,33 @@
    "2025": -1727.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 4591.0,
+   "2019": 186.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 5841.0,
+   "2024": 0.0,
+   "2025": 0.0
+  },
+  "nrAs": {
+   "2017": 0.0,
+   "2018": 4591.0,
+   "2019": 186.0,
+   "2020": 0.0,
+   "2021": 0.0
+  },
+  "nrRs": {
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 179.0,
+   "2024": 0.0,
+   "2025": 0.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -672,7 +698,33 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2021": "BusinessExitCosts1",
+   "2022": "BusinessExitCosts1",
+   "2023": "BusinessExitCosts1",
+   "2024": "BusinessExitCosts1",
+   "2025": "BusinessExitCosts1"
+  }
  },
  "custom": {
   "vz:AccountsAndFinancingReceivableBeforeAllowanceForCreditLossCurrent": {

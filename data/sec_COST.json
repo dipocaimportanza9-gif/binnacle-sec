@@ -292,7 +292,24 @@
    "2026": -1620.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2010": 0.0,
+   "2011": 0.0
+  },
+  "nrAs": {
+   "2008": 10.0,
+   "2009": 11.0,
+   "2010": 2.0,
+   "2011": 1.0,
+   "2021": 84.0,
+   "2022": 118.0
+  },
+  "nrRs": {
+   "2009": 17.0,
+   "2010": 8.0,
+   "2011": 9.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -582,7 +599,24 @@
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2010": "GoodwillImpairmentLoss",
+   "2011": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2008": "AssetImpairmentCharges",
+   "2009": "AssetImpairmentCharges",
+   "2010": "AssetImpairmentCharges",
+   "2011": "AssetImpairmentCharges",
+   "2021": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2022": "ImpairmentOfIntangibleAssetsExcludingGoodwill"
+  },
+  "nrRs": {
+   "2009": "RestructuringCharges",
+   "2010": "RestructuringCharges",
+   "2011": "RestructuringCharges"
+  }
  },
  "custom": {
   "cost:OperatingLeaseandFinanceLeaserightofuseassets": {
@@ -622,7 +656,8 @@
   }
  },
  "avvisi": [
-  "Debiti finanziari a breve: ultimo anno 2022 (mancano anni recenti)"
+  "Debiti finanziari a breve: ultimo anno 2022 (mancano anni recenti)",
+  "Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)"
  ],
  "candidati": {},
  "fine_anno": {

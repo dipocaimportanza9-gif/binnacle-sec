@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                      -43      -49 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        .        .        .        .        .        .        .        .        .
+Svalutazione di immobilizzazioni                                     .        .        .        .        .        .        .        .        .        .        .        .
+Costi di ristrutturazione                                            .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -64,4 +69,4 @@ eqMeth: DerivativeCollateralObligationToReturnSecurities {2023: 27, 2024: 316, 2
 ltInv: DerivativeCollateralRightToReclaimSecurities {2023: 27, 2024: 316, 2025: 282}
 ltInv: DerivativeCollateralObligationToReturnSecurities {2023: 27, 2024: 316, 2025: 282}
 
-Tempo: 2 s. File scritto: sec_NFLX.json
+Tempo: 1 s. File scritto: sec_NFLX.json

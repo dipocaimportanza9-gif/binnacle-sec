@@ -179,7 +179,22 @@
    "2025": -9.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2009": 0.0,
+   "2010": 19.0,
+   "2011": 51.0,
+   "2012": 0.0,
+   "2013": 300.0,
+   "2014": 11.0,
+   "2015": 2.0,
+   "2016": 7.0,
+   "2017": 446.0,
+   "2018": 11.0,
+   "2019": 72.0
+  },
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -356,7 +371,22 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2009": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2010": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2011": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2012": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2013": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2014": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2015": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2016": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2017": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2018": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2019": "ImpairmentOfLongLivedAssetsHeldForUse"
+  },
+  "nrRs": {}
  },
  "custom": {
   "nee:AdditionalCollateralAggregateFairValueDueToCreditRatingDowngradeToBelowInvestmentGrade": {

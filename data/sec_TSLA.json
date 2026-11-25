@@ -262,7 +262,29 @@
    "2017": 269.0,
    "2019": 482.0
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 0.0
+  },
+  "nrAs": {
+   "2018": 13.0,
+   "2021": 101.0,
+   "2022": 204.0,
+   "2023": 0.0
+  },
+  "nrRs": {
+   "2025": 390.0,
+   "2018": 37.0,
+   "2019": 50.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -522,7 +544,29 @@
    "2017": "StockIssuedDuringPeriodValueAcquisitions",
    "2019": "StockIssuedDuringPeriodValueAcquisitions"
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2018": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2021": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2022": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2023": "ImpairmentOfIntangibleAssetsExcludingGoodwill"
+  },
+  "nrRs": {
+   "2025": "RestructuringCharges",
+   "2018": "BusinessExitCosts1",
+   "2019": "BusinessExitCosts1"
+  }
  },
  "custom": {
   "tsla:LongTermDebtAndFinanceLeasesCurrent": {
@@ -617,6 +661,7 @@
  },
  "avvisi": [
   "Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2024 (mancano anni recenti)",
+  "Svalutazione di immobilizzazioni: ultimo anno 2023 (mancano anni recenti)",
   "Il tag del debito include i leasing finanziari negli anni 2014-2018: non sommarli di nuovo"
  ],
  "candidati": {

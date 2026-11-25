@@ -154,7 +154,32 @@
    "2021": 11559.9,
    "2024": 6043.6
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2015": 0.0,
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 0.0
+  },
+  "nrAs": {
+   "2012": 5.1,
+   "2013": 3.0,
+   "2014": 4.6,
+   "2015": 10.6,
+   "2016": 20.7,
+   "2010": 0.2,
+   "2011": 0.4,
+   "2017": 14.8,
+   "2018": 26.3
+  },
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -306,7 +331,32 @@
    "2021": "StockIssuedDuringPeriodValueAcquisitions",
    "2024": "StockIssuedDuringPeriodValueAcquisitions"
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2012": "AssetImpairmentCharges",
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2010": "ImpairmentOfLongLivedAssetsToBeDisposedOf",
+   "2011": "ImpairmentOfLongLivedAssetsToBeDisposedOf",
+   "2017": "ImpairmentOfLongLivedAssetsToBeDisposedOf",
+   "2018": "ImpairmentOfLongLivedAssetsToBeDisposedOf"
+  },
+  "nrRs": {}
  },
  "custom": {
   "o:FinancingReceivableAllowanceForCreditLossExcludingAccruedInterestAdditionalFinancingGeneratedFromSalesLeasebackTransactions": {

@@ -241,7 +241,48 @@
    "2025": -1772.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2009": 22.0,
+   "2010": 0.0,
+   "2011": 0.0,
+   "2012": 580.0,
+   "2013": 0.0,
+   "2014": 0.0,
+   "2015": 0.0,
+   "2016": 595.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 925.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 0.0
+  },
+  "nrAs": {
+   "2014": 18.0,
+   "2013": 41.0,
+   "2015": 127.0
+  },
+  "nrRs": {
+   "2011": 112.0,
+   "2012": 94.0,
+   "2013": 200.0,
+   "2014": 432.0,
+   "2015": 898.0,
+   "2016": 1019.0,
+   "2017": 1256.0,
+   "2018": 386.0,
+   "2019": 236.0,
+   "2020": 354.0,
+   "2021": 90.0,
+   "2022": 299.0,
+   "2023": 780.0,
+   "2024": 359.0,
+   "2025": 448.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -480,7 +521,48 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2009": "GoodwillImpairmentLoss",
+   "2010": "GoodwillImpairmentLoss",
+   "2011": "GoodwillImpairmentLoss",
+   "2012": "GoodwillImpairmentLoss",
+   "2013": "GoodwillImpairmentLoss",
+   "2014": "GoodwillImpairmentLoss",
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2014": "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill",
+   "2013": "TangibleAssetImpairmentCharges",
+   "2015": "TangibleAssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2011": "RestructuringCharges",
+   "2012": "RestructuringCharges",
+   "2013": "RestructuringCharges",
+   "2014": "RestructuringCharges",
+   "2015": "RestructuringCharges",
+   "2016": "RestructuringCharges",
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges",
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2023": "RestructuringCharges",
+   "2024": "RestructuringCharges",
+   "2025": "RestructuringCharges"
+  }
  },
  "custom": {
   "cat:FaceAmountMediumTermNoteThatWereReclassifiedBetweenAnnualMaturityPeriodsOfLongTermDebt": {

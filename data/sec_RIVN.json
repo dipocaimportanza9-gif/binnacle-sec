@@ -98,7 +98,10 @@
    "2025": 8.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {},
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -194,7 +197,10 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {},
+  "nrRs": {}
  },
  "custom": {
   "rivn:OperatingLeaseLiabilityAndOtherLiabilitiesCurrent": {

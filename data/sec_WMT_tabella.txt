@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                   -7,168  -11,597 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        .        .        .        .        .        .        .        .        .
+Svalutazione di immobilizzazioni                                     .        .        .    1,400        0      700        .        .        .        .        .        .
+Costi di ristrutturazione                                            .        .        .    1,201        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .

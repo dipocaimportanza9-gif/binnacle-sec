@@ -227,7 +227,29 @@
    "2025": -7710.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2007": 2400.0,
+   "2015": 0.0,
+   "2016": 0.0
+  },
+  "nrAs": {
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 9435.0,
+   "2015": 0.0,
+   "2016": 0.0,
+   "2009": 650.0,
+   "2022": 0.0
+  },
+  "nrRs": {
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 1159.0,
+   "2021": 48.0,
+   "2022": 32.0,
+   "2023": 67.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -452,7 +474,29 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2007": "GoodwillImpairmentLoss",
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges",
+   "2015": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2016": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2009": "ImpairmentOfLongLivedAssetsToBeDisposedOf",
+   "2022": "ImpairmentOfLongLivedAssetsToBeDisposedOf"
+  },
+  "nrRs": {
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges",
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2023": "RestructuringCharges"
+  }
  },
  "custom": {
   "f:NetInvestmentInOperatingLeasesNoncurrent": {
@@ -503,6 +547,7 @@
   }
  },
  "avvisi": [
+  "Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)",
   "2014: l'OCI sale di 12965 ma gli investimenti letti salgono di -322: controllare il filing (investimenti non letti?)",
   "2025: l'OCI sale di 1929 ma gli investimenti letti salgono di -3793: controllare il filing (investimenti non letti?)"
  ],
@@ -546,7 +591,8 @@
   "2015": "2015-12-31",
   "2016": "2016-12-31",
   "2017": "2017-12-31",
-  "2008": "2008-12-31"
+  "2008": "2008-12-31",
+  "2007": "2007-12-31"
  },
  "derivati": {
   "dTotCalc": {},

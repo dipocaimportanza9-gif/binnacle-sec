@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                  -13,319  -13,919 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .    3,343        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        .        0        0        0        0        .        0        0        .
+Svalutazione di immobilizzazioni                                     .        .        .        .        .       42        0    3,166      321      498    1,993        .
+Costi di ristrutturazione                                          230      160      311      316       -2       -1        1        0       -1       -5        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -57,6 +62,7 @@ pep:DeferredTaxLiabilityInvestmentInTBG                              .        . 
 pep:UtilizationUnderSupplyChainFinancingPrograms                     .        .        .        .        .        .        .    1,700        .        .        .        .
 
 --- AVVISI ---
+Costi di ristrutturazione: ultimo anno 2024 (mancano anni recenti)
 2025: l'OCI sale di 2588 ma gli investimenti letti salgono di 53: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -73,4 +79,4 @@ ltInv: OtherInvestments {2023: 1616, 2024: 1346, 2025: 2526}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 520}
 ltInv: AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits {2023: 0, 2024: 0, 2025: 0}
 
-Tempo: 4 s. File scritto: sec_PEP.json
+Tempo: 2 s. File scritto: sec_PEP.json

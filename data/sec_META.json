@@ -241,7 +241,23 @@
    "2016": 74.0,
    "2017": 323.0
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2013": 0.0,
+   "2014": 0.0,
+   "2018": 0.0,
+   "2015": 0.0,
+   "2016": 0.0,
+   "2017": 0.0
+  },
+  "nrAs": {
+   "2021": 0.0,
+   "2022": 2218.0,
+   "2023": 2432.0,
+   "2024": 383.0,
+   "2025": 0.0
+  },
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -480,7 +496,23 @@
    "2016": "StockIssuedDuringPeriodValueAcquisitions",
    "2017": "StockIssuedDuringPeriodValueAcquisitions"
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2013": "GoodwillImpairmentLoss",
+   "2014": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2015": "GoodwillAndIntangibleAssetImpairment",
+   "2016": "GoodwillAndIntangibleAssetImpairment",
+   "2017": "GoodwillAndIntangibleAssetImpairment"
+  },
+  "nrAs": {
+   "2021": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2022": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2023": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2024": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2025": "ImpairmentOfLongLivedAssetsHeldForUse"
+  },
+  "nrRs": {}
  },
  "custom": {
   "meta:DeferredTaxAssetsLeaseLiabilities": {

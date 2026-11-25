@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                   -6,257   -7,013 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           0        0        .        .        .        .        .        .        .        .        .        .
+Svalutazione di immobilizzazioni                                     0        0        .        .        .        .        .        0        0        0    9,435        .
+Costi di ristrutturazione                                            .        .        .        0        0    1,159       48       32       67        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -61,6 +66,7 @@ f:WholesaleLoansPercentageForDealerFinancing                         .        . 
 f:WholesaleLoansPercentageOfDealerFinancing                          .        .        .        .        .        0        0        0        0        0        .        .
 
 --- AVVISI ---
+Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
 2014: l'OCI sale di 12965 ma gli investimenti letti salgono di -322: controllare il filing (investimenti non letti?)
 2025: l'OCI sale di 1929 ma gli investimenti letti salgono di -3793: controllare il filing (investimenti non letti?)
 
@@ -68,4 +74,4 @@ f:WholesaleLoansPercentageOfDealerFinancing                          .        . 
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
 
-Tempo: 4 s. File scritto: sec_F.json
+Tempo: 3 s. File scritto: sec_F.json

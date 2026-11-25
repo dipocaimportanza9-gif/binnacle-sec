@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                   -1,837   -1,999 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        .        .        0        0        0       80        0        .        .
+Svalutazione di immobilizzazioni                                    15       28      211      394       94      223      174      147      280       69      101        .
+Costi di ristrutturazione                                            .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -66,7 +71,8 @@ amt:SECSchedule1228RealEstateCompaniesInvestmentInRealEstateTo       .        . 
 Leasing finanziari: quota corrente: ultimo anno 2024 (mancano anni recenti)
 Leasing finanziari: quota non corrente: ultimo anno 2024 (mancano anni recenti)
 Rimborsi capitale leasing finanziari: ultimo anno 2024 (mancano anni recenti)
+Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
 FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)
 
-Tempo: 5 s. File scritto: sec_AMT.json
+Tempo: 3 s. File scritto: sec_AMT.json

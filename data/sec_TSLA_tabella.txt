@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                       -4      -24 
 Azioni emesse per acquisizioni (non in contanti)                     .    2,146      269        .      482        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        0        0        0        0        0        0        0        0        0        .
+Svalutazione di immobilizzazioni                                     .        .        .       13        .        .      101      204        0        .        .        .
+Costi di ristrutturazione                                            .        .        .       37       50        .        .        .        .        .      390        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot   2,649        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -67,6 +72,7 @@ tsla:SalesTypeLeaseUnearnedInterestIncome                            .        . 
 
 --- AVVISI ---
 Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2024 (mancano anni recenti)
+Svalutazione di immobilizzazioni: ultimo anno 2023 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2014-2018: non sommarli di nuovo
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -75,4 +81,4 @@ eqMeth: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 afsDeb: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 ltInv: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 
-Tempo: 6 s. File scritto: sec_TSLA.json
+Tempo: 4 s. File scritto: sec_TSLA.json

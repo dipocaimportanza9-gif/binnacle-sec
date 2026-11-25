@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                      297   -3,137 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        0        0        .        .        .        .        .        .        .
+Svalutazione di immobilizzazioni                                     .        .        .        .        .        .        .        .        .        .        .        .
+Costi di ristrutturazione                                            .        .        .        0        0    1,499       76        5        0        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -52,6 +57,7 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 
 --- AVVISI ---
+Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
 2020: l'OCI sale di 1525 ma gli investimenti letti salgono di -50994: controllare il filing (investimenti non letti?)
 FUORI PORTATA (SIC 6021 National Commercial Banks)
 

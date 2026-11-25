@@ -238,7 +238,40 @@
    "2026": -3284.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2010": 0.0,
+   "2011": 0.0,
+   "2012": 6193.0,
+   "2013": 0.0,
+   "2014": 0.0,
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 0.0,
+   "2026": 0.0
+  },
+  "nrAs": {
+   "2013": 0.0,
+   "2014": 0.0,
+   "2015": 7498.0,
+   "2016": 630.0,
+   "2017": 0.0,
+   "2018": 0.0
+  },
+  "nrRs": {
+   "2015": 2078.0,
+   "2016": 501.0,
+   "2017": 306.0,
+   "2018": 0.0,
+   "2019": 0.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -474,7 +507,40 @@
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2010": "GoodwillImpairmentLoss",
+   "2011": "GoodwillImpairmentLoss",
+   "2012": "GoodwillImpairmentLoss",
+   "2013": "GoodwillImpairmentLoss",
+   "2014": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss",
+   "2026": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2015": "RestructuringCharges",
+   "2016": "RestructuringCharges",
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges"
+  }
  },
  "custom": {
   "msft:CashCashEquivalentsAndInvestments": {

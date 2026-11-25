@@ -115,7 +115,14 @@
    "2025": 87.7,
    "2026": 13.1
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2024": 0.0,
+   "2025": 0.0,
+   "2026": 108.7
+  },
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -228,7 +235,14 @@
    "2025": "StockIssuedDuringPeriodValueAcquisitions",
    "2026": "StockIssuedDuringPeriodValueAcquisitions"
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges",
+   "2026": "AssetImpairmentCharges"
+  },
+  "nrRs": {}
  },
  "custom": {
   "snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAmortizedCost": {

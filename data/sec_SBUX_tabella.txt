@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                     -199     -108 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           0        0       87       38       10        0        0        0        0        0        0        0
+Svalutazione di immobilizzazioni                                    26       24       56       43       43      210        .        .        .        .        .        .
+Costi di ristrutturazione                                            0        0      154      224      136      255      155       46       22        0      892      689
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -73,4 +78,4 @@ eqPriv: OtherInvestments {2023: 24, 2024: 40, 2025: 47, 2026: 23}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 223, 2024: 333, 2025: 294, 2026: 188}
 ltInv: OtherInvestments {2023: 24, 2024: 40, 2025: 47, 2026: 23}
 
-Tempo: 3 s. File scritto: sec_SBUX.json
+Tempo: 2 s. File scritto: sec_SBUX.json

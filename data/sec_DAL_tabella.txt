@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                   -7,275   -7,636 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        .        .        .        .        .        .        .        .        .
+Svalutazione di immobilizzazioni                                     .        .        .        .        .    4,400        .        .        .        .        .        .
+Costi di ristrutturazione                                           35       10        7        0        0    8,219      -19     -124        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -65,6 +70,7 @@ dal:LeaseRightOfUseAsset                                             .        . 
 dal:LesseeFinanceLeaseAndOperatingLeaseLeaseNotYetCommencedAmo       .        .        .        .        .      734      403      242      151        .        .        .
 
 --- AVVISI ---
+Costi di ristrutturazione: ultimo anno 2022 (mancano anni recenti)
 2013: l'OCI sale di 3447 ma gli investimenti letti salgono di -300: controllare il filing (investimenti non letti?)
 
 Tempo: 3 s. File scritto: sec_DAL.json

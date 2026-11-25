@@ -316,7 +316,50 @@
   "acqStock": {
    "2012": 18071.0
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2009": 130.0,
+   "2010": 175.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 0.0
+  },
+  "nrAs": {
+   "2008": 85.0,
+   "2009": 420.0,
+   "2010": 726.0,
+   "2011": 335.0,
+   "2012": 666.0,
+   "2013": 399.0,
+   "2014": 81.0,
+   "2015": 106.0,
+   "2016": 18.0,
+   "2017": 282.0,
+   "2018": 402.0,
+   "2019": -8.0,
+   "2020": 978.0,
+   "2021": 353.0,
+   "2022": 434.0
+  },
+  "nrRs": {
+   "2012": 171.0,
+   "2013": 52.0,
+   "2014": 5.0,
+   "2015": 144.0,
+   "2016": 110.0,
+   "2017": 17.0,
+   "2018": 200.0,
+   "2019": 24.0,
+   "2020": 1.0,
+   "2021": 36.0,
+   "2022": 33.0,
+   "2023": 80.0,
+   "2024": -28.0,
+   "2025": -8.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -630,7 +673,50 @@
   "acqStock": {
    "2012": "StockIssuedDuringPeriodValueAcquisitions"
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2009": "GoodwillImpairmentLoss",
+   "2010": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2008": "AssetImpairmentCharges",
+   "2009": "AssetImpairmentCharges",
+   "2010": "AssetImpairmentCharges",
+   "2011": "AssetImpairmentCharges",
+   "2012": "AssetImpairmentCharges",
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2012": "RestructuringCharges",
+   "2013": "RestructuringCharges",
+   "2014": "RestructuringCharges",
+   "2015": "RestructuringCharges",
+   "2016": "RestructuringCharges",
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges",
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2023": "RestructuringCharges",
+   "2024": "RestructuringCharges",
+   "2025": "RestructuringCharges"
+  }
  },
  "custom": {
   "duk:OtherOperatingLeaseLiabilityNoncurrent": {
@@ -709,7 +795,9 @@
    "2019": 462.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)"
+ ],
  "candidati": {
   "eqPriv": [
    {

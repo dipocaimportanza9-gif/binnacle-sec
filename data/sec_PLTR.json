@@ -105,7 +105,15 @@
    "2025": 13.9
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2018": 23.7,
+   "2019": 23.4,
+   "2020": 0.7,
+   "2021": 0.0
+  },
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -208,7 +216,15 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges"
+  },
+  "nrRs": {}
  },
  "custom": {
   "pltr:LeaseRightOfUseAsset": {

@@ -215,7 +215,35 @@
    "2025": -4798.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2016": 0.0,
+   "2017": 2550.0,
+   "2018": 22136.0,
+   "2019": 1486.0,
+   "2020": 877.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 0.0,
+   "2024": 251.0,
+   "2025": 0.0
+  },
+  "nrAs": {
+   "2010": 438.0,
+   "2011": 301.0,
+   "2012": 242.0,
+   "2015": 168.0,
+   "2016": 99.0,
+   "2017": 145.0
+  },
+  "nrRs": {
+   "2020": 860.0,
+   "2021": 550.0,
+   "2022": 479.0,
+   "2023": 403.0,
+   "2024": 546.0,
+   "2025": -84.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -428,7 +456,35 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2010": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2011": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2012": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2015": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2016": "ImpairmentOfLongLivedAssetsHeldForUse",
+   "2017": "ImpairmentOfLongLivedAssetsHeldForUse"
+  },
+  "nrRs": {
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2023": "RestructuringCharges",
+   "2024": "RestructuringSettlementAndImpairmentProvisions",
+   "2025": "RestructuringSettlementAndImpairmentProvisions"
+  }
  },
  "custom": {
   "ge:AssetBackedFinancingArrangementPortfolioHeldInOfficeSector": {

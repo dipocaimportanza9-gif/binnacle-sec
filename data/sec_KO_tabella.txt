@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                  -10,174  -11,205 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           4       10      375      138        .       14        7        .        .        6        .        .
+Svalutazione di immobilizzazioni                                   473      153      442      591      767      290       78        0       46       63       12        .
+Costi di ristrutturazione                                            .        .      534      440      264        0      266       38       32        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -64,6 +69,8 @@ ko:IncreaseDecreaseinCarryingValueofLongtermDebtInterestRateFa       .        . 
 ko:SegmentReportingInformationInvestmentsIncludingEquityMethod       .        .        .        .   19,879   20,085   18,416   18,765   19,789        .        .        .
 
 --- AVVISI ---
+Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)
+Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2024-2025: non sommarli di nuovo
 2009: l'OCI sale di 1917 ma gli investimenti letti salgono di 976: controllare il filing (investimenti non letti?)
 
@@ -78,4 +85,4 @@ ltInv: MarketableSecurities {2023: 1300, 2024: 1723, 2025: 1934}
 ltInv: DebtSecurities {2023: 1175, 2024: 1676, 2025: 1824}
 ltInv: QualifiedAffordableHousingProjectInvestmentsCommitment {2024: 123, 2025: 32}
 
-Tempo: 3 s. File scritto: sec_KO.json
+Tempo: 2 s. File scritto: sec_KO.json

@@ -36,7 +36,10 @@
   "ltInv": {},
   "aoci": {},
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {},
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {},
@@ -70,7 +73,10 @@
   "ltInv": {},
   "aoci": {},
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {},
+  "nrRs": {}
  },
  "custom": {},
  "avvisi": [

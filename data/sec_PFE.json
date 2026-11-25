@@ -285,7 +285,46 @@
   "acqStock": {
    "2009": 23633.0
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2007": 2220.0,
+   "2008": 570.0,
+   "2009": 305.0,
+   "2010": 3486.0,
+   "2011": 1198.0,
+   "2012": 890.0,
+   "2013": 878.0,
+   "2014": 469.0,
+   "2015": 818.0,
+   "2016": 1447.0,
+   "2017": 395.0,
+   "2018": 3115.0,
+   "2019": 2792.0,
+   "2020": 1691.0,
+   "2021": 86.0,
+   "2022": 421.0,
+   "2023": 3024.0,
+   "2024": 3295.0,
+   "2025": 4940.0
+  },
+  "nrRs": {
+   "2011": 2118.0,
+   "2012": 1428.0,
+   "2013": 1038.0,
+   "2014": 170.0,
+   "2015": 811.0,
+   "2016": 1055.0,
+   "2017": 30.0,
+   "2018": 796.0,
+   "2019": 227.0,
+   "2020": 535.0,
+   "2021": 741.0,
+   "2022": 882.0,
+   "2023": 1968.0,
+   "2024": 1987.0,
+   "2025": 1092.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -568,7 +607,46 @@
   "acqStock": {
    "2009": "StockIssuedDuringPeriodValueAcquisitions"
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {},
+  "nrAs": {
+   "2007": "AssetImpairmentCharges",
+   "2008": "AssetImpairmentCharges",
+   "2009": "AssetImpairmentCharges",
+   "2010": "AssetImpairmentCharges",
+   "2011": "AssetImpairmentCharges",
+   "2012": "AssetImpairmentCharges",
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2011": "RestructuringCharges",
+   "2012": "RestructuringCharges",
+   "2013": "RestructuringCharges",
+   "2014": "RestructuringCharges",
+   "2015": "RestructuringCharges",
+   "2016": "RestructuringCharges",
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges",
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2023": "RestructuringCharges",
+   "2024": "RestructuringCharges",
+   "2025": "RestructuringCharges"
+  }
  },
  "custom": {
   "pfe:PrivateEquityInvestments": {
@@ -706,7 +784,8 @@
   "2018": "2018-12-31",
   "2008": "2008-12-31",
   "2009": "2009-12-31",
-  "2010": "2010-12-31"
+  "2010": "2010-12-31",
+  "2007": "2007-12-31"
  },
  "derivati": {
   "dTotCalc": {

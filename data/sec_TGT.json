@@ -286,7 +286,51 @@
    "2026": -417.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2011": 0.0,
+   "2012": 0.0,
+   "2013": 0.0,
+   "2014": 0.0,
+   "2015": 0.0,
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 0.0,
+   "2026": 0.0
+  },
+  "nrAs": {
+   "2011": 34.0,
+   "2012": 43.0,
+   "2013": 37.0,
+   "2014": 77.0,
+   "2016": 39.0,
+   "2015": 124.0,
+   "2017": 43.0,
+   "2018": 91.0,
+   "2019": 92.0,
+   "2020": 23.0,
+   "2021": 62.0,
+   "2022": 87.0,
+   "2023": 66.0,
+   "2024": 102.0,
+   "2025": 68.0,
+   "2026": 69.0
+  },
+  "nrRs": {
+   "2014": 0.0,
+   "2015": 0.0,
+   "2016": 138.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2026": 57.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -570,7 +614,51 @@
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2011": "GoodwillImpairmentLoss",
+   "2012": "GoodwillImpairmentLoss",
+   "2013": "GoodwillImpairmentLoss",
+   "2014": "GoodwillImpairmentLoss",
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss",
+   "2026": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2011": "AssetImpairmentCharges",
+   "2012": "AssetImpairmentCharges",
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2015": "TangibleAssetImpairmentCharges",
+   "2017": "TangibleAssetImpairmentCharges",
+   "2018": "TangibleAssetImpairmentCharges",
+   "2019": "TangibleAssetImpairmentCharges",
+   "2020": "TangibleAssetImpairmentCharges",
+   "2021": "TangibleAssetImpairmentCharges",
+   "2022": "TangibleAssetImpairmentCharges",
+   "2023": "TangibleAssetImpairmentCharges",
+   "2024": "TangibleAssetImpairmentCharges",
+   "2025": "TangibleAssetImpairmentCharges",
+   "2026": "TangibleAssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2014": "RestructuringCharges",
+   "2015": "RestructuringCharges",
+   "2016": "RestructuringCharges",
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2026": "BusinessExitCosts1"
+  }
  },
  "custom": {
   "tgt:LeaseRightofUseAsset": {

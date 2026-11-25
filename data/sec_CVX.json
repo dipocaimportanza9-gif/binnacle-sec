@@ -357,6 +357,26 @@
   },
   "acqTot": {
    "2011": 3400.0
+  },
+  "nrGw": {},
+  "nrAs": {
+   "2013": 382.0,
+   "2014": 1274.0,
+   "2015": 4066.0,
+   "2016": 3186.0,
+   "2017": 1021.0,
+   "2018": 735.0,
+   "2019": 10797.0,
+   "2020": 2792.0,
+   "2021": 414.0,
+   "2022": 950.0,
+   "2023": 2180.0,
+   "2024": 500.0,
+   "2025": 133.0
+  },
+  "nrRs": {
+   "2015": 353.0,
+   "2020": 859.0
   }
  },
  "tag_usato": {
@@ -712,6 +732,26 @@
   },
   "acqTot": {
    "2011": "BusinessCombinationConsiderationTransferred"
+  },
+  "nrGw": {},
+  "nrAs": {
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2015": "RestructuringCharges",
+   "2020": "RestructuringCharges"
   }
  },
  "custom": {

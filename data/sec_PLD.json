@@ -184,7 +184,18 @@
   },
   "acqTot": {
    "2011": 5794.1
-  }
+  },
+  "nrGw": {
+   "2010": 368.5,
+   "2009": 163.6,
+   "2011": 126.4,
+   "2012": 16.1
+  },
+  "nrAs": {
+   "2011": 2.7,
+   "2012": 30.6
+  },
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -366,7 +377,18 @@
   },
   "acqTot": {
    "2011": "BusinessCombinationConsiderationTransferred"
-  }
+  },
+  "nrGw": {
+   "2010": "GoodwillImpairmentLoss",
+   "2009": "GoodwillAndIntangibleAssetImpairment",
+   "2011": "GoodwillAndIntangibleAssetImpairment",
+   "2012": "GoodwillAndIntangibleAssetImpairment"
+  },
+  "nrAs": {
+   "2011": "ImpairmentOfLongLivedAssetsToBeDisposedOf",
+   "2012": "ImpairmentOfLongLivedAssetsToBeDisposedOf"
+  },
+  "nrRs": {}
  },
  "custom": {
   "pld:PercentageOfOutstandingDebt": {

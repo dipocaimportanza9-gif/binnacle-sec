@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                   -4,291   -3,843 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .    4,888       46        .    6,520        .   50,638        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        .        .        .        .        .        .        .        .        .
+Svalutazione di immobilizzazioni                                 4,066    3,186    1,021      735   10,797    2,792      414      950    2,180      500      133        .
+Costi di ristrutturazione                                          353        .        .        .        .      859        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -74,4 +79,4 @@ afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 
 ltInv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 34359, 2024: 35349, 2025: 32062}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 2025: 5282}
 
-Tempo: 4 s. File scritto: sec_CVX.json
+Tempo: 3 s. File scritto: sec_CVX.json

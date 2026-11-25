@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                      -24      -50 
 Azioni emesse per acquisizioni (non in contanti)                   339        0    1,192       12    2,195   15,588        .   11,269        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           0        0        .        0        0        0        0        0        .        .        .        .
+Svalutazione di immobilizzazioni                                     0        0        0        0        0        0        0        0        .        .        .        .
+Costi di ristrutturazione                                            .        .        .        .        .        .        0        0      828      988      461      586
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot   1,071        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -56,5 +61,7 @@ crm:LessorOperatingLeasePaymentsToBeReceivedNextFiveYears            .        . 
 
 --- AVVISI ---
 Azioni emesse per acquisizioni (non in contanti): ultimo anno 2022 (mancano anni recenti)
+Svalutazione di avviamento: ultimo anno 2022 (mancano anni recenti)
+Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
 
 Tempo: 1 s. File scritto: sec_CRM.json

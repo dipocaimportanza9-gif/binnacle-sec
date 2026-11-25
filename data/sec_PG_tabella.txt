@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                  -12,780  -15,907 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                       2,064        .        .        .    6,783        .        .        .        .        .        .        .
+Svalutazione di immobilizzazioni                                     .        .        0        0    8,345        0        0        0        0    1,341        0        0
+Costi di ristrutturazione                                        1,068      977      754    1,070      754      782      330      253      329      659    1,114    1,230
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .   21,705   19,714   22,635   23,783   26,045   26,719   26,495   28,329   29,107   30,372   29,299
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -69,4 +74,4 @@ eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 
 afsDeb: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
 ltInv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
 
-Tempo: 2 s. File scritto: sec_PG.json
+Tempo: 1 s. File scritto: sec_PG.json

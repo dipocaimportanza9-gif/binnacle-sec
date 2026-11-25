@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                     -806      -93 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        .        .        0        0        0        0        0        0        .
+Svalutazione di immobilizzazioni                                   106       18      282      402       -8      978      353      434        .        .        .        .
+Costi di ristrutturazione                                          144      110       17      200       24        1       36       33       80      -28       -8        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -60,8 +65,11 @@ duk:LongTermDebtExcludingPurchaseAccountingAdjustments               .        . 
 duk:OtherOperatingLeaseLiabilityNoncurrent                           .        .        .        .        .        .        .      876      917      957    1,033        .
 duk:ShortTermObligationsClassifiedAsLongTermDebt                     .        .        .        .      937      937      937        .      937        .      937        .
 
+--- AVVISI ---
+Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 eqPriv: InvestmentsAndOtherNoncurrentAssets {2023: 48809, 2024: 51767, 2025: 54164}
 eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 50, 2024: 66, 2025: 30}
 
-Tempo: 8 s. File scritto: sec_DUK.json
+Tempo: 5 s. File scritto: sec_DUK.json

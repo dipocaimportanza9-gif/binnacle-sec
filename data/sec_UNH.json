@@ -260,7 +260,34 @@
   "acqTot": {
    "2023": 10200.0,
    "2025": 4800.0
-  }
+  },
+  "nrGw": {
+   "2010": 172.0,
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 0.0,
+   "2015": 0.0
+  },
+  "nrAs": {
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 0.0
+  },
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -518,7 +545,34 @@
   "acqTot": {
    "2023": "BusinessCombinationConsiderationTransferred1",
    "2025": "BusinessCombinationConsiderationTransferred1"
-  }
+  },
+  "nrGw": {
+   "2010": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss",
+   "2015": "GoodwillAndIntangibleAssetImpairment"
+  },
+  "nrAs": {
+   "2016": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2017": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2018": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2019": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2020": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2021": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2022": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2023": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2024": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2025": "ImpairmentOfIntangibleAssetsExcludingGoodwill"
+  },
+  "nrRs": {}
  },
  "custom": {
   "unh:InvestmentsAmortizedCost": {

@@ -190,7 +190,26 @@
    "2020": 3898.0,
    "2021": 929.0
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 100.0,
+   "2021": 73.0
+  },
+  "nrAs": {
+   "2017": 57.0,
+   "2018": 197.0,
+   "2019": 0.0,
+   "2020": 404.0,
+   "2021": 116.0,
+   "2022": 9.0
+  },
+  "nrRs": {
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 362.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -378,7 +397,26 @@
    "2020": "StockIssuedDuringPeriodValueAcquisitions",
    "2021": "StockIssuedDuringPeriodValueAcquisitions"
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2020": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "TangibleAssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges",
+   "2020": "RestructuringCharges"
+  }
  },
  "custom": {
   "uber:MarketableAndNonMarketableInvestments": {
@@ -435,7 +473,8 @@
   }
  },
  "avvisi": [
-  "Beni acquisiti con capital lease (non cash): ultimo anno 2023 (mancano anni recenti)"
+  "Beni acquisiti con capital lease (non cash): ultimo anno 2023 (mancano anni recenti)",
+  "Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)"
  ],
  "candidati": {
   "ltInv": [

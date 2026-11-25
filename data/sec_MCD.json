@@ -233,7 +233,29 @@
    "2025": -2414.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2015": 80.4,
+   "2016": 39.9,
+   "2018": -1.1,
+   "2019": -99.4,
+   "2020": 0.0
+  },
+  "nrAs": {
+   "2020": 26.3,
+   "2023": 72.0
+  },
+  "nrRs": {
+   "2023": 290.0,
+   "2024": 221.0,
+   "2025": 229.0,
+   "2007": 1670.3,
+   "2008": 6.0,
+   "2009": -61.1,
+   "2010": 29.1,
+   "2011": -3.9,
+   "2012": 8.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -464,7 +486,29 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2020": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2023": "RestructuringCharges",
+   "2024": "RestructuringCharges",
+   "2025": "RestructuringCharges",
+   "2007": "RestructuringSettlementAndImpairmentProvisions",
+   "2008": "RestructuringSettlementAndImpairmentProvisions",
+   "2009": "RestructuringSettlementAndImpairmentProvisions",
+   "2010": "RestructuringSettlementAndImpairmentProvisions",
+   "2011": "RestructuringSettlementAndImpairmentProvisions",
+   "2012": "RestructuringSettlementAndImpairmentProvisions"
+  }
  },
  "custom": {
   "mcd:LeaseRightOfUseAssetNet": {
@@ -531,7 +575,8 @@
   "Leasing operativi: debito totale: ultimo anno 2023 (mancano anni recenti)",
   "Leasing operativi: quota corrente: ultimo anno 2022 (mancano anni recenti)",
   "Leasing operativi: quota non corrente: ultimo anno 2022 (mancano anni recenti)",
-  "Debito corrente totale (con debiti a breve): ultimo anno 2024 (mancano anni recenti)"
+  "Debito corrente totale (con debiti a breve): ultimo anno 2024 (mancano anni recenti)",
+  "Svalutazione di immobilizzazioni: ultimo anno 2023 (mancano anni recenti)"
  ],
  "candidati": {
   "opLiab": [
@@ -622,7 +667,8 @@
   "2016": "2016-12-31",
   "2017": "2017-12-31",
   "2008": "2008-12-31",
-  "2009": "2009-12-31"
+  "2009": "2009-12-31",
+  "2007": "2007-12-31"
  },
  "derivati": {
   "dTotCalc": {

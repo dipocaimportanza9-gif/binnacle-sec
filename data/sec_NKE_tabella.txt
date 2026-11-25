@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                    1,246      318 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        .        .        .        .        .        .        .        0        .
+Svalutazione di immobilizzazioni                                     .        .        .        .        .        .        .        .      156       48       33       50
+Costi di ristrutturazione                                            .        .        .        .        .        .        .        .        .      443        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -53,9 +58,12 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 nke:DeferredTaxAssetsOperatingLeaseLiabilities                       .        .        .        .        .      491      499      508      511      474      458      427
 nke:LesseeOperatingLeaseLiabilityAgreementsSignedButNotCommenc       .        .        .        .        .        .       78      175      278      614      482       77
 
+--- AVVISI ---
+Costi di ristrutturazione: ultimo anno 2024 (mancano anni recenti)
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 2923, 2024: 2718, 2025: 2712, 2026: 2838}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 602, 2024: 458, 2025: 607, 2026: 849}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 377, 2024: 324, 2025: 286, 2026: 501}
 
-Tempo: 3 s. File scritto: sec_NKE.json
+Tempo: 2 s. File scritto: sec_NKE.json

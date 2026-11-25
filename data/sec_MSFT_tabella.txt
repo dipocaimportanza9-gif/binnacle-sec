@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                    2,522    1,537 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        0        0        0        0        0        0        0        0        0        0        0
+Svalutazione di immobilizzazioni                                 7,498      630        0        0        .        .        .        .        .        .        .        .
+Costi di ristrutturazione                                        2,078      501      306        0        0        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -59,4 +64,4 @@ msft:PremiumOnDebtExchange1                                          .        . 
 2019: l'OCI sale di 1847 ma gli investimenti letti salgono di 576: controllare il filing (investimenti non letti?)
 2020: l'OCI sale di 3526 ma gli investimenti letti salgono di 346: controllare il filing (investimenti non letti?)
 
-Tempo: 3 s. File scritto: sec_MSFT.json
+Tempo: 13 s. File scritto: sec_MSFT.json

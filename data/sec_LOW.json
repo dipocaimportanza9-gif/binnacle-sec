@@ -317,7 +317,37 @@
    "2026": 271.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2015": 1.0,
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 952.0,
+   "2020": 0.0,
+   "2021": 0.0
+  },
+  "nrAs": {
+   "2023": 2536.0,
+   "2024": -57.0,
+   "2025": -169.0,
+   "2010": 114.0,
+   "2011": 71.0,
+   "2012": 388.0,
+   "2013": 77.0,
+   "2014": 46.0,
+   "2015": 28.0,
+   "2016": 10.0,
+   "2017": 43.0
+  },
+  "nrRs": {
+   "2012": 98.0,
+   "2013": 11.0,
+   "2014": 11.0,
+   "2015": 14.0,
+   "2016": 34.0,
+   "2017": 47.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -632,7 +662,37 @@
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges",
+   "2010": "TangibleAssetImpairmentCharges",
+   "2011": "TangibleAssetImpairmentCharges",
+   "2012": "TangibleAssetImpairmentCharges",
+   "2013": "TangibleAssetImpairmentCharges",
+   "2014": "TangibleAssetImpairmentCharges",
+   "2015": "TangibleAssetImpairmentCharges",
+   "2016": "TangibleAssetImpairmentCharges",
+   "2017": "TangibleAssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2012": "RestructuringCharges",
+   "2013": "RestructuringCharges",
+   "2014": "RestructuringCharges",
+   "2015": "RestructuringCharges",
+   "2016": "RestructuringCharges",
+   "2017": "RestructuringCharges"
+  }
  },
  "custom": {
   "low:LesseeOperatingAndFinanceLeaseRightOfUseAssets": {

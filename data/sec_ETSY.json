@@ -195,7 +195,40 @@
    "2017": 3.1,
    "2018": 3.8
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2014": 0.0,
+   "2015": 0.0,
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 0.0,
+   "2021": 0.0,
+   "2022": 1045.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 101.7
+  },
+  "nrAs": {
+   "2014": 0.0,
+   "2015": 0.0,
+   "2016": 0.6,
+   "2017": 3.2,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2021": 0.0,
+   "2022": 1045.0,
+   "2023": 68.1,
+   "2024": 0.0,
+   "2025": 101.7,
+   "2020": 0.0
+  },
+  "nrRs": {
+   "2017": 13.9,
+   "2018": -0.2,
+   "2023": 26.2
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -388,7 +421,40 @@
    "2017": "StockIssuedDuringPeriodValueAcquisitions",
    "2018": "StockIssuedDuringPeriodValueAcquisitions"
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2014": "GoodwillImpairmentLoss",
+   "2015": "GoodwillImpairmentLoss",
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2021": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2014": "AssetImpairmentCharges",
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges",
+   "2020": "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill"
+  },
+  "nrRs": {
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2023": "RestructuringCharges"
+  }
  },
  "custom": {
   "etsy:DeferredTaxAssetsTaxDeferredExpenseFinancingAndInterest": {
@@ -412,7 +478,9 @@
    "2019": 906.6
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)"
+ ],
  "candidati": {
   "dCur": [
    {

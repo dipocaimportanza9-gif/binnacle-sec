@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                        .   -3,979 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        0        0    3,074        0      212      721    2,622      871    1,012
+Svalutazione di immobilizzazioni                                     .        .       22      200      600    5,200      300        0    2,577      187        .        .
+Costi di ristrutturazione                                            .        .       98       33    1,183    5,735      654      237    3,892    3,595      819    1,456
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -82,6 +87,7 @@ dis:OperatingAndFinancingLeaseTotalRightOfUseAsset                   .        . 
 dis:TotalOperatingLeaseLiabilityOnTheBalanceSheet                    .        .        .        .        .        .    3,620    3,635    3,998    3,512    3,235    3,226
 
 --- AVVISI ---
+Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)
 2021: l'OCI sale di 1882 ma gli investimenti letti salgono di 32: controllare il filing (investimenti non letti?)
 2022: l'OCI sale di 2321 ma gli investimenti letti salgono di -717: controllare il filing (investimenti non letti?)
 

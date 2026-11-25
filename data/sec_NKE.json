@@ -245,7 +245,22 @@
    "2026": -141.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2009": 199.0,
+   "2025": 0.0
+  },
+  "nrAs": {
+   "2023": 156.0,
+   "2024": 48.0,
+   "2025": 33.0,
+   "2026": 50.0,
+   "2009": 202.0
+  },
+  "nrRs": {
+   "2009": 195.0,
+   "2024": 443.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -488,7 +503,22 @@
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2009": "GoodwillImpairmentLoss",
+   "2025": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges",
+   "2026": "AssetImpairmentCharges",
+   "2009": "ImpairmentOfIntangibleAssetsExcludingGoodwill"
+  },
+  "nrRs": {
+   "2009": "RestructuringCharges",
+   "2024": "RestructuringCharges"
+  }
  },
  "custom": {
   "nke:DeferredTaxAssetsOperatingLeaseLiabilities": {
@@ -509,7 +539,9 @@
    "2021": 78.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "Costi di ristrutturazione: ultimo anno 2024 (mancano anni recenti)"
+ ],
  "candidati": {
   "finLiab": [
    {

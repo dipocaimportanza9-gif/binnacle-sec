@@ -216,6 +216,40 @@
   "acqTot": {
    "2021": 7300.0,
    "2022": 7300.0
+  },
+  "nrGw": {},
+  "nrAs": {
+   "2011": 0.0,
+   "2012": 2131.0,
+   "2013": 739.0,
+   "2014": 410.0,
+   "2016": 624.0,
+   "2017": 795.0,
+   "2018": 1258.0,
+   "2019": 1096.0,
+   "2021": 233.0,
+   "2022": 989.0,
+   "2023": 1295.0,
+   "2024": 405.0,
+   "2025": 204.0
+  },
+  "nrRs": {
+   "2007": 745.0,
+   "2008": 0.0,
+   "2010": 1073.0,
+   "2011": 0.0,
+   "2012": 569.0,
+   "2013": 0.0,
+   "2014": 0.0,
+   "2016": 509.0,
+   "2017": 309.0,
+   "2018": 251.0,
+   "2019": 266.0,
+   "2021": 247.0,
+   "2022": 209.0,
+   "2023": 489.0,
+   "2024": 234.0,
+   "2025": 228.0
   }
  },
  "tag_usato": {
@@ -430,6 +464,40 @@
   "acqTot": {
    "2021": "BusinessCombinationConsiderationTransferred1",
    "2022": "BusinessCombinationConsiderationTransferred1"
+  },
+  "nrGw": {},
+  "nrAs": {
+   "2011": "AssetImpairmentCharges",
+   "2012": "AssetImpairmentCharges",
+   "2013": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2021": "AssetImpairmentCharges",
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges"
+  },
+  "nrRs": {
+   "2007": "RestructuringCharges",
+   "2008": "RestructuringCharges",
+   "2010": "RestructuringCharges",
+   "2011": "RestructuringCharges",
+   "2012": "RestructuringCharges",
+   "2013": "RestructuringCharges",
+   "2014": "RestructuringCharges",
+   "2016": "RestructuringCharges",
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2023": "RestructuringCharges",
+   "2024": "RestructuringCharges",
+   "2025": "RestructuringCharges"
   }
  },
  "custom": {

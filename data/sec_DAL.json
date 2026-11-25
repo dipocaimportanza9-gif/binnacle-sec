@@ -270,6 +270,27 @@
   "acqStock": {},
   "acqTot": {
    "2013": 30.0
+  },
+  "nrGw": {},
+  "nrAs": {
+   "2020": 4400.0,
+   "2011": 50.0
+  },
+  "nrRs": {
+   "2016": 10.0,
+   "2017": 7.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 8219.0,
+   "2021": -19.0,
+   "2022": -124.0,
+   "2009": 407.0,
+   "2010": 450.0,
+   "2011": 242.0,
+   "2012": 452.0,
+   "2013": 402.0,
+   "2014": 716.0,
+   "2015": 35.0
   }
  },
  "tag_usato": {
@@ -538,6 +559,27 @@
   "acqStock": {},
   "acqTot": {
    "2013": "BusinessCombinationConsiderationTransferred1"
+  },
+  "nrGw": {},
+  "nrAs": {
+   "2020": "AssetImpairmentCharges",
+   "2011": "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill"
+  },
+  "nrRs": {
+   "2016": "RestructuringCharges",
+   "2017": "RestructuringCharges",
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges",
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2009": "RestructuringSettlementAndImpairmentProvisions",
+   "2010": "RestructuringSettlementAndImpairmentProvisions",
+   "2011": "RestructuringSettlementAndImpairmentProvisions",
+   "2012": "RestructuringSettlementAndImpairmentProvisions",
+   "2013": "RestructuringSettlementAndImpairmentProvisions",
+   "2014": "RestructuringSettlementAndImpairmentProvisions",
+   "2015": "RestructuringSettlementAndImpairmentProvisions"
   }
  },
  "custom": {
@@ -642,6 +684,7 @@
   }
  },
  "avvisi": [
+  "Costi di ristrutturazione: ultimo anno 2022 (mancano anni recenti)",
   "2013: l'OCI sale di 3447 ma gli investimenti letti salgono di -300: controllare il filing (investimenti non letti?)"
  ],
  "candidati": {},

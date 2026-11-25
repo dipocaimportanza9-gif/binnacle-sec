@@ -180,7 +180,40 @@
    "2026": -2581.0
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2020": 3074.0,
+   "2023": 721.0,
+   "2024": 2622.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2021": 0.0,
+   "2022": 212.0,
+   "2025": 871.0,
+   "2026": 1012.0
+  },
+  "nrAs": {
+   "2022": 0.0,
+   "2023": 2577.0,
+   "2024": 187.0,
+   "2017": 22.0,
+   "2018": 200.0,
+   "2019": 600.0,
+   "2020": 5200.0,
+   "2021": 300.0
+  },
+  "nrRs": {
+   "2017": 98.0,
+   "2018": 33.0,
+   "2019": 1183.0,
+   "2020": 5735.0,
+   "2021": 654.0,
+   "2022": 237.0,
+   "2023": 3892.0,
+   "2024": 3595.0,
+   "2025": 819.0,
+   "2026": 1456.0
+  }
  },
  "tag_usato": {
   "opLiab": {},
@@ -358,7 +391,40 @@
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "acqStock": {},
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2020": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss",
+   "2018": "GoodwillAndIntangibleAssetImpairment",
+   "2019": "GoodwillAndIntangibleAssetImpairment",
+   "2021": "GoodwillAndIntangibleAssetImpairment",
+   "2022": "GoodwillAndIntangibleAssetImpairment",
+   "2025": "GoodwillAndIntangibleAssetImpairment",
+   "2026": "GoodwillAndIntangibleAssetImpairment"
+  },
+  "nrAs": {
+   "2022": "AssetImpairmentCharges",
+   "2023": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2017": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2018": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2019": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2020": "ImpairmentOfIntangibleAssetsExcludingGoodwill",
+   "2021": "ImpairmentOfIntangibleAssetsExcludingGoodwill"
+  },
+  "nrRs": {
+   "2017": "RestructuringSettlementAndImpairmentProvisions",
+   "2018": "RestructuringSettlementAndImpairmentProvisions",
+   "2019": "RestructuringSettlementAndImpairmentProvisions",
+   "2020": "RestructuringSettlementAndImpairmentProvisions",
+   "2021": "RestructuringSettlementAndImpairmentProvisions",
+   "2022": "RestructuringSettlementAndImpairmentProvisions",
+   "2023": "RestructuringSettlementAndImpairmentProvisions",
+   "2024": "RestructuringSettlementAndImpairmentProvisions",
+   "2025": "RestructuringSettlementAndImpairmentProvisions",
+   "2026": "RestructuringSettlementAndImpairmentProvisions"
+  }
  },
  "custom": {
   "dis:FilmCapitalizedCostReleased": {
@@ -606,6 +672,7 @@
   }
  },
  "avvisi": [
+  "Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)",
   "2021: l'OCI sale di 1882 ma gli investimenti letti salgono di 32: controllare il filing (investimenti non letti?)",
   "2022: l'OCI sale di 2321 ma gli investimenti letti salgono di -717: controllare il filing (investimenti non letti?)"
  ],

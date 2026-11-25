@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                        .  -13,165 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .    7,300    7,300        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        .        .        .        .        .        .        .        .        .        .
+Svalutazione di immobilizzazioni                                     .      624      795    1,258    1,096        .      233      989    1,295      405      204        .
+Costi di ristrutturazione                                            .      509      309      251      266        .      247      209      489      234      228        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .   19,857   32,175   30,284   27,694        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -58,4 +63,4 @@ Corrispettivo totale delle acquisizioni (informativo): ultimo anno 2022 (mancano
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 1000, 2024: 1100, 2025: 1300}
 
-Tempo: 3 s. File scritto: sec_JNJ.json
+Tempo: 2 s. File scritto: sec_JNJ.json

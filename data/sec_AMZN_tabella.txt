@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                     -723     -985 
 Azioni emesse per acquisizioni (non in contanti)                     5        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           .        .        0        0        0        0        0        0        0        0        0        .
+Svalutazione di immobilizzazioni                                     .        .        .        .        .        .        .    1,100        .        .    1,300        .
+Costi di ristrutturazione                                            .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -89,4 +94,4 @@ amzn:NonmarketableSecuritiesAgreedAdditionalInvestmentMaximum        .        . 
 2023: l'OCI sale di 1447 ma gli investimenti letti salgono di 653: controllare il filing (investimenti non letti?)
 2024: l'OCI sale di 3006 ma gli investimenti letti salgono di 821: controllare il filing (investimenti non letti?)
 
-Tempo: 3 s. File scritto: sec_AMZN.json
+Tempo: 2 s. File scritto: sec_AMZN.json

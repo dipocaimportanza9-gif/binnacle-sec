@@ -289,7 +289,35 @@
   "acqStock": {},
   "acqTot": {
    "2024": 71.0
-  }
+  },
+  "nrGw": {
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 494.0,
+   "2022": 0.0,
+   "2023": 125.0,
+   "2024": 0.0
+  },
+  "nrAs": {
+   "2007": 221.0,
+   "2008": 575.0,
+   "2009": 181.0,
+   "2014": 0.0,
+   "2015": 0.0,
+   "2016": 0.0,
+   "2017": 0.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2024": 108.0,
+   "2025": 201.0,
+   "2020": 0.0,
+   "2021": 71.0,
+   "2022": 0.0,
+   "2023": 0.0
+  },
+  "nrRs": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -576,7 +604,35 @@
   "acqStock": {},
   "acqTot": {
    "2024": "BusinessCombinationConsiderationTransferred1"
-  }
+  },
+  "nrGw": {
+   "2016": "GoodwillImpairmentLoss",
+   "2017": "GoodwillImpairmentLoss",
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss",
+   "2020": "GoodwillImpairmentLoss",
+   "2022": "GoodwillImpairmentLoss",
+   "2023": "GoodwillImpairmentLoss",
+   "2024": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {
+   "2007": "AssetImpairmentCharges",
+   "2008": "AssetImpairmentCharges",
+   "2009": "AssetImpairmentCharges",
+   "2014": "AssetImpairmentCharges",
+   "2015": "AssetImpairmentCharges",
+   "2016": "AssetImpairmentCharges",
+   "2017": "AssetImpairmentCharges",
+   "2018": "AssetImpairmentCharges",
+   "2019": "AssetImpairmentCharges",
+   "2024": "AssetImpairmentCharges",
+   "2025": "AssetImpairmentCharges",
+   "2020": "TangibleAssetImpairmentCharges",
+   "2021": "TangibleAssetImpairmentCharges",
+   "2022": "TangibleAssetImpairmentCharges",
+   "2023": "TangibleAssetImpairmentCharges"
+  },
+  "nrRs": {}
  },
  "custom": {
   "ups:DeferredTaxAssetOperatingLeaseLiability": {
@@ -708,6 +764,7 @@
   }
  },
  "avvisi": [
+  "Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)",
   "Il tag del debito include i leasing finanziari negli anni 2023-2025: non sommarli di nuovo",
   "2022: l'OCI sale di 1729 ma gli investimenti letti salgono di 233: controllare il filing (investimenti non letti?)"
  ],
@@ -785,7 +842,8 @@
   "2017": "2017-12-31",
   "2018": "2018-12-31",
   "2009": "2009-12-31",
-  "2008": "2008-12-31"
+  "2008": "2008-12-31",
+  "2007": "2007-12-31"
  },
  "derivati": {
   "dTotCalc": {

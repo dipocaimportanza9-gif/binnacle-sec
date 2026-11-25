@@ -239,7 +239,20 @@
    "2007": 2125.0,
    "2008": 14601.0
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2018": 0.0,
+   "2019": 0.0
+  },
+  "nrAs": {},
+  "nrRs": {
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 1499.0,
+   "2021": 76.0,
+   "2022": 5.0,
+   "2023": 0.0
+  }
  },
  "tag_usato": {
   "opLiab": {
@@ -476,10 +489,24 @@
    "2007": "StockIssuedDuringPeriodValueAcquisitions",
    "2008": "StockIssuedDuringPeriodValueAcquisitions"
   },
-  "acqTot": {}
+  "acqTot": {},
+  "nrGw": {
+   "2018": "GoodwillImpairmentLoss",
+   "2019": "GoodwillImpairmentLoss"
+  },
+  "nrAs": {},
+  "nrRs": {
+   "2018": "RestructuringCharges",
+   "2019": "RestructuringCharges",
+   "2020": "RestructuringCharges",
+   "2021": "RestructuringCharges",
+   "2022": "RestructuringCharges",
+   "2023": "RestructuringCharges"
+  }
  },
  "custom": {},
  "avvisi": [
+  "Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)",
   "2020: l'OCI sale di 1525 ma gli investimenti letti salgono di -50994: controllare il filing (investimenti non letti?)",
   "FUORI PORTATA (SIC 6021 National Commercial Banks)"
  ],

@@ -45,6 +45,11 @@ OCI accumulato (utili/perdite non realizzati)                       -8       -5 
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
+--- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
+Svalutazione di avviamento                                           0        0        .        0        0        0        0        .        .        .        .        .
+Svalutazione di immobilizzazioni                                    62        0        0       45        0        0        .        .        .       58        .        .
+Costi di ristrutturazione                                            .       10        0        .        .        .        .        0        0      186        0        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -58,6 +63,7 @@ amd:OperatingLeaseNotYetCommenced                                    .        . 
 --- AVVISI ---
 Beni acquisiti con capital lease (non cash): ultimo anno 2022 (mancano anni recenti)
 Partecipazioni a patrimonio netto (equity method): ultimo anno 2024 (mancano anni recenti)
+Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2009-2015: non sommarli di nuovo
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -68,4 +74,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 137, 2024:
 eqMeth: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 1, 2024: -2, 2025: 366}
 ltInv: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 1, 2024: -2, 2025: 366}
 
-Tempo: 2 s. File scritto: sec_AMD.json
+Tempo: 3 s. File scritto: sec_AMD.json
