@@ -60,4 +60,4 @@ duk:ShortTermObligationsClassifiedAsLongTermDebt                     .        . 
 eqPriv: InvestmentsAndOtherNoncurrentAssets {2023: 48809, 2024: 51767, 2025: 54164}
 eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 50, 2024: 66, 2025: 30}
 
-Tempo: 10 s. File scritto: sec_DUK.json
+Tempo: 8 s. File scritto: sec_DUK.json

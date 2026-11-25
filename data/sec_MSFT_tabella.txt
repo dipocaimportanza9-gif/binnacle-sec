@@ -55,4 +55,4 @@ msft:PremiumOnDebtExchange1                                          .        . 
 2019: l'OCI sale di 1847 ma gli investimenti letti salgono di 576: controllare il filing (investimenti non letti?)
 2020: l'OCI sale di 3526 ma gli investimenti letti salgono di 346: controllare il filing (investimenti non letti?)
 
-Tempo: 4 s. File scritto: sec_MSFT.json
+Tempo: 3 s. File scritto: sec_MSFT.json

@@ -55,4 +55,4 @@ Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarl
 2023: l'OCI sale di 1281 ma gli investimenti letti salgono di -442: controllare il filing (investimenti non letti?)
 2025: l'OCI sale di 3756 ma gli investimenti letti salgono di -1357: controllare il filing (investimenti non letti?)
 
-Tempo: 4 s. File scritto: sec_XOM.json
+Tempo: 3 s. File scritto: sec_XOM.json

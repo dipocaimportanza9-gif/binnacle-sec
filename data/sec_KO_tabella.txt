@@ -74,4 +74,4 @@ ltInv: MarketableSecurities {2023: 1300, 2024: 1723, 2025: 1934}
 ltInv: DebtSecurities {2023: 1175, 2024: 1676, 2025: 1824}
 ltInv: QualifiedAffordableHousingProjectInvestmentsCommitment {2024: 123, 2025: 32}
 
-Tempo: 5 s. File scritto: sec_KO.json
+Tempo: 3 s. File scritto: sec_KO.json
