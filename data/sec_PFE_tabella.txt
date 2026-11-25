@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                       .    6,049 
 Investimenti a lungo termine (voce di bilancio)                 15,999    7,116    7,015    2,586   20,147   20,262   21,526   15,069   15,368    2,228        .        .
 OCI accumulato (utili/perdite non realizzati)                   -9,522  -11,036   -9,321  -11,275  -11,640   -5,310   -5,897   -8,304   -7,961   -7,842   -8,069        .
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .   37,084   37,685   37,417        .   37,831   35,444   63,792   61,152   64,638        .
 Debiti a breve = debito corrente totale - quota corrente LT      6,440        .        .        .        .        .        .        .        .        .        .        .
@@ -68,4 +72,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 671, 2024:
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 614, 2024: 283, 2025: 288}
 ltInv: SecuritiesReceivedAsCollateral {2023: 221, 2024: 716, 2025: 154}
 
-Tempo: 3 s. File scritto: sec_PFE.json
+Tempo: 4 s. File scritto: sec_PFE.json

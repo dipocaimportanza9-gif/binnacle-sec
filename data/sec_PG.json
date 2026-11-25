@@ -240,7 +240,9 @@
    "2024": -11900.0,
    "2025": -12143.0,
    "2026": -12465.0
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -478,7 +480,9 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "custom": {
   "pg:ReserveForEsopDebtRetirement": {

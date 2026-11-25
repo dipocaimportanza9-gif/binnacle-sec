@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                       .        . 
 Investimenti a lungo termine (voce di bilancio)                 38,715   41,393   49,973   52,449   27,942   30,852   33,445   13,362    2,162    2,930    2,805   24,126
 OCI accumulato (utili/perdite non realizzati)                     -996     -816     -803   -1,689   -1,628   -1,716   -1,175   -1,692   -1,522   -1,432   -1,175   -1,380
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .       55        .        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -54,4 +58,4 @@ dBrev: DebtInstrumentFaceAmount {2023: 90927, 2024: 87266, 2025: 92947, 2026: 13
 eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2026: 4954}
 afsDeb: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2026: 4954}
 
-Tempo: 3 s. File scritto: sec_ORCL.json
+Tempo: 4 s. File scritto: sec_ORCL.json

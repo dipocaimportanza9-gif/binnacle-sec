@@ -205,7 +205,9 @@
    "2023": -10443.0,
    "2024": -12456.0,
    "2025": -4290.0
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -408,7 +410,9 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "custom": {
   "jpm:DebtSecuritiesNetCarryingAmount": {

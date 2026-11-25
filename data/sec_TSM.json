@@ -34,7 +34,9 @@
   "afsDeb": {},
   "mktNon": {},
   "ltInv": {},
-  "aoci": {}
+  "aoci": {},
+  "acqStock": {},
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {},
@@ -66,7 +68,9 @@
   "afsDeb": {},
   "mktNon": {},
   "ltInv": {},
-  "aoci": {}
+  "aoci": {},
+  "acqStock": {},
+  "acqTot": {}
  },
  "custom": {},
  "avvisi": [

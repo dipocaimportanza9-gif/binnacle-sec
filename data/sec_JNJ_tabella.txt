@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                       .        . 
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                        .  -13,165  -13,199  -15,222  -15,891        .  -15,242  -13,058  -12,527  -11,741  -14,930        .
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .    7,300    7,300        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .   19,857   32,175   30,284   27,694        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -48,7 +52,10 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 jnj:DebtForEquityExchangeSharesExchanged                             .        .        .        .        .        .        .        .        .      182        .        .
 
+--- AVVISI ---
+Corrispettivo totale delle acquisizioni (informativo): ultimo anno 2022 (mancano anni recenti)
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 1000, 2024: 1100, 2025: 1300}
 
-Tempo: 4 s. File scritto: sec_JNJ.json
+Tempo: 3 s. File scritto: sec_JNJ.json

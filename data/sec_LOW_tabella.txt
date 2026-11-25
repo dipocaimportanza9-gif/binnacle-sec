@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                     354      222 
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .      121      252      277      319
 OCI accumulato (utili/perdite non realizzati)                     -103     -394     -240       11     -209     -136     -136      -36      307      300      288      271
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .

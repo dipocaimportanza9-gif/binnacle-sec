@@ -255,6 +255,11 @@
    "2023": -7027.0,
    "2024": -3387.0,
    "2025": -2061.0
+  },
+  "acqStock": {},
+  "acqTot": {
+   "2023": 10200.0,
+   "2025": 4800.0
   }
  },
  "tag_usato": {
@@ -508,6 +513,11 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
+  },
+  "acqStock": {},
+  "acqTot": {
+   "2023": "BusinessCombinationConsiderationTransferred1",
+   "2025": "BusinessCombinationConsiderationTransferred1"
   }
  },
  "custom": {

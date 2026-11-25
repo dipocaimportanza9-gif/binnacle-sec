@@ -178,7 +178,9 @@
    "2024": -3699.0,
    "2025": -2914.0,
    "2026": -2581.0
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {},
@@ -354,7 +356,9 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "custom": {
   "dis:FilmCapitalizedCostReleased": {

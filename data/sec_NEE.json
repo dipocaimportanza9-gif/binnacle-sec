@@ -177,7 +177,9 @@
    "2023": -153.0,
    "2024": -126.0,
    "2025": -9.0
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -352,7 +354,9 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "custom": {
   "nee:AdditionalCollateralAggregateFairValueDueToCreditRatingDowngradeToBelowInvestmentGrade": {

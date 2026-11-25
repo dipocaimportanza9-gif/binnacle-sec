@@ -107,7 +107,15 @@
    "2024": -8.2,
    "2025": -2.2,
    "2026": 3.3
-  }
+  },
+  "acqStock": {
+   "2020": 4.7,
+   "2023": 438.9,
+   "2024": 174.3,
+   "2025": 87.7,
+   "2026": 13.1
+  },
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -212,7 +220,15 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {
+   "2020": "StockIssuedDuringPeriodValueAcquisitions",
+   "2023": "StockIssuedDuringPeriodValueAcquisitions",
+   "2024": "StockIssuedDuringPeriodValueAcquisitions",
+   "2025": "StockIssuedDuringPeriodValueAcquisitions",
+   "2026": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "acqTot": {}
  },
  "custom": {
   "snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAmortizedCost": {

@@ -225,7 +225,9 @@
    "2023": -9042.0,
    "2024": -9639.0,
    "2025": -7710.0
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -448,7 +450,9 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "custom": {
   "f:NetInvestmentInOperatingLeasesNoncurrent": {

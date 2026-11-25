@@ -235,7 +235,13 @@
    "2023": -2155.0,
    "2024": -3097.0,
    "2025": 271.0
-  }
+  },
+  "acqStock": {
+   "2014": 14344.0,
+   "2016": 74.0,
+   "2017": 323.0
+  },
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -468,7 +474,13 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {
+   "2014": "StockIssuedDuringPeriodValueAcquisitions",
+   "2016": "StockIssuedDuringPeriodValueAcquisitions",
+   "2017": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "acqTot": {}
  },
  "custom": {
   "meta:DeferredTaxAssetsLeaseLiabilities": {

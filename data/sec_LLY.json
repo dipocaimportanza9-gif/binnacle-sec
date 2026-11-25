@@ -221,7 +221,9 @@
    "2023": -4327.0,
    "2024": -4322.0,
    "2025": -2880.0
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -440,7 +442,9 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "custom": {
   "lly:DebtSecuritiesAvailableforsaleUnrealizedGainPosition": {

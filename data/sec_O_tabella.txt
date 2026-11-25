@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                       .        . 
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                        .        .        0       -8      -17      -55        5       47       74       38      105        .
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .   11,560        .        .    6,044        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -65,6 +69,7 @@ o:RealEstatePropertiesAcquiredOtherLiabilitiesDeferredRentOnBe       .        . 
 o:RealEstatePropertiesAcquiredOtherLiabilitiesFinanceLeaseLiab       .        .        .        .        .        .        .        .        .        .        2        .
 
 --- AVVISI ---
+Azioni emesse per acquisizioni (non in contanti): ultimo anno 2024 (mancano anni recenti)
 FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -97,4 +102,4 @@ ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 
 ltInv: RealEstateInvestmentsJointVentures {2023: 38}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 2, 2024: 8, 2025: 9}
 
-Tempo: 3 s. File scritto: sec_O.json
+Tempo: 5 s. File scritto: sec_O.json

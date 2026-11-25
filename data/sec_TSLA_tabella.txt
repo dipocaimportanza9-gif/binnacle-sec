@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                       .        . 
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                       -4      -24       33       -8      -36      363       54     -361     -143     -670      361        .
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                     .    2,146      269        .      482        .        .        .        .        .        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot   2,649        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -71,4 +75,4 @@ eqMeth: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 afsDeb: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 ltInv: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 
-Tempo: 4 s. File scritto: sec_TSLA.json
+Tempo: 6 s. File scritto: sec_TSLA.json

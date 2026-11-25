@@ -148,7 +148,13 @@
    "2023": 73.9,
    "2024": 38.2,
    "2025": 105.0
-  }
+  },
+  "acqStock": {
+   "2013": 1997.8,
+   "2021": 11559.9,
+   "2024": 6043.6
+  },
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -294,7 +300,13 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {
+   "2013": "StockIssuedDuringPeriodValueAcquisitions",
+   "2021": "StockIssuedDuringPeriodValueAcquisitions",
+   "2024": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "acqTot": {}
  },
  "custom": {
   "o:FinancingReceivableAllowanceForCreditLossExcludingAccruedInterestAdditionalFinancingGeneratedFromSalesLeasebackTransactions": {
@@ -389,6 +401,7 @@
   }
  },
  "avvisi": [
+  "Azioni emesse per acquisizioni (non in contanti): ultimo anno 2024 (mancano anni recenti)",
   "FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)"
  ],
  "candidati": {

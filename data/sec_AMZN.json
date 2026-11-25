@@ -276,7 +276,15 @@
    "2023": -3040.0,
    "2024": -34.0,
    "2025": 28230.0
-  }
+  },
+  "acqStock": {
+   "2009": 1145.0,
+   "2011": 27.0,
+   "2012": 66.0,
+   "2014": 44.0,
+   "2015": 5.0
+  },
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -550,7 +558,15 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {
+   "2009": "StockIssuedDuringPeriodValueAcquisitions",
+   "2011": "StockIssuedDuringPeriodValueAcquisitions",
+   "2012": "StockIssuedDuringPeriodValueAcquisitions",
+   "2014": "StockIssuedDuringPeriodValueAcquisitions",
+   "2015": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "acqTot": {}
  },
  "custom": {
   "amzn:LeaseLiabilityNoncurrent": {

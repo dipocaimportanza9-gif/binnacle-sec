@@ -286,7 +286,9 @@
    "2024": -428.8,
    "2025": -459.3,
    "2026": -86.9
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -570,7 +572,9 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "custom": {
   "sbux:CurrentAssetsEquityMethodInvestments": {

@@ -312,7 +312,11 @@
    "2023": -6.0,
    "2024": 228.0,
    "2025": 198.0
-  }
+  },
+  "acqStock": {
+   "2012": 18071.0
+  },
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -622,7 +626,11 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {
+   "2012": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "acqTot": {}
  },
  "custom": {
   "duk:OtherOperatingLeaseLiabilityNoncurrent": {

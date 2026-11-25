@@ -8,7 +8,7 @@ NVDA    SIC 3674   debito:si  leasing:si  invest:si  avvisi:1
 GOOGL   SIC 7370   debito:si  leasing:si  invest:si  avvisi:3  
 META    SIC 7370   debito:si  leasing:si  invest:si  avvisi:1  
 ORCL    SIC 7372   debito:si  leasing:si  invest:si  avvisi:0  
-CRM     SIC 7372   debito:si  leasing:si  invest:si  avvisi:0  
+CRM     SIC 7372   debito:si  leasing:si  invest:si  avvisi:1  
 ADBE    SIC 7372   debito:si  leasing:si  invest:NO  avvisi:1  
 INTC    SIC 3674   debito:si  leasing:NO  invest:si  avvisi:3  
 AMD     SIC 3674   debito:si  leasing:si  invest:si  avvisi:3  
@@ -21,7 +21,7 @@ PEP     SIC 2080   debito:si  leasing:si  invest:si  avvisi:1
 MCD     SIC 5812   debito:si  leasing:si  invest:si  avvisi:4  
 NKE     SIC 3021   debito:si  leasing:si  invest:NO  avvisi:0  
 SBUX    SIC 5810   debito:si  leasing:si  invest:si  avvisi:1  
-JNJ     SIC 2834   debito:si  leasing:si  invest:si  avvisi:0  
+JNJ     SIC 2834   debito:si  leasing:si  invest:si  avvisi:1  
 PFE     SIC 2834   debito:si  leasing:si  invest:si  avvisi:3  
 UNH     SIC 6324   debito:si  leasing:si  invest:si  avvisi:1  [finanziario/immobiliare: le regole su de]
 LLY     SIC 2834   debito:si  leasing:si  invest:si  avvisi:5  
@@ -31,7 +31,7 @@ BAC     SIC 6021   debito:si  leasing:si  invest:si  avvisi:3  [finanziario/immo
 WFC     SIC 6021   debito:si  leasing:si  invest:NO  avvisi:2  [finanziario/immobiliare: le regole su de]
 AIG     SIC 6331   debito:si  leasing:si  invest:si  avvisi:5  [finanziario/immobiliare: le regole su de]
 BRK-B   SIC 6331   debito:NO  leasing:si  invest:si  avvisi:3  [finanziario/immobiliare: le regole su de]
-O       SIC 6798   debito:si  leasing:si  invest:NO  avvisi:1  [finanziario/immobiliare: le regole su de]
+O       SIC 6798   debito:si  leasing:si  invest:NO  avvisi:2  [finanziario/immobiliare: le regole su de]
 PLD     SIC 6798   debito:si  leasing:si  invest:si  avvisi:1  [finanziario/immobiliare: le regole su de]
 AMT     SIC 6798   debito:si  leasing:si  invest:NO  avvisi:5  [finanziario/immobiliare: le regole su de]
 NEE     SIC 4911   debito:si  leasing:si  invest:si  avvisi:0  

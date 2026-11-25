@@ -211,6 +211,11 @@
    "2023": -12527.0,
    "2024": -11741.0,
    "2025": -14930.0
+  },
+  "acqStock": {},
+  "acqTot": {
+   "2021": 7300.0,
+   "2022": 7300.0
   }
  },
  "tag_usato": {
@@ -420,6 +425,11 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
+  },
+  "acqStock": {},
+  "acqTot": {
+   "2021": "BusinessCombinationConsiderationTransferred1",
+   "2022": "BusinessCombinationConsiderationTransferred1"
   }
  },
  "custom": {
@@ -427,7 +437,9 @@
    "2024": 182.3
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "Corrispettivo totale delle acquisizioni (informativo): ultimo anno 2022 (mancano anni recenti)"
+ ],
  "candidati": {
   "finLiab": [
    {

@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                       .        . 
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                   -7,275   -7,636   -7,621   -7,825   -7,989   -9,038   -7,130   -5,801   -5,845   -4,979   -4,135        .
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -63,4 +67,4 @@ dal:LesseeFinanceLeaseAndOperatingLeaseLeaseNotYetCommencedAmo       .        . 
 --- AVVISI ---
 2013: l'OCI sale di 3447 ma gli investimenti letti salgono di -300: controllare il filing (investimenti non letti?)
 
-Tempo: 4 s. File scritto: sec_DAL.json
+Tempo: 3 s. File scritto: sec_DAL.json

@@ -281,7 +281,11 @@
    "2023": -7961.0,
    "2024": -7842.0,
    "2025": -8069.0
-  }
+  },
+  "acqStock": {
+   "2009": 23633.0
+  },
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -560,7 +564,11 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {
+   "2009": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "acqTot": {}
  },
  "custom": {
   "pfe:PrivateEquityInvestments": {

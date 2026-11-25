@@ -335,7 +335,9 @@
    "2023": -1380.0,
    "2024": -923.0,
    "2025": -1727.0
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -668,7 +670,9 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "custom": {
   "vz:AccountsAndFinancingReceivableBeforeAllowanceForCreditLossCurrent": {

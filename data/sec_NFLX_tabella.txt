@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                       .        . 
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                      -43      -49      -21      -20      -24       44      -40     -217     -224      362     -580        .
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -60,4 +64,4 @@ eqMeth: DerivativeCollateralObligationToReturnSecurities {2023: 27, 2024: 316, 2
 ltInv: DerivativeCollateralRightToReclaimSecurities {2023: 27, 2024: 316, 2025: 282}
 ltInv: DerivativeCollateralObligationToReturnSecurities {2023: 27, 2024: 316, 2025: 282}
 
-Tempo: 1 s. File scritto: sec_NFLX.json
+Tempo: 2 s. File scritto: sec_NFLX.json

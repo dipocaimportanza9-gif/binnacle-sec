@@ -175,7 +175,9 @@
    "2023": -10247.0,
    "2024": -11253.0,
    "2025": -10343.0
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {},
@@ -348,7 +350,9 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {},
+  "acqTot": {}
  },
  "custom": {
   "gm:OperatingLeaseRightofuseAssetNoncurrent": {

@@ -285,7 +285,11 @@
    "2024": -7172.0,
    "2025": -5571.0,
    "2026": -6422.0
-  }
+  },
+  "acqStock": {
+   "2008": 21.0
+  },
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -568,7 +572,11 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {
+   "2008": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "acqTot": {}
  },
  "custom": {
   "aapl:DeferredTaxAssetsLeaseLiabilities": {

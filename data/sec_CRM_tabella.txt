@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                     895    1,384 
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                      -24      -50      -76      -12      -58      -93      -42     -166     -274     -225     -266      313
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                   339        0    1,192       12    2,195   15,588        .   11,269        .        .        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot   1,071        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -50,4 +54,7 @@ crm:DeferredTaxAssetsLeaseLiabilities                                .        . 
 crm:LesseeOperatingLeaseCommitmentincludingLeaseNotyetCommence       .        .        .        .        .        .        .        .        .    4,700    4,000    4,400
 crm:LessorOperatingLeasePaymentsToBeReceivedNextFiveYears            .        .        .        .        .        .        .        .        .      275      303      258
 
-Tempo: 2 s. File scritto: sec_CRM.json
+--- AVVISI ---
+Azioni emesse per acquisizioni (non in contanti): ultimo anno 2022 (mancano anni recenti)
+
+Tempo: 1 s. File scritto: sec_CRM.json

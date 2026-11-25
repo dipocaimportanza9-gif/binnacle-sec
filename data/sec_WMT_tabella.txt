@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                       .        . 
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                   -7,168  -11,597  -14,232  -10,181  -11,542  -12,805  -11,766   -8,766  -11,680  -11,302  -13,605  -12,770
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot       .        .        .        .        .        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -56,4 +60,4 @@ eqMeth: TradingSecuritiesDebt {2023: 500, 2024: 1200, 2025: 1200}
 afsDeb: TradingSecuritiesDebt {2023: 500, 2024: 1200, 2025: 1200}
 ltInv: TradingSecuritiesDebt {2023: 500, 2024: 1200, 2025: 1200}
 
-Tempo: 2 s. File scritto: sec_WMT.json
+Tempo: 1 s. File scritto: sec_WMT.json

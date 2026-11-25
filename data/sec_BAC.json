@@ -177,7 +177,12 @@
    "2023": -17788.0,
    "2024": -15285.0,
    "2025": -10526.0
-  }
+  },
+  "acqStock": {
+   "2008": 4201.0,
+   "2009": 29109.0
+  },
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -352,7 +357,12 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {
+   "2008": "StockIssuedDuringPeriodValueAcquisitions",
+   "2009": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "acqTot": {}
  },
  "custom": {
   "bac:TimeDepositsAndOtherShortTermInvestments": {

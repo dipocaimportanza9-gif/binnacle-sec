@@ -185,7 +185,12 @@
    "2023": -421.0,
    "2024": -517.0,
    "2025": -432.0
-  }
+  },
+  "acqStock": {
+   "2020": 3898.0,
+   "2021": 929.0
+  },
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -368,7 +373,12 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {
+   "2020": "StockIssuedDuringPeriodValueAcquisitions",
+   "2021": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "acqTot": {}
  },
  "custom": {
   "uber:MarketableAndNonMarketableInvestments": {

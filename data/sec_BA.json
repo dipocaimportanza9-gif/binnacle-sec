@@ -272,7 +272,11 @@
    "2023": -10305.0,
    "2024": -10915.0,
    "2025": -10277.0
-  }
+  },
+  "acqStock": {
+   "2025": 4704.0
+  },
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -542,7 +546,11 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {
+   "2025": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "acqTot": {}
  },
  "custom": {
   "ba:FinancingReceivablesAndOperatingLeaseEquipmentNet": {

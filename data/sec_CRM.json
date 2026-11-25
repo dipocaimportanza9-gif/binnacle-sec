@@ -317,7 +317,20 @@
    "2024": -225.0,
    "2025": -266.0,
    "2026": 313.0
-  }
+  },
+  "acqStock": {
+   "2012": 56.6,
+   "2013": 240.0,
+   "2014": 81.2,
+   "2015": 339.1,
+   "2016": 0.0,
+   "2017": 1192.0,
+   "2018": 12.0,
+   "2019": 2195.0,
+   "2020": 15588.0,
+   "2022": 11269.0
+  },
+  "acqTot": {}
  },
  "tag_usato": {
   "opLiab": {
@@ -632,7 +645,20 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
-  }
+  },
+  "acqStock": {
+   "2012": "StockIssuedDuringPeriodValueAcquisitions",
+   "2013": "StockIssuedDuringPeriodValueAcquisitions",
+   "2014": "StockIssuedDuringPeriodValueAcquisitions",
+   "2015": "StockIssuedDuringPeriodValueAcquisitions",
+   "2016": "StockIssuedDuringPeriodValueAcquisitions",
+   "2017": "StockIssuedDuringPeriodValueAcquisitions",
+   "2018": "StockIssuedDuringPeriodValueAcquisitions",
+   "2019": "StockIssuedDuringPeriodValueAcquisitions",
+   "2020": "StockIssuedDuringPeriodValueAcquisitions",
+   "2022": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "acqTot": {}
  },
  "custom": {
   "crm:LessorOperatingLeasePaymentsToBeReceivedNextFiveYears": {
@@ -652,7 +678,9 @@
    "2023": 912.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "Azioni emesse per acquisizioni (non in contanti): ultimo anno 2022 (mancano anni recenti)"
+ ],
  "candidati": {},
  "fine_anno": {
   "2020": "2020-01-31",

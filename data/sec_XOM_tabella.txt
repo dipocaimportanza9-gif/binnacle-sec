@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                       .        . 
 Investimenti a lungo termine (voce di bilancio)                 34,245   35,102   39,160   40,790      190      143      138      278      177      343      271        .
 OCI accumulato (utili/perdite non realizzati)                  -23,511  -22,239  -16,262  -19,564  -19,493  -16,705  -13,764  -13,270  -11,989  -14,619  -10,863        .
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .    4,844   63,352        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot  19,258   30,660   27,866   24,608   27,959   50,112   45,820   40,740   41,492   41,647   40,441        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -55,4 +59,4 @@ Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarl
 2023: l'OCI sale di 1281 ma gli investimenti letti salgono di -442: controllare il filing (investimenti non letti?)
 2025: l'OCI sale di 3756 ma gli investimenti letti salgono di -1357: controllare il filing (investimenti non letti?)
 
-Tempo: 3 s. File scritto: sec_XOM.json
+Tempo: 4 s. File scritto: sec_XOM.json

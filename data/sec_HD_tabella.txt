@@ -41,6 +41,10 @@ Titoli di mercato non correnti                                       .        . 
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                     -452     -898     -867     -566     -772     -739     -671     -704     -718     -477   -1,129     -652
 
+--- ACQUISIZIONI NON IN CONTANTI ---
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
+
 --- DERIVATI (regole generali) ---
 Debito totale = quota corrente + non corrente (se manca il tot  16,907   20,866   22,891   25,469   27,863        .        .        .        .        .        .        .
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
@@ -56,4 +60,4 @@ hd:OperatingLeaseandFinanceLeaseRightofUseAssets                     .        . 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2009-2026: non sommarli di nuovo
 
-Tempo: 2 s. File scritto: sec_HD.json
+Tempo: 3 s. File scritto: sec_HD.json
