@@ -235,6 +235,19 @@
    "2024": -12176.0,
    "2025": -6673.0
   },
+  "aocs": {
+   "2007": 398.0,
+   "2008": -6212.0,
+   "2009": 3541.0,
+   "2010": 5066.0,
+   "2011": 4413.0,
+   "2012": 7462.0,
+   "2013": 2338.0,
+   "2014": 4926.0,
+   "2015": 1813.0,
+   "2016": -1099.0,
+   "2017": 171.0
+  },
   "acqStock": {
    "2007": 2125.0,
    "2008": 14601.0
@@ -485,6 +498,19 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2007": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2008": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2009": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2012": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2013": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2014": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2015": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2016": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2017": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {
    "2007": "StockIssuedDuringPeriodValueAcquisitions",
    "2008": "StockIssuedDuringPeriodValueAcquisitions"
@@ -507,7 +533,7 @@
  "custom": {},
  "avvisi": [
   "Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)",
-  "2020: l'OCI sale di 1525 ma gli investimenti letti salgono di -50994: controllare il filing (investimenti non letti?)",
+  "2017: l'OCI dei titoli sale di 1270 ma gli investimenti letti salgono di 728: controllare il filing (investimenti non letti?)",
   "FUORI PORTATA (SIC 6021 National Commercial Banks)"
  ],
  "candidati": {

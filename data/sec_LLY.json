@@ -222,6 +222,7 @@
    "2024": -4322.0,
    "2025": -2880.0
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -497,6 +498,7 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -585,9 +587,7 @@
   "Leasing operativi: debito totale: ultimo anno 2024 (mancano anni recenti)",
   "Leasing operativi: costo (affitti) dell'anno: ultimo anno 2024 (mancano anni recenti)",
   "Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2024 (mancano anni recenti)",
-  "Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)",
-  "2021: l'OCI sale di 2153 ma gli investimenti letti salgono di 245: controllare il filing (investimenti non letti?)",
-  "2025: l'OCI sale di 1442 ma gli investimenti letti salgono di -414: controllare il filing (investimenti non letti?)"
+  "Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)"
  ],
  "candidati": {
   "opLiab": [

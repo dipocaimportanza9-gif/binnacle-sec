@@ -294,6 +294,7 @@
    "2025": -1129.0,
    "2026": -652.0
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -628,6 +629,7 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {

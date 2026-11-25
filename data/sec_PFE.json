@@ -282,6 +282,7 @@
    "2024": -7842.0,
    "2025": -8069.0
   },
+  "aocs": {},
   "acqStock": {
    "2009": 23633.0
   },
@@ -604,6 +605,7 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {
    "2009": "StockIssuedDuringPeriodValueAcquisitions"
   },
@@ -724,9 +726,7 @@
   }
  },
  "avvisi": [
-  "Investimenti a lungo termine (voce di bilancio): ultimo anno 2024 (mancano anni recenti)",
-  "2009: l'OCI sale di 5121 ma gli investimenti letti salgono di 1644: controllare il filing (investimenti non letti?)",
-  "2020: l'OCI sale di 6330 ma gli investimenti letti salgono di 2032: controllare il filing (investimenti non letti?)"
+  "Investimenti a lungo termine (voce di bilancio): ultimo anno 2024 (mancano anni recenti)"
  ],
  "candidati": {
   "finLiab": [

@@ -179,6 +179,7 @@
    "2025": -2914.0,
    "2026": -2581.0
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -390,6 +391,7 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -672,9 +674,7 @@
   }
  },
  "avvisi": [
-  "Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)",
-  "2021: l'OCI sale di 1882 ma gli investimenti letti salgono di 32: controllare il filing (investimenti non letti?)",
-  "2022: l'OCI sale di 2321 ma gli investimenti letti salgono di -717: controllare il filing (investimenti non letti?)"
+  "Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)"
  ],
  "candidati": {
   "opLiab": [

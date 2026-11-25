@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                  -13,319  -13,919  -13,057  -15,119  -14,300  -15,476  -14,898  -15,302  -15,534  -17,612  -15,024        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam      88       64       -4        2        0        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -63,7 +64,6 @@ pep:UtilizationUnderSupplyChainFinancingPrograms                     .        . 
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2024 (mancano anni recenti)
-2025: l'OCI sale di 2588 ma gli investimenti letti salgono di 53: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 2905, 2024: 3383, 2025: 3745}
@@ -79,4 +79,4 @@ ltInv: OtherInvestments {2023: 1616, 2024: 1346, 2025: 2526}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 520}
 ltInv: AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits {2023: 0, 2024: 0, 2025: 0}
 
-Tempo: 2 s. File scritto: sec_PEP.json
+Tempo: 10 s. File scritto: sec_PEP.json

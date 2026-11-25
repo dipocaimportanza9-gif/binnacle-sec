@@ -202,6 +202,7 @@
    "2024": -7099.0,
    "2025": -4987.0
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -429,6 +430,7 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -483,8 +485,6 @@
  "avvisi": [
   "Debiti finanziari a breve: ultimo anno 2023 (mancano anni recenti)",
   "Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)",
-  "2024: l'OCI sale di 6938 ma gli investimenti letti salgono di 3369: controllare il filing (investimenti non letti?)",
-  "2025: l'OCI sale di 2112 ma gli investimenti letti salgono di -614: controllare il filing (investimenti non letti?)",
   "FUORI PORTATA (SIC 6331 Fire, Marine & Casualty Insurance)"
  ],
  "candidati": {

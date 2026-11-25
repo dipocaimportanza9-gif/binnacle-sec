@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                       -8       -5        6       -8        0       17       -3      -41      -10      -69       -3        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam      -1        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -74,4 +75,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 137, 2024:
 eqMeth: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 1, 2024: -2, 2025: 366}
 ltInv: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 1, 2024: -2, 2025: 366}
 
-Tempo: 3 s. File scritto: sec_AMD.json
+Tempo: 2 s. File scritto: sec_AMD.json

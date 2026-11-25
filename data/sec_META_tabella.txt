@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                     -455     -703     -227     -760     -489      927     -693   -3,530   -2,155   -3,097      271        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .       74      323        .        .        .        .        .        .        .        .        .
@@ -56,8 +57,5 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 meta:DeferredTaxAssetsLeaseLiabilities                               .        .        .        .        .        .        .        .    3,752    3,940    5,150        .
-
---- AVVISI ---
-2023: l'OCI sale di 1375 ma gli investimenti letti salgono di -60: controllare il filing (investimenti non letti?)
 
 Tempo: 1 s. File scritto: sec_META.json

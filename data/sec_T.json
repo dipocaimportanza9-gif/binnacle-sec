@@ -302,6 +302,13 @@
    "2024": 795.0,
    "2025": -860.0
   },
+  "aocs": {
+   "2008": 100.0,
+   "2009": 324.0,
+   "2010": 316.0,
+   "2011": 222.0,
+   "2012": 272.0
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -616,6 +623,13 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2008": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2009": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2012": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -667,9 +681,7 @@
  },
  "avvisi": [
   "Svalutazione di avviamento: ultimo anno 2022 (mancano anni recenti)",
-  "Il tag del debito include i leasing finanziari negli anni 2012-2025: non sommarli di nuovo",
-  "2017: l'OCI sale di 2056 ma gli investimenti letti salgono di -114: controllare il filing (investimenti non letti?)",
-  "2019: l'OCI sale di 1221 ma gli investimenti letti salgono di -1976: controllare il filing (investimenti non letti?)"
+  "Il tag del debito include i leasing finanziari negli anni 2012-2025: non sommarli di nuovo"
  ],
  "candidati": {
   "eqPriv": [

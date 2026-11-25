@@ -200,6 +200,18 @@
    "2024": -7906.0,
    "2025": -6001.0
   },
+  "aocs": {
+   "2008": 17.0,
+   "2009": -23.9,
+   "2010": -24.0,
+   "2011": 38.0,
+   "2012": 31.0,
+   "2013": 13.0,
+   "2014": 1.0,
+   "2015": 65.0,
+   "2016": -69.0,
+   "2017": -5.0
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -425,6 +437,18 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2008": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2009": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2012": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2013": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2014": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2015": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2016": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2017": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -510,9 +534,7 @@
   }
  },
  "avvisi": [
-  "Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)",
-  "2017: l'OCI sale di 1201 ma gli investimenti letti salgono di -2064: controllare il filing (investimenti non letti?)",
-  "2025: l'OCI sale di 1905 ma gli investimenti letti salgono di 32: controllare il filing (investimenti non letti?)"
+  "Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)"
  ],
  "candidati": {
   "finLiab": [

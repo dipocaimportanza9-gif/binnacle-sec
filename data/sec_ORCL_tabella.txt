@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                 38,715   41,393   49,973   52,449   27,942   30,852   33,445   13,362    2,162    2,930    2,805   24,126
 OCI accumulato (utili/perdite non realizzati)                     -996     -816     -803   -1,689   -1,628   -1,716   -1,175   -1,692   -1,522   -1,432   -1,175   -1,380
+OCI accumulato dei soli titoli disponibili per la vendita (cam     124      196      187     -422      -90        1        0        0       -1        0        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .       55        .        .        .
@@ -58,9 +59,12 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 orcl:LesseeOperatingLeaseLeaseGuaranteeOfLessorBorrowing             .        .        .        .        .        .        .        .        .        .        .    3,300
 orcl:LesseeOperatingLeaseLeaseNotYetCommencedLeaseCommitments        .        .        .        .        .        .      653    4,100    9,100   22,900   43,400  260,000
 
+--- AVVISI ---
+OCI accumulato dei soli titoli disponibili per la vendita (cambi e coperture esclusi): ultimo anno 2024 (mancano anni recenti)
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dBrev: DebtInstrumentFaceAmount {2023: 90927, 2024: 87266, 2025: 92947, 2026: 130105}
 eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2026: 4954}
 afsDeb: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2026: 4954}
 
-Tempo: 4 s. File scritto: sec_ORCL.json
+Tempo: 3 s. File scritto: sec_ORCL.json

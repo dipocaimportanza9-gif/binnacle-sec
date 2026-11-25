@@ -277,6 +277,11 @@
    "2024": -34.0,
    "2025": 28230.0
   },
+  "aocs": {
+   "2009": 10.0,
+   "2010": 13.0,
+   "2011": 10.0
+  },
   "acqStock": {
    "2009": 1145.0,
    "2011": 27.0,
@@ -575,6 +580,11 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2009": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {
    "2009": "StockIssuedDuringPeriodValueAcquisitions",
    "2011": "StockIssuedDuringPeriodValueAcquisitions",
@@ -851,10 +861,7 @@
    "2020": 28869.0
   }
  },
- "avvisi": [
-  "2023: l'OCI sale di 1447 ma gli investimenti letti salgono di 653: controllare il filing (investimenti non letti?)",
-  "2024: l'OCI sale di 3006 ma gli investimenti letti salgono di 821: controllare il filing (investimenti non letti?)"
- ],
+ "avvisi": [],
  "candidati": {},
  "fine_anno": {
   "2019": "2019-12-31",

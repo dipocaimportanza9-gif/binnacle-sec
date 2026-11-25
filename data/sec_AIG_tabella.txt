@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)      248,245  241,537 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                338,354  328,175  322,292  314,209  337,615  360,668  359,292  309,150   90,244   93,613   92,999        .
 OCI accumulato (utili/perdite non realizzati)                    2,537    3,230    5,465   -1,413    4,982   13,511   11,314  -22,616  -14,037   -7,099   -4,987        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -64,8 +65,6 @@ aig:Shortterminvestmentsatfairvalue                                  .        . 
 --- AVVISI ---
 Debiti finanziari a breve: ultimo anno 2023 (mancano anni recenti)
 Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)
-2024: l'OCI sale di 6938 ma gli investimenti letti salgono di 3369: controllare il filing (investimenti non letti?)
-2025: l'OCI sale di 2112 ma gli investimenti letti salgono di -614: controllare il filing (investimenti non letti?)
 FUORI PORTATA (SIC 6331 Fire, Marine & Casualty Insurance)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -96,4 +95,4 @@ afsDeb: SecuritiesReceivedAsCollateral {2023: 1200, 2024: 2900, 2025: 3600}
 afsDeb: RealEstateInvestmentPropertyNet {2023: 2237}
 afsDeb: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
 
-Tempo: 6 s. File scritto: sec_AIG.json
+Tempo: 8 s. File scritto: sec_AIG.json

@@ -236,6 +236,7 @@
    "2024": -3097.0,
    "2025": 271.0
   },
+  "aocs": {},
   "acqStock": {
    "2014": 14344.0,
    "2016": 74.0,
@@ -491,6 +492,7 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {
    "2014": "StockIssuedDuringPeriodValueAcquisitions",
    "2016": "StockIssuedDuringPeriodValueAcquisitions",
@@ -521,9 +523,7 @@
    "2023": 3752.0
   }
  },
- "avvisi": [
-  "2023: l'OCI sale di 1375 ma gli investimenti letti salgono di -60: controllare il filing (investimenti non letti?)"
- ],
+ "avvisi": [],
  "candidati": {},
  "fine_anno": {
   "2019": "2019-12-31",

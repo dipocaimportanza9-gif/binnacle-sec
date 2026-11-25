@@ -257,6 +257,7 @@
    "2024": -670.0,
    "2025": 361.0
   },
+  "aocs": {},
   "acqStock": {
    "2016": 2146.0,
    "2017": 269.0,
@@ -539,6 +540,7 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {
    "2016": "StockIssuedDuringPeriodValueAcquisitions",
    "2017": "StockIssuedDuringPeriodValueAcquisitions",

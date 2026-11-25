@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                   -7,275   -7,636   -7,621   -7,825   -7,989   -9,038   -7,130   -5,801   -5,845   -4,979   -4,135        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -71,6 +72,5 @@ dal:LesseeFinanceLeaseAndOperatingLeaseLeaseNotYetCommencedAmo       .        . 
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2022 (mancano anni recenti)
-2013: l'OCI sale di 3447 ma gli investimenti letti salgono di -300: controllare il filing (investimenti non letti?)
 
-Tempo: 3 s. File scritto: sec_DAL.json
+Tempo: 2 s. File scritto: sec_DAL.json

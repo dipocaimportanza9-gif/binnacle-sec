@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)        3,112    3,750 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                     -169     -174     -112     -148     -188     -158     -137     -293     -285     -201     -245        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam      -5       -8      -12      -25        4        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .

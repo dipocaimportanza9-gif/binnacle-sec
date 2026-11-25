@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                 164,065  170,430  194,714  170,799  105,341  100,887  127,877  120,805  100,544   91,479   77,723   80,213
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                     -345      634     -150   -3,454     -584     -406      163  -11,109  -11,452   -7,172   -5,571   -6,422
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -72,8 +73,4 @@ aapl:OperatingandFinanceLeaseLiability                               .        . 
 aapl:OperatingandFinanceLeaseRightofUseAsset                         .        .        .        .        .    9,199   10,948   11,369   11,676   11,303   12,238   12,815
 aapl:OperatingandFinanceLeaseWeightedAverageDiscountRatePercen       .        .        .        .        .        .        0        0        0        0        0        0
 
---- AVVISI ---
-2024: l'OCI sale di 4280 ma gli investimenti letti salgono di -9065: controllare il filing (investimenti non letti?)
-2025: l'OCI sale di 1601 ma gli investimenti letti salgono di -13756: controllare il filing (investimenti non letti?)
-
-Tempo: 2 s. File scritto: sec_AAPL.json
+Tempo: 3 s. File scritto: sec_AAPL.json

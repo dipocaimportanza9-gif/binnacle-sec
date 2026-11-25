@@ -241,6 +241,7 @@
    "2025": -12143.0,
    "2026": -12465.0
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -517,6 +518,7 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -580,9 +582,7 @@
   }
  },
  "avvisi": [
-  "Equity in societa' non quotate (valore contabile): ultimo anno 2022 (mancano anni recenti)",
-  "2021: l'OCI sale di 2421 ma gli investimenti letti salgono di 124: controllare il filing (investimenti non letti?)",
-  "2022: l'OCI sale di 1555 ma gli investimenti letti salgono di -50: controllare il filing (investimenti non letti?)"
+  "Equity in societa' non quotate (valore contabile): ultimo anno 2022 (mancano anni recenti)"
  ],
  "candidati": {
   "finLiab": [

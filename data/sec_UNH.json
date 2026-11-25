@@ -256,6 +256,12 @@
    "2024": -3387.0,
    "2025": -2061.0
   },
+  "aocs": {
+   "2008": -30.0,
+   "2009": 277.0,
+   "2010": 280.0,
+   "2011": 476.0
+  },
   "acqStock": {},
   "acqTot": {
    "2023": 10200.0,
@@ -540,6 +546,12 @@
    "2023": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
+  },
+  "aocs": {
+   "2008": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2009": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
   },
   "acqStock": {},
   "acqTot": {

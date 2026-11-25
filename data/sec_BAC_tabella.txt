@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)      305,773        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                   -5,358   -7,288   -7,082  -12,211   -6,633   -1,656   -5,104  -21,156  -17,788  -15,285  -10,526        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -96,8 +97,6 @@ bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        . 
 bac:TimeDepositsAndOtherShortTermInvestments                         .        .        .        .        .        .        .        .        .    6,372    7,474        .
 
 --- AVVISI ---
-2024: l'OCI sale di 2503 ma gli investimenti letti salgono di -4: controllare il filing (investimenti non letti?)
-2025: l'OCI sale di 4759 ma gli investimenti letti salgono di 6: controllare il filing (investimenti non letti?)
 FUORI PORTATA (SIC 6021 National Commercial Banks)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -128,4 +127,4 @@ ltInv: DebtSecuritiesTradingRestricted {2023: 130815, 2024: 170328, 2025: 185869
 ltInv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 83107, 2024: 98891, 2025: 129743}
 ltInv: NetInvestmentInLease {2023: 19050, 2024: 21102, 2025: 22718}
 
-Tempo: 2 s. File scritto: sec_BAC.json
+Tempo: 1 s. File scritto: sec_BAC.json

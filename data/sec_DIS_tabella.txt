@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .    2,899    3,224        .        .        .        .        .    1,778    2,451
 Investimenti a lungo termine (voce di bilancio)                      .        .        .    2,899    3,224    3,903    3,935    3,218    3,080    4,459    8,097    6,266
 OCI accumulato (utili/perdite non realizzati)                        .   -3,979   -3,528   -3,097   -6,617   -8,322   -6,440   -4,119   -3,292   -3,699   -2,914   -2,581
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -88,8 +89,6 @@ dis:TotalOperatingLeaseLiabilityOnTheBalanceSheet                    .        . 
 
 --- AVVISI ---
 Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)
-2021: l'OCI sale di 1882 ma gli investimenti letti salgono di 32: controllare il filing (investimenti non letti?)
-2022: l'OCI sale di 2321 ma gli investimenti letti salgono di -717: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 opLiab: OperatingLeaseRightOfUseAsset {2023: 4211, 2024: 3376, 2025: 3170, 2026: 3164}

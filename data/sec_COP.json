@@ -318,6 +318,14 @@
    "2024": -6473.0,
    "2025": -5911.0
   },
+  "aocs": {
+   "2010": 158.0,
+   "2016": 0.0,
+   "2017": -58.0,
+   "2018": 0.0,
+   "2019": 0.0,
+   "2020": 2.0
+  },
   "acqStock": {
    "2021": 13125.0
   },
@@ -666,6 +674,14 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2016": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2017": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2018": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2019": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2020": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {
    "2021": "StockIssuedDuringPeriodValueAcquisitions"
   },
@@ -736,8 +752,7 @@
  },
  "avvisi": [
   "Equity in societa' non quotate (valore contabile): ultimo anno 2022 (mancano anni recenti)",
-  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo",
-  "2010: l'OCI sale di 1708 ma gli investimenti letti salgono di -4333: controllare il filing (investimenti non letti?)"
+  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo"
  ],
  "candidati": {
   "dBrev": [

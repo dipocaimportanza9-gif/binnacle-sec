@@ -240,6 +240,19 @@
    "2024": -2471.0,
    "2025": -1772.0
   },
+  "aocs": {
+   "2008": -79.0,
+   "2009": 15.0,
+   "2010": 48.0,
+   "2011": 44.0,
+   "2012": 67.0,
+   "2017": 8.0,
+   "2018": -15.0,
+   "2019": 20.0,
+   "2020": 54.0,
+   "2021": 20.0,
+   "2022": -118.0
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -520,6 +533,19 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2008": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2009": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2012": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2017": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2018": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2019": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2020": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2021": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2022": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -586,8 +612,7 @@
   }
  },
  "avvisi": [
-  "2009: l'OCI sale di 1815 ma gli investimenti letti salgono di 11: controllare il filing (investimenti non letti?)",
-  "2013: l'OCI sale di 6664 ma gli investimenti letti salgono di 0: controllare il filing (investimenti non letti?)"
+  "OCI accumulato dei soli titoli disponibili per la vendita (cambi e coperture esclusi): ultimo anno 2022 (mancano anni recenti)"
  ],
  "candidati": {
   "finLiab": [

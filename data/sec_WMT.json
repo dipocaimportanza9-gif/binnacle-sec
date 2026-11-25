@@ -319,6 +319,7 @@
    "2025": -13605.0,
    "2026": -12770.0
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {},
@@ -651,6 +652,7 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {},
@@ -676,9 +678,7 @@
    "2023": 4653.0
   }
  },
- "avvisi": [
-  "2022: l'OCI sale di 3000 ma gli investimenti letti salgono di -2534: controllare il filing (investimenti non letti?)"
- ],
+ "avvisi": [],
  "candidati": {
   "eqMeth": [
    {

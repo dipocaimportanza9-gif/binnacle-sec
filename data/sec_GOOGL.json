@@ -253,6 +253,7 @@
    "2024": -4800.0,
    "2025": -1916.0
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -524,6 +525,7 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -583,8 +585,7 @@
  },
  "avvisi": [
   "Partecipazioni a patrimonio netto (equity method): ultimo anno 2024 (mancano anni recenti)",
-  "Il tag del debito include i leasing finanziari negli anni 2020-2022: non sommarli di nuovo",
-  "2023: l'OCI sale di 3201 ma gli investimenti letti salgono di -4222: controllare il filing (investimenti non letti?)"
+  "Il tag del debito include i leasing finanziari negli anni 2020-2022: non sommarli di nuovo"
  ],
  "candidati": {},
  "fine_anno": {

@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)        1,891    4,716 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                       60      106      862     -974   -1,280     -751     -880     -562     -215     -711      113        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -67,7 +68,6 @@ intc:LeaseLiability                                                  .        . 
 --- AVVISI ---
 Rimborsi capitale leasing finanziari: ultimo anno 2023 (mancano anni recenti)
 Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)
-2013: l'OCI sale di 1642 ma gli investimenti letti salgono di 1094: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 opLiab: OperatingLeaseRightOfUseAsset {2023: 505, 2024: 457, 2025: 421}

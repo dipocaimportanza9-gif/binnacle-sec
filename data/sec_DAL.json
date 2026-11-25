@@ -267,6 +267,12 @@
    "2024": -4979.0,
    "2025": -4135.0
   },
+  "aocs": {
+   "2011": -4.0,
+   "2012": -7.0,
+   "2013": -26.0,
+   "2014": -16.0
+  },
   "acqStock": {},
   "acqTot": {
    "2013": 30.0
@@ -556,6 +562,12 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2012": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2013": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2014": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {},
   "acqTot": {
    "2013": "BusinessCombinationConsiderationTransferred1"
@@ -684,8 +696,7 @@
   }
  },
  "avvisi": [
-  "Costi di ristrutturazione: ultimo anno 2022 (mancano anni recenti)",
-  "2013: l'OCI sale di 3447 ma gli investimenti letti salgono di -300: controllare il filing (investimenti non letti?)"
+  "Costi di ristrutturazione: ultimo anno 2022 (mancano anni recenti)"
  ],
  "candidati": {},
  "fine_anno": {

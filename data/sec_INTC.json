@@ -271,6 +271,11 @@
    "2024": -711.0,
    "2025": 113.0
   },
+  "aocs": {
+   "2009": 261.0,
+   "2010": 401.0,
+   "2011": 231.0
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -575,6 +580,11 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2009": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -665,8 +675,7 @@
  },
  "avvisi": [
   "Rimborsi capitale leasing finanziari: ultimo anno 2023 (mancano anni recenti)",
-  "Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)",
-  "2013: l'OCI sale di 1642 ma gli investimenti letti salgono di 1094: controllare il filing (investimenti non letti?)"
+  "Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)"
  ],
  "candidati": {
   "opLiab": [

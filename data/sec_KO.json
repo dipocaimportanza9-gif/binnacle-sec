@@ -271,6 +271,10 @@
    "2024": -16843.0,
    "2025": -14131.0
   },
+  "aocs": {
+   "2010": 167.0,
+   "2011": 160.0
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -580,6 +584,10 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -683,8 +691,7 @@
  "avvisi": [
   "Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)",
   "Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)",
-  "Il tag del debito include i leasing finanziari negli anni 2024-2025: non sommarli di nuovo",
-  "2009: l'OCI sale di 1917 ma gli investimenti letti salgono di 976: controllare il filing (investimenti non letti?)"
+  "Il tag del debito include i leasing finanziari negli anni 2024-2025: non sommarli di nuovo"
  ],
  "candidati": {
   "finLiab": [

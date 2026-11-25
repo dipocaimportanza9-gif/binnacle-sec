@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                  1,284    1,317    1,260    1,087    1,092    1,016      975      983    1,035      999    1,048        .
 OCI accumulato (utili/perdite non realizzati)                  -12,748  -13,623  -16,373  -15,083  -16,153  -17,133  -11,659   -9,550  -10,305  -10,915  -10,277        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .    4,704        .
@@ -78,8 +79,6 @@ ba:TotalFinancingReceivablesNet                                      .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
-2021: l'OCI sale di 5474 ma gli investimenti letti salgono di -41: controllare il filing (investimenti non letti?)
-2022: l'OCI sale di 2109 ma gli investimenti letti salgono di 8: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dBrev: DebtAndCapitalLeaseObligations {2023: 52307, 2024: 53864, 2025: 54098}
@@ -95,4 +94,4 @@ afsDeb: OtherInvestments {2023: 69, 2024: 34, 2025: 34}
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 31, 2024: 55, 2025: 14}
 afsDeb: FinancingReceivableRecordedInvestment90DaysPastDueAndStillAccruing {2023: 9, 2024: 0}
 
-Tempo: 2 s. File scritto: sec_BA.json
+Tempo: 4 s. File scritto: sec_BA.json

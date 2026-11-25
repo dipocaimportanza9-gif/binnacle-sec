@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                  5,138    5,434    6,003    5,886    6,954    7,779    8,922    7,496    8,698    9,800   10,954        .
 OCI accumulato (utili/perdite non realizzati)                     -167      -70      111     -188     -169      -92        0     -218     -153     -126       -9        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -75,4 +76,4 @@ nee:OperatingLeaseWeightedAverageBorrowingRatePercent                .        . 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 712, 2024: 811, 2025: 446}
 
-Tempo: 3 s. File scritto: sec_NEE.json
+Tempo: 2 s. File scritto: sec_NEE.json

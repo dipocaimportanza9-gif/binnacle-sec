@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)       91,739  108,730 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                 12,053   10,431    6,023    1,862    2,649    2,965    5,984    6,891    9,879   14,600   15,405   36,348
 OCI accumulato (utili/perdite non realizzati)                    2,522    1,537      627   -2,187     -340    3,186    1,822   -4,678   -6,343   -5,590   -3,347   -3,284
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -60,8 +61,4 @@ msft:DeferredTaxAssetsBookTaxBasisDifferencesInInvestmentsAndD       .        . 
 msft:DeferredTaxLiabilitiesBookTaxBasisDifferencesInvestmentsA       .        .        .        .        .    2,642    2,381      174        0        .        0    2,972
 msft:PremiumOnDebtExchange1                                          .        .        .        .        .    3,619    5,293    5,191    5,085    4,976    4,864    4,750
 
---- AVVISI ---
-2019: l'OCI sale di 1847 ma gli investimenti letti salgono di 576: controllare il filing (investimenti non letti?)
-2020: l'OCI sale di 3526 ma gli investimenti letti salgono di 346: controllare il filing (investimenti non letti?)
-
-Tempo: 13 s. File scritto: sec_MSFT.json
+Tempo: 5 s. File scritto: sec_MSFT.json

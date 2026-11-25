@@ -273,6 +273,11 @@
    "2024": -10915.0,
    "2025": -10277.0
   },
+  "aocs": {
+   "2010": -6.0,
+   "2011": -8.0,
+   "2012": -8.0
+  },
   "acqStock": {
    "2025": 4704.0
   },
@@ -570,6 +575,11 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2012": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {
    "2025": "StockIssuedDuringPeriodValueAcquisitions"
   },
@@ -707,9 +717,7 @@
   }
  },
  "avvisi": [
-  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo",
-  "2021: l'OCI sale di 5474 ma gli investimenti letti salgono di -41: controllare il filing (investimenti non letti?)",
-  "2022: l'OCI sale di 2109 ma gli investimenti letti salgono di 8: controllare il filing (investimenti non letti?)"
+  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo"
  ],
  "candidati": {
   "dBrev": [

@@ -180,6 +180,7 @@
    "2024": -3584.0,
    "2025": -2448.0
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {
    "2008": 6100.0
@@ -367,6 +368,7 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {
    "2008": "BusinessCombinationConsiderationTransferred"
@@ -398,8 +400,6 @@
   }
  },
  "avvisi": [
-  "2016: l'OCI sale di 3316 ma gli investimenti letti salgono di -2595: controllare il filing (investimenti non letti?)",
-  "2022: l'OCI sale di 4942 ma gli investimenti letti salgono di -21227: controllare il filing (investimenti non letti?)",
   "FUORI PORTATA (SIC 6331 Fire, Marine & Casualty Insurance)"
  ],
  "candidati": {

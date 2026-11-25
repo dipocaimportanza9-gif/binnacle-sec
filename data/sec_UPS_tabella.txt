@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                   -3,540   -4,483   -4,867   -4,994   -5,997   -7,113   -3,278   -1,549   -3,758   -4,309   -4,208        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -85,7 +86,6 @@ ups:NumberofLeasedAircraftsShortterm                                 .        . 
 --- AVVISI ---
 Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2023-2025: non sommarli di nuovo
-2022: l'OCI sale di 1729 ma gli investimenti letti salgono di 233: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dBrev: DebtInstrumentFaceAmount {2023: 22470, 2024: 21487, 2025: 24367}
@@ -95,4 +95,4 @@ afsDeb: CollateralSecuritiesRepledgedDeliveredOrUsed {2023: 13, 2024: 0, 2025: 0
 ltInv: TradingSecurities {2023: 2866, 2024: 206, 2025: 3}
 ltInv: CollateralSecuritiesRepledgedDeliveredOrUsed {2023: 13, 2024: 0, 2025: 0}
 
-Tempo: 3 s. File scritto: sec_UPS.json
+Tempo: 5 s. File scritto: sec_UPS.json

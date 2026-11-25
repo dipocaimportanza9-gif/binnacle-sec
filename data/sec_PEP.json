@@ -228,6 +228,20 @@
    "2024": -17612.0,
    "2025": -15024.0
   },
+  "aocs": {
+   "2008": 28.0,
+   "2009": 47.0,
+   "2010": 70.0,
+   "2011": 62.0,
+   "2012": 64.0,
+   "2013": 93.0,
+   "2014": 87.0,
+   "2015": 88.0,
+   "2016": 64.0,
+   "2017": -4.0,
+   "2018": 2.0,
+   "2019": 0.0
+  },
   "acqStock": {},
   "acqTot": {
    "2018": 3343.0
@@ -490,6 +504,20 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2008": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2009": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2012": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2013": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2014": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2015": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2016": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2017": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2018": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2019": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {},
   "acqTot": {
    "2018": "BusinessCombinationConsiderationTransferred1"
@@ -560,8 +588,7 @@
   }
  },
  "avvisi": [
-  "Costi di ristrutturazione: ultimo anno 2024 (mancano anni recenti)",
-  "2025: l'OCI sale di 2588 ma gli investimenti letti salgono di 53: controllare il filing (investimenti non letti?)"
+  "Costi di ristrutturazione: ultimo anno 2024 (mancano anni recenti)"
  ],
  "candidati": {
   "finLiab": [

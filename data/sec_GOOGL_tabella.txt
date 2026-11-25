@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)       55,451   72,911 
 Titoli di mercato non correnti                                   5,183    5,878    7,813   13,859   13,078   20,703    1,400      803    1,400      266   68,687        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                   -1,874   -2,402     -992   -2,306   -1,232      633   -1,623   -7,603   -4,402   -4,800   -1,916        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -66,6 +67,5 @@ goog:LesseeLeaseNotYetCommencedNoncurrentAmount                      .        . 
 --- AVVISI ---
 Partecipazioni a patrimonio netto (equity method): ultimo anno 2024 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2020-2022: non sommarli di nuovo
-2023: l'OCI sale di 3201 ma gli investimenti letti salgono di -4222: controllare il filing (investimenti non letti?)
 
 Tempo: 1 s. File scritto: sec_GOOGL.json

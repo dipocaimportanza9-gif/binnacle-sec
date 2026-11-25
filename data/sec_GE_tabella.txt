@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                 31,973   44,313   38,696   33,835        .   42,549   42,209   36,027   38,000   37,741   38,788        .
 OCI accumulato (utili/perdite non realizzati)                  -16,529  -18,598  -14,404  -14,414  -11,732   -9,749    1,582   -2,272   -6,150   -3,861   -4,798        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam     460      674     -102      -39        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -90,8 +91,6 @@ ge:SalestypeandDirectFinancingLeasesUnguaranteedResidualAssetN       .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
-2021: l'OCI sale di 11331 ma gli investimenti letti salgono di -340: controllare il filing (investimenti non letti?)
-2024: l'OCI sale di 2289 ma gli investimenti letti salgono di -259: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 1160, 2024: 1057, 2025: 1018}
@@ -99,4 +98,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 329, 2024:
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 275, 2024: 196, 2025: 238}
 finLiab: IncreaseDecreaseInOperatingLeaseLiability {2024: -109}
 
-Tempo: 2 s. File scritto: sec_GE.json
+Tempo: 3 s. File scritto: sec_GE.json

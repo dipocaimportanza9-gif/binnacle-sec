@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                 20,490   21,672   10,060    9,664    8,906    8,131    7,113    8,225    9,130    9,869   10,185        .
 OCI accumulato (utili/perdite non realizzati)                   -6,247   -6,193   -5,518   -6,063   -5,357   -5,218   -4,950   -6,000   -5,673   -6,473   -5,911        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        0      -58        0        0        2        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .   13,125        .        .        .        .        .
@@ -67,7 +68,6 @@ cop:ShortTermInvestmentsCarriedAtCostPlustAccruedInterest            .        . 
 --- AVVISI ---
 Equity in societa' non quotate (valore contabile): ultimo anno 2022 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
-2010: l'OCI sale di 1708 ma gli investimenti letti salgono di -4333: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dBrev: DebtInstrumentFaceAmount {2023: 18413, 2024: 24085, 2025: 23347}
@@ -76,4 +76,4 @@ eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 2684, 2024: 2283, 
 eqPriv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 60, 2024: 96, 2025: 112}
 eqPriv: OtherInvestments {2023: 93, 2024: 90, 2025: 94}
 
-Tempo: 2 s. File scritto: sec_COP.json
+Tempo: 3 s. File scritto: sec_COP.json

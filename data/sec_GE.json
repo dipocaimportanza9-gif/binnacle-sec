@@ -214,6 +214,19 @@
    "2024": -3861.0,
    "2025": -4798.0
   },
+  "aocs": {
+   "2008": -3094.0,
+   "2009": -435.0,
+   "2010": -636.0,
+   "2011": -30.0,
+   "2012": 677.0,
+   "2013": 307.0,
+   "2014": 1013.0,
+   "2015": 460.0,
+   "2016": 674.0,
+   "2017": -102.0,
+   "2018": -39.0
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -455,6 +468,19 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2008": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2009": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2012": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2013": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2014": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2015": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2016": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2017": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2018": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -645,9 +671,7 @@
   }
  },
  "avvisi": [
-  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo",
-  "2021: l'OCI sale di 11331 ma gli investimenti letti salgono di -340: controllare il filing (investimenti non letti?)",
-  "2024: l'OCI sale di 2289 ma gli investimenti letti salgono di -259: controllare il filing (investimenti non letti?)"
+  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo"
  ],
  "candidati": {
   "finLiab": [

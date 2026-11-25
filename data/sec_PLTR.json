@@ -104,6 +104,7 @@
    "2024": -5.6,
    "2025": 13.9
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {},
@@ -215,6 +216,7 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {},

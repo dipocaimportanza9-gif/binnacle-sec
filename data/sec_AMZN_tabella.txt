@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                     -723     -985     -484   -1,035     -986     -180   -1,376   -4,487   -3,040      -34   28,230        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     5        .        .        .        .        .        .        .        .        .        .        .
@@ -90,8 +91,4 @@ amzn:LongTermDebtMaturitiesRepaymentsOfPrincipalAndInterestInY       .        . 
 amzn:NonmarketableSecuritiesAgreedAdditionalInvestment               .        .        .        .        .        .        .        .        .    2,700        .        .
 amzn:NonmarketableSecuritiesAgreedAdditionalInvestmentMaximum        .        .        .        .        .        .        .        .    2,750        .        .        .
 
---- AVVISI ---
-2023: l'OCI sale di 1447 ma gli investimenti letti salgono di 653: controllare il filing (investimenti non letti?)
-2024: l'OCI sale di 3006 ma gli investimenti letti salgono di 821: controllare il filing (investimenti non letti?)
-
-Tempo: 2 s. File scritto: sec_AMZN.json
+Tempo: 5 s. File scritto: sec_AMZN.json

@@ -349,6 +349,7 @@
    "2024": -2760.0,
    "2025": -2464.0
   },
+  "aocs": {},
   "acqStock": {
    "2020": 4888.0,
    "2021": 46.0,
@@ -724,6 +725,7 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {
    "2020": "StockIssuedDuringPeriodValueAcquisitions",
    "2021": "StockIssuedDuringPeriodValueAcquisitions",
@@ -834,8 +836,7 @@
   }
  },
  "avvisi": [
-  "Il tag del debito include i leasing finanziari negli anni 2018-2025: non sommarli di nuovo",
-  "2013: l'OCI sale di 2790 ma gli investimenti letti salgono di 1784: controllare il filing (investimenti non letti?)"
+  "Il tag del debito include i leasing finanziari negli anni 2018-2025: non sommarli di nuovo"
  ],
  "candidati": {
   "afsDeb": [

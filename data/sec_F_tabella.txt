@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                   -6,257   -7,013   -6,959   -7,366   -7,728   -8,294   -8,339   -9,339   -9,042   -9,639   -7,710        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -67,8 +68,6 @@ f:WholesaleLoansPercentageOfDealerFinancing                          .        . 
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
-2014: l'OCI sale di 12965 ma gli investimenti letti salgono di -322: controllare il filing (investimenti non letti?)
-2025: l'OCI sale di 1929 ma gli investimenti letti salgono di -3793: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}

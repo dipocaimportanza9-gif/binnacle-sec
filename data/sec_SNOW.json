@@ -108,6 +108,7 @@
    "2025": -2.2,
    "2026": 3.3
   },
+  "aocs": {},
   "acqStock": {
    "2020": 4.7,
    "2023": 438.9,
@@ -228,6 +229,7 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {
    "2020": "StockIssuedDuringPeriodValueAcquisitions",
    "2023": "StockIssuedDuringPeriodValueAcquisitions",

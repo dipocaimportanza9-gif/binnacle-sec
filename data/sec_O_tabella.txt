@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                        .        .        0       -8      -17      -55        5       47       74       38      105        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .   11,560        .        .    6,044        .        .
@@ -107,4 +108,4 @@ ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 
 ltInv: RealEstateInvestmentsJointVentures {2023: 38}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 2, 2024: 8, 2025: 9}
 
-Tempo: 3 s. File scritto: sec_O.json
+Tempo: 4 s. File scritto: sec_O.json

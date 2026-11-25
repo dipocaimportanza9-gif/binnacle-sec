@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)       26,027   23,432 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                   33,982   37,298   58,571   -5,015   -5,243   -4,243   -9,994   -5,052   -3,763   -3,584   -2,448        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -59,8 +60,6 @@ brka:DeferredTaxLiabilitiesPropertyPlantAndEquipmentEquipmentH       .        . 
 brka:RepaymentsOfDebtPrincipalInNextTwelveMonths                     .        .        .        .        .    9,398    6,139   12,962   13,859    9,366    9,782        .
 
 --- AVVISI ---
-2016: l'OCI sale di 3316 ma gli investimenti letti salgono di -2595: controllare il filing (investimenti non letti?)
-2022: l'OCI sale di 4942 ma gli investimenti letti salgono di -21227: controllare il filing (investimenti non letti?)
 FUORI PORTATA (SIC 6331 Fire, Marine & Casualty Insurance)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -72,4 +71,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 919, 2024:
 ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2025: 10681}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 721, 2024: 793, 2025: 875}
 
-Tempo: 4 s. File scritto: sec_BRK-B.json
+Tempo: 5 s. File scritto: sec_BRK-B.json

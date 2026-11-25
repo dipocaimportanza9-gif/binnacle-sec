@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)      265,721  307,153 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                      297   -3,137   -2,144   -6,336   -1,311      214   -1,702  -13,362  -11,580  -12,176   -6,673        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam   1,813   -1,099      171        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -58,7 +59,7 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
-2020: l'OCI sale di 1525 ma gli investimenti letti salgono di -50994: controllare il filing (investimenti non letti?)
+2017: l'OCI dei titoli sale di 1270 ma gli investimenti letti salgono di 728: controllare il filing (investimenti non letti?)
 FUORI PORTATA (SIC 6021 National Commercial Banks)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -95,4 +96,4 @@ ltInv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOth
 ltInv: DerivativeCollateralObligationToReturnSecurities {2023: 2587, 2024: 4024, 2025: 4906}
 ltInv: DerivativeCollateralRightToReclaimSecurities {2023: 4388, 2024: 2853, 2025: 3091}
 
-Tempo: 1 s. File scritto: sec_WFC.json
+Tempo: 0 s. File scritto: sec_WFC.json

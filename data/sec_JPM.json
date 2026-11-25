@@ -206,6 +206,7 @@
    "2024": -12456.0,
    "2025": -4290.0
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -420,6 +421,7 @@
    "2024": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {},
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -497,8 +499,6 @@
  },
  "avvisi": [
   "Il tag del debito include i leasing finanziari negli anni 2014-2025: non sommarli di nuovo",
-  "2023: l'OCI sale di 6898 ma gli investimenti letti salgono di 361: controllare il filing (investimenti non letti?)",
-  "2025: l'OCI sale di 8166 ma gli investimenti letti salgono di 1136: controllare il filing (investimenti non letti?)",
   "FUORI PORTATA (SIC 6021 National Commercial Banks)"
  ],
  "candidati": {

@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                        .        .        .     -188     -187     -535     -524     -443     -421     -517     -432        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .    3,898      929        .        .        .        .        .
@@ -74,4 +75,4 @@ Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
 ltInv: RestrictedInvestments {2023: 4779, 2024: 7019, 2025: 8874}
 ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2023: 0, 2024: 0}
 
-Tempo: 2 s. File scritto: sec_UBER.json
+Tempo: 3 s. File scritto: sec_UBER.json

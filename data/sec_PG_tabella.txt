@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)            .        . 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                      .        .        .        .        .        .        .        .        .        .        .        .
 OCI accumulato (utili/perdite non realizzati)                  -12,780  -15,907  -14,632  -14,749  -14,936  -16,165  -13,744  -12,189  -12,220  -11,900  -12,143  -12,465
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -61,8 +62,6 @@ pg:ReserveForEsopDebtRetirement                                      .        . 
 
 --- AVVISI ---
 Equity in societa' non quotate (valore contabile): ultimo anno 2022 (mancano anni recenti)
-2021: l'OCI sale di 2421 ma gli investimenti letti salgono di 124: controllare il filing (investimenti non letti?)
-2022: l'OCI sale di 1555 ma gli investimenti letti salgono di -50: controllare il filing (investimenti non letti?)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 781, 2024: 875, 2025: 925, 2026: 846}
@@ -74,4 +73,4 @@ eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 
 afsDeb: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
 ltInv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
 
-Tempo: 1 s. File scritto: sec_PG.json
+Tempo: 2 s. File scritto: sec_PG.json

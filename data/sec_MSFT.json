@@ -237,6 +237,14 @@
    "2025": -3347.0,
    "2026": -3284.0
   },
+  "aocs": {
+   "2008": 735.0,
+   "2009": 502.0,
+   "2010": 767.0,
+   "2011": 1821.0,
+   "2012": 1431.0,
+   "2013": 1794.0
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -506,6 +514,14 @@
    "2025": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
+  "aocs": {
+   "2008": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2009": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2012": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+   "2013": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
+  },
   "acqStock": {},
   "acqTot": {},
   "nrGw": {
@@ -577,10 +593,7 @@
    "2020": 2642.0
   }
  },
- "avvisi": [
-  "2019: l'OCI sale di 1847 ma gli investimenti letti salgono di 576: controllare il filing (investimenti non letti?)",
-  "2020: l'OCI sale di 3526 ma gli investimenti letti salgono di 346: controllare il filing (investimenti non letti?)"
- ],
+ "avvisi": [],
  "candidati": {},
  "fine_anno": {
   "2016": "2016-06-30",

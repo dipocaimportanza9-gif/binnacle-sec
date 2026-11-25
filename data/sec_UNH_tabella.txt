@@ -40,6 +40,7 @@ Titoli di debito disponibili per la vendita (valore equo)       18,631   24,179 
 Titoli di mercato non correnti                                       .        .        .        .        .        .        .        .        .        .        .        .
 Investimenti a lungo termine (voce di bilancio)                 18,792   23,868   28,341   32,510   37,209   41,242   43,114   43,728   47,609   52,354   54,251        .
 OCI accumulato (utili/perdite non realizzati)                   -3,334   -2,681   -2,667   -4,160   -3,578   -3,814   -5,384   -8,393   -7,027   -3,387   -2,061        .
+OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
@@ -68,4 +69,4 @@ FUORI PORTATA (SIC 6324 Hospital & Medical Service Plans)
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 1077, 2024: 1305, 2025: 1391}
 
-Tempo: 3 s. File scritto: sec_UNH.json
+Tempo: 5 s. File scritto: sec_UNH.json
