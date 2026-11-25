@@ -52,6 +52,9 @@ CAT = [
  ("mktNon",   "Titoli di mercato non correnti",                 ["MarketableSecuritiesNoncurrent", "AvailableForSaleSecuritiesNoncurrent", "LongTermMarketableSecurities", "OtherLongTermInvestments", "RestrictedInvestmentsNoncurrent", "NoncurrentInvestments"]),
  ("ltInv",    "Investimenti a lungo termine (voce di bilancio)", ["LongTermInvestments", "LongTermInvestmentsAndReceivablesNet", "DecommissioningFundInvestments", "Investments"]),
  ("aoci",     "OCI accumulato (utili/perdite non realizzati)",  ["AccumulatedOtherComprehensiveIncomeLossNetOfTax"]),
+ ("acq", "ACQUISIZIONI NON IN CONTANTI"),
+ ("acqStock", "Azioni emesse per acquisizioni (non in contanti)", ["StockIssuedDuringPeriodValueAcquisitions"]),
+ ("acqTot",   "Corrispettivo totale delle acquisizioni (informativo)", ["BusinessCombinationConsiderationTransferred1", "BusinessCombinationConsiderationTransferred"]),
 ]
 ALLTAGS = {t for c in CAT if len(c) == 3 for t in c[2]}
 RE_CUSTOM = re.compile(r"Financing|BuildToSuit|Construction|Lease|Debt|Investment|Warrant|Convertible", re.I)
