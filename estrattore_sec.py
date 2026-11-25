@@ -55,6 +55,10 @@ CAT = [
  ("acq", "ACQUISIZIONI NON IN CONTANTI"),
  ("acqStock", "Azioni emesse per acquisizioni (non in contanti)", ["StockIssuedDuringPeriodValueAcquisitions"]),
  ("acqTot",   "Corrispettivo totale delle acquisizioni (informativo)", ["BusinessCombinationConsiderationTransferred1", "BusinessCombinationConsiderationTransferred"]),
+ ("nr", "ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati)"),
+ ("nrGw",     "Svalutazione di avviamento",                     ["GoodwillImpairmentLoss", "GoodwillAndIntangibleAssetImpairment"]),
+ ("nrAs",     "Svalutazione di immobilizzazioni",               ["AssetImpairmentCharges", "ImpairmentOfLongLivedAssetsHeldForUse", "ImpairmentOfLongLivedAssetsToBeDisposedOf", "ImpairmentOfIntangibleAssetsExcludingGoodwill", "ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill", "TangibleAssetImpairmentCharges"]),
+ ("nrRs",     "Costi di ristrutturazione",                      ["RestructuringCharges", "RestructuringSettlementAndImpairmentProvisions", "BusinessExitCosts1"]),
 ]
 ALLTAGS = {t for c in CAT if len(c) == 3 for t in c[2]}
 RE_CUSTOM = re.compile(r"Financing|BuildToSuit|Construction|Lease|Debt|Investment|Warrant|Convertible", re.I)
