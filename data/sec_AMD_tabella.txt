@@ -75,4 +75,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 137, 2024:
 eqMeth: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 1, 2024: -2, 2025: 366}
 ltInv: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 1, 2024: -2, 2025: 366}
 
-Tempo: 2 s. File scritto: sec_AMD.json
+Tempo: 4 s. File scritto: sec_AMD.json

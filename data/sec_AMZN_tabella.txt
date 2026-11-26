@@ -91,4 +91,4 @@ amzn:LongTermDebtMaturitiesRepaymentsOfPrincipalAndInterestInY       .        . 
 amzn:NonmarketableSecuritiesAgreedAdditionalInvestment               .        .        .        .        .        .        .        .        .    2,700        .        .
 amzn:NonmarketableSecuritiesAgreedAdditionalInvestmentMaximum        .        .        .        .        .        .        .        .    2,750        .        .        .
 
-Tempo: 5 s. File scritto: sec_AMZN.json
+Tempo: 3 s. File scritto: sec_AMZN.json
