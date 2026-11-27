@@ -718,5 +718,6 @@
  "sic_descrizione": "Hospital & Medical Service Plans",
  "chiusura_esercizio": "1231",
  "nome": "UNITEDHEALTH GROUP INC",
+ "debug_acq_ixbrl": [],
  "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"
 }

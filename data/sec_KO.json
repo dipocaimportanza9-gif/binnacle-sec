@@ -845,5 +845,6 @@
  "sic_descrizione": "Beverages",
  "chiusura_esercizio": "1231",
  "nome": "COCA COLA CO",
+ "debug_acq_ixbrl": [],
  "ambito": "ok"
 }

@@ -593,5 +593,6 @@
  "sic_descrizione": "Pharmaceutical Preparations",
  "chiusura_esercizio": "0103",
  "nome": "JOHNSON & JOHNSON",
+ "debug_acq_ixbrl": [],
  "ambito": "ok"
 }

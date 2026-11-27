@@ -729,5 +729,137 @@
  "sic_descrizione": "Petroleum Refining",
  "chiusura_esercizio": "1231",
  "nome": "ExxonMobil Holdings Corp",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 1978.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 2866.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 4844.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 4844.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 28749.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 34603.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 63352.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [],
+   "mln": 63352.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 1978.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 2866.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 4844.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 4844.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 28749.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 34603.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 63352.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [],
+   "mln": 63352.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 1978.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 2866.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 4844.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 4844.0
+  }
+ ],
  "ambito": "ok"
 }

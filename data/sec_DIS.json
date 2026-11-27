@@ -824,5 +824,35 @@
  "sic_descrizione": "Services-Miscellaneous Amusement & Recreation",
  "chiusura_esercizio": "1003",
  "nome": "Walt Disney Co",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 33774.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 33774.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 10408.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=TotalexcludingredeemablenoncontrollinginterestMember"
+   ],
+   "mln": 44182.0
+  }
+ ],
  "ambito": "ok"
 }

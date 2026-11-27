@@ -718,5 +718,123 @@
  "sic_descrizione": "Real Estate Investment Trusts",
  "chiusura_esercizio": "1231",
  "nome": "REALTY INCOME CORP",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 6043.6
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 6043.6
+  },
+  {
+   "anno": 2024,
+   "colonne": [],
+   "mln": 6043.6
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 6043.6
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 6043.6
+  },
+  {
+   "anno": 2024,
+   "colonne": [],
+   "mln": 6043.6
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 11556.7
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 11556.7
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 3.2
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 11559.9
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 11556.7
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 11556.7
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 3.2
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 11559.9
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 11556.7
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 11556.7
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 3.2
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 11559.9
+  }
+ ],
  "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"
 }

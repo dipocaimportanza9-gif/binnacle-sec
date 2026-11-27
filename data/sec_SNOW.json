@@ -464,5 +464,178 @@
  "sic_descrizione": "Services-Prepackaged Software",
  "chiusura_esercizio": "0131",
  "nome": "Snowflake Inc.",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 174.3
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 174.3
+  },
+  {
+   "anno": 2024,
+   "colonne": [],
+   "mln": 174.3
+  },
+  {
+   "anno": 2025,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 87.7
+  },
+  {
+   "anno": 2025,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 87.7
+  },
+  {
+   "anno": 2025,
+   "colonne": [],
+   "mln": 87.7
+  },
+  {
+   "anno": 2026,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 13.1
+  },
+  {
+   "anno": 2026,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 13.1
+  },
+  {
+   "anno": 2026,
+   "colonne": [],
+   "mln": 13.1
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 438.9
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 438.9
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 438.9
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 174.3
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 174.3
+  },
+  {
+   "anno": 2024,
+   "colonne": [],
+   "mln": 174.3
+  },
+  {
+   "anno": 2025,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 87.7
+  },
+  {
+   "anno": 2025,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 87.7
+  },
+  {
+   "anno": 2025,
+   "colonne": [],
+   "mln": 87.7
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 438.9
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 438.9
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 438.9
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 174.3
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 174.3
+  },
+  {
+   "anno": 2024,
+   "colonne": [],
+   "mln": 174.3
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 438.9
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 438.9
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 438.9
+  }
+ ],
  "ambito": "ok"
 }

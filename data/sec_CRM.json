@@ -842,5 +842,19 @@
  "sic_descrizione": "Services-Prepackaged Software",
  "chiusura_esercizio": "0131",
  "nome": "Salesforce, Inc.",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2022,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 11269.0
+  },
+  {
+   "anno": 2022,
+   "colonne": [],
+   "mln": 11269.0
+  }
+ ],
  "ambito": "ok"
 }

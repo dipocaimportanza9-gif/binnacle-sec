@@ -181,7 +181,8 @@
    "2016": 3.2,
    "2018": 6620.7,
    "2020": 48.5,
-   "2021": 130.4
+   "2021": 130.4,
+   "2022": 18553.7
   },
   "stkNC": {},
   "acqTot": {
@@ -376,7 +377,8 @@
    "2016": "StockIssuedDuringPeriodValueAcquisitions",
    "2018": "StockIssuedDuringPeriodValueAcquisitions",
    "2020": "StockIssuedDuringPeriodValueAcquisitions",
-   "2021": "StockIssuedDuringPeriodValueAcquisitions"
+   "2021": "StockIssuedDuringPeriodValueAcquisitions",
+   "2022": "StockIssuedDuringPeriodValueAcquisitions (prospetto patrimonio netto 10-K, >=250 mln)"
   },
   "stkNC": {},
   "acqTot": {
@@ -450,6 +452,7 @@
   }
  },
  "avvisi": [
+  "2022: acquisizione pagata in azioni letta dal prospetto del patrimonio netto del 10-K: 18553 mln, da verificare nella nota Acquisizioni",
   "FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)"
  ],
  "candidati": {
@@ -678,5 +681,299 @@
  "sic_descrizione": "Real Estate Investment Trusts",
  "chiusura_esercizio": "1231",
  "nome": "Prologis, Inc.",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2022,
+   "colonne": [
+    "BusinessAcquisitionAxis=DukeTransactionMember",
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 1.8
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "BusinessAcquisitionAxis=DukeTransactionMember",
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 18551.9
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "BusinessAcquisitionAxis=DukeTransactionMember",
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 219.6
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "BusinessAcquisitionAxis=DukeTransactionMember"
+   ],
+   "mln": 18773.2
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 130.4
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 130.4
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "BusinessAcquisitionAxis=DukeTransactionMember",
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 1.8
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember",
+    "BusinessAcquisitionAxis=DukeTransactionMember"
+   ],
+   "mln": 18551.9
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember",
+    "BusinessAcquisitionAxis=DukeTransactionMember"
+   ],
+   "mln": 219.6
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "BusinessAcquisitionAxis=DukeTransactionMember"
+   ],
+   "mln": 18773.2
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "PartnerTypeOfPartnersCapitalAccountAxis=LimitedPartnerMember",
+    "PartnerCapitalComponentsAxis=CommonCapitalMember",
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember"
+   ],
+   "mln": 130.4
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember"
+   ],
+   "mln": 130.4
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 48.5
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 48.5
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 130.4
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 130.4
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember",
+    "BusinessAcquisitionAxis=DukeTransactionMember"
+   ],
+   "mln": 1.8
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember",
+    "BusinessAcquisitionAxis=DukeTransactionMember"
+   ],
+   "mln": 18551.9
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember",
+    "BusinessAcquisitionAxis=DukeTransactionMember"
+   ],
+   "mln": 219.6
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "BusinessAcquisitionAxis=DukeTransactionMember"
+   ],
+   "mln": 18773.2
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "PartnerCapitalComponentsAxis=CommonCapitalMember",
+    "PartnerTypeOfPartnersCapitalAccountAxis=LimitedPartnerMember",
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember"
+   ],
+   "mln": 48.5
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember"
+   ],
+   "mln": 48.5
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "PartnerCapitalComponentsAxis=CommonCapitalMember",
+    "PartnerTypeOfPartnersCapitalAccountAxis=LimitedPartnerMember",
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember"
+   ],
+   "mln": 130.4
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember"
+   ],
+   "mln": 130.4
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 48.5
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 48.5
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 130.4
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 130.4
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "PartnerCapitalComponentsAxis=CommonCapitalMember",
+    "PartnerTypeOfPartnersCapitalAccountAxis=LimitedPartnerMember",
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember"
+   ],
+   "mln": 48.5
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember"
+   ],
+   "mln": 48.5
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "PartnerCapitalComponentsAxis=CommonCapitalMember",
+    "PartnerTypeOfPartnersCapitalAccountAxis=LimitedPartnerMember",
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember"
+   ],
+   "mln": 130.4
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember"
+   ],
+   "mln": 130.4
+  },
+  {
+   "anno": 2018,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember",
+    "BusinessAcquisitionAxis=DCTTransactionsMember"
+   ],
+   "mln": 1.0
+  },
+  {
+   "anno": 2018,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember",
+    "BusinessAcquisitionAxis=DCTTransactionsMember"
+   ],
+   "mln": 6321.7
+  },
+  {
+   "anno": 2018,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember",
+    "BusinessAcquisitionAxis=DCTTransactionsMember"
+   ],
+   "mln": 298.1
+  },
+  {
+   "anno": 2018,
+   "colonne": [
+    "BusinessAcquisitionAxis=DCTTransactionsMember"
+   ],
+   "mln": 6620.7
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 48.5
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 48.5
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember",
+    "PartnerCapitalComponentsAxis=CommonCapitalMember",
+    "PartnerTypeOfPartnersCapitalAccountAxis=LimitedPartnerMember"
+   ],
+   "mln": 48.5
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "ConsolidatedEntitiesAxis=PartnershipInterestMember"
+   ],
+   "mln": 48.5
+  }
+ ],
  "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"
 }

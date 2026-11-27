@@ -711,5 +711,6 @@
  "sic_descrizione": "Pharmaceutical Preparations",
  "chiusura_esercizio": "1231",
  "nome": "ELI LILLY & Co",
+ "debug_acq_ixbrl": [],
  "ambito": "ok"
 }

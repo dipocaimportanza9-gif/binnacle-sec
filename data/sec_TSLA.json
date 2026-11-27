@@ -756,5 +756,59 @@
  "sic_descrizione": "Motor Vehicles & Passenger Car Bodies",
  "chiusura_esercizio": "1231",
  "nome": "Tesla, Inc.",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 0.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 482.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 482.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [],
+   "mln": 482.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 0.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 482.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 482.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [],
+   "mln": 482.0
+  }
+ ],
  "ambito": "ok"
 }

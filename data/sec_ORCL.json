@@ -806,5 +806,64 @@
  "sic_descrizione": "Services-Prepackaged Software",
  "chiusura_esercizio": "0531",
  "nome": "ORACLE CORP",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 55.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 55.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 55.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 55.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 55.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 55.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 55.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 55.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 55.0
+  }
+ ],
  "ambito": "ok"
 }

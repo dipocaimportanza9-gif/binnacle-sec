@@ -80,4 +80,4 @@ eqPriv: OtherInvestments {2023: 24, 2024: 40, 2025: 47, 2026: 23}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 223, 2024: 333, 2025: 294, 2026: 188}
 ltInv: OtherInvestments {2023: 24, 2024: 40, 2025: 47, 2026: 23}
 
-Tempo: 3 s. File scritto: sec_SBUX.json
+Tempo: 4 s. File scritto: sec_SBUX.json

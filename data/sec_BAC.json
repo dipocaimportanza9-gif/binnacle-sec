@@ -843,5 +843,6 @@
  "sic_descrizione": "National Commercial Banks",
  "chiusura_esercizio": "1231",
  "nome": "BANK OF AMERICA CORP /DE/",
+ "debug_acq_ixbrl": [],
  "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"
 }

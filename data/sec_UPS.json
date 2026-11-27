@@ -879,5 +879,6 @@
  "sic_descrizione": "Trucking & Courier Services (No Air)",
  "chiusura_esercizio": "1231",
  "nome": "UNITED PARCEL SERVICE INC",
+ "debug_acq_ixbrl": [],
  "ambito": "ok"
 }

@@ -32,12 +32,12 @@ WFC     SIC 6021   debito:si  leasing:si  invest:NO  avvisi:3  [finanziario/immo
 AIG     SIC 6331   debito:si  leasing:si  invest:si  avvisi:3  [finanziario/immobiliare: le regole su de]
 BRK-B   SIC 6331   debito:NO  leasing:si  invest:si  avvisi:1  [finanziario/immobiliare: le regole su de]
 O       SIC 6798   debito:si  leasing:si  invest:NO  avvisi:2  [finanziario/immobiliare: le regole su de]
-PLD     SIC 6798   debito:si  leasing:si  invest:si  avvisi:1  [finanziario/immobiliare: le regole su de]
+PLD     SIC 6798   debito:si  leasing:si  invest:si  avvisi:2  [finanziario/immobiliare: le regole su de]
 AMT     SIC 6798   debito:si  leasing:si  invest:NO  avvisi:6  [finanziario/immobiliare: le regole su de]
 NEE     SIC 4911   debito:si  leasing:si  invest:si  avvisi:0  
 DUK     SIC 4931   debito:si  leasing:si  invest:si  avvisi:1  
 CVX     SIC 2911   debito:si  leasing:si  invest:si  avvisi:1  
-COP     SIC 2911   debito:si  leasing:si  invest:si  avvisi:2  
+COP     SIC 2911   debito:si  leasing:si  invest:si  avvisi:3  
 CAT     SIC 3531   debito:si  leasing:si  invest:si  avvisi:1  
 BA      SIC 3721   debito:si  leasing:si  invest:si  avvisi:1  
 GE      SIC 3600   debito:si  leasing:si  invest:si  avvisi:1  

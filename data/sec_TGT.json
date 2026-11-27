@@ -836,5 +836,6 @@
  "sic_descrizione": "Retail-Variety Stores",
  "chiusura_esercizio": "0201",
  "nome": "TARGET CORP",
+ "debug_acq_ixbrl": [],
  "ambito": "ok"
 }

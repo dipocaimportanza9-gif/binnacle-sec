@@ -924,5 +924,26 @@
  "sic_descrizione": "Aircraft",
  "chiusura_esercizio": "1231",
  "nome": "BOEING CO",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2025,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 1874.0
+  },
+  {
+   "anno": 2025,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 2830.0
+  },
+  {
+   "anno": 2025,
+   "colonne": [],
+   "mln": 4704.0
+  }
+ ],
  "ambito": "ok"
 }

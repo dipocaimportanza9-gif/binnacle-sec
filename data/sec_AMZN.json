@@ -916,5 +916,6 @@
  "sic_descrizione": "Retail-Catalog & Mail-Order Houses",
  "chiusura_esercizio": "1231",
  "nome": "AMAZON COM INC",
+ "debug_acq_ixbrl": [],
  "ambito": "ok"
 }

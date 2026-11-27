@@ -956,5 +956,278 @@
  "sic_descrizione": "Petroleum Refining",
  "chiusura_esercizio": "1231",
  "nome": "CHEVRON CORP",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 2550.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 3970.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 6520.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 6520.0
+  },
+  {
+   "anno": 2025,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 11775.0
+  },
+  {
+   "anno": 2025,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 33828.0
+  },
+  {
+   "anno": 2025,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 45603.0
+  },
+  {
+   "anno": 2025,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 5035.0
+  },
+  {
+   "anno": 2025,
+   "colonne": [],
+   "mln": 50638.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 2550.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 3970.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 6520.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 6520.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 138.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=RetainedEarningsMember"
+   ],
+   "mln": -148.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 377.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 367.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": -321.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 46.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 2550.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 3970.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 6520.0
+  },
+  {
+   "anno": 2023,
+   "colonne": [],
+   "mln": 6520.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": -520.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 4629.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 4109.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 779.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 4888.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 138.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=RetainedEarningsMember"
+   ],
+   "mln": -148.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 377.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 367.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": -321.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 46.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "BusinessAcquisitionAxis=NobleEnergyIncMember",
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": -520.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "BusinessAcquisitionAxis=NobleEnergyIncMember",
+    "StatementEquityComponentsAxis=TreasuryStockMember"
+   ],
+   "mln": 4629.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "BusinessAcquisitionAxis=NobleEnergyIncMember",
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 4109.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "BusinessAcquisitionAxis=NobleEnergyIncMember",
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 779.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "BusinessAcquisitionAxis=NobleEnergyIncMember"
+   ],
+   "mln": 4888.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "BusinessAcquisitionAxis=NobleEnergyIncMember",
+    "StatementEquityComponentsAxis=CommonStockIncludingAdditionalPaidInCapitalMember"
+   ],
+   "mln": 138.0
+  }
+ ],
  "ambito": "ok"
 }

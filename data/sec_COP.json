@@ -327,7 +327,8 @@
    "2020": 2.0
   },
   "acqStock": {
-   "2021": 13125.0
+   "2021": 13125.0,
+   "2024": 16039.0
   },
   "stkNC": {},
   "acqTot": {
@@ -684,7 +685,8 @@
    "2020": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
   },
   "acqStock": {
-   "2021": "StockIssuedDuringPeriodValueAcquisitions"
+   "2021": "StockIssuedDuringPeriodValueAcquisitions",
+   "2024": "StockIssuedDuringPeriodValueAcquisitions (prospetto patrimonio netto 10-K, >=250 mln)"
   },
   "stkNC": {},
   "acqTot": {
@@ -754,7 +756,8 @@
  },
  "avvisi": [
   "Equity in societa' non quotate (valore contabile): ultimo anno 2022 (mancano anni recenti)",
-  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo"
+  "Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo",
+  "2024: acquisizione pagata in azioni letta dal prospetto del patrimonio netto del 10-K: 16039 mln, da verificare nella nota Acquisizioni"
  ],
  "candidati": {
   "dBrev": [
@@ -898,5 +901,110 @@
  "sic_descrizione": "Petroleum Refining",
  "chiusura_esercizio": "1231",
  "nome": "CONOCOPHILLIPS",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2024,
+   "colonne": [
+    "BusinessAcquisitionAxis=MarathonOilCorporationMember",
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 2.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "BusinessAcquisitionAxis=MarathonOilCorporationMember",
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 16037.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "BusinessAcquisitionAxis=MarathonOilCorporationMember"
+   ],
+   "mln": 16039.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "BusinessAcquisitionAxis=MarathonOilCorporationMember",
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 2.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "BusinessAcquisitionAxis=MarathonOilCorporationMember",
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 16037.0
+  },
+  {
+   "anno": 2024,
+   "colonne": [
+    "BusinessAcquisitionAxis=MarathonOilCorporationMember"
+   ],
+   "mln": 16039.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 3.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 13122.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 13125.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 3.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 13122.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 13125.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 3.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 13122.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 13125.0
+  }
+ ],
  "ambito": "ok"
 }

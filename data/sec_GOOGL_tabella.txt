@@ -69,4 +69,4 @@ goog:LesseeLeaseNotYetCommencedNoncurrentAmount                      .        . 
 Partecipazioni a patrimonio netto (equity method): ultimo anno 2024 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2020-2022: non sommarli di nuovo
 
-Tempo: 1 s. File scritto: sec_GOOGL.json
+Tempo: 2 s. File scritto: sec_GOOGL.json

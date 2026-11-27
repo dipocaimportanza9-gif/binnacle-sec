@@ -43,7 +43,7 @@ OCI accumulato (utili/perdite non realizzati)                     -791     -938 
 OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
-Azioni emesse per acquisizioni (non in contanti)                     .        3        .    6,621        .       48      130        .        .        .        .        .
+Azioni emesse per acquisizioni (non in contanti)                     .        3        .    6,621        .       48      130   18,554        .        .        .        .
 Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
@@ -67,6 +67,7 @@ pld:OperatingLeaseRightOfUseAssetBeforeAmortization                  .        . 
 pld:PercentageOfOutstandingDebt                                      .        .        .        .        .        .        0        0        0        0        0        .
 
 --- AVVISI ---
+2022: acquisizione pagata in azioni letta dal prospetto del patrimonio netto del 10-K: 18553 mln, da verificare nella nota Acquisizioni
 FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -90,4 +91,4 @@ ltInv: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023:
 ltInv: RealEstateInvestmentsOther {2023: 5088, 2024: 5684, 2025: 6661}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 680, 2024: 562, 2025: 645}
 
-Tempo: 4 s. File scritto: sec_PLD.json
+Tempo: 5 s. File scritto: sec_PLD.json

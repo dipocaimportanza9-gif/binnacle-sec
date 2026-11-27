@@ -527,5 +527,6 @@
  "sic_descrizione": "Fire, Marine & Casualty Insurance",
  "chiusura_esercizio": "1231",
  "nome": "BERKSHIRE HATHAWAY INC",
+ "debug_acq_ixbrl": [],
  "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"
 }

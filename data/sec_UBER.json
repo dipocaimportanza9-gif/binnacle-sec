@@ -556,5 +556,79 @@
  "sic_descrizione": "Services-Business Services, NEC",
  "chiusura_esercizio": "1231",
  "nome": "Uber Technologies, Inc",
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 929.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 929.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 3898.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 3898.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 929.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 929.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 3898.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 3898.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 929.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [],
+   "mln": 929.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 3898.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 3898.0
+  }
+ ],
  "ambito": "ok"
 }
