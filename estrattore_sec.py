@@ -272,6 +272,7 @@ def contenuti_mappa(raw):
     ct = {
         "ctAdd":  trova(lambda t: re.search(r"Addition", t, re.I) and RE_CT.search(t) and not re.search(r"Liabilit|Amortiz", t, re.I), ("nflx:AdditionstoStreamingContentAssets", "nflx:AdditionsToContentAssets")),
         "ctAmm":  trova(lambda t: re.search(r"Amortiz", t, re.I) and RE_CT.search(t) and not re.search(r"Liabilit", t, re.I), ("nflx:CostofServicesAmortizationofStreamingContentAssets", "nflx:AmortizationOfContentAssets")),
+        "ctNetCF": trova(lambda t: re.search(r"IncreaseDecrease", t) and re.search(r"Film|Content|Programming", t) and not re.search(r"Liabilit|Payable|Revenue", t), ("us-gaap:IncreaseDecreaseInFilmCosts1", "us-gaap:IncreaseDecreaseInFilmCosts")),
         "ctChg":  trova(lambda t: re.search(r"Liabilit", t, re.I) and re.search(r"Change|IncreaseDecrease", t, re.I) and RE_CT.search(t), ("nflx:ChangeInStreamingContentLiabilities",)),
         "ctLiabC": trova(lambda t: re.search(r"ContentLiabilit", t, re.I) and re.search(r"Current", t, re.I) and not re.search(r"Noncurrent|NonCurrent|Change", t, re.I)),
         "ctLiabN": trova(lambda t: re.search(r"ContentLiabilit", t, re.I) and re.search(r"Noncurrent|NonCurrent", t, re.I) and not re.search(r"Change", t, re.I)),
@@ -281,6 +282,16 @@ def contenuti_mappa(raw):
         if not t: continue
         val[k] = {y: round((abs(v) if k in ("ctAdd", "ctAmm") else v) / 1e6, 1) for y, v in raw[t].items()}
         usato[k] = t
+    # aggiunte e ammortamento servono solo in coppia (altrimenti l'ammortamento letto e' parziale)
+    if not (val.get("ctAdd") and val.get("ctAmm")):
+        for k in ("ctAdd", "ctAmm"): val.pop(k, None); usato.pop(k, None)
+    # reinvestimento netto in contenuti (ctNet): aggiunte - ammortamento, oppure la riga netta del rendiconto (positivo = investimento)
+    net, nu = {}, {}
+    for y in sorted(val.get("ctAdd", {})):
+        if y in val.get("ctAmm", {}): net[y] = round(val["ctAdd"][y] - val["ctAmm"][y], 1); nu[y] = "aggiunte - ammortamento"
+    for y, v in val.get("ctNetCF", {}).items():
+        if y not in net: net[y] = v; nu[y] = "riga netta del rendiconto (%s)" % usato["ctNetCF"]
+    if net: val["ctNet"] = net; usato["ctNet"] = nu
     return val, usato
 
 MP = None
@@ -362,10 +373,10 @@ def main(TK):
     # contenuti capitalizzati (film, serie): aggiunte, ammortamento, passivita'. Il motore usa aggiunte - ammortamento come reinvestimento.
     try:
         cv, cu = contenuti_mappa(ctraw)
-        for k, v in cv.items(): res["concetti"][k] = v; res["tag_usato"][k] = {y: cu[k] for y in v}
+        for k, v in cv.items(): res["concetti"][k] = v; res["tag_usato"][k] = cu[k] if isinstance(cu[k], dict) else {y: cu[k] for y in v}
         res["contenuti_letti"] = {t: {str(y): round(x / 1e6, 1) for y, x in b.items()} for t, b in sorted(ctraw.items())}
-        if cv.get("ctAdd") and cv.get("ctAmm"):
-            res["avvisi"].append("Contenuti capitalizzati letti (%s / %s): reinvestimento in contenuti = aggiunte - ammortamento" % (cu["ctAdd"], cu["ctAmm"]))
+        if cv.get("ctNet"):
+            res["avvisi"].append("Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal %d al %d; se non e' una grande media/tv controllare che sia davvero un investimento" % (min(cv["ctNet"]), max(cv["ctNet"])))
         elif ctraw:
             res["avvisi"].append("Righe sui contenuti trovate ma non riconosciute (vedi contenuti_letti): controllare i nomi")
     except Exception as e: print("  contenuti: non mappati (%s)" % e)
