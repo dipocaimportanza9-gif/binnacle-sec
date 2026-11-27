@@ -653,7 +653,8 @@
    "2024": 119.0,
    "2023": 30.0,
    "2020": 13.0,
-   "2019": 4.0
+   "2019": 4.0,
+   "2018": 28.0
   },
   "ko:IncreaseDecreaseinCarryingValueofLongtermDebtInterestRateFairValueHedgeAdjustment": {
    "2025": -618.0,
@@ -662,32 +663,42 @@
    "2022": -1469.0,
    "2021": 483.0,
    "2020": 646.0,
-   "2019": 453.0
+   "2019": 453.0,
+   "2018": 62.0
   },
   "ko:SegmentReportingInformationInvestmentsIncludingEquityMethodInvestments": {
    "2023": 19789.0,
    "2022": 18765.0,
    "2021": 18416.0,
    "2020": 20085.0,
-   "2019": 19879.0
+   "2019": 19879.0,
+   "2018": 20279.0
   },
   "ko:CarryingValueofLongTermDebt": {
    "2019": 5891.0,
-   "2020": 17616.0
+   "2020": 17616.0,
+   "2017": 3974.0
   },
   "ko:AvailableForSaleSecuritiesAndCostMethodInvestments": {
    "2020": 812.0,
-   "2019": 854.0
+   "2019": 854.0,
+   "2018": 867.0
   },
   "ko:Debtsecuritiesgrossunrealizedgain": {
    "2020": 53.0,
-   "2019": 114.0
+   "2019": 114.0,
+   "2018": 119.0
   },
   "ko:EquityMethodInvestmentsofPubliclyTradedShares": {
-   "2020": 12604.0
+   "2020": 12604.0,
+   "2019": 12089.0
   },
   "ko:EquityMethodInvestmentDifferenceBetweenQuotedMarketValueAndCarryingValue": {
-   "2020": 10525.0
+   "2020": 10525.0,
+   "2019": 8893.0
+  },
+  "ko:CarryingValueofExtinguishedLongTermDebt": {
+   "2017": 417.0
   }
  },
  "avvisi": [

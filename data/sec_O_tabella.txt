@@ -67,13 +67,14 @@ o:LesseeOperatingLeaseAndFinanceLeaseLiabilityToBePaidYearOne        .        . 
 o:LesseeOperatingLeaseAndFinanceLeaseLiabilityToBePaidYearThre       .        .        .        .        .        .       40       42       47       42       39        .
 o:LesseeOperatingLeaseAndFinanceLeaseLiabilityToBePaidYearTwo        .        .        .        .        .        .       40       44       42       50       44        .
 o:NumberOfPropertiesSubjectToDirectFinancingLeases                   .        .        .        .        .        .        0        0        .        .        .        .
-o:RealEstateAndAccumulatedDepreciationNetDebtPremiumsOnMortgag       .        .        .        .        .        2       29       12       -1        0        0        .
+o:RealEstateAndAccumulatedDepreciationNetDebtPremiumsOnMortgag       .        .        .        .        3        2       29       12       -1        0        0        .
 o:RealEstateInvestmentPropertyNetIncludingDisposalGroupAssets        .        .        .        .   16,497   17,485   31,989        .        .        .        .        .
 o:RealEstatePropertiesAcquiredLeaseIntangibleLiabilities             .        .        .        .        .        .        .        .        .        .       15        .
 o:RealEstatePropertiesAcquiredOtherAssetsFinanceLeaseRightOfUs       .        .        .        .        .        .        .        .        .        .       89        .
 o:RealEstatePropertiesAcquiredOtherAssetsGroundLeasesRightOfUs       .        .        .        .        .        .        .        .        .        .        8        .
 o:RealEstatePropertiesAcquiredOtherLiabilitiesDeferredRentOnBe       .        .        .        .        .        .        .        .        .        .       15        .
 o:RealEstatePropertiesAcquiredOtherLiabilitiesFinanceLeaseLiab       .        .        .        .        .        .        .        .        .        .        2        .
+o:RealEstateReclassificationAdjustmentForRightOfUseAssetsUnder       .        .        .        .       37        .        .        .        .        .        .        .
 
 --- AVVISI ---
 Azioni emesse per acquisizioni (non in contanti): ultimo anno 2024 (mancano anni recenti)
@@ -109,4 +110,4 @@ ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 
 ltInv: RealEstateInvestmentsJointVentures {2023: 38}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 2, 2024: 8, 2025: 9}
 
-Tempo: 3 s. File scritto: sec_O.json
+Tempo: 5 s. File scritto: sec_O.json

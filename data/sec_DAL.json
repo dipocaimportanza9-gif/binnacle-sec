@@ -612,7 +612,9 @@
    "2023": 49.0,
    "2022": 54.0,
    "2021": 54.0,
-   "2020": 62.0
+   "2020": 62.0,
+   "2019": -13.0,
+   "2018": 22.0
   },
   "dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCostsNetYearTwo": {
    "2025": -2.0,
@@ -620,7 +622,9 @@
    "2023": 32.0,
    "2022": 54.0,
    "2021": 60.0,
-   "2020": 63.0
+   "2020": 63.0,
+   "2019": -15.0,
+   "2018": -2.0
   },
   "dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCostsNetYearThree": {
    "2025": 1.0,
@@ -628,20 +632,26 @@
    "2023": 6.0,
    "2022": 36.0,
    "2021": 61.0,
-   "2020": 54.0
+   "2020": 54.0,
+   "2019": -16.0,
+   "2018": -7.0
   },
   "dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCostsNetYearFour": {
    "2025": -4.0,
    "2022": 8.0,
    "2021": 39.0,
-   "2020": 46.0
+   "2020": 46.0,
+   "2019": -11.0,
+   "2018": -11.0
   },
   "dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCostsNetYearFive": {
    "2025": -5.0,
    "2024": -2.0,
    "2022": 1.0,
    "2021": 8.0,
-   "2020": 23.0
+   "2020": 23.0,
+   "2019": -10.0,
+   "2018": -9.0
   },
   "dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCostsNetAfterYearFive": {
    "2025": 2.0,
@@ -649,7 +659,9 @@
    "2023": -4.0,
    "2022": -15.0,
    "2021": -14.0,
-   "2020": -8.0
+   "2020": -8.0,
+   "2019": -50.0,
+   "2018": -53.0
   },
   "dal:LeaseRightOfUseAsset": {
    "2025": 7079.0,
@@ -667,7 +679,8 @@
    "2022": 9229.0,
    "2021": 9595.0,
    "2020": 7574.0,
-   "2019": 7149.0
+   "2019": 7149.0,
+   "2018": 7159.0
   },
   "dal:DeferredTaxAssetsOperatingLeaseLiabilities": {
    "2025": 2660.0,
@@ -676,7 +689,8 @@
    "2022": 2376.0,
    "2021": 2452.0,
    "2020": 2185.0,
-   "2019": 1510.0
+   "2019": 1510.0,
+   "2018": 1579.0
   },
   "dal:DeferredTaxLiabilitiesOperatingLeaseRightOfUseAssets": {
    "2025": 1264.0,
@@ -685,16 +699,40 @@
    "2022": 1624.0,
    "2021": 1676.0,
    "2020": 1324.0,
-   "2019": 1298.0
+   "2019": 1298.0,
+   "2018": 1388.0
   },
   "dal:LesseeFinanceLeaseAndOperatingLeaseLeaseNotYetCommencedAmount": {
    "2023": 151.0,
    "2022": 242.0,
    "2021": 403.0,
-   "2020": 734.0
+   "2020": 734.0,
+   "2019": 888.0,
+   "2018": 189.0
   },
   "dal:CashCashEquivalentsShortTermInvestmentsAndAmountsAvailableUnderRevolvingCreditFacilities": {
    "2020": 16700.0
+  },
+  "dal:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization": {
+   "2019": 17027.0,
+   "2018": 15823.0
+  },
+  "dal:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization": {
+   "2019": 31310.0,
+   "2018": 28335.0
+  },
+  "dal:LeaseRightofUseAsset": {
+   "2019": 6689.0,
+   "2018": 6484.0
+  },
+  "dal:AvailableForSaleSecuritiesDebtMaturitiesAfterOneYearThroughThreeYearsFairValue": {
+   "2018": 96.0
+  },
+  "dal:AvailableForSaleSecuritiesDebtMaturitiesAfterThreeYearsThroughFiveYearsFairValue": {
+   "2018": 1.0
+  },
+  "dal:AvailableForSaleSecuritiesDebtMaturitiesAfterFiveYearsFairValue": {
+   "2018": 13.0
   }
  },
  "avvisi": [

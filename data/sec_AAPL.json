@@ -680,7 +680,8 @@
    "2024": 1991.0,
    "2023": 1915.0,
    "2022": 1913.0,
-   "2021": 1733.0
+   "2021": 1733.0,
+   "2020": 1536.0
   },
   "aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaidYearTwo": {
    "2026": 2122.0,
@@ -688,7 +689,8 @@
    "2024": 2045.0,
    "2023": 2026.0,
    "2022": 1872.0,
-   "2021": 1683.0
+   "2021": 1683.0,
+   "2020": 1504.0
   },
   "aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaidYearThree": {
    "2026": 2046.0,
@@ -696,7 +698,8 @@
    "2024": 1733.0,
    "2023": 1852.0,
    "2022": 1758.0,
-   "2021": 1598.0
+   "2021": 1598.0,
+   "2020": 1371.0
   },
   "aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaidYearFour": {
    "2026": 1673.0,
@@ -704,7 +707,8 @@
    "2024": 1398.0,
    "2023": 1403.0,
    "2022": 1430.0,
-   "2021": 1297.0
+   "2021": 1297.0,
+   "2020": 1098.0
   },
   "aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaidYearFive": {
    "2026": 1457.0,
@@ -712,7 +716,8 @@
    "2024": 1223.0,
    "2023": 1215.0,
    "2022": 1177.0,
-   "2021": 1087.0
+   "2021": 1087.0,
+   "2020": 985.0
   },
   "aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaidAfterYearFive": {
    "2026": 7126.0,
@@ -720,7 +725,8 @@
    "2024": 6400.0,
    "2023": 6855.0,
    "2022": 5986.0,
-   "2021": 6055.0
+   "2021": 6055.0,
+   "2020": 4740.0
   },
   "aapl:LesseeOperatingAndFinanceLeaseLiabilityToBePaid": {
    "2026": 17129.0,
@@ -734,7 +740,8 @@
    "2024": 2360.0,
    "2023": 2424.0,
    "2022": 1725.0,
-   "2021": 1650.0
+   "2021": 1650.0,
+   "2020": 1392.0
   },
   "aapl:OperatingandFinanceLeaseWeightedAverageDiscountRatePercent": {
    "2026": 0.0,
@@ -742,7 +749,8 @@
    "2024": 0.0,
    "2023": 0.0,
    "2022": 0.0,
-   "2021": 0.0
+   "2021": 0.0,
+   "2020": 0.0
   },
   "aapl:HedgeAccountingAdjustmentsRelatedToLongTermDebt": {
    "2026": 287.0,
@@ -750,7 +758,10 @@
    "2024": 358.0,
    "2023": 1113.0,
    "2022": 1363.0,
-   "2021": 1036.0
+   "2021": 1036.0,
+   "2020": 1676.0,
+   "2019": 612.0,
+   "2018": -1456.0
   },
   "aapl:LesseeOperatingAndFinanceLeaseLeaseNotYetCommencedPaymentsDue": {
    "2023": 544.0,
@@ -759,11 +770,15 @@
   },
   "aapl:LesseeOperatingandFinanceLeaseLiabilityPaymentsDue": {
    "2022": 14136.0,
-   "2021": 13453.0
+   "2021": 13453.0,
+   "2020": 11234.0
   },
   "aapl:HedgeAccountingAdjustmentsRelatedToTermDebt": {
    "2021": 1036.0,
    "2020": 1676.0
+  },
+  "aapl:LesseeOperatingLeaseLeaseNotYetCommencedPaymentsDue": {
+   "2020": 1700.0
   }
  },
  "avvisi": [],

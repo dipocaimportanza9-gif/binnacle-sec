@@ -58,12 +58,12 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 xom:AccountsAndFinancingReceivableAndOffBalanceSheetCreditLiab       .        .        .        .      503      623        .        .        .        .        .        .
-xom:LongTermDebtInUsDollars                                          .        .        .        .        .   41,026   37,611   34,507   32,510   31,340   26,400        .
-xom:ReservesForLongTermReceivablesAndMiscellaneousInvestments        .        .        .        .    5,643    6,115    5,974    1,623    1,966    2,433    2,500        .
+xom:LongTermDebtInUsDollars                                          .        .        .        .   25,710   41,026   37,611   34,507   32,510   31,340   26,400        .
+xom:ReservesForLongTermReceivablesAndMiscellaneousInvestments        .        .        .    5,471    5,643    6,115    5,974    1,623    1,966    2,433    2,500        .
 
 --- AVVISI ---
 Svalutazione di immobilizzazioni: ultimo anno 2023 (mancano anni recenti)
 Costi di ristrutturazione: ultimo anno 2022 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
 
-Tempo: 4 s. File scritto: sec_XOM.json
+Tempo: 6 s. File scritto: sec_XOM.json

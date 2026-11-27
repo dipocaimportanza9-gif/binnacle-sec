@@ -57,15 +57,17 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-duk:DebtSecuritiesAvailableforsaleandEquitySecuritiesFVNI            .        .        .        .    8,562    9,687   10,893    9,051   10,603   11,905   13,325        .
-duk:DebtSecuritiesAvailableforsaleandEquitySecuritiesFVNIUnrea       .        .        .        .    3,675    4,387    5,033    3,682    5,019    5,804    6,153        .
-duk:DebtSecuritiesAvailableforsaleandEquitySecuritiesFVNIUnrea       .        .        .        .       57       55       66      395      171      219       98        .
-duk:DeferredTaxAssetsCapitalLeaseObligations                         .        .        .        .      462      515      346      405      418      430      452        .
+duk:DebtSecuritiesAvailableforsaleandEquitySecuritiesFVNI            .        .        .    7,075    8,562    9,687   10,893    9,051   10,603   11,905   13,325        .
+duk:DebtSecuritiesAvailableforsaleandEquitySecuritiesFVNIUnrea       .        .        .    2,458    3,675    4,387    5,033    3,682    5,019    5,804    6,153        .
+duk:DebtSecuritiesAvailableforsaleandEquitySecuritiesFVNIUnrea       .        .        .      131       57       55       66      395      171      219       98        .
+duk:DeferredTaxAssetsCapitalLeaseObligations                         .        .        .       60      462      515      346      405      418      430      452        .
+duk:FinanceLeaseRightofUseAssetAccumulatedAmortization               .        .        .        .        6        .        .        .        .        .        .        .
+duk:FinanceLeaseRightofUseAssetafterAccumulatedAmortization          .        .        .        .      926        .        .        .        .        .        .        .
 duk:LeaseLiability                                                   .        .        .        .    2,609    2,362    2,039    1,819    1,744    1,735    1,847        .
 duk:LeaseRightOfUseAssets                                            .        .        .        .    2,584    2,321    2,086    1,852    1,779    1,793    1,895        .
-duk:LongTermDebtExcludingPurchaseAccountingAdjustments               .        .        .        .        .   58,979   63,076   70,576   74,697   80,240   86,865        .
+duk:LongTermDebtExcludingPurchaseAccountingAdjustments               .        .        .        .   57,147   58,979   63,076   70,576   74,697   80,240   86,865        .
 duk:OtherOperatingLeaseLiabilityNoncurrent                           .        .        .        .        .        .        .      876      917      957    1,033        .
-duk:ShortTermObligationsClassifiedAsLongTermDebt                     .        .        .        .      937      937      937        .      937        .      937        .
+duk:ShortTermObligationsClassifiedAsLongTermDebt                     .        .        .      937      937      937      937        .      937        .      937        .
 
 --- AVVISI ---
 Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
@@ -74,4 +76,4 @@ Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
 eqPriv: InvestmentsAndOtherNoncurrentAssets {2023: 48809, 2024: 51767, 2025: 54164}
 eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 50, 2024: 66, 2025: 30}
 
-Tempo: 8 s. File scritto: sec_DUK.json
+Tempo: 7 s. File scritto: sec_DUK.json

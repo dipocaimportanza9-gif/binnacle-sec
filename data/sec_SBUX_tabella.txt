@@ -61,11 +61,18 @@ sbux:CurrentAssetsEquityMethodInvestments                            .        . 
 sbux:CurrentLiabilitiesEquityMethodInvestments                       .        .        .        .        .        .        .        .        .        .      248    1,078
 sbux:DeferredTaxAssetsOperatingLeaseLiability                        .        .        .        .        .    2,313    2,395    2,289    2,395    2,595    2,647    2,301
 sbux:DeferredTaxLiabilitiesOperatingLeaseRightOfUseAssets            .        .        .        .        .   -2,192   -2,296   -2,194   -2,292   -2,484    2,467    2,107
-sbux:EquityInvestments                                               .        .        .        .        .      479      268      311        .        .        .        .
-sbux:LesseeOperatingLeaseLeaseNotYetCommencedAmount                  .        .        .        .        .        .      831    1,100    1,400    1,600      824      526
+sbux:EquityInvestments                                               .        .        .      335      396      479      268      311        .        .        .        .
+sbux:LesseeOperatingLeaseLeaseNotYetCommencedAmount                  .        .        .        .        .      654      831    1,100    1,400    1,600      824      526
+sbux:MinimumfuturerentalpaymentsleasefinancingarrangementsTher       .        .        .        .       43        .        .        .        .        .        .        .
+sbux:MinimumfuturerentalpaymentsleasefinancingarrangementsYear       .        .        .        .        5        .        .        .        .        .        .        .
+sbux:MinimumfuturerentalpaymentsleasefinancingarrangementsYear       .        .        .        .        5        .        .        .        .        .        .        .
+sbux:MinimumfuturerentalpaymentsleasefinancingarrangementsYear       .        .        .        .        5        .        .        .        .        .        .        .
+sbux:MinimumfuturerentalpaymentsleasefinancingarrangementsYear       .        .        .        .        5        .        .        .        .        .        .        .
+sbux:MinimumfuturerentalpaymentsleasefinancingarrangementsYear       .        .        .        .        5        .        .        .        .        .        .        .
 sbux:NoncurrentAssetsEquityMethodInvestments                         .        .        .        .        .        .        .        .        .        .    1,340    7,146
 sbux:NoncurrentLiabilitiesEquityMethodInvestments                    .        .        .        .        .        .        .        .        .        .        8    2,334
 sbux:OperatingLeaseLiabilityRestructuring                            .        .        .        .        .        .        .        .        .        .      273        .
+sbux:Totalminimumfuturerentalpaymentsleasefinancingarrangement       .        .        .        .       68        .        .        .        .        .        .        .
 
 --- AVVISI ---
 Debiti finanziari a breve: ultimo anno 2024 (mancano anni recenti)
@@ -80,4 +87,4 @@ eqPriv: OtherInvestments {2023: 24, 2024: 40, 2025: 47, 2026: 23}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 223, 2024: 333, 2025: 294, 2026: 188}
 ltInv: OtherInvestments {2023: 24, 2024: 40, 2025: 47, 2026: 23}
 
-Tempo: 4 s. File scritto: sec_SBUX.json
+Tempo: 6 s. File scritto: sec_SBUX.json

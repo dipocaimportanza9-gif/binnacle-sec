@@ -579,7 +579,8 @@
    "2023": 220.0,
    "2022": 614.0,
    "2021": 693.0,
-   "2020": 433.0
+   "2020": 433.0,
+   "2019": 395.9
   },
   "adbe:DeferredTaxAssetsLeaseLiabilities": {
    "2025": 68.0,
@@ -611,25 +612,30 @@
    "2023": 9.0,
    "2022": 248.0,
    "2021": 443.0,
-   "2020": 186.0
+   "2020": 186.0,
+   "2019": 180.9
   },
   "adbe:AvailableforsaleSecuritiesDebtMaturitiesAfterThreeYearsFairValue": {
    "2022": 9.0,
    "2021": 46.0,
-   "2020": 52.0
+   "2020": 52.0,
+   "2019": 20.4
   },
   "adbe:LesseeOperatingLeaseLeaseNotYetCommencedAmount": {
    "2021": 16.0,
    "2020": 17.0
   },
   "adbe:AvailableforsaleSecuritiesDebtMaturitiesNextOnetoTwoYearsAmortizedCostBasis": {
-   "2020": 428.0
+   "2020": 428.0,
+   "2019": 394.4
   },
   "adbe:AvailableforsaleSecuritiesDebtMaturitiesNextTwotoThreeYearsAmortizedCostBasis": {
-   "2020": 185.0
+   "2020": 185.0,
+   "2019": 179.5
   },
   "adbe:AvailableforsaleSecuritiesDebtMaturitiesAfterThreeYearsAmortizedCostBasis": {
-   "2020": 51.0
+   "2020": 51.0,
+   "2019": 20.2
   }
  },
  "avvisi": [

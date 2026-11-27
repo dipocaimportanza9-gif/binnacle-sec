@@ -653,66 +653,76 @@
    "2023": 1346.0,
    "2022": 1187.0,
    "2021": 31.0,
-   "2020": 27.0
+   "2020": 27.0,
+   "2019": 118.0
   },
   "ups:MarketableSecuritiesDebtMaturitiesNextTwelveMonthsFairValue": {
    "2024": 161.0,
    "2023": 1343.0,
    "2022": 1187.0,
    "2021": 31.0,
-   "2020": 27.0
+   "2020": 27.0,
+   "2019": 118.0
   },
   "ups:MarketableSecuritiesDebtMaturitiesAfterOneThroughThreeYearsAmortizedCostBasis": {
    "2024": 43.0,
    "2023": 1513.0,
    "2022": 791.0,
    "2021": 304.0,
-   "2020": 323.0
+   "2020": 323.0,
+   "2019": 328.0
   },
   "ups:MarketableSecuritiesDebtMaturitiesAfterOneThroughThreeYearsFairValue": {
    "2024": 42.0,
    "2023": 1514.0,
    "2022": 777.0,
    "2021": 305.0,
-   "2020": 327.0
+   "2020": 327.0,
+   "2019": 332.0
   },
   "ups:MarketableSecuritiesDebtMaturitiesAmortizedCostBasis": {
    "2024": 204.0,
    "2023": 2864.0,
    "2022": 2005.0,
    "2021": 335.0,
-   "2020": 396.0
+   "2020": 396.0,
+   "2019": 495.0
   },
   "ups:MarketableSecuritiesDebtMaturitiesFairValue": {
    "2024": 203.0,
    "2023": 2862.0,
    "2022": 1991.0,
    "2021": 336.0,
-   "2020": 404.0
+   "2020": 404.0,
+   "2019": 501.0
   },
   "ups:CovenantsLimitAmountOfSecuredIndebtednessThatWeMayIncurAndLimitAmountOfAttributableDebtInSaleLeasebackTransactionsToPercentageOfNetTangibleAssets": {
    "2024": 0.0,
    "2023": 0.0,
    "2022": 0.0,
    "2021": 0.0,
-   "2020": 0.0
+   "2020": 0.0,
+   "2019": 0.0
   },
   "ups:CovenantsLimitAmountOfSecuredIndebtednessThatWeMayIncurAndLimitAmountOfAttributableDebtInSaleLeasebackTransactionsNetTangibleAssetsAmount": {
    "2024": 4600.0,
    "2023": 4500.0,
    "2022": 4600.0,
    "2021": 4600.0,
-   "2020": 4000.0
+   "2020": 4000.0,
+   "2019": 3646.0
   },
   "ups:MarketableSecuritiesDebtMaturitiesAfterThreeThroughFiveYearsAmortizedCostBasis": {
    "2023": 5.0,
    "2022": 27.0,
-   "2020": 10.0
+   "2020": 10.0,
+   "2019": 6.0
   },
   "ups:MarketableSecuritiesDebtMaturitiesAfterThreeThroughFiveYearsFairValue": {
    "2023": 5.0,
    "2022": 27.0,
-   "2020": 10.0
+   "2020": 10.0,
+   "2019": 6.0
   },
   "ups:DebtInstrumentRedemptionPriceMinimumThresholdPercentage": {
    "2023": 0.0
@@ -746,25 +756,34 @@
   },
   "ups:NumberofLeasedAircrafts": {
    "2021": 0.0,
-   "2020": 0.0
+   "2020": 0.0,
+   "2019": 0.0
   },
   "ups:NumberofLeasedAircraftsFinanceLease": {
    "2021": 0.0,
-   "2020": 0.0
+   "2020": 0.0,
+   "2019": 0.0
   },
   "ups:NumberofLeasedAircraftsOperatingLease": {
    "2021": 0.0,
-   "2020": 0.0
+   "2020": 0.0,
+   "2019": 0.0
   },
   "ups:NumberofLeasedAircraftsShortterm": {
    "2021": 0.0,
-   "2020": 0.0
+   "2020": 0.0,
+   "2019": 0.0
   },
   "ups:MarketableSecuritiesDebtMaturitiesAfterFiveYearsAmortizedCostBasis": {
-   "2020": 36.0
+   "2020": 36.0,
+   "2019": 43.0
   },
   "ups:MarketableSecuritiesDebtMaturitiesAfterFiveYearsFairValue": {
-   "2020": 40.0
+   "2020": 40.0,
+   "2019": 45.0
+  },
+  "ups:FinanceLeaseRightOfUseAssetAccumulatedDepreciation": {
+   "2019": 884.0
   }
  },
  "avvisi": [

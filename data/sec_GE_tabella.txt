@@ -59,10 +59,13 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 ge:AccountsAndFinancingReceivablesHeldForSaleNotPartOfDisposal       .        .        .        .        .      230      150       51        .        .        .        .
 ge:AssetBackedFinancingArrangementPortfolioHeldInOfficeSector        .        .        .        .        .        .        .        .        0        0        0        .
-ge:DebtAndEquitySecurities                                           .        .        .        .   48,521   49,868        .        .        .        .        .        .
+ge:CapitalLeasesDeferredIncome                                       .        .        .      286        .        .        .        .        .        .        .        .
+ge:CapitalLeasesLeaseReceivable                                      .        .        .    1,135        .        .        .        .        .        .        .        .
+ge:CapitalLeasesUnguaranteedResidualAssetNet                         .        .        .      420        .        .        .        .        .        .        .        .
+ge:DebtAndEquitySecurities                                           .        .        .   33,508   48,521   49,868        .        .        .        .        .        .
 ge:DebtAndEquitySecuritiesAccumulatedGrossUnrealizedGainBefore       .        .        .        .    5,736    8,342        .        .        .        .        .        .
 ge:DebtAndEquitySecuritiesAccumulatedGrossUnrealizedLossBefore       .        .        .        .       31      106        .        .        .        .        .        .
-ge:DebtAndEquitySecuritiesAmortizedCostBasis                         .        .        .        .   42,816   41,632        .        .        .        .        .        .
+ge:DebtAndEquitySecuritiesAmortizedCostBasis                         .        .        .   31,277   42,816   41,632        .        .        .        .        .        .
 ge:DebtAndEquitySecuritiesCostNoncurrent                             .        .        .        .   32,928   34,313   35,662   38,388   39,222   40,248   40,422        .
 ge:DebtAndEquitySecuritiesCurrent                                    .        .        .        .    9,888    7,319        .        .        .        .        .        .
 ge:DebtAndEquitySecuritiesNoncurrent                                 .        .        .        .   38,632   42,549        .        .        .        .        .        .
@@ -77,16 +80,16 @@ ge:DeferredTaxAssetsLiabilitiesInvestments                           .        . 
 ge:DeferredTaxLiabilitiesGlobalInvestmentsPartnershipsJoinVent       .        .        .        .        .        .        .    1,440    1,389        .        .        .
 ge:DeferredTaxLiabilitiesInvestmentInGlobalOperations                .        .        .        .        .    1,289    1,775    1,011        .        .        .        .
 ge:EquityMethodInvestmentsAndOtherInvestments                        .        .        .        .        .    6,383    7,840    7,633    7,931        .        .        .
-ge:InvestmentContractsInsuranceLiabilitiesAnnuityBenefits            .        .        .        .   39,826   42,191   37,166   36,845   39,576   36,209   36,894        .
-ge:LeaseExcludingOperatingLeaseUnguaranteedResidualAssetNet          .        .        .        .      835      819        .        .        .        .        .        .
-ge:LeaseNetInvestmentInLease                                         .        .        .        .    2,070    1,805        .        .        .        .        .        .
-ge:LessorExcludingOperatingLeasesDiscountedLeaseReceivable           .        .        .        .    1,234      986        .        .        .        .        .        .
-ge:LessorExcludingOperatingLeasesLeaseReceivablePaymentsToBeRe       .        .        .        .    1,412    1,119        .        .        .        .        .        .
-ge:LeveragedLeasesNetInvestmentInLeveragedLeasesDisclosureResi       .        .        .        .      423      347        .        .        .        .        .        .
-ge:LeveragedLeasesNetInvestmentinLeveragedLeasesDisclosureDisc       .        .        .        .      574      431        .        .        .        .        .        .
+ge:InvestmentContractsInsuranceLiabilitiesAnnuityBenefits            .        .        .   35,562   39,826   42,191   37,166   36,845   39,576   36,209   36,894        .
+ge:LeaseExcludingOperatingLeaseUnguaranteedResidualAssetNet          .        .        .      906      835      819        .        .        .        .        .        .
+ge:LeaseNetInvestmentInLease                                         .        .        .    2,822    2,070    1,805        .        .        .        .        .        .
+ge:LessorExcludingOperatingLeasesDiscountedLeaseReceivable           .        .        .    1,916    1,234      986        .        .        .        .        .        .
+ge:LessorExcludingOperatingLeasesLeaseReceivablePaymentsToBeRe       .        .        .    2,245    1,412    1,119        .        .        .        .        .        .
+ge:LeveragedLeasesNetInvestmentInLeveragedLeasesDisclosureResi       .        .        .      486      423      347        .        .        .        .        .        .
+ge:LeveragedLeasesNetInvestmentinLeveragedLeasesDisclosureDisc       .        .        .      781      574      431        .        .        .        .        .        .
 ge:LongTermDebt.AmountContainingPutOptions                           .        .        .        .        .        .        .        .        .      315        .        .
 ge:LongTermDebtAmountContainingPutOptions                            .        .        .        .        .        .        .        .        .        .      324        .
-ge:NetInvestmentInLeaseLeaseReceivableGross                          .        .        .        .    1,628    1,202        .        .        .        .        .        .
+ge:NetInvestmentInLeaseLeaseReceivableGross                          .        .        .    2,719    1,628    1,202        .        .        .        .        .        .
 ge:PropertyPlantAndEquipmentAndOperatingLeaseRightOfUseAssetAf       .        .        .        .   45,879   16,699   15,609   12,192    7,246    7,277    7,987        .
 ge:SalestypeandDirectFinancingLeasesUnguaranteedResidualAssetN       .        .        .        .      412      472        .        .        .        .        .        .
 
@@ -99,4 +102,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 329, 2024:
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 275, 2024: 196, 2025: 238}
 finLiab: IncreaseDecreaseInOperatingLeaseLiability {2024: -109}
 
-Tempo: 4 s. File scritto: sec_GE.json
+Tempo: 6 s. File scritto: sec_GE.json

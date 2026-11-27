@@ -57,28 +57,37 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+low:FinanceLeaseRightOfUseAssetAccumulatedAmortization               .        .        .        .        .       42        .        .        .        .        .        .
+low:FinanceLeaseRightOfUseAssetBeforeAccumulatedAmortization         .        .        .        .        .      597        .        .        .        .        .        .
 low:LesseeFinanceLeaseLeaseNotYetCommencedAmounts                    .        .        .        .        .        .        .        6       20        6        .        .
-low:LesseeFinanceLeaseLeaseNotyetCommencedAmounts                    .        .        .        .        .        .        6        .        .        .        .        .
-low:LesseeFinanceLeaseOptiontoExtendLeasePaymentsReasonablyCer       .        .        .        .        .        .       11        .        .        .        .        .
+low:LesseeFinanceLeaseLeaseNotyetCommencedAmounts                    .        .        .        .        .       45        6        .        .        .        .        .
+low:LesseeFinanceLeaseOptiontoExtendLeasePaymentsReasonablyCer       .        .        .        .        .       11       11        .        .        .        .        .
 low:LesseeOperatingAndFinanceLeaseLeaseNotYetCommencedAmounts        .        .        .        .        .        .      669      638      602      179        .        .
-low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDue               .        .        .        .        .        .    6,315    6,495    5,702    5,884    5,806    6,370
-low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueAfterYea       .        .        .        .        .        .    2,557    2,599    2,307    2,237    2,127    2,232
-low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueNextTwel       .        .        .        .        .        .      797      893      778      778      784      965
-low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueYearFive       .        .        .        .        .        .      648      643      537      619      574      568
-low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueYearFour       .        .        .        .        .        .      669      749      645      662      735      735
-low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueYearThre       .        .        .        .        .        .      777      755      730      766      765      927
-low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueYearTwo        .        .        .        .        .        .      867      856      705      822      821      943
+low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDue               .        .        .        .        .    6,525    6,315    6,495    5,702    5,884    5,806    6,370
+low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueAfterYea       .        .        .        .        .    2,958    2,557    2,599    2,307    2,237    2,127    2,232
+low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueNextTwel       .        .        .        .        .      728      797      893      778      778      784      965
+low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueYearFive       .        .        .        .        .      592      648      643      537      619      574      568
+low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueYearFour       .        .        .        .        .      690      669      749      645      662      735      735
+low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueYearThre       .        .        .        .        .      791      777      755      730      766      765      927
+low:LesseeOperatingAndFinanceLeaseLiabilityPaymentsDueYearTwo        .        .        .        .        .      766      867      856      705      822      821      943
 low:LesseeOperatingAndFinanceLeaseRightOfUseAssets                   .        .        .        .        .    4,446    4,371    4,656    3,980    4,158    4,133    4,622
 low:LesseeOperatingAndFinanceLeases                                  .        .        .        .        .    5,128    5,081    5,323    4,597    4,733    4,666    5,147
-low:LesseeOperatingLeaseLeaseNotyetCommencedAmounts                  .        .        .        .        .        .      669      638      602      179        .        .
+low:LesseeOperatingLeaseLeaseNotyetCommencedAmounts                  .        .        .        .        .      265      669      638      602      179        .        .
 low:LesseeOperatingLeaseOptionToExtendLeasePaymentsReasonablyC       .        .        .        .        .        .        .      268      261      402      469      499
-low:LesseeOperatingLeaseOptiontoExtendLeasePaymentsReasonablyC       .        .        .        .        .        .      295        .        .        .        .        .
-low:OperatingAndFinanceLeaseLiability                                .        .        .        .        .        .    5,081    5,323    4,597    4,733    4,666    5,147
-low:OperatingAndFinanceLeaseLiabilityUndiscountedExcessAmount        .        .        .        .        .        .    1,234    1,172    1,105    1,151    1,140    1,223
+low:LesseeOperatingLeaseOptiontoExtendLeasePaymentsReasonablyC       .        .        .        .        .      279      295        .        .        .        .        .
+low:OperatingAndFinanceLeaseLiability                                .        .        .        .        .    5,128    5,081    5,323    4,597    4,733    4,666    5,147
+low:OperatingAndFinanceLeaseLiabilityUndiscountedExcessAmount        .        .        .        .        .    1,397    1,234    1,172    1,105    1,151    1,140    1,223
+low:TotalLeasesFutureMinimumPaymentsDue                              .        .        .        .    6,631        .        .        .        .        .        .        .
+low:TotalLeasesFutureMinimumPaymentsDueCurrent                       .        .        .        .      728        .        .        .        .        .        .        .
+low:TotalLeasesFutureMinimumPaymentsDueInFiveYears                   .        .        .        .      559        .        .        .        .        .        .        .
+low:TotalLeasesFutureMinimumPaymentsDueInFourYears                   .        .        .        .      606        .        .        .        .        .        .        .
+low:TotalLeasesFutureMinimumPaymentsDueInThreeYears                  .        .        .        .      654        .        .        .        .        .        .        .
+low:TotalLeasesFutureMinimumPaymentsDueInTwoYears                    .        .        .        .      692        .        .        .        .        .        .        .
+low:TotalLeasesFutureMinimumPaymentsDueThereafter                    .        .        .        .    3,392        .        .        .        .        .        .        .
 
 --- AVVISI ---
 Debiti finanziari a breve: ultimo anno 2024 (mancano anni recenti)
 Titoli di mercato non correnti: ultimo anno 2023 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2010-2026: non sommarli di nuovo
 
-Tempo: 3 s. File scritto: sec_LOW.json
+Tempo: 5 s. File scritto: sec_LOW.json

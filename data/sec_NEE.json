@@ -400,7 +400,8 @@
    "2022": 5200.0,
    "2021": 2700.0,
    "2020": 1200.0,
-   "2019": 1200.0
+   "2019": 1200.0,
+   "2018": 1500.0
   },
   "nee:Deferredtaxliabilitiesequitymethodinvestmentofwhollyownedindirectsubsidiary": {
    "2025": 2822.0,
@@ -409,7 +410,8 @@
    "2022": 3144.0,
    "2021": 2783.0,
    "2020": 2238.0,
-   "2019": 2019.0
+   "2019": 2019.0,
+   "2018": 1925.0
   },
   "nee:EquityMethodInvestmentOwnershipPercentageLowRange": {
    "2025": 0.0,
@@ -417,7 +419,8 @@
    "2023": 0.0,
    "2022": 0.0,
    "2021": 0.0,
-   "2020": 0.0
+   "2020": 0.0,
+   "2019": 0.0
   },
   "nee:EquityMethodInvestmentOwnershipPercentageHighRange": {
    "2025": 0.0,
@@ -425,7 +428,8 @@
    "2023": 0.0,
    "2022": 0.0,
    "2021": 0.0,
-   "2020": 0.0
+   "2020": 0.0,
+   "2019": 0.0
   },
   "nee:OperatingLeaseWeightedAverageBorrowingRatePercent": {
    "2025": 0.0,
@@ -434,7 +438,8 @@
    "2022": 0.0,
    "2021": 0.0,
    "2020": 0.0,
-   "2019": 0.0
+   "2019": 0.0,
+   "2018": 0.0
   },
   "nee:FinanceLeaseWeightedAverageBorrowingRatePercent": {
    "2025": 0.0,
@@ -443,7 +448,8 @@
    "2022": 0.0,
    "2021": 0.0,
    "2020": 0.0,
-   "2019": 0.0
+   "2019": 0.0,
+   "2018": 0.0
   },
   "nee:LesseeOperatingLeaseAndFinanceLeaseLiabilityPaymentsDue": {
    "2025": 4100.0,
@@ -451,7 +457,8 @@
    "2023": 1700.0,
    "2022": 1600.0,
    "2021": 1400.0,
-   "2020": 1200.0
+   "2020": 1200.0,
+   "2019": 981.0
   },
   "nee:OperatingAndSalesTypeLeasesLeaseReceivablePaymentsToBeReceivedFirstYear": {
    "2025": 432.0
@@ -479,11 +486,16 @@
   },
   "nee:ConvertibleInvestmentTaxCreditsIncludedInOtherReceivables": {
    "2020": 10.0,
-   "2019": 10.0
+   "2019": 10.0,
+   "2018": 138.0
   },
   "nee:EquityMethodInvestmentsOfWhollyOwnedIndirectSubsidiary": {
    "2020": 5728.0,
-   "2019": 7453.0
+   "2019": 7453.0,
+   "2018": 6748.0
+  },
+  "nee:LessorSalesTypeLeaseNumberOfFacilities": {
+   "2019": 0.0
   }
  },
  "avvisi": [],

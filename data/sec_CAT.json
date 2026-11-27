@@ -610,7 +610,28 @@
   },
   "cat:EquityMethodInvestmentOwnershipPercentageSignificantInfluence": {
    "2021": 0.0,
-   "2020": 0.0
+   "2020": 0.0,
+   "2019": 0.0
+  },
+  "cat:LongtermDebtDuewithinOneYearMachineryEnergyandTransportation": {
+   "2019": 16.0,
+   "2018": 10.0
+  },
+  "cat:LongTermDebtDueWithinOneYearFinancialProducts": {
+   "2019": 6194.0,
+   "2018": 5820.0
+  },
+  "cat:LongTermDebtDueAfterOneYearMachineryEnergyTransNoncurrent": {
+   "2019": 9141.0,
+   "2018": 8005.0
+  },
+  "cat:LongTermDebtDueAfterOneYearFinancialProducts": {
+   "2019": 17140.0,
+   "2018": 16995.0
+  },
+  "cat:LongtermDebtDueafterOneYearMachineryEnergyTransportationNoncurrent": {
+   "2018": 8005.0,
+   "2019": 7643.0
   }
  },
  "avvisi": [

@@ -212,7 +212,9 @@
    "2016": -69.0,
    "2017": -5.0
   },
-  "acqStock": {},
+  "acqStock": {
+   "2017": 9835.0
+  },
   "stkNC": {},
   "acqTot": {},
   "nrGw": {
@@ -450,7 +452,9 @@
    "2016": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
    "2017": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
   },
-  "acqStock": {},
+  "acqStock": {
+   "2017": "StockIssuedDuringPeriodValueAcquisitions (prospetto patrimonio netto 10-K, >=250 mln)"
+  },
   "stkNC": {},
   "acqTot": {},
   "nrGw": {
@@ -532,11 +536,16 @@
   "abt:DebtOtherReconcilingItems": {
    "2021": 23.0,
    "2020": 144.0,
-   "2019": -6.0
+   "2019": -6.0,
+   "2018": -141.0
+  },
+  "abt:AuthorizedRedemptionOfDebtAvailable": {
+   "2019": 700.0
   }
  },
  "avvisi": [
-  "Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)"
+  "Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)",
+  "2017: acquisizione pagata in azioni letta dal prospetto del patrimonio netto del 10-K: 9835 mln, da verificare nella nota Acquisizioni"
  ],
  "candidati": {
   "finLiab": [
@@ -640,6 +649,21 @@
  "sic_descrizione": "Pharmaceutical Preparations",
  "chiusura_esercizio": "1231",
  "nome": "ABBOTT LABORATORIES",
- "debug_acq_ixbrl": [],
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2017,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 9835.0
+  },
+  {
+   "anno": 2017,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 180.0
+  }
+ ],
  "ambito": "ok"
 }

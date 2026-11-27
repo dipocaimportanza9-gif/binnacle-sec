@@ -57,21 +57,27 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+dal:AvailableForSaleSecuritiesDebtMaturitiesAfterFiveYearsFair       .        .        .       13        .        .        .        .        .        .        .        .
+dal:AvailableForSaleSecuritiesDebtMaturitiesAfterOneYearThroug       .        .        .       96        .        .        .        .        .        .        .        .
+dal:AvailableForSaleSecuritiesDebtMaturitiesAfterThreeYearsThr       .        .        .        1        .        .        .        .        .        .        .        .
 dal:CashCashEquivalentsShortTermInvestmentsAndAmountsAvailable       .        .        .        .        .   16,700        .        .        .        .        .        .
-dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .        .        .       -8      -14      -15       -4       -2        2        .
-dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .        .        .       23        8        1        .       -2       -5        .
-dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .        .        .       46       39        8        .        .       -4        .
-dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .        .        .       62       54       54       49       29        2        .
-dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .        .        .       54       61       36        6       -2        1        .
-dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .        .        .       63       60       54       32        3       -2        .
-dal:DeferredTaxAssetsOperatingLeaseLiabilities                       .        .        .        .    1,510    2,185    2,452    2,376    2,193    2,816    2,660        .
-dal:DeferredTaxLiabilitiesOperatingLeaseRightOfUseAssets             .        .        .        .    1,298    1,324    1,676    1,624    1,533    1,369    1,264        .
+dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .      -53      -50       -8      -14      -15       -4       -2        2        .
+dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .       -9      -10       23        8        1        .       -2       -5        .
+dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .      -11      -11       46       39        8        .        .       -4        .
+dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .       22      -13       62       54       54       49       29        2        .
+dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .       -7      -16       54       61       36        6       -2        1        .
+dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .       -2      -15       63       60       54       32        3       -2        .
+dal:DeferredTaxAssetsOperatingLeaseLiabilities                       .        .        .    1,579    1,510    2,185    2,452    2,376    2,193    2,816    2,660        .
+dal:DeferredTaxLiabilitiesOperatingLeaseRightOfUseAssets             .        .        .    1,388    1,298    1,324    1,676    1,624    1,533    1,369    1,264        .
 dal:EquitySecuritiesAndEquityMethodInvestments                       .        .        .        .    2,568    1,665    1,712    2,128    3,457    2,846    4,222        .
-dal:LeaseLiability                                                   .        .        .        .    7,149    7,574    9,595    9,229    8,671    7,424    6,967        .
+dal:LeaseLiability                                                   .        .        .    7,159    7,149    7,574    9,595    9,229    8,671    7,424    6,967        .
 dal:LeaseRightOfUseAsset                                             .        .        .        .    6,689    6,735    8,833    8,523    8,342    7,469    7,079        .
-dal:LesseeFinanceLeaseAndOperatingLeaseLeaseNotYetCommencedAmo       .        .        .        .        .      734      403      242      151        .        .        .
+dal:LeaseRightofUseAsset                                             .        .        .    6,484    6,689        .        .        .        .        .        .        .
+dal:LesseeFinanceLeaseAndOperatingLeaseLeaseNotYetCommencedAmo       .        .        .      189      888      734      403      242      151        .        .        .
+dal:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAcc       .        .        .   15,823   17,027        .        .        .        .        .        .        .
+dal:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAft       .        .        .   28,335   31,310        .        .        .        .        .        .        .
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2022 (mancano anni recenti)
 
-Tempo: 6 s. File scritto: sec_DAL.json
+Tempo: 5 s. File scritto: sec_DAL.json

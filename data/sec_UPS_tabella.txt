@@ -57,10 +57,11 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-ups:CovenantsLimitAmountOfSecuredIndebtednessThatWeMayIncurAnd       .        .        .        .        .    4,000    4,600    4,600    4,500    4,600        .        .
-ups:CovenantsLimitAmountOfSecuredIndebtednessThatWeMayIncurAnd       .        .        .        .        .        0        0        0        0        0        .        .
+ups:CovenantsLimitAmountOfSecuredIndebtednessThatWeMayIncurAnd       .        .        .        .    3,646    4,000    4,600    4,600    4,500    4,600        .        .
+ups:CovenantsLimitAmountOfSecuredIndebtednessThatWeMayIncurAnd       .        .        .        .        0        0        0        0        0        0        .        .
 ups:DebtInstrumentRedemptionPriceMinimumThresholdPercentage          .        .        .        .        .        .        .        .        0        .        .        .
 ups:DeferredTaxAssetOperatingLeaseLiability                          .        .        .        .      691      736      874      948    1,073    1,021    1,018        .
+ups:FinanceLeaseRightOfUseAssetAccumulatedDepreciation               .        .        .        .      884        .        .        .        .        .        .        .
 ups:LesseeFinanceLeaseAndOperatingLeaseLeaseNotYetCommencedAmo       .        .        .        .        .      184      348    1,200      835        .        .        .
 ups:LongTermDebtMaturityDebtInterest                                 .        .        .        .        .        .   10,346        .        .        .        .        .
 ups:LongTermDebtMaturityDebtInterestAfterYearFive                    .        .        .        .        .        .    7,167        .        .        .        .        .
@@ -69,20 +70,20 @@ ups:LongTermDebtMaturityDebtInterestYearFour                         .        . 
 ups:LongTermDebtMaturityDebtInterestYearOne                          .        .        .        .        .        .      722        .        .        .        .        .
 ups:LongTermDebtMaturityDebtInterestYearThree                        .        .        .        .        .        .      630        .        .        .        .        .
 ups:LongTermDebtMaturityDebtInterestYearTwo                          .        .        .        .        .        .      668        .        .        .        .        .
-ups:MarketableSecuritiesDebtMaturitiesAfterFiveYearsAmortizedC       .        .        .        .        .       36        .        .        .        .        .        .
-ups:MarketableSecuritiesDebtMaturitiesAfterFiveYearsFairValue        .        .        .        .        .       40        .        .        .        .        .        .
-ups:MarketableSecuritiesDebtMaturitiesAfterOneThroughThreeYear       .        .        .        .        .      323      304      791    1,513       43        .        .
-ups:MarketableSecuritiesDebtMaturitiesAfterOneThroughThreeYear       .        .        .        .        .      327      305      777    1,514       42        .        .
-ups:MarketableSecuritiesDebtMaturitiesAfterThreeThroughFiveYea       .        .        .        .        .       10        .       27        5        .        .        .
-ups:MarketableSecuritiesDebtMaturitiesAfterThreeThroughFiveYea       .        .        .        .        .       10        .       27        5        .        .        .
-ups:MarketableSecuritiesDebtMaturitiesAmortizedCostBasis             .        .        .        .        .      396      335    2,005    2,864      204        .        .
-ups:MarketableSecuritiesDebtMaturitiesFairValue                      .        .        .        .        .      404      336    1,991    2,862      203        .        .
-ups:MarketableSecuritiesDebtMaturitiesNextTwelveMonthsAmortize       .        .        .        .        .       27       31    1,187    1,346      161        .        .
-ups:MarketableSecuritiesDebtMaturitiesNextTwelveMonthsFairValu       .        .        .        .        .       27       31    1,187    1,343      161        .        .
-ups:NumberofLeasedAircrafts                                          .        .        .        .        .        0        0        .        .        .        .        .
-ups:NumberofLeasedAircraftsFinanceLease                              .        .        .        .        .        0        0        .        .        .        .        .
-ups:NumberofLeasedAircraftsOperatingLease                            .        .        .        .        .        0        0        .        .        .        .        .
-ups:NumberofLeasedAircraftsShortterm                                 .        .        .        .        .        0        0        .        .        .        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterFiveYearsAmortizedC       .        .        .        .       43       36        .        .        .        .        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterFiveYearsFairValue        .        .        .        .       45       40        .        .        .        .        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterOneThroughThreeYear       .        .        .        .      328      323      304      791    1,513       43        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterOneThroughThreeYear       .        .        .        .      332      327      305      777    1,514       42        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterThreeThroughFiveYea       .        .        .        .        6       10        .       27        5        .        .        .
+ups:MarketableSecuritiesDebtMaturitiesAfterThreeThroughFiveYea       .        .        .        .        6       10        .       27        5        .        .        .
+ups:MarketableSecuritiesDebtMaturitiesAmortizedCostBasis             .        .        .        .      495      396      335    2,005    2,864      204        .        .
+ups:MarketableSecuritiesDebtMaturitiesFairValue                      .        .        .        .      501      404      336    1,991    2,862      203        .        .
+ups:MarketableSecuritiesDebtMaturitiesNextTwelveMonthsAmortize       .        .        .        .      118       27       31    1,187    1,346      161        .        .
+ups:MarketableSecuritiesDebtMaturitiesNextTwelveMonthsFairValu       .        .        .        .      118       27       31    1,187    1,343      161        .        .
+ups:NumberofLeasedAircrafts                                          .        .        .        .        0        0        0        .        .        .        .        .
+ups:NumberofLeasedAircraftsFinanceLease                              .        .        .        .        0        0        0        .        .        .        .        .
+ups:NumberofLeasedAircraftsOperatingLease                            .        .        .        .        0        0        0        .        .        .        .        .
+ups:NumberofLeasedAircraftsShortterm                                 .        .        .        .        0        0        0        .        .        .        .        .
 
 --- AVVISI ---
 Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)
@@ -96,4 +97,4 @@ afsDeb: CollateralSecuritiesRepledgedDeliveredOrUsed {2023: 13, 2024: 0, 2025: 0
 ltInv: TradingSecurities {2023: 2866, 2024: 206, 2025: 3}
 ltInv: CollateralSecuritiesRepledgedDeliveredOrUsed {2023: 13, 2024: 0, 2025: 0}
 
-Tempo: 3 s. File scritto: sec_UPS.json
+Tempo: 5 s. File scritto: sec_UPS.json

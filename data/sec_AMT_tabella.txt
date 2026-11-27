@@ -66,7 +66,12 @@ amt:LongTermDebtAndLeaseObligationMaturityYearFour                   .        . 
 amt:LongTermDebtAndLeaseObligationMaturityYearOne                    .        .        .        .        .        .        .        .    3,188    3,693    3,388        .
 amt:LongTermDebtAndLeaseObligationMaturityYearThree                  .        .        .        .        .        .        .        .    4,078    5,467    7,513        .
 amt:LongTermDebtAndLeaseObligationMaturityYearTwo                    .        .        .        .        .        .        .        .    3,730    3,319    4,727        .
-amt:LongTermDebtTotalCashObligations                                 .        .        .        .        .   29,463        .        .        .        .        .        .
+amt:LongTermDebtTotalCashObligations                                 .        .        .        .   24,200   29,463        .        .        .        .        .        .
+amt:PrepaidLongTermOperatingGroundLeases                             .        .        .      608        .        .        .        .        .        .        .        .
+amt:PrepaidOperatingGroundLeases                                     .        .        .      165        .        .        .        .        .        .        .        .
+amt:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAcc       .        .        .        .    7,241        .        .        .        .        .        .        .
+amt:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAft       .        .        .        .   12,084        .        .        .        .        .        .        .
+amt:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBef       .        .        .        .   19,326        .        .        .        .        .        .        .
 amt:SECSchedule1228RealEstateCompaniesInvestmentInRealEstateTo       .        .        .        .        .        0        0        .        .        .        .        .
 
 --- AVVISI ---

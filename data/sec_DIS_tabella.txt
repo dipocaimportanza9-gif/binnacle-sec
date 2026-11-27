@@ -57,16 +57,17 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-dis:DeferredTaxAssetsLeaseLiabilities                                .        .        .        .        .      825      764      748      852      862      786      663
-dis:DeferredTaxLiabilitiesInvestmentinForeignEntities                .        .        .        .        .      266      392      543      482      465      879    1,031
-dis:DeferredTaxLiabilitiesInvestmentinU.S.Entities                   .        .        .        .        .    2,514    2,653    1,798    1,271    1,102      916    1,936
+dis:DeferredTaxAssetsLeaseLiabilities                                .        .        .        .       23      825      764      748      852      862      786      663
+dis:DeferredTaxLiabilitiesInvestmentinForeignEntities                .        .        .        .      146      266      392      543      482      465      879    1,031
+dis:DeferredTaxLiabilitiesInvestmentinU.S.Entities                   .        .        .        .    2,258    2,514    2,653    1,798    1,271    1,102      916    1,936
 dis:EstimatedFutureLeasePaymentsNotCommenced                         .        .        .        .        .        .        .      832      500        .        .        .
 dis:FilmCapitalizedCostCompletedAndNotReleased                       .        .        .        .        .    1,275    1,392    2,233    1,856    2,281    1,374    1,599
 dis:FilmCapitalizedCostReleased                                      .        .        .        .        .   13,275   14,723   17,327   18,523   18,189   18,912   18,828
-dis:FilmCompletedAndNotReleasedFilmExpectedAmortizationInNextO       .        .        .        .        .        .      646      869      830      858      673      830
-dis:FilmReleasedFilmExpectedAmortizationYearOne                      .        .        .        .        .        .    4,586    4,064    4,326    4,306    4,442    4,072
-dis:FilmReleasedFilmExpectedAmortizationYearThree                    .        .        .        .        .        .    1,727    2,160    2,138    2,386    2,291    2,504
-dis:FilmReleasedFilmExpectedAmortizationYearTwo                      .        .        .        .        .        .    2,751    2,676    2,655    3,071    3,003    2,961
+dis:FilmCompletedAndNotReleasedFilmExpectedAmortizationInNextO       .        .        .        .        .      496      646      869      830      858      673      830
+dis:FilmReleasedFilmExpectedAmortizationYearOne                      .        .        .        .        .    1,191    4,586    4,064    4,326    4,306    4,442    4,072
+dis:FilmReleasedFilmExpectedAmortizationYearThree                    .        .        .        .        .      402    1,727    2,160    2,138    2,386    2,291    2,504
+dis:FilmReleasedFilmExpectedAmortizationYearTwo                      .        .        .        .        .      734    2,751    2,676    2,655    3,071    3,003    2,961
+dis:LesseeOperatingLeaseLeaseNotYetCommenced                         .        .        .        .        .      277        .        .        .        .        .        .
 dis:LongTermDebtExpectedInterestPaymentAfterYearFive                 .        .        .        .        .        .   20,602   19,738   16,935   15,944   14,522   13,783
 dis:LongTermDebtExpectedInterestPaymentGross                         .        .        .        .        .        .   29,418   27,889   24,918   22,839   21,402   21,122
 dis:LongTermDebtExpectedInterestPaymentYearFive                      .        .        .        .        .        .    1,700    1,428    1,502    1,210    1,265    1,344
@@ -81,12 +82,16 @@ dis:LongTermDebtPrincipalAndInterestPaymentsYearFour                 .        . 
 dis:LongTermDebtPrincipalAndInterestPaymentsYearOne                  .        .        .        .        .        .    7,717    4,891    6,115    8,402    8,310    9,013
 dis:LongTermDebtPrincipalAndInterestPaymentsYearThree                .        .        .        .        .        .    4,640    5,337    6,194    4,270    3,050    5,524
 dis:LongTermDebtPrincipalAndInterestPaymentsYearTwo                  .        .        .        .        .        .    3,070    4,620    5,354    6,080    4,379    3,295
-dis:NotionalAmountOfFloatingInterestRateDebtWithInterestRateHe       .        .        .        .        .        .   15,141   14,472   13,503   12,012   10,558   11,037
+dis:NotionalAmountOfFloatingInterestRateDebtWithInterestRateHe       .        .        .        .        .   15,795   15,141   14,472   13,503   12,012   10,558   11,037
 dis:OperatingAndFinanceLeaseLiability                                .        .        .        .        .    3,695    3,907    3,890    4,241    3,702    3,397    3,413
 dis:OperatingAndFinanceLeaseLiabilityCurrent                         .        .        .        .        .        .      678      651      777      774      546      568
 dis:OperatingAndFinanceLeaseLiabilityNoncurrent                      .        .        .        .        .    2,911    3,229    3,239    3,464    2,928    2,851    2,845
 dis:OperatingAndFinancingLeaseTotalRightOfUseAsset                   .        .        .        .        .        .    4,231    4,269    4,502    3,622    3,391    3,404
-dis:TotalOperatingLeaseLiabilityOnTheBalanceSheet                    .        .        .        .        .        .    3,620    3,635    3,998    3,512    3,235    3,226
+dis:TelevisionCompletedAndNotReleasedExpectedAmortizationInNex       .        .        .        .        .      186        .        .        .        .        .        .
+dis:TelevisionReleasedExpectedAmortizationYearOne                    .        .        .        .        .    2,369        .        .        .        .        .        .
+dis:TelevisionReleasedExpectedAmortizationYearThree                  .        .        .        .        .      856        .        .        .        .        .        .
+dis:TelevisionReleasedFilmExpectedAmortizationYearTwo                .        .        .        .        .    1,352        .        .        .        .        .        .
+dis:TotalOperatingLeaseLiabilityOnTheBalanceSheet                    .        .        .        .        .    3,387    3,620    3,635    3,998    3,512    3,235    3,226
 
 --- AVVISI ---
 Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)
@@ -104,4 +109,4 @@ afsDeb: OtherInvestments {2023: 392, 2024: 1779, 2025: 1778}
 afsDeb: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 700, 2024: 500, 2025: 1600, 2026: 1300}
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 720, 2024: 437, 2025: 145, 2026: 206}
 
-Tempo: 3 s. File scritto: sec_DIS.json
+Tempo: 6 s. File scritto: sec_DIS.json

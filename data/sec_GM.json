@@ -456,7 +456,8 @@
    "2022": 32701.0,
    "2021": 37929.0,
    "2020": 39819.0,
-   "2019": 42055.0
+   "2019": 42055.0,
+   "2018": 43559.0
   },
   "gm:PolicyProductWarrantyRecallCampaignsandCourtesyTransportationAccrualCurrent": {
    "2025": 6308.0,
@@ -465,7 +466,8 @@
    "2022": 3042.0,
    "2021": 3769.0,
    "2020": 3048.0,
-   "2019": 2987.0
+   "2019": 2987.0,
+   "2018": 2788.0
   },
   "gm:PolicyProductWarrantyRecallCampaignsandCourtesyTransportationAccrualNoncurrent": {
    "2025": 7322.0,
@@ -474,7 +476,8 @@
    "2022": 5488.0,
    "2021": 6005.0,
    "2020": 5193.0,
-   "2019": 4811.0
+   "2019": 4811.0,
+   "2018": 4802.0
   },
   "gm:ProductLiabilityWarrantyAndOtherLegalAndEnvironmentalRelatedAccrualsCurrent": {
    "2025": 3600.0,
@@ -490,7 +493,8 @@
    "2020": 8242.0,
    "2019": 7798.0,
    "2018": 7590.0,
-   "2017": 8332.0
+   "2017": 8332.0,
+   "2016": 9069.0
   },
   "gm:PolicyProductWarrantyReceivableSupplierRecoveries": {
    "2025": 347.0,
@@ -516,7 +520,8 @@
    "2023": 39065.0,
    "2022": 38873.0,
    "2021": 33796.0,
-   "2020": 37018.0
+   "2020": 37018.0,
+   "2019": 37499.0
   },
   "gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentsofPrincipalinYearTwo": {
    "2025": 25865.0,
@@ -524,7 +529,8 @@
    "2023": 25615.0,
    "2022": 21262.0,
    "2021": 23091.0,
-   "2020": 19449.0
+   "2020": 19449.0,
+   "2019": 21225.0
   },
   "gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentsofPrincipalinYearThree": {
    "2025": 19876.0,
@@ -532,7 +538,8 @@
    "2023": 15142.0,
    "2022": 17937.0,
    "2021": 13401.0,
-   "2020": 17860.0
+   "2020": 17860.0,
+   "2019": 11833.0
   },
   "gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentsofPrincipalinYearFour": {
    "2025": 14216.0,
@@ -540,7 +547,8 @@
    "2023": 10596.0,
    "2022": 7878.0,
    "2021": 11228.0,
-   "2020": 7894.0
+   "2020": 7894.0,
+   "2019": 8584.0
   },
   "gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentsofPrincipalinYearFive": {
    "2025": 11120.0,
@@ -548,7 +556,8 @@
    "2023": 7995.0,
    "2022": 8310.0,
    "2021": 6138.0,
-   "2020": 9187.0
+   "2020": 9187.0,
+   "2019": 5843.0
   },
   "gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentsofPrincipalafterYearFive": {
    "2025": 24691.0,
@@ -556,7 +565,8 @@
    "2023": 25081.0,
    "2022": 21957.0,
    "2021": 22213.0,
-   "2020": 18616.0
+   "2020": 18616.0,
+   "2019": 18967.0
   },
   "gm:DeferredTaxAssetsWarrantiesAllowancesClaimsDiscounts": {
    "2025": 4803.0,
@@ -565,13 +575,56 @@
    "2022": 4341.0,
    "2021": 4253.0,
    "2020": 5538.0,
-   "2019": 6299.0
+   "2019": 6299.0,
+   "2018": 6307.0
   },
   "gm:LessorOperatingLeaseLeaseNotYetCommencedAmount": {
    "2023": 597.0,
    "2022": 198.0,
    "2021": 215.0,
    "2020": 150.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleaseRentalsNextTwelveMonths": {
+   "2018": 61.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleaseRentalsDueInTwoYears": {
+   "2018": 51.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleaseRentalsDueInThreeYears": {
+   "2018": 44.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleaseRentalsDueInFourYears": {
+   "2018": 38.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleaseRentalsDueInFiveYears": {
+   "2018": 33.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleaseRentalsDueThereafter": {
+   "2018": 129.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsNextTwelveMonths": {
+   "2018": 235.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsDueinTwoYears": {
+   "2018": 235.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsDueinThreeYears": {
+   "2018": 203.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsDueinFourYears": {
+   "2018": 142.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsDueinFiveYears": {
+   "2018": 113.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsDueThereafter": {
+   "2018": 453.0
+  },
+  "gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentals": {
+   "2018": 1381.0
+  },
+  "gm:FinanceLeaseLiabilityPaymentsDueNext12MonthsThroughYearFour": {
+   "2019": 156.0
   }
  },
  "avvisi": [

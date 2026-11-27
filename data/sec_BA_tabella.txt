@@ -59,13 +59,14 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 ba:CapitalInvestmentAmount                                           .        .        .        .        .        .        .        .        .      500        .        .
 ba:CurrentPortionOfFinancingReceivablesNet                           .        .        .        .        .        .        .      154       99      207        .        .
-ba:CustomerFinancingBalance                                          .        .        .        .    2,298    2,037    1,812    1,604        .        .        .        .
-ba:CustomerFinancingCurrent                                          .        .        .        .      162      101      117      154        .        .        .        .
-ba:CustomerFinancingNoncurrent                                       .        .        .        .    2,136    1,936    1,695    1,450        .        .        .        .
+ba:CustomerFinancingBalance                                          .        .        .    2,878    2,298    2,037    1,812    1,604        .        .        .        .
+ba:CustomerFinancingCurrent                                          .        .        .      460      162      101      117      154        .        .        .        .
+ba:CustomerFinancingNoncurrent                                       .        .        .    2,418    2,136    1,936    1,695    1,450        .        .        .        .
 ba:FinancingReceivablesAndOperatingLeaseEquipmentBalance             .        .        .        .        .        .        .    1,604      959      521      241        .
 ba:FinancingReceivablesAndOperatingLeaseEquipmentNet                 .        .        .        .        .        .        .    1,450      860      314      241        .
-ba:GrossCustomerFinancingAssets                                      .        .        .        .    2,306    2,054        .        .        .        .        .        .
+ba:GrossCustomerFinancingAssets                                      .        .        .    2,887    2,306    2,054        .        .        .        .        .        .
 ba:LesseeOperatingLeaseLeaseNotYetCommencedValue                     .        .        .        .        .      226      265      420      430        .        .        .
+ba:LesseeOperatingLeaseLeaseNotyetCommencedValue                     .        .        .        .      160        .        .        .        .        .        .        .
 ba:LossContingencySettlementAgreementMinimumInvestmentCommitme       .        .        .        .        .        .        .        .        .      455        .        .
 ba:NumberOfInvestmentFunds                                           .        .        .        .        .        .        .        .        0        0        0        .
 ba:OffsettingCapitalLeaseObligationAndIRBAsset                       .        .        .        .        .        .        .      271      333      355    1,054        .
@@ -75,7 +76,8 @@ ba:SalesTypeAndDirectFinancingLeasesNetLeasePaymentReceivable        .        . 
 ba:SalesTypeAndDirectFinancingLeasesResidualValueOfLeasedAsset       .        .        .        .        .      299      110       86       21        0        .        .
 ba:SalesTypeAndDirectFinancingLeasesUnearnedIncome                   .        .        .        .        .        .        .      206      162       26        .        .
 ba:SalesTypeDirectFinancingLeasesResidualValueOfLeasedAsset          .        .        .        .        .      136        .        .        .        .        .        .
-ba:TotalFinancingReceivables                                         .        .        .        .    1,472    1,339    1,356    1,189      658      288        .        .
+ba:SalestypeDirectFinancingLeasesResidualValueofLeasedAsset          .        .        .      425     -163        .        .        .        .        .        .        .
+ba:TotalFinancingReceivables                                         .        .        .    1,855    1,472    1,339    1,356    1,189      658      288        .        .
 ba:TotalFinancingReceivablesNet                                      .        .        .        .        .    1,322    1,338    1,134      607      281        .        .
 
 --- AVVISI ---
@@ -95,4 +97,4 @@ afsDeb: OtherInvestments {2023: 69, 2024: 34, 2025: 34}
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 31, 2024: 55, 2025: 14}
 afsDeb: FinancingReceivableRecordedInvestment90DaysPastDueAndStillAccruing {2023: 9, 2024: 0}
 
-Tempo: 3 s. File scritto: sec_BA.json
+Tempo: 4 s. File scritto: sec_BA.json

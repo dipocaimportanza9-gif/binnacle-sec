@@ -57,18 +57,19 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-ko:AvailableForSaleSecuritiesAndCostMethodInvestments                .        .        .        .      854      812        .        .        .        .        .        .
-ko:CarryingValueofLongTermDebt                                       .        .        .        .    5,891   17,616        .        .        .        .        .        .
-ko:Debtsecuritiesgrossunrealizedgain                                 .        .        .        .      114       53        .        .        .        .        .        .
-ko:Debtsecuritiesgrossunrealizedloss                                 .        .        .        .        4       13        .        .       30      119       65        .
+ko:AvailableForSaleSecuritiesAndCostMethodInvestments                .        .        .      867      854      812        .        .        .        .        .        .
+ko:CarryingValueofExtinguishedLongTermDebt                           .        .      417        .        .        .        .        .        .        .        .        .
+ko:CarryingValueofLongTermDebt                                       .        .    3,974        .    5,891   17,616        .        .        .        .        .        .
+ko:Debtsecuritiesgrossunrealizedgain                                 .        .        .      119      114       53        .        .        .        .        .        .
+ko:Debtsecuritiesgrossunrealizedloss                                 .        .        .       28        4       13        .        .       30      119       65        .
 ko:DisposalGroupIncludingDiscontinuedOperationCurrentMaturitie       .        .        .        .        .        .        .        .        .        .      398        .
 ko:DisposalGroupIncludingDiscontinuedOperationEquityMethodInve       .        .        .        .        .        .        .        .        4        .        5        .
 ko:DisposalGroupIncludingDiscontinuedOperationLongTermDebt           .        .        .        .        .        .        .        .        2        .      850        .
 ko:DisposalGroupIncludingDiscontinuedOperationsCashCashEquival       .        .        .        .        .        .        .        .       37        .      178        .
-ko:EquityMethodInvestmentDifferenceBetweenQuotedMarketValueAnd       .        .        .        .        .   10,525        .        .        .        .        .        .
-ko:EquityMethodInvestmentsofPubliclyTradedShares                     .        .        .        .        .   12,604        .        .        .        .        .        .
-ko:IncreaseDecreaseinCarryingValueofLongtermDebtInterestRateFa       .        .        .        .      453      646      483   -1,469     -972     -785     -618        .
-ko:SegmentReportingInformationInvestmentsIncludingEquityMethod       .        .        .        .   19,879   20,085   18,416   18,765   19,789        .        .        .
+ko:EquityMethodInvestmentDifferenceBetweenQuotedMarketValueAnd       .        .        .        .    8,893   10,525        .        .        .        .        .        .
+ko:EquityMethodInvestmentsofPubliclyTradedShares                     .        .        .        .   12,089   12,604        .        .        .        .        .        .
+ko:IncreaseDecreaseinCarryingValueofLongtermDebtInterestRateFa       .        .        .       62      453      646      483   -1,469     -972     -785     -618        .
+ko:SegmentReportingInformationInvestmentsIncludingEquityMethod       .        .        .   20,279   19,879   20,085   18,416   18,765   19,789        .        .        .
 
 --- AVVISI ---
 Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)
@@ -86,4 +87,4 @@ ltInv: MarketableSecurities {2023: 1300, 2024: 1723, 2025: 1934}
 ltInv: DebtSecurities {2023: 1175, 2024: 1676, 2025: 1824}
 ltInv: QualifiedAffordableHousingProjectInvestmentsCommitment {2024: 123, 2025: 32}
 
-Tempo: 4 s. File scritto: sec_KO.json
+Tempo: 6 s. File scritto: sec_KO.json

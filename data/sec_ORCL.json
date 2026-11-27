@@ -697,10 +697,19 @@
    "2024": 22900.0,
    "2023": 9100.0,
    "2022": 4100.0,
-   "2021": 653.0
+   "2021": 653.0,
+   "2020": 411.0
   },
   "orcl:LesseeOperatingLeaseLeaseGuaranteeOfLessorBorrowing": {
    "2026": 3300.0
+  },
+  "orcl:PercentageOfMarketableSecuritiesInvestmentsMatureWithinOneYear": {
+   "2020": 0.0,
+   "2019": 0.0
+  },
+  "orcl:PercentageOfMarketableSecuritiesInvestmentsMatureWithinOneToFourYears": {
+   "2020": 0.0,
+   "2019": 0.0
   }
  },
  "avvisi": [

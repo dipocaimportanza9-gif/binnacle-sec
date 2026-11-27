@@ -57,18 +57,31 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+cvx:CurrentMaturitiesOfLongTermCapitalLeases                         .        .        .       18        .        .        .        .        .        .        .        .
 cvx:CurrentMaturitiesOfLongTermFinanceLeases                         .        .        .        .        .        .       48       45       60       58      786        .
 cvx:CurrentMaturitiesofLongTermFinanceLeases                         .        .        .        .       18      186       48        .        .        .        .        .
 cvx:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .        .        .        .       31       23       19       14       45        .
-cvx:DebtInstrumentUnamortizedDiscountPremiumandDebtIssuanceCos       .        .        .        .       17      102       31        .        .        .        .        .
+cvx:DebtInstrumentUnamortizedDiscountPremiumandDebtIssuanceCos       .        .        .       24       17      102       31        .        .        .        .        .
+cvx:DebtInstrumentUnamortizedDiscountPremiumandDebtIssuanceCos       .        .        .        1        0        .        .        .        .        .        .        .
 cvx:DeferredTaxAssetsOperatingLease                                  .        .        .        .    1,211    1,234    1,255    1,134    1,479    1,352    1,886        .
 cvx:DeferredTaxLiabilitiesInvestmentsAndOther                        .        .        .        .        .        .        .        .        .    5,254    6,668        .
+cvx:LessAmountsRepresentingInterestAndExecutoryCostsInFutureCa       .        .        .       88        .        .        .        .        .        .        .        .
+cvx:LesseeCapitalLeaseLeaseNotyetCommencedDueThereafter              .        .        .      219        .        .        .        .        .        .        .        .
+cvx:LesseeCapitalLeaseLeaseNotyetCommencedDueinFiveYears             .        .        .       21        .        .        .        .        .        .        .        .
+cvx:LesseeCapitalLeaseLeaseNotyetCommencedDueinFourYears             .        .        .       21        .        .        .        .        .        .        .        .
+cvx:LesseeCapitalLeaseLeaseNotyetCommencedDueinThreeYears            .        .        .       22        .        .        .        .        .        .        .        .
+cvx:LesseeCapitalLeaseLeaseNotyetCommencedDueinTwoYears              .        .        .       15        .        .        .        .        .        .        .        .
+cvx:LesseeCapitalLeaseLeaseNotyetCommencedNextTwelveMonths           .        .        .       14        .        .        .        .        .        .        .        .
 cvx:LesseeCashFlowsForOperatingLeaseLeaseNotYetCommenced             .        .        .        .        .        .        .        .      232        .        .        .
 cvx:LongTermDebtCurrentMaturitiesNetOfUnamortizedDiscountsAndI       .        .        .        .        .        .    4,946    2,699    1,667    4,012    2,345        .
-cvx:LongtermDebtCurrentMaturitiesNetofUnamortizedDiscountsandI       .        .        .        .    5,054    2,600    4,946        .        .        .        .        .
+cvx:LongtermDebtCurrentMaturitiesNetofUnamortizedDiscountsandI       .        .        .    4,999    5,054    2,600    4,946        .        .        .        .        .
 cvx:PercentOfLeaseLiabilitiesRecognizedWhenCompanyIsSoleSignat       .        .        .        .        .        0        0        0        .        .        0        .
 cvx:PercentOfRightOfUseAssetsRecognizedWhenCompanyIsSoleSignat       .        .        .        .        .        .        .        .        0        0        .        .
-cvx:RedeemableLongTermDebt                                           .        .        .        .    3,078    2,960    2,959    2,942    2,876    3,069    3,049        .
+cvx:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAcc       .        .        .        .  176,228        .        .        .        .        .        .        .
+cvx:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAft       .        .        .        .  150,494        .        .        .        .        .        .        .
+cvx:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBef       .        .        .        .  326,722        .        .        .        .        .        .        .
+cvx:RedeemableLongTermDebt                                           .        .        .    3,078    3,078    2,960    2,959    2,942    2,876    3,069    3,049        .
+cvx:RightofuseAssetsandLeaseLiabilitiesPercentRecognizedfromJo       .        .        .        .        0        .        .        .        .        .        .        .
 cvx:ShortTermDebtReclassifiedToLongTermDebtAmount                    .        .        .        .        .        .        .    4,050    4,543    8,250    9,941        .
 
 --- AVVISI ---
@@ -80,4 +93,4 @@ afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 
 ltInv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 34359, 2024: 35349, 2025: 32062}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 2025: 5282}
 
-Tempo: 4 s. File scritto: sec_CVX.json
+Tempo: 8 s. File scritto: sec_CVX.json

@@ -799,7 +799,8 @@
    "2022": 2942.0,
    "2021": 2959.0,
    "2020": 2960.0,
-   "2019": 3078.0
+   "2019": 3078.0,
+   "2018": 3078.0
   },
   "cvx:ShortTermDebtReclassifiedToLongTermDebtAmount": {
    "2025": 9941.0,
@@ -824,7 +825,8 @@
   "cvx:LongtermDebtCurrentMaturitiesNetofUnamortizedDiscountsandIssuanceCosts": {
    "2021": 4946.0,
    "2020": 2600.0,
-   "2019": 5054.0
+   "2019": 5054.0,
+   "2018": 4999.0
   },
   "cvx:CurrentMaturitiesofLongTermFinanceLeases": {
    "2021": 48.0,
@@ -834,7 +836,48 @@
   "cvx:DebtInstrumentUnamortizedDiscountPremiumandDebtIssuanceCostsLongternNet": {
    "2021": 31.0,
    "2020": 102.0,
-   "2019": 17.0
+   "2019": 17.0,
+   "2018": 24.0
+  },
+  "cvx:DebtInstrumentUnamortizedDiscountPremiumandDebtIssuanceCostsShorttermNet": {
+   "2018": 1.0,
+   "2019": 0.0
+  },
+  "cvx:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBeforeAccumulatedDepreciationAndAmortization": {
+   "2019": 326722.0
+  },
+  "cvx:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization": {
+   "2019": 176228.0
+  },
+  "cvx:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization": {
+   "2019": 150494.0
+  },
+  "cvx:RightofuseAssetsandLeaseLiabilitiesPercentRecognizedfromJointVenture": {
+   "2019": 0.0
+  },
+  "cvx:LessAmountsRepresentingInterestAndExecutoryCostsInFutureCapitalLeasePayments": {
+   "2018": 88.0
+  },
+  "cvx:LesseeCapitalLeaseLeaseNotyetCommencedNextTwelveMonths": {
+   "2018": 14.0
+  },
+  "cvx:LesseeCapitalLeaseLeaseNotyetCommencedDueinTwoYears": {
+   "2018": 15.0
+  },
+  "cvx:LesseeCapitalLeaseLeaseNotyetCommencedDueinThreeYears": {
+   "2018": 22.0
+  },
+  "cvx:LesseeCapitalLeaseLeaseNotyetCommencedDueinFourYears": {
+   "2018": 21.0
+  },
+  "cvx:LesseeCapitalLeaseLeaseNotyetCommencedDueinFiveYears": {
+   "2018": 21.0
+  },
+  "cvx:LesseeCapitalLeaseLeaseNotyetCommencedDueThereafter": {
+   "2018": 219.0
+  },
+  "cvx:CurrentMaturitiesOfLongTermCapitalLeases": {
+   "2018": 18.0
   }
  },
  "avvisi": [

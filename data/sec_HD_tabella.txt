@@ -58,15 +58,18 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 hd:DeferredTaxAssetsLeaseLiabilities                                 .        .        .        .        .    1,536    1,605    1,528    1,879    2,034    2,255    2,358
-hd:LesseeLeasesNotYetCommencedUndiscounted                           .        .        .        .        .        .      833    1,300    2,100      450        .      675
+hd:LesseeLeasesNotYetCommencedUndiscounted                           .        .        .        .        .    1,900      833    1,300    2,100      450        .      675
 hd:OperatingLeaseAndFinanceLeaseLiabilities                          .        .        .        .        .        .        .        .   10,456   11,400   11,928   12,541
 hd:OperatingLeaseAndFinanceLeaseRightOfUseAssets                     .        .        .        .        .        .        .        .    9,840   10,724   11,230   11,767
 hd:OperatingLeaseandFinanceLeaseLiabilities                          .        .        .        .        .    7,059    8,950    9,419   10,456        .        .        .
 hd:OperatingLeaseandFinanceLeaseRightofUseAssets                     .        .        .        .        .    6,529    8,455    8,864    9,840        .        .        .
+hd:PropertyPlantandEquipmentandFinanceLeaseRightofUseAssetAccu       .        .        .        .        .   22,090        .        .        .        .        .        .
+hd:PropertyPlantandEquipmentandFinanceLeaseRightofUseAssetafte       .        .        .        .        .   22,770        .        .        .        .        .        .
+hd:PropertyPlantandEquipmentandFinanceLeaseRightofUseAssetbefo       .        .        .        .        .   44,860        .        .        .        .        .        .
 
 --- AVVISI ---
 Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)
 2025: acquisizione pagata in azioni letta dalla voce non monetaria del rendiconto (StockIssued1): 321 mln, da verificare nella nota Acquisizioni
 Il tag del debito include i leasing finanziari negli anni 2009-2026: non sommarli di nuovo
 
-Tempo: 3 s. File scritto: sec_HD.json
+Tempo: 5 s. File scritto: sec_HD.json

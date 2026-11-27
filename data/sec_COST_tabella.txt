@@ -58,7 +58,7 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 cost:DeferredTaxAssetsOperatingLeaseLiabilities                      .        .        .        .        .      832      769      727      678      678      699      710
-cost:LesseeOperatingandFinancingLeasesNotYetCommenced                .        .        .        .        .        .      665      660      843    1,080    1,094    1,667
+cost:LesseeOperatingandFinancingLeasesNotYetCommenced                .        .        .        .        .      280      665      660      843    1,080    1,094    1,667
 cost:OperatingLeaseandFinanceLeaseLiabilities                        .        .        .        .        .    3,477    3,916    4,349    4,078    4,052    4,147    4,019
 cost:OperatingLeaseandFinanceLeaserightofuseassets                   .        .        .        .        .    3,380    3,890    4,394    4,038    4,050    4,213    4,110
 
@@ -66,4 +66,4 @@ cost:OperatingLeaseandFinanceLeaserightofuseassets                   .        . 
 Debiti finanziari a breve: ultimo anno 2022 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
 
-Tempo: 3 s. File scritto: sec_COST.json
+Tempo: 5 s. File scritto: sec_COST.json

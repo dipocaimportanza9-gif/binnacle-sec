@@ -494,6 +494,43 @@
   "etsy:CashCashEquivalentsShortTermAndLongTermInvestments": {
    "2020": 1708.3,
    "2019": 906.6
+  },
+  "etsy:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetAfterAccumulatedDepreciationAndAmortization": {
+   "2019": 144.9
+  },
+  "etsy:FacilityFinancingObligationNoncurrent": {
+   "2018": 60.0
+  },
+  "etsy:CashCashEquivalentsShorttermAndLongtermInvestments": {
+   "2019": 906.6,
+   "2018": 624.3
+  },
+  "etsy:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetBeforeAccumulatedDepreciationAndAmortization": {
+   "2019": 264.9
+  },
+  "etsy:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetAccumulatedDepreciationAndAmortization": {
+   "2019": 120.1
+  },
+  "etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueNextTwelveMonths": {
+   "2018": 9.5
+  },
+  "etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueinTwoYears": {
+   "2018": 9.5
+  },
+  "etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueinThreeYears": {
+   "2018": 10.4
+  },
+  "etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueinFourYears": {
+   "2018": 10.5
+  },
+  "etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueinFiveYears": {
+   "2018": 10.6
+  },
+  "etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueThereafter": {
+   "2018": 27.7
+  },
+  "etsy:BuildtoSuitLeasesFutureMinimumPaymentsDue": {
+   "2018": 78.2
   }
  },
  "avvisi": [

@@ -57,20 +57,22 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-tgt:DeferredTaxAssetsLeaseLiabilities                                .        .        .        .        .    1,000    1,108    1,245    1,316    1,468    1,600    1,534
-tgt:LeaseLiability                                                   .        .        .        .        .    3,845    4,283    4,822    5,006    5,621    6,096    5,947
-tgt:LeaseLiabilityPaymentsDue                                        .        .        .        .        .        .    5,546    6,087    6,369    7,409    8,059    7,858
-tgt:LeaseLiabilityPaymentsDueAfterYearFive                           .        .        .        .        .        .    3,381    3,628    3,673    4,322    4,624    4,400
-tgt:LeaseLiabilityPaymentsDueYearFive                                .        .        .        .        .        .      410      463      506      578      634      614
-tgt:LeaseLiabilityPaymentsDueYearFour                                .        .        .        .        .        .      424      476      520      605      675      664
+tgt:DeferredTaxAssetsLeaseLiabilities                                .        .        .        .      823    1,000    1,108    1,245    1,316    1,468    1,600    1,534
+tgt:FinanceLeaseRightOfUseAssetAccumulatedAmortization               .        .        .        .      371      441        .        .        .        .        .        .
+tgt:LeaseLiability                                                   .        .        .        .    3,191    3,845    4,283    4,822    5,006    5,621    6,096    5,947
+tgt:LeaseLiabilityPaymentsDue                                        .        .        .        .        .    5,095    5,546    6,087    6,369    7,409    8,059    7,858
+tgt:LeaseLiabilityPaymentsDueAfterYearFive                           .        .        .        .        .    3,108    3,381    3,628    3,673    4,322    4,624    4,400
+tgt:LeaseLiabilityPaymentsDueYearFive                                .        .        .        .        .      381      410      463      506      578      634      614
+tgt:LeaseLiabilityPaymentsDueYearFour                                .        .        .        .        .      395      424      476      520      605      675      664
 tgt:LeaseLiabilityPaymentsDueYearOne                                 .        .        .        .        .        .      441      513      580      655      715      738
-tgt:LeaseLiabilityPaymentsDueYearThree                               .        .        .        .        .        .      441      494      536      618      701      708
-tgt:LeaseLiabilityPaymentsDueYearTwo                                 .        .        .        .        .        .      449      513      554      631      710      734
-tgt:LeaseRightofUseAsset                                             .        .        .        .        .    3,416    3,731    4,208    4,330    4,832    5,320    5,102
-tgt:LesseeFinanceLeaseOptiontoExtendReasonablyCertain                .        .        .        .        .        .      160      126      195      226      245      286
-tgt:LesseeFinancingLeaseLeaseNotyetCommencedLiabilityIncurred        .        .        .        .        .        .    1,100      840      813      449        .        .
-tgt:LesseeOperatingLeaseLeaseNotyetCommencedLiabilityIncurred        .        .        .        .        .        .      231      290    1,800      879        .        .
-tgt:LesseeOperatingLeaseOptiontoExtendReasonablyCertain              .        .        .        .        .        .      847      942      878      782      777      719
+tgt:LeaseLiabilityPaymentsDueYearThree                               .        .        .        .        .      401      441      494      536      618      701      708
+tgt:LeaseLiabilityPaymentsDueYearTwo                                 .        .        .        .        .      405      449      513      554      631      710      734
+tgt:LeaseLiabilityPaymentsRemainderofFiscalYear                      .        .        .        .        .      405        .        .        .        .        .        .
+tgt:LeaseRightofUseAsset                                             .        .        .        .    2,837    3,416    3,731    4,208    4,330    4,832    5,320    5,102
+tgt:LesseeFinanceLeaseOptiontoExtendReasonablyCertain                .        .        .        .        .      118      160      126      195      226      245      286
+tgt:LesseeFinancingLeaseLeaseNotyetCommencedLiabilityIncurred        .        .        .        .        .      462    1,100      840      813      449        .        .
+tgt:LesseeOperatingLeaseLeaseNotyetCommencedLiabilityIncurred        .        .        .        .        .      275      231      290    1,800      879        .        .
+tgt:LesseeOperatingLeaseOptiontoExtendReasonablyCertain              .        .        .        .        .      901      847      942      878      782      777      719
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2014-2026: non sommarli di nuovo
@@ -78,4 +80,4 @@ Il tag del debito include i leasing finanziari negli anni 2014-2026: non sommarl
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dBrev: ShorttermDebtAverageOutstandingAmount {2023: 709, 2024: 1}
 
-Tempo: 3 s. File scritto: sec_TGT.json
+Tempo: 6 s. File scritto: sec_TGT.json

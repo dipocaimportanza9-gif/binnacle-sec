@@ -58,7 +58,14 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 nke:DeferredTaxAssetsOperatingLeaseLiabilities                       .        .        .        .        .      491      499      508      511      474      458      427
-nke:LesseeOperatingLeaseLiabilityAgreementsSignedButNotCommenc       .        .        .        .        .        .       78      175      278      614      482       77
+nke:LesseeOperatingLeaseLiabilityAgreementsSignedButNotCommenc       .        .        .        .        .       67       78      175      278      614      482       77
+nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDue                .        .        .        .    4,106        .        .        .        .        .        .        .
+nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDueInFiveYea       .        .        .        .      379        .        .        .        .        .        .        .
+nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDueInFourYea       .        .        .        .      423        .        .        .        .        .        .        .
+nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDueInThreeYe       .        .        .        .      481        .        .        .        .        .        .        .
+nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDueInTwoYear       .        .        .        .      547        .        .        .        .        .        .        .
+nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDueThereafte       .        .        .        .    1,691        .        .        .        .        .        .        .
+nke:OperatingAndCapitalLeasesFutureMinimumPaymentsRemainderofF       .        .        .        .      585        .        .        .        .        .        .        .
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2024 (mancano anni recenti)
@@ -68,4 +75,4 @@ finLiab: OperatingLeaseRightOfUseAsset {2023: 2923, 2024: 2718, 2025: 2712, 2026
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 602, 2024: 458, 2025: 607, 2026: 849}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 377, 2024: 324, 2025: 286, 2026: 501}
 
-Tempo: 3 s. File scritto: sec_NKE.json
+Tempo: 4 s. File scritto: sec_NKE.json

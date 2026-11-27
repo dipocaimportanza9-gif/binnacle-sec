@@ -647,7 +647,23 @@
    "2020": 0.0
   },
   "amt:LongTermDebtTotalCashObligations": {
-   "2020": 29462.7
+   "2020": 29462.7,
+   "2019": 24199.7
+  },
+  "amt:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization": {
+   "2019": 12084.4
+  },
+  "amt:PrepaidOperatingGroundLeases": {
+   "2018": 165.0
+  },
+  "amt:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBeforeAccumulatedDepreciationAndAmortization": {
+   "2019": 19325.6
+  },
+  "amt:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization": {
+   "2019": 7241.2
+  },
+  "amt:PrepaidLongTermOperatingGroundLeases": {
+   "2018": 607.5
   }
  },
  "avvisi": [

@@ -540,7 +540,29 @@
    "2024": 614.0,
    "2023": 278.0,
    "2022": 175.0,
-   "2021": 78.0
+   "2021": 78.0,
+   "2020": 67.0
+  },
+  "nke:OperatingAndCapitalLeasesFutureMinimumPaymentsRemainderofFiscalYear": {
+   "2019": 585.0
+  },
+  "nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDueInTwoYears": {
+   "2019": 547.0
+  },
+  "nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDueInThreeYears": {
+   "2019": 481.0
+  },
+  "nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDueInFourYears": {
+   "2019": 423.0
+  },
+  "nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDueInFiveYears": {
+   "2019": 379.0
+  },
+  "nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDueThereafter": {
+   "2019": 1691.0
+  },
+  "nke:OperatingAndCapitalLeasesFutureMinimumPaymentsDue": {
+   "2019": 4106.0
   }
  },
  "avvisi": [

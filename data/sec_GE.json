@@ -536,7 +536,8 @@
    "2022": 36845.0,
    "2021": 37166.0,
    "2020": 42191.0,
-   "2019": 39826.0
+   "2019": 39826.0,
+   "2018": 35562.0
   },
   "ge:DebtAndEquitySecuritiesCostNoncurrent": {
    "2025": 40422.0,
@@ -625,7 +626,8 @@
   },
   "ge:DebtAndEquitySecuritiesAmortizedCostBasis": {
    "2020": 41632.0,
-   "2019": 42816.0
+   "2019": 42816.0,
+   "2018": 31277.0
   },
   "ge:DebtAndEquitySecuritiesAccumulatedGrossUnrealizedGainBeforeTax": {
    "2020": 8342.0,
@@ -637,27 +639,33 @@
   },
   "ge:DebtAndEquitySecurities": {
    "2020": 49868.0,
-   "2019": 48521.0
+   "2019": 48521.0,
+   "2018": 33508.0
   },
   "ge:NetInvestmentInLeaseLeaseReceivableGross": {
    "2020": 1202.0,
-   "2019": 1628.0
+   "2019": 1628.0,
+   "2018": 2719.0
   },
   "ge:LessorExcludingOperatingLeasesLeaseReceivablePaymentsToBeReceived": {
    "2020": 1119.0,
-   "2019": 1412.0
+   "2019": 1412.0,
+   "2018": 2245.0
   },
   "ge:LessorExcludingOperatingLeasesDiscountedLeaseReceivable": {
    "2020": 986.0,
-   "2019": 1234.0
+   "2019": 1234.0,
+   "2018": 1916.0
   },
   "ge:LeveragedLeasesNetInvestmentinLeveragedLeasesDisclosureDiscountedLeaseReceivable": {
    "2020": 431.0,
-   "2019": 574.0
+   "2019": 574.0,
+   "2018": 781.0
   },
   "ge:LeaseExcludingOperatingLeaseUnguaranteedResidualAssetNet": {
    "2020": 819.0,
-   "2019": 835.0
+   "2019": 835.0,
+   "2018": 906.0
   },
   "ge:SalestypeandDirectFinancingLeasesUnguaranteedResidualAssetNet": {
    "2020": 472.0,
@@ -665,11 +673,22 @@
   },
   "ge:LeveragedLeasesNetInvestmentInLeveragedLeasesDisclosureResidualValueOfLeasedAssetsNet": {
    "2020": 347.0,
-   "2019": 423.0
+   "2019": 423.0,
+   "2018": 486.0
   },
   "ge:LeaseNetInvestmentInLease": {
    "2020": 1805.0,
-   "2019": 2070.0
+   "2019": 2070.0,
+   "2018": 2822.0
+  },
+  "ge:CapitalLeasesDeferredIncome": {
+   "2018": 286.0
+  },
+  "ge:CapitalLeasesLeaseReceivable": {
+   "2018": 1135.0
+  },
+  "ge:CapitalLeasesUnguaranteedResidualAssetNet": {
+   "2018": 420.0
   }
  },
  "avvisi": [

@@ -459,7 +459,8 @@
    "2024": 4306.0,
    "2023": 4326.0,
    "2022": 4064.0,
-   "2021": 4586.0
+   "2021": 4586.0,
+   "2020": 1191.0
   },
   "dis:FilmReleasedFilmExpectedAmortizationYearTwo": {
    "2026": 2961.0,
@@ -467,7 +468,8 @@
    "2024": 3071.0,
    "2023": 2655.0,
    "2022": 2676.0,
-   "2021": 2751.0
+   "2021": 2751.0,
+   "2020": 734.0
   },
   "dis:FilmReleasedFilmExpectedAmortizationYearThree": {
    "2026": 2504.0,
@@ -475,7 +477,8 @@
    "2024": 2386.0,
    "2023": 2138.0,
    "2022": 2160.0,
-   "2021": 1727.0
+   "2021": 1727.0,
+   "2020": 402.0
   },
   "dis:FilmCompletedAndNotReleasedFilmExpectedAmortizationInNextOperatingCycle": {
    "2026": 830.0,
@@ -483,7 +486,8 @@
    "2024": 858.0,
    "2023": 830.0,
    "2022": 869.0,
-   "2021": 646.0
+   "2021": 646.0,
+   "2020": 496.0
   },
   "dis:NotionalAmountOfFloatingInterestRateDebtWithInterestRateHedgeAndCrossCurrencySwap": {
    "2026": 11037.0,
@@ -491,7 +495,8 @@
    "2024": 12012.0,
    "2023": 13503.0,
    "2022": 14472.0,
-   "2021": 15141.0
+   "2021": 15141.0,
+   "2020": 15795.0
   },
   "dis:LongTermDebtExpectedInterestPaymentYearOne": {
    "2026": 1614.0,
@@ -612,7 +617,8 @@
    "2023": 852.0,
    "2022": 748.0,
    "2021": 764.0,
-   "2020": 825.0
+   "2020": 825.0,
+   "2019": 23.0
   },
   "dis:DeferredTaxLiabilitiesInvestmentinU.S.Entities": {
    "2026": 1936.0,
@@ -621,7 +627,8 @@
    "2023": 1271.0,
    "2022": 1798.0,
    "2021": 2653.0,
-   "2020": 2514.0
+   "2020": 2514.0,
+   "2019": 2258.0
   },
   "dis:DeferredTaxLiabilitiesInvestmentinForeignEntities": {
    "2026": 1031.0,
@@ -630,7 +637,8 @@
    "2023": 482.0,
    "2022": 543.0,
    "2021": 392.0,
-   "2020": 266.0
+   "2020": 266.0,
+   "2019": 146.0
   },
   "dis:OperatingAndFinancingLeaseTotalRightOfUseAsset": {
    "2026": 3404.0,
@@ -672,11 +680,27 @@
    "2024": 3512.0,
    "2023": 3998.0,
    "2022": 3635.0,
-   "2021": 3620.0
+   "2021": 3620.0,
+   "2020": 3387.0
   },
   "dis:EstimatedFutureLeasePaymentsNotCommenced": {
    "2023": 500.0,
    "2022": 832.0
+  },
+  "dis:TelevisionReleasedExpectedAmortizationYearOne": {
+   "2020": 2369.0
+  },
+  "dis:TelevisionReleasedFilmExpectedAmortizationYearTwo": {
+   "2020": 1352.0
+  },
+  "dis:TelevisionReleasedExpectedAmortizationYearThree": {
+   "2020": 856.0
+  },
+  "dis:TelevisionCompletedAndNotReleasedExpectedAmortizationInNextOperatingCycle": {
+   "2020": 186.0
+  },
+  "dis:LesseeOperatingLeaseLeaseNotYetCommenced": {
+   "2020": 277.0
   }
  },
  "avvisi": [
@@ -825,6 +849,34 @@
  "chiusura_esercizio": "1003",
  "nome": "Walt Disney Co",
  "debug_acq_ixbrl": [
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 33774.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 33774.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 10408.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=TotalexcludingredeemablenoncontrollinginterestMember"
+   ],
+   "mln": 44182.0
+  },
   {
    "anno": 2019,
    "colonne": [

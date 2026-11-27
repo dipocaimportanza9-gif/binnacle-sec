@@ -58,8 +58,13 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 cat:DeferredTaxAssetsLeaseObligation                                 .        .        .        .      157      154      159      144      144      151        .        .
-cat:EquityMethodInvestmentOwnershipPercentageSignificantInflue       .        .        .        .        .        0        0        .        .        .        .        .
+cat:EquityMethodInvestmentOwnershipPercentageSignificantInflue       .        .        .        .        0        0        0        .        .        .        .        .
 cat:FaceAmountMediumTermNoteThatWereReclassifiedBetweenAnnualM       .        .        .        .        .        .    1,350      900      500    1,250    1,750        .
+cat:LongTermDebtDueAfterOneYearFinancialProducts                     .        .        .   16,995   17,140        .        .        .        .        .        .        .
+cat:LongTermDebtDueAfterOneYearMachineryEnergyTransNoncurrent        .        .        .    8,005    9,141        .        .        .        .        .        .        .
+cat:LongTermDebtDueWithinOneYearFinancialProducts                    .        .        .    5,820    6,194        .        .        .        .        .        .        .
+cat:LongtermDebtDueafterOneYearMachineryEnergyTransportationNo       .        .        .    8,005    7,643        .        .        .        .        .        .        .
+cat:LongtermDebtDuewithinOneYearMachineryEnergyandTransportati       .        .        .       10       16        .        .        .        .        .        .        .
 
 --- AVVISI ---
 OCI accumulato dei soli titoli disponibili per la vendita (cambi e coperture esclusi): ultimo anno 2022 (mancano anni recenti)
@@ -69,4 +74,4 @@ finLiab: OperatingLeaseRightOfUseAsset {2023: 556, 2024: 592, 2025: 708}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 148, 2024: 187, 2025: 259}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 70, 2024: 77, 2025: 114}
 
-Tempo: 6 s. File scritto: sec_CAT.json
+Tempo: 5 s. File scritto: sec_CAT.json

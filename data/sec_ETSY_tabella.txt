@@ -57,11 +57,23 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+etsy:BuildtoSuitLeasesFutureMinimumPaymentsDue                       .        .        .       78        .        .        .        .        .        .        .        .
+etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueNextTwelveMonths       .        .        .       10        .        .        .        .        .        .        .        .
+etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueThereafter             .        .        .       28        .        .        .        .        .        .        .        .
+etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueinFiveYears            .        .        .       11        .        .        .        .        .        .        .        .
+etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueinFourYears            .        .        .       10        .        .        .        .        .        .        .        .
+etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueinThreeYears           .        .        .       10        .        .        .        .        .        .        .        .
+etsy:BuildtoSuitLeasesFutureMinimumPaymentsDueinTwoYears             .        .        .       10        .        .        .        .        .        .        .        .
 etsy:CashCashEquivalentsShortTermAndLongTermInvestments              .        .        .        .      907    1,708        .        .        .        .        .        .
+etsy:CashCashEquivalentsShorttermAndLongtermInvestments              .        .        .      624      907        .        .        .        .        .        .        .
 etsy:DeferredTaxAssetsFinancingArrangements                          .        .        .        .        .        .       47       40       32        .        .        .
 etsy:DeferredTaxAssetsTaxDeferredExpenseFinancingAndInterest         .        .        .        .        .        .        .        .       32       15        5        .
+etsy:FacilityFinancingObligationNoncurrent                           .        .        .       60        .        .        .        .        .        .        .        .
 etsy:LesseeFinanceLeaseTenantImprovementAllowance                    .        .        .        .        .        .        .        .        .        .        6        .
 etsy:LesseeOperatingLeaseTenantImprovementAllowance                  .        .        .        .        .        .        .        .        .        .        2        .
+etsy:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetAc       .        .        .        .      120        .        .        .        .        .        .        .
+etsy:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetAf       .        .        .        .      145        .        .        .        .        .        .        .
+etsy:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetBe       .        .        .        .      265        .        .        .        .        .        .        .
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
@@ -73,4 +85,4 @@ eqPriv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0}
 eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0}
 ltInv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0}
 
-Tempo: 4 s. File scritto: sec_ETSY.json
+Tempo: 5 s. File scritto: sec_ETSY.json

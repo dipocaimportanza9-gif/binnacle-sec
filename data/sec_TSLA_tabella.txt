@@ -58,17 +58,23 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 tsla:AccruedWarrantyReserveCurrentPortion                            .        .        .        .      344      479      703    1,025    1,546    1,917    2,475        .
-tsla:AccruedWarrantyReserveNoncurrent                                .        .        .        .      745      989    1,398    2,480    3,606    4,799    6,132        .
+tsla:AccruedWarrantyReserveNoncurrent                                .        .        .      547      745      989    1,398    2,480    3,606    4,799    6,132        .
+tsla:BuildToSuitLeaseLiabilityAccruedCurrent                         .        .        .       82        .        .        .        .        .        .        .        .
+tsla:BuildToSuitLeaseLiabilityNoncurrent                             .        .        .    1,660        .        .        .        .        .        .        .        .
+tsla:ConvertibleSeniorNoteUnpaidPrincipalAmountDueToRelatedPar       .        .        .        .        3        .        .        .        .        .        .        .
+tsla:ConvertibleSeniorNotesIssueToRelatedParties                     .        .        .        3        3        .        .        .        .        .        .        .
 tsla:DebtSecuritiesAvailableForSaleAmortizedCostIncludingCashA       .        .        .        .        .        .        .        .        .   36,549   44,056        .
 tsla:DebtSecuritiesAvailableForSaleIncludingCashAndCashEquival       .        .        .        .        .        .        .        .        .   36,563   44,059        .
 tsla:DeferredTaxAssetsOperatingLeaseRightOfUseLiabilities            .        .        .        .      290      335      430      554      930    1,186    1,376        .
 tsla:DeferredTaxLiabilitiesOperatingLeaseRightOfUseAssets            .        .        .        .      263      305      391      506      859    1,097    1,267        .
-tsla:FinanceLeaseAccumulatedDepreciation                             .        .        .        .      483      816    1,210        .        .        .        .        .
-tsla:FinanceLeaseRightOfUseAssetsBeforeAccumulatedDepreciation       .        .        .        .    2,080    2,280    2,750        .        .        .        .        .
+tsla:FinanceLeaseAccumulatedDepreciation                             .        .        .      232      483      816    1,210        .        .        .        .        .
+tsla:FinanceLeaseRightOfUseAssetsBeforeAccumulatedDepreciation       .        .        .    1,520    2,080    2,280    2,750        .        .        .        .        .
+tsla:FinancingObligationCurrent                                      .        .        .       62       57        .        .        .        .        .        .        .
+tsla:FinancingObligationNoncurrent                                   .        .        .       50       37        .        .        .        .        .        .        .
 tsla:LesseeOperatingLeaseCapitalExpenditures                         .        .        .        .        .        .        .        .   14,080        .        .        .
-tsla:LongTermDebtAndFinanceLeasesCurrent                             .        .        .        .    1,785    2,132    1,589    1,502    2,373    2,456    1,640        .
-tsla:LongTermDebtAndFinanceLeasesNoncurrent                          .        .        .        .   11,634    9,556    5,245    1,597    2,857    5,757    6,736        .
-tsla:MinimumLeasePaymentPercentageOfFairValue                        .        .        .        .        .        0        .        .        .        .        .        .
+tsla:LongTermDebtAndFinanceLeasesCurrent                             .        .        .    2,568    1,785    2,132    1,589    1,502    2,373    2,456    1,640        .
+tsla:LongTermDebtAndFinanceLeasesNoncurrent                          .        .        .    9,404   11,634    9,556    5,245    1,597    2,857    5,757    6,736        .
+tsla:MinimumLeasePaymentPercentageOfFairValue                        .        .        .        .        0        0        .        .        .        .        .        .
 tsla:OperatingLeasesNotYetCommencedValueWithAggregateRentPayme       .        .        .        .        .        .        .      901    1,530    1,100      849        .
 tsla:SalesTypeLeaseUnearnedInterestIncome                            .        .        .        .        .       11       50       95        .        .        .        .
 
@@ -83,4 +89,4 @@ eqMeth: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 afsDeb: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 ltInv: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 
-Tempo: 3 s. File scritto: sec_TSLA.json
+Tempo: 5 s. File scritto: sec_TSLA.json

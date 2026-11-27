@@ -68,4 +68,4 @@ vz:LesseeOperatingLeaseLeaseNotYetCommencedAmount                    .        . 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
 
-Tempo: 1 s. File scritto: sec_VZ.json
+Tempo: 2 s. File scritto: sec_VZ.json

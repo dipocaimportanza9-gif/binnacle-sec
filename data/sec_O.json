@@ -442,7 +442,8 @@
    "2023": -0.8,
    "2022": 11.6,
    "2021": 28.6,
-   "2020": 1.7
+   "2020": 1.7,
+   "2019": 3.0
   },
   "o:NumberOfPropertiesSubjectToDirectFinancingLeases": {
    "2022": 0.0,
@@ -452,6 +453,9 @@
    "2021": 31988.9,
    "2020": 17485.2,
    "2019": 16496.8
+  },
+  "o:RealEstateReclassificationAdjustmentForRightOfUseAssetsUnderFinanceLeases": {
+   "2019": 36.9
   }
  },
  "avvisi": [
@@ -834,6 +838,20 @@
    "anno": 2021,
    "colonne": [],
    "mln": 11559.9
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "ConsolidatedEntitiesAxis=RealtyIncomeLPMember"
+   ],
+   "mln": 6.3
+  },
+  {
+   "anno": 2018,
+   "colonne": [
+    "ConsolidatedEntitiesAxis=RealtyIncomeLPMember"
+   ],
+   "mln": 18.8
   }
  ],
  "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"

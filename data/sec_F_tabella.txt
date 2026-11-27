@@ -60,12 +60,12 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 f:FinanceLeaseRightofUseAssetAccumulatedDepreciation                 .        .        .        .        .        .       68      109      114      162        .        .
 f:FinanceLeaseRightofUseAssetGross                                   .        .        .        .        .        .      715      791      897    1,150        .        .
 f:LesseeFinanceLeaseAmountLeaseCommencedInCurrentYear                .        .        .        .        .      300        .        .        .        .        .        .
-f:LesseeFinanceLeaseLeaseNotyetCommencedFuturePayments               .        .        .        .        .      101      252      300      449      707        .        .
+f:LesseeFinanceLeaseLeaseNotyetCommencedFuturePayments               .        .        .        .      400      101      252      300      449      707        .        .
 f:LessorOperatingLeasePaymentToBeReceivedThereafter                  .        .        .        .        .        .        .       11        .        .        .        .
 f:NetInvestmentInOperatingLeaseNoncurrent                            .        .        .        .        .   27,951   26,361   22,772   21,384   22,947        .        .
 f:NetInvestmentInOperatingLeasesNoncurrent                           .        .        .        .        .        .        .        .        .   22,947   28,540        .
 f:WholesaleLoansPercentageForDealerFinancing                         .        .        .        .        .        .        .        .        .        .        0        .
-f:WholesaleLoansPercentageOfDealerFinancing                          .        .        .        .        .        0        0        0        0        0        .        .
+f:WholesaleLoansPercentageOfDealerFinancing                          .        .        .        .        0        0        0        0        0        0        .        .
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
@@ -74,4 +74,4 @@ Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
 
-Tempo: 4 s. File scritto: sec_F.json
+Tempo: 5 s. File scritto: sec_F.json

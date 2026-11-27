@@ -57,20 +57,34 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-gm:DeferredTaxAssetsWarrantiesAllowancesClaimsDiscounts              .        .        .        .    6,299    5,538    4,253    4,341    3,684    4,215    4,803        .
+gm:DeferredTaxAssetsWarrantiesAllowancesClaimsDiscounts              .        .        .    6,307    6,299    5,538    4,253    4,341    3,684    4,215    4,803        .
+gm:FinanceLeaseLiabilityPaymentsDueNext12MonthsThroughYearFour       .        .        .        .      156        .        .        .        .        .        .        .
 gm:LessorOperatingLeaseLeaseNotYetCommencedAmount                    .        .        .        .        .      150      215      198      597        .        .        .
-gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .        .   18,616   22,213   21,957   25,081   23,247   24,691        .
-gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .        .    9,187    6,138    8,310    7,995   11,191   11,120        .
-gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .        .    7,894   11,228    7,878   10,596   12,400   14,216        .
-gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .        .   17,860   13,401   17,937   15,142   21,160   19,876        .
-gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .        .   19,449   23,091   21,262   25,615   24,228   25,865        .
-gm:LongtermDebtandFinanceLeaseObligationsRepaymentsofPrincipal       .        .        .        .        .   37,018   33,796   38,873   39,065   39,531   35,806        .
-gm:OperatingLeaseRightofuseAssetNoncurrent                           .        .        .        .   42,055   39,819   37,929   32,701   30,582   31,586   33,686        .
+gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .   18,967   18,616   22,213   21,957   25,081   23,247   24,691        .
+gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .    5,843    9,187    6,138    8,310    7,995   11,191   11,120        .
+gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .    8,584    7,894   11,228    7,878   10,596   12,400   14,216        .
+gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .   11,833   17,860   13,401   17,937   15,142   21,160   19,876        .
+gm:LongtermDebtandFinanceLeaseObligationsMaturitiesRepaymentso       .        .        .        .   21,225   19,449   23,091   21,262   25,615   24,228   25,865        .
+gm:LongtermDebtandFinanceLeaseObligationsRepaymentsofPrincipal       .        .        .        .   37,499   37,018   33,796   38,873   39,065   39,531   35,806        .
+gm:OperatingLeaseRightofuseAssetNoncurrent                           .        .        .   43,559   42,055   39,819   37,929   32,701   30,582   31,586   33,686        .
+gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleas       .        .        .       33        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleas       .        .        .       38        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleas       .        .        .       44        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleas       .        .        .       51        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleas       .        .        .      129        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleas       .        .        .       61        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentals          .        .        .    1,381        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsDue       .        .        .      453        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsDue       .        .        .      113        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsDue       .        .        .      142        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsDue       .        .        .      203        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsDue       .        .        .      235        .        .        .        .        .        .        .        .
+gm:OperatingLeasesFutureMinimumPaymentsNetOfSubleaseRentalsNex       .        .        .      235        .        .        .        .        .        .        .        .
 gm:PolicyProductWarrantyAndRecallCampaignsNetOfRecoveries            .        .        .        .    7,557    8,018    7,735    7,345    8,649   10,133   13,284        .
-gm:PolicyProductWarrantyRecallCampaignsandCourtesyTransportati       .        .        .        .    2,987    3,048    3,769    3,042    3,285    4,555    6,308        .
-gm:PolicyProductWarrantyRecallCampaignsandCourtesyTransportati       .        .        .        .    4,811    5,193    6,005    5,488    6,011    6,016    7,322        .
+gm:PolicyProductWarrantyRecallCampaignsandCourtesyTransportati       .        .        .    2,788    2,987    3,048    3,769    3,042    3,285    4,555    6,308        .
+gm:PolicyProductWarrantyRecallCampaignsandCourtesyTransportati       .        .        .    4,802    4,811    5,193    6,005    5,488    6,011    6,016    7,322        .
 gm:PolicyProductWarrantyReceivableSupplierRecoveries                 .        .        .        .      241      224    2,039    1,184      646      438      347        .
-gm:PolicyProductwarrantyandRecallcampaignsAccrual                    .        .    8,332    7,590    7,798    8,242    9,774    8,530    9,295   10,571   13,631        .
+gm:PolicyProductwarrantyandRecallcampaignsAccrual                    .    9,069    8,332    7,590    7,798    8,242    9,774    8,530    9,295   10,571   13,631        .
 gm:ProductLiabilityWarrantyAndOtherLegalAndEnvironmentalRelate       .        .        .        .        .        .        .        .    2,900    3,400    3,600        .
 
 --- AVVISI ---
@@ -94,4 +108,4 @@ eqPriv: FinancingReceivableRecordedInvestmentNonaccrualStatus {2023: 0}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 4200, 2024: 1900, 2025: 1600}
 ltInv: FinancingReceivableRecordedInvestmentNonaccrualStatus {2023: 0}
 
-Tempo: 3 s. File scritto: sec_GM.json
+Tempo: 7 s. File scritto: sec_GM.json

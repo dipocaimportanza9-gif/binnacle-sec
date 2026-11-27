@@ -59,8 +59,9 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 pep:CarryingAmountHedgedFixedRateDebt                                .        .        .        .        .        .        .        .        .    1,900    2,000        .
 pep:DeferredTaxLeaseliability                                        .        .        .        .      345      371      450      534      660      772      819        .
-pep:DeferredTaxLiabilitiesDebtGuaranteeOfWhollyOwnedSubsidiary       .        .        .        .      578      578      578      578      578      578      578        .
+pep:DeferredTaxLiabilitiesDebtGuaranteeOfWhollyOwnedSubsidiary       .        .        .      578      578      578      578      578      578      578      578        .
 pep:DeferredTaxLiabilityInvestmentInTBG                              .        .        .        .        .        .        .      186       93        .        .        .
+pep:IncreaseofAssetsandLiabilitiesLeases                             .        .        .        .        0        .        .        .        .        .        .        .
 pep:UtilizationUnderSupplyChainFinancingPrograms                     .        .        .        .        .        .        .    1,700        .        .        .        .
 
 --- AVVISI ---
@@ -80,4 +81,4 @@ ltInv: OtherInvestments {2023: 1616, 2024: 1346, 2025: 2526}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 520}
 ltInv: AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits {2023: 0, 2024: 0, 2025: 0}
 
-Tempo: 4 s. File scritto: sec_PEP.json
+Tempo: 5 s. File scritto: sec_PEP.json

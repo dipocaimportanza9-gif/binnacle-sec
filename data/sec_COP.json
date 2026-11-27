@@ -752,6 +752,19 @@
   },
   "cop:SettledDebtExchangeOfferPercentOfHistoricalNotes": {
    "2021": 0.0
+  },
+  "cop:Shortterminvestmentscarriedatcostplusaccruedinterest": {
+   "2019": 2929.0,
+   "2018": 248.0
+  },
+  "cop:ShortTermInvestmentsAtFairValue": {
+   "2019": 99.0
+  },
+  "cop:InvestmentsAndLongTermReceivableCarriedAtFairValue": {
+   "2019": 133.0
+  },
+  "cop:NetMinimumOperatingLeasePayments": {
+   "2019": 1387.0
   }
  },
  "avvisi": [

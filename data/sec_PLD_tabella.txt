@@ -57,9 +57,9 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-pld:CostOfPropertiesSecuringMortgageDebt                             .        .        .        .        .    1,600    1,400    1,300    1,100      755      477        .
-pld:CountOfOperatingPropertiesSecuringConsolidatedInvesteesMor       .        .        .        .        .        0        0        0        0        0        0        .
-pld:DeferredTaxLiabilitiesBasisDifferenceRealEstatePropertiesE       .        .        .        .       13       32       30       40       44       58       63        .
+pld:CostOfPropertiesSecuringMortgageDebt                             .        .        .        .    1,700    1,600    1,400    1,300    1,100      755      477        .
+pld:CountOfOperatingPropertiesSecuringConsolidatedInvesteesMor       .        .        .        .        0        0        0        0        0        0        0        .
+pld:DeferredTaxLiabilitiesBasisDifferenceRealEstatePropertiesE       .        .        .        2       13       32       30       40       44       58       63        .
 pld:NumberOfLandParcelSecuringMortgageDebt                           .        .        .        .        .        .        0        .        .        0        0        .
 pld:NumberOfPrestabilizedPropertiesSecuringMortgageDebt              .        .        .        .        .        0        .        .        .        .        .        .
 pld:OperatingLeaseLiabilityBeforeAmortization                        .        .        .        .      527        .        .      162       43        .        .        .
@@ -91,4 +91,4 @@ ltInv: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023:
 ltInv: RealEstateInvestmentsOther {2023: 5088, 2024: 5684, 2025: 6661}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 680, 2024: 562, 2025: 645}
 
-Tempo: 5 s. File scritto: sec_PLD.json
+Tempo: 4 s. File scritto: sec_PLD.json

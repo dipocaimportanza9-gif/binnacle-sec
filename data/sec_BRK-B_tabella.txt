@@ -57,8 +57,8 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-brka:DeferredTaxLiabilitiesPropertyPlantAndEquipmentEquipmentH       .        .        .        .   29,388   30,203   31,323   32,080   32,991   33,590   34,834        .
-brka:RepaymentsOfDebtPrincipalInNextTwelveMonths                     .        .        .        .        .    9,398    6,139   12,962   13,859    9,366    9,782        .
+brka:DeferredTaxLiabilitiesPropertyPlantAndEquipmentEquipmentH       .        .        .   28,279   29,388   30,203   31,323   32,080   32,991   33,590   34,834        .
+brka:RepaymentsOfDebtPrincipalInNextTwelveMonths                     .        .        .        .   10,420    9,398    6,139   12,962   13,859    9,366    9,782        .
 
 --- AVVISI ---
 FUORI PORTATA (SIC 6331 Fire, Marine & Casualty Insurance)

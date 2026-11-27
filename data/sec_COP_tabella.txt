@@ -60,11 +60,15 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 cop:DebtExchangeIncurredPremium                                      .        .        .        .        .        .        .      883        .        .        .        .
 cop:DebtInstrumentExchangeAmount                                     .        .        .        .        .        .        .    2,544        .        .        .        .
 cop:DebtPremiumCashComponent                                         .        .        .        .        .        .        .      872        .        .        .        .
+cop:InvestmentsAndLongTermReceivableCarriedAtFairValue               .        .        .        .      133        .        .        .        .        .        .        .
 cop:InvestmentsAndLongTermReceivablesCarriedAtCostPlusAccruedI       .        .        .        .        .        1        .        .        .        .        .        .
+cop:NetMinimumOperatingLeasePayments                                 .        .        .        .    1,387        .        .        .        .        .        .        .
 cop:SettledDebtExchangeOfferPercentOfHistoricalNotes                 .        .        .        .        .        .        0        .        .        .        .        .
 cop:ShorTtermInvestmentsExcludingCenovus                             .        .        .        .        .    3,609      446    2,785        .        .        .        .
+cop:ShortTermInvestmentsAtFairValue                                  .        .        .        .       99        .        .        .        .        .        .        .
 cop:ShortTermInvestmentsCarriedAtCostPlusAccruedInterest             .        .        .        .    2,929    3,320        .        .        .        .        .        .
 cop:ShortTermInvestmentsCarriedAtCostPlustAccruedInterest            .        .        .        .        .    3,320      225    2,182      536       12       31        .
+cop:Shortterminvestmentscarriedatcostplusaccruedinterest             .        .        .      248    2,929        .        .        .        .        .        .        .
 
 --- AVVISI ---
 Equity in societa' non quotate (valore contabile): ultimo anno 2022 (mancano anni recenti)
@@ -78,4 +82,4 @@ eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 2684, 2024: 2283, 
 eqPriv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 60, 2024: 96, 2025: 112}
 eqPriv: OtherInvestments {2023: 93, 2024: 90, 2025: 94}
 
-Tempo: 4 s. File scritto: sec_COP.json
+Tempo: 9 s. File scritto: sec_COP.json

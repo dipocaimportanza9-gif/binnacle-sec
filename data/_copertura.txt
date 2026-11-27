@@ -25,7 +25,7 @@ JNJ     SIC 2834   debito:si  leasing:si  invest:si  avvisi:1
 PFE     SIC 2834   debito:si  leasing:si  invest:si  avvisi:1  
 UNH     SIC 6324   debito:si  leasing:si  invest:si  avvisi:1  [finanziario/immobiliare: le regole su de]
 LLY     SIC 2834   debito:si  leasing:si  invest:si  avvisi:4  
-ABT     SIC 2834   debito:si  leasing:si  invest:si  avvisi:1  
+ABT     SIC 2834   debito:si  leasing:si  invest:si  avvisi:2  
 JPM     SIC 6021   debito:si  leasing:si  invest:si  avvisi:2  [finanziario/immobiliare: le regole su de]
 BAC     SIC 6021   debito:si  leasing:si  invest:si  avvisi:1  [finanziario/immobiliare: le regole su de]
 WFC     SIC 6021   debito:si  leasing:si  invest:NO  avvisi:3  [finanziario/immobiliare: le regole su de]

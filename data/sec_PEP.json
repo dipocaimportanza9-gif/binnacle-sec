@@ -575,7 +575,8 @@
    "2022": 578.0,
    "2021": 578.0,
    "2020": 578.0,
-   "2019": 578.0
+   "2019": 578.0,
+   "2018": 578.0
   },
   "pep:CarryingAmountHedgedFixedRateDebt": {
    "2025": 2000.0,
@@ -587,6 +588,9 @@
   },
   "pep:UtilizationUnderSupplyChainFinancingPrograms": {
    "2022": 1700.0
+  },
+  "pep:IncreaseofAssetsandLiabilitiesLeases": {
+   "2019": 0.0
   }
  },
  "avvisi": [
