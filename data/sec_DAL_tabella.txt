@@ -80,4 +80,4 @@ dal:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAft       .        . 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2022 (mancano anni recenti)
 
-Tempo: 5 s. File scritto: sec_DAL.json
+Tempo: 7 s. File scritto: sec_DAL.json

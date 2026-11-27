@@ -93,4 +93,4 @@ afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 
 ltInv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 34359, 2024: 35349, 2025: 32062}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 2025: 5282}
 
-Tempo: 5 s. File scritto: sec_CVX.json
+Tempo: 6 s. File scritto: sec_CVX.json

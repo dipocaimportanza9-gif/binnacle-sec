@@ -95,4 +95,4 @@ amzn:NonmarketableSecuritiesAgreedAdditionalInvestmentMaximum        .        . 
 --- AVVISI ---
 Righe sui contenuti trovate ma non riconosciute (vedi contenuti_letti): controllare i nomi
 
-Tempo: 3 s. File scritto: sec_AMZN.json
+Tempo: 5 s. File scritto: sec_AMZN.json

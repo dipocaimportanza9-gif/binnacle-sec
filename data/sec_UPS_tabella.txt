@@ -97,4 +97,4 @@ afsDeb: CollateralSecuritiesRepledgedDeliveredOrUsed {2023: 13, 2024: 0, 2025: 0
 ltInv: TradingSecurities {2023: 2866, 2024: 206, 2025: 3}
 ltInv: CollateralSecuritiesRepledgedDeliveredOrUsed {2023: 13, 2024: 0, 2025: 0}
 
-Tempo: 6 s. File scritto: sec_UPS.json
+Tempo: 8 s. File scritto: sec_UPS.json

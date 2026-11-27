@@ -74,4 +74,4 @@ Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
 
-Tempo: 5 s. File scritto: sec_F.json
+Tempo: 9 s. File scritto: sec_F.json

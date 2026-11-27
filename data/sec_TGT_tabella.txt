@@ -80,4 +80,4 @@ Il tag del debito include i leasing finanziari negli anni 2014-2026: non sommarl
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dBrev: ShorttermDebtAverageOutstandingAmount {2023: 709, 2024: 1}
 
-Tempo: 5 s. File scritto: sec_TGT.json
+Tempo: 6 s. File scritto: sec_TGT.json

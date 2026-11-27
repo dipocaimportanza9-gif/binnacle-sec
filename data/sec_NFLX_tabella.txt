@@ -74,4 +74,4 @@ eqMeth: DerivativeCollateralObligationToReturnSecurities {2023: 27, 2024: 316, 2
 ltInv: DerivativeCollateralRightToReclaimSecurities {2023: 27, 2024: 316, 2025: 282}
 ltInv: DerivativeCollateralObligationToReturnSecurities {2023: 27, 2024: 316, 2025: 282}
 
-Tempo: 1 s. File scritto: sec_NFLX.json
+Tempo: 2 s. File scritto: sec_NFLX.json
