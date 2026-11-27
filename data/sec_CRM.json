@@ -334,6 +334,11 @@
    "2020": 15588.0,
    "2022": 11269.0
   },
+  "stkNC": {
+   "2015": 338.0,
+   "2016": 0.0,
+   "2017": 1088.9
+  },
   "acqTot": {},
   "nrGw": {
    "2011": 0.0,
@@ -699,6 +704,11 @@
    "2019": "StockIssuedDuringPeriodValueAcquisitions",
    "2020": "StockIssuedDuringPeriodValueAcquisitions",
    "2022": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "stkNC": {
+   "2015": "StockIssued1",
+   "2016": "StockIssued1",
+   "2017": "StockIssued1"
   },
   "acqTot": {},
   "nrGw": {

@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -102,4 +103,4 @@ afsDeb: OtherInvestments {2023: 392, 2024: 1779, 2025: 1778}
 afsDeb: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 700, 2024: 500, 2025: 1600, 2026: 1300}
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 720, 2024: 437, 2025: 145, 2026: 206}
 
-Tempo: 3 s. File scritto: sec_DIS.json
+Tempo: 4 s. File scritto: sec_DIS.json

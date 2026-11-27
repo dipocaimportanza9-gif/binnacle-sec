@@ -222,6 +222,7 @@
    "2016": 604.0
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {
    "2021": 7300.0,
    "2022": 7300.0
@@ -479,6 +480,7 @@
    "2016": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {
    "2021": "BusinessCombinationConsiderationTransferred1",
    "2022": "BusinessCombinationConsiderationTransferred1"

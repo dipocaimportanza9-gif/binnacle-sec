@@ -196,6 +196,14 @@
    "2017": 3.1,
    "2018": 3.8
   },
+  "stkNC": {
+   "2013": 0.0,
+   "2014": 27.7,
+   "2015": 0.0,
+   "2016": 7.0,
+   "2017": 0.0,
+   "2018": 0.0
+  },
   "acqTot": {},
   "nrGw": {
    "2014": 0.0,
@@ -422,6 +430,14 @@
    "2016": "StockIssuedDuringPeriodValueAcquisitions",
    "2017": "StockIssuedDuringPeriodValueAcquisitions",
    "2018": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "stkNC": {
+   "2013": "StockIssued1",
+   "2014": "StockIssued1",
+   "2015": "StockIssued1",
+   "2016": "StockIssued1",
+   "2017": "StockIssued1",
+   "2018": "StockIssued1"
   },
   "acqTot": {},
   "nrGw": {

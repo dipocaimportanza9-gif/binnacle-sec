@@ -275,6 +275,7 @@
   },
   "aocs": {},
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2017": 0.0,
@@ -569,6 +570,7 @@
   },
   "aocs": {},
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2017": "GoodwillImpairmentLoss",

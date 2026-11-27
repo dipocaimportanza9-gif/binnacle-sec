@@ -274,6 +274,7 @@
    "2014": -16.0
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {
    "2013": 30.0
   },
@@ -569,6 +570,7 @@
    "2014": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {
    "2013": "BusinessCombinationConsiderationTransferred1"
   },

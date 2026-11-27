@@ -297,6 +297,7 @@
   "acqStock": {
    "2008": 21.0
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2008": 0.0,
@@ -617,6 +618,7 @@
   "acqStock": {
    "2008": "StockIssuedDuringPeriodValueAcquisitions"
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2008": "GoodwillImpairmentLoss",

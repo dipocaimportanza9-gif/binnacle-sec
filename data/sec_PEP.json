@@ -243,6 +243,7 @@
    "2019": 0.0
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {
    "2018": 3343.0
   },
@@ -519,6 +520,7 @@
    "2019": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {
    "2018": "BusinessCombinationConsiderationTransferred1"
   },

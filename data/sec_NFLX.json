@@ -170,6 +170,7 @@
    "2010": 0.8
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {},
   "nrAs": {},
@@ -341,6 +342,7 @@
    "2010": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {},
   "nrAs": {},

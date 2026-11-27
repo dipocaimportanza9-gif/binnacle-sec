@@ -186,6 +186,7 @@
    "2008": 4201.0,
    "2009": 29109.0
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2009": 0.0,
@@ -384,6 +385,7 @@
    "2008": "StockIssuedDuringPeriodValueAcquisitions",
    "2009": "StockIssuedDuringPeriodValueAcquisitions"
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2009": "GoodwillImpairmentLoss",

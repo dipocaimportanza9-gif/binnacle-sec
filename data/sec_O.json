@@ -155,6 +155,7 @@
    "2021": 11559.9,
    "2024": 6043.6
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2015": 0.0,
@@ -333,6 +334,7 @@
    "2021": "StockIssuedDuringPeriodValueAcquisitions",
    "2024": "StockIssuedDuringPeriodValueAcquisitions"
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2015": "GoodwillImpairmentLoss",

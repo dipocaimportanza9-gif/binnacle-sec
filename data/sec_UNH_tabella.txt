@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .   10,200        .    4,800        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -69,4 +70,4 @@ FUORI PORTATA (SIC 6324 Hospital & Medical Service Plans)
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 1077, 2024: 1305, 2025: 1391}
 
-Tempo: 2 s. File scritto: sec_UNH.json
+Tempo: 3 s. File scritto: sec_UNH.json

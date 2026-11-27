@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -61,4 +62,4 @@ msft:DeferredTaxAssetsBookTaxBasisDifferencesInInvestmentsAndD       .        . 
 msft:DeferredTaxLiabilitiesBookTaxBasisDifferencesInvestmentsA       .        .        .        .        .    2,642    2,381      174        0        .        0    2,972
 msft:PremiumOnDebtExchange1                                          .        .        .        .        .    3,619    5,293    5,191    5,085    4,976    4,864    4,750
 
-Tempo: 6 s. File scritto: sec_MSFT.json
+Tempo: 4 s. File scritto: sec_MSFT.json

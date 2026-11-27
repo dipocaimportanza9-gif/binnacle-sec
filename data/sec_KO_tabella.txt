@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -85,4 +86,4 @@ ltInv: MarketableSecurities {2023: 1300, 2024: 1723, 2025: 1934}
 ltInv: DebtSecurities {2023: 1175, 2024: 1676, 2025: 1824}
 ltInv: QualifiedAffordableHousingProjectInvestmentsCommitment {2024: 123, 2025: 32}
 
-Tempo: 4 s. File scritto: sec_KO.json
+Tempo: 3 s. File scritto: sec_KO.json

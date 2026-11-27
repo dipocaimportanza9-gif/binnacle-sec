@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -73,4 +74,4 @@ aapl:OperatingandFinanceLeaseLiability                               .        . 
 aapl:OperatingandFinanceLeaseRightofUseAsset                         .        .        .        .        .    9,199   10,948   11,369   11,676   11,303   12,238   12,815
 aapl:OperatingandFinanceLeaseWeightedAverageDiscountRatePercen       .        .        .        .        .        .        0        0        0        0        0        0
 
-Tempo: 3 s. File scritto: sec_AAPL.json
+Tempo: 2 s. File scritto: sec_AAPL.json

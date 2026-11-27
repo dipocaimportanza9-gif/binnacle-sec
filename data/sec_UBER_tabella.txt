@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .    3,898      929        .        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        0       93        9    3,898    1,868        0        0        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -69,6 +70,7 @@ uber:OperatingLeaseRightOfUseAssetPercentageOfLeasedAssetsFore       .        . 
 
 --- AVVISI ---
 Beni acquisiti con capital lease (non cash): ultimo anno 2023 (mancano anni recenti)
+Azioni emesse non in contanti (rendiconto, voce supplementare; riserva per acquisizioni): ultimo anno 2023 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---

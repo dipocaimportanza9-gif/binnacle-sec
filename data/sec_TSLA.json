@@ -263,6 +263,7 @@
    "2017": 269.0,
    "2019": 482.0
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2017": 0.0,
@@ -546,6 +547,7 @@
    "2017": "StockIssuedDuringPeriodValueAcquisitions",
    "2019": "StockIssuedDuringPeriodValueAcquisitions"
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2017": "GoodwillImpairmentLoss",

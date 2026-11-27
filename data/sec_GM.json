@@ -183,6 +183,7 @@
    "2012": 41.0
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2010": 0.0,
@@ -404,6 +405,7 @@
    "2012": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2010": "GoodwillImpairmentLoss",

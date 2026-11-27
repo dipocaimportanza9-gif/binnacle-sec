@@ -296,6 +296,7 @@
   "acqStock": {
    "2023": 55.0
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2014": 0.0,
@@ -638,6 +639,7 @@
   "acqStock": {
    "2023": "StockIssuedDuringPeriodValueAcquisitions"
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2014": "GoodwillImpairmentLoss",

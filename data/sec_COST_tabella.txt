@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -65,4 +66,4 @@ cost:OperatingLeaseandFinanceLeaserightofuseassets                   .        . 
 Debiti finanziari a breve: ultimo anno 2022 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
 
-Tempo: 3 s. File scritto: sec_COST.json
+Tempo: 2 s. File scritto: sec_COST.json

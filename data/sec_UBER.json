@@ -191,6 +191,15 @@
    "2020": 3898.0,
    "2021": 929.0
   },
+  "stkNC": {
+   "2017": 0.0,
+   "2018": 93.0,
+   "2019": 9.0,
+   "2020": 3898.0,
+   "2021": 1868.0,
+   "2022": 0.0,
+   "2023": 0.0
+  },
   "acqTot": {},
   "nrGw": {
    "2018": 0.0,
@@ -399,6 +408,15 @@
    "2020": "StockIssuedDuringPeriodValueAcquisitions",
    "2021": "StockIssuedDuringPeriodValueAcquisitions"
   },
+  "stkNC": {
+   "2017": "StockIssued1",
+   "2018": "StockIssued1",
+   "2019": "StockIssued1",
+   "2020": "StockIssued1",
+   "2021": "StockIssued1",
+   "2022": "StockIssued1",
+   "2023": "StockIssued1"
+  },
   "acqTot": {},
   "nrGw": {
    "2018": "GoodwillImpairmentLoss",
@@ -476,6 +494,7 @@
  },
  "avvisi": [
   "Beni acquisiti con capital lease (non cash): ultimo anno 2023 (mancano anni recenti)",
+  "Azioni emesse non in contanti (rendiconto, voce supplementare; riserva per acquisizioni): ultimo anno 2023 (mancano anni recenti)",
   "Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)"
  ],
  "candidati": {

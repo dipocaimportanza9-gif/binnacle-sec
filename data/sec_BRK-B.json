@@ -182,6 +182,9 @@
   },
   "aocs": {},
   "acqStock": {},
+  "stkNC": {
+   "2011": 245.0
+  },
   "acqTot": {
    "2008": 6100.0
   },
@@ -370,6 +373,9 @@
   },
   "aocs": {},
   "acqStock": {},
+  "stkNC": {
+   "2011": "StockIssued1"
+  },
   "acqTot": {
    "2008": "BusinessCombinationConsiderationTransferred"
   },

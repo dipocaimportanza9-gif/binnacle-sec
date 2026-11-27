@@ -263,6 +263,7 @@
    "2011": 476.0
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {
    "2023": 10200.0,
    "2025": 4800.0
@@ -554,6 +555,7 @@
    "2011": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {
    "2023": "BusinessCombinationConsiderationTransferred1",
    "2025": "BusinessCombinationConsiderationTransferred1"

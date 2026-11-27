@@ -183,6 +183,7 @@
    "2020": 48.5,
    "2021": 130.4
   },
+  "stkNC": {},
   "acqTot": {
    "2011": 5794.1
   },
@@ -377,6 +378,7 @@
    "2020": "StockIssuedDuringPeriodValueAcquisitions",
    "2021": "StockIssuedDuringPeriodValueAcquisitions"
   },
+  "stkNC": {},
   "acqTot": {
    "2011": "BusinessCombinationConsiderationTransferred"
   },

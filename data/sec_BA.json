@@ -281,6 +281,7 @@
   "acqStock": {
    "2025": 4704.0
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {},
   "nrAs": {
@@ -583,6 +584,7 @@
   "acqStock": {
    "2025": "StockIssuedDuringPeriodValueAcquisitions"
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {},
   "nrAs": {

@@ -317,6 +317,9 @@
   "acqStock": {
    "2012": 18071.0
   },
+  "stkNC": {
+   "2012": 18071.0
+  },
   "acqTot": {},
   "nrGw": {
    "2009": 130.0,
@@ -674,6 +677,9 @@
   "aocs": {},
   "acqStock": {
    "2012": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "stkNC": {
+   "2012": "StockIssued1"
   },
   "acqTot": {},
   "nrGw": {

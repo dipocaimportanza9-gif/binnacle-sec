@@ -43,7 +43,8 @@ OCI accumulato (utili/perdite non realizzati)                       -8       -5 
 OCI accumulato dei soli titoli disponibili per la vendita (cam      -1        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
-Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .   48,514        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       0        8       38      141        7        .        .   48,514        0        0        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -64,7 +65,9 @@ amd:OperatingLeaseNotYetCommenced                                    .        . 
 --- AVVISI ---
 Beni acquisiti con capital lease (non cash): ultimo anno 2022 (mancano anni recenti)
 Partecipazioni a patrimonio netto (equity method): ultimo anno 2024 (mancano anni recenti)
+Azioni emesse non in contanti (rendiconto, voce supplementare; riserva per acquisizioni): ultimo anno 2024 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)
+2022: acquisizione pagata in azioni letta dalla voce non monetaria del rendiconto (StockIssued1): 48514 mln, da verificare nella nota Acquisizioni
 Il tag del debito include i leasing finanziari negli anni 2009-2015: non sommarli di nuovo
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---

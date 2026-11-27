@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam      88       64 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .    3,343        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -79,4 +80,4 @@ ltInv: OtherInvestments {2023: 1616, 2024: 1346, 2025: 2526}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 520}
 ltInv: AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits {2023: 0, 2024: 0, 2025: 0}
 
-Tempo: 4 s. File scritto: sec_PEP.json
+Tempo: 5 s. File scritto: sec_PEP.json

@@ -281,6 +281,7 @@
    "2023": 4844.0,
    "2024": 63352.0
   },
+  "stkNC": {},
   "acqTot": {
    "2010": 24659.0
   },
@@ -577,6 +578,7 @@
    "2023": "StockIssuedDuringPeriodValueAcquisitions",
    "2024": "StockIssuedDuringPeriodValueAcquisitions"
   },
+  "stkNC": {},
   "acqTot": {
    "2010": "BusinessCombinationConsiderationTransferred"
   },

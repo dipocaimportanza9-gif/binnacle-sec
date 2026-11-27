@@ -242,6 +242,7 @@
    "2016": 74.0,
    "2017": 323.0
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2013": 0.0,
@@ -498,6 +499,7 @@
    "2016": "StockIssuedDuringPeriodValueAcquisitions",
    "2017": "StockIssuedDuringPeriodValueAcquisitions"
   },
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2013": "GoodwillImpairmentLoss",

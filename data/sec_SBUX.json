@@ -295,6 +295,7 @@
    "2013": -0.5
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2009": 7.0,
@@ -644,6 +645,7 @@
    "2013": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
   },
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2009": "GoodwillImpairmentLoss",

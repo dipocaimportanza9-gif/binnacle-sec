@@ -243,6 +243,7 @@
   },
   "aocs": {},
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2012": 1330.0,
@@ -520,6 +521,7 @@
   },
   "aocs": {},
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2012": "GoodwillImpairmentLoss",

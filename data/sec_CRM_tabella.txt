@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                   339        0    1,192       12    2,195   15,588        .   11,269        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;     338        0    1,089        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -65,4 +66,4 @@ Azioni emesse per acquisizioni (non in contanti): ultimo anno 2022 (mancano anni
 Svalutazione di avviamento: ultimo anno 2022 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
 
-Tempo: 1 s. File scritto: sec_CRM.json
+Tempo: 2 s. File scritto: sec_CRM.json

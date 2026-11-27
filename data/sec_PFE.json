@@ -286,6 +286,9 @@
   "acqStock": {
    "2009": 23633.0
   },
+  "stkNC": {
+   "2009": 23303.0
+  },
   "acqTot": {},
   "nrGw": {},
   "nrAs": {
@@ -608,6 +611,9 @@
   "aocs": {},
   "acqStock": {
    "2009": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "stkNC": {
+   "2009": "StockIssued1"
   },
   "acqTot": {},
   "nrGw": {},

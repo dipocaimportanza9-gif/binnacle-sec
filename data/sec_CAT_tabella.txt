@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -68,4 +69,4 @@ finLiab: OperatingLeaseRightOfUseAsset {2023: 556, 2024: 592, 2025: 708}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 148, 2024: 187, 2025: 259}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 70, 2024: 77, 2025: 114}
 
-Tempo: 4 s. File scritto: sec_CAT.json
+Tempo: 9 s. File scritto: sec_CAT.json

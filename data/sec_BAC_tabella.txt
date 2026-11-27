@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -127,4 +128,4 @@ ltInv: DebtSecuritiesTradingRestricted {2023: 130815, 2024: 170328, 2025: 185869
 ltInv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 83107, 2024: 98891, 2025: 129743}
 ltInv: NetInvestmentInLease {2023: 19050, 2024: 21102, 2025: 22718}
 
-Tempo: 1 s. File scritto: sec_BAC.json
+Tempo: 3 s. File scritto: sec_BAC.json

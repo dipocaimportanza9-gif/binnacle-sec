@@ -295,7 +295,15 @@
    "2026": -652.0
   },
   "aocs": {},
-  "acqStock": {},
+  "acqStock": {
+   "2025": 321.0
+  },
+  "stkNC": {
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": 321.0,
+   "2026": 0.0
+  },
   "acqTot": {},
   "nrGw": {
    "2011": 0.0,
@@ -630,7 +638,15 @@
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "aocs": {},
-  "acqStock": {},
+  "acqStock": {
+   "2025": "StockIssued1 (riserva, >=250 mln)"
+  },
+  "stkNC": {
+   "2023": "StockIssued1",
+   "2024": "StockIssued1",
+   "2025": "StockIssued1",
+   "2026": "StockIssued1"
+  },
   "acqTot": {},
   "nrGw": {
    "2011": "GoodwillImpairmentLoss",
@@ -718,6 +734,7 @@
  },
  "avvisi": [
   "Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)",
+  "2025: acquisizione pagata in azioni letta dalla voce non monetaria del rendiconto (StockIssued1): 321 mln, da verificare nella nota Acquisizioni",
   "Il tag del debito include i leasing finanziari negli anni 2009-2026: non sommarli di nuovo"
  ],
  "candidati": {},

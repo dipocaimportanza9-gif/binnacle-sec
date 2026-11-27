@@ -271,7 +271,20 @@
    "2014": 1.0,
    "2015": -1.0
   },
-  "acqStock": {},
+  "acqStock": {
+   "2022": 48514.0
+  },
+  "stkNC": {
+   "2014": 0.0,
+   "2015": 0.0,
+   "2016": 8.0,
+   "2017": 38.0,
+   "2018": 141.0,
+   "2019": 7.0,
+   "2022": 48514.0,
+   "2023": 0.0,
+   "2024": 0.0
+  },
   "acqTot": {
    "2012": 312.0
   },
@@ -583,7 +596,20 @@
    "2014": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
    "2015": "AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax"
   },
-  "acqStock": {},
+  "acqStock": {
+   "2022": "StockIssued1 (riserva, >=250 mln)"
+  },
+  "stkNC": {
+   "2014": "StockIssued1",
+   "2015": "StockIssued1",
+   "2016": "StockIssued1",
+   "2017": "StockIssued1",
+   "2018": "StockIssued1",
+   "2019": "StockIssued1",
+   "2022": "StockIssued1",
+   "2023": "StockIssued1",
+   "2024": "StockIssued1"
+  },
   "acqTot": {
    "2012": "BusinessCombinationConsiderationTransferred1"
   },
@@ -657,7 +683,9 @@
  "avvisi": [
   "Beni acquisiti con capital lease (non cash): ultimo anno 2022 (mancano anni recenti)",
   "Partecipazioni a patrimonio netto (equity method): ultimo anno 2024 (mancano anni recenti)",
+  "Azioni emesse non in contanti (rendiconto, voce supplementare; riserva per acquisizioni): ultimo anno 2024 (mancano anni recenti)",
   "Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)",
+  "2022: acquisizione pagata in azioni letta dalla voce non monetaria del rendiconto (StockIssued1): 48514 mln, da verificare nella nota Acquisizioni",
   "Il tag del debito include i leasing finanziari negli anni 2009-2015: non sommarli di nuovo"
  ],
  "candidati": {

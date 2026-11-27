@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -73,4 +74,4 @@ eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 
 afsDeb: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
 ltInv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
 
-Tempo: 2 s. File scritto: sec_PG.json
+Tempo: 1 s. File scritto: sec_PG.json

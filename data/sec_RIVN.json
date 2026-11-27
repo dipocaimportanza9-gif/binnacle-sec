@@ -99,6 +99,13 @@
   },
   "aocs": {},
   "acqStock": {},
+  "stkNC": {
+   "2021": 0.0,
+   "2022": 0.0,
+   "2023": 137.0,
+   "2024": 179.0,
+   "2025": 47.0
+  },
   "acqTot": {},
   "nrGw": {},
   "nrAs": {},
@@ -199,6 +206,13 @@
   },
   "aocs": {},
   "acqStock": {},
+  "stkNC": {
+   "2021": "StockIssued1",
+   "2022": "StockIssued1",
+   "2023": "StockIssued1",
+   "2024": "StockIssued1",
+   "2025": "StockIssued1"
+  },
   "acqTot": {},
   "nrGw": {},
   "nrAs": {},

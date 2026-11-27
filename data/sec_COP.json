@@ -329,6 +329,7 @@
   "acqStock": {
    "2021": 13125.0
   },
+  "stkNC": {},
   "acqTot": {
    "2021": 13100.0
   },
@@ -685,6 +686,7 @@
   "acqStock": {
    "2021": "StockIssuedDuringPeriodValueAcquisitions"
   },
+  "stkNC": {},
   "acqTot": {
    "2021": "BusinessCombinationConsiderationTransferred1"
   },

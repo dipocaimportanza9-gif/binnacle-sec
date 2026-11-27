@@ -116,6 +116,12 @@
    "2025": 87.7,
    "2026": 13.1
   },
+  "stkNC": {
+   "2019": 0.0,
+   "2020": 4.7,
+   "2021": 0.0,
+   "2022": 0.0
+  },
   "acqTot": {},
   "nrGw": {},
   "nrAs": {
@@ -236,6 +242,12 @@
    "2024": "StockIssuedDuringPeriodValueAcquisitions",
    "2025": "StockIssuedDuringPeriodValueAcquisitions",
    "2026": "StockIssuedDuringPeriodValueAcquisitions"
+  },
+  "stkNC": {
+   "2019": "StockIssued1",
+   "2020": "StockIssued1",
+   "2021": "StockIssued1",
+   "2022": "StockIssued1"
   },
   "acqTot": {},
   "nrGw": {},
@@ -381,7 +393,9 @@
    "2022": 15.6
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "Azioni emesse non in contanti (rendiconto, voce supplementare; riserva per acquisizioni): ultimo anno 2022 (mancano anni recenti)"
+ ],
  "candidati": {
   "finLiab": [
    {

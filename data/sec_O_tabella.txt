@@ -44,6 +44,7 @@ OCI accumulato dei soli titoli disponibili per la vendita (cam       .        . 
 
 --- ACQUISIZIONI NON IN CONTANTI ---
 Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .   11,560        .        .    6,044        .        .
+Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati) ---
@@ -108,4 +109,4 @@ ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 
 ltInv: RealEstateInvestmentsJointVentures {2023: 38}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 2, 2024: 8, 2025: 9}
 
-Tempo: 3 s. File scritto: sec_O.json
+Tempo: 8 s. File scritto: sec_O.json

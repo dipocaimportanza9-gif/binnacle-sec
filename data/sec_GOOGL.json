@@ -255,6 +255,7 @@
   },
   "aocs": {},
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2013": 0.0,
@@ -527,6 +528,7 @@
   },
   "aocs": {},
   "acqStock": {},
+  "stkNC": {},
   "acqTot": {},
   "nrGw": {
    "2013": "GoodwillImpairmentLoss",
