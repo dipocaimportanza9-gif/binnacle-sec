@@ -74,4 +74,4 @@ dal:LesseeFinanceLeaseAndOperatingLeaseLeaseNotYetCommencedAmo       .        . 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2022 (mancano anni recenti)
 
-Tempo: 3 s. File scritto: sec_DAL.json
+Tempo: 2 s. File scritto: sec_DAL.json

@@ -80,4 +80,4 @@ ltInv: OtherInvestments {2023: 1616, 2024: 1346, 2025: 2526}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 520}
 ltInv: AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits {2023: 0, 2024: 0, 2025: 0}
 
-Tempo: 5 s. File scritto: sec_PEP.json
+Tempo: 4 s. File scritto: sec_PEP.json

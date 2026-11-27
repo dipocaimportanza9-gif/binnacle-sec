@@ -47,7 +47,7 @@ VZ      SIC 4813   debito:si  leasing:si  invest:si  avvisi:1
 F       SIC 3711   debito:NO  leasing:si  invest:si  avvisi:1  
 TSLA    SIC 3711   debito:si  leasing:si  invest:NO  avvisi:3  
 GM      SIC 3711   debito:si  leasing:si  invest:si  avvisi:1  
-DIS     SIC 7990   debito:si  leasing:si  invest:si  avvisi:1  
+DIS     SIC 7990   debito:si  leasing:si  invest:si  avvisi:2  
 NFLX    SIC 7841   debito:si  leasing:si  invest:si  avvisi:0  
 DAL     SIC 4512   debito:si  leasing:si  invest:si  avvisi:1  
 UBER    SIC 7389   debito:si  leasing:si  invest:si  avvisi:3  

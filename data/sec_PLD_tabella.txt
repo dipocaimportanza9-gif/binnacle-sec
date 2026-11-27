@@ -90,4 +90,4 @@ ltInv: RealEstateInvestmentsUnconsolidatedRealEstateAndOtherJointVentures {2023:
 ltInv: RealEstateInvestmentsOther {2023: 5088, 2024: 5684, 2025: 6661}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 680, 2024: 562, 2025: 645}
 
-Tempo: 9 s. File scritto: sec_PLD.json
+Tempo: 4 s. File scritto: sec_PLD.json

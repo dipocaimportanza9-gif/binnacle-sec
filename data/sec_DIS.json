@@ -180,7 +180,9 @@
    "2026": -2581.0
   },
   "aocs": {},
-  "acqStock": {},
+  "acqStock": {
+   "2019": 33774.0
+  },
   "stkNC": {},
   "acqTot": {},
   "nrGw": {
@@ -393,7 +395,9 @@
    "2026": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
   },
   "aocs": {},
-  "acqStock": {},
+  "acqStock": {
+   "2019": "StockIssuedDuringPeriodValueAcquisitions (prospetto patrimonio netto 10-K, >=250 mln)"
+  },
   "stkNC": {},
   "acqTot": {},
   "nrGw": {
@@ -676,7 +680,8 @@
   }
  },
  "avvisi": [
-  "Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)"
+  "Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)",
+  "2019: acquisizione pagata in azioni letta dal prospetto del patrimonio netto del 10-K: 33774 mln, da verificare nella nota Acquisizioni"
  ],
  "candidati": {
   "opLiab": [

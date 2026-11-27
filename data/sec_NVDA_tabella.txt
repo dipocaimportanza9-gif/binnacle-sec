@@ -75,4 +75,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 153, 2024:
 eqMeth: MarketableSecurities {2023: 9907, 2024: 18704}
 ltInv: MarketableSecurities {2023: 9907, 2024: 18704}
 
-Tempo: 2 s. File scritto: sec_NVDA.json
+Tempo: 3 s. File scritto: sec_NVDA.json

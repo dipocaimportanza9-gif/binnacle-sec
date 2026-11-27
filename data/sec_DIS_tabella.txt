@@ -43,7 +43,7 @@ OCI accumulato (utili/perdite non realizzati)                        .   -3,979 
 OCI accumulato dei soli titoli disponibili per la vendita (cam       .        .        .        .        .        .        .        .        .        .        .        .
 
 --- ACQUISIZIONI NON IN CONTANTI ---
-Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .        .        .        .        .        .        .        .        .
+Azioni emesse per acquisizioni (non in contanti)                     .        .        .        .   33,774        .        .        .        .        .        .        .
 Azioni emesse non in contanti (rendiconto, voce supplementare;       .        .        .        .        .        .        .        .        .        .        .        .
 Corrispettivo totale delle acquisizioni (informativo)                .        .        .        .        .        .        .        .        .        .        .        .
 
@@ -90,6 +90,7 @@ dis:TotalOperatingLeaseLiabilityOnTheBalanceSheet                    .        . 
 
 --- AVVISI ---
 Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)
+2019: acquisizione pagata in azioni letta dal prospetto del patrimonio netto del 10-K: 33774 mln, da verificare nella nota Acquisizioni
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 opLiab: OperatingLeaseRightOfUseAsset {2023: 4211, 2024: 3376, 2025: 3170, 2026: 3164}
@@ -103,4 +104,4 @@ afsDeb: OtherInvestments {2023: 392, 2024: 1779, 2025: 1778}
 afsDeb: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 700, 2024: 500, 2025: 1600, 2026: 1300}
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 720, 2024: 437, 2025: 145, 2026: 206}
 
-Tempo: 4 s. File scritto: sec_DIS.json
+Tempo: 3 s. File scritto: sec_DIS.json
