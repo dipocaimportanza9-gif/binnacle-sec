@@ -227,6 +227,62 @@ def acq_azioni_da_ixbrl(html, dbg=None):
         if v > 0: out[y] = round(v, 1)
     return out
 
+RE_CT = re.compile(r"(Content|Film|Programming|Television|Streaming)", re.I)
+RE_CT_FLUSSO = re.compile(r"Addition|Payment|Production|Amortiz|Change|IncreaseDecrease|Cost", re.I)
+def contenuti_da_ixbrl(html):
+    """Contenuti capitalizzati (film, serie, programmi): fatti SENZA dimensioni, di qualsiasi prefisso, con nome che parla di contenuti.
+    Flussi (periodo di circa 12 mesi) e saldi (data) insieme. {prefisso:tag: {anno: valore_in_USD}}; i segni sono quelli del tag."""
+    ctx = {}
+    for m in re.finditer(r'<xbrli:context id="([^"]+)">(.*?)</xbrli:context>', html, re.S):
+        body = m.group(2)
+        if "explicitMember" in body or "typedMember" in body: continue
+        a = re.search(r"<xbrli:startDate>([^<]+)</xbrli:startDate>", body); b = re.search(r"<xbrli:endDate>([^<]+)</xbrli:endDate>", body)
+        i = re.search(r"<xbrli:instant>([^<]+)</xbrli:instant>", body)
+        try:
+            if a and b:
+                d0 = datetime.date.fromisoformat(a.group(1).strip()); d1 = datetime.date.fromisoformat(b.group(1).strip())
+                if 340 <= (d1 - d0).days <= 380: ctx[m.group(1)] = ("f", d1.year)
+            elif i: ctx[m.group(1)] = ("s", int(i.group(1).strip()[:4]))
+        except ValueError: continue
+    out = {}
+    for m in re.finditer(r"<ix:nonFraction([^>]*)>(.*?)</ix:nonFraction>", html, re.S):
+        a, txt = m.group(1), re.sub(r"<[^>]+>", "", m.group(2))
+        nm = re.search(r'name="([^"]+)"', a); cr = re.search(r'contextRef="([^"]+)"', a)
+        if not nm or not cr or cr.group(1) not in ctx: continue
+        pref, _, tag = nm.group(1).partition(":")
+        if pref in ("dei", "srt", "ecd", "ffd") or not RE_CT.search(tag): continue
+        tipo, anno = ctx[cr.group(1)]
+        if tipo == "f" and not RE_CT_FLUSSO.search(tag): continue
+        if re.search(r"Impairment|Tax|Percent|Ratio|Useful|Weighted|Number|Shares|Revenue|Expense", tag, re.I) and not re.search(r"Amortiz", tag, re.I): continue
+        try: v = float(txt.replace(",", "").strip())
+        except ValueError: continue
+        sc = re.search(r'scale="(-?\d+)"', a); v *= 10 ** int(sc.group(1)) if sc else 1
+        if 'sign="-"' in a: v = -v
+        out.setdefault(pref + ":" + tag, {}).setdefault(anno, v)
+    return out
+
+def contenuti_mappa(raw):
+    """sceglie dai fatti letti: aggiunte ai contenuti, ammortamento dei contenuti, variazione passivita', passivita' sui contenuti (saldo).
+    Restituisce {concetto: {anno: mln}} e {concetto: tag}. Nessuna stima: solo cio' che il bilancio dichiara."""
+    def trova(pred, preferiti=()):
+        for t in preferiti:
+            if t in raw: return t
+        cand = [t for t in raw if pred(t.split(":", 1)[1])]
+        return min(cand, key=len) if cand else None
+    ct = {
+        "ctAdd":  trova(lambda t: re.search(r"Addition", t, re.I) and RE_CT.search(t) and not re.search(r"Liabilit|Amortiz", t, re.I), ("nflx:AdditionstoStreamingContentAssets", "nflx:AdditionsToContentAssets")),
+        "ctAmm":  trova(lambda t: re.search(r"Amortiz", t, re.I) and RE_CT.search(t) and not re.search(r"Liabilit", t, re.I), ("nflx:CostofServicesAmortizationofStreamingContentAssets", "nflx:AmortizationOfContentAssets")),
+        "ctChg":  trova(lambda t: re.search(r"Liabilit", t, re.I) and re.search(r"Change|IncreaseDecrease", t, re.I) and RE_CT.search(t), ("nflx:ChangeInStreamingContentLiabilities",)),
+        "ctLiabC": trova(lambda t: re.search(r"ContentLiabilit", t, re.I) and re.search(r"Current", t, re.I) and not re.search(r"Noncurrent|NonCurrent|Change", t, re.I)),
+        "ctLiabN": trova(lambda t: re.search(r"ContentLiabilit", t, re.I) and re.search(r"Noncurrent|NonCurrent", t, re.I) and not re.search(r"Change", t, re.I)),
+    }
+    val, usato = {}, {}
+    for k, t in ct.items():
+        if not t: continue
+        val[k] = {y: round((abs(v) if k in ("ctAdd", "ctAmm") else v) / 1e6, 1) for y, v in raw[t].items()}
+        usato[k] = t
+    return val, usato
+
 MP = None
 def main(TK):
     global MP
@@ -285,18 +341,34 @@ def main(TK):
         except Exception as e: print("  %s: elenco depositi non disponibile (%s)" % (c, e))
     ks = sorted(ks, reverse=True)[:8]
     acqx, dbgx = {}, []
+    ctraw = {}
     for d, acc, doc, cc in ks:
         try: html = get("https://www.sec.gov/Archives/edgar/data/%d/%s/%s" % (int(cc), acc.replace("-", ""), doc), True)
         except Exception as e: print("10-K %s non scaricato: %s" % (d, e)); continue
         try:
             for y, v in acq_azioni_da_ixbrl(html, dbgx).items(): acqx.setdefault(y, v)
         except Exception as e: print("  acquisizioni in azioni dal 10-K: non lette (%s)" % e)
+        try:
+            for tag, byy in contenuti_da_ixbrl(html).items():
+                t = ctraw.setdefault(tag, {})
+                for y, v in byy.items(): t.setdefault(y, v)
+        except Exception as e: print("  contenuti dal 10-K: non letti (%s)" % e)
         for tag, byy in custom_da_ixbrl(html).items():
             t = res["custom"].setdefault(tag, {})
             for y, v in byy.items():
                 if y not in t: t[y] = round(v / 1e6, 1)
     # riserva 2: azioni date per acquisizioni lette dal prospetto del patrimonio netto del 10-K (dove la SEC non ha il valore senza colonna)
     res["debug_acq_ixbrl"] = dbgx
+    # contenuti capitalizzati (film, serie): aggiunte, ammortamento, passivita'. Il motore usa aggiunte - ammortamento come reinvestimento.
+    try:
+        cv, cu = contenuti_mappa(ctraw)
+        for k, v in cv.items(): res["concetti"][k] = v; res["tag_usato"][k] = {y: cu[k] for y in v}
+        res["contenuti_letti"] = {t: {str(y): round(x / 1e6, 1) for y, x in b.items()} for t, b in sorted(ctraw.items())}
+        if cv.get("ctAdd") and cv.get("ctAmm"):
+            res["avvisi"].append("Contenuti capitalizzati letti (%s / %s): reinvestimento in contenuti = aggiunte - ammortamento" % (cu["ctAdd"], cu["ctAmm"]))
+        elif ctraw:
+            res["avvisi"].append("Righe sui contenuti trovate ma non riconosciute (vedi contenuti_letti): controllare i nomi")
+    except Exception as e: print("  contenuti: non mappati (%s)" % e)
     ac = res["concetti"].setdefault("acqStock", {})
     for y, v in sorted(acqx.items()):
         if y not in ac and v >= 250:
