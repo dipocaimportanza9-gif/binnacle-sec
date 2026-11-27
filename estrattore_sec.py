@@ -184,9 +184,10 @@ def custom_da_ixbrl(html):
         out.setdefault(pref + ":" + tag, {})[int(ctx[cr.group(1)][:4])] = v
     return out
 
-def acq_azioni_da_ixbrl(html):
+def acq_azioni_da_ixbrl(html, dbg=None):
     """Azioni emesse per acquisizioni dal PROSPETTO DEL PATRIMONIO NETTO del 10-K (valori per colonna, che companyfacts non ha).
-    Tag us-gaap:StockIssuedDuringPeriodValueAcquisitions con la colonna del patrimonio degli azionisti (no minoranze). {anno_fine: milioni}"""
+    Tag us-gaap:StockIssuedDuringPeriodValueAcquisitions; colonna del patrimonio degli azionisti (no minoranze). {anno_fine: milioni}
+    dbg: lista a cui si aggiungono TUTTI i fatti trovati con quel tag (anno, colonne, valore) per capire come l'azienda li etichetta."""
     ctx = {}
     for m in re.finditer(r'<xbrli:context id="([^"]+)">(.*?)</xbrli:context>', html, re.S):
         body = m.group(2)
@@ -196,8 +197,8 @@ def acq_azioni_da_ixbrl(html):
             d0 = datetime.date.fromisoformat(a.group(1).strip()); d1 = datetime.date.fromisoformat(b.group(1).strip())
         except ValueError: continue
         if not 340 <= (d1 - d0).days <= 380: continue
-        mem = re.findall(r'<xbrldi:explicitMember dimension="([^"]+)">([^<]+)</xbrldi:explicitMember>', body)
         if "typedMember" in body: continue
+        mem = re.findall(r'<xbrldi:explicitMember dimension="([^"]+)">([^<]+)</xbrldi:explicitMember>', body)
         ctx[m.group(1)] = (d1.year, [(x.split(":")[-1], y.split(":")[-1]) for x, y in mem])
     per = {}
     for m in re.finditer(r"<ix:nonFraction([^>]*)>(.*?)</ix:nonFraction>", html, re.S):
@@ -209,15 +210,19 @@ def acq_azioni_da_ixbrl(html):
         sc = re.search(r'scale="(-?\d+)"', a); v *= 10 ** int(sc.group(1)) if sc else 1
         if 'sign="-"' in a: v = -v
         anno, mem = ctx[cr.group(1)]
-        if len(mem) == 0: col = "totale"
-        elif len(mem) == 1 and mem[0][0] == "StatementEquityComponentsAxis": col = mem[0][1]
+        if dbg is not None and len(dbg) < 40: dbg.append({"anno": anno, "colonne": ["%s=%s" % x for x in mem], "mln": round(v / 1e6, 1)})
+        eq = [y for x, y in mem if x == "StatementEquityComponentsAxis"]
+        altri = [y for x, y in mem if x != "StatementEquityComponentsAxis"]
+        if any("Noncontrolling" in y or "Minority" in y for _, y in mem): continue
+        if not mem: col = "totale"
+        elif len(eq) == 1 and len(altri) <= 1: col = eq[0]
         else: continue
-        per.setdefault(anno, {})[col] = v / 1e6
+        per.setdefault(anno, {}).setdefault(col, v / 1e6)
     out = {}
     for y, c in per.items():
         if "ParentMember" in c: v = c["ParentMember"]
-        elif "totale" in c and "NoncontrollingInterestMember" not in c: v = c["totale"]
         elif "CommonStockMember" in c or "AdditionalPaidInCapitalMember" in c: v = c.get("CommonStockMember", 0) + c.get("AdditionalPaidInCapitalMember", 0)
+        elif "totale" in c: v = c["totale"]
         else: continue
         if v > 0: out[y] = round(v, 1)
     return out
@@ -279,18 +284,19 @@ def main(TK):
             ks += [(sub["filingDate"][i], sub["accessionNumber"][i], sub["primaryDocument"][i], c) for i, f in enumerate(sub["form"]) if f == "10-K"]
         except Exception as e: print("  %s: elenco depositi non disponibile (%s)" % (c, e))
     ks = sorted(ks, reverse=True)[:6]
-    acqx = {}
+    acqx, dbgx = {}, []
     for d, acc, doc, cc in ks:
         try: html = get("https://www.sec.gov/Archives/edgar/data/%d/%s/%s" % (int(cc), acc.replace("-", ""), doc), True)
         except Exception as e: print("10-K %s non scaricato: %s" % (d, e)); continue
         try:
-            for y, v in acq_azioni_da_ixbrl(html).items(): acqx.setdefault(y, v)
+            for y, v in acq_azioni_da_ixbrl(html, dbgx).items(): acqx.setdefault(y, v)
         except Exception as e: print("  acquisizioni in azioni dal 10-K: non lette (%s)" % e)
         for tag, byy in custom_da_ixbrl(html).items():
             t = res["custom"].setdefault(tag, {})
             for y, v in byy.items():
                 if y not in t: t[y] = round(v / 1e6, 1)
     # riserva 2: azioni date per acquisizioni lette dal prospetto del patrimonio netto del 10-K (dove la SEC non ha il valore senza colonna)
+    res["debug_acq_ixbrl"] = dbgx
     ac = res["concetti"].setdefault("acqStock", {})
     for y, v in sorted(acqx.items()):
         if y not in ac and v >= 250:
