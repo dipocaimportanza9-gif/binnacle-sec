@@ -283,7 +283,7 @@ def main(TK):
             sub = full["filings"]["recent"]
             ks += [(sub["filingDate"][i], sub["accessionNumber"][i], sub["primaryDocument"][i], c) for i, f in enumerate(sub["form"]) if f == "10-K"]
         except Exception as e: print("  %s: elenco depositi non disponibile (%s)" % (c, e))
-    ks = sorted(ks, reverse=True)[:6]
+    ks = sorted(ks, reverse=True)[:8]
     acqx, dbgx = {}, []
     for d, acc, doc, cc in ks:
         try: html = get("https://www.sec.gov/Archives/edgar/data/%d/%s/%s" % (int(cc), acc.replace("-", ""), doc), True)
