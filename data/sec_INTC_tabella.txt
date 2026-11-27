@@ -80,4 +80,4 @@ ltInv: MarketableSecurities {2023: 1194, 2024: 848, 2025: 484}
 ltInv: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 42, 2024: 246, 2025: 514}
 ltInv: ImpairmentOfInvestments {2023: 214}
 
-Tempo: 4 s. File scritto: sec_INTC.json
+Tempo: 7 s. File scritto: sec_INTC.json

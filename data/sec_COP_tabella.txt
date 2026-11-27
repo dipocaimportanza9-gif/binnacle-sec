@@ -82,4 +82,4 @@ eqPriv: EquityMethodInvestmentDividendsOrDistributions {2023: 2684, 2024: 2283, 
 eqPriv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 60, 2024: 96, 2025: 112}
 eqPriv: OtherInvestments {2023: 93, 2024: 90, 2025: 94}
 
-Tempo: 9 s. File scritto: sec_COP.json
+Tempo: 5 s. File scritto: sec_COP.json

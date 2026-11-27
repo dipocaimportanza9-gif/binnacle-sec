@@ -95,7 +95,7 @@ dis:TotalOperatingLeaseLiabilityOnTheBalanceSheet                    .        . 
 
 --- AVVISI ---
 Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)
-Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal 2018 al 2026; se non e' una grande media/tv controllare che sia davvero un investimento
+Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal 2017 al 2026; se non e' una grande media/tv controllare che sia davvero un investimento
 2019: acquisizione pagata in azioni letta dal prospetto del patrimonio netto del 10-K: 33774 mln, da verificare nella nota Acquisizioni
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---

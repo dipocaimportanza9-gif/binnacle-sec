@@ -42,7 +42,7 @@ CAT     SIC 3531   debito:si  leasing:si  invest:si  avvisi:1
 BA      SIC 3721   debito:si  leasing:si  invest:si  avvisi:1  
 GE      SIC 3600   debito:si  leasing:si  invest:si  avvisi:1  
 UPS     SIC 4210   debito:si  leasing:si  invest:si  avvisi:2  
-T       SIC 4813   debito:si  leasing:si  invest:si  avvisi:2  
+T       SIC 4813   debito:si  leasing:si  invest:si  avvisi:3  
 VZ      SIC 4813   debito:si  leasing:si  invest:si  avvisi:1  
 F       SIC 3711   debito:NO  leasing:si  invest:si  avvisi:1  
 TSLA    SIC 3711   debito:si  leasing:si  invest:NO  avvisi:3  

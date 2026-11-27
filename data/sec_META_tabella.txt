@@ -59,4 +59,4 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
 meta:DeferredTaxAssetsLeaseLiabilities                               .        .        .        .        .        .        .        .    3,752    3,940    5,150        .
 
-Tempo: 2 s. File scritto: sec_META.json
+Tempo: 1 s. File scritto: sec_META.json

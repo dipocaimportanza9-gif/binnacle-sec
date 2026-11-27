@@ -96,4 +96,4 @@ afsDeb: SecuritiesReceivedAsCollateral {2023: 1200, 2024: 2900, 2025: 3600}
 afsDeb: RealEstateInvestmentPropertyNet {2023: 2237}
 afsDeb: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
 
-Tempo: 9 s. File scritto: sec_AIG.json
+Tempo: 7 s. File scritto: sec_AIG.json

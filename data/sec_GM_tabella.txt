@@ -108,4 +108,4 @@ eqPriv: FinancingReceivableRecordedInvestmentNonaccrualStatus {2023: 0}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 4200, 2024: 1900, 2025: 1600}
 ltInv: FinancingReceivableRecordedInvestmentNonaccrualStatus {2023: 0}
 
-Tempo: 7 s. File scritto: sec_GM.json
+Tempo: 6 s. File scritto: sec_GM.json

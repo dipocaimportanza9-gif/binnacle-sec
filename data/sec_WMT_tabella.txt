@@ -64,4 +64,4 @@ eqMeth: TradingSecuritiesDebt {2023: 500, 2024: 1200, 2025: 1200}
 afsDeb: TradingSecuritiesDebt {2023: 500, 2024: 1200, 2025: 1200}
 ltInv: TradingSecuritiesDebt {2023: 500, 2024: 1200, 2025: 1200}
 
-Tempo: 2 s. File scritto: sec_WMT.json
+Tempo: 4 s. File scritto: sec_WMT.json

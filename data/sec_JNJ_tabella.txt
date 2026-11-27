@@ -65,4 +65,4 @@ Corrispettivo totale delle acquisizioni (informativo): ultimo anno 2022 (mancano
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 1000, 2024: 1100, 2025: 1300}
 
-Tempo: 5 s. File scritto: sec_JNJ.json
+Tempo: 4 s. File scritto: sec_JNJ.json

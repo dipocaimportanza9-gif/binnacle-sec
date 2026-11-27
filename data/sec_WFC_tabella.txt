@@ -97,4 +97,4 @@ ltInv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOth
 ltInv: DerivativeCollateralObligationToReturnSecurities {2023: 2587, 2024: 4024, 2025: 4906}
 ltInv: DerivativeCollateralRightToReclaimSecurities {2023: 4388, 2024: 2853, 2025: 3091}
 
-Tempo: 3 s. File scritto: sec_WFC.json
+Tempo: 0 s. File scritto: sec_WFC.json

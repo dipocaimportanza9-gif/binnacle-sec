@@ -219,26 +219,28 @@
    "2026": 1456.0
   },
   "ctNetCF": {
-   "2026": -781.0,
-   "2025": -577.0,
-   "2024": -1046.0,
-   "2023": 1908.0,
-   "2022": 6271.0,
-   "2021": 4301.0,
-   "2020": -397.0,
+   "2017": 1075.0,
+   "2018": 523.0,
    "2019": 542.0,
-   "2018": 523.0
+   "2020": -397.0,
+   "2021": 4301.0,
+   "2022": 6271.0,
+   "2023": 1908.0,
+   "2024": -1046.0,
+   "2025": -577.0,
+   "2026": -781.0
   },
   "ctNet": {
-   "2026": -781.0,
-   "2025": -577.0,
-   "2024": -1046.0,
-   "2023": 1908.0,
-   "2022": 6271.0,
-   "2021": 4301.0,
-   "2020": -397.0,
+   "2017": 1075.0,
+   "2018": 523.0,
    "2019": 542.0,
-   "2018": 523.0
+   "2020": -397.0,
+   "2021": 4301.0,
+   "2022": 6271.0,
+   "2023": 1908.0,
+   "2024": -1046.0,
+   "2025": -577.0,
+   "2026": -781.0
   }
  },
  "tag_usato": {
@@ -456,26 +458,28 @@
    "2026": "RestructuringSettlementAndImpairmentProvisions"
   },
   "ctNetCF": {
-   "2026": "us-gaap:IncreaseDecreaseInFilmCosts1",
-   "2025": "us-gaap:IncreaseDecreaseInFilmCosts1",
-   "2024": "us-gaap:IncreaseDecreaseInFilmCosts1",
-   "2023": "us-gaap:IncreaseDecreaseInFilmCosts1",
-   "2022": "us-gaap:IncreaseDecreaseInFilmCosts1",
-   "2021": "us-gaap:IncreaseDecreaseInFilmCosts1",
-   "2020": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2017": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2018": "us-gaap:IncreaseDecreaseInFilmCosts1",
    "2019": "us-gaap:IncreaseDecreaseInFilmCosts1",
-   "2018": "us-gaap:IncreaseDecreaseInFilmCosts1"
+   "2020": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2021": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2022": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2023": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2024": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2025": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2026": "us-gaap:IncreaseDecreaseInFilmCosts1"
   },
   "ctNet": {
-   "2026": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
-   "2025": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
-   "2024": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
-   "2023": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
-   "2022": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
-   "2021": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
-   "2020": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2017": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2018": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
    "2019": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
-   "2018": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)"
+   "2020": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2021": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2022": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2023": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2024": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2025": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2026": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)"
   }
  },
  "custom": {
@@ -749,7 +753,7 @@
  },
  "avvisi": [
   "Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)",
-  "Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal 2018 al 2026; se non e' una grande media/tv controllare che sia davvero un investimento",
+  "Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal 2017 al 2026; se non e' una grande media/tv controllare che sia davvero un investimento",
   "2019: acquisizione pagata in azioni letta dal prospetto del patrimonio netto del 10-K: 33774 mln, da verificare nella nota Acquisizioni"
  ],
  "candidati": {
@@ -1139,143 +1143,167 @@
    "2020": 3700.0
   },
   "us-gaap:DirectToTelevisionFilmCosts": {
+   "2018": 2185.0,
+   "2019": 10750.0,
    "2020": 10404.0
   },
   "us-gaap:DirectToTelevisionFilmCostsCompletedAndNotReleased": {
+   "2018": 462.0,
+   "2019": 1085.0,
    "2020": 543.0
   },
   "us-gaap:DirectToTelevisionFilmCostsDevelopment": {
+   "2018": 2.0,
+   "2019": 99.0,
    "2020": 93.0
   },
   "us-gaap:DirectToTelevisionFilmCostsProduction": {
+   "2018": 420.0,
+   "2019": 1849.0,
    "2020": 2094.0
   },
   "us-gaap:DirectToTelevisionFilmCostsReleased": {
+   "2018": 1301.0,
+   "2019": 7717.0,
    "2020": 7674.0
   },
   "us-gaap:FilmCosts": {
-   "2026": 27149.0,
-   "2025": 28569.0,
-   "2024": 29158.0,
-   "2023": 30242.0,
-   "2022": 32020.0,
+   "2020": 20596.0,
    "2021": 25622.0,
-   "2020": 20596.0
+   "2022": 32020.0,
+   "2023": 30242.0,
+   "2024": 29158.0,
+   "2025": 28569.0,
+   "2026": 27149.0
+  },
+  "us-gaap:FilmCostsAmortizedInNextOperatingCycle": {
+   "2019": 4300.0
   },
   "us-gaap:FilmMonetizedInFilmGroupCapitalizedCost": {
-   "2026": 19431.0,
-   "2025": 19164.0,
-   "2024": 20026.0,
-   "2023": 21594.0,
-   "2022": 21754.0,
+   "2020": 11098.0,
    "2021": 15326.0,
-   "2020": 11098.0
+   "2022": 21754.0,
+   "2023": 21594.0,
+   "2024": 20026.0,
+   "2025": 19164.0,
+   "2026": 19431.0
   },
   "us-gaap:FilmMonetizedInFilmGroupCapitalizedCostCompletedAndNotReleased": {
-   "2026": 1425.0,
-   "2025": 1061.0,
-   "2024": 2265.0,
-   "2023": 1786.0,
-   "2022": 2019.0,
+   "2020": 720.0,
    "2021": 762.0,
-   "2020": 720.0
+   "2022": 2019.0,
+   "2023": 1786.0,
+   "2024": 2265.0,
+   "2025": 1061.0,
+   "2026": 1425.0
   },
   "us-gaap:FilmMonetizedInFilmGroupCapitalizedCostDevelopmentAndPreproduction": {
-   "2026": 87.0,
-   "2025": 182.0,
-   "2024": 73.0,
-   "2023": 133.0,
-   "2022": 254.0,
+   "2020": 103.0,
    "2021": 162.0,
-   "2020": 103.0
+   "2022": 254.0,
+   "2023": 133.0,
+   "2024": 73.0,
+   "2025": 182.0,
+   "2026": 87.0
   },
   "us-gaap:FilmMonetizedInFilmGroupCapitalizedCostProduction": {
-   "2026": 3956.0,
-   "2025": 3633.0,
-   "2024": 4067.0,
-   "2023": 6120.0,
-   "2022": 6793.0,
+   "2020": 2090.0,
    "2021": 4623.0,
-   "2020": 2090.0
+   "2022": 6793.0,
+   "2023": 6120.0,
+   "2024": 4067.0,
+   "2025": 3633.0,
+   "2026": 3956.0
   },
   "us-gaap:FilmMonetizedInFilmGroupCapitalizedCostReleased": {
-   "2026": 13963.0,
-   "2025": 14288.0,
-   "2024": 13621.0,
-   "2023": 13555.0,
-   "2022": 12688.0,
+   "2020": 8185.0,
    "2021": 9779.0,
-   "2020": 8185.0
+   "2022": 12688.0,
+   "2023": 13555.0,
+   "2024": 13621.0,
+   "2025": 14288.0,
+   "2026": 13963.0
   },
   "us-gaap:FilmMonetizedOnItsOwnCapitalizedCost": {
-   "2026": 7718.0,
-   "2025": 9405.0,
-   "2024": 9132.0,
-   "2023": 8648.0,
-   "2022": 10266.0,
+   "2020": 9498.0,
    "2021": 10296.0,
-   "2020": 9498.0
+   "2022": 10266.0,
+   "2023": 8648.0,
+   "2024": 9132.0,
+   "2025": 9405.0,
+   "2026": 7718.0
   },
   "us-gaap:FilmMonetizedOnItsOwnCapitalizedCostCompletedAndNotReleased": {
-   "2026": 174.0,
-   "2025": 313.0,
-   "2024": 16.0,
-   "2023": 70.0,
-   "2022": 214.0,
+   "2020": 555.0,
    "2021": 630.0,
-   "2020": 555.0
+   "2022": 214.0,
+   "2023": 70.0,
+   "2024": 16.0,
+   "2025": 313.0,
+   "2026": 174.0
   },
   "us-gaap:FilmMonetizedOnItsOwnCapitalizedCostDevelopmentAndPreproduction": {
-   "2026": 282.0,
-   "2025": 386.0,
-   "2024": 196.0,
-   "2023": 279.0,
-   "2022": 372.0,
+   "2020": 268.0,
    "2021": 351.0,
-   "2020": 268.0
+   "2022": 372.0,
+   "2023": 279.0,
+   "2024": 196.0,
+   "2025": 386.0,
+   "2026": 282.0
   },
   "us-gaap:FilmMonetizedOnItsOwnCapitalizedCostProduction": {
-   "2026": 2397.0,
-   "2025": 4082.0,
-   "2024": 4352.0,
-   "2023": 3331.0,
-   "2022": 5041.0,
+   "2020": 3585.0,
    "2021": 4371.0,
-   "2020": 3585.0
+   "2022": 5041.0,
+   "2023": 3331.0,
+   "2024": 4352.0,
+   "2025": 4082.0,
+   "2026": 2397.0
   },
   "us-gaap:FilmMonetizedOnItsOwnCapitalizedCostReleased": {
-   "2026": 4865.0,
-   "2025": 4624.0,
-   "2024": 4568.0,
-   "2023": 4968.0,
-   "2022": 4639.0,
+   "2020": 5090.0,
    "2021": 4944.0,
-   "2020": 5090.0
+   "2022": 4639.0,
+   "2023": 4968.0,
+   "2024": 4568.0,
+   "2025": 4624.0,
+   "2026": 4865.0
   },
   "us-gaap:IncreaseDecreaseInFilmCosts1": {
-   "2026": -781.0,
-   "2025": -577.0,
-   "2024": -1046.0,
-   "2023": 1908.0,
-   "2022": 6271.0,
-   "2021": 4301.0,
-   "2020": -397.0,
+   "2017": 1075.0,
+   "2018": 523.0,
    "2019": 542.0,
-   "2018": 523.0
+   "2020": -397.0,
+   "2021": 4301.0,
+   "2022": 6271.0,
+   "2023": 1908.0,
+   "2024": -1046.0,
+   "2025": -577.0,
+   "2026": -781.0
   },
   "us-gaap:TheatricalFilmCosts": {
+   "2018": 5455.0,
+   "2019": 9554.0,
    "2020": 10192.0
   },
   "us-gaap:TheatricalFilmCostsCompletedAndNotReleased": {
+   "2018": 397.0,
+   "2019": 863.0,
    "2020": 732.0
   },
   "us-gaap:TheatricalFilmCostsDevelopment": {
+   "2018": 173.0,
+   "2019": 301.0,
    "2020": 278.0
   },
   "us-gaap:TheatricalFilmCostsProduction": {
+   "2018": 2974.0,
+   "2019": 3943.0,
    "2020": 3581.0
   },
   "us-gaap:TheatricalFilmCostsReleased": {
+   "2018": 1911.0,
+   "2019": 4447.0,
    "2020": 5601.0
   }
  },
