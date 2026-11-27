@@ -55,6 +55,7 @@ CAT = [
  ("aocs",     "OCI accumulato dei soli titoli disponibili per la vendita (cambi e coperture esclusi)", ["AccumulatedOtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax", "AccumulatedOtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesNetOfTax"]),
  ("acq", "ACQUISIZIONI NON IN CONTANTI"),
  ("acqStock", "Azioni emesse per acquisizioni (non in contanti)", ["StockIssuedDuringPeriodValueAcquisitions"]),
+ ("stkNC",    "Azioni emesse non in contanti (rendiconto, voce supplementare; riserva per acquisizioni)", ["StockIssued1"]),
  ("acqTot",   "Corrispettivo totale delle acquisizioni (informativo)", ["BusinessCombinationConsiderationTransferred1", "BusinessCombinationConsiderationTransferred"]),
  ("nr", "ONERI NON RICORRENTI (da riaggiungere all'utile operativo se isolati)"),
  ("nrGw",     "Svalutazione di avviamento",                     ["GoodwillImpairmentLoss", "GoodwillAndIntangibleAssetImpairment"]),
@@ -218,6 +219,13 @@ def main(TK):
             c = candidati(gaap, k, ALLTAGS)
             if c: res["candidati"][k] = c
     res["fine_anno"] = {y: max(e, key=e.get) for y, e in ENDS.items()}
+    # riserva: molte aziende (es. AMD per Xilinx) riportano le azioni date per un'acquisizione solo nella voce non monetaria del rendiconto.
+    # Si usa solo dove manca il dato specifico e solo per importi grandi (>= 250 mln), per non contare piccole emissioni di azioni.
+    ac, sn = res["concetti"].setdefault("acqStock", {}), res["concetti"].get("stkNC", {})
+    for y, v in sn.items():
+        if y not in ac and v >= 250:
+            ac[y] = v; res["tag_usato"].setdefault("acqStock", {})[y] = "StockIssued1 (riserva, >=250 mln)"
+            res["avvisi"].append("%d: acquisizione pagata in azioni letta dalla voce non monetaria del rendiconto (StockIssued1): %d mln, da verificare nella nota Acquisizioni" % (y, v))
     deriva(res)
     righe.append(("§", "DERIVATI (regole generali)"))
     righe.append(("Debito totale = quota corrente + non corrente (se manca il totale)", res["derivati"]["dTotCalc"]))
