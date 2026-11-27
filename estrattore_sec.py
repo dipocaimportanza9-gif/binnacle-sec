@@ -184,6 +184,44 @@ def custom_da_ixbrl(html):
         out.setdefault(pref + ":" + tag, {})[int(ctx[cr.group(1)][:4])] = v
     return out
 
+def acq_azioni_da_ixbrl(html):
+    """Azioni emesse per acquisizioni dal PROSPETTO DEL PATRIMONIO NETTO del 10-K (valori per colonna, che companyfacts non ha).
+    Tag us-gaap:StockIssuedDuringPeriodValueAcquisitions con la colonna del patrimonio degli azionisti (no minoranze). {anno_fine: milioni}"""
+    ctx = {}
+    for m in re.finditer(r'<xbrli:context id="([^"]+)">(.*?)</xbrli:context>', html, re.S):
+        body = m.group(2)
+        a = re.search(r"<xbrli:startDate>([^<]+)</xbrli:startDate>", body); b = re.search(r"<xbrli:endDate>([^<]+)</xbrli:endDate>", body)
+        if not a or not b: continue
+        try:
+            d0 = datetime.date.fromisoformat(a.group(1).strip()); d1 = datetime.date.fromisoformat(b.group(1).strip())
+        except ValueError: continue
+        if not 340 <= (d1 - d0).days <= 380: continue
+        mem = re.findall(r'<xbrldi:explicitMember dimension="([^"]+)">([^<]+)</xbrldi:explicitMember>', body)
+        if "typedMember" in body: continue
+        ctx[m.group(1)] = (d1.year, [(x.split(":")[-1], y.split(":")[-1]) for x, y in mem])
+    per = {}
+    for m in re.finditer(r"<ix:nonFraction([^>]*)>(.*?)</ix:nonFraction>", html, re.S):
+        a, txt = m.group(1), re.sub(r"<[^>]+>", "", m.group(2))
+        nm = re.search(r'name="([^"]+)"', a); cr = re.search(r'contextRef="([^"]+)"', a)
+        if not nm or not cr or nm.group(1) != "us-gaap:StockIssuedDuringPeriodValueAcquisitions" or cr.group(1) not in ctx: continue
+        try: v = float(txt.replace(",", "").strip())
+        except ValueError: continue
+        sc = re.search(r'scale="(-?\d+)"', a); v *= 10 ** int(sc.group(1)) if sc else 1
+        if 'sign="-"' in a: v = -v
+        anno, mem = ctx[cr.group(1)]
+        if len(mem) == 0: col = "totale"
+        elif len(mem) == 1 and mem[0][0] == "StatementEquityComponentsAxis": col = mem[0][1]
+        else: continue
+        per.setdefault(anno, {})[col] = v / 1e6
+    out = {}
+    for y, c in per.items():
+        if "ParentMember" in c: v = c["ParentMember"]
+        elif "totale" in c and "NoncontrollingInterestMember" not in c: v = c["totale"]
+        elif "CommonStockMember" in c or "AdditionalPaidInCapitalMember" in c: v = c.get("CommonStockMember", 0) + c.get("AdditionalPaidInCapitalMember", 0)
+        else: continue
+        if v > 0: out[y] = round(v, 1)
+    return out
+
 MP = None
 def main(TK):
     global MP
@@ -241,13 +279,23 @@ def main(TK):
             ks += [(sub["filingDate"][i], sub["accessionNumber"][i], sub["primaryDocument"][i], c) for i, f in enumerate(sub["form"]) if f == "10-K"]
         except Exception as e: print("  %s: elenco depositi non disponibile (%s)" % (c, e))
     ks = sorted(ks, reverse=True)[:6]
+    acqx = {}
     for d, acc, doc, cc in ks:
         try: html = get("https://www.sec.gov/Archives/edgar/data/%d/%s/%s" % (int(cc), acc.replace("-", ""), doc), True)
         except Exception as e: print("10-K %s non scaricato: %s" % (d, e)); continue
+        try:
+            for y, v in acq_azioni_da_ixbrl(html).items(): acqx.setdefault(y, v)
+        except Exception as e: print("  acquisizioni in azioni dal 10-K: non lette (%s)" % e)
         for tag, byy in custom_da_ixbrl(html).items():
             t = res["custom"].setdefault(tag, {})
             for y, v in byy.items():
                 if y not in t: t[y] = round(v / 1e6, 1)
+    # riserva 2: azioni date per acquisizioni lette dal prospetto del patrimonio netto del 10-K (dove la SEC non ha il valore senza colonna)
+    ac = res["concetti"].setdefault("acqStock", {})
+    for y, v in sorted(acqx.items()):
+        if y not in ac and v >= 250:
+            ac[y] = v; res["tag_usato"].setdefault("acqStock", {})[y] = "StockIssuedDuringPeriodValueAcquisitions (prospetto patrimonio netto 10-K, >=250 mln)"
+            res["avvisi"].append("%d: acquisizione pagata in azioni letta dal prospetto del patrimonio netto del 10-K: %d mln, da verificare nella nota Acquisizioni" % (y, v))
     try: sic = int(res.get("sic") or 0)
     except ValueError: sic = 0
     res["ambito"] = "ok"
