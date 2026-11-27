@@ -89,4 +89,4 @@ eqMeth: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 afsDeb: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 ltInv: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 
-Tempo: 4 s. File scritto: sec_TSLA.json
+Tempo: 5 s. File scritto: sec_TSLA.json

@@ -218,14 +218,27 @@
    "2025": 819.0,
    "2026": 1456.0
   },
-  "ctAmm": {
-   "2026": 10947.0,
-   "2025": 10410.0,
-   "2024": 10454.0,
-   "2023": 11861.0,
-   "2022": 10224.0,
-   "2021": 8175.0,
-   "2020": 9337.0
+  "ctNetCF": {
+   "2026": -781.0,
+   "2025": -577.0,
+   "2024": -1046.0,
+   "2023": 1908.0,
+   "2022": 6271.0,
+   "2021": 4301.0,
+   "2020": -397.0,
+   "2019": 542.0,
+   "2018": 523.0
+  },
+  "ctNet": {
+   "2026": -781.0,
+   "2025": -577.0,
+   "2024": -1046.0,
+   "2023": 1908.0,
+   "2022": 6271.0,
+   "2021": 4301.0,
+   "2020": -397.0,
+   "2019": 542.0,
+   "2018": 523.0
   }
  },
  "tag_usato": {
@@ -442,14 +455,27 @@
    "2025": "RestructuringSettlementAndImpairmentProvisions",
    "2026": "RestructuringSettlementAndImpairmentProvisions"
   },
-  "ctAmm": {
-   "2026": "dis:AmortizationOfProducedContentCosts",
-   "2025": "dis:AmortizationOfProducedContentCosts",
-   "2024": "dis:AmortizationOfProducedContentCosts",
-   "2023": "dis:AmortizationOfProducedContentCosts",
-   "2022": "dis:AmortizationOfProducedContentCosts",
-   "2021": "dis:AmortizationOfProducedContentCosts",
-   "2020": "dis:AmortizationOfProducedContentCosts"
+  "ctNetCF": {
+   "2026": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2025": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2024": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2023": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2022": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2021": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2020": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2019": "us-gaap:IncreaseDecreaseInFilmCosts1",
+   "2018": "us-gaap:IncreaseDecreaseInFilmCosts1"
+  },
+  "ctNet": {
+   "2026": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2025": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2024": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2023": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2022": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2021": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2020": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2019": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)",
+   "2018": "riga netta del rendiconto (us-gaap:IncreaseDecreaseInFilmCosts1)"
   }
  },
  "custom": {
@@ -723,7 +749,7 @@
  },
  "avvisi": [
   "Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)",
-  "Righe sui contenuti trovate ma non riconosciute (vedi contenuti_letti): controllare i nomi",
+  "Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal 2018 al 2026; se non e' una grande media/tv controllare che sia davvero un investimento",
   "2019: acquisizione pagata in azioni letta dal prospetto del patrimonio netto del 10-K: 33774 mln, da verificare nella nota Acquisizioni"
  ],
  "candidati": {

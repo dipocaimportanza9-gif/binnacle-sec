@@ -723,6 +723,7 @@
   },
   "sbux:LesseeOperatingLeaseLeaseNotYetCommencedAmount": {
    "2026": 525.8,
+   "2025": 823.5,
    "2024": 1600.0,
    "2023": 1400.0,
    "2022": 1100.0,
@@ -746,6 +747,9 @@
    "2022": -2194.3,
    "2021": -2296.5,
    "2020": -2191.8
+  },
+  "sbux:OperatingLeaseLiabilityRestructuring": {
+   "2025": 272.8
   },
   "sbux:EquityInvestments": {
    "2022": 311.2,

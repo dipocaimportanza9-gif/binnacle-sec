@@ -207,6 +207,13 @@
    "2024": 1780.8,
    "2023": 2578.2,
    "2022": 3081.3
+  },
+  "ctNet": {
+   "2021": 5471.8,
+   "2022": 2812.9,
+   "2023": -1642.7,
+   "2024": 922.1,
+   "2025": 674.4
   }
  },
  "tag_usato": {
@@ -412,6 +419,13 @@
    "2024": "nflx:ContentLiabilitiesNoncurrent",
    "2023": "nflx:ContentLiabilitiesNoncurrent",
    "2022": "nflx:ContentLiabilitiesNoncurrent"
+  },
+  "ctNet": {
+   "2021": "aggiunte - ammortamento",
+   "2022": "aggiunte - ammortamento",
+   "2023": "aggiunte - ammortamento",
+   "2024": "aggiunte - ammortamento",
+   "2025": "aggiunte - ammortamento"
   }
  },
  "custom": {
@@ -421,7 +435,7 @@
   }
  },
  "avvisi": [
-  "Contenuti capitalizzati letti (nflx:AdditionstoStreamingContentAssets / nflx:CostofServicesAmortizationofStreamingContentAssets): reinvestimento in contenuti = aggiunte - ammortamento"
+  "Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal 2021 al 2025; se non e' una grande media/tv controllare che sia davvero un investimento"
  ],
  "candidati": {
   "finLiab": [
