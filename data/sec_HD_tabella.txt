@@ -67,4 +67,4 @@ hd:OperatingLeaseandFinanceLeaseRightofUseAssets                     .        . 
 Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2009-2026: non sommarli di nuovo
 
-Tempo: 3 s. File scritto: sec_HD.json
+Tempo: 2 s. File scritto: sec_HD.json

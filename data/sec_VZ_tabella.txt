@@ -56,15 +56,15 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-vz:AccountsAndFinancingReceivableAllowanceForCreditLossCurrent       .        .        .        .        .        .        .      826    1,017    1,152    1,250        .
-vz:AccountsAndFinancingReceivableBeforeAllowanceForCreditLossC       .        .        .        .        .        .        .   25,332   26,102   27,261   28,347        .
+vz:AccountsAndFinancingReceivableAllowanceForCreditLossCurrent       .        .        .        .        .        .        .        .    1,017    1,152    1,250        .
+vz:AccountsAndFinancingReceivableBeforeAllowanceForCreditLossC       .        .        .        .        .        .        .        .   26,102   27,261   28,347        .
 vz:DebtTenderOfferPrincipalAmountPurchased                           .        .        .        .        .        .        .        .        .        .      503        .
-vz:DeferredTaxAssetsLeases                                           .        .        .        .        .        .        .    5,395    5,480    5,138    4,909        .
-vz:DeferredTaxLiabilitiesLeasesRightOfUseAssets                      .        .        .        .        .        .        .    5,007    5,200    4,822    4,568        .
-vz:FinancingReceivableFromContractWithCustomer                       .        .        .        .        .        .        .   16,648   18,528   19,766   21,726        .
-vz:LesseeOperatingLeaseLeaseNotYetCommencedAmount                    .        .        .        .        .        .        .        .    1,700    1,400    2,000        .
+vz:DeferredTaxAssetsLeases                                           .        .        .        .        .        .        .        .    5,480    5,138    4,909        .
+vz:DeferredTaxLiabilitiesLeasesRightOfUseAssets                      .        .        .        .        .        .        .        .    5,200    4,822    4,568        .
+vz:FinancingReceivableFromContractWithCustomer                       .        .        .        .        .        .        .        .   18,528   19,766   21,726        .
+vz:LesseeOperatingLeaseLeaseNotYetCommencedAmount                    .        .        .        .        .        .        .        .        .    1,400    2,000        .
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
 
-Tempo: 2 s. File scritto: sec_VZ.json
+Tempo: 1 s. File scritto: sec_VZ.json
