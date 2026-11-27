@@ -61,4 +61,4 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 --- AVVISI ---
 NESSUN DATO: possibile cambio di CIK (aggiungere l'alias in cik_alias.json)
 
-Tempo: 1 s. File scritto: sec_BABA.json
+Tempo: 0 s. File scritto: sec_BABA.json

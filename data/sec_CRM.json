@@ -749,19 +749,16 @@
  "custom": {
   "crm:LessorOperatingLeasePaymentsToBeReceivedNextFiveYears": {
    "2026": 258.0,
-   "2025": 303.0,
-   "2024": 275.0
+   "2025": 303.0
   },
   "crm:LesseeOperatingLeaseCommitmentincludingLeaseNotyetCommencedAmount": {
    "2026": 4400.0,
-   "2025": 4000.0,
-   "2024": 4700.0
+   "2025": 4000.0
   },
   "crm:DeferredTaxAssetsLeaseLiabilities": {
    "2026": 685.0,
    "2025": 740.0,
-   "2024": 818.0,
-   "2023": 912.0
+   "2024": 818.0
   }
  },
  "avvisi": [
@@ -842,19 +839,7 @@
  "sic_descrizione": "Services-Prepackaged Software",
  "chiusura_esercizio": "0131",
  "nome": "Salesforce, Inc.",
- "debug_acq_ixbrl": [
-  {
-   "anno": 2022,
-   "colonne": [
-    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
-   ],
-   "mln": 11269.0
-  },
-  {
-   "anno": 2022,
-   "colonne": [],
-   "mln": 11269.0
-  }
- ],
+ "debug_acq_ixbrl": [],
+ "contenuti_letti": {},
  "ambito": "ok"
 }

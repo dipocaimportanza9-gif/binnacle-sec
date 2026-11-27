@@ -70,4 +70,4 @@ FUORI PORTATA (SIC 6324 Hospital & Medical Service Plans)
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 1077, 2024: 1305, 2025: 1391}
 
-Tempo: 4 s. File scritto: sec_UNH.json
+Tempo: 10 s. File scritto: sec_UNH.json

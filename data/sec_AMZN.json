@@ -863,7 +863,9 @@
    "2020": 28869.0
   }
  },
- "avvisi": [],
+ "avvisi": [
+  "Righe sui contenuti trovate ma non riconosciute (vedi contenuti_letti): controllare i nomi"
+ ],
  "candidati": {},
  "fine_anno": {
   "2019": "2019-12-31",
@@ -917,5 +919,16 @@
  "chiusura_esercizio": "1231",
  "nome": "AMAZON COM INC",
  "debug_acq_ixbrl": [],
+ "contenuti_letti": {
+  "amzn:VideoandMusicContentCapitalizedCosts": {
+   "2024": 19600.0,
+   "2025": 21300.0,
+   "2023": 17400.0,
+   "2022": 16700.0,
+   "2021": 10700.0,
+   "2020": 6800.0,
+   "2019": 5800.0
+  }
+ },
  "ambito": "ok"
 }

@@ -72,4 +72,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 919, 2024:
 ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2025: 10681}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 721, 2024: 793, 2025: 875}
 
-Tempo: 5 s. File scritto: sec_BRK-B.json
+Tempo: 12 s. File scritto: sec_BRK-B.json

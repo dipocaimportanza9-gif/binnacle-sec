@@ -75,4 +75,4 @@ finLiab: OperatingLeaseRightOfUseAsset {2023: 1122, 2024: 1075, 2025: 1126}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 253, 2024: 253, 2025: 300}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 168, 2024: 168, 2025: 184}
 
-Tempo: 5 s. File scritto: sec_ABT.json
+Tempo: 9 s. File scritto: sec_ABT.json

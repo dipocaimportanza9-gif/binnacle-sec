@@ -57,13 +57,13 @@ Debito totale = quota corrente + non corrente (se manca il tot   1,071        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-crm:DeferredTaxAssetsLeaseLiabilities                                .        .        .        .        .        .        .        .      912      818      740      685
-crm:LesseeOperatingLeaseCommitmentincludingLeaseNotyetCommence       .        .        .        .        .        .        .        .        .    4,700    4,000    4,400
-crm:LessorOperatingLeasePaymentsToBeReceivedNextFiveYears            .        .        .        .        .        .        .        .        .      275      303      258
+crm:DeferredTaxAssetsLeaseLiabilities                                .        .        .        .        .        .        .        .        .      818      740      685
+crm:LesseeOperatingLeaseCommitmentincludingLeaseNotyetCommence       .        .        .        .        .        .        .        .        .        .    4,000    4,400
+crm:LessorOperatingLeasePaymentsToBeReceivedNextFiveYears            .        .        .        .        .        .        .        .        .        .      303      258
 
 --- AVVISI ---
 Azioni emesse per acquisizioni (non in contanti): ultimo anno 2022 (mancano anni recenti)
 Svalutazione di avviamento: ultimo anno 2022 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
 
-Tempo: 2 s. File scritto: sec_CRM.json
+Tempo: 13 s. File scritto: sec_CRM.json

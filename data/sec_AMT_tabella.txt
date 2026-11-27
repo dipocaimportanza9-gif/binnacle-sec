@@ -82,4 +82,4 @@ Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
 FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)
 
-Tempo: 5 s. File scritto: sec_AMT.json
+Tempo: 10 s. File scritto: sec_AMT.json
