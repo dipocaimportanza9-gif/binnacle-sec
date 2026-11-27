@@ -263,12 +263,12 @@ def contenuti_da_ixbrl(html):
 
 def contenuti_mappa(raw):
     """sceglie dai fatti letti: aggiunte ai contenuti, ammortamento dei contenuti, variazione passivita', passivita' sui contenuti (saldo).
+    Per ogni concetto elenca i tag candidati in ordine di priorita' e riempie gli anni mancanti con i successivi (alternative, mai somme).
     Restituisce {concetto: {anno: mln}} e {concetto: tag}. Nessuna stima: solo cio' che il bilancio dichiara."""
     def trova(pred, preferiti=()):
-        for t in preferiti:
-            if t in raw: return t
-        cand = [t for t in raw if pred(t.split(":", 1)[1])]
-        return min(cand, key=len) if cand else None
+        lista = [t for t in preferiti if t in raw]
+        lista += sorted([t for t in raw if t not in lista and pred(t.split(":", 1)[1])], key=len)
+        return lista
     ct = {
         "ctAdd":  trova(lambda t: re.search(r"Addition", t, re.I) and RE_CT.search(t) and not re.search(r"Liabilit|Amortiz", t, re.I), ("nflx:AdditionstoStreamingContentAssets", "nflx:AdditionsToContentAssets")),
         "ctAmm":  trova(lambda t: re.search(r"Amortiz", t, re.I) and RE_CT.search(t) and not re.search(r"Liabilit", t, re.I), ("nflx:CostofServicesAmortizationofStreamingContentAssets", "nflx:AmortizationOfContentAssets")),
@@ -278,10 +278,13 @@ def contenuti_mappa(raw):
         "ctLiabN": trova(lambda t: re.search(r"ContentLiabilit", t, re.I) and re.search(r"Noncurrent|NonCurrent", t, re.I) and not re.search(r"Change", t, re.I)),
     }
     val, usato = {}, {}
-    for k, t in ct.items():
-        if not t: continue
-        val[k] = {y: round((abs(v) if k in ("ctAdd", "ctAmm") else v) / 1e6, 1) for y, v in raw[t].items()}
-        usato[k] = t
+    for k, lista in ct.items():
+        for t in lista:
+            for y, v in raw[t].items():
+                if y in val.setdefault(k, {}): continue
+                val[k][y] = round((abs(v) if k in ("ctAdd", "ctAmm") else v) / 1e6, 1)
+                usato.setdefault(k, {})[y] = t
+        if not val.get(k): val.pop(k, None)
     # aggiunte e ammortamento servono solo in coppia (altrimenti l'ammortamento letto e' parziale)
     if not (val.get("ctAdd") and val.get("ctAmm")):
         for k in ("ctAdd", "ctAmm"): val.pop(k, None); usato.pop(k, None)
@@ -290,9 +293,33 @@ def contenuti_mappa(raw):
     for y in sorted(val.get("ctAdd", {})):
         if y in val.get("ctAmm", {}): net[y] = round(val["ctAdd"][y] - val["ctAmm"][y], 1); nu[y] = "aggiunte - ammortamento"
     for y, v in val.get("ctNetCF", {}).items():
-        if y not in net: net[y] = v; nu[y] = "riga netta del rendiconto (%s)" % usato["ctNetCF"]
+        if y not in net: net[y] = v; nu[y] = "riga netta del rendiconto (%s)" % usato["ctNetCF"][y]
     if net: val["ctNet"] = net; usato["ctNet"] = nu
     return val, usato
+
+def contenuti_da_companyfacts(cfs):
+    """Stessa lettura dei contenuti, ma dai companyfacts di TUTTE le tassonomie (anche quelle dell'azienda, es. nflx, dis): storia completa.
+    {prefisso:tag: {anno: USD}}; flussi di circa 12 mesi e saldi, ultimo deposito 10-K di ogni anno."""
+    out = {}
+    for cf in cfs:
+        for pref, tags in cf.get("facts", {}).items():
+            if pref in ("dei", "srt", "ecd", "ffd"): continue
+            for tg, o in tags.items():
+                if not RE_CT.search(tg): continue
+                flusso = False
+                if re.search(r"Impairment|Tax|Percent|Ratio|Useful|Weighted|Number|Shares|Revenue|Expense", tg, re.I) and not re.search(r"Amortiz", tg, re.I): continue
+                best = {}
+                for x in o.get("units", {}).get("USD", []):
+                    if x.get("form") != "10-K" or x.get("fp") != "FY": continue
+                    if "start" in x:
+                        d = (datetime.date.fromisoformat(x["end"]) - datetime.date.fromisoformat(x["start"])).days
+                        if not 340 <= d <= 380: continue
+                        flusso = True
+                    y = x["end"][:4]
+                    if y not in best or x["filed"] > best[y]["filed"]: best[y] = x
+                if flusso and not RE_CT_FLUSSO.search(tg): continue
+                if best: out.setdefault(pref + ":" + tg, {}).update({int(y): v["val"] for y, v in best.items()})
+    return out
 
 MP = None
 def main(TK):
@@ -353,6 +380,9 @@ def main(TK):
     ks = sorted(ks, reverse=True)[:8]
     acqx, dbgx = {}, []
     ctraw = {}
+    try:
+        for tag, byy in contenuti_da_companyfacts(cfs).items(): ctraw.setdefault(tag, {}).update(byy)
+    except Exception as e: print("  contenuti da companyfacts: non letti (%s)" % e)
     for d, acc, doc, cc in ks:
         try: html = get("https://www.sec.gov/Archives/edgar/data/%d/%s/%s" % (int(cc), acc.replace("-", ""), doc), True)
         except Exception as e: print("10-K %s non scaricato: %s" % (d, e)); continue
@@ -373,7 +403,7 @@ def main(TK):
     # contenuti capitalizzati (film, serie): aggiunte, ammortamento, passivita'. Il motore usa aggiunte - ammortamento come reinvestimento.
     try:
         cv, cu = contenuti_mappa(ctraw)
-        for k, v in cv.items(): res["concetti"][k] = v; res["tag_usato"][k] = cu[k] if isinstance(cu[k], dict) else {y: cu[k] for y in v}
+        for k, v in cv.items(): res["concetti"][k] = v; res["tag_usato"][k] = cu[k]
         res["contenuti_letti"] = {t: {str(y): round(x / 1e6, 1) for y, x in b.items()} for t, b in sorted(ctraw.items())}
         if cv.get("ctNet"):
             res["avvisi"].append("Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal %d al %d; se non e' una grande media/tv controllare che sia davvero un investimento" % (min(cv["ctNet"]), max(cv["ctNet"])))
