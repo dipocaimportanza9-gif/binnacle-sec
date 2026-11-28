@@ -6,7 +6,7 @@ Per il ticker produce sec_<TICKER>.json con, per ogni 'concetto' del catalogo, i
 2) tag PROPRI dell'azienda (estensioni, es. financing obligations) letti dagli ultimi 10-K in formato iXBRL.
 Stampa una tabella concetto x anno da confrontare col Convertitore Leasing."""
 NK10 = 10   # 10-K letti per ticker (copre 10 anni di prospetti)
-import os, re, sys, json, gzip, time, datetime, urllib.request
+import os, re, sys, json, gzip, time, datetime, urllib.request, urllib.parse
 
 UA = os.environ.get("SEC_UA", "").strip()
 if "@" not in UA:
@@ -395,6 +395,63 @@ def contenuti_da_companyfacts(cfs):
                 if best: out.setdefault(pref + ":" + tg, {}).update({int(y): v["val"] for y, v in best.items()})
     return out
 
+
+_STOP = {"inc", "corp", "corporation", "co", "company", "ltd", "plc", "the", "de", "llc", "holdings", "group", "and", "of", "new", "lp", "sa", "nv", "ag"}
+def _tokens(n):
+    return [t for t in re.sub(r"[^a-z0-9 ]", " ", (n or "").lower()).split() if t not in _STOP]
+
+def _anni_10k(sub):
+    """anni (di deposito) dei 10-K di un CIK, dai depositi recenti e dai file storici"""
+    ys = []
+    def agg(f): ys.extend(int(d[:4]) for d, fm in zip(f.get("filingDate", []), f.get("form", [])) if fm in ("10-K", "10-K405", "10-KT"))
+    agg(sub["filings"]["recent"])
+    for fl in sub["filings"].get("files", []):
+        try: agg(get("https://data.sec.gov/submissions/" + fl["name"]))
+        except Exception: pass
+    return sorted(set(ys))
+
+def predecessori(cik, TK, ciks_noti, avvisi, anni_min=10):
+    """CAMBIO DI CIK AUTOMATICO (societa' ricostituite, es. Disney 2019): se i 10-K del CIK attuale coprono meno di 'anni_min' anni cerca
+    i CIK della stessa societa' prima del cambio, per nome (attuale e precedenti), con la ricerca di EDGAR, e li ACCETTA solo se:
+    nome simile (almeno meta' delle parole in comune e stessa prima parola) E (stesso SIC oppure nome quasi uguale), hanno almeno 2 10-K,
+    e la loro ultima uscita 10-K cade vicino all'inizio dei 10-K del CIK attuale (da 3 anni prima a 1 dopo).
+    Se qualcosa non va non aggiunge nulla. Il file cik_alias.json resta valido e si somma."""
+    try:
+        sub = get("https://data.sec.gov/submissions/CIK%s.json" % cik)
+        ys = _anni_10k(sub)
+        if not ys or (max(ys) - min(ys) + 1) >= anni_min: return []
+        primo = min(ys)
+        nomi = [sub.get("name", "")] + [f.get("name", "") for f in sub.get("formerNames", [])]
+        quer = [" ".join(_tokens(n)[:2]) for n in nomi if _tokens(n)]
+        cand = {}
+        for q in dict.fromkeys(quer):
+            try: j = get("https://efts.sec.gov/LATEST/search-index?keysTyped=" + urllib.parse.quote(q))
+            except Exception as e: print("  predecessori: ricerca '%s' non riuscita (%s)" % (q, e)); continue
+            for h in (j.get("hits", {}) or {}).get("hits", []):
+                src = h.get("_source", {}) or {}
+                for c in [h.get("_id")] + list(src.get("ciks", []) or []) + [src.get("cik")]:
+                    c = re.sub(r"\D", "", str(c or ""))
+                    if c and len(c) <= 10 and int(c) > 0: cand["%010d" % int(c)] = 1
+        tms = [set(_tokens(n)) for n in nomi if _tokens(n)]
+        trovati = []
+        for c in cand:
+            if c == cik or c in ciks_noti: continue
+            try:
+                sc = get("https://data.sec.gov/submissions/CIK%s.json" % c)
+                tns = [set(_tokens(n)) for n in [sc.get("name", "")] + [f.get("name", "") for f in sc.get("formerNames", [])] if _tokens(n)]
+                if not tns or not tms: continue
+                simil = max(len(a & b) / float(len(b)) for a in tns for b in tms)   # parole in comune tra tutti i nomi (attuali e precedenti)
+                sic_ok = bool(sc.get("sic")) and str(sc.get("sic")) == str(sub.get("sic"))
+                ysc = _anni_10k(sc)
+                if len(ysc) < 2: continue
+                vicino = (primo - 3) <= max(ysc) <= (primo + 1)
+                if simil >= 0.5 and (sic_ok or simil >= 0.8) and vicino:
+                    trovati.append(c); avvisi.append("CAMBIO CIK: trovato in automatico il predecessore %s (%s), 10-K %d-%d: da verificare" % (c, sc.get("name"), min(ysc), max(ysc)))
+            except Exception as e: print("  predecessori: %s non letto (%s)" % (c, e))
+        return trovati
+    except Exception as e:
+        print("  predecessori: ricerca non riuscita (%s)" % e); return []
+
 MP = None
 def main(TK):
     global MP
@@ -405,13 +462,16 @@ def main(TK):
     cik = next(("%010d" % v["cik_str"] for v in mp.values() if v["ticker"].upper() == TK), None)
     if not cik: raise RuntimeError("Ticker non trovato: " + TK)
     ciks = [cik] + [c for c in carica_alias().get(TK, []) if c != cik]
+    avv0 = []
+    if os.environ.get("PREDECESSORI", "1") != "0":
+        ciks += [c for c in predecessori(cik, TK, ciks, avv0) if c not in ciks]
     cfs = []
     for c in ciks:
         try: cfs.append(get("https://data.sec.gov/api/xbrl/companyfacts/CIK%s.json" % c))
         except Exception as e: print("  %s: companyfacts non disponibile (%s)" % (c, e))
     gaap = unisci(cfs)
     GL = {k.lower(): k for k in gaap}
-    res = {"ticker": TK, "cik": cik, "cik_usati": ciks, "concetti": {}, "tag_usato": {}, "custom": {}, "avvisi": [], "candidati": {}}
+    res = {"ticker": TK, "cik": cik, "cik_usati": ciks, "concetti": {}, "tag_usato": {}, "custom": {}, "avvisi": list(avv0), "candidati": {}}
     righe, sez = [], ""
     for c in CAT:
         if len(c) == 2: righe.append(("§", c[1])); continue
