@@ -85,4 +85,4 @@ eqPriv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity
 afsDeb: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2024: 1500, 2025: 1400}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2024: 1500, 2025: 1400}
 
-Tempo: 5 s. File scritto: sec_MCD.json
+Tempo: 6 s. File scritto: sec_MCD.json

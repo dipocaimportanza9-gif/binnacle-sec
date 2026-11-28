@@ -73,4 +73,4 @@ Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2009-2026: non sommarli di nuovo
 Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
-Tempo: 4 s. File scritto: sec_HD.json
+Tempo: 5 s. File scritto: sec_HD.json

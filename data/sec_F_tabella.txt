@@ -75,4 +75,4 @@ Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 202
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 381, 2024: 418, 2025: 420}
 
-Tempo: 7 s. File scritto: sec_F.json
+Tempo: 10 s. File scritto: sec_F.json
