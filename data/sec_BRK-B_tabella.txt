@@ -61,7 +61,7 @@ brka:DeferredTaxLiabilitiesPropertyPlantAndEquipmentEquipmentH       .        . 
 brka:RepaymentsOfDebtPrincipalInNextTwelveMonths                     .        .        .        .   10,420    9,398    6,139   12,962   13,859    9,366    9,782        .
 
 --- AVVISI ---
-Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 FUORI PORTATA (SIC 6331 Fire, Marine & Casualty Insurance)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -73,4 +73,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 919, 2024:
 ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2025: 10681}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 721, 2024: 793, 2025: 875}
 
-Tempo: 6 s. File scritto: sec_BRK-B.json
+Tempo: 7 s. File scritto: sec_BRK-B.json

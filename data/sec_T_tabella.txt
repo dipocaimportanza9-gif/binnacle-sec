@@ -86,4 +86,4 @@ eqPriv: EquityMethodInvestmentOtherThanTemporaryImpairment {2023: 450, 2024: 155
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 1668, 2024: 2033, 2025: 1937}
 ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2023: 450, 2024: 155, 2025: 0}
 
-Tempo: 7 s. File scritto: sec_T.json
+Tempo: 6 s. File scritto: sec_T.json

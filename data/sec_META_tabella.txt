@@ -71,4 +71,4 @@ meta:LesseeOperatingLeaseLeaseNotYetCommencedAmount                  .        . 
 --- AVVISI ---
 Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
-Tempo: 6 s. File scritto: sec_META.json
+Tempo: 5 s. File scritto: sec_META.json

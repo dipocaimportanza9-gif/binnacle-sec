@@ -80,4 +80,4 @@ Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 202
 ltInv: RestrictedInvestments {2023: 4779, 2024: 7019, 2025: 8874}
 ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2023: 0, 2024: 0}
 
-Tempo: 5 s. File scritto: sec_UBER.json
+Tempo: 4 s. File scritto: sec_UBER.json

@@ -83,4 +83,4 @@ Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarl
 Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 FUORI PORTATA (SIC 6798 Real Estate Investment Trusts)
 
-Tempo: 7 s. File scritto: sec_AMT.json
+Tempo: 6 s. File scritto: sec_AMT.json

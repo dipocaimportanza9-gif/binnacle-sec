@@ -132,4 +132,4 @@ ltInv: SecuritiesLoanedAsset {2023: 43610, 2024: 48371, 2025: 71170}
 ltInv: SecuritiesBorrowedLiability {2023: 43610, 2024: 48371, 2025: 71170}
 ltInv: SecuritiesBorrowedNotSubjectToMasterNettingArrangementDeduction {2023: 50700}
 
-Tempo: 37 s. File scritto: sec_JPM.json
+Tempo: 33 s. File scritto: sec_JPM.json

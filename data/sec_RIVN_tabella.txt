@@ -73,4 +73,4 @@ eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2024: 113
 afsDeb: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2024: 1133}
 ltInv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2024: 1133}
 
-Tempo: 3 s. File scritto: sec_RIVN.json
+Tempo: 2 s. File scritto: sec_RIVN.json

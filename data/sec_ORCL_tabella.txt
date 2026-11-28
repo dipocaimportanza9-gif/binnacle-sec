@@ -64,7 +64,7 @@ orcl:PercentageOfMarketableSecuritiesInvestmentsMatureWithinOn       .        . 
 
 --- AVVISI ---
 OCI accumulato dei soli titoli disponibili per la vendita (cambi e coperture esclusi): ultimo anno 2024 (mancano anni recenti)
-Prospetti 10-K letti per gli anni: 2018, 2019, 2020, 2021, 2022
+Prospetti 10-K letti per gli anni: 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dBrev: DebtInstrumentFaceAmount {2023: 90927, 2024: 87266, 2025: 92947, 2026: 130105}

@@ -161,4 +161,4 @@ ltInv: DebtSecuritiesTradingRestricted {2023: 130815, 2024: 170328, 2025: 185869
 ltInv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 83107, 2024: 98891, 2025: 129743}
 ltInv: NetInvestmentInLease {2023: 19050, 2024: 21102, 2025: 22718}
 
-Tempo: 18 s. File scritto: sec_BAC.json
+Tempo: 14 s. File scritto: sec_BAC.json
