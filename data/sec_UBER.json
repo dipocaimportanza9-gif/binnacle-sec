@@ -464,7 +464,8 @@
    "2021": 11806.0,
    "2022": 4401.0,
    "2020": 9052.0,
-   "2019": 10527.0
+   "2019": 10527.0,
+   "2018": 10355.0
   },
   "uber:OperatingLeaseRightOfUseAssetPercentageOfLeasedAssetsForeign": {
    "2022": 0.0,
@@ -474,11 +475,13 @@
   "uber:LesseeOperatingLeaseLeaseNotYetCommencedAmount": {
    "2022": 193.0,
    "2021": 421.0,
-   "2020": 533.0
+   "2020": 533.0,
+   "2019": 405.0
   },
   "uber:LesseeFinanceLeaseLeaseNotYetCommencedAmount": {
    "2021": 19.0,
-   "2020": 4.0
+   "2020": 4.0,
+   "2019": 23.0
   },
   "uber:FinanceLeaseRightOfUseAssetGross": {
    "2019": 539.0,
@@ -490,6 +493,13 @@
   },
   "uber:CommitmentToIssueUnsecuredConvertibleNotesNoncurrent": {
    "2020": 120.0
+  },
+  "uber:LesseeOperatingLeaseNumberOfRenewalOptions": {
+   "2019": 0.0
+  },
+  "uber:FinancingObligationNoncurrent": {
+   "2018": 436.0,
+   "2019": 78.0
   }
  },
  "avvisi": [

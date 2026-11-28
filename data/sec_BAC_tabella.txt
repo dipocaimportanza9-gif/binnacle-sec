@@ -57,45 +57,77 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-bac:DebtSecuritiesAmortizedCostExcludingAccruedInterestBeforeA       .        .        .        .        .        .        .        .        .  920,993  927,362        .
-bac:DebtSecuritiesCarriedAtFairValueAmortizedCostExcludingAccr       .        .        .        .        .        .        .        .        .  362,280  404,677        .
-bac:DebtSecuritiesCarriedAtFairValueExcludingAccruedInterest         .        .        .        .        .        .        .        .        .  358,607  402,975        .
-bac:DebtSecuritiesCarriedAtFairValueGrossUnrealizedGain              .        .        .        .        .        .        .        .        .      423      990        .
-bac:DebtSecuritiesCarriedAtFairValueGrossUnrealizedLoss              .        .        .        .        .        .        .        .        .    4,096    2,692        .
-bac:DebtSecuritiesFairValueExcludingAccruedInterest                  .        .        .        .        .        .        .        .        .  809,155  845,405        .
-bac:DebtSecuritiesGrossUnrealizedGain                                .        .        .        .        .        .        .        .        .      424      992        .
-bac:DebtSecuritiesGrossUnrealizedLoss                                .        .        .        .        .        .        .        .        .  112,262   82,949        .
-bac:DebtSecuritiesHeldToMaturityMinimumPercentageOfPrincipalCo       .        .        .        .        .        .        .        .        .        .        0        .
-bac:DeferredTaxAssetsLeaseLiability                                  .        .        .        .        .        .        .        .        .    2,169    2,025        .
-bac:DeferredTaxAssetsSecurityLoanAndDebtValuations                   .        .        .        .        .        .        .        .        .    2,680      559        .
-bac:FinancingReceivableExcludingAccruedInterest90DaysOrMorePas       .        .        .        .        .        .        .        .        .        0        0        .
-bac:FinancingReceivableExcludingAccruedInterestAndOffBalanceSh       .        .        .        .        .        .        .        .   14,551   14,336   14,380        .
-bac:FinancingReceivableHeldForSaleExcludingAccruedInterestNotP       .        .        .        .        .        .        .        .        .    9,545    5,165        .
-bac:FinancingReceivableNetOfDeferredIncomePercent                    .        .        .        .        .        .        .        .        .        0        0        .
-bac:FinancingReceivableRepurchased                                   .        .        .        .        .        .        .        .        .   12,300   19,600        .
-bac:HeldToMaturitySecuritiesDebtMaturitiesRollingAfterTenYears       .        .        .        .        .        .        .        .        .        .  400,302        .
-bac:HeldToMaturitySecuritiesDebtMaturitiesRollingYearSixThroug       .        .        .        .        .        .        .        .        .        .   44,780        .
-bac:HeldtomaturitySecuritiesDebtMaturitiesNextRollingTwelveMon       .        .        .        .        .        .        .        .        .        .      504        .
-bac:HeldtomaturitySecuritiesDebtMaturitiesNextRollingTwelveMon       .        .        .        .        .        .        .        .        .        .        0        .
-bac:HeldtomaturitySecuritiesDebtMaturitiesRollingAfterTenYears       .        .        .        .        .        .        .        .        .        .        0        .
-bac:HeldtomaturitySecuritiesDebtMaturitiesRollingYearSixThroug       .        .        .        .        .        .        .        .        .        .        0        .
-bac:HeldtomaturitySecuritiesDebtMaturitiesRollingYearTwoThroug       .        .        .        .        .        .        .        .        .        .   77,099        .
-bac:HeldtomaturitySecuritiesDebtMaturitiesRollingYearTwoThroug       .        .        .        .        .        .        .        .        .        .        0        .
-bac:OtherDebtSecuritiesCarriedAtFairValueAmortizedCostExcludin       .        .        .        .        .        .        .        .        .   12,352   16,066        .
-bac:OtherDebtSecuritiesCarriedAtFairValueExcludingAccruedInter       .        .        .        .        .        .        .        .        .   12,175   16,177        .
-bac:OtherDebtSecuritiesCarriedAtFairValueGrossUnrealizedGain         .        .        .        .        .        .        .        .        .       59      200        .
-bac:OtherDebtSecuritiesCarriedAtFairValueGrossUnrealizedLoss         .        .        .        .        .        .        .        .        .      236       89        .
-bac:SalesTypeAndDirectFinancingLeasesUnguaranteedResidualAsset       .        .        .        .        .        .        .        .        .    2,543    3,520        .
-bac:SalestypeLeaseUnguaranteedResidualAssetWithThirdpartyResid       .        .        .        .        .        .        .        .        .    8,000    9,400        .
-bac:SecuritiesFinancingAgreementsLiabilityOtherSubjectToMaster       .        .        .        .        .        .        .        .        .   10,531    5,290        .
-bac:SecuritiesFinancingAgreementsLiabilityOtherSubjectToMaster       .        .        .        .        .        .        .        .        .   10,531    5,290        .
-bac:SecuritiesFinancingAgreementsLiabilityOtherSubjectToMaster       .        .        .        .        .        .        .        .        .   10,531    5,290        .
-bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        .        .        .        .        .        .        .        .  342,289  350,006        .
-bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        .        .        .        .        .        .        .        .   13,784   12,124        .
-bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        .        .        .        .        .        .        .        .  825,651  969,214        .
-bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        .        .        .        .        .        .        .        .  483,362  619,208        .
-bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        .        .        .        .        .        .        .        .  328,505  337,882        .
-bac:TimeDepositsAndOtherShortTermInvestments                         .        .        .        .        .        .        .        .        .    6,372    7,474        .
+bac:DebtSecuritiesAmortizedCost                                      .        .  441,957  446,527  469,633  678,237  979,356        .        .        .        .        .
+bac:DebtSecuritiesAmortizedCostExcludingAccruedInterestBeforeA       .        .        .        .        .        .  979,356  867,334  875,275  920,993  927,362        .
+bac:DebtSecuritiesCarriedAtFairValue                                 .        .  315,117  238,101  256,467  246,601  308,073        .        .        .        .        .
+bac:DebtSecuritiesCarriedAtFairValueAmortizedCost                    .        .  316,944  242,875  253,903  239,958  304,765        .        .        .        .        .
+bac:DebtSecuritiesCarriedAtFairValueAmortizedCostExcludingAccr       .        .        .        .        .        .  304,765  234,471  280,684  362,280  404,677        .
+bac:DebtSecuritiesCarriedAtFairValueExcludingAccruedInterest         .        .        .        .        .        .  308,073  229,994  276,852  358,607  402,975        .
+bac:DebtSecuritiesCarriedAtFairValueGrossUnrealizedGain              .        .    1,330      671    3,031    6,813    4,074      466      206      423      990        .
+bac:DebtSecuritiesCarriedAtFairValueGrossUnrealizedLoss              .        .    3,157    5,445      467      170      766    4,943    4,038    4,096    2,692        .
+bac:DebtSecuritiesFairValue                                          .        .  438,416  438,536  476,288  694,781  973,963        .        .        .        .        .
+bac:DebtSecuritiesFairValueExcludingAccruedInterest                  .        .        .        .        .        .  973,963  754,261  773,449  809,155  845,405        .
+bac:DebtSecuritiesGrossUnrealizedGain                                .        .    1,441    1,418    7,464   16,908    8,330      466      206      424      992        .
+bac:DebtSecuritiesGrossUnrealizedLoss                                .        .    4,982    9,409      809      364   13,723  113,539  102,032  112,262   82,949        .
+bac:DebtSecuritiesHeldToMaturityMinimumPercentageOfPrincipalCo       .        .        .        .        .        .        .        .        0        0        0        .
+bac:DebtSecuritiesHeldToMaturityNetOfAllowanceForCreditLosses        .        .        .        .  215,730  438,249  674,554        .        .        .        .        .
+bac:DeferredTaxAssetsLeaseLiability                                  .        .        .        .    2,321    2,400    2,508    2,443    2,328    2,169    2,025        .
+bac:DeferredTaxAssetsSecurityLoanAndDebtValuations                   .        .        .        .        .        .        .        .    3,991    2,680      559        .
+bac:DeferredTaxAssetsSecurityLoanandDebtValuations                   .        .    2,939    1,818    1,860    2,571    2,746    5,748    3,991        .        .        .
+bac:DisposalGroupIncludingDiscontinuedOperationsLoansAndLeases       .      243        .        .        .        .        .        .        .        .        .        .
+bac:FinancingReceivableAccruingPastDue90DaysorMorePercentPastD       .        .        .        .        0        0        0        .        .        .        .        .
+bac:FinancingReceivableAndOffBalanceSheetCreditLossAllowance         .        .        .   10,398   10,229   20,680   13,843        .        .        .        .        .
+bac:FinancingReceivableCollectivelyEvaluatedForImpairmentAllow       .        .        0        0        0        .        .        .        .        .        .        .
+bac:FinancingReceivableExcludingAccruedInterest90DaysOrMorePas       .        .        .        .        .        .        0        0        0        0        0        .
+bac:FinancingReceivableExcludingAccruedInterestAndOffBalanceSh       .        .        .        .        .   20,680   13,843   14,222   14,551   14,336   14,380        .
+bac:FinancingReceivableHeldForSaleExcludingAccruedInterestNotP       .        .        .        .        .        .   15,635    6,871    6,002    9,545    5,165        .
+bac:FinancingReceivableIndividuallyEvaluatedForImpairmentAllow       .        .        0        0        0        .        .        .        .        .        .        .
+bac:FinancingReceivableNetOfDeferredIncomePercent                    .        .        .        .        .        .        .        .        0        0        0        .
+bac:FinancingReceivableNetofDeferredIncomePercent                    .        .        .        .        0        0        0        0        0        .        .        .
+bac:FinancingReceivableNumberofLoansFundedPaycheckProtectionPr       .        .        .        .        .        0        0        .        .        .        .        .
+bac:FinancingReceivablePurchasedCreditImpairedLoans                  .        .        .        .        .      144        .        .        .        .        .        .
+bac:FinancingReceivableRepurchased                                   .        .        .        .   12,900   14,700   20,100    8,700    8,700   12,300   19,600        .
+bac:HeldToMaturitySecuritiesDebtMaturitiesRollingAfterTenYears       .        .        .        .        .        .        .        .        .  435,726  400,302        .
+bac:HeldToMaturitySecuritiesDebtMaturitiesRollingYearSixThroug       .        .        .    1,475    1,102   17,133  112,336  117,380  117,347   96,582   44,780        .
+bac:HeldtomaturitySecuritiesDebtMaturitiesNextRollingTwelveMon       .        .        .      657    1,025       15       37       38       58      667      504        .
+bac:HeldtomaturitySecuritiesDebtMaturitiesNextRollingTwelveMon       .        .        .        0        0        0        0        0        0        0        0        .
+bac:HeldtomaturitySecuritiesDebtMaturitiesRollingAfterTenYears       .        .        .        0        0        0        0        0        0        0        0        .
+bac:HeldtomaturitySecuritiesDebtMaturitiesRollingYearSixThroug       .        .        .        0        0        0        0        0        0        0        0        .
+bac:HeldtomaturitySecuritiesDebtMaturitiesRollingYearTwoThroug       .        .        .       18       48       66    1,035    5,795    5,803   25,738   77,099        .
+bac:HeldtomaturitySecuritiesDebtMaturitiesRollingYearTwoThroug       .        .        .        0        0        0        0        0        0        0        0        .
+bac:HeldtomaturitySecuritiesDebtMaturitiesRollingafterTenYears       .        .        .  201,502  213,555  421,065  561,183  509,650  471,383        .        .        .
+bac:LoansAndLeasesReceivableAllowanceandDisposalGroupIncluding       .   11,480        .        .        .        .        .        .        .        .        .        .
+bac:LoansAndLeasesReceivableGrossReportedAmountExcludingLoansM       .        .  931,039  942,546  975,091        .        .        .        .        .        .        .
+bac:LoansandLeasesReceivableAllowanceAsPercentageOfCarryingVal       .        .        0        0        0        .        .        .        .        .        .        .
+bac:LoansandLeasesReceivableNetofDeferredIncomePercent               .        .        0        0        0        .        .        .        .        .        .        .
+bac:LoansandLeasesRepurchased                                        .        .   10,200   11,500   12,900        .        .        .        .        .        .        .
+bac:OtherDebtSecuritiesCarriedAtFairValue                            .        .   12,486    8,735   10,828   12,110    8,895        .        .        .        .        .
+bac:OtherDebtSecuritiesCarriedAtFairValueAmortizedCost               .        .   12,273    8,595   10,596   11,720    8,873        .        .        .        .        .
+bac:OtherDebtSecuritiesCarriedAtFairValueAmortizedCostExcludin       .        .        .        .        .        .    8,873    8,986   10,202   12,352   16,066        .
+bac:OtherDebtSecuritiesCarriedAtFairValueExcludingAccruedInter       .        .        .        .        .        .    8,895    9,206   10,203   12,175   16,177        .
+bac:OtherDebtSecuritiesCarriedAtFairValueGrossUnrealizedGain         .        .      252      172      255      429      105      376       56       59      200        .
+bac:OtherDebtSecuritiesCarriedAtFairValueGrossUnrealizedLoss         .        .        .        .        .        .        .        .       55      236       89        .
+bac:OtherDebtSecuritiesCarriedatFairValueGrossUnrealizedLoss         .        .       39       32       23       39       83      156       55        .        .        .
+bac:SalesTypeAndDirectFinancingLeasesUngauranteedResidualAsset       .        .        .        .    2,550    2,303        .        .        .        .        .        .
+bac:SalesTypeAndDirectFinancingLeasesUnguaranteedResidualAsset       .        .        .        .        .    2,303    2,078    2,143    2,485    2,543    3,520        .
+bac:SalestypeLeaseUnguaranteedResidualAssetWithThirdpartyResid       .        .        .        .    5,800    6,900    7,100    6,500    6,800    8,000    9,400        .
+bac:SecuritiesFinancingAgreementsLiability                           .        .  199,568  206,894  180,455  186,533  203,720        .        .        .        .        .
+bac:SecuritiesFinancingAgreementsLiabilityAmountOffsetAgainstC       .        .   30,652   10,248   23,627   11,456   10,469        .        .        .        .        .
+bac:SecuritiesFinancingAgreementsLiabilityAsset                      .        .  135,725  106,865  159,660  188,329  276,334        .        .        .        .        .
+bac:SecuritiesFinancingAgreementsLiabilityCollateralRighttoRec       .        .  168,916  196,646  156,828  175,077  193,251        .        .        .        .        .
+bac:SecuritiesFinancingAgreementsLiabilityGross                      .        .  335,293  313,759  340,115  374,862  480,054        .        .        .        .        .
+bac:SecuritiesFinancingAgreementsLiabilityOther                      .        .   22,711   19,906   15,346   16,210   11,391        .        .        .        .        .
+bac:SecuritiesFinancingAgreementsLiabilityOtherCollateralRight       .        .   22,711   19,906   15,346   16,210   11,391        .        .        .        .        .
+bac:SecuritiesFinancingAgreementsLiabilityOtherGross                 .        .   22,711   19,906   15,346   16,210   11,391        .        .        .        .        .
+bac:SecuritiesFinancingAgreementsLiabilityOtherSubjectToMaster       .        .        .        .        .        .   11,391    8,427   10,066   10,531    5,290        .
+bac:SecuritiesFinancingAgreementsLiabilityOtherSubjectToMaster       .        .        .        .        .        .   11,391    8,427   10,066   10,531    5,290        .
+bac:SecuritiesFinancingAgreementsLiabilityOtherSubjectToMaster       .        .        .        .        .        .   11,391    8,427   10,066   10,531    5,290        .
+bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        .        .        .        .        .  203,720  204,062  293,953  342,289  350,006        .
+bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        .        .        .        .        .   10,469   12,370   11,602   13,784   12,124        .
+bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        .        .        .        .        .  480,054  534,335  716,970  825,651  969,214        .
+bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        .        .        .        .        .  276,334  330,273  423,017  483,362  619,208        .
+bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        .        .        .        .        .  193,251  191,692  282,351  328,505  337,882        .
+bac:TimeDepositsAndOtherShortTermInvestments                         .        .   11,153    7,494    7,107    6,546    7,144    7,259    8,346    6,372    7,474        .
 
 --- AVVISI ---
 FUORI PORTATA (SIC 6021 National Commercial Banks)
@@ -128,4 +160,4 @@ ltInv: DebtSecuritiesTradingRestricted {2023: 130815, 2024: 170328, 2025: 185869
 ltInv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 83107, 2024: 98891, 2025: 129743}
 ltInv: NetInvestmentInLease {2023: 19050, 2024: 21102, 2025: 22718}
 
-Tempo: 2 s. File scritto: sec_BAC.json
+Tempo: 13 s. File scritto: sec_BAC.json

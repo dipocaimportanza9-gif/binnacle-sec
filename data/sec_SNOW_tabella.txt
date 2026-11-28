@@ -57,29 +57,30 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAccumulat       .        .        .        .        .        .        .        0        3        3        3        6
-snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAccumulat       .        .        .        .        .        .        .       16       39        8        2        0
-snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAmortized       .        .        .        .        .        .        .    4,883    4,716    4,337    4,916    3,950
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAccumulat       .        .        .        .        .        0        1        0        3        3        3        6
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAccumulat       .        .        .        .        .        0        1       16       39        8        2        0
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAmortized       .        .        .        .        .      384    4,936    4,883    4,716    4,337    4,916    3,950
 snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleContinuou       .        .        .        .        .        .        .        9      969      514        .        .
 snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleContinuou       .        .        .        .        .        .        .        0       24        6        .        .
 snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleContinuou       .        .        .        .        .        .        .    3,517    2,117    1,734        .        .
 snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleContinuou       .        .        .        .        .        .        .       16       15        3        .        .
-snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleFairValue       .        .        .        .        .        .        .    4,868    4,680    4,332    4,916    3,956
+snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleFairValue       .        .        .        .        .      385    4,936    4,868    4,680    4,332    4,916    3,956
 snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleUnrealize       .        .        .        .        .        .        .    3,526    3,087    2,248        .        .
 snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleUnrealize       .        .        .        .        .        .        .       16       39        8        .        .
 snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleUnrealize       .        .        .        .        .        .        .        .        .        8        .        .
-snow:DebtSecuritiesAvailableForSaleFairValueMaturityAllocatedA       .        .        .        .        .        .        .        .    1,073      916      656      755
-snow:DebtSecuritiesAvailableForSaleWithoutReadilyDeterminableF       .        .        .        .        .        .        .        2        2        2        1        .
+snow:DebtSecuritiesAvailableForSaleFairValueMaturityAllocatedA       .        .        .        .        .        .    1,165    1,256    1,073      916      656      755
+snow:DebtSecuritiesAvailableForSaleWithoutReadilyDeterminableF       .        .        .        .        .        .        0        2        2        2        1        .
 snow:DebtSecuritiesWithoutReadilyDeterminableFairValueAmount         .        .        .        .        .        .        .        .        .        .        1       10
-snow:DeferredTaxAssetsLeaseLiability                                 .        .        .        .        .        .        .       49       55       54      104      113
-snow:DeferredTaxLiabilitiesOperatingLeaseRightOfUseAsset             .        .        .        .        .        .        .       48       54       49       95       73
-snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncome        .        .        .        .        .        .        .        .      290      330      530      564
-snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeA       .        .        .        .        .        .        .        .      142      133      261      216
-snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .        .        .       30       37       66       72
-snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .        .        .       32       39       55       74
-snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .        .        .       20       39       16       67
-snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .        .        .       32       41       67       62
-snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .        .        .       34       42       64       74
+snow:DeferredTaxAssetsLeaseLiability                                 .        .        .        .        .       51       51       49       55       54      104      113
+snow:DeferredTaxLiabilitiesOperatingLeaseRightOfUseAsset             .        .        .        .        .       47       50       48       54       49       95       73
+snow:LesseeLeaseLeaseNotYetCommencedUndiscountedAmount               .        .        .        .        .        .        .       25        .        .        .        .
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncome        .        .        .        .        .        .      202      206      290      330      530      564
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeA       .        .        .        .        .        .      107       91      142      133      261      216
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .       18       21       30       37       66       72
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .       18       21       32       39       55       74
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .       19       24       20       39       16       67
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .       20       22       32       41       67       62
+snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        .        .        .        .        .       20       26       34       42       64       74
 
 --- AVVISI ---
 Azioni emesse non in contanti (rendiconto, voce supplementare; riserva per acquisizioni): ultimo anno 2022 (mancano anni recenti)
@@ -89,4 +90,4 @@ finLiab: OperatingLeaseRightOfUseAsset {2023: 231, 2024: 252, 2025: 359, 2026: 2
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 72, 2024: 56, 2025: 148, 2026: 44}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 85, 2024: 77, 2025: 144, 2026: 129}
 
-Tempo: 3 s. File scritto: sec_SNOW.json
+Tempo: 4 s. File scritto: sec_SNOW.json

@@ -78,4 +78,4 @@ nee:OperatingLeaseWeightedAverageBorrowingRatePercent                .        . 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 712, 2024: 811, 2025: 446}
 
-Tempo: 8 s. File scritto: sec_NEE.json
+Tempo: 4 s. File scritto: sec_NEE.json

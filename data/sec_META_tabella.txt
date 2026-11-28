@@ -57,6 +57,15 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-meta:DeferredTaxAssetsLeaseLiabilities                               .        .        .        .        .        .        .        .    3,752    3,940    5,150        .
+fb:DeferredTaxAssetsLeaseLiabilities                                 .        .        .        .    1,999    2,058    2,597        .        .        .        .        .
+fb:LesseeFinanceLeaseLeaseNotYetCommencedAmount                      .        .        .        .      317      443    1,620        .        .        .        .        .
+fb:LesseeOperatingLeaseLeaseNotYetCommencedAmount                    .        .        .        .    5,040    7,410    8,340        .        .        .        .        .
+fb:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetAccu       .        .        .        .   10,663        .        .        .        .        .        .        .
+fb:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetAfte       .        .        .        .   35,323        .        .        .        .        .        .        .
+fb:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetBefo       .        .        .        .   45,986        .        .        .        .        .        .        .
+meta:DeferredTaxAssetUnrealizedLossOnSecuritiesAndInvestments        .        .        .        .        .        .        .      489        .        .        .        .
+meta:DeferredTaxAssetsLeaseLiabilities                               .        .        .        .        .        .    2,597    3,200    3,752    3,940    5,150        .
+meta:LesseeFinanceLeaseLeaseNotYetCommencedAmount                    .        .        .        .        .        .        .    1,430    1,370        .        .        .
+meta:LesseeOperatingLeaseLeaseNotYetCommencedAmount                  .        .        .        .        .        .        .    8,360    7,070        .        .        .
 
-Tempo: 1 s. File scritto: sec_META.json
+Tempo: 3 s. File scritto: sec_META.json

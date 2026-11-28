@@ -439,64 +439,242 @@
  "custom": {
   "jpm:DebtSecuritiesNetCarryingAmount": {
    "2025": 777332.0,
-   "2024": 681320.0
+   "2024": 681320.0,
+   "2023": 571552.0,
+   "2022": 631162.0,
+   "2021": 672232.0,
+   "2020": 589999.0,
+   "2019": 398239.0
   },
   "jpm:FinancingReceivableExcludingAccruedInterestBeforeAllowanceForCreditLossesNetOfDeferredIncome": {
    "2025": 1493429.0,
-   "2024": 1347988.0
+   "2024": 1347988.0,
+   "2023": 1323706.0,
+   "2022": 1135647.0,
+   "2021": 1077714.0,
+   "2020": 1012853.0
   },
   "jpm:PropertyPlantAndEquipmentAndOperatingLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization": {
    "2025": 36244.0,
-   "2024": 32223.0
+   "2024": 32223.0,
+   "2023": 30157.0,
+   "2022": 27734.0
   },
   "jpm:DefinedBenefitPlanAmountOfPlanInvestmentsHeldInFundsThatAreSponsoredOrManagedByAffiliatesOfEntity": {
    "2025": 2100.0,
-   "2024": 1800.0
+   "2024": 1800.0,
+   "2023": 1800.0,
+   "2022": 1700.0,
+   "2021": 2500.0,
+   "2020": 2700.0,
+   "2019": 3100.0,
+   "2018": 3700.0,
+   "2017": 6000.0
   },
   "jpm:DebtSecuritiesAvailableForSaleAndHeldToMaturityAccruedInterestAfterAllowanceForCreditLoss": {
    "2025": 4600.0,
-   "2024": 3700.0
+   "2024": 3700.0,
+   "2023": 2800.0,
+   "2022": 2500.0,
+   "2021": 1900.0,
+   "2020": 2100.0
   },
   "jpm:DebtSecuritiesHeldToMaturityExternalCreditRatingPercentRatedAAPlusOrHigher": {
-   "2024": 0.0
+   "2024": 0.0,
+   "2023": 0.0,
+   "2022": 0.0,
+   "2021": 0.0,
+   "2020": 0.0
   },
   "jpm:DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedInterestBeforeAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingWithinOneYear": {
-   "2025": 18489.0
+   "2025": 18489.0,
+   "2024": 20187.0,
+   "2023": 63974.0,
+   "2022": 34255.0
   },
   "jpm:DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedInterestBeforeAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingAfterOneThroughFiveYears": {
-   "2025": 100374.0
+   "2025": 100374.0,
+   "2024": 48634.0,
+   "2023": 66647.0,
+   "2022": 108179.0
   },
   "jpm:DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedInterestBeforeAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingAfterFiveThroughTenYears": {
-   "2025": 42668.0
+   "2025": 42668.0,
+   "2024": 76869.0,
+   "2023": 77939.0,
+   "2022": 101470.0
   },
   "jpm:DebtSecuritiesHeldToMaturityAmortizedCostExcludingAccruedInterestBeforeAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingAfter10Years": {
-   "2025": 108668.0
+   "2025": 108668.0,
+   "2024": 128881.0,
+   "2023": 161382.0,
+   "2022": 181468.0
   },
   "jpm:FinancingReceivableAndDebtSecuritiesAllowanceForCreditLossAndOffBalanceSheetCreditLossLiability": {
    "2025": 30942.0,
    "2024": 26598.0,
-   "2023": 24522.0
+   "2023": 24522.0,
+   "2022": 22204.0,
+   "2021": 18689.0,
+   "2020": 30815.0,
+   "2019": 14314.0
   },
   "jpm:ReceivablesAndDebtSecuritiesAllowanceForCreditLossAndOffBalanceSheetCreditLossLiability": {
-   "2025": 31200.0
+   "2025": 31200.0,
+   "2024": 26900.0,
+   "2023": 24800.0
   },
   "jpm:LongTermDebtMaturitiesRepaymentsOfPrincipalInRollingYearsOneThroughFive": {
-   "2025": 232318.0
+   "2025": 232318.0,
+   "2024": 217508.0,
+   "2023": 207553.0
   },
   "jpm:LongTermDebtCollateral": {
    "2025": 191000.0,
-   "2024": 185500.0
+   "2024": 185500.0,
+   "2023": 218500.0,
+   "2022": 208300.0,
+   "2021": 170600.0,
+   "2020": 166400.0,
+   "2019": 186100.0,
+   "2018": 207000.0,
+   "2017": 208400.0
   },
   "jpm:RedeemableLongTermDebt": {
-   "2025": 320400.0
+   "2025": 320400.0,
+   "2024": 297100.0,
+   "2023": 208200.0,
+   "2022": 194900.0,
+   "2021": 185000.0,
+   "2020": 151300.0,
+   "2019": 141300.0,
+   "2018": 138200.0
   },
   "jpm:DebtInstrumentWeightedAverageInterestRateStatedPercentageExcludingStructuredNotes": {
    "2025": 0.0,
-   "2024": 0.0
+   "2024": 0.0,
+   "2023": 0.0,
+   "2022": 0.0,
+   "2021": 0.0,
+   "2020": 0.0,
+   "2019": 0.0,
+   "2018": 0.0,
+   "2017": 0.0
   },
   "jpm:DebtInstrumentWeightedAverageInterestRateModifiedForEffectsOfHedgeAccounting": {
    "2025": 0.0,
-   "2024": 0.0
+   "2024": 0.0,
+   "2023": 0.0,
+   "2022": 0.0,
+   "2021": 0.0,
+   "2020": 0.0,
+   "2019": 0.0,
+   "2018": 0.0,
+   "2017": 0.0
+  },
+  "jpm:LesseeOperatingLeaseLeaseNotYetCommencedAmount": {
+   "2023": 420.0,
+   "2022": 588.0,
+   "2021": 900.0,
+   "2020": 1200.0,
+   "2019": 1200.0
+  },
+  "jpm:LongTermDebtMaturingInYearsOneThroughFive": {
+   "2022": 129666.0,
+   "2021": 124204.0,
+   "2020": 97268.0,
+   "2019": 121032.0,
+   "2018": 129391.0
+  },
+  "jpm:DebtSecuritiesHeldToMaturityAmortizedCostBeforeAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingWithinOneYear": {
+   "2021": 25741.0
+  },
+  "jpm:DebtSecuritiesHeldToMaturityAmortizedCostBeforeAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingAfterOneThroughFiveYears": {
+   "2021": 94243.0
+  },
+  "jpm:DebtSecuritiesHeldToMaturityAmortizedCostBeforeAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingAfterFiveThroughTenYears": {
+   "2021": 92742.0
+  },
+  "jpm:DebtSecuritiesHeldToMaturityAmortizedCostBeforeAllowanceForCreditLossMaturityAllocatedAndSingleMaturityDateRollingAfter10Years": {
+   "2021": 151020.0
+  },
+  "jpm:DebtSecuritiesHeldToMaturityNetOfAllowanceForCreditLosses": {
+   "2020": 201821.0,
+   "2019": 47540.0
+  },
+  "jpm:FinancingReceivableBeforeAllowanceForCreditLossesNetofDeferredIncome": {
+   "2020": 1012853.0,
+   "2019": 997620.0
+  },
+  "jpm:FinancingReceivableAllowanceForCreditLossAndOffBalanceSheetCreditLossLiability": {
+   "2019": 14314.0,
+   "2020": 30737.0,
+   "2018": 14500.0
+  },
+  "jpm:DebtSecuritiesAvailableforsaleMaturityWeightedAverageYield": {
+   "2020": 0.0,
+   "2019": 0.0
+  },
+  "jpm:DebtSecuritiesHeldtomaturityMaturityWeightedAverageYield": {
+   "2020": 0.0,
+   "2019": 0.0
+  },
+  "jpm:InvestmentSecuritiesContinuousUnrealizedLossPositionLessThanTwelveMonthsFairValue": {
+   "2019": 67234.0,
+   "2018": 54722.0,
+   "2017": 58841.0
+  },
+  "jpm:InvestmentSecuritiesContinuousUnrealizedLossPositionLessthan12MonthsAggregateLossPointinTime": {
+   "2019": 310.0,
+   "2018": 573.0,
+   "2017": 289.0
+  },
+  "jpm:InvestmentSecuritiesContinuousUnrealizedLossPositionTwelveMonthsorLongerFairValue": {
+   "2019": 21166.0,
+   "2018": 44902.0,
+   "2017": 17010.0
+  },
+  "jpm:InvestmentSecuritiesContinuousUnrealizedLossPosition12MonthsorLongerAggregateLossPointinTime": {
+   "2019": 131.0,
+   "2018": 1185.0,
+   "2017": 382.0
+  },
+  "jpm:InvestmentSecuritiesContinuousUnrealizedLossPositionFairValue": {
+   "2019": 88400.0,
+   "2018": 99624.0,
+   "2017": 75851.0
+  },
+  "jpm:InvestmentSecuritiesContinuousUnrealizedLossPositionAggregateLossPointinTime": {
+   "2019": 441.0,
+   "2018": 1758.0,
+   "2017": 671.0
+  },
+  "jpm:AvailableForSaleSecuritiesDebtMaturitiesAverageYieldWithinOneYear": {
+   "2018": 0.0
+  },
+  "jpm:AvailableForSaleSecuritiesDebtMaturitiesAverageYieldAfterOneThroughFiveYears": {
+   "2018": 0.0
+  },
+  "jpm:AvailableForSaleSecuritiesDebtMaturitiesAverageYieldAfterFiveThroughTenYears": {
+   "2018": 0.0
+  },
+  "jpm:AvailableForSaleSecuritiesDebtMaturitiesAverageYieldAfterTenYears": {
+   "2018": 0.0
+  },
+  "jpm:AvailableForSaleSecuritiesDebtMaturitiesAverageYield": {
+   "2018": 0.0
+  },
+  "jpm:HeldToMaturitySecuritiesDebtMaturitiesAverageYieldAfterFiveThroughTenYears": {
+   "2018": 0.0
+  },
+  "jpm:HeldToMaturitySecuritiesDebtMaturitiesAverageYieldAfterTenYears": {
+   "2018": 0.0
+  },
+  "jpm:HeldToMaturitySecuritiesDebtMaturitiesAverageYield": {
+   "2018": 0.0
+  },
+  "jpm:OperatingLeasesFutureMinimumPaymentsDueNetOfFutureMinimumSubleaseRentals": {
+   "2018": 10167.0
   }
  },
  "avvisi": [

@@ -57,9 +57,9 @@ Debito totale = quota corrente + non corrente (se manca il tot       .   21,705 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-pg:DeferredTaxAssetsLeaseLiabilities                                 .        .        .        .        .        .        .      185      197      199      212      198
-pg:LongTermDebtCurrentMaturitiesMeasuredAtFairValue                  .        .        .        .        .        .        .    3,600    3,900    3,800    5,300    6,500
-pg:ReserveForEsopDebtRetirement                                      .        .        .        .        .        .        .      916      821      737      672      596
+pg:DeferredTaxAssetsLeaseLiabilities                                 .        .        .        .        .      190      196      185      197      199      212      198
+pg:LongTermDebtCurrentMaturitiesMeasuredAtFairValue                  .        .        .    1,769    3,400    2,500    3,600    3,600    3,900    3,800    5,300    6,500
+pg:ReserveForEsopDebtRetirement                                      .        .        .    1,204    1,146    1,080    1,006      916      821      737      672      596
 
 --- AVVISI ---
 Equity in societa' non quotate (valore contabile): ultimo anno 2022 (mancano anni recenti)
@@ -74,4 +74,4 @@ eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 
 afsDeb: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
 ltInv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
 
-Tempo: 2 s. File scritto: sec_PG.json
+Tempo: 4 s. File scritto: sec_PG.json

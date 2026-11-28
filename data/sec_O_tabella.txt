@@ -110,4 +110,4 @@ ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 6, 2024: 21, 2025: 
 ltInv: RealEstateInvestmentsJointVentures {2023: 38}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 2, 2024: 8, 2025: 9}
 
-Tempo: 8 s. File scritto: sec_O.json
+Tempo: 5 s. File scritto: sec_O.json

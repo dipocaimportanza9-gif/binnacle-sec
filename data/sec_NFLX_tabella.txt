@@ -57,10 +57,10 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-nflx:OperatingLeaseLiabilityLeasesNotCommenced                       .        .        .        .        .        .        .        .      343       38        .        .
+nflx:OperatingLeaseLiabilityLeasesNotCommenced                       .        .        .        .      699      256      366      419      343       38        .        .
 
 --- AVVISI ---
-Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal 2021 al 2025; se non e' una grande media/tv controllare che sia davvero un investimento
+Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal 2017 al 2025; se non e' una grande media/tv controllare che sia davvero un investimento
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 2077, 2024: 2102, 2025: 2207}
@@ -74,4 +74,4 @@ eqMeth: DerivativeCollateralObligationToReturnSecurities {2023: 27, 2024: 316, 2
 ltInv: DerivativeCollateralRightToReclaimSecurities {2023: 27, 2024: 316, 2025: 282}
 ltInv: DerivativeCollateralObligationToReturnSecurities {2023: 27, 2024: 316, 2025: 282}
 
-Tempo: 2 s. File scritto: sec_NFLX.json
+Tempo: 4 s. File scritto: sec_NFLX.json

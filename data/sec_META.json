@@ -522,7 +522,44 @@
   "meta:DeferredTaxAssetsLeaseLiabilities": {
    "2025": 5150.0,
    "2024": 3940.0,
-   "2023": 3752.0
+   "2023": 3752.0,
+   "2022": 3200.0,
+   "2021": 2597.0
+  },
+  "meta:LesseeOperatingLeaseLeaseNotYetCommencedAmount": {
+   "2023": 7070.0,
+   "2022": 8360.0
+  },
+  "meta:LesseeFinanceLeaseLeaseNotYetCommencedAmount": {
+   "2023": 1370.0,
+   "2022": 1430.0
+  },
+  "meta:DeferredTaxAssetUnrealizedLossOnSecuritiesAndInvestments": {
+   "2022": 489.0
+  },
+  "fb:LesseeOperatingLeaseLeaseNotYetCommencedAmount": {
+   "2021": 8340.0,
+   "2020": 7410.0,
+   "2019": 5040.0
+  },
+  "fb:LesseeFinanceLeaseLeaseNotYetCommencedAmount": {
+   "2021": 1620.0,
+   "2020": 443.0,
+   "2019": 317.0
+  },
+  "fb:DeferredTaxAssetsLeaseLiabilities": {
+   "2021": 2597.0,
+   "2020": 2058.0,
+   "2019": 1999.0
+  },
+  "fb:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetAfterAccumulatedDepreciationAndAmortization": {
+   "2019": 35323.0
+  },
+  "fb:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetBeforeAccumulatedDepreciationAndAmortization": {
+   "2019": 45986.0
+  },
+  "fb:PropertyPlantAndEquipmentAndFinanceLeaseRightofUseAssetAccumulatedDepreciationAndAmortization": {
+   "2019": 10663.0
   }
  },
  "avvisi": [],
@@ -572,7 +609,20 @@
  "sic_descrizione": "Services-Computer Programming, Data Processing, Etc.",
  "chiusura_esercizio": "1231",
  "nome": "Meta Platforms, Inc.",
- "debug_acq_ixbrl": [],
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2017,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 323.0
+  },
+  {
+   "anno": 2017,
+   "colonne": [],
+   "mln": 323.0
+  }
+ ],
  "contenuti_letti": {},
  "ambito": "ok"
 }

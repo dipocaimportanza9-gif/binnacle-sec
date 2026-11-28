@@ -57,11 +57,22 @@ Debito totale = quota corrente + non corrente (se manca il tot 126,151  123,513 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-t:DebtSecuritiesAvailableForSaleMaturityAllocatedAndSingleMatu       .        .        .        .        .        .        .      766      814      404      266        .
-t:DebtSecuritiesAvailableForSaleMaturityAllocatedAndSingleMatu       .        .        .        .        .        .        .      158      178      120      125        .
-t:DebtSecuritiesAvailableForSaleMaturityAllocatedAndSingleMatu       .        .        .        .        .        .        .      170      156       99      183        .
+t:DebtSecuritiesAvailableForSaleMaturityAllocatedAndSingleMatu       .        .        .        .        .    1,112      993      766      814      404      266        .
+t:DebtSecuritiesAvailableForSaleMaturityAllocatedAndSingleMatu       .        .        .        .        .      159      171      158      178      120      125        .
+t:DebtSecuritiesAvailableForSaleMaturityAllocatedAndSingleMatu       .        .        .        .        .      179      179      170      156       99      183        .
 t:DeferredTaxAssetsTaxDeferredExpenseLeaseRightOfUse                 .        .        .        .        .        .        .    5,322    5,100    5,103    5,494        .
-t:FinanceLeaseRightOfUseAssetAfterAccumulatedAmortization            .        .        .        .        .        .    1,441    1,546    1,429    1,071      992        .
+t:FilmCostsReleasedAndCompletedAndNotReleased                        .        .        .        .        .    5,171        .        .        .        .        .        .
+t:FinanceLeaseRightOfUseAssetAccumulatedAmortization                 .        .        .        .    1,296    1,361        .        .        .        .        .        .
+t:FinanceLeaseRightOfUseAssetAfterAccumulatedAmortization            .        .        .        .    2,238    2,225    1,441    1,546    1,429    1,071      992        .
+t:FinanceLeaseRightOfUseAssetBeforeAccumulatedAmortization           .        .        .        .    3,534    3,586        .        .        .        .        .        .
+t:FixedIncomeInvestmentSecuritiesDebtMaturitiesAfterFourCalend       .        .        .        .    1,057        .        .        .        .        .        .        .
+t:FixedIncomeInvestmentSecuritiesDebtMaturitiesNextTwoCalendar       .        .        .        .      172        .        .        .        .        .        .        .
+t:FixedIncomeInvestmentSecuritiesDebtMaturitiesThirdAndFourthC       .        .        .        .      161        .        .        .        .        .        .        .
+t:FixedIncomeInvestmentSecuritiesDebtMaturitiesWithinOneYearAv       .        .        .        .       54        .        .        .        .        .        .        .
+t:LongTermDebtIncludingCapitalLeaseObligations                       .        .        .  173,440  163,143        .        .        .        .        .        .        .
+t:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccum       .        .        .        .  203,410  200,436        .        .        .        .        .        .
+t:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfter       .        .        .  131,473  130,128  127,315        .        .        .        .        .        .
+t:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetBefor       .        .        .        .  333,538  327,751        .        .        .        .        .        .
 
 --- AVVISI ---
 Svalutazione di avviamento: ultimo anno 2022 (mancano anni recenti)
@@ -74,4 +85,4 @@ eqPriv: EquityMethodInvestmentOtherThanTemporaryImpairment {2023: 450, 2024: 155
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 1668, 2024: 2033, 2025: 1937}
 ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2023: 450, 2024: 155, 2025: 0}
 
-Tempo: 3 s. File scritto: sec_T.json
+Tempo: 4 s. File scritto: sec_T.json

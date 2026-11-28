@@ -180,35 +180,59 @@
    "2024": 16223.6,
    "2023": 12554.7,
    "2022": 16839.0,
-   "2021": 17702.2
+   "2021": 17702.2,
+   "2020": 11779.3,
+   "2019": 13916.7,
+   "2018": 13043.4,
+   "2017": 9805.8
   },
   "ctAmm": {
    "2025": 16422.2,
    "2024": 15301.5,
    "2023": 14197.4,
    "2022": 14026.1,
-   "2021": 12230.4
+   "2021": 12230.4,
+   "2020": 10806.9,
+   "2019": 9216.2,
+   "2018": 7532.1,
+   "2017": 6197.8
   },
   "ctChg": {
    "2025": -610.8,
    "2024": -779.1,
    "2023": -585.6,
    "2022": 179.3,
-   "2021": 232.9
+   "2021": 232.9,
+   "2020": -757.4,
+   "2019": -694.0,
+   "2018": 999.9,
+   "2017": 900.0
   },
   "ctLiabC": {
    "2025": 4084.9,
    "2024": 4393.7,
    "2023": 4466.5,
-   "2022": 4480.1
+   "2022": 4480.1,
+   "2021": 4293.0,
+   "2020": 4429.5,
+   "2019": 4413.6,
+   "2018": 4681.6
   },
   "ctLiabN": {
    "2025": 1579.5,
    "2024": 1780.8,
    "2023": 2578.2,
-   "2022": 3081.3
+   "2022": 3081.3,
+   "2021": 3094.2,
+   "2020": 2618.1,
+   "2019": 3334.3,
+   "2018": 3759.0
   },
   "ctNet": {
+   "2017": 3608.0,
+   "2018": 5511.3,
+   "2019": 4700.5,
+   "2020": 972.4,
    "2021": 5471.8,
    "2022": 2812.9,
    "2023": -1642.7,
@@ -392,35 +416,59 @@
    "2024": "nflx:AdditionstoStreamingContentAssets",
    "2023": "nflx:AdditionstoStreamingContentAssets",
    "2022": "nflx:AdditionstoStreamingContentAssets",
-   "2021": "nflx:AdditionstoStreamingContentAssets"
+   "2021": "nflx:AdditionstoStreamingContentAssets",
+   "2020": "nflx:AdditionstoStreamingContentAssets",
+   "2019": "nflx:AdditionstoStreamingContentAssets",
+   "2018": "nflx:AdditionstoStreamingContentAssets",
+   "2017": "nflx:AdditionstoStreamingContentAssets"
   },
   "ctAmm": {
    "2025": "nflx:CostofServicesAmortizationofStreamingContentAssets",
    "2024": "nflx:CostofServicesAmortizationofStreamingContentAssets",
    "2023": "nflx:CostofServicesAmortizationofStreamingContentAssets",
    "2022": "nflx:CostofServicesAmortizationofStreamingContentAssets",
-   "2021": "nflx:CostofServicesAmortizationofStreamingContentAssets"
+   "2021": "nflx:CostofServicesAmortizationofStreamingContentAssets",
+   "2020": "nflx:CostofServicesAmortizationofStreamingContentAssets",
+   "2019": "nflx:CostofServicesAmortizationofStreamingContentAssets",
+   "2018": "nflx:CostofServicesAmortizationofStreamingContentAssets",
+   "2017": "nflx:CostofServicesAmortizationofStreamingContentAssets"
   },
   "ctChg": {
    "2025": "nflx:ChangeInStreamingContentLiabilities",
    "2024": "nflx:ChangeInStreamingContentLiabilities",
    "2023": "nflx:ChangeInStreamingContentLiabilities",
    "2022": "nflx:ChangeInStreamingContentLiabilities",
-   "2021": "nflx:ChangeInStreamingContentLiabilities"
+   "2021": "nflx:ChangeInStreamingContentLiabilities",
+   "2020": "nflx:ChangeInStreamingContentLiabilities",
+   "2019": "nflx:ChangeInStreamingContentLiabilities",
+   "2018": "nflx:ChangeInStreamingContentLiabilities",
+   "2017": "nflx:ChangeInStreamingContentLiabilities"
   },
   "ctLiabC": {
    "2025": "nflx:ContentLiabilitiesCurrent",
    "2024": "nflx:ContentLiabilitiesCurrent",
    "2023": "nflx:ContentLiabilitiesCurrent",
-   "2022": "nflx:ContentLiabilitiesCurrent"
+   "2022": "nflx:ContentLiabilitiesCurrent",
+   "2021": "nflx:ContentLiabilitiesCurrent",
+   "2020": "nflx:ContentLiabilitiesCurrent",
+   "2019": "nflx:ContentLiabilitiesCurrent",
+   "2018": "nflx:ContentLiabilitiesCurrent"
   },
   "ctLiabN": {
    "2025": "nflx:ContentLiabilitiesNoncurrent",
    "2024": "nflx:ContentLiabilitiesNoncurrent",
    "2023": "nflx:ContentLiabilitiesNoncurrent",
-   "2022": "nflx:ContentLiabilitiesNoncurrent"
+   "2022": "nflx:ContentLiabilitiesNoncurrent",
+   "2021": "nflx:ContentLiabilitiesNoncurrent",
+   "2020": "nflx:ContentLiabilitiesNoncurrent",
+   "2019": "nflx:ContentLiabilitiesNoncurrent",
+   "2018": "nflx:ContentLiabilitiesNoncurrent"
   },
   "ctNet": {
+   "2017": "aggiunte - ammortamento",
+   "2018": "aggiunte - ammortamento",
+   "2019": "aggiunte - ammortamento",
+   "2020": "aggiunte - ammortamento",
    "2021": "aggiunte - ammortamento",
    "2022": "aggiunte - ammortamento",
    "2023": "aggiunte - ammortamento",
@@ -431,11 +479,15 @@
  "custom": {
   "nflx:OperatingLeaseLiabilityLeasesNotCommenced": {
    "2024": 38.0,
-   "2023": 343.0
+   "2023": 343.0,
+   "2022": 419.0,
+   "2021": 366.0,
+   "2020": 256.0,
+   "2019": 699.0
   }
  },
  "avvisi": [
-  "Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal 2021 al 2025; se non e' una grande media/tv controllare che sia davvero un investimento"
+  "Contenuti capitalizzati letti: reinvestimento netto in contenuti (ctNet) dal 2017 al 2025; se non e' una grande media/tv controllare che sia davvero un investimento"
  ],
  "candidati": {
   "finLiab": [
@@ -583,49 +635,84 @@
    "2024": 16223.6,
    "2023": 12554.7,
    "2022": 16839.0,
-   "2021": 17702.2
+   "2021": 17702.2,
+   "2020": 11779.3,
+   "2019": 13916.7,
+   "2018": 13043.4,
+   "2017": 9805.8
   },
   "nflx:AverageProducedContentAssetAmortizationPercentage": {
    "2025": 0.0,
    "2024": 0.0,
-   "2023": 0.0
+   "2023": 0.0,
+   "2022": 0.0,
+   "2021": 0.0,
+   "2020": 0.0,
+   "2019": 0.0
   },
   "nflx:ChangeInStreamingContentLiabilities": {
    "2025": -610.8,
    "2024": -779.1,
    "2023": -585.6,
    "2022": 179.3,
-   "2021": 232.9
+   "2021": 232.9,
+   "2020": -757.4,
+   "2019": -694.0,
+   "2018": 999.9,
+   "2017": 900.0
   },
   "nflx:ContentAssetsNet": {
    "2024": 32452.5,
    "2023": 31658.1,
-   "2022": 32736.7
+   "2022": 32736.7,
+   "2021": 30919.5,
+   "2020": 25384.0,
+   "2019": 24504.6,
+   "2018": 20102.3
+  },
+  "nflx:ContentAssetsNetCurrent": {
+   "2018": 5151.2
   },
   "nflx:ContentAssetsNetNoncurrent": {
    "2025": 32778.4,
    "2024": 32452.5,
    "2023": 31658.1,
-   "2022": 32736.7
+   "2022": 32736.7,
+   "2021": 30919.5,
+   "2020": 25384.0,
+   "2019": 24504.6,
+   "2018": 14951.1
   },
   "nflx:ContentLiabilitiesCurrent": {
    "2025": 4084.9,
    "2024": 4393.7,
    "2023": 4466.5,
-   "2022": 4480.1
+   "2022": 4480.1,
+   "2021": 4293.0,
+   "2020": 4429.5,
+   "2019": 4413.6,
+   "2018": 4681.6
   },
   "nflx:ContentLiabilitiesNoncurrent": {
    "2025": 1579.5,
    "2024": 1780.8,
    "2023": 2578.2,
-   "2022": 3081.3
+   "2022": 3081.3,
+   "2021": 3094.2,
+   "2020": 2618.1,
+   "2019": 3334.3,
+   "2018": 3759.0
   },
   "nflx:CostofServicesAmortizationofStreamingContentAssets": {
    "2025": 16422.2,
    "2024": 15301.5,
    "2023": 14197.4,
    "2022": 14026.1,
-   "2021": 12230.4
+   "2021": 12230.4,
+   "2020": 10806.9,
+   "2019": 9216.2,
+   "2018": 7532.1,
+   "2017": 6197.8
   }
  },
  "ambito": "ok"

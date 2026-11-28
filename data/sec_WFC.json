@@ -532,7 +532,11 @@
    "2023": "RestructuringCharges"
   }
  },
- "custom": {},
+ "custom": {
+  "wfc:LoansAndLeasesReceivableDeferredIncomeAsaPercentofLoansAndLeasesReceivable": {
+   "2018": 0.0
+  }
+ },
  "avvisi": [
   "Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)",
   "2017: l'OCI dei titoli sale di 1270 ma gli investimenti letti salgono di 728: controllare il filing (investimenti non letti?)",

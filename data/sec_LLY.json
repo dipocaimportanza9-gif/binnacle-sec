@@ -564,14 +564,18 @@
    "2023": 159.2,
    "2022": 46.8,
    "2021": 250.7,
-   "2020": 348.9
+   "2020": 348.9,
+   "2019": 429.5,
+   "2018": 84.3
   },
   "lly:LongTermDebtFairValueAdjustment": {
    "2024": -13.4,
    "2023": 15.3,
    "2022": -4.4,
    "2021": 216.9,
-   "2020": 320.9
+   "2020": 320.9,
+   "2019": 245.2,
+   "2018": 177.2
   },
   "lly:LongTermDebtPercentageBearingFixedInterestConvertedToFloatingRate": {
    "2024": 0.0,
@@ -582,7 +586,11 @@
    "2023": 253.3,
    "2022": 147.5,
    "2021": 150.0,
-   "2020": 150.7
+   "2020": 150.7,
+   "2019": 140.6
+  },
+  "lly:DeferredTaxLiabilitiesOperatingLeaseRightofUseAsset": {
+   "2019": 124.7
   }
  },
  "avvisi": [

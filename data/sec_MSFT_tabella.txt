@@ -57,9 +57,10 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-msft:CashCashEquivalentsAndInvestments                               .        .        .        .        .  139,492  136,318  111,648  121,141   90,143  109,970  113,191
+msft:CashCashEquivalentsAndInvestments                               .        .        .        .  136,468  139,492  136,318  111,648  121,141   90,143  109,970  113,191
 msft:DeferredTaxAssetsBookTaxBasisDifferencesInInvestmentsAndD       .        .        .        .        .        .        .        0      373        9      303        0
-msft:DeferredTaxLiabilitiesBookTaxBasisDifferencesInvestmentsA       .        .        .        .        .    2,642    2,381      174        0        .        0    2,972
+msft:DeferredTaxLiabilitiesBookTaxBasisDifferencesInvestmentsA       .        .        .        .      738    2,642    2,381      174        0        .        0    2,972
+msft:PremiumOnDebtExchange                                           .        .        .        .        0    3,619        .        .        .        .        .        .
 msft:PremiumOnDebtExchange1                                          .        .        .        .        .    3,619    5,293    5,191    5,085    4,976    4,864    4,750
 
-Tempo: 4 s. File scritto: sec_MSFT.json
+Tempo: 5 s. File scritto: sec_MSFT.json

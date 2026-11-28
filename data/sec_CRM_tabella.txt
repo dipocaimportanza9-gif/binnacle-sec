@@ -57,13 +57,19 @@ Debito totale = quota corrente + non corrente (se manca il tot   1,071        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-crm:DeferredTaxAssetsLeaseLiabilities                                .        .        .        .        .        .        .        .      912      818      740      685
-crm:LesseeOperatingLeaseCommitmentincludingLeaseNotyetCommence       .        .        .        .        .        .        .        .        .    4,700    4,000    4,400
-crm:LessorOperatingLeasePaymentsToBeReceivedNextFiveYears            .        .        .        .        .        .        .        .        .      275      303      258
+crm:DeferredTaxAssetsFinancingObligation                             .        .        .        .      102        9        .        .        .        .        .        .
+crm:DeferredTaxAssetsLeaseLiabilities                                .        .        .        .        .      769      948      862      912      818      740      685
+crm:FinanceLeaseRightOfUseAssetAccumulatedDepreciation               .        .        .        .        .      404      410        .        .        .        .        .
+crm:LesseeOperatingLeaseCommitmentincludingLeaseNotyetCommence       .        .        .        .        .    5,900    5,400    5,200    5,100    4,700    4,000    4,400
+crm:LesseeOperatingLeaseDerecognitionOfBuildingAndBuildingImpr       .        .        .        .        .        .      262        .        .        .        .        .
+crm:LesseeOperatingLeaseLeaseNotYetCommencedAmount                   .        .        .        .        .        .    1,500    1,100      400        .        .        .
+crm:LesseeOperatingLeaseLeaseNotyetCommencedAmount                   .        .        .        .        .    2,400        .        .        .        .        .        .
+crm:LessorOperatingLeasePaymentsToBeReceivedNextFiveYears            .        .        .        .        .      169      166      244      237      275      303      258
+crm:LongTermDebtMaturityAfterYearThree                               .        .        .        .        .        .    1,500        .        .        .        .        .
 
 --- AVVISI ---
 Azioni emesse per acquisizioni (non in contanti): ultimo anno 2022 (mancano anni recenti)
 Svalutazione di avviamento: ultimo anno 2022 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
 
-Tempo: 2 s. File scritto: sec_CRM.json
+Tempo: 4 s. File scritto: sec_CRM.json

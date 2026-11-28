@@ -57,11 +57,12 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-aig:AverageDebtServiceCoverageRatioOfCommercialMortgages             .        .        .        .        0        0        0        .        .        .        .        .
+aig:AverageDebtServiceCoverageRatioOfCommercialMortgages             .        .        .        0        0        0        0        .        .        .        .        .
 aig:DeferredTaxLiabilitiesInvestmentInForeignSubsidiaries            .        .        .        .        .        .       15       41        .        .        .        .
 aig:EquityMethodInvestmentCovenantOwnershipPercentageMinimum         .        .        .        .        .        .        .        .        .        0        .        .
-aig:LesseeOperatingLeaseNotYetCommencedFutureObligations             .        .        .        .        .      389        .        .        .        .        .        .
-aig:Shortterminvestmentsatfairvalue                                  .        .        .        .    5,343    5,968    4,426        .        .        .        .        .
+aig:LesseeOperatingLeaseNotYetCommencedFutureObligations             .        .        .        .      507      389        .        .        .        .        .        .
+aig:OtherInvestmentsAmount                                           .        .        .  304,535  324,385        .        .        .        .        .        .        .
+aig:Shortterminvestmentsatfairvalue                                  .        .        .    3,015    5,343    5,968    4,426        .        .        .        .        .
 
 --- AVVISI ---
 Debiti finanziari a breve: ultimo anno 2023 (mancano anni recenti)
@@ -96,4 +97,4 @@ afsDeb: SecuritiesReceivedAsCollateral {2023: 1200, 2024: 2900, 2025: 3600}
 afsDeb: RealEstateInvestmentPropertyNet {2023: 2237}
 afsDeb: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
 
-Tempo: 14 s. File scritto: sec_AIG.json
+Tempo: 11 s. File scritto: sec_AIG.json

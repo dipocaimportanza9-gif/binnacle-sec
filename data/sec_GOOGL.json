@@ -561,28 +561,98 @@
   "goog:LesseeLeaseNotYetCommencedCurrentAmount": {
    "2025": 5800.0,
    "2024": 773.0,
-   "2023": 657.0
+   "2023": 657.0,
+   "2022": 630.0,
+   "2021": 606.0
   },
   "goog:LesseeLeaseNotYetCommencedNoncurrentAmount": {
    "2025": 52700.0,
    "2024": 6500.0,
-   "2023": 3300.0
+   "2023": 3300.0,
+   "2022": 3100.0,
+   "2021": 5200.0
   },
   "goog:DeferredTaxAssetsOperatingLeaseRightOfUseAsset": {
    "2024": 3336.0,
    "2025": 3337.0,
    "2023": 3526.0,
-   "2022": 2711.0
+   "2022": 2711.0,
+   "2021": 2503.0
   },
   "goog:DeferredTaxLiabilitiesOperatingLeaseLiability": {
    "2024": 2986.0,
    "2025": 3103.0,
    "2023": 2965.0,
-   "2022": 2491.0
+   "2022": 2491.0,
+   "2021": 2228.0,
+   "2020": 2354.0,
+   "2019": 1619.0
   },
   "goog:InvestmentsInConvertibleNotesIncludingFinancingReceivablesAndAvailableForSaleDebtSecurities": {
    "2023": 921.0,
    "2024": 2900.0
+  },
+  "goog:FairValueOptionDebtSecuritiesAvailableForSaleAccumulatedUnrealizedGainLoss": {
+   "2020": 87.0,
+   "2021": -35.0,
+   "2022": -592.0
+  },
+  "goog:AvailableForSaleDebtSecuritiesFairValueOption": {
+   "2020": 2000.0,
+   "2021": 4700.0
+  },
+  "goog:PayablesToBrokersForUnsettledInvestmentTrades": {
+   "2020": 754.0,
+   "2021": 397.0
+  },
+  "goog:DeferredTaxAssetsOperatingLeaseRightofUseAsset": {
+   "2020": 2620.0,
+   "2021": 2503.0,
+   "2019": 1876.0,
+   "2018": 160.0
+  },
+  "goog:LesseeOperatingLeaseLeaseNotYetCommencedAmount": {
+   "2020": 8000.0,
+   "2019": 7400.0
+  },
+  "goog:DeferredTaxLiabilitiesRenewableEnergyInvestments": {
+   "2019": 466.0,
+   "2020": 415.0,
+   "2018": 500.0
+  },
+  "goog:PropertyPlantandEquipmentandFinanceLeaseRightofUseAssetafterAccumulatedDepreciationandAmortization": {
+   "2019": 73646.0
+  },
+  "goog:OperatingLeasesFutureMinimumPaymentsDueNetNextTwelveMonths": {
+   "2018": 1303.0
+  },
+  "goog:OperatingLeasesFutureMinimumPaymentsDueNetinTwoYears": {
+   "2018": 1384.0
+  },
+  "goog:OperatingLeasesFutureMinimumPaymentsDueNetinThreeYears": {
+   "2018": 1327.0
+  },
+  "goog:OperatingLeasesFutureMinimumPaymentsDueNetinFourYears": {
+   "2018": 1145.0
+  },
+  "goog:OperatingLeasesFutureMinimumPaymentsDueNetinFiveYears": {
+   "2018": 977.0
+  },
+  "goog:OperatingLeasesFutureMinimumPaymentsDueNetThereafter": {
+   "2018": 3911.0
+  },
+  "goog:OperatingLeasesFutureMinimumPaymentsDueNetTotal": {
+   "2018": 10047.0
+  },
+  "goog:PropertyPlantandEquipmentandFinanceLeaseRightofUseAssetbeforeAccumulatedDepreciationandAmortization": {
+   "2019": 104207.0
+  },
+  "goog:PropertyPlantandEquipmentandFinanceLeaseRightofUseAssetAccumulatedDepreciationandAmortization": {
+   "2019": 30561.0
+  },
+  "goog:DeferredTaxAssetsBasisDifferenceInInvestmentInHomeBusiness": {
+   "2018": 657.0,
+   "2019": 0.0
   }
  },
  "avvisi": [

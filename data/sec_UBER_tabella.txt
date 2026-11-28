@@ -62,10 +62,12 @@ uber:CommitmentToIssueUnsecuredConvertibleNotesNoncurrent            .        . 
 uber:DeferredTaxAssetLeaseLiability                                  .        .        .        .      438      460      455      478      436      391      367        .
 uber:FinanceLeaseRightOfUseAssetAccumulatedDepreciation              .        .        .        .      247      303        .        .        .        .        .        .
 uber:FinanceLeaseRightOfUseAssetGross                                .        .        .        .      539      596        .        .        .        .        .        .
-uber:LesseeFinanceLeaseLeaseNotYetCommencedAmount                    .        .        .        .        .        4       19        .        .        .        .        .
-uber:LesseeOperatingLeaseLeaseNotYetCommencedAmount                  .        .        .        .        .      533      421      193        .        .        .        .
+uber:FinancingObligationNoncurrent                                   .        .        .      436       78        .        .        .        .        .        .        .
+uber:LesseeFinanceLeaseLeaseNotYetCommencedAmount                    .        .        .        .       23        4       19        .        .        .        .        .
+uber:LesseeOperatingLeaseLeaseNotYetCommencedAmount                  .        .        .        .      405      533      421      193        .        .        .        .
+uber:LesseeOperatingLeaseNumberOfRenewalOptions                      .        .        .        .        0        .        .        .        .        .        .        .
 uber:MarketableAndNonMarketableInvestments                           .        .        .        .        .        .        .    4,401    6,101    8,460    9,178        .
-uber:MarketableandNonMarketableInvestments                           .        .        .        .   10,527    9,052   11,806    4,401        .        .        .        .
+uber:MarketableandNonMarketableInvestments                           .        .        .   10,355   10,527    9,052   11,806    4,401        .        .        .        .
 uber:OperatingLeaseRightOfUseAssetPercentageOfLeasedAssetsFore       .        .        .        .        0        0        .        0        .        .        .        .
 
 --- AVVISI ---
@@ -77,4 +79,4 @@ Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
 ltInv: RestrictedInvestments {2023: 4779, 2024: 7019, 2025: 8874}
 ltInv: EquityMethodInvestmentOtherThanTemporaryImpairment {2023: 0, 2024: 0}
 
-Tempo: 6 s. File scritto: sec_UBER.json
+Tempo: 5 s. File scritto: sec_UBER.json

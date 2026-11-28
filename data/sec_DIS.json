@@ -544,7 +544,8 @@
    "2023": 13503.0,
    "2022": 14472.0,
    "2021": 15141.0,
-   "2020": 15795.0
+   "2020": 15795.0,
+   "2019": 9940.0
   },
   "dis:LongTermDebtExpectedInterestPaymentYearOne": {
    "2026": 1614.0,
@@ -676,7 +677,8 @@
    "2022": 1798.0,
    "2021": 2653.0,
    "2020": 2514.0,
-   "2019": 2258.0
+   "2019": 2258.0,
+   "2018": 189.0
   },
   "dis:DeferredTaxLiabilitiesInvestmentinForeignEntities": {
    "2026": 1031.0,
@@ -686,7 +688,8 @@
    "2022": 543.0,
    "2021": 392.0,
    "2020": 266.0,
-   "2019": 146.0
+   "2019": 146.0,
+   "2018": 351.0
   },
   "dis:OperatingAndFinancingLeaseTotalRightOfUseAsset": {
    "2026": 3404.0,
@@ -953,6 +956,34 @@
     "StatementEquityComponentsAxis=TotalexcludingredeemablenoncontrollinginterestMember"
    ],
    "mln": 44182.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 33774.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=ParentMember"
+   ],
+   "mln": 33774.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=NoncontrollingInterestMember"
+   ],
+   "mln": 10408.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=TotalexcludingredeemablenoncontrollinginterestMember"
+   ],
+   "mln": 44182.0
   }
  ],
  "contenuti_letti": {
@@ -1010,7 +1041,12 @@
   },
   "dis:FilmAndTelevisionCosts": {
    "2020": 25022.0,
-   "2019": 22810.0
+   "2019": 22810.0,
+   "2018": 7888.0
+  },
+  "dis:FilmAndTelevisionCostsTotal": {
+   "2019": 27407.0,
+   "2018": 9202.0
   },
   "dis:FilmCapitalizedCostCompletedAndNotReleased": {
    "2026": 1599.0,
@@ -1084,6 +1120,10 @@
    "2021": 2751.0,
    "2020": 734.0
   },
+  "dis:Filmandtelevisioncostsandadvances": {
+   "2018": 9250.0,
+   "2019": 27407.0
+  },
   "dis:LicensedContentCostsAndAdvances": {
    "2026": 2199.0,
    "2025": 2063.0,
@@ -1122,7 +1162,8 @@
   },
   "dis:TelevisionCostsCurrent": {
    "2020": 2171.0,
-   "2019": 4597.0
+   "2019": 4597.0,
+   "2018": 1314.0
   },
   "dis:TelevisionReleasedExpectedAmortizationYearOne": {
    "2020": 2369.0
@@ -1140,7 +1181,8 @@
    "2023": 3100.0,
    "2022": 3300.0,
    "2021": 3500.0,
-   "2020": 3700.0
+   "2020": 3700.0,
+   "2019": 3600.0
   },
   "us-gaap:DirectToTelevisionFilmCosts": {
    "2018": 2185.0,
@@ -1280,6 +1322,9 @@
    "2024": -1046.0,
    "2025": -577.0,
    "2026": -781.0
+  },
+  "us-gaap:PercentageOfUnamortizedFilmCosts": {
+   "2019": 0.0
   },
   "us-gaap:TheatricalFilmCosts": {
    "2018": 5455.0,

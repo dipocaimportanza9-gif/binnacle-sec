@@ -57,16 +57,16 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT      6,440        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-pfe:DebtInstrumentFairValueAdjustmentsHedgingandPurchaseAccoun       .        .        .        .        .        .        .       11        5        .        .        .
-pfe:DebtSecuritiesAccumulatedGrossUnrealizedGain                     .        .        .        .        .      138       14      304        6        8        3        .
-pfe:DebtSecuritiesAccumulatedGrossUnrealizedLoss                     .        .        .        .        .        5      265       53       16      129       35        .
-pfe:DebtSecuritiesAmortizedCostBasis                                 .        .        .        .        .    9,991   24,835   21,556    5,126   11,935    9,938        .
-pfe:DebtSecuritiesMaturitiesAfterYearFiveFairValue                   .        .        .        .        .        .       13       25       12       20       37        .
-pfe:DebtSecuritiesMaturitiesNextTwelveMonthsFairValue                .        .        .        .        .        .   24,029   21,407    4,919   11,770    9,858        .
-pfe:DebtSecuritiesMaturitiesYearTwoThroughFiveFairValue              .        .        .        .        .        .      543      375      185       25       12        .
-pfe:LongtermDebtCurrentMaturitiesExcludingNetFairValueAdjustme       .        .        .        .        .    2,004    1,636    2,550    2,250    3,750    3,000        .
-pfe:PrivateEquityInvestments                                         .        .        .        .        .      432      623      800      755      719      696        .
-pfe:ShorttermDebtGross                                               .        .        .        .        .    2,705    2,241    2,935   10,467    6,957    3,157        .
+pfe:DebtInstrumentFairValueAdjustmentsHedgingandPurchaseAccoun       .        .        .        .        5        .        .       11        5        .        .        .
+pfe:DebtSecuritiesAccumulatedGrossUnrealizedGain                     .        .        .        .        6      138       14      304        6        8        3        .
+pfe:DebtSecuritiesAccumulatedGrossUnrealizedLoss                     .        .        .        .       47        5      265       53       16      129       35        .
+pfe:DebtSecuritiesAmortizedCostBasis                                 .        .        .        .    8,380    9,991   24,835   21,556    5,126   11,935    9,938        .
+pfe:DebtSecuritiesMaturitiesAfterYearFiveFairValue                   .        .        .        .        .       29       13       25       12       20       37        .
+pfe:DebtSecuritiesMaturitiesNextTwelveMonthsFairValue                .        .        .        .        .    9,959   24,029   21,407    4,919   11,770    9,858        .
+pfe:DebtSecuritiesMaturitiesYearTwoThroughFiveFairValue              .        .        .        .        .      136      543      375      185       25       12        .
+pfe:LongtermDebtCurrentMaturitiesExcludingNetFairValueAdjustme       .        .        .        .    1,458    2,004    1,636    2,550    2,250    3,750    3,000        .
+pfe:PrivateEquityInvestments                                         .        .        .        .      756      432      623      800      755      719      696        .
+pfe:ShorttermDebtGross                                               .        .        .        .   16,233    2,705    2,241    2,935   10,467    6,957    3,157        .
 
 --- AVVISI ---
 Investimenti a lungo termine (voce di bilancio): ultimo anno 2024 (mancano anni recenti)
@@ -77,4 +77,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 671, 2024:
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 614, 2024: 283, 2025: 288}
 ltInv: SecuritiesReceivedAsCollateral {2023: 221, 2024: 716, 2025: 154}
 
-Tempo: 5 s. File scritto: sec_PFE.json
+Tempo: 7 s. File scritto: sec_PFE.json

@@ -72,4 +72,4 @@ Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)
 2025: acquisizione pagata in azioni letta dalla voce non monetaria del rendiconto (StockIssued1): 321 mln, da verificare nella nota Acquisizioni
 Il tag del debito include i leasing finanziari negli anni 2009-2026: non sommarli di nuovo
 
-Tempo: 4 s. File scritto: sec_HD.json
+Tempo: 3 s. File scritto: sec_HD.json

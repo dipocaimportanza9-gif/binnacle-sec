@@ -744,21 +744,33 @@
   "vz:AccountsAndFinancingReceivableBeforeAllowanceForCreditLossCurrent": {
    "2025": 28347.0,
    "2024": 27261.0,
-   "2023": 26102.0
+   "2023": 26102.0,
+   "2022": 25332.0,
+   "2021": 24742.0
   },
   "vz:AccountsAndFinancingReceivableAllowanceForCreditLossCurrent": {
    "2025": 1250.0,
    "2024": 1152.0,
-   "2023": 1017.0
+   "2023": 1017.0,
+   "2022": 826.0,
+   "2021": 896.0
   },
   "vz:FinancingReceivableFromContractWithCustomer": {
    "2025": 21726.0,
    "2024": 19766.0,
-   "2023": 18528.0
+   "2023": 18528.0,
+   "2022": 16648.0,
+   "2021": 10358.0,
+   "2020": 11741.0,
+   "2019": 8940.0
   },
   "vz:LesseeOperatingLeaseLeaseNotYetCommencedAmount": {
    "2025": 2000.0,
-   "2024": 1400.0
+   "2024": 1400.0,
+   "2023": 1700.0,
+   "2022": 2000.0,
+   "2021": 2000.0,
+   "2020": 1600.0
   },
   "vz:DebtTenderOfferPrincipalAmountPurchased": {
    "2025": 503.0
@@ -766,12 +778,14 @@
   "vz:DeferredTaxAssetsLeases": {
    "2025": 4909.0,
    "2024": 5138.0,
-   "2023": 5480.0
+   "2023": 5480.0,
+   "2022": 5395.0
   },
   "vz:DeferredTaxLiabilitiesLeasesRightOfUseAssets": {
    "2025": 4568.0,
    "2024": 4822.0,
-   "2023": 5200.0
+   "2023": 5200.0,
+   "2022": 5007.0
   }
  },
  "avvisi": [
@@ -863,7 +877,36 @@
  "sic_descrizione": "Telephone Communications (No Radiotelephone)",
  "chiusura_esercizio": "1231",
  "nome": "VERIZON COMMUNICATIONS INC",
- "debug_acq_ixbrl": [],
+ "debug_acq_ixbrl": [
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 2524.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockCommonMember"
+   ],
+   "mln": 2524.0
+  },
+  {
+   "anno": 2021,
+   "colonne": [
+    "StatementEquityComponentsAxis=TreasuryStockMember"
+   ],
+   "mln": 2524.0
+  },
+  {
+   "anno": 2018,
+   "colonne": [
+    "StatementEquityComponentsAxis=CommonStockMember"
+   ],
+   "mln": 5.0
+  }
+ ],
  "contenuti_letti": {},
  "ambito": "ok"
 }

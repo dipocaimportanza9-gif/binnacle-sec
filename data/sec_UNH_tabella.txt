@@ -60,9 +60,9 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 unh:DeferredTaxAssetsLeaseLiability                                  .        .        .        .      892    1,200    1,284      972      930      846      850        .
 unh:EquityMethodInvestmentsFromDeconsolidation                       .        .        .        .        .        .        .        .        .        .      575        .
 unh:FutureMinimumLeasePaymentsIncludedWithinBusinessesHeldForS       .        .        .        .        .        .        .        .        .        .      556        .
-unh:InvestmentsAmortizedCost                                         .        .        .        .   36,300   38,717   40,310   46,622   48,054   50,327   50,068        .
-unh:InvestmentsGrossUnrealizedGains                                  .        .        .        .      799    1,780      826       59      135       62      231        .
-unh:InvestmentsGrossUnrealizedLosses                                 .        .        .        .       30       22      276    3,681    2,698    2,962    1,628        .
+unh:InvestmentsAmortizedCost                                         .        .        .   32,861   36,300   38,717   40,310   46,622   48,054   50,327   50,068        .
+unh:InvestmentsGrossUnrealizedGains                                  .        .        .      102      799    1,780      826       59      135       62      231        .
+unh:InvestmentsGrossUnrealizedLosses                                 .        .        .      445       30       22      276    3,681    2,698    2,962    1,628        .
 
 --- AVVISI ---
 FUORI PORTATA (SIC 6324 Hospital & Medical Service Plans)

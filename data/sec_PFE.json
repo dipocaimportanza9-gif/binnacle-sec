@@ -663,7 +663,8 @@
    "2023": 755.0,
    "2022": 800.0,
    "2021": 623.0,
-   "2020": 432.0
+   "2020": 432.0,
+   "2019": 756.0
   },
   "pfe:DebtSecuritiesAmortizedCostBasis": {
    "2025": 9938.0,
@@ -671,7 +672,8 @@
    "2023": 5126.0,
    "2022": 21556.0,
    "2021": 24835.0,
-   "2020": 9991.0
+   "2020": 9991.0,
+   "2019": 8380.0
   },
   "pfe:DebtSecuritiesAccumulatedGrossUnrealizedGain": {
    "2025": 3.0,
@@ -679,7 +681,8 @@
    "2023": 6.0,
    "2022": 304.0,
    "2021": 14.0,
-   "2020": 138.0
+   "2020": 138.0,
+   "2019": 6.0
   },
   "pfe:DebtSecuritiesAccumulatedGrossUnrealizedLoss": {
    "2025": 35.0,
@@ -687,28 +690,32 @@
    "2023": 16.0,
    "2022": 53.0,
    "2021": 265.0,
-   "2020": 5.0
+   "2020": 5.0,
+   "2019": 47.0
   },
   "pfe:DebtSecuritiesMaturitiesNextTwelveMonthsFairValue": {
    "2025": 9858.0,
    "2024": 11770.0,
    "2023": 4919.0,
    "2022": 21407.0,
-   "2021": 24029.0
+   "2021": 24029.0,
+   "2020": 9959.0
   },
   "pfe:DebtSecuritiesMaturitiesYearTwoThroughFiveFairValue": {
    "2025": 12.0,
    "2024": 25.0,
    "2023": 185.0,
    "2022": 375.0,
-   "2021": 543.0
+   "2021": 543.0,
+   "2020": 136.0
   },
   "pfe:DebtSecuritiesMaturitiesAfterYearFiveFairValue": {
    "2025": 37.0,
    "2024": 20.0,
    "2023": 12.0,
    "2022": 25.0,
-   "2021": 13.0
+   "2021": 13.0,
+   "2020": 29.0
   },
   "pfe:LongtermDebtCurrentMaturitiesExcludingNetFairValueAdjustmentsRelatedToHedgingAndPurchaseAccounting": {
    "2025": 3000.0,
@@ -716,7 +723,8 @@
    "2023": 2250.0,
    "2022": 2550.0,
    "2021": 1636.0,
-   "2020": 2004.0
+   "2020": 2004.0,
+   "2019": 1458.0
   },
   "pfe:ShorttermDebtGross": {
    "2025": 3157.0,
@@ -724,11 +732,13 @@
    "2023": 10467.0,
    "2022": 2935.0,
    "2021": 2241.0,
-   "2020": 2705.0
+   "2020": 2705.0,
+   "2019": 16233.0
   },
   "pfe:DebtInstrumentFairValueAdjustmentsHedgingandPurchaseAccounting": {
    "2023": 5.0,
-   "2022": 11.0
+   "2022": 11.0,
+   "2019": 5.0
   }
  },
  "avvisi": [

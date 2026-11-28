@@ -90,4 +90,4 @@ Debiti finanziari a breve: ultimo anno 2024 (mancano anni recenti)
 Titoli di mercato non correnti: ultimo anno 2023 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2010-2026: non sommarli di nuovo
 
-Tempo: 5 s. File scritto: sec_LOW.json
+Tempo: 4 s. File scritto: sec_LOW.json

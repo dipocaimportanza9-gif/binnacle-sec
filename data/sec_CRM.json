@@ -750,18 +750,51 @@
   "crm:LessorOperatingLeasePaymentsToBeReceivedNextFiveYears": {
    "2026": 258.0,
    "2025": 303.0,
-   "2024": 275.0
+   "2024": 275.0,
+   "2023": 237.0,
+   "2022": 244.0,
+   "2021": 166.0,
+   "2020": 169.0
   },
   "crm:LesseeOperatingLeaseCommitmentincludingLeaseNotyetCommencedAmount": {
    "2026": 4400.0,
    "2025": 4000.0,
-   "2024": 4700.0
+   "2024": 4700.0,
+   "2023": 5100.0,
+   "2022": 5200.0,
+   "2021": 5400.0,
+   "2020": 5900.0
   },
   "crm:DeferredTaxAssetsLeaseLiabilities": {
    "2026": 685.0,
    "2025": 740.0,
    "2024": 818.0,
-   "2023": 912.0
+   "2023": 912.0,
+   "2022": 862.0,
+   "2021": 948.0,
+   "2020": 769.0
+  },
+  "crm:LesseeOperatingLeaseLeaseNotYetCommencedAmount": {
+   "2023": 400.0,
+   "2022": 1100.0,
+   "2021": 1500.0
+  },
+  "crm:LesseeOperatingLeaseDerecognitionOfBuildingAndBuildingImprovements": {
+   "2021": 262.0
+  },
+  "crm:FinanceLeaseRightOfUseAssetAccumulatedDepreciation": {
+   "2021": 410.0,
+   "2020": 404.0
+  },
+  "crm:LongTermDebtMaturityAfterYearThree": {
+   "2021": 1500.0
+  },
+  "crm:DeferredTaxAssetsFinancingObligation": {
+   "2020": 9.0,
+   "2019": 102.0
+  },
+  "crm:LesseeOperatingLeaseLeaseNotyetCommencedAmount": {
+   "2020": 2400.0
   }
  },
  "avvisi": [
@@ -854,6 +887,102 @@
    "anno": 2022,
    "colonne": [],
    "mln": 11269.0
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 11269.0
+  },
+  {
+   "anno": 2022,
+   "colonne": [],
+   "mln": 11269.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 15588.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 15588.0
+  },
+  {
+   "anno": 2022,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 11269.0
+  },
+  {
+   "anno": 2022,
+   "colonne": [],
+   "mln": 11269.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 2195.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [],
+   "mln": 2195.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 15588.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 15588.0
+  },
+  {
+   "anno": 2018,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 12.0
+  },
+  {
+   "anno": 2018,
+   "colonne": [],
+   "mln": 12.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 2195.0
+  },
+  {
+   "anno": 2019,
+   "colonne": [],
+   "mln": 2195.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 15588.0
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 15588.0
   }
  ],
  "contenuti_letti": {},

@@ -57,6 +57,7 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
+wfc:LoansAndLeasesReceivableDeferredIncomeAsaPercentofLoansAnd       .        .        .        0        .        .        .        .        .        .        .        .
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
@@ -97,4 +98,4 @@ ltInv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOth
 ltInv: DerivativeCollateralObligationToReturnSecurities {2023: 2587, 2024: 4024, 2025: 4906}
 ltInv: DerivativeCollateralRightToReclaimSecurities {2023: 4388, 2024: 2853, 2025: 3091}
 
-Tempo: 1 s. File scritto: sec_WFC.json
+Tempo: 5 s. File scritto: sec_WFC.json

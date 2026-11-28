@@ -57,7 +57,7 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-nvda:Accumulatedamortizationofleaseholdimprovementsandcapitall       .        .        .        .        .      216      223      265      327        .        .        .
+nvda:Accumulatedamortizationofleaseholdimprovementsandcapitall       .        .        .        .      189      216      223      265      327        .        .        .
 nvda:DebtSecuritiesAvailableForSaleAmortizedCostAndEquitySecur       .        .        .        .        .        .        .        .        .        .   42,062   47,182
 nvda:DebtSecuritiesAvailableForSaleAndEquitySecuritiesFVNI           .        .        .        .        .        .        .        .        .        .   42,487   65,076
 nvda:DeferredTaxAssetsLeaseLiability                                 .        .        .        .        .      114      120      125      193      263      299      554
@@ -75,4 +75,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 153, 2024:
 eqMeth: MarketableSecurities {2023: 9907, 2024: 18704}
 ltInv: MarketableSecurities {2023: 9907, 2024: 18704}
 
-Tempo: 4 s. File scritto: sec_NVDA.json
+Tempo: 6 s. File scritto: sec_NVDA.json

@@ -473,15 +473,22 @@
   "aig:Shortterminvestmentsatfairvalue": {
    "2021": 4426.0,
    "2020": 5968.0,
-   "2019": 5343.0
+   "2019": 5343.0,
+   "2018": 3015.0
   },
   "aig:AverageDebtServiceCoverageRatioOfCommercialMortgages": {
    "2021": 0.0,
    "2020": 0.0,
-   "2019": 0.0
+   "2019": 0.0,
+   "2018": 0.0
   },
   "aig:LesseeOperatingLeaseNotYetCommencedFutureObligations": {
-   "2020": 389.0
+   "2020": 389.0,
+   "2019": 507.0
+  },
+  "aig:OtherInvestmentsAmount": {
+   "2019": 324385.0,
+   "2018": 304535.0
   }
  },
  "avvisi": [

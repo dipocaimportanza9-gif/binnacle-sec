@@ -57,16 +57,33 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-goog:DeferredTaxAssetsOperatingLeaseRightOfUseAsset                  .        .        .        .        .        .        .    2,711    3,526    3,336    3,337        .
-goog:DeferredTaxLiabilitiesOperatingLeaseLiability                   .        .        .        .        .        .        .    2,491    2,965    2,986    3,103        .
+goog:AvailableForSaleDebtSecuritiesFairValueOption                   .        .        .        .        .    2,000    4,700        .        .        .        .        .
+goog:DeferredTaxAssetsBasisDifferenceInInvestmentInHomeBusines       .        .        .      657        0        .        .        .        .        .        .        .
+goog:DeferredTaxAssetsOperatingLeaseRightOfUseAsset                  .        .        .        .        .        .    2,503    2,711    3,526    3,336    3,337        .
+goog:DeferredTaxAssetsOperatingLeaseRightofUseAsset                  .        .        .      160    1,876    2,620    2,503        .        .        .        .        .
+goog:DeferredTaxLiabilitiesOperatingLeaseLiability                   .        .        .        .    1,619    2,354    2,228    2,491    2,965    2,986    3,103        .
+goog:DeferredTaxLiabilitiesRenewableEnergyInvestments                .        .        .      500      466      415        .        .        .        .        .        .
 goog:EquityMethodInvestmentsAndOther                                 .        .        .        .        .        .        .        .        .    2,764    4,593        .
+goog:FairValueOptionDebtSecuritiesAvailableForSaleAccumulatedU       .        .        .        .        .       87      -35     -592        .        .        .        .
 goog:ForeignCurrencyDenominatedDebtAsNetInvestmentHedge              .        .        .        .        .        .        .        .        .        .   15,400        .
 goog:InvestmentsInConvertibleNotesIncludingFinancingReceivable       .        .        .        .        .        .        .        .      921    2,900        .        .
-goog:LesseeLeaseNotYetCommencedCurrentAmount                         .        .        .        .        .        .        .        .      657      773    5,800        .
-goog:LesseeLeaseNotYetCommencedNoncurrentAmount                      .        .        .        .        .        .        .        .    3,300    6,500   52,700        .
+goog:LesseeLeaseNotYetCommencedCurrentAmount                         .        .        .        .        .        .      606      630      657      773    5,800        .
+goog:LesseeLeaseNotYetCommencedNoncurrentAmount                      .        .        .        .        .        .    5,200    3,100    3,300    6,500   52,700        .
+goog:LesseeOperatingLeaseLeaseNotYetCommencedAmount                  .        .        .        .    7,400    8,000        .        .        .        .        .        .
+goog:OperatingLeasesFutureMinimumPaymentsDueNetNextTwelveMonth       .        .        .    1,303        .        .        .        .        .        .        .        .
+goog:OperatingLeasesFutureMinimumPaymentsDueNetThereafter            .        .        .    3,911        .        .        .        .        .        .        .        .
+goog:OperatingLeasesFutureMinimumPaymentsDueNetTotal                 .        .        .   10,047        .        .        .        .        .        .        .        .
+goog:OperatingLeasesFutureMinimumPaymentsDueNetinFiveYears           .        .        .      977        .        .        .        .        .        .        .        .
+goog:OperatingLeasesFutureMinimumPaymentsDueNetinFourYears           .        .        .    1,145        .        .        .        .        .        .        .        .
+goog:OperatingLeasesFutureMinimumPaymentsDueNetinThreeYears          .        .        .    1,327        .        .        .        .        .        .        .        .
+goog:OperatingLeasesFutureMinimumPaymentsDueNetinTwoYears            .        .        .    1,384        .        .        .        .        .        .        .        .
+goog:PayablesToBrokersForUnsettledInvestmentTrades                   .        .        .        .        .      754      397        .        .        .        .        .
+goog:PropertyPlantandEquipmentandFinanceLeaseRightofUseAssetAc       .        .        .        .   30,561        .        .        .        .        .        .        .
+goog:PropertyPlantandEquipmentandFinanceLeaseRightofUseAssetaf       .        .        .        .   73,646        .        .        .        .        .        .        .
+goog:PropertyPlantandEquipmentandFinanceLeaseRightofUseAssetbe       .        .        .        .  104,207        .        .        .        .        .        .        .
 
 --- AVVISI ---
 Partecipazioni a patrimonio netto (equity method): ultimo anno 2024 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2020-2022: non sommarli di nuovo
 
-Tempo: 2 s. File scritto: sec_GOOGL.json
+Tempo: 4 s. File scritto: sec_GOOGL.json

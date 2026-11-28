@@ -264,34 +264,44 @@
    "2025": 4915.7,
    "2024": 4336.8,
    "2023": 4716.4,
-   "2022": 4883.2
+   "2022": 4883.2,
+   "2021": 4935.8,
+   "2020": 384.4
   },
   "snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAccumulatedGrossUnrealizedGainsBeforeTax": {
    "2026": 5.5,
    "2025": 3.0,
    "2024": 3.0,
    "2023": 2.8,
-   "2022": 0.2
+   "2022": 0.2,
+   "2021": 1.1,
+   "2020": 0.3
   },
   "snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleAccumulatedGrossUnrealizedLossBeforeTax": {
    "2026": 0.0,
    "2025": 2.3,
    "2024": 8.2,
    "2023": 38.7,
-   "2022": 15.6
+   "2022": 15.6,
+   "2021": 0.6,
+   "2020": 0.0
   },
   "snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleFairValue": {
    "2026": 3955.8,
    "2025": 4916.5,
    "2024": 4331.5,
    "2023": 4680.4,
-   "2022": 4867.8
+   "2022": 4867.8,
+   "2021": 4936.3,
+   "2020": 384.7
   },
   "snow:DebtSecuritiesAvailableForSaleFairValueMaturityAllocatedAndSingleMaturityDateAfterYearOneThroughThree": {
    "2026": 755.0,
    "2025": 656.5,
    "2024": 916.3,
-   "2023": 1073.0
+   "2023": 1073.0,
+   "2022": 1256.2,
+   "2021": 1165.3
   },
   "snow:DebtSecuritiesWithoutReadilyDeterminableFairValueAmount": {
    "2026": 10.0,
@@ -301,57 +311,75 @@
    "2026": 67.0,
    "2025": 16.5,
    "2024": 38.8,
-   "2023": 19.9
+   "2023": 19.9,
+   "2022": 23.5,
+   "2021": 19.4
   },
   "snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeYearTwo": {
    "2026": 73.5,
    "2025": 64.4,
    "2024": 42.2,
-   "2023": 33.5
+   "2023": 33.5,
+   "2022": 26.5,
+   "2021": 19.7
   },
   "snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeYearThree": {
    "2026": 62.3,
    "2025": 66.8,
    "2024": 40.7,
-   "2023": 32.3
+   "2023": 32.3,
+   "2022": 22.4,
+   "2021": 20.1
   },
   "snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeYearFour": {
    "2026": 74.0,
    "2025": 55.0,
    "2024": 39.0,
-   "2023": 32.2
+   "2023": 32.2,
+   "2022": 21.4,
+   "2021": 18.1
   },
   "snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeYearFive": {
    "2026": 71.5,
    "2025": 66.5,
    "2024": 36.6,
-   "2023": 29.6
+   "2023": 29.6,
+   "2022": 21.2,
+   "2021": 17.7
   },
   "snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeAfterYearFive": {
    "2026": 215.6,
    "2025": 260.7,
    "2024": 133.0,
-   "2023": 142.4
+   "2023": 142.4,
+   "2022": 91.1,
+   "2021": 107.2
   },
   "snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncome": {
    "2026": 564.0,
    "2025": 530.0,
    "2024": 330.3,
-   "2023": 289.8
+   "2023": 289.8,
+   "2022": 206.1,
+   "2021": 202.1
   },
   "snow:DeferredTaxAssetsLeaseLiability": {
    "2026": 113.3,
    "2025": 104.5,
    "2024": 54.0,
    "2023": 55.1,
-   "2022": 48.7
+   "2022": 48.7,
+   "2021": 50.8,
+   "2020": 50.6
   },
   "snow:DeferredTaxLiabilitiesOperatingLeaseRightOfUseAsset": {
    "2026": 72.7,
    "2025": 95.0,
    "2024": 48.6,
    "2023": 53.8,
-   "2022": 48.3
+   "2022": 48.3,
+   "2021": 50.3,
+   "2020": 46.8
   },
   "snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months": {
    "2024": 1734.3,
@@ -385,12 +413,16 @@
    "2025": 0.8,
    "2024": 1.5,
    "2023": 1.5,
-   "2022": 2.2
+   "2022": 2.2,
+   "2021": 0.5
   },
   "snow:CashEquivalentsAndDebtSecuritiesAvailableForSaleUnrealizedLossPositionAccumulatedLoss": {
    "2024": 8.2,
    "2023": 38.7,
    "2022": 15.6
+  },
+  "snow:LesseeLeaseLeaseNotYetCommencedUndiscountedAmount": {
+   "2022": 25.3
   }
  },
  "avvisi": [
@@ -635,6 +667,30 @@
    "anno": 2023,
    "colonne": [],
    "mln": 438.9
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 4.7
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 4.7
+  },
+  {
+   "anno": 2020,
+   "colonne": [
+    "StatementEquityComponentsAxis=AdditionalPaidInCapitalMember"
+   ],
+   "mln": 4.7
+  },
+  {
+   "anno": 2020,
+   "colonne": [],
+   "mln": 4.7
   }
  ],
  "contenuti_letti": {},
