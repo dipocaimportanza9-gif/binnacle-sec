@@ -63,4 +63,7 @@ msft:DeferredTaxLiabilitiesBookTaxBasisDifferencesInvestmentsA       .        . 
 msft:PremiumOnDebtExchange                                           .        .        .        .        0    3,619        .        .        .        .        .        .
 msft:PremiumOnDebtExchange1                                          .        .        .        .        .    3,619    5,293    5,191    5,085    4,976    4,864    4,750
 
-Tempo: 5 s. File scritto: sec_MSFT.json
+--- AVVISI ---
+Prospetti 10-K letti per gli anni: 2018, 2019, 2020, 2021, 2022
+
+Tempo: 6 s. File scritto: sec_MSFT.json

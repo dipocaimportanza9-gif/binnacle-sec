@@ -75,6 +75,7 @@ ko:SegmentReportingInformationInvestmentsIncludingEquityMethod       .        . 
 Svalutazione di avviamento: ultimo anno 2024 (mancano anni recenti)
 Costi di ristrutturazione: ultimo anno 2023 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2024-2025: non sommarli di nuovo
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 1328, 2024: 1182, 2025: 1697}
@@ -87,4 +88,4 @@ ltInv: MarketableSecurities {2023: 1300, 2024: 1723, 2025: 1934}
 ltInv: DebtSecurities {2023: 1175, 2024: 1676, 2025: 1824}
 ltInv: QualifiedAffordableHousingProjectInvestmentsCommitment {2024: 123, 2025: 32}
 
-Tempo: 4 s. File scritto: sec_KO.json
+Tempo: 6 s. File scritto: sec_KO.json

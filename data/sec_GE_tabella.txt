@@ -95,6 +95,7 @@ ge:SalestypeandDirectFinancingLeasesUnguaranteedResidualAssetN       .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 1160, 2024: 1057, 2025: 1018}
@@ -102,4 +103,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 329, 2024:
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 275, 2024: 196, 2025: 238}
 finLiab: IncreaseDecreaseInOperatingLeaseLiability {2024: -109}
 
-Tempo: 4 s. File scritto: sec_GE.json
+Tempo: 7 s. File scritto: sec_GE.json

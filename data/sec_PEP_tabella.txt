@@ -66,6 +66,7 @@ pep:UtilizationUnderSupplyChainFinancingPrograms                     .        . 
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2024 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 2905, 2024: 3383, 2025: 3745}
@@ -81,4 +82,4 @@ ltInv: OtherInvestments {2023: 1616, 2024: 1346, 2025: 2526}
 ltInv: EquityMethodInvestmentDifferenceBetweenCarryingAmountAndUnderlyingEquity {2023: 520}
 ltInv: AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits {2023: 0, 2024: 0, 2025: 0}
 
-Tempo: 5 s. File scritto: sec_PEP.json
+Tempo: 6 s. File scritto: sec_PEP.json

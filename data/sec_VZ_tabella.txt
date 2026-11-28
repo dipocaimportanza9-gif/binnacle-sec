@@ -67,5 +67,6 @@ vz:LesseeOperatingLeaseLeaseNotYetCommencedAmount                    .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2008-2025: non sommarli di nuovo
+Prospetti 10-K letti per gli anni: 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
-Tempo: 4 s. File scritto: sec_VZ.json
+Tempo: 6 s. File scritto: sec_VZ.json

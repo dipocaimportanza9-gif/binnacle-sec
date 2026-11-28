@@ -84,6 +84,7 @@ snow:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeY       .        . 
 
 --- AVVISI ---
 Azioni emesse non in contanti (rendiconto, voce supplementare; riserva per acquisizioni): ultimo anno 2022 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 231, 2024: 252, 2025: 359, 2026: 275}

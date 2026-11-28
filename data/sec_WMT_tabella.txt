@@ -60,6 +60,9 @@ Debiti a breve = debito corrente totale - quota corrente LT          .        . 
 wmt:DeferredTaxAssetsLeases                                          .        .        .        .        .    4,098    4,450    4,320    4,653    4,831    4,611    5,181
 wmt:Financingobligationnoncashgainsandother                          .        .        .        .    2,278        .        .        .        .        .        .        .
 
+--- AVVISI ---
+Prospetti 10-K letti per gli anni: 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 eqMeth: TradingSecuritiesDebt {2023: 500, 2024: 1200, 2025: 1200}
 afsDeb: TradingSecuritiesDebt {2023: 500, 2024: 1200, 2025: 1200}

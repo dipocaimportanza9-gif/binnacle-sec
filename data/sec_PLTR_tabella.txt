@@ -72,9 +72,12 @@ pltr:LesseeOperatingLeaseLiabilityPaymentsNetOfSubleaseIncomeU       .        . 
 pltr:OperatingLeaseLiabilityNetOfSubleaseIncome                      .        .        .        .        .        .        .      129      127      153      158        .
 pltr:OperatingLeasePaymentsToBeReceived                              .        .        .        .        .        .        .      121      102       86       71        .
 
+--- AVVISI ---
+Prospetti 10-K letti per gli anni: 2020, 2021, 2022, 2023, 2024, 2025
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 183, 2024: 201, 2025: 200}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 47, 2024: 69, 2025: 63}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 28, 2024: 58, 2025: 38}
 
-Tempo: 4 s. File scritto: sec_PLTR.json
+Tempo: 3 s. File scritto: sec_PLTR.json

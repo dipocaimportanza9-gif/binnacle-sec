@@ -130,6 +130,7 @@ bac:SecuritiesFinancingAgreementsLiabilitySubjectToMasterNetti       .        . 
 bac:TimeDepositsAndOtherShortTermInvestments                         .        .   11,153    7,494    7,107    6,546    7,144    7,259    8,346    6,372    7,474        .
 
 --- AVVISI ---
+Prospetti 10-K letti per gli anni: 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 FUORI PORTATA (SIC 6021 National Commercial Banks)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -160,4 +161,4 @@ ltInv: DebtSecuritiesTradingRestricted {2023: 130815, 2024: 170328, 2025: 185869
 ltInv: SecuritiesLoanedIncludingNotSubjectToMasterNettingArrangementAndAssetsOtherThanSecuritiesTransferred {2023: 83107, 2024: 98891, 2025: 129743}
 ltInv: NetInvestmentInLease {2023: 19050, 2024: 21102, 2025: 22718}
 
-Tempo: 13 s. File scritto: sec_BAC.json
+Tempo: 18 s. File scritto: sec_BAC.json

@@ -74,6 +74,7 @@ uber:OperatingLeaseRightOfUseAssetPercentageOfLeasedAssetsFore       .        . 
 Beni acquisiti con capital lease (non cash): ultimo anno 2023 (mancano anni recenti)
 Azioni emesse non in contanti (rendiconto, voce supplementare; riserva per acquisizioni): ultimo anno 2023 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 ltInv: RestrictedInvestments {2023: 4779, 2024: 7019, 2025: 8874}

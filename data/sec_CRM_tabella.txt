@@ -71,5 +71,6 @@ crm:LongTermDebtMaturityAfterYearThree                               .        . 
 Azioni emesse per acquisizioni (non in contanti): ultimo anno 2022 (mancano anni recenti)
 Svalutazione di avviamento: ultimo anno 2022 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
-Tempo: 4 s. File scritto: sec_CRM.json
+Tempo: 6 s. File scritto: sec_CRM.json

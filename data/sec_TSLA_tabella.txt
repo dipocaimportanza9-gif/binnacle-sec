@@ -82,6 +82,7 @@ tsla:SalesTypeLeaseUnearnedInterestIncome                            .        . 
 Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2024 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2023 (mancano anni recenti)
 Il tag del debito include i leasing finanziari negli anni 2014-2018: non sommarli di nuovo
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 eqPriv: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
@@ -89,4 +90,4 @@ eqMeth: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 afsDeb: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 ltInv: DilutiveSecuritiesEffectOnBasicEarningsPerShareOther {2023: 0, 2024: 0}
 
-Tempo: 4 s. File scritto: sec_TSLA.json
+Tempo: 6 s. File scritto: sec_TSLA.json

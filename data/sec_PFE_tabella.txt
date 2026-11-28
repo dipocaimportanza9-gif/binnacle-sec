@@ -70,6 +70,7 @@ pfe:ShorttermDebtGross                                               .        . 
 
 --- AVVISI ---
 Investimenti a lungo termine (voce di bilancio): ultimo anno 2024 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 2924, 2024: 2289, 2025: 2213}
@@ -77,4 +78,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 671, 2024:
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 614, 2024: 283, 2025: 288}
 ltInv: SecuritiesReceivedAsCollateral {2023: 221, 2024: 716, 2025: 154}
 
-Tempo: 7 s. File scritto: sec_PFE.json
+Tempo: 11 s. File scritto: sec_PFE.json

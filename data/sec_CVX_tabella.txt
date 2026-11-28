@@ -86,6 +86,7 @@ cvx:ShortTermDebtReclassifiedToLongTermDebtAmount                    .        . 
 
 --- AVVISI ---
 Il tag del debito include i leasing finanziari negli anni 2018-2025: non sommarli di nuovo
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 afsDeb: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 34359, 2024: 35349, 2025: 32062}
@@ -93,4 +94,4 @@ afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 
 ltInv: RetainedEarningsUndistributedEarningsFromEquityMethodInvestees {2023: 34359, 2024: 35349, 2025: 32062}
 ltInv: EquityMethodInvestmentDividendsOrDistributions {2023: 4246, 2024: 4230, 2025: 5282}
 
-Tempo: 5 s. File scritto: sec_CVX.json
+Tempo: 7 s. File scritto: sec_CVX.json

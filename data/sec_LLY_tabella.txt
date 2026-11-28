@@ -68,6 +68,7 @@ Leasing operativi: debito totale: ultimo anno 2024 (mancano anni recenti)
 Leasing operativi: costo (affitti) dell'anno: ultimo anno 2024 (mancano anni recenti)
 Titoli di debito disponibili per la vendita (valore equo): ultimo anno 2024 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2024 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 opLiab: OperatingLeaseRightOfUseAsset {2023: 1024, 2024: 1050, 2025: 1260}
@@ -77,4 +78,4 @@ finLiab: OperatingLeaseRightOfUseAsset {2023: 1024, 2024: 1050, 2025: 1260}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 590, 2024: 210}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 285, 2024: 300}
 
-Tempo: 5 s. File scritto: sec_LLY.json
+Tempo: 6 s. File scritto: sec_LLY.json

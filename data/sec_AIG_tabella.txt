@@ -67,6 +67,7 @@ aig:Shortterminvestmentsatfairvalue                                  .        . 
 --- AVVISI ---
 Debiti finanziari a breve: ultimo anno 2023 (mancano anni recenti)
 Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 FUORI PORTATA (SIC 6331 Fire, Marine & Casualty Insurance)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
@@ -97,4 +98,4 @@ afsDeb: SecuritiesReceivedAsCollateral {2023: 1200, 2024: 2900, 2025: 3600}
 afsDeb: RealEstateInvestmentPropertyNet {2023: 2237}
 afsDeb: TradingSecuritiesDebt {2023: 663, 2024: 745, 2025: 741}
 
-Tempo: 11 s. File scritto: sec_AIG.json
+Tempo: 13 s. File scritto: sec_AIG.json

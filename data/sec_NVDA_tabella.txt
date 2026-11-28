@@ -67,6 +67,7 @@ nvda:ProductWarrantyAndReturnProvisions                              .        . 
 
 --- AVVISI ---
 Titoli di mercato non correnti: ultimo anno 2024 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 1038, 2024: 1346, 2025: 1793, 2026: 2867}
@@ -75,4 +76,4 @@ finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 153, 2024:
 eqMeth: MarketableSecurities {2023: 9907, 2024: 18704}
 ltInv: MarketableSecurities {2023: 9907, 2024: 18704}
 
-Tempo: 6 s. File scritto: sec_NVDA.json
+Tempo: 7 s. File scritto: sec_NVDA.json

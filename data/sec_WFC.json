@@ -870,6 +870,7 @@
  "chiusura_esercizio": "1231",
  "nome": "WELLS FARGO & COMPANY/MN",
  "debug_acq_ixbrl": [],
+ "storico": {},
  "contenuti_letti": {},
  "ambito": "finanziario/immobiliare: le regole su debito e capitale non valgono"
 }

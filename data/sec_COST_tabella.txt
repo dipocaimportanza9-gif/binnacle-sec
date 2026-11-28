@@ -65,5 +65,6 @@ cost:OperatingLeaseandFinanceLeaserightofuseassets                   .        . 
 --- AVVISI ---
 Debiti finanziari a breve: ultimo anno 2022 (mancano anni recenti)
 Svalutazione di immobilizzazioni: ultimo anno 2022 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
 
 Tempo: 5 s. File scritto: sec_COST.json

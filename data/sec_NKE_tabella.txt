@@ -69,10 +69,11 @@ nke:OperatingAndCapitalLeasesFutureMinimumPaymentsRemainderofF       .        . 
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2024 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: OperatingLeaseRightOfUseAsset {2023: 2923, 2024: 2718, 2025: 2712, 2026: 2838}
 finLiab: RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability {2023: 602, 2024: 458, 2025: 607, 2026: 849}
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 377, 2024: 324, 2025: 286, 2026: 501}
 
-Tempo: 4 s. File scritto: sec_NKE.json
+Tempo: 5 s. File scritto: sec_NKE.json

@@ -61,6 +61,7 @@ brka:DeferredTaxLiabilitiesPropertyPlantAndEquipmentEquipmentH       .        . 
 brka:RepaymentsOfDebtPrincipalInNextTwelveMonths                     .        .        .        .   10,420    9,398    6,139   12,962   13,859    9,366    9,782        .
 
 --- AVVISI ---
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021
 FUORI PORTATA (SIC 6331 Fire, Marine & Casualty Insurance)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---

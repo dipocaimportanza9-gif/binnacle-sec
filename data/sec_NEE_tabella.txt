@@ -75,7 +75,10 @@ nee:OperatingAndSalesTypeLeasesLeaseReceivablePaymentsToBeRece       .        . 
 nee:OperatingAndSalesTypeLeasesLeaseReceivablePaymentsToBeRece       .        .        .        .        .        .        .        .        .        .      415        .
 nee:OperatingLeaseWeightedAverageBorrowingRatePercent                .        .        .        0        0        0        0        0        0        0        0        .
 
+--- AVVISI ---
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
+
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 afsDeb: EquityMethodInvestmentDividendsOrDistributions {2023: 712, 2024: 811, 2025: 446}
 
-Tempo: 4 s. File scritto: sec_NEE.json
+Tempo: 6 s. File scritto: sec_NEE.json

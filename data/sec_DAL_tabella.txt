@@ -57,10 +57,16 @@ Debito totale = quota corrente + non corrente (se manca il tot       .        . 
 Debiti a breve = debito corrente totale - quota corrente LT          .        .        .        .        .        .        .        .        .        .        .        .
 
 --- TAG PROPRI DELL'AZIENDA (estensioni, dai 10-K in iXBRL) ---
-dal:AvailableForSaleSecuritiesDebtMaturitiesAfterFiveYearsFair       .        .        .       13        .        .        .        .        .        .        .        .
-dal:AvailableForSaleSecuritiesDebtMaturitiesAfterOneYearThroug       .        .        .       96        .        .        .        .        .        .        .        .
-dal:AvailableForSaleSecuritiesDebtMaturitiesAfterThreeYearsThr       .        .        .        1        .        .        .        .        .        .        .        .
+dal:AvailableForSaleSecuritiesDebtMaturitiesAfterFiveYearsFair       .       23       18       13        .        .        .        .        .        .        .        .
+dal:AvailableForSaleSecuritiesDebtMaturitiesAfterOneYearThroug       .      239      465       96        .        .        .        .        .        .        .        .
+dal:AvailableForSaleSecuritiesDebtMaturitiesAfterThreeYearsThr       .       65       19        1        .        .        .        .        .        .        .        .
 dal:CashCashEquivalentsShortTermInvestmentsAndAmountsAvailable       .        .        .        .        .   16,700        .        .        .        .        .        .
+dal:DebtInstrumentAmortizationDiscountPremiumNetAfterYearFive        .        8        6        .        .        .        .        .        .        .        .        .
+dal:DebtInstrumentAmortizationDiscountPremiumNetYearFive             .        5        7        .        .        .        .        .        .        .        .        .
+dal:DebtInstrumentAmortizationDiscountPremiumNetYearFour             .        5        6        .        .        .        .        .        .        .        .        .
+dal:DebtInstrumentAmortizationDiscountPremiumNetYearOne              .       28       42        .        .        .        .        .        .        .        .        .
+dal:DebtInstrumentAmortizationDiscountPremiumNetYearThree            .       23        8        .        .        .        .        .        .        .        .        .
+dal:DebtInstrumentAmortizationDiscountPremiumNetYearTwo              .       35       30        .        .        .        .        .        .        .        .        .
 dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .      -53      -50       -8      -14      -15       -4       -2        2        .
 dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .       -9      -10       23        8        1        .       -2       -5        .
 dal:DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCos       .        .        .      -11      -11       46       39        8        .        .       -4        .
@@ -79,5 +85,6 @@ dal:PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAft       .        . 
 
 --- AVVISI ---
 Costi di ristrutturazione: ultimo anno 2022 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
-Tempo: 5 s. File scritto: sec_DAL.json
+Tempo: 6 s. File scritto: sec_DAL.json

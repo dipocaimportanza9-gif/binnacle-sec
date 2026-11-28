@@ -65,9 +65,10 @@ unh:InvestmentsGrossUnrealizedGains                                  .        . 
 unh:InvestmentsGrossUnrealizedLosses                                 .        .        .      445       30       22      276    3,681    2,698    2,962    1,628        .
 
 --- AVVISI ---
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 FUORI PORTATA (SIC 6324 Hospital & Medical Service Plans)
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 finLiab: LesseeOperatingLeaseLiabilityUndiscountedExcessAmount {2023: 1077, 2024: 1305, 2025: 1391}
 
-Tempo: 4 s. File scritto: sec_UNH.json
+Tempo: 8 s. File scritto: sec_UNH.json

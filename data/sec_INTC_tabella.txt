@@ -69,6 +69,7 @@ intc:LeaseLiability                                                  .        . 
 --- AVVISI ---
 Rimborsi capitale leasing finanziari: ultimo anno 2023 (mancano anni recenti)
 Partecipazioni a patrimonio netto (equity method): ultimo anno 2023 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 opLiab: OperatingLeaseRightOfUseAsset {2023: 505, 2024: 457, 2025: 421}
@@ -80,4 +81,4 @@ ltInv: MarketableSecurities {2023: 1194, 2024: 848, 2025: 484}
 ltInv: IncreaseDecreaseInEquitySecuritiesFvNi {2023: 42, 2024: 246, 2025: 514}
 ltInv: ImpairmentOfInvestments {2023: 214}
 
-Tempo: 9 s. File scritto: sec_INTC.json
+Tempo: 5 s. File scritto: sec_INTC.json

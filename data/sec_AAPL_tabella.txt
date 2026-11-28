@@ -75,4 +75,7 @@ aapl:OperatingandFinanceLeaseLiability                               .        . 
 aapl:OperatingandFinanceLeaseRightofUseAsset                         .        .        .        .        .    9,199   10,948   11,369   11,676   11,303   12,238   12,815
 aapl:OperatingandFinanceLeaseWeightedAverageDiscountRatePercen       .        .        .        .        .        0        0        0        0        0        0        0
 
-Tempo: 3 s. File scritto: sec_AAPL.json
+--- AVVISI ---
+Prospetti 10-K letti per gli anni: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
+
+Tempo: 5 s. File scritto: sec_AAPL.json

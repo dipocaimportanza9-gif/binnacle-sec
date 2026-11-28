@@ -63,6 +63,7 @@ rivn:OperatingLeaseLiabilityAndOtherLiabilitiesCurrent               .        . 
 
 --- AVVISI ---
 Debito a lungo termine: quota corrente: ultimo anno 2023 (mancano anni recenti)
+Prospetti 10-K letti per gli anni: 2019, 2020, 2021, 2022, 2023, 2024, 2025
 
 --- TAG CANDIDATI (non in catalogo, con valori 2023+) ---
 dCur: DebtConversionConvertedInstrumentAmount1 {2023: 0, 2024: 1133, 2025: 0}

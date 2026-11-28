@@ -1,59 +1,59 @@
-AMZN    SIC 5961   debito:si  leasing:si  invest:si  avvisi:1  
-MSFT    SIC 7372   debito:si  leasing:si  invest:si  avvisi:0  
-KO      SIC 2080   debito:si  leasing:si  invest:si  avvisi:3  
-HD      SIC 5211   debito:si  leasing:si  invest:NO  avvisi:3  
-XOM     SIC 2911   debito:si  leasing:si  invest:si  avvisi:3  
-AAPL    SIC 3571   debito:si  leasing:si  invest:si  avvisi:0  
-NVDA    SIC 3674   debito:si  leasing:si  invest:si  avvisi:1  
-GOOGL   SIC 7370   debito:si  leasing:si  invest:si  avvisi:2  
-META    SIC 7370   debito:si  leasing:si  invest:si  avvisi:0  
-ORCL    SIC 7372   debito:si  leasing:si  invest:si  avvisi:1  
-CRM     SIC 7372   debito:si  leasing:si  invest:si  avvisi:3  
-ADBE    SIC 7372   debito:si  leasing:si  invest:NO  avvisi:1  
-INTC    SIC 3674   debito:si  leasing:NO  invest:si  avvisi:2  
-AMD     SIC 3674   debito:si  leasing:si  invest:si  avvisi:6  
-WMT     SIC 5331   debito:si  leasing:si  invest:si  avvisi:0  
-COST    SIC 5331   debito:si  leasing:si  invest:si  avvisi:2  
-TGT     SIC 5331   debito:si  leasing:si  invest:NO  avvisi:1  
-LOW     SIC 5211   debito:si  leasing:si  invest:si  avvisi:3  
-PG      SIC 2840   debito:si  leasing:si  invest:NO  avvisi:1  
-PEP     SIC 2080   debito:si  leasing:si  invest:si  avvisi:1  
-MCD     SIC 5812   debito:si  leasing:si  invest:si  avvisi:5  
-NKE     SIC 3021   debito:si  leasing:si  invest:NO  avvisi:1  
-SBUX    SIC 5810   debito:si  leasing:si  invest:si  avvisi:1  
-JNJ     SIC 2834   debito:si  leasing:si  invest:si  avvisi:1  
-PFE     SIC 2834   debito:si  leasing:si  invest:si  avvisi:1  
-UNH     SIC 6324   debito:si  leasing:si  invest:si  avvisi:1  [finanziario/immobiliare: le regole su de]
-LLY     SIC 2834   debito:si  leasing:si  invest:si  avvisi:4  
-ABT     SIC 2834   debito:si  leasing:si  invest:si  avvisi:2  
-JPM     SIC 6021   debito:si  leasing:si  invest:si  avvisi:2  [finanziario/immobiliare: le regole su de]
-BAC     SIC 6021   debito:si  leasing:si  invest:si  avvisi:1  [finanziario/immobiliare: le regole su de]
+AMZN    SIC 5961   debito:si  leasing:si  invest:si  avvisi:2  
+MSFT    SIC 7372   debito:si  leasing:si  invest:si  avvisi:1  
+KO      SIC 2080   debito:si  leasing:si  invest:si  avvisi:4  
+HD      SIC 5211   debito:si  leasing:si  invest:NO  avvisi:4  
+XOM     SIC 2911   debito:si  leasing:si  invest:si  avvisi:4  
+AAPL    SIC 3571   debito:si  leasing:si  invest:si  avvisi:1  
+NVDA    SIC 3674   debito:si  leasing:si  invest:si  avvisi:2  
+GOOGL   SIC 7370   debito:si  leasing:si  invest:si  avvisi:3  
+META    SIC 7370   debito:si  leasing:si  invest:si  avvisi:1  
+ORCL    SIC 7372   debito:si  leasing:si  invest:si  avvisi:2  
+CRM     SIC 7372   debito:si  leasing:si  invest:si  avvisi:4  
+ADBE    SIC 7372   debito:si  leasing:si  invest:NO  avvisi:2  
+INTC    SIC 3674   debito:si  leasing:NO  invest:si  avvisi:3  
+AMD     SIC 3674   debito:si  leasing:si  invest:si  avvisi:7  
+WMT     SIC 5331   debito:si  leasing:si  invest:si  avvisi:1  
+COST    SIC 5331   debito:si  leasing:si  invest:si  avvisi:3  
+TGT     SIC 5331   debito:si  leasing:si  invest:NO  avvisi:2  
+LOW     SIC 5211   debito:si  leasing:si  invest:si  avvisi:4  
+PG      SIC 2840   debito:si  leasing:si  invest:NO  avvisi:2  
+PEP     SIC 2080   debito:si  leasing:si  invest:si  avvisi:2  
+MCD     SIC 5812   debito:si  leasing:si  invest:si  avvisi:6  
+NKE     SIC 3021   debito:si  leasing:si  invest:NO  avvisi:2  
+SBUX    SIC 5810   debito:si  leasing:si  invest:si  avvisi:2  
+JNJ     SIC 2834   debito:si  leasing:si  invest:si  avvisi:2  
+PFE     SIC 2834   debito:si  leasing:si  invest:si  avvisi:2  
+UNH     SIC 6324   debito:si  leasing:si  invest:si  avvisi:2  [finanziario/immobiliare: le regole su de]
+LLY     SIC 2834   debito:si  leasing:si  invest:si  avvisi:5  
+ABT     SIC 2834   debito:si  leasing:si  invest:si  avvisi:3  
+JPM     SIC 6021   debito:si  leasing:si  invest:si  avvisi:3  [finanziario/immobiliare: le regole su de]
+BAC     SIC 6021   debito:si  leasing:si  invest:si  avvisi:2  [finanziario/immobiliare: le regole su de]
 WFC     SIC 6021   debito:si  leasing:si  invest:NO  avvisi:3  [finanziario/immobiliare: le regole su de]
-AIG     SIC 6331   debito:si  leasing:si  invest:si  avvisi:3  [finanziario/immobiliare: le regole su de]
-BRK-B   SIC 6331   debito:NO  leasing:si  invest:si  avvisi:1  [finanziario/immobiliare: le regole su de]
-O       SIC 6798   debito:si  leasing:si  invest:NO  avvisi:2  [finanziario/immobiliare: le regole su de]
-PLD     SIC 6798   debito:si  leasing:si  invest:si  avvisi:2  [finanziario/immobiliare: le regole su de]
-AMT     SIC 6798   debito:si  leasing:si  invest:NO  avvisi:6  [finanziario/immobiliare: le regole su de]
-NEE     SIC 4911   debito:si  leasing:si  invest:si  avvisi:0  
-DUK     SIC 4931   debito:si  leasing:si  invest:si  avvisi:1  
-CVX     SIC 2911   debito:si  leasing:si  invest:si  avvisi:1  
-COP     SIC 2911   debito:si  leasing:si  invest:si  avvisi:3  
-CAT     SIC 3531   debito:si  leasing:si  invest:si  avvisi:1  
-BA      SIC 3721   debito:si  leasing:si  invest:si  avvisi:1  
-GE      SIC 3600   debito:si  leasing:si  invest:si  avvisi:1  
-UPS     SIC 4210   debito:si  leasing:si  invest:si  avvisi:2  
-T       SIC 4813   debito:si  leasing:si  invest:si  avvisi:3  
-VZ      SIC 4813   debito:si  leasing:si  invest:si  avvisi:1  
-F       SIC 3711   debito:NO  leasing:si  invest:si  avvisi:1  
-TSLA    SIC 3711   debito:si  leasing:si  invest:NO  avvisi:3  
-GM      SIC 3711   debito:si  leasing:si  invest:si  avvisi:1  
-DIS     SIC 7990   debito:si  leasing:si  invest:si  avvisi:3  
-NFLX    SIC 7841   debito:si  leasing:si  invest:si  avvisi:1  
-DAL     SIC 4512   debito:si  leasing:si  invest:si  avvisi:1  
-UBER    SIC 7389   debito:si  leasing:si  invest:si  avvisi:3  
-PLTR    SIC 7372   debito:NO  leasing:si  invest:si  avvisi:0  
-SNOW    SIC 7372   debito:si  leasing:si  invest:si  avvisi:1  
-ETSY    SIC 7389   debito:si  leasing:si  invest:si  avvisi:1  
-RIVN    SIC 3711   debito:si  leasing:si  invest:NO  avvisi:1  
+AIG     SIC 6331   debito:si  leasing:si  invest:si  avvisi:4  [finanziario/immobiliare: le regole su de]
+BRK-B   SIC 6331   debito:NO  leasing:si  invest:si  avvisi:2  [finanziario/immobiliare: le regole su de]
+O       SIC 6798   debito:si  leasing:si  invest:NO  avvisi:3  [finanziario/immobiliare: le regole su de]
+PLD     SIC 6798   debito:si  leasing:si  invest:si  avvisi:3  [finanziario/immobiliare: le regole su de]
+AMT     SIC 6798   debito:si  leasing:si  invest:NO  avvisi:7  [finanziario/immobiliare: le regole su de]
+NEE     SIC 4911   debito:si  leasing:si  invest:si  avvisi:1  
+DUK     SIC 4931   debito:si  leasing:si  invest:si  avvisi:2  
+CVX     SIC 2911   debito:si  leasing:si  invest:si  avvisi:2  
+COP     SIC 2911   debito:si  leasing:si  invest:si  avvisi:4  
+CAT     SIC 3531   debito:si  leasing:si  invest:si  avvisi:2  
+BA      SIC 3721   debito:si  leasing:si  invest:si  avvisi:2  
+GE      SIC 3600   debito:si  leasing:si  invest:si  avvisi:2  
+UPS     SIC 4210   debito:si  leasing:si  invest:si  avvisi:3  
+T       SIC 4813   debito:si  leasing:si  invest:si  avvisi:4  
+VZ      SIC 4813   debito:si  leasing:si  invest:si  avvisi:2  
+F       SIC 3711   debito:NO  leasing:si  invest:si  avvisi:2  
+TSLA    SIC 3711   debito:si  leasing:si  invest:NO  avvisi:4  
+GM      SIC 3711   debito:si  leasing:si  invest:si  avvisi:2  
+DIS     SIC 7990   debito:si  leasing:si  invest:si  avvisi:4  
+NFLX    SIC 7841   debito:si  leasing:si  invest:si  avvisi:2  
+DAL     SIC 4512   debito:si  leasing:si  invest:si  avvisi:2  
+UBER    SIC 7389   debito:si  leasing:si  invest:si  avvisi:4  
+PLTR    SIC 7372   debito:NO  leasing:si  invest:si  avvisi:1  
+SNOW    SIC 7372   debito:si  leasing:si  invest:si  avvisi:2  
+ETSY    SIC 7389   debito:si  leasing:si  invest:si  avvisi:2  
+RIVN    SIC 3711   debito:si  leasing:si  invest:NO  avvisi:2  
 TSM     SIC 3674   debito:NO  leasing:NO  invest:NO  avvisi:2  [senza dati us-gaap: probabile emittente ]
 BABA    SIC 7389   debito:NO  leasing:NO  invest:NO  avvisi:1  
