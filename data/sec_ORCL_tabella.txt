@@ -70,4 +70,4 @@ dBrev: DebtInstrumentFaceAmount {2023: 90927, 2024: 87266, 2025: 92947, 2026: 13
 eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2026: 4954}
 afsDeb: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2026: 4954}
 
-Tempo: 7 s. File scritto: sec_ORCL.json
+Tempo: 6 s. File scritto: sec_ORCL.json

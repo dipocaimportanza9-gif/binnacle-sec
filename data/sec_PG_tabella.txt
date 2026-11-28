@@ -74,4 +74,4 @@ eqMeth: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 
 afsDeb: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
 ltInv: StockIssuedDuringPeriodValueConversionOfConvertibleSecurities {2023: 0, 2024: 0, 2025: 0, 2026: 0}
 
-Tempo: 3 s. File scritto: sec_PG.json
+Tempo: 2 s. File scritto: sec_PG.json

@@ -75,4 +75,4 @@ aapl:OperatingandFinanceLeaseLiability                               .        . 
 aapl:OperatingandFinanceLeaseRightofUseAsset                         .        .        .        .        .    9,199   10,948   11,369   11,676   11,303   12,238   12,815
 aapl:OperatingandFinanceLeaseWeightedAverageDiscountRatePercen       .        .        .        .        .        0        0        0        0        0        0        0
 
-Tempo: 6 s. File scritto: sec_AAPL.json
+Tempo: 4 s. File scritto: sec_AAPL.json
