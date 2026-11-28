@@ -5,6 +5,7 @@ Per il ticker produce sec_<TICKER>.json con, per ogni 'concetto' del catalogo, i
 1) tag standard us-gaap da 'companyfacts' (con alternative in ordine di priorita');
 2) tag PROPRI dell'azienda (estensioni, es. financing obligations) letti dagli ultimi 10-K in formato iXBRL.
 Stampa una tabella concetto x anno da confrontare col Convertitore Leasing."""
+NK10 = 10   # 10-K letti per ticker (copre 10 anni di prospetti)
 import os, re, sys, json, gzip, time, datetime, urllib.request
 
 UA = os.environ.get("SEC_UA", "").strip()
@@ -182,6 +183,75 @@ def custom_da_ixbrl(html):
         sc = re.search(r'scale="(-?\d+)"', a); v *= 10 ** int(sc.group(1)) if sc else 1
         if 'sign="-"' in a: v = -v
         out.setdefault(pref + ":" + tag, {})[int(ctx[cr.group(1)][:4])] = v
+    return out
+
+
+def prospetti_da_ixbrl(html):
+    """I tre prospetti (conto economico i, stato patrimoniale b, rendiconto c) del 10-K, NELL'ORDINE delle righe del documento (come "as reported").
+    Ritorna {anno_fiscale: {"date": fine_esercizio, "i": {tag: dollari}, "b": {...}, "c": {...}}}. Tag in minuscolo senza prefisso (come FMP).
+    Solo contesti senza dimensioni (totali consolidati). Anno fiscale = DocumentFiscalYearFocus del 10-K per l'esercizio piu' recente, poi -1, -2..."""
+    ctx = {}
+    for m in re.finditer(r'<xbrli:context id="([^"]+)">(.*?)</xbrli:context>', html, re.S):
+        body = m.group(2)
+        if "explicitMember" in body or "typedMember" in body: continue
+        a = re.search(r"<xbrli:startDate>([^<]+)</xbrli:startDate>", body); b = re.search(r"<xbrli:endDate>([^<]+)</xbrli:endDate>", body); ist = re.search(r"<xbrli:instant>([^<]+)</xbrli:instant>", body)
+        try:
+            if ist: ctx[m.group(1)] = ("b", datetime.date.fromisoformat(ist.group(1).strip()), None)
+            elif a and b:
+                d0 = datetime.date.fromisoformat(a.group(1).strip()); d1 = datetime.date.fromisoformat(b.group(1).strip())
+                if 340 <= (d1 - d0).days <= 380: ctx[m.group(1)] = ("d", d1, d0)
+        except ValueError: continue
+    fy = re.search(r'name="dei:DocumentFiscalYearFocus"[^>]*>([^<]*)<', html)
+    try: fy0 = int(re.sub(r"<[^>]+>", "", fy.group(1)).strip()) if fy else None
+    except ValueError: fy0 = None
+    tabs = []
+    for tm in re.finditer(r"<table\b.*?</table>", html, re.S | re.I):
+        blk = tm.group(0)
+        if "ix:nonFraction" not in blk: continue
+        els = []
+        for m in re.finditer(r"<ix:nonFraction([^>]*)>(.*?)</ix:nonFraction>", blk, re.S):
+            a, txt = m.group(1), re.sub(r"<[^>]+>", "", m.group(2)).strip()
+            nm = re.search(r'name="([^"]+)"', a); cr = re.search(r'contextRef="([^"]+)"', a)
+            if not nm or not cr or cr.group(1) not in ctx: continue
+            if txt in ("", "-", "—", "–") or re.search(r'format="[^"]*(zerodash|fixed-zero|numdotdecimal0)', a): v = 0.0
+            else:
+                try: v = float(txt.replace(",", "").replace("$", "").replace("(", "").replace(")", "").strip())
+                except ValueError: continue
+            sc = re.search(r'scale="(-?\d+)"', a); v *= 10 ** int(sc.group(1)) if sc else 1
+            if 'sign="-"' in a: v = -v
+            els.append((nm.group(1).split(":")[-1].lower(), cr.group(1), v))
+        if len(els) >= 8: tabs.append(els)
+    def tipo(els):
+        n = set(t for t, _, _ in els)
+        if "liabilitiesandstockholdersequity" in n and "assets" in n: return "b"
+        if any(t.startswith("netcashprovidedbyusedinoperatingactivities") for t in n): return "c"
+        if ("netincomeloss" in n or "profitloss" in n) and any(t.startswith("earningspershare") for t in n): return "i"
+        return None
+    sel = {}
+    for els in tabs:
+        k = tipo(els)
+        if k and k not in sel: sel[k] = els
+    per = {}
+    for k, els in sel.items():
+        kind = "b" if k == "b" else "d"
+        ends = sorted(set(ctx[c][1] for _, c, _ in els if ctx[c][0] == kind), reverse=True)
+        if k == "b": ends = ends[:2]
+        else: ends = ends[:3]
+        for t, c, v in els:
+            e = ctx[c][1]
+            if ctx[c][0] != kind or e not in ends: continue
+            per.setdefault((k, e), {}).setdefault(t, v)
+    if not per or fy0 is None: return {}
+    ends_all = sorted(set(e for (_, e) in per), reverse=True)
+    if not ends_all: return {}
+    e0 = ends_all[0]
+    out = {}
+    for (k, e), d in per.items():
+        y = fy0 - round((e0 - e).days / 365.25)
+        if abs((e0 - e).days - round((e0 - e).days / 365.25) * 365.25) > 20: continue
+        o = out.setdefault(y, {"date": str(e) if k == "b" or "date" not in out.get(y, {}) else out[y]["date"]})
+        o[k] = {t: round(v, 0) for t, v in d.items()}
+        if k == "c" or "date" not in o: o["date"] = str(e)
     return out
 
 def acq_azioni_da_ixbrl(html, dbg=None):
@@ -376,16 +446,17 @@ def main(TK):
                 res["sic"] = full.get("sic"); res["sic_descrizione"] = full.get("sicDescription"); res["chiusura_esercizio"] = full.get("fiscalYearEnd"); res["nome"] = full.get("name")
             sub = full["filings"]["recent"]
             ks += [(sub["filingDate"][i], sub["accessionNumber"][i], sub["primaryDocument"][i], c) for i, f in enumerate(sub["form"]) if f == "10-K"]
-            # 'recent' contiene solo gli ultimi depositi (per chi ne fa molti, es. moduli 4 di Netflix, copre 2-3 anni): se i 10-K sono meno di 8 si leggono i file storici
+            # 'recent' contiene solo gli ultimi depositi (per chi ne fa molti, es. moduli 4 di Netflix, copre 2-3 anni): se i 10-K sono meno di 10 si leggono i file storici
             for fl in full["filings"].get("files", []):
-                if sum(1 for k in ks if k[3] == c) >= 8: break
+                if sum(1 for k in ks if k[3] == c) >= NK10: break
                 try:
                     h = get("https://data.sec.gov/submissions/" + fl["name"])
                     ks += [(h["filingDate"][i], h["accessionNumber"][i], h["primaryDocument"][i], c) for i, f in enumerate(h["form"]) if f == "10-K"]
                 except Exception as e: print("  %s: file storico dei depositi non letto (%s)" % (fl.get("name"), e))
         except Exception as e: print("  %s: elenco depositi non disponibile (%s)" % (c, e))
-    ks = sorted(ks, reverse=True)[:8]
+    ks = sorted(ks, reverse=True)[:NK10]
     acqx, dbgx = {}, []
+    storico, stor_src = {}, {}
     ctraw = {}
     try:
         for tag, byy in contenuti_da_companyfacts(cfs).items(): ctraw.setdefault(tag, {}).update(byy)
@@ -393,6 +464,14 @@ def main(TK):
     for d, acc, doc, cc in ks:
         try: html = get("https://www.sec.gov/Archives/edgar/data/%d/%s/%s" % (int(cc), acc.replace("-", ""), doc), True)
         except Exception as e: print("10-K %s non scaricato: %s" % (d, e)); continue
+        try:
+            for y, o in prospetti_da_ixbrl(html).items():
+                # ogni anno si prende dal SUO 10-K (come "as reported"); i 10-K sono in ordine dal piu' recente: se l'anno e' gia' stato preso dal 10-K proprio non si cambia
+                if y not in storico: storico[y] = o; stor_src[y] = d
+                else:
+                    for k in ("i", "b", "c"):
+                        if k in o and k not in storico[y]: storico[y][k] = o[k]
+        except Exception as e: print("  prospetti dal 10-K: non letti (%s)" % e)
         try:
             for y, v in acq_azioni_da_ixbrl(html, dbgx).items(): acqx.setdefault(y, v)
         except Exception as e: print("  acquisizioni in azioni dal 10-K: non lette (%s)" % e)
@@ -407,6 +486,10 @@ def main(TK):
                 if y not in t: t[y] = round(v / 1e6, 1)
     # riserva 2: azioni date per acquisizioni lette dal prospetto del patrimonio netto del 10-K (dove la SEC non ha il valore senza colonna)
     res["debug_acq_ixbrl"] = dbgx
+    # prospetti as-reported dal 10-K (conto economico, stato patrimoniale, rendiconto) dal 2016: servono a completare gli anni che FMP non ha
+    ann_min = max(storico) - 11 if storico else 0
+    res["storico"] = {str(y): o for y, o in sorted(storico.items(), reverse=True) if y > ann_min}
+    res["avvisi"].append("Prospetti 10-K letti per gli anni: %s" % ", ".join(str(y) for y in sorted(storico))) if storico else None
     # contenuti capitalizzati (film, serie): aggiunte, ammortamento, passivita'. Il motore usa aggiunte - ammortamento come reinvestimento.
     try:
         cv, cu = contenuti_mappa(ctraw)
