@@ -201,9 +201,12 @@ def prospetti_da_ixbrl(html):
                 d0 = datetime.date.fromisoformat(a.group(1).strip()); d1 = datetime.date.fromisoformat(b.group(1).strip())
                 if 340 <= (d1 - d0).days <= 380: ctx[m.group(1)] = ("d", d1, d0)
         except ValueError: continue
-    fy = re.search(r'name="dei:DocumentFiscalYearFocus"[^>]*>([^<]*)<', html)
+    fy = re.search(r'name="dei:DocumentFiscalYearFocus"[^>]*>(.*?)</ix:nonNumeric>', html, re.S)   # il valore puo' stare dentro <span> annidati
     try: fy0 = int(re.sub(r"<[^>]+>", "", fy.group(1)).strip()) if fy else None
     except ValueError: fy0 = None
+    if fy0 is None:   # ripiego: anno della data di chiusura piu' recente del documento
+        ee = [v[1] for v in ctx.values() if v[0] == "b"]
+        fy0 = max(ee).year if ee else None
     tabs = []
     for tm in re.finditer(r"<table\b.*?</table>", html, re.S | re.I):
         blk = tm.group(0)
@@ -223,14 +226,15 @@ def prospetti_da_ixbrl(html):
         if len(els) >= 8: tabs.append(els)
     def tipo(els):
         n = set(t for t, _, _ in els)
-        if "liabilitiesandstockholdersequity" in n and "assets" in n: return "b"
+        if "assets" in n and any(t.startswith("liabilitiesand") for t in n): return "b"
         if any(t.startswith("netcashprovidedbyusedinoperatingactivities") for t in n): return "c"
         if ("netincomeloss" in n or "profitloss" in n) and any(t.startswith("earningspershare") for t in n): return "i"
         return None
     sel = {}
     for els in tabs:
         k = tipo(els)
-        if k and k not in sel: sel[k] = els
+        # tra piu' tabelle dello stesso tipo (es. riepiloghi nel commento della direzione) vale quella con piu' voci diverse: il prospetto vero
+        if k and (k not in sel or len(set(t for t, _, _ in els)) > len(set(t for t, _, _ in sel[k]))): sel[k] = els
     per = {}
     for k, els in sel.items():
         kind = "b" if k == "b" else "d"
