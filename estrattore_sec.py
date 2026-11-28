@@ -376,6 +376,13 @@ def main(TK):
                 res["sic"] = full.get("sic"); res["sic_descrizione"] = full.get("sicDescription"); res["chiusura_esercizio"] = full.get("fiscalYearEnd"); res["nome"] = full.get("name")
             sub = full["filings"]["recent"]
             ks += [(sub["filingDate"][i], sub["accessionNumber"][i], sub["primaryDocument"][i], c) for i, f in enumerate(sub["form"]) if f == "10-K"]
+            # 'recent' contiene solo gli ultimi depositi (per chi ne fa molti, es. moduli 4 di Netflix, copre 2-3 anni): se i 10-K sono meno di 8 si leggono i file storici
+            for fl in full["filings"].get("files", []):
+                if sum(1 for k in ks if k[3] == c) >= 8: break
+                try:
+                    h = get("https://data.sec.gov/submissions/" + fl["name"])
+                    ks += [(h["filingDate"][i], h["accessionNumber"][i], h["primaryDocument"][i], c) for i, f in enumerate(h["form"]) if f == "10-K"]
+                except Exception as e: print("  %s: file storico dei depositi non letto (%s)" % (fl.get("name"), e))
         except Exception as e: print("  %s: elenco depositi non disponibile (%s)" % (c, e))
     ks = sorted(ks, reverse=True)[:8]
     acqx, dbgx = {}, []
